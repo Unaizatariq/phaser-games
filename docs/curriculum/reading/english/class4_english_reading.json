@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "The Solar System",
+    "passage": "The solar system consists of the sun and eight planets. The sun is at the center and provides light and heat to all the planets. Earth is the planet where we live. Some planets are very hot, while others are extremely cold. Scientists study space to learn more about the universe.",
+    "answer": "sun",
+    "options": [
+      "sun",
+      "moon",
+      "earth",
+      "star"
+    ]
+  },
+  {
+    "topic": "Importance of Water",
+    "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
+    "answer": "water",
+    "options": [
+      "water",
+      "sand",
+      "oil",
+      "smoke"
+    ]
+  },
+  {
+    "topic": "Teamwork",
+    "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
+    "answer": "teamwork",
+    "options": [
+      "teamwork",
+      "fighting",
+      "sleeping",
+      "shouting"
+    ]
+  },
+  {
+    "topic": "Healthy Food",
+    "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
+    "answer": "balanced meals",
+    "options": [
+      "balanced meals",
+      "only chips",
+      "only sweets",
+      "no water"
+    ]
+  },
+  {
+    "topic": "The Farmer",
+    "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
+    "answer": "farmer",
+    "options": [
+      "farmer",
+      "doctor",
+      "driver",
+      "teacher"
+    ]
+  },
+  {
+    "topic": "Pollution",
+    "passage": "Pollution is harmful to the environment and living things. Smoke from factories and vehicles causes air pollution. Throwing garbage into rivers causes water pollution. Pollution can make people sick and damage nature. We should plant trees and keep our surroundings clean to reduce pollution.",
+    "answer": "pollution",
+    "options": [
+      "pollution",
+      "cleanliness",
+      "teamwork",
+      "education"
+    ]
+  },
+  {
+    "topic": "Means of Transport",
+    "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
+    "answer": "transport",
+    "options": [
+      "transport",
+      "food",
+      "music",
+      "weather"
+    ]
+  },
+  {
+    "topic": "My Country",
+    "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
+    "answer": "Pakistan",
+    "options": [
+      "Pakistan",
+      "India",
+      "China",
+      "Nepal"
+    ]
+  },
+  {
+    "topic": "The Internet",
+    "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
+    "answer": "internet",
+    "options": [
+      "internet",
+      "river",
+      "mountain",
+      "farm"
+    ]
+  },
+  {
+    "topic": "A Brave Boy",
+    "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
+    "answer": "bravery",
+    "options": [
+      "bravery",
+      "laziness",
+      "anger",
+      "fear"
+    ]
+  }
+]

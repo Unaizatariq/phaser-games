@@ -1,0 +1,751 @@
+[
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "section": "listening",
+    "level": 1,
+    "topic": "Introduction to Computer",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "section": "listening",
+    "level": 2,
+    "topic": "Parts of Computer",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "section": "listening",
+    "level": 3,
+    "topic": "Computer Handling",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Verbs",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Pronouns",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Opposites",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Addition",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Subtraction",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Time",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "section": "listening",
+    "level": 1,
+    "topic": "Body Parts",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "section": "listening",
+    "level": 2,
+    "topic": "Living Things",
+    "questionCount": 3
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "section": "listening",
+    "level": 3,
+    "topic": "Weather",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "section": "listening",
+    "level": 1,
+    "topic": "Computer Basics",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "section": "listening",
+    "level": 2,
+    "topic": "Mouse Actions",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "section": "listening",
+    "level": 3,
+    "topic": "Drawing Tools",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Nouns",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Articles",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Sentence Making",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Place Value",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Multiplication",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Money",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "section": "listening",
+    "level": 1,
+    "topic": "Five Senses",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "section": "listening",
+    "level": 2,
+    "topic": "Plants",
+    "questionCount": 3
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "section": "listening",
+    "level": 3,
+    "topic": "Materials",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "section": "listening",
+    "level": 1,
+    "topic": "Keyboard Keys",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "section": "listening",
+    "level": 2,
+    "topic": "Uses of Computers",
+    "questionCount": 2
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "section": "listening",
+    "level": 3,
+    "topic": "MS Paint",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Adverbs",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Prepositions",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Synonyms",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Fractions",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Measurement",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Time and Calendar",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "section": "listening",
+    "level": 1,
+    "topic": "States of Matter",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "section": "listening",
+    "level": 2,
+    "topic": "Animals",
+    "questionCount": 3
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "section": "listening",
+    "level": 3,
+    "topic": "Environment",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "section": "listening",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "section": "listening",
+    "level": 2,
+    "topic": "Windows Basics",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "section": "listening",
+    "level": 3,
+    "topic": "Programming Logic",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Tenses",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Subject and Predicate",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Paragraph Listening",
+    "questionCount": 1
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Decimals",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Geometry",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Data Handling",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "section": "listening",
+    "level": 1,
+    "topic": "Human Body",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "section": "listening",
+    "level": 2,
+    "topic": "Energy",
+    "questionCount": 3
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "section": "listening",
+    "level": 3,
+    "topic": "Solar System",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "section": "listening",
+    "level": 1,
+    "topic": "MS Word",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "section": "listening",
+    "level": 2,
+    "topic": "MS Excel",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "section": "listening",
+    "level": 3,
+    "topic": "Cyber Safety",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Advanced Grammar",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Word Problems",
+    "questionCount": 1
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Graphs and Charts",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "section": "listening",
+    "level": 1,
+    "topic": "Microorganisms",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "section": "listening",
+    "level": 2,
+    "topic": "Electricity",
+    "questionCount": 3
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "section": "listening",
+    "level": 3,
+    "topic": "Earth and Space",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Phonics",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Vocabulary",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Listening Skills",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Number Recognition",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Sorting by Shape",
+    "questionCount": 3
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Patterns",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "section": "listening",
+    "level": 1,
+    "topic": "Alphabets A-Z",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "section": "listening",
+    "level": 2,
+    "topic": "Colors",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "section": "listening",
+    "level": 3,
+    "topic": "Fruits",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "section": "listening",
+    "level": 1,
+    "topic": "Counting 1-20",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "section": "listening",
+    "level": 2,
+    "topic": "Shapes",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "section": "listening",
+    "level": 3,
+    "topic": "Tall and Short",
+    "questionCount": 3
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "حروفِ تہجی",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "نقطوں والے حروف",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "پہلے اور بعد والے حروف",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "حرف اور آواز",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "آسان الفاظ",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "جانوروں کی آوازیں",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "حروف اور الفاظ کی پہچان",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "افعال کی پہچان",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "احساسات",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "اسم",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "صفت",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "واحد جمع",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "متضاد الفاظ",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "جملہ سن کر جواب دیں",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "زمانہ",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "مترادف الفاظ",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "مرکزی خیال",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "درست جملہ",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 1,
+    "topic": "قواعد",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 2,
+    "topic": "سن کر سمجھنا",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "section": "listening",
+    "level": 3,
+    "topic": "اعلیٰ جملے",
+    "questionCount": 3,
+    "sourceNote": "Urdu PDF is image-only; content integrated as clean Urdu curriculum matching the uploaded structure."
+  }
+]

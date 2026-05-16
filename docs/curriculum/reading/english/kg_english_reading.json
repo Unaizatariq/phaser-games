@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "My Body",
+    "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
+    "answer": "eyes",
+    "options": [
+      "eyes",
+      "wings",
+      "tail",
+      "horns"
+    ]
+  },
+  {
+    "topic": "Colors Around Me",
+    "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
+    "answer": "blue",
+    "options": [
+      "blue",
+      "black",
+      "brown",
+      "purple"
+    ]
+  },
+  {
+    "topic": "My Family",
+    "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
+    "answer": "family",
+    "options": [
+      "family",
+      "market",
+      "zoo",
+      "park"
+    ]
+  },
+  {
+    "topic": "My School",
+    "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
+    "answer": "school",
+    "options": [
+      "school",
+      "shop",
+      "farm",
+      "lake"
+    ]
+  },
+  {
+    "topic": "Animals Around Us",
+    "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
+    "answer": "animals",
+    "options": [
+      "animals",
+      "colors",
+      "fruits",
+      "books"
+    ]
+  },
+  {
+    "topic": "Healthy Food",
+    "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
+    "answer": "healthy",
+    "options": [
+      "healthy",
+      "dirty",
+      "sleepy",
+      "empty"
+    ]
+  },
+  {
+    "topic": "Good Habits",
+    "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
+    "answer": "wash hands",
+    "options": [
+      "wash hands",
+      "throw food",
+      "break toys",
+      "skip brushing"
+    ]
+  },
+  {
+    "topic": "Weather",
+    "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
+    "answer": "weather",
+    "options": [
+      "weather",
+      "teacher",
+      "toy",
+      "animal"
+    ]
+  },
+  {
+    "topic": "My Best Friend",
+    "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
+    "answer": "friend",
+    "options": [
+      "friend",
+      "stranger",
+      "driver",
+      "farmer"
+    ]
+  },
+  {
+    "topic": "My Daily Routine",
+    "passage": "I wake up early in the morning. I brush my teeth and get ready for school. I play in the evening and sleep at night.",
+    "answer": "wake up",
+    "options": [
+      "wake up",
+      "sleep all day",
+      "run away",
+      "eat only candy"
+    ]
+  }
+]

@@ -1,0 +1,1899 @@
+[
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "nursery_kg_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Counting 1 to 5",
+        "passage": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      },
+      {
+        "level": 2,
+        "topic": "Big and Small",
+        "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      },
+      {
+        "level": 3,
+        "topic": "Shapes",
+        "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      },
+      {
+        "level": 4,
+        "topic": "Colors and Numbers",
+        "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      },
+      {
+        "level": 5,
+        "topic": "Before and After",
+        "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      },
+      {
+        "level": 6,
+        "topic": "More and Less",
+        "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      },
+      {
+        "level": 7,
+        "topic": "Tall and Short",
+        "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      },
+      {
+        "level": 8,
+        "topic": "Heavy and Light",
+        "passage": "The rock is heavy. The feather is light. Heavy things are hard to lift. Light things are easy to lift."
+      },
+      {
+        "level": 9,
+        "topic": "Counting Objects",
+        "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
+      },
+      {
+        "level": 10,
+        "topic": "Matching Numbers",
+        "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      }
+    ]
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "nursery_kg_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Counting 1 to 20",
+        "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
+      },
+      {
+        "level": 2,
+        "topic": "Addition",
+        "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      },
+      {
+        "level": 3,
+        "topic": "Subtraction",
+        "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. We use subtraction every day."
+      },
+      {
+        "level": 4,
+        "topic": "Shapes Around Us",
+        "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      },
+      {
+        "level": 5,
+        "topic": "Patterns",
+        "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      },
+      {
+        "level": 6,
+        "topic": "Comparing Numbers",
+        "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      },
+      {
+        "level": 7,
+        "topic": "Time",
+        "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      },
+      {
+        "level": 8,
+        "topic": "Money",
+        "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      },
+      {
+        "level": 9,
+        "topic": "Measurement",
+        "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      },
+      {
+        "level": 10,
+        "topic": "Position Words",
+        "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      }
+    ]
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "class1_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Counting Numbers",
+        "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      },
+      {
+        "level": 2,
+        "topic": "Numbers 1 to 100",
+        "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      },
+      {
+        "level": 3,
+        "topic": "Before, After, and Between",
+        "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      },
+      {
+        "level": 4,
+        "topic": "Addition",
+        "passage": "Addition means putting things together. 2 apples plus 3 apples make 5 apples. Addition increases numbers. We use addition in daily life."
+      },
+      {
+        "level": 5,
+        "topic": "Subtraction",
+        "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      },
+      {
+        "level": 6,
+        "topic": "Shapes",
+        "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      },
+      {
+        "level": 7,
+        "topic": "Patterns",
+        "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think carefully. Patterns are fun to learn."
+      },
+      {
+        "level": 8,
+        "topic": "Comparing Numbers",
+        "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      },
+      {
+        "level": 9,
+        "topic": "Measurement",
+        "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      },
+      {
+        "level": 10,
+        "topic": "Time",
+        "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      },
+      {
+        "level": 11,
+        "topic": "Money",
+        "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      },
+      {
+        "level": 12,
+        "topic": "Position Words",
+        "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      },
+      {
+        "level": 13,
+        "topic": "Big and Small",
+        "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      },
+      {
+        "level": 14,
+        "topic": "Heavy and Light",
+        "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      },
+      {
+        "level": 15,
+        "topic": "Tall and Short",
+        "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      },
+      {
+        "level": 16,
+        "topic": "Ordinal Numbers",
+        "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      },
+      {
+        "level": 17,
+        "topic": "Even and Odd Numbers",
+        "passage": "Some numbers are even. Some numbers are odd. 2 and 4 are even numbers. 3 and 5 are odd numbers."
+      },
+      {
+        "level": 18,
+        "topic": "Simple Word Problems",
+        "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      },
+      {
+        "level": 19,
+        "topic": "Counting Objects",
+        "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
+      },
+      {
+        "level": 20,
+        "topic": "Fun with Math",
+        "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      }
+    ]
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "class2_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Numbers up to 1000",
+        "passage": "Numbers help us count large quantities. We can read and write numbers up to 1000. Each digit has a place value. Numbers are useful in daily life."
+      },
+      {
+        "level": 2,
+        "topic": "Place Value",
+        "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      },
+      {
+        "level": 3,
+        "topic": "Addition",
+        "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      },
+      {
+        "level": 4,
+        "topic": "Subtraction",
+        "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      },
+      {
+        "level": 5,
+        "topic": "Multiplication",
+        "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      },
+      {
+        "level": 6,
+        "topic": "Division",
+        "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      },
+      {
+        "level": 7,
+        "topic": "Even and Odd Numbers",
+        "passage": "Even numbers can be divided equally by 2. Odd numbers cannot be divided equally by 2. 2, 4, and 6 are even numbers. 1, 3, and 5 are odd numbers."
+      },
+      {
+        "level": 8,
+        "topic": "Fractions",
+        "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      },
+      {
+        "level": 9,
+        "topic": "Shapes and Geometry",
+        "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      },
+      {
+        "level": 10,
+        "topic": "Measurement",
+        "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      },
+      {
+        "level": 11,
+        "topic": "Time",
+        "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      },
+      {
+        "level": 12,
+        "topic": "Money",
+        "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      },
+      {
+        "level": 13,
+        "topic": "Patterns",
+        "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      },
+      {
+        "level": 14,
+        "topic": "Data Handling",
+        "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      },
+      {
+        "level": 15,
+        "topic": "Word Problems",
+        "passage": "Word problems use math in real-life situations. Addition and subtraction solve many problems. Careful reading helps solve word problems. Practice improves problem-solving skills."
+      },
+      {
+        "level": 16,
+        "topic": "Comparing Numbers",
+        "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      },
+      {
+        "level": 17,
+        "topic": "Ordinal Numbers",
+        "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      },
+      {
+        "level": 18,
+        "topic": "Capacity",
+        "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      },
+      {
+        "level": 19,
+        "topic": "Length and Distance",
+        "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      },
+      {
+        "level": 20,
+        "topic": "Fun with Math",
+        "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      }
+    ]
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "class3_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Large Numbers",
+        "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      },
+      {
+        "level": 2,
+        "topic": "Place Value and Expanded Form",
+        "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      },
+      {
+        "level": 3,
+        "topic": "Addition and Subtraction",
+        "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      },
+      {
+        "level": 4,
+        "topic": "Multiplication",
+        "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      },
+      {
+        "level": 5,
+        "topic": "Division",
+        "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      },
+      {
+        "level": 6,
+        "topic": "Fractions",
+        "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      },
+      {
+        "level": 7,
+        "topic": "Decimals",
+        "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      },
+      {
+        "level": 8,
+        "topic": "Geometry and Shapes",
+        "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      },
+      {
+        "level": 9,
+        "topic": "Perimeter",
+        "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      },
+      {
+        "level": 10,
+        "topic": "Measurement",
+        "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      },
+      {
+        "level": 11,
+        "topic": "Time",
+        "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      },
+      {
+        "level": 12,
+        "topic": "Money",
+        "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      },
+      {
+        "level": 13,
+        "topic": "Patterns and Sequences",
+        "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      },
+      {
+        "level": 14,
+        "topic": "Data and Graphs",
+        "passage": "Data means collected information. Graphs and charts organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      },
+      {
+        "level": 15,
+        "topic": "Word Problems",
+        "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      },
+      {
+        "level": 16,
+        "topic": "Even and Odd Numbers",
+        "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      },
+      {
+        "level": 17,
+        "topic": "Lines and Angles",
+        "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      },
+      {
+        "level": 18,
+        "topic": "Capacity and Volume",
+        "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
+      },
+      {
+        "level": 19,
+        "topic": "Symmetry",
+        "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      },
+      {
+        "level": 20,
+        "topic": "Fun with Mathematics",
+        "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      }
+    ]
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "class4_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Whole Numbers",
+        "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      },
+      {
+        "level": 2,
+        "topic": "Factors and Multiples",
+        "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      },
+      {
+        "level": 3,
+        "topic": "Prime and Composite Numbers",
+        "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      },
+      {
+        "level": 4,
+        "topic": "Fractions",
+        "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      },
+      {
+        "level": 5,
+        "topic": "Decimals",
+        "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      },
+      {
+        "level": 6,
+        "topic": "Addition and Subtraction",
+        "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      },
+      {
+        "level": 7,
+        "topic": "Multiplication and Division",
+        "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      },
+      {
+        "level": 8,
+        "topic": "Geometry",
+        "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      },
+      {
+        "level": 9,
+        "topic": "Angles",
+        "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      },
+      {
+        "level": 10,
+        "topic": "Perimeter and Area",
+        "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      },
+      {
+        "level": 11,
+        "topic": "Measurement",
+        "passage": "Measurement tells length, weight, and capacity. Meters measure distance. Kilograms measure weight. Liters measure liquids."
+      },
+      {
+        "level": 12,
+        "topic": "Time",
+        "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      },
+      {
+        "level": 13,
+        "topic": "Money",
+        "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      },
+      {
+        "level": 14,
+        "topic": "Patterns and Sequences",
+        "passage": "Patterns follow a repeated rule. Sequences help predict numbers. Math patterns improve logical thinking. Patterns appear in nature and art."
+      },
+      {
+        "level": 15,
+        "topic": "Data Handling",
+        "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      },
+      {
+        "level": 16,
+        "topic": "Symmetry",
+        "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      },
+      {
+        "level": 17,
+        "topic": "Lines and Shapes",
+        "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      },
+      {
+        "level": 18,
+        "topic": "Volume and Capacity",
+        "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      },
+      {
+        "level": 19,
+        "topic": "Problem Solving",
+        "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      },
+      {
+        "level": 20,
+        "topic": "Importance of Mathematics",
+        "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      }
+    ]
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "sourcePdf": "class5_math_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Whole Numbers and Place Value",
+        "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      },
+      {
+        "level": 2,
+        "topic": "Factors and Multiples",
+        "passage": "Factors divide a number exactly. Multiples are created by multiplying numbers. Prime factorization breaks numbers into prime factors. Factors and multiples help simplify calculations."
+      },
+      {
+        "level": 3,
+        "topic": "Prime and Composite Numbers",
+        "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      },
+      {
+        "level": 4,
+        "topic": "Fractions",
+        "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      },
+      {
+        "level": 5,
+        "topic": "Decimals",
+        "passage": "Decimals show parts of whole numbers. The decimal point separates whole numbers from fractions. Decimals are used in money and measurements. We can perform operations with decimals."
+      },
+      {
+        "level": 6,
+        "topic": "Percentages",
+        "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      },
+      {
+        "level": 7,
+        "topic": "Addition and Subtraction",
+        "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      },
+      {
+        "level": 8,
+        "topic": "Multiplication and Division",
+        "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      },
+      {
+        "level": 9,
+        "topic": "Geometry",
+        "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      },
+      {
+        "level": 10,
+        "topic": "Angles and Lines",
+        "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      },
+      {
+        "level": 11,
+        "topic": "Perimeter and Area",
+        "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      },
+      {
+        "level": 12,
+        "topic": "Volume",
+        "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      },
+      {
+        "level": 13,
+        "topic": "Measurement",
+        "passage": "Measurement is used to find length, weight, and capacity. Meters measure distance. Kilograms measure weight. Liters measure liquids."
+      },
+      {
+        "level": 14,
+        "topic": "Time and Calendars",
+        "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      },
+      {
+        "level": 15,
+        "topic": "Money and Budgeting",
+        "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      },
+      {
+        "level": 16,
+        "topic": "Patterns and Sequences",
+        "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      },
+      {
+        "level": 17,
+        "topic": "Data Handling and Graphs",
+        "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      },
+      {
+        "level": 18,
+        "topic": "Symmetry and Transformations",
+        "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      },
+      {
+        "level": 19,
+        "topic": "Problem Solving",
+        "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      },
+      {
+        "level": 20,
+        "topic": "Importance of Mathematics",
+        "passage": "Mathematics is useful in daily life. People use math in business, science, and technology. Math develops logical and critical thinking. Learning math helps solve real-world problems."
+      }
+    ]
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "nursery_kg_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Eyes",
+        "passage": "These are eyes. We see with eyes."
+      },
+      {
+        "level": 2,
+        "topic": "Ears",
+        "passage": "These are ears. We hear with ears."
+      },
+      {
+        "level": 3,
+        "topic": "Nose",
+        "passage": "This is a nose. We smell with nose."
+      },
+      {
+        "level": 4,
+        "topic": "Hands",
+        "passage": "These are hands. We write with hands."
+      },
+      {
+        "level": 5,
+        "topic": "Legs",
+        "passage": "These are legs. We walk with legs."
+      },
+      {
+        "level": 6,
+        "topic": "Sun",
+        "passage": "The sun is bright. The sun gives light."
+      },
+      {
+        "level": 7,
+        "topic": "Moon",
+        "passage": "The moon shines at night. The moon looks beautiful."
+      },
+      {
+        "level": 8,
+        "topic": "Tree",
+        "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      },
+      {
+        "level": 9,
+        "topic": "Cat",
+        "passage": "The cat drinks milk. The cat likes to play."
+      }
+    ]
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "nursery_kg_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "My Body",
+        "passage": "I have two eyes. I have two hands. My legs help me walk."
+      },
+      {
+        "level": 2,
+        "topic": "Animals",
+        "passage": "Cats and dogs are animals. Animals are our friends."
+      },
+      {
+        "level": 3,
+        "topic": "Birds",
+        "passage": "Birds can fly. Birds make nests on trees."
+      },
+      {
+        "level": 4,
+        "topic": "Plants",
+        "passage": "Plants are green. Plants need water to grow."
+      },
+      {
+        "level": 5,
+        "topic": "Weather",
+        "passage": "Sometimes it is sunny. Sometimes it rains."
+      },
+      {
+        "level": 6,
+        "topic": "Healthy Food",
+        "passage": "Fruits are healthy. Milk makes us strong."
+      },
+      {
+        "level": 7,
+        "topic": "Water",
+        "passage": "Water is important. We drink clean water."
+      },
+      {
+        "level": 8,
+        "topic": "Transport",
+        "passage": "Cars move on roads. Airplanes fly in the sky."
+      },
+      {
+        "level": 9,
+        "topic": "Day and Night",
+        "passage": "The sun shines in the day. The moon shines at night."
+      },
+      {
+        "level": 10,
+        "topic": "Cleanliness",
+        "passage": "We should wash our hands. Clean places are healthy."
+      }
+    ]
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "class1_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "My Body",
+        "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      },
+      {
+        "level": 2,
+        "topic": "Healthy Food",
+        "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      },
+      {
+        "level": 3,
+        "topic": "Cleanliness",
+        "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      },
+      {
+        "level": 4,
+        "topic": "Animals Around Us",
+        "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
+      },
+      {
+        "level": 5,
+        "topic": "Pet Animals",
+        "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      },
+      {
+        "level": 6,
+        "topic": "Wild Animals",
+        "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      },
+      {
+        "level": 7,
+        "topic": "Birds",
+        "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      },
+      {
+        "level": 8,
+        "topic": "Plants",
+        "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      },
+      {
+        "level": 9,
+        "topic": "Flowers",
+        "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      },
+      {
+        "level": 10,
+        "topic": "Trees",
+        "passage": "Trees are very useful. Trees give us shade and fruits. Birds live on trees. We should plant more trees."
+      },
+      {
+        "level": 11,
+        "topic": "Fruits and Vegetables",
+        "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      },
+      {
+        "level": 12,
+        "topic": "Water",
+        "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+      },
+      {
+        "level": 13,
+        "topic": "Air",
+        "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      },
+      {
+        "level": 14,
+        "topic": "The Sun",
+        "passage": "The sun gives us light and heat. The sun rises in the morning. Plants need sunlight to grow. The sun is very hot."
+      },
+      {
+        "level": 15,
+        "topic": "The Moon and Stars",
+        "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks beautiful. We can see stars at night."
+      },
+      {
+        "level": 16,
+        "topic": "Day and Night",
+        "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      },
+      {
+        "level": 17,
+        "topic": "Weather",
+        "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      },
+      {
+        "level": 18,
+        "topic": "Seasons",
+        "passage": "There are different seasons. Summer is hot. Winter is cold. Rainy season brings rain."
+      },
+      {
+        "level": 19,
+        "topic": "Living and Non-Living Things",
+        "passage": "People, animals, and plants are living things. Chairs and tables are non-living things. Living things grow. Non-living things do not grow."
+      },
+      {
+        "level": 20,
+        "topic": "Things We Use",
+        "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
+      },
+      {
+        "level": 21,
+        "topic": "Means of Transport",
+        "passage": "Cars move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      },
+      {
+        "level": 22,
+        "topic": "Safety Rules",
+        "passage": "We should follow safety rules. We should cross the road carefully. We should not play with fire. Safety keeps us protected."
+      },
+      {
+        "level": 23,
+        "topic": "Our Home",
+        "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
+      },
+      {
+        "level": 24,
+        "topic": "Our School",
+        "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
+      },
+      {
+        "level": 25,
+        "topic": "Sounds Around Us",
+        "passage": "We hear many sounds every day. Birds chirp sweetly. Cars make loud sounds. Music sounds pleasant."
+      },
+      {
+        "level": 26,
+        "topic": "Hot and Cold Things",
+        "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      },
+      {
+        "level": 27,
+        "topic": "Soft and Hard Things",
+        "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      },
+      {
+        "level": 28,
+        "topic": "Big and Small Things",
+        "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      },
+      {
+        "level": 29,
+        "topic": "Keeping Environment Clean",
+        "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      },
+      {
+        "level": 30,
+        "topic": "Exercise and Health",
+        "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      }
+    ]
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "class2_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Living Things",
+        "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      },
+      {
+        "level": 2,
+        "topic": "Non-Living Things",
+        "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      },
+      {
+        "level": 3,
+        "topic": "Plants Around Us",
+        "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
+      },
+      {
+        "level": 4,
+        "topic": "Animals Around Us",
+        "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      },
+      {
+        "level": 5,
+        "topic": "Birds",
+        "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      },
+      {
+        "level": 6,
+        "topic": "Healthy Food",
+        "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      },
+      {
+        "level": 7,
+        "topic": "Water",
+        "passage": "Water is very important for life. We use water for drinking and washing. Plants and animals also need water. We should save water."
+      },
+      {
+        "level": 8,
+        "topic": "Air",
+        "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      },
+      {
+        "level": 9,
+        "topic": "The Sun",
+        "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      },
+      {
+        "level": 10,
+        "topic": "The Moon and Stars",
+        "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      },
+      {
+        "level": 11,
+        "topic": "Weather",
+        "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      },
+      {
+        "level": 12,
+        "topic": "Seasons",
+        "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      },
+      {
+        "level": 13,
+        "topic": "Our Body",
+        "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      },
+      {
+        "level": 14,
+        "topic": "Five Senses",
+        "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      },
+      {
+        "level": 15,
+        "topic": "Keeping Clean",
+        "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      },
+      {
+        "level": 16,
+        "topic": "Safety Rules",
+        "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      },
+      {
+        "level": 17,
+        "topic": "Means of Transport",
+        "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      },
+      {
+        "level": 18,
+        "topic": "Homes of Animals",
+        "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      },
+      {
+        "level": 19,
+        "topic": "Day and Night",
+        "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      },
+      {
+        "level": 20,
+        "topic": "Environment",
+        "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      }
+    ]
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "class3_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Living and Non-Living Things",
+        "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      },
+      {
+        "level": 2,
+        "topic": "Parts of a Plant",
+        "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      },
+      {
+        "level": 3,
+        "topic": "Animals and Their Habitats",
+        "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      },
+      {
+        "level": 4,
+        "topic": "Food and Nutrition",
+        "passage": "Healthy food keeps us active and strong. Fruits and vegetables are rich in vitamins. Milk and eggs help our body grow. We should eat balanced meals every day."
+      },
+      {
+        "level": 5,
+        "topic": "The Human Body",
+        "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      },
+      {
+        "level": 6,
+        "topic": "Water and Its Uses",
+        "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      },
+      {
+        "level": 7,
+        "topic": "Air Around Us",
+        "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      },
+      {
+        "level": 8,
+        "topic": "The Solar System",
+        "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      },
+      {
+        "level": 9,
+        "topic": "Weather and Seasons",
+        "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      },
+      {
+        "level": 10,
+        "topic": "Light and Shadow",
+        "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      },
+      {
+        "level": 11,
+        "topic": "States of Matter",
+        "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      },
+      {
+        "level": 12,
+        "topic": "Force and Movement",
+        "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      },
+      {
+        "level": 13,
+        "topic": "Sound Around Us",
+        "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      },
+      {
+        "level": 14,
+        "topic": "Keeping Healthy",
+        "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      },
+      {
+        "level": 15,
+        "topic": "Plants and Animals Need Care",
+        "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      },
+      {
+        "level": 16,
+        "topic": "Pollution",
+        "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      },
+      {
+        "level": 17,
+        "topic": "Machines Around Us",
+        "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      },
+      {
+        "level": 18,
+        "topic": "Safety and First Aid",
+        "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      },
+      {
+        "level": 19,
+        "topic": "The Earth",
+        "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      },
+      {
+        "level": 20,
+        "topic": "Environment Protection",
+        "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      }
+    ]
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "class4_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Cells and Living Things",
+        "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      },
+      {
+        "level": 2,
+        "topic": "Human Body Systems",
+        "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      },
+      {
+        "level": 3,
+        "topic": "Plants and Photosynthesis",
+        "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      },
+      {
+        "level": 4,
+        "topic": "Animals and Adaptation",
+        "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      },
+      {
+        "level": 5,
+        "topic": "Food Chain",
+        "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      },
+      {
+        "level": 6,
+        "topic": "States of Matter",
+        "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      },
+      {
+        "level": 7,
+        "topic": "Force and Energy",
+        "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      },
+      {
+        "level": 8,
+        "topic": "Light and Reflection",
+        "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      },
+      {
+        "level": 9,
+        "topic": "Sound and Vibrations",
+        "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      },
+      {
+        "level": 10,
+        "topic": "Water Cycle",
+        "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      },
+      {
+        "level": 11,
+        "topic": "Weather and Climate",
+        "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      },
+      {
+        "level": 12,
+        "topic": "Natural Resources",
+        "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      },
+      {
+        "level": 13,
+        "topic": "Pollution and Environment",
+        "passage": "Pollution harms the environment. Smoke causes air pollution. Plastic waste pollutes land and water. We should keep the environment clean."
+      },
+      {
+        "level": 14,
+        "topic": "Electricity",
+        "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      },
+      {
+        "level": 15,
+        "topic": "Simple Machines",
+        "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      },
+      {
+        "level": 16,
+        "topic": "Earth and Space",
+        "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
+      },
+      {
+        "level": 17,
+        "topic": "Healthy Lifestyle",
+        "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      },
+      {
+        "level": 18,
+        "topic": "Safety and First Aid",
+        "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      },
+      {
+        "level": 19,
+        "topic": "Recycling and Waste Management",
+        "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      },
+      {
+        "level": 20,
+        "topic": "Importance of Trees",
+        "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      }
+    ]
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "sourcePdf": "class5_science_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Human Body Systems",
+        "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      },
+      {
+        "level": 2,
+        "topic": "Nutrition and Balanced Diet",
+        "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      },
+      {
+        "level": 3,
+        "topic": "Plants and Their Functions",
+        "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      },
+      {
+        "level": 4,
+        "topic": "Reproduction in Plants",
+        "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      },
+      {
+        "level": 5,
+        "topic": "Animals and Ecosystems",
+        "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      },
+      {
+        "level": 6,
+        "topic": "Food Chains and Food Webs",
+        "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      },
+      {
+        "level": 7,
+        "topic": "Matter and Its Properties",
+        "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      },
+      {
+        "level": 8,
+        "topic": "Changes in Matter",
+        "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      },
+      {
+        "level": 9,
+        "topic": "Force and Motion",
+        "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      },
+      {
+        "level": 10,
+        "topic": "Energy Around Us",
+        "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      },
+      {
+        "level": 11,
+        "topic": "Light and Shadows",
+        "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      },
+      {
+        "level": 12,
+        "topic": "Sound and Hearing",
+        "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      },
+      {
+        "level": 13,
+        "topic": "Electricity and Circuits",
+        "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      },
+      {
+        "level": 14,
+        "topic": "Earth and Solar System",
+        "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
+      },
+      {
+        "level": 15,
+        "topic": "Natural Disasters",
+        "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      },
+      {
+        "level": 16,
+        "topic": "Weather and Climate",
+        "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      },
+      {
+        "level": 17,
+        "topic": "Pollution and Conservation",
+        "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      },
+      {
+        "level": 18,
+        "topic": "Renewable and Non-Renewable Resources",
+        "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      },
+      {
+        "level": 19,
+        "topic": "Technology in Daily Life",
+        "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      },
+      {
+        "level": 20,
+        "topic": "Healthy Lifestyle and Exercise",
+        "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      }
+    ]
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "sourcePdf": "class1_computer_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "What is a Computer?",
+        "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
+      },
+      {
+        "level": 2,
+        "topic": "Parts of a Computer",
+        "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      },
+      {
+        "level": 3,
+        "topic": "Monitor",
+        "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      },
+      {
+        "level": 4,
+        "topic": "Keyboard",
+        "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      },
+      {
+        "level": 5,
+        "topic": "Mouse",
+        "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      },
+      {
+        "level": 6,
+        "topic": "CPU",
+        "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      },
+      {
+        "level": 7,
+        "topic": "Uses of Computers",
+        "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      },
+      {
+        "level": 8,
+        "topic": "Computer Lab",
+        "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      },
+      {
+        "level": 9,
+        "topic": "Drawing on Computer",
+        "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      },
+      {
+        "level": 10,
+        "topic": "Playing Games",
+        "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      },
+      {
+        "level": 11,
+        "topic": "Listening to Music",
+        "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      },
+      {
+        "level": 12,
+        "topic": "Watching Videos",
+        "passage": "Computers can show videos. Children watch cartoons and lessons. Educational videos help us learn. Videos make learning interesting."
+      },
+      {
+        "level": 13,
+        "topic": "Typing Practice",
+        "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      },
+      {
+        "level": 14,
+        "topic": "Care of Computer",
+        "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      },
+      {
+        "level": 15,
+        "topic": "Computer Rules",
+        "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      },
+      {
+        "level": 16,
+        "topic": "Fun Learning",
+        "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      },
+      {
+        "level": 17,
+        "topic": "Internet",
+        "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      },
+      {
+        "level": 18,
+        "topic": "Technology Around Us",
+        "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      },
+      {
+        "level": 19,
+        "topic": "Smart Machines",
+        "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      },
+      {
+        "level": 20,
+        "topic": "Learning with Computers",
+        "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      }
+    ]
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "sourcePdf": "class2_computer_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Introduction to Computers",
+        "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      },
+      {
+        "level": 2,
+        "topic": "Main Parts of a Computer",
+        "passage": "A computer has many important parts. The monitor shows pictures and words. The keyboard is used for typing. The mouse helps us click and select items."
+      },
+      {
+        "level": 3,
+        "topic": "Input Devices",
+        "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      },
+      {
+        "level": 4,
+        "topic": "Output Devices",
+        "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      },
+      {
+        "level": 5,
+        "topic": "Keyboard Keys",
+        "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      },
+      {
+        "level": 6,
+        "topic": "Using a Mouse",
+        "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      },
+      {
+        "level": 7,
+        "topic": "The CPU",
+        "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      },
+      {
+        "level": 8,
+        "topic": "Computer Uses",
+        "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      },
+      {
+        "level": 9,
+        "topic": "Drawing and Painting",
+        "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      },
+      {
+        "level": 10,
+        "topic": "Playing Educational Games",
+        "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      },
+      {
+        "level": 11,
+        "topic": "Listening to Music",
+        "passage": "Computers can play music and rhymes. Speakers help us hear sounds clearly. Music can make learning enjoyable. Many children like listening to songs."
+      },
+      {
+        "level": 12,
+        "topic": "Watching Videos",
+        "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      },
+      {
+        "level": 13,
+        "topic": "Typing Practice",
+        "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      },
+      {
+        "level": 14,
+        "topic": "Storage Devices",
+        "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      },
+      {
+        "level": 15,
+        "topic": "Internet Basics",
+        "passage": "The internet connects computers worldwide. People use the internet to search information. Students can learn many things online. Children should use the internet carefully."
+      },
+      {
+        "level": 16,
+        "topic": "Computer Care",
+        "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      },
+      {
+        "level": 17,
+        "topic": "Computer Lab Rules",
+        "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      },
+      {
+        "level": 18,
+        "topic": "Technology Around Us",
+        "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      },
+      {
+        "level": 19,
+        "topic": "Smart Machines",
+        "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      },
+      {
+        "level": 20,
+        "topic": "Learning with Computers",
+        "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      }
+    ]
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "sourcePdf": "class3_computer_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Introduction to Computers",
+        "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      },
+      {
+        "level": 2,
+        "topic": "History of Computers",
+        "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      },
+      {
+        "level": 3,
+        "topic": "Parts of a Computer",
+        "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      },
+      {
+        "level": 4,
+        "topic": "Input and Output Devices",
+        "passage": "Input devices help us enter data into computers. Keyboard and mouse are input devices. Monitors and printers are output devices. Output devices show results from the computer."
+      },
+      {
+        "level": 5,
+        "topic": "Storage Devices",
+        "passage": "Storage devices save information and files. Hard disks store large amounts of data. USB drives are portable storage devices. Storage keeps data safe for future use."
+      },
+      {
+        "level": 6,
+        "topic": "Uses of Computers",
+        "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      },
+      {
+        "level": 7,
+        "topic": "Operating a Computer",
+        "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      },
+      {
+        "level": 8,
+        "topic": "Keyboard Skills",
+        "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      },
+      {
+        "level": 9,
+        "topic": "Mouse Skills",
+        "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      },
+      {
+        "level": 10,
+        "topic": "Drawing and Painting",
+        "passage": "Paint programs help children draw pictures. Computers can be used to color artwork. Students can create shapes and designs. Drawing on computers is fun and creative."
+      },
+      {
+        "level": 11,
+        "topic": "Educational Games",
+        "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      },
+      {
+        "level": 12,
+        "topic": "The Internet",
+        "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      },
+      {
+        "level": 13,
+        "topic": "Email and Communication",
+        "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      },
+      {
+        "level": 14,
+        "topic": "Computer Safety",
+        "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      },
+      {
+        "level": 15,
+        "topic": "Computer Lab Rules",
+        "passage": "Students should follow lab instructions. Computers must be used responsibly. Do not touch wires and plugs. Respect school equipment."
+      },
+      {
+        "level": 16,
+        "topic": "Technology Around Us",
+        "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      },
+      {
+        "level": 17,
+        "topic": "Smart Machines",
+        "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      },
+      {
+        "level": 18,
+        "topic": "Learning with Computers",
+        "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      },
+      {
+        "level": 19,
+        "topic": "Introduction to Coding",
+        "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      },
+      {
+        "level": 20,
+        "topic": "Future Technology",
+        "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      }
+    ]
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "sourcePdf": "class4_computer_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Introduction to Computers",
+        "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      },
+      {
+        "level": 2,
+        "topic": "Generations of Computers",
+        "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      },
+      {
+        "level": 3,
+        "topic": "Hardware and Software",
+        "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      },
+      {
+        "level": 4,
+        "topic": "Input and Output Devices",
+        "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      },
+      {
+        "level": 5,
+        "topic": "Storage Devices",
+        "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      },
+      {
+        "level": 6,
+        "topic": "Operating Systems",
+        "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      },
+      {
+        "level": 7,
+        "topic": "Word Processing",
+        "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      },
+      {
+        "level": 8,
+        "topic": "Presentation Software",
+        "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      },
+      {
+        "level": 9,
+        "topic": "Spreadsheets",
+        "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      },
+      {
+        "level": 10,
+        "topic": "Internet and Web Browsing",
+        "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      },
+      {
+        "level": 11,
+        "topic": "Email Communication",
+        "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      },
+      {
+        "level": 12,
+        "topic": "Computer Networks",
+        "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      },
+      {
+        "level": 13,
+        "topic": "Computer Safety",
+        "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      },
+      {
+        "level": 14,
+        "topic": "Cyber Safety",
+        "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      },
+      {
+        "level": 15,
+        "topic": "Introduction to Coding",
+        "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      },
+      {
+        "level": 16,
+        "topic": "Robots and Artificial Intelligence",
+        "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      },
+      {
+        "level": 17,
+        "topic": "Uses of Computers in Different Fields",
+        "passage": "Computers are used in education. Doctors use computers in hospitals. Banks use computers to manage accounts. Scientists use computers for research."
+      },
+      {
+        "level": 18,
+        "topic": "Digital Learning",
+        "passage": "Digital learning uses technology for education. Students watch videos and use online lessons. Educational apps help students practice skills. Technology makes learning more interactive."
+      },
+      {
+        "level": 19,
+        "topic": "Future Technology",
+        "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      },
+      {
+        "level": 20,
+        "topic": "Responsible Use of Technology",
+        "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      }
+    ]
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "sourcePdf": "class5_computer_reading.pdf",
+    "levels": [
+      {
+        "level": 1,
+        "topic": "Computer Systems",
+        "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      },
+      {
+        "level": 2,
+        "topic": "History of Computers",
+        "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      },
+      {
+        "level": 3,
+        "topic": "Input and Output Devices",
+        "passage": "Input devices help users enter data into computers. Keyboard, mouse, and scanner are input devices. Monitor and printer are output devices. These devices help people interact with computers."
+      },
+      {
+        "level": 4,
+        "topic": "Storage Devices",
+        "passage": "Storage devices save information and files. Hard drives can store large amounts of data. USB drives are portable storage devices. Cloud storage keeps files online."
+      },
+      {
+        "level": 5,
+        "topic": "Operating Systems",
+        "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      },
+      {
+        "level": 6,
+        "topic": "Word Processing",
+        "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      },
+      {
+        "level": 7,
+        "topic": "Spreadsheets",
+        "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      },
+      {
+        "level": 8,
+        "topic": "Presentation Software",
+        "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      },
+      {
+        "level": 9,
+        "topic": "Computer Networks",
+        "passage": "A network connects computers together. Networks allow sharing of information and resources. Schools and offices use networks daily. The internet is the largest computer network."
+      },
+      {
+        "level": 10,
+        "topic": "Internet and Web Browsing",
+        "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      },
+      {
+        "level": 11,
+        "topic": "Email Communication",
+        "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      },
+      {
+        "level": 12,
+        "topic": "Cyber Safety",
+        "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      },
+      {
+        "level": 13,
+        "topic": "Computer Viruses",
+        "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      },
+      {
+        "level": 14,
+        "topic": "Programming and Coding",
+        "passage": "Programming gives instructions to computers. Programs are written using coding languages. Coding develops problem-solving skills. Children can learn basic coding concepts."
+      },
+      {
+        "level": 15,
+        "topic": "Artificial Intelligence",
+        "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      },
+      {
+        "level": 16,
+        "topic": "Robotics",
+        "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      },
+      {
+        "level": 17,
+        "topic": "Uses of Computers in Different Fields",
+        "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      },
+      {
+        "level": 18,
+        "topic": "Digital Citizenship",
+        "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      },
+      {
+        "level": 19,
+        "topic": "Future Technology",
+        "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      },
+      {
+        "level": 20,
+        "topic": "Importance of Technology",
+        "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      }
+    ]
+  }
+]

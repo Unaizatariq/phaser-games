@@ -1,0 +1,8842 @@
+export const gameCatalog = [
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Alphabets A to Z",
+    "path": "/games/nursery/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Missing Letters",
+    "path": "/games/nursery/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Before After Between Letters",
+    "path": "/games/nursery/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Initial Letter of Picture",
+    "path": "/games/nursery/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Match Same Letters",
+    "path": "/games/nursery/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "First Letter of Picture",
+    "path": "/games/nursery/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "First and Final Sounds",
+    "path": "/games/nursery/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Colours Red Pink Blue Black Green",
+    "path": "/games/nursery/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Fruits Apple Mango Banana Orange Pear",
+    "path": "/games/nursery/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Alphabets A-Z",
+    "path": "/games/nursery/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Colors",
+    "path": "/games/nursery/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Fruits",
+    "path": "/games/nursery/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Initial Letter of Picture",
+    "path": "/games/nursery/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Match Same Letters",
+    "path": "/games/nursery/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "First Letter of Picture",
+    "path": "/games/nursery/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "First and Final Sounds",
+    "path": "/games/nursery/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Colours Red Pink Blue Black Green",
+    "path": "/games/nursery/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Fruits Apple Mango Banana Orange Pear",
+    "path": "/games/nursery/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Speak Alphabets A-Z",
+    "path": "/games/nursery/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Speak Simple Words",
+    "path": "/games/nursery/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Speak Colors",
+    "path": "/games/nursery/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Image Identification",
+    "path": "/games/nursery/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Speak After Seeing Image",
+    "path": "/games/nursery/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Alphabet Tracing A-Z",
+    "path": "/games/nursery/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Shape Tracing",
+    "path": "/games/nursery/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Missing Alphabet Tracing",
+    "path": "/games/nursery/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "حروف تہجی الف تا ی",
+    "path": "/games/nursery/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "حروف پر نقطے",
+    "path": "/games/nursery/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "چھوٹی ط والے حروف",
+    "path": "/games/nursery/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "پہلے اور بعد والے حروف",
+    "path": "/games/nursery/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "ایک جیسے حروف ملائیں",
+    "path": "/games/nursery/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حروفِ تہجی",
+    "path": "/games/nursery/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "نقطوں والے حروف",
+    "path": "/games/nursery/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "پہلے اور بعد والے حروف",
+    "path": "/games/nursery/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "پہلے اور بعد والے حروف",
+    "path": "/games/nursery/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "ایک جیسے حروف ملائیں",
+    "path": "/games/nursery/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "حروف کی آواز اور ادائیگی",
+    "path": "/games/nursery/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "آسان الفاظ بولیں",
+    "path": "/games/nursery/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "تصویر دیکھ کر نام بولیں",
+    "path": "/games/nursery/urdu/speaking/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "رنگوں کے نام بولیں",
+    "path": "/games/nursery/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "پہلے حرف کی آواز",
+    "path": "/games/nursery/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "مکمل حروفِ تہجی ٹریسنگ",
+    "path": "/games/nursery/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "نقطوں والے حروف",
+    "path": "/games/nursery/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "لائن اور پیٹرن ٹریسنگ",
+    "path": "/games/nursery/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "آسان الفاظ ٹریسنگ",
+    "path": "/games/nursery/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 5,
+    "topic": "پہلے اور بعد والے حروف",
+    "path": "/games/nursery/urdu/writing/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting 1 to 5",
+    "path": "/games/nursery/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Big and Small",
+    "path": "/games/nursery/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Shapes",
+    "path": "/games/nursery/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Colors and Numbers",
+    "path": "/games/nursery/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Before and After",
+    "path": "/games/nursery/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "More and Less",
+    "path": "/games/nursery/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Tall and Short",
+    "path": "/games/nursery/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Heavy and Light",
+    "path": "/games/nursery/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Counting Objects",
+    "path": "/games/nursery/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Matching Numbers",
+    "path": "/games/nursery/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Counting 1-20",
+    "path": "/games/nursery/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Shapes",
+    "path": "/games/nursery/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Tall and Short",
+    "path": "/games/nursery/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Tall Short More Less Long Short",
+    "path": "/games/nursery/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Count and Write",
+    "path": "/games/nursery/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Count and Match",
+    "path": "/games/nursery/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Missing Numbers",
+    "path": "/games/nursery/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Number Words One to Five",
+    "path": "/games/nursery/maths/listening/level-8/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Counting 1-50",
+    "path": "/games/nursery/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Shape Recognition",
+    "path": "/games/nursery/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths",
+    "path": "/games/nursery/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Number Tracing 1-50",
+    "path": "/games/nursery/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Shape Tracing",
+    "path": "/games/nursery/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Operator Tracing",
+    "path": "/games/nursery/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Eyes",
+    "path": "/games/nursery/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Ears",
+    "path": "/games/nursery/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Nose",
+    "path": "/games/nursery/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Hands",
+    "path": "/games/nursery/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Legs",
+    "path": "/games/nursery/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Sun",
+    "path": "/games/nursery/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Moon",
+    "path": "/games/nursery/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Tree",
+    "path": "/games/nursery/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Cat",
+    "path": "/games/nursery/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Phonics Letter Sounds",
+    "path": "/games/kg/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Alphabet Recognition",
+    "path": "/games/kg/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Basic Vocabulary Objects",
+    "path": "/games/kg/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Action Words",
+    "path": "/games/kg/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Feeling Words",
+    "path": "/games/kg/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Listening and Speaking Skills",
+    "path": "/games/kg/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Tracing Lines and Shapes",
+    "path": "/games/kg/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Pencil Grip Practice",
+    "path": "/games/kg/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Coloring Within Lines",
+    "path": "/games/kg/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Phonics",
+    "path": "/games/kg/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Vocabulary",
+    "path": "/games/kg/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Listening Skills",
+    "path": "/games/kg/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Action Words",
+    "path": "/games/kg/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Feeling Words",
+    "path": "/games/kg/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Listening and Speaking Skills",
+    "path": "/games/kg/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Tracing Lines and Shapes",
+    "path": "/games/kg/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Pencil Grip Practice",
+    "path": "/games/kg/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Coloring Within Lines",
+    "path": "/games/kg/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/kg/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/kg/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/kg/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/kg/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/kg/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/kg/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Capital Letter Tracing",
+    "path": "/games/kg/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Small Letter Tracing",
+    "path": "/games/kg/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Word Tracing",
+    "path": "/games/kg/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 4,
+    "topic": "Pattern Writing",
+    "path": "/games/kg/english/writing/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "اردو حروف کی پہچان",
+    "path": "/games/kg/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "اردو آوازیں",
+    "path": "/games/kg/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "عام چیزوں کے نام",
+    "path": "/games/kg/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "افعال کے آسان الفاظ",
+    "path": "/games/kg/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "احساسات کے الفاظ",
+    "path": "/games/kg/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 6,
+    "topic": "سننا اور بولنا",
+    "path": "/games/kg/urdu/reading/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 7,
+    "topic": "لکیریں اور اشکال بنانا",
+    "path": "/games/kg/urdu/reading/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 8,
+    "topic": "پنسل پکڑنے کی مشق",
+    "path": "/games/kg/urdu/reading/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حرف اور آواز",
+    "path": "/games/kg/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "آسان الفاظ",
+    "path": "/games/kg/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "جانوروں کی آوازیں",
+    "path": "/games/kg/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "افعال کے آسان الفاظ",
+    "path": "/games/kg/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "احساسات کے الفاظ",
+    "path": "/games/kg/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 6,
+    "topic": "سننا اور بولنا",
+    "path": "/games/kg/urdu/listening/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 7,
+    "topic": "لکیریں اور اشکال بنانا",
+    "path": "/games/kg/urdu/listening/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 8,
+    "topic": "پنسل پکڑنے کی مشق",
+    "path": "/games/kg/urdu/listening/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اردو حروف کی پہچان",
+    "path": "/games/kg/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "اردو آوازیں",
+    "path": "/games/kg/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "عام چیزوں کے نام",
+    "path": "/games/kg/urdu/speaking/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "افعال کے آسان الفاظ",
+    "path": "/games/kg/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "احساسات کے الفاظ",
+    "path": "/games/kg/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "سننا اور بولنا",
+    "path": "/games/kg/urdu/speaking/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 7,
+    "topic": "لکیریں اور اشکال بنانا",
+    "path": "/games/kg/urdu/speaking/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 8,
+    "topic": "پنسل پکڑنے کی مشق",
+    "path": "/games/kg/urdu/speaking/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "حروف لکھائی",
+    "path": "/games/kg/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "لفظ مکمل کریں",
+    "path": "/games/kg/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر پہلا حرف",
+    "path": "/games/kg/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "ٹریس پھر لکھیں",
+    "path": "/games/kg/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 5,
+    "topic": "آسان جملے ٹریسنگ",
+    "path": "/games/kg/urdu/writing/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting 1 to 20",
+    "path": "/games/kg/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Addition",
+    "path": "/games/kg/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Subtraction",
+    "path": "/games/kg/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Shapes Around Us",
+    "path": "/games/kg/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Patterns",
+    "path": "/games/kg/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Comparing Numbers",
+    "path": "/games/kg/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Time",
+    "path": "/games/kg/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Money",
+    "path": "/games/kg/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Measurement",
+    "path": "/games/kg/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Position Words",
+    "path": "/games/kg/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Number Recognition",
+    "path": "/games/kg/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Sorting by Shape",
+    "path": "/games/kg/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Patterns",
+    "path": "/games/kg/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Sorting by Color",
+    "path": "/games/kg/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Sorting by Shape",
+    "path": "/games/kg/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Sorting by Size",
+    "path": "/games/kg/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Basic Patterns",
+    "path": "/games/kg/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Counting and Numbers",
+    "path": "/games/kg/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Operators",
+    "path": "/games/kg/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Maths",
+    "path": "/games/kg/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Number Writing",
+    "path": "/games/kg/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Numbers",
+    "path": "/games/kg/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Basic Operators",
+    "path": "/games/kg/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Body",
+    "path": "/games/kg/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Animals",
+    "path": "/games/kg/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Birds",
+    "path": "/games/kg/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Plants",
+    "path": "/games/kg/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Weather",
+    "path": "/games/kg/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Healthy Food",
+    "path": "/games/kg/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Water",
+    "path": "/games/kg/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Transport",
+    "path": "/games/kg/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Day and Night",
+    "path": "/games/kg/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Cleanliness",
+    "path": "/games/kg/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "/games/kg/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "/games/kg/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "/games/kg/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Weather Sunny Rainy Cloudy",
+    "path": "/games/kg/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "National Flag of Pakistan",
+    "path": "/games/kg/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Map of Pakistan",
+    "path": "/games/kg/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "/games/kg/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "/games/kg/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "/games/kg/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Weather Sunny Rainy Cloudy",
+    "path": "/games/kg/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "National Flag of Pakistan",
+    "path": "/games/kg/science/speaking/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Map of Pakistan",
+    "path": "/games/kg/science/speaking/level-6/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "/games/kg/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "/games/kg/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "/games/kg/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 4,
+    "topic": "Weather Sunny Rainy Cloudy",
+    "path": "/games/kg/science/writing/level-4/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 5,
+    "topic": "National Flag of Pakistan",
+    "path": "/games/kg/science/writing/level-5/index.html"
+  },
+  {
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 6,
+    "topic": "Map of Pakistan",
+    "path": "/games/kg/science/writing/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Pronouns",
+    "path": "/games/class1/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Forms of Verbs",
+    "path": "/games/class1/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Adjectives",
+    "path": "/games/class1/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Opposites",
+    "path": "/games/class1/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Request and Command",
+    "path": "/games/class1/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "There and Their",
+    "path": "/games/class1/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Time",
+    "path": "/games/class1/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Singular and Plural",
+    "path": "/games/class1/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Punctuation",
+    "path": "/games/class1/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Picture Description",
+    "path": "/games/class1/english/reading/level-10/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Verbs",
+    "path": "/games/class1/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "/games/class1/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Opposites",
+    "path": "/games/class1/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Opposites",
+    "path": "/games/class1/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Request and Command",
+    "path": "/games/class1/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "There and Their",
+    "path": "/games/class1/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Time",
+    "path": "/games/class1/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Singular and Plural",
+    "path": "/games/class1/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Punctuation",
+    "path": "/games/class1/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Picture Description",
+    "path": "/games/class1/english/listening/level-10/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/class1/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/class1/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class1/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/class1/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/class1/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/class1/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Keyboard Typing",
+    "path": "/games/class1/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Letters",
+    "path": "/games/class1/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Sentence Typing",
+    "path": "/games/class1/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "حروف تہجی",
+    "path": "/games/class1/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "نقاط",
+    "path": "/games/class1/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "ملتے جلتے حروف",
+    "path": "/games/class1/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "حروف کی ترتیب",
+    "path": "/games/class1/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "سادہ جملے",
+    "path": "/games/class1/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حروف اور الفاظ کی پہچان",
+    "path": "/games/class1/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "افعال کی پہچان",
+    "path": "/games/class1/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "احساسات",
+    "path": "/games/class1/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "حروف کی ترتیب",
+    "path": "/games/class1/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "سادہ جملے",
+    "path": "/games/class1/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "الفاظ کی ادائیگی",
+    "path": "/games/class1/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "حروف کی ترتیب",
+    "path": "/games/class1/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "سادہ جملے بولیں",
+    "path": "/games/class1/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "مکمل جواب بولیں",
+    "path": "/games/class1/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "لفظ ٹائپنگ",
+    "path": "/games/class1/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "جملہ مکمل کریں",
+    "path": "/games/class1/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر لفظ",
+    "path": "/games/class1/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "سادہ جملہ ٹائپنگ",
+    "path": "/games/class1/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting Numbers",
+    "path": "/games/class1/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Numbers 1 to 100",
+    "path": "/games/class1/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Before, After, and Between",
+    "path": "/games/class1/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Addition",
+    "path": "/games/class1/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Subtraction",
+    "path": "/games/class1/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Shapes",
+    "path": "/games/class1/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Patterns",
+    "path": "/games/class1/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Comparing Numbers",
+    "path": "/games/class1/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Measurement",
+    "path": "/games/class1/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Time",
+    "path": "/games/class1/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Money",
+    "path": "/games/class1/maths/reading/level-11/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Position Words",
+    "path": "/games/class1/maths/reading/level-12/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Big and Small",
+    "path": "/games/class1/maths/reading/level-13/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Heavy and Light",
+    "path": "/games/class1/maths/reading/level-14/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Tall and Short",
+    "path": "/games/class1/maths/reading/level-15/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Ordinal Numbers",
+    "path": "/games/class1/maths/reading/level-16/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Even and Odd Numbers",
+    "path": "/games/class1/maths/reading/level-17/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Simple Word Problems",
+    "path": "/games/class1/maths/reading/level-18/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Counting Objects",
+    "path": "/games/class1/maths/reading/level-19/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Fun with Math",
+    "path": "/games/class1/maths/reading/level-20/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Addition",
+    "path": "/games/class1/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Subtraction",
+    "path": "/games/class1/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Time",
+    "path": "/games/class1/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Number Spelling 71 to 100",
+    "path": "/games/class1/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Addition",
+    "path": "/games/class1/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Subtraction",
+    "path": "/games/class1/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Time",
+    "path": "/games/class1/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Addition and Subtraction",
+    "path": "/games/class1/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Multiplication and Division",
+    "path": "/games/class1/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths Challenge",
+    "path": "/games/class1/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Addition Writing",
+    "path": "/games/class1/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Subtraction Writing",
+    "path": "/games/class1/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Number Words",
+    "path": "/games/class1/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Body",
+    "path": "/games/class1/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Healthy Food",
+    "path": "/games/class1/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Cleanliness",
+    "path": "/games/class1/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Animals Around Us",
+    "path": "/games/class1/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Pet Animals",
+    "path": "/games/class1/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Wild Animals",
+    "path": "/games/class1/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Birds",
+    "path": "/games/class1/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Plants",
+    "path": "/games/class1/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Flowers",
+    "path": "/games/class1/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Trees",
+    "path": "/games/class1/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Fruits and Vegetables",
+    "path": "/games/class1/science/reading/level-11/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Water",
+    "path": "/games/class1/science/reading/level-12/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Air",
+    "path": "/games/class1/science/reading/level-13/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 14,
+    "topic": "The Sun",
+    "path": "/games/class1/science/reading/level-14/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 15,
+    "topic": "The Moon and Stars",
+    "path": "/games/class1/science/reading/level-15/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Day and Night",
+    "path": "/games/class1/science/reading/level-16/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Weather",
+    "path": "/games/class1/science/reading/level-17/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Seasons",
+    "path": "/games/class1/science/reading/level-18/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Living and Non-Living Things",
+    "path": "/games/class1/science/reading/level-19/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Things We Use",
+    "path": "/games/class1/science/reading/level-20/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 21,
+    "topic": "Means of Transport",
+    "path": "/games/class1/science/reading/level-21/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 22,
+    "topic": "Safety Rules",
+    "path": "/games/class1/science/reading/level-22/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 23,
+    "topic": "Our Home",
+    "path": "/games/class1/science/reading/level-23/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 24,
+    "topic": "Our School",
+    "path": "/games/class1/science/reading/level-24/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 25,
+    "topic": "Sounds Around Us",
+    "path": "/games/class1/science/reading/level-25/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 26,
+    "topic": "Hot and Cold Things",
+    "path": "/games/class1/science/reading/level-26/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 27,
+    "topic": "Soft and Hard Things",
+    "path": "/games/class1/science/reading/level-27/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 28,
+    "topic": "Big and Small Things",
+    "path": "/games/class1/science/reading/level-28/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 29,
+    "topic": "Keeping Environment Clean",
+    "path": "/games/class1/science/reading/level-29/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 30,
+    "topic": "Exercise and Health",
+    "path": "/games/class1/science/reading/level-30/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Body Parts",
+    "path": "/games/class1/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Living Things",
+    "path": "/games/class1/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Weather",
+    "path": "/games/class1/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Common Animals",
+    "path": "/games/class1/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Parts of a Plant",
+    "path": "/games/class1/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Plants Need Water",
+    "path": "/games/class1/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Immediate Environment",
+    "path": "/games/class1/science/listening/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Keeping Surroundings Clean",
+    "path": "/games/class1/science/listening/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Weather",
+    "path": "/games/class1/science/listening/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Speak Body Parts",
+    "path": "/games/class1/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Living Things Speaking",
+    "path": "/games/class1/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class1/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Weather Speaking",
+    "path": "/games/class1/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Body Parts Writing",
+    "path": "/games/class1/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Living Things",
+    "path": "/games/class1/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Weather Writing",
+    "path": "/games/class1/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "What is a Computer?",
+    "path": "/games/class1/computer/reading/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Parts of a Computer",
+    "path": "/games/class1/computer/reading/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Monitor",
+    "path": "/games/class1/computer/reading/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Keyboard",
+    "path": "/games/class1/computer/reading/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Mouse",
+    "path": "/games/class1/computer/reading/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 6,
+    "topic": "CPU",
+    "path": "/games/class1/computer/reading/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Uses of Computers",
+    "path": "/games/class1/computer/reading/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Computer Lab",
+    "path": "/games/class1/computer/reading/level-8/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Drawing on Computer",
+    "path": "/games/class1/computer/reading/level-9/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Playing Games",
+    "path": "/games/class1/computer/reading/level-10/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Listening to Music",
+    "path": "/games/class1/computer/reading/level-11/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Watching Videos",
+    "path": "/games/class1/computer/reading/level-12/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Typing Practice",
+    "path": "/games/class1/computer/reading/level-13/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Care of Computer",
+    "path": "/games/class1/computer/reading/level-14/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Computer Rules",
+    "path": "/games/class1/computer/reading/level-15/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Fun Learning",
+    "path": "/games/class1/computer/reading/level-16/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Internet",
+    "path": "/games/class1/computer/reading/level-17/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Technology Around Us",
+    "path": "/games/class1/computer/reading/level-18/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Smart Machines",
+    "path": "/games/class1/computer/reading/level-19/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Learning with Computers",
+    "path": "/games/class1/computer/reading/level-20/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Introduction to Computer",
+    "path": "/games/class1/computer/listening/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Parts of Computer",
+    "path": "/games/class1/computer/listening/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Computer Handling",
+    "path": "/games/class1/computer/listening/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Parts of Computer",
+    "path": "/games/class1/computer/listening/level-4/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Computer Handling",
+    "path": "/games/class1/computer/listening/level-5/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Using a Mouse",
+    "path": "/games/class1/computer/listening/level-6/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Simple Drawing Tools",
+    "path": "/games/class1/computer/listening/level-7/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Computer Vocabulary",
+    "path": "/games/class1/computer/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Device Identification",
+    "path": "/games/class1/computer/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Computer Rules Speaking",
+    "path": "/games/class1/computer/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Computer Vocabulary Typing",
+    "path": "/games/class1/computer/writing/level-1/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Letters",
+    "path": "/games/class1/computer/writing/level-2/index.html"
+  },
+  {
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Device Recognition Writing",
+    "path": "/games/class1/computer/writing/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Alphabets Revision",
+    "path": "/games/class2/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Vowels and Consonants",
+    "path": "/games/class2/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Nouns",
+    "path": "/games/class2/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Pronouns",
+    "path": "/games/class2/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Verbs",
+    "path": "/games/class2/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Adjectives",
+    "path": "/games/class2/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Prepositions",
+    "path": "/games/class2/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Articles a an the",
+    "path": "/games/class2/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Singular and Plural",
+    "path": "/games/class2/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Opposites",
+    "path": "/games/class2/english/reading/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Sentence Making",
+    "path": "/games/class2/english/reading/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Reading Comprehension",
+    "path": "/games/class2/english/reading/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Picture Description",
+    "path": "/games/class2/english/reading/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Creative Writing",
+    "path": "/games/class2/english/reading/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "/games/class2/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Articles",
+    "path": "/games/class2/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Sentence Making",
+    "path": "/games/class2/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Pronouns",
+    "path": "/games/class2/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Verbs",
+    "path": "/games/class2/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Adjectives",
+    "path": "/games/class2/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Prepositions",
+    "path": "/games/class2/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Articles a an the",
+    "path": "/games/class2/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Singular and Plural",
+    "path": "/games/class2/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Opposites",
+    "path": "/games/class2/english/listening/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Sentence Making",
+    "path": "/games/class2/english/listening/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Reading Comprehension",
+    "path": "/games/class2/english/listening/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Picture Description",
+    "path": "/games/class2/english/listening/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Creative Writing",
+    "path": "/games/class2/english/listening/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/class2/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/class2/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class2/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/class2/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/class2/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/class2/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Nouns and Verbs",
+    "path": "/games/class2/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Fill in the Blanks",
+    "path": "/games/class2/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Sentence Correction",
+    "path": "/games/class2/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "حروف تہجی دہرائی",
+    "path": "/games/class2/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "نقاط",
+    "path": "/games/class2/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "جھوٹی اشکال",
+    "path": "/games/class2/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "ملتے جلتے حروف",
+    "path": "/games/class2/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "الفاظ",
+    "path": "/games/class2/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 6,
+    "topic": "حروف کی ترتیب",
+    "path": "/games/class2/urdu/reading/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 7,
+    "topic": "حروف کو ملانا",
+    "path": "/games/class2/urdu/reading/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 8,
+    "topic": "سادہ جملے",
+    "path": "/games/class2/urdu/reading/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 9,
+    "topic": "مکمل جملے",
+    "path": "/games/class2/urdu/reading/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 10,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class2/urdu/reading/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 11,
+    "topic": "تصویر سے الفاظ",
+    "path": "/games/class2/urdu/reading/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 12,
+    "topic": "املا",
+    "path": "/games/class2/urdu/reading/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 13,
+    "topic": "خوشخطی",
+    "path": "/games/class2/urdu/reading/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "اسم",
+    "path": "/games/class2/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "صفت",
+    "path": "/games/class2/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "واحد جمع",
+    "path": "/games/class2/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "ملتے جلتے حروف",
+    "path": "/games/class2/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "الفاظ",
+    "path": "/games/class2/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 6,
+    "topic": "حروف کی ترتیب",
+    "path": "/games/class2/urdu/listening/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 7,
+    "topic": "حروف کو ملانا",
+    "path": "/games/class2/urdu/listening/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 8,
+    "topic": "سادہ جملے",
+    "path": "/games/class2/urdu/listening/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 9,
+    "topic": "مکمل جملے",
+    "path": "/games/class2/urdu/listening/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 10,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class2/urdu/listening/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 11,
+    "topic": "تصویر سے الفاظ",
+    "path": "/games/class2/urdu/listening/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 12,
+    "topic": "املا",
+    "path": "/games/class2/urdu/listening/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 13,
+    "topic": "خوشخطی",
+    "path": "/games/class2/urdu/listening/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "متضاد الفاظ بولیں",
+    "path": "/games/class2/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "واحد اور جمع",
+    "path": "/games/class2/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "سوالوں کے جواب",
+    "path": "/games/class2/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "درست جملہ بنائیں",
+    "path": "/games/class2/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "خالی جگہ پُر کریں",
+    "path": "/games/class2/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class2/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "جمع لکھیں",
+    "path": "/games/class2/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "ذاتی معلومات",
+    "path": "/games/class2/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Numbers up to 1000",
+    "path": "/games/class2/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Place Value",
+    "path": "/games/class2/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Addition",
+    "path": "/games/class2/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Subtraction",
+    "path": "/games/class2/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Multiplication",
+    "path": "/games/class2/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Division",
+    "path": "/games/class2/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Even and Odd Numbers",
+    "path": "/games/class2/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Fractions",
+    "path": "/games/class2/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Shapes and Geometry",
+    "path": "/games/class2/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Measurement",
+    "path": "/games/class2/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Time",
+    "path": "/games/class2/maths/reading/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Money",
+    "path": "/games/class2/maths/reading/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Patterns",
+    "path": "/games/class2/maths/reading/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Data Handling",
+    "path": "/games/class2/maths/reading/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Word Problems",
+    "path": "/games/class2/maths/reading/level-15/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Comparing Numbers",
+    "path": "/games/class2/maths/reading/level-16/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Ordinal Numbers",
+    "path": "/games/class2/maths/reading/level-17/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Capacity",
+    "path": "/games/class2/maths/reading/level-18/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Length and Distance",
+    "path": "/games/class2/maths/reading/level-19/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Fun with Math",
+    "path": "/games/class2/maths/reading/level-20/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Place Value",
+    "path": "/games/class2/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Multiplication",
+    "path": "/games/class2/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Money",
+    "path": "/games/class2/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Subtraction",
+    "path": "/games/class2/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Multiplication",
+    "path": "/games/class2/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Basic Division",
+    "path": "/games/class2/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Even and Odd Numbers",
+    "path": "/games/class2/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Number Comparison",
+    "path": "/games/class2/maths/listening/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 9,
+    "topic": "2D Shapes",
+    "path": "/games/class2/maths/listening/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Measurement Length Weight",
+    "path": "/games/class2/maths/listening/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Time Clock",
+    "path": "/games/class2/maths/listening/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Money",
+    "path": "/games/class2/maths/listening/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Word Problems",
+    "path": "/games/class2/maths/listening/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Patterns",
+    "path": "/games/class2/maths/listening/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Place Value",
+    "path": "/games/class2/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Operators Practice",
+    "path": "/games/class2/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Answer Challenge",
+    "path": "/games/class2/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Multiplication Writing",
+    "path": "/games/class2/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Division Writing",
+    "path": "/games/class2/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Mental Maths Writing",
+    "path": "/games/class2/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Living Things",
+    "path": "/games/class2/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Non-Living Things",
+    "path": "/games/class2/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants Around Us",
+    "path": "/games/class2/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Animals Around Us",
+    "path": "/games/class2/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Birds",
+    "path": "/games/class2/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Healthy Food",
+    "path": "/games/class2/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Water",
+    "path": "/games/class2/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Air",
+    "path": "/games/class2/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "The Sun",
+    "path": "/games/class2/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "The Moon and Stars",
+    "path": "/games/class2/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Weather",
+    "path": "/games/class2/science/reading/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Seasons",
+    "path": "/games/class2/science/reading/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Our Body",
+    "path": "/games/class2/science/reading/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Five Senses",
+    "path": "/games/class2/science/reading/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Keeping Clean",
+    "path": "/games/class2/science/reading/level-15/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Safety Rules",
+    "path": "/games/class2/science/reading/level-16/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Means of Transport",
+    "path": "/games/class2/science/reading/level-17/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Homes of Animals",
+    "path": "/games/class2/science/reading/level-18/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Day and Night",
+    "path": "/games/class2/science/reading/level-19/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Environment",
+    "path": "/games/class2/science/reading/level-20/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "/games/class2/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Plants",
+    "path": "/games/class2/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Materials",
+    "path": "/games/class2/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Familiar Animals",
+    "path": "/games/class2/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Plants Grow from Seeds",
+    "path": "/games/class2/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Importance of Water",
+    "path": "/games/class2/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Saving Water",
+    "path": "/games/class2/science/listening/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Weather Sunny Rainy Cloudy",
+    "path": "/games/class2/science/listening/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Seasons",
+    "path": "/games/class2/science/listening/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Common Materials Wood Plastic Metal Glass",
+    "path": "/games/class2/science/listening/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "/games/class2/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Plants and Water",
+    "path": "/games/class2/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class2/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Sentence Speaking",
+    "path": "/games/class2/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "/games/class2/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Plants Writing",
+    "path": "/games/class2/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Materials",
+    "path": "/games/class2/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "/games/class2/computer/reading/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Main Parts of a Computer",
+    "path": "/games/class2/computer/reading/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Input Devices",
+    "path": "/games/class2/computer/reading/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Output Devices",
+    "path": "/games/class2/computer/reading/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Keyboard Keys",
+    "path": "/games/class2/computer/reading/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Using a Mouse",
+    "path": "/games/class2/computer/reading/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 7,
+    "topic": "The CPU",
+    "path": "/games/class2/computer/reading/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Computer Uses",
+    "path": "/games/class2/computer/reading/level-8/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Drawing and Painting",
+    "path": "/games/class2/computer/reading/level-9/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Playing Educational Games",
+    "path": "/games/class2/computer/reading/level-10/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Listening to Music",
+    "path": "/games/class2/computer/reading/level-11/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Watching Videos",
+    "path": "/games/class2/computer/reading/level-12/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Typing Practice",
+    "path": "/games/class2/computer/reading/level-13/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Storage Devices",
+    "path": "/games/class2/computer/reading/level-14/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Internet Basics",
+    "path": "/games/class2/computer/reading/level-15/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Computer Care",
+    "path": "/games/class2/computer/reading/level-16/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Computer Lab Rules",
+    "path": "/games/class2/computer/reading/level-17/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Technology Around Us",
+    "path": "/games/class2/computer/reading/level-18/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Smart Machines",
+    "path": "/games/class2/computer/reading/level-19/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Learning with Computers",
+    "path": "/games/class2/computer/reading/level-20/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Computer Basics",
+    "path": "/games/class2/computer/listening/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Mouse Actions",
+    "path": "/games/class2/computer/listening/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Drawing Tools",
+    "path": "/games/class2/computer/listening/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Typing Basics",
+    "path": "/games/class2/computer/listening/level-4/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Simple Drawing Tools",
+    "path": "/games/class2/computer/listening/level-5/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Drawing Lines and Shapes",
+    "path": "/games/class2/computer/listening/level-6/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Computer Lab Safety",
+    "path": "/games/class2/computer/listening/level-7/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Parts of Computer",
+    "path": "/games/class2/computer/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Mouse Actions",
+    "path": "/games/class2/computer/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class2/computer/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Keyboard Practice",
+    "path": "/games/class2/computer/writing/level-1/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Computer Actions",
+    "path": "/games/class2/computer/writing/level-2/index.html"
+  },
+  {
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Fill in the Blanks",
+    "path": "/games/class2/computer/writing/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Alphabets Revision",
+    "path": "/games/class3/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Nouns",
+    "path": "/games/class3/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Pronouns",
+    "path": "/games/class3/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Verbs",
+    "path": "/games/class3/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Adjectives",
+    "path": "/games/class3/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Adverbs",
+    "path": "/games/class3/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Prepositions",
+    "path": "/games/class3/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Conjunctions",
+    "path": "/games/class3/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Articles",
+    "path": "/games/class3/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Singular and Plural",
+    "path": "/games/class3/english/reading/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Basic Tenses",
+    "path": "/games/class3/english/reading/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Sentence Structure",
+    "path": "/games/class3/english/reading/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class3/english/reading/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Creative Writing",
+    "path": "/games/class3/english/reading/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class3/english/reading/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Adverbs",
+    "path": "/games/class3/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Prepositions",
+    "path": "/games/class3/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Synonyms",
+    "path": "/games/class3/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Verbs",
+    "path": "/games/class3/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Adjectives",
+    "path": "/games/class3/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Adverbs",
+    "path": "/games/class3/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Prepositions",
+    "path": "/games/class3/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Conjunctions",
+    "path": "/games/class3/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Articles",
+    "path": "/games/class3/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Singular and Plural",
+    "path": "/games/class3/english/listening/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Basic Tenses",
+    "path": "/games/class3/english/listening/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Sentence Structure",
+    "path": "/games/class3/english/listening/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class3/english/listening/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Creative Writing",
+    "path": "/games/class3/english/listening/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class3/english/listening/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/class3/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/class3/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class3/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/class3/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/class3/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/class3/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Grammar Writing",
+    "path": "/games/class3/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Rearrange Sentence",
+    "path": "/games/class3/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Short Paragraph Writing",
+    "path": "/games/class3/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "حروف تہجی دہرائی",
+    "path": "/games/class3/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "الفاظ",
+    "path": "/games/class3/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "جملے",
+    "path": "/games/class3/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "اسم",
+    "path": "/games/class3/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "فعل",
+    "path": "/games/class3/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 6,
+    "topic": "صفت",
+    "path": "/games/class3/urdu/reading/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 7,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class3/urdu/reading/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 8,
+    "topic": "جمع",
+    "path": "/games/class3/urdu/reading/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 9,
+    "topic": "واحد جمع",
+    "path": "/games/class3/urdu/reading/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 10,
+    "topic": "املا",
+    "path": "/games/class3/urdu/reading/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 11,
+    "topic": "خوشخطی",
+    "path": "/games/class3/urdu/reading/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 12,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class3/urdu/reading/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 13,
+    "topic": "مضمون نویسی",
+    "path": "/games/class3/urdu/reading/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class3/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "جملہ سن کر جواب دیں",
+    "path": "/games/class3/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "زمانہ",
+    "path": "/games/class3/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "اسم",
+    "path": "/games/class3/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "فعل",
+    "path": "/games/class3/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 6,
+    "topic": "صفت",
+    "path": "/games/class3/urdu/listening/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 7,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class3/urdu/listening/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 8,
+    "topic": "جمع",
+    "path": "/games/class3/urdu/listening/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 9,
+    "topic": "واحد جمع",
+    "path": "/games/class3/urdu/listening/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 10,
+    "topic": "املا",
+    "path": "/games/class3/urdu/listening/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 11,
+    "topic": "خوشخطی",
+    "path": "/games/class3/urdu/listening/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 12,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class3/urdu/listening/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 13,
+    "topic": "مضمون نویسی",
+    "path": "/games/class3/urdu/listening/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اسم اور فعل",
+    "path": "/games/class3/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "صفت کے ساتھ جملے",
+    "path": "/games/class3/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "مکمل جملے",
+    "path": "/games/class3/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "جملہ درست کریں",
+    "path": "/games/class3/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "سن کر لفظ لکھیں",
+    "path": "/games/class3/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "اسم، فعل، صفت",
+    "path": "/games/class3/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "خالی جگہ مکمل کریں",
+    "path": "/games/class3/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Large Numbers",
+    "path": "/games/class3/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Place Value and Expanded Form",
+    "path": "/games/class3/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Addition and Subtraction",
+    "path": "/games/class3/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Multiplication",
+    "path": "/games/class3/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Division",
+    "path": "/games/class3/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Fractions",
+    "path": "/games/class3/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Decimals",
+    "path": "/games/class3/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Geometry and Shapes",
+    "path": "/games/class3/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Perimeter",
+    "path": "/games/class3/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Measurement",
+    "path": "/games/class3/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Time",
+    "path": "/games/class3/maths/reading/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Money",
+    "path": "/games/class3/maths/reading/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Patterns and Sequences",
+    "path": "/games/class3/maths/reading/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Data and Graphs",
+    "path": "/games/class3/maths/reading/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Word Problems",
+    "path": "/games/class3/maths/reading/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Even and Odd Numbers",
+    "path": "/games/class3/maths/reading/level-16/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Lines and Angles",
+    "path": "/games/class3/maths/reading/level-17/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Capacity and Volume",
+    "path": "/games/class3/maths/reading/level-18/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Symmetry",
+    "path": "/games/class3/maths/reading/level-19/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Fun with Mathematics",
+    "path": "/games/class3/maths/reading/level-20/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Fractions",
+    "path": "/games/class3/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Measurement",
+    "path": "/games/class3/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Time and Calendar",
+    "path": "/games/class3/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Multiplication",
+    "path": "/games/class3/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Division",
+    "path": "/games/class3/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Basic Fractions",
+    "path": "/games/class3/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Even and Odd Numbers",
+    "path": "/games/class3/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Geometry Shapes",
+    "path": "/games/class3/maths/listening/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Measurement Length Weight Volume",
+    "path": "/games/class3/maths/listening/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Time and Calendar",
+    "path": "/games/class3/maths/listening/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Money Problems",
+    "path": "/games/class3/maths/listening/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Word Problems",
+    "path": "/games/class3/maths/listening/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Patterns",
+    "path": "/games/class3/maths/listening/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Data Handling Charts",
+    "path": "/games/class3/maths/listening/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Fractions",
+    "path": "/games/class3/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Measurements",
+    "path": "/games/class3/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths",
+    "path": "/games/class3/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Fractions Writing",
+    "path": "/games/class3/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Measurement Writing",
+    "path": "/games/class3/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Equation Solving",
+    "path": "/games/class3/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Living and Non-Living Things",
+    "path": "/games/class3/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Parts of a Plant",
+    "path": "/games/class3/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Animals and Their Habitats",
+    "path": "/games/class3/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Food and Nutrition",
+    "path": "/games/class3/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "The Human Body",
+    "path": "/games/class3/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Water and Its Uses",
+    "path": "/games/class3/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Air Around Us",
+    "path": "/games/class3/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "The Solar System",
+    "path": "/games/class3/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Weather and Seasons",
+    "path": "/games/class3/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Light and Shadow",
+    "path": "/games/class3/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 11,
+    "topic": "States of Matter",
+    "path": "/games/class3/science/reading/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Force and Movement",
+    "path": "/games/class3/science/reading/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Sound Around Us",
+    "path": "/games/class3/science/reading/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Keeping Healthy",
+    "path": "/games/class3/science/reading/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Plants and Animals Need Care",
+    "path": "/games/class3/science/reading/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Pollution",
+    "path": "/games/class3/science/reading/level-16/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Machines Around Us",
+    "path": "/games/class3/science/reading/level-17/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Safety and First Aid",
+    "path": "/games/class3/science/reading/level-18/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 19,
+    "topic": "The Earth",
+    "path": "/games/class3/science/reading/level-19/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Environment Protection",
+    "path": "/games/class3/science/reading/level-20/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "/games/class3/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Animals",
+    "path": "/games/class3/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Environment",
+    "path": "/games/class3/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Animals by Habitat",
+    "path": "/games/class3/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Animals by Food",
+    "path": "/games/class3/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Personal Hygiene",
+    "path": "/games/class3/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Healthy Eating Habits",
+    "path": "/games/class3/science/listening/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Exercise and Sleep",
+    "path": "/games/class3/science/listening/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 9,
+    "topic": "States of Matter",
+    "path": "/games/class3/science/listening/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Sources of Heat and Light",
+    "path": "/games/class3/science/listening/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Weather Patterns",
+    "path": "/games/class3/science/listening/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Sun Moon Stars",
+    "path": "/games/class3/science/listening/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Water and Soil",
+    "path": "/games/class3/science/listening/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Pollution Trash Littering",
+    "path": "/games/class3/science/listening/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Keeping Environment Clean",
+    "path": "/games/class3/science/listening/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "/games/class3/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Animals",
+    "path": "/games/class3/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class3/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Explain the Picture",
+    "path": "/games/class3/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "/games/class3/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Animals",
+    "path": "/games/class3/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Environment Writing",
+    "path": "/games/class3/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "/games/class3/computer/reading/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "History of Computers",
+    "path": "/games/class3/computer/reading/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Parts of a Computer",
+    "path": "/games/class3/computer/reading/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Input and Output Devices",
+    "path": "/games/class3/computer/reading/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Storage Devices",
+    "path": "/games/class3/computer/reading/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Uses of Computers",
+    "path": "/games/class3/computer/reading/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Operating a Computer",
+    "path": "/games/class3/computer/reading/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Keyboard Skills",
+    "path": "/games/class3/computer/reading/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Mouse Skills",
+    "path": "/games/class3/computer/reading/level-9/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Drawing and Painting",
+    "path": "/games/class3/computer/reading/level-10/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Educational Games",
+    "path": "/games/class3/computer/reading/level-11/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 12,
+    "topic": "The Internet",
+    "path": "/games/class3/computer/reading/level-12/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Email and Communication",
+    "path": "/games/class3/computer/reading/level-13/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Computer Safety",
+    "path": "/games/class3/computer/reading/level-14/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Computer Lab Rules",
+    "path": "/games/class3/computer/reading/level-15/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Technology Around Us",
+    "path": "/games/class3/computer/reading/level-16/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Smart Machines",
+    "path": "/games/class3/computer/reading/level-17/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Learning with Computers",
+    "path": "/games/class3/computer/reading/level-18/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Introduction to Coding",
+    "path": "/games/class3/computer/reading/level-19/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Future Technology",
+    "path": "/games/class3/computer/reading/level-20/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Keyboard Keys",
+    "path": "/games/class3/computer/listening/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Uses of Computers",
+    "path": "/games/class3/computer/listening/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "MS Paint",
+    "path": "/games/class3/computer/listening/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Mouse Actions",
+    "path": "/games/class3/computer/listening/level-4/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Drag and Drop Function",
+    "path": "/games/class3/computer/listening/level-5/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 6,
+    "topic": "MS Paint Tools",
+    "path": "/games/class3/computer/listening/level-6/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Drawing Simple Pictures",
+    "path": "/games/class3/computer/listening/level-7/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Uses of Computers",
+    "path": "/games/class3/computer/listening/level-8/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Keyboard Keys",
+    "path": "/games/class3/computer/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Uses of Computer",
+    "path": "/games/class3/computer/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "MS Paint Speaking",
+    "path": "/games/class3/computer/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Computer Uses",
+    "path": "/games/class3/computer/writing/level-1/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "MS Paint Writing",
+    "path": "/games/class3/computer/writing/level-2/index.html"
+  },
+  {
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Rearrange Words",
+    "path": "/games/class3/computer/writing/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "/games/class4/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "/games/class4/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Verbs",
+    "path": "/games/class4/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Adjectives",
+    "path": "/games/class4/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Adverbs",
+    "path": "/games/class4/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Prepositions",
+    "path": "/games/class4/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Conjunctions",
+    "path": "/games/class4/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Articles",
+    "path": "/games/class4/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Present Past Future Tenses",
+    "path": "/games/class4/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Subject and Predicate",
+    "path": "/games/class4/english/reading/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Sentence Structure",
+    "path": "/games/class4/english/reading/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class4/english/reading/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class4/english/reading/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Paragraph Writing",
+    "path": "/games/class4/english/reading/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Story Writing",
+    "path": "/games/class4/english/reading/level-15/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Tenses",
+    "path": "/games/class4/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Subject and Predicate",
+    "path": "/games/class4/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Paragraph Listening",
+    "path": "/games/class4/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Adjectives",
+    "path": "/games/class4/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Adverbs",
+    "path": "/games/class4/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Prepositions",
+    "path": "/games/class4/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Conjunctions",
+    "path": "/games/class4/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Articles",
+    "path": "/games/class4/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Present Past Future Tenses",
+    "path": "/games/class4/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Subject and Predicate",
+    "path": "/games/class4/english/listening/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Sentence Structure",
+    "path": "/games/class4/english/listening/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class4/english/listening/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class4/english/listening/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Paragraph Writing",
+    "path": "/games/class4/english/listening/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Story Writing",
+    "path": "/games/class4/english/listening/level-15/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/class4/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/class4/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class4/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/class4/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/class4/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/class4/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Tenses Writing",
+    "path": "/games/class4/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Paragraph Typing",
+    "path": "/games/class4/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Story Completion",
+    "path": "/games/class4/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "الفاظ",
+    "path": "/games/class4/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "جملے",
+    "path": "/games/class4/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "اسم",
+    "path": "/games/class4/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "فعل",
+    "path": "/games/class4/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "صفت",
+    "path": "/games/class4/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 6,
+    "topic": "ضمیر",
+    "path": "/games/class4/urdu/reading/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 7,
+    "topic": "جمع اور واحد",
+    "path": "/games/class4/urdu/reading/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 8,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class4/urdu/reading/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 9,
+    "topic": "املا",
+    "path": "/games/class4/urdu/reading/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 10,
+    "topic": "خوشخطی",
+    "path": "/games/class4/urdu/reading/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 11,
+    "topic": "مضمون نگاری",
+    "path": "/games/class4/urdu/reading/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 12,
+    "topic": "کہانی لکھنے کی مشق",
+    "path": "/games/class4/urdu/reading/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 13,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class4/urdu/reading/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "مترادف الفاظ",
+    "path": "/games/class4/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "مرکزی خیال",
+    "path": "/games/class4/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "درست جملہ",
+    "path": "/games/class4/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "فعل",
+    "path": "/games/class4/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "صفت",
+    "path": "/games/class4/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 6,
+    "topic": "ضمیر",
+    "path": "/games/class4/urdu/listening/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 7,
+    "topic": "جمع اور واحد",
+    "path": "/games/class4/urdu/listening/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 8,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class4/urdu/listening/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 9,
+    "topic": "املا",
+    "path": "/games/class4/urdu/listening/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 10,
+    "topic": "خوشخطی",
+    "path": "/games/class4/urdu/listening/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 11,
+    "topic": "مضمون نگاری",
+    "path": "/games/class4/urdu/listening/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 12,
+    "topic": "کہانی لکھنے کی مشق",
+    "path": "/games/class4/urdu/listening/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 13,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class4/urdu/listening/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "روانی سے بولیں",
+    "path": "/games/class4/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "اسم ،فعل ،صفت",
+    "path": "/games/class4/urdu/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "گرامر درستگی",
+    "path": "/games/class4/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "الفاظ سے جملے",
+    "path": "/games/class4/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "دو لائنیں لکھیں",
+    "path": "/games/class4/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر جملے",
+    "path": "/games/class4/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "زمانہ لکھائی",
+    "path": "/games/class4/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Whole Numbers",
+    "path": "/games/class4/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Factors and Multiples",
+    "path": "/games/class4/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Prime and Composite Numbers",
+    "path": "/games/class4/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Fractions",
+    "path": "/games/class4/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Decimals",
+    "path": "/games/class4/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Addition and Subtraction",
+    "path": "/games/class4/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Multiplication and Division",
+    "path": "/games/class4/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Geometry",
+    "path": "/games/class4/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Angles",
+    "path": "/games/class4/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Perimeter and Area",
+    "path": "/games/class4/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Measurement",
+    "path": "/games/class4/maths/reading/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Time",
+    "path": "/games/class4/maths/reading/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Money",
+    "path": "/games/class4/maths/reading/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Patterns and Sequences",
+    "path": "/games/class4/maths/reading/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Data Handling",
+    "path": "/games/class4/maths/reading/level-15/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Symmetry",
+    "path": "/games/class4/maths/reading/level-16/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Lines and Shapes",
+    "path": "/games/class4/maths/reading/level-17/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Volume and Capacity",
+    "path": "/games/class4/maths/reading/level-18/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Problem Solving",
+    "path": "/games/class4/maths/reading/level-19/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Importance of Mathematics",
+    "path": "/games/class4/maths/reading/level-20/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Decimals",
+    "path": "/games/class4/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Geometry",
+    "path": "/games/class4/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Data Handling",
+    "path": "/games/class4/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Multiplication",
+    "path": "/games/class4/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Division",
+    "path": "/games/class4/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Factors and Multiples",
+    "path": "/games/class4/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Fractions",
+    "path": "/games/class4/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Basic Decimals",
+    "path": "/games/class4/maths/listening/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Geometry Shapes and Angles",
+    "path": "/games/class4/maths/listening/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Measurement Length Weight Capacity",
+    "path": "/games/class4/maths/listening/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Time and Calendar",
+    "path": "/games/class4/maths/listening/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Money Problems",
+    "path": "/games/class4/maths/listening/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Word Problems",
+    "path": "/games/class4/maths/listening/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Data Handling Graphs Charts",
+    "path": "/games/class4/maths/listening/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Decimals",
+    "path": "/games/class4/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Geometry",
+    "path": "/games/class4/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Rapid Maths",
+    "path": "/games/class4/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Decimal Writing",
+    "path": "/games/class4/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Geometry Writing",
+    "path": "/games/class4/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Rapid Maths Writing",
+    "path": "/games/class4/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Cells and Living Things",
+    "path": "/games/class4/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Human Body Systems",
+    "path": "/games/class4/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants and Photosynthesis",
+    "path": "/games/class4/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Animals and Adaptation",
+    "path": "/games/class4/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Food Chain",
+    "path": "/games/class4/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "States of Matter",
+    "path": "/games/class4/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Force and Energy",
+    "path": "/games/class4/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Light and Reflection",
+    "path": "/games/class4/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Sound and Vibrations",
+    "path": "/games/class4/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Water Cycle",
+    "path": "/games/class4/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Weather and Climate",
+    "path": "/games/class4/science/reading/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Natural Resources",
+    "path": "/games/class4/science/reading/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Pollution and Environment",
+    "path": "/games/class4/science/reading/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Electricity",
+    "path": "/games/class4/science/reading/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Simple Machines",
+    "path": "/games/class4/science/reading/level-15/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Earth and Space",
+    "path": "/games/class4/science/reading/level-16/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Healthy Lifestyle",
+    "path": "/games/class4/science/reading/level-17/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Safety and First Aid",
+    "path": "/games/class4/science/reading/level-18/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Recycling and Waste Management",
+    "path": "/games/class4/science/reading/level-19/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Importance of Trees",
+    "path": "/games/class4/science/reading/level-20/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Human Body",
+    "path": "/games/class4/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Energy",
+    "path": "/games/class4/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Solar System",
+    "path": "/games/class4/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Human Teeth Functions",
+    "path": "/games/class4/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "States of Matter",
+    "path": "/games/class4/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Properties of Matter",
+    "path": "/games/class4/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Forms of Energy",
+    "path": "/games/class4/science/listening/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Forces and Simple Machines",
+    "path": "/games/class4/science/listening/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Natural Resources",
+    "path": "/games/class4/science/listening/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Soil Importance",
+    "path": "/games/class4/science/listening/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Solar System",
+    "path": "/games/class4/science/listening/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Day and Night Cycle",
+    "path": "/games/class4/science/listening/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Balanced Diet Nutrients",
+    "path": "/games/class4/science/listening/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Communicable Diseases Prevention",
+    "path": "/games/class4/science/listening/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Human Body Organs",
+    "path": "/games/class4/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Energy Speaking",
+    "path": "/games/class4/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class4/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Sentence Speaking",
+    "path": "/games/class4/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Story Speaking",
+    "path": "/games/class4/science/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Human Body",
+    "path": "/games/class4/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Energy Writing",
+    "path": "/games/class4/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Solar System",
+    "path": "/games/class4/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "/games/class4/computer/reading/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Generations of Computers",
+    "path": "/games/class4/computer/reading/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Hardware and Software",
+    "path": "/games/class4/computer/reading/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Input and Output Devices",
+    "path": "/games/class4/computer/reading/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Storage Devices",
+    "path": "/games/class4/computer/reading/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Operating Systems",
+    "path": "/games/class4/computer/reading/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Word Processing",
+    "path": "/games/class4/computer/reading/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Presentation Software",
+    "path": "/games/class4/computer/reading/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Spreadsheets",
+    "path": "/games/class4/computer/reading/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Internet and Web Browsing",
+    "path": "/games/class4/computer/reading/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Email Communication",
+    "path": "/games/class4/computer/reading/level-11/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Computer Networks",
+    "path": "/games/class4/computer/reading/level-12/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Computer Safety",
+    "path": "/games/class4/computer/reading/level-13/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Cyber Safety",
+    "path": "/games/class4/computer/reading/level-14/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Introduction to Coding",
+    "path": "/games/class4/computer/reading/level-15/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Robots and Artificial Intelligence",
+    "path": "/games/class4/computer/reading/level-16/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Uses of Computers in Different Fields",
+    "path": "/games/class4/computer/reading/level-17/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Digital Learning",
+    "path": "/games/class4/computer/reading/level-18/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Future Technology",
+    "path": "/games/class4/computer/reading/level-19/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Responsible Use of Technology",
+    "path": "/games/class4/computer/reading/level-20/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "/games/class4/computer/listening/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "/games/class4/computer/listening/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "/games/class4/computer/listening/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Output Devices",
+    "path": "/games/class4/computer/listening/level-4/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Windows Basics",
+    "path": "/games/class4/computer/listening/level-5/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 6,
+    "topic": "File Management",
+    "path": "/games/class4/computer/listening/level-6/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Tux Paint",
+    "path": "/games/class4/computer/listening/level-7/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Digital Drawing Creativity",
+    "path": "/games/class4/computer/listening/level-8/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Kturtle Commands",
+    "path": "/games/class4/computer/listening/level-9/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Programming Logic",
+    "path": "/games/class4/computer/listening/level-10/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "/games/class4/computer/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "/games/class4/computer/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "/games/class4/computer/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "/games/class4/computer/writing/level-1/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "/games/class4/computer/writing/level-2/index.html"
+  },
+  {
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "/games/class4/computer/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "/games/class5/english/reading/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "/games/class5/english/reading/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Verbs",
+    "path": "/games/class5/english/reading/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Adjectives",
+    "path": "/games/class5/english/reading/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Adverbs",
+    "path": "/games/class5/english/reading/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Prepositions",
+    "path": "/games/class5/english/reading/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Conjunctions",
+    "path": "/games/class5/english/reading/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Articles",
+    "path": "/games/class5/english/reading/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Present Past Future Tenses",
+    "path": "/games/class5/english/reading/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Subject and Predicate",
+    "path": "/games/class5/english/reading/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Sentence Structure",
+    "path": "/games/class5/english/reading/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class5/english/reading/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class5/english/reading/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Paragraph Writing",
+    "path": "/games/class5/english/reading/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Story Writing",
+    "path": "/games/class5/english/reading/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "/games/class5/english/listening/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "/games/class5/english/listening/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Advanced Grammar",
+    "path": "/games/class5/english/listening/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Adjectives",
+    "path": "/games/class5/english/listening/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Adverbs",
+    "path": "/games/class5/english/listening/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Prepositions",
+    "path": "/games/class5/english/listening/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Conjunctions",
+    "path": "/games/class5/english/listening/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Articles",
+    "path": "/games/class5/english/listening/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Present Past Future Tenses",
+    "path": "/games/class5/english/listening/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Subject and Predicate",
+    "path": "/games/class5/english/listening/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Sentence Structure",
+    "path": "/games/class5/english/listening/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Synonyms and Antonyms",
+    "path": "/games/class5/english/listening/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Reading Comprehension",
+    "path": "/games/class5/english/listening/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Paragraph Writing",
+    "path": "/games/class5/english/listening/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Story Writing",
+    "path": "/games/class5/english/listening/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "/games/class5/english/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "/games/class5/english/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class5/english/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Describe the Image",
+    "path": "/games/class5/english/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Sentence Speaking",
+    "path": "/games/class5/english/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 6,
+    "topic": "Story Speaking",
+    "path": "/games/class5/english/speaking/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Advanced Grammar",
+    "path": "/games/class5/english/writing/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Essay Writing",
+    "path": "/games/class5/english/writing/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Creative Writing",
+    "path": "/games/class5/english/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "الفاظ",
+    "path": "/games/class5/urdu/reading/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "جملے",
+    "path": "/games/class5/urdu/reading/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "اسم",
+    "path": "/games/class5/urdu/reading/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 4,
+    "topic": "فعل",
+    "path": "/games/class5/urdu/reading/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 5,
+    "topic": "صفت",
+    "path": "/games/class5/urdu/reading/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 6,
+    "topic": "ضمیر",
+    "path": "/games/class5/urdu/reading/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 7,
+    "topic": "جمع اور واحد",
+    "path": "/games/class5/urdu/reading/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 8,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class5/urdu/reading/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 9,
+    "topic": "املا",
+    "path": "/games/class5/urdu/reading/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 10,
+    "topic": "خوشخطی",
+    "path": "/games/class5/urdu/reading/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 11,
+    "topic": "مضمون نگاری",
+    "path": "/games/class5/urdu/reading/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 12,
+    "topic": "کہانی لکھنے کی مشق",
+    "path": "/games/class5/urdu/reading/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 13,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class5/urdu/reading/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "قواعد",
+    "path": "/games/class5/urdu/listening/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "سن کر سمجھنا",
+    "path": "/games/class5/urdu/listening/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "اعلیٰ جملے",
+    "path": "/games/class5/urdu/listening/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 4,
+    "topic": "فعل",
+    "path": "/games/class5/urdu/listening/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 5,
+    "topic": "صفت",
+    "path": "/games/class5/urdu/listening/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 6,
+    "topic": "ضمیر",
+    "path": "/games/class5/urdu/listening/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 7,
+    "topic": "جمع اور واحد",
+    "path": "/games/class5/urdu/listening/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 8,
+    "topic": "متضاد الفاظ",
+    "path": "/games/class5/urdu/listening/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 9,
+    "topic": "املا",
+    "path": "/games/class5/urdu/listening/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 10,
+    "topic": "خوشخطی",
+    "path": "/games/class5/urdu/listening/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 11,
+    "topic": "مضمون نگاری",
+    "path": "/games/class5/urdu/listening/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 12,
+    "topic": "کہانی لکھنے کی مشق",
+    "path": "/games/class5/urdu/listening/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 13,
+    "topic": "تصویر سے کہانی",
+    "path": "/games/class5/urdu/listening/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اعلی سطح کی گفتگو",
+    "path": "/games/class5/urdu/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "کہانی سنائیں",
+    "path": "/games/class5/urdu/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "لیول 4",
+    "path": "/games/class5/urdu/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "غلط جملہ درست کریں",
+    "path": "/games/class5/urdu/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "رموزِ اوقاف",
+    "path": "/games/class5/urdu/writing/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "مختصر پیراگراف",
+    "path": "/games/class5/urdu/writing/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "کہانی مکمل کریں",
+    "path": "/games/class5/urdu/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 4,
+    "topic": "گرامر درست کریں",
+    "path": "/games/class5/urdu/writing/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Whole Numbers and Place Value",
+    "path": "/games/class5/maths/reading/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Factors and Multiples",
+    "path": "/games/class5/maths/reading/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Prime and Composite Numbers",
+    "path": "/games/class5/maths/reading/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Fractions",
+    "path": "/games/class5/maths/reading/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Decimals",
+    "path": "/games/class5/maths/reading/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Percentages",
+    "path": "/games/class5/maths/reading/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Addition and Subtraction",
+    "path": "/games/class5/maths/reading/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Multiplication and Division",
+    "path": "/games/class5/maths/reading/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Geometry",
+    "path": "/games/class5/maths/reading/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Angles and Lines",
+    "path": "/games/class5/maths/reading/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Perimeter and Area",
+    "path": "/games/class5/maths/reading/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Volume",
+    "path": "/games/class5/maths/reading/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Measurement",
+    "path": "/games/class5/maths/reading/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Time and Calendars",
+    "path": "/games/class5/maths/reading/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Money and Budgeting",
+    "path": "/games/class5/maths/reading/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Patterns and Sequences",
+    "path": "/games/class5/maths/reading/level-16/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Data Handling and Graphs",
+    "path": "/games/class5/maths/reading/level-17/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Symmetry and Transformations",
+    "path": "/games/class5/maths/reading/level-18/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Problem Solving",
+    "path": "/games/class5/maths/reading/level-19/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Importance of Mathematics",
+    "path": "/games/class5/maths/reading/level-20/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "/games/class5/maths/listening/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Word Problems",
+    "path": "/games/class5/maths/listening/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Graphs and Charts",
+    "path": "/games/class5/maths/listening/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Multiplication",
+    "path": "/games/class5/maths/listening/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Division",
+    "path": "/games/class5/maths/listening/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Factors and Multiples",
+    "path": "/games/class5/maths/listening/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Fractions",
+    "path": "/games/class5/maths/listening/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Basic Decimals",
+    "path": "/games/class5/maths/listening/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Geometry Shapes and Angles",
+    "path": "/games/class5/maths/listening/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Measurement Length Weight Capacity",
+    "path": "/games/class5/maths/listening/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Time and Calendar",
+    "path": "/games/class5/maths/listening/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Money Problems",
+    "path": "/games/class5/maths/listening/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Word Problems",
+    "path": "/games/class5/maths/listening/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Data Handling Graphs Charts",
+    "path": "/games/class5/maths/listening/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "/games/class5/maths/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Advanced Operators",
+    "path": "/games/class5/maths/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Mental Maths",
+    "path": "/games/class5/maths/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "/games/class5/maths/writing/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Advanced Operators",
+    "path": "/games/class5/maths/writing/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Fast Mental Maths",
+    "path": "/games/class5/maths/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Human Body Systems",
+    "path": "/games/class5/science/reading/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Nutrition and Balanced Diet",
+    "path": "/games/class5/science/reading/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants and Their Functions",
+    "path": "/games/class5/science/reading/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Reproduction in Plants",
+    "path": "/games/class5/science/reading/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Animals and Ecosystems",
+    "path": "/games/class5/science/reading/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Food Chains and Food Webs",
+    "path": "/games/class5/science/reading/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Matter and Its Properties",
+    "path": "/games/class5/science/reading/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Changes in Matter",
+    "path": "/games/class5/science/reading/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Force and Motion",
+    "path": "/games/class5/science/reading/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Energy Around Us",
+    "path": "/games/class5/science/reading/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Light and Shadows",
+    "path": "/games/class5/science/reading/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Sound and Hearing",
+    "path": "/games/class5/science/reading/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Electricity and Circuits",
+    "path": "/games/class5/science/reading/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Earth and Solar System",
+    "path": "/games/class5/science/reading/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Natural Disasters",
+    "path": "/games/class5/science/reading/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Weather and Climate",
+    "path": "/games/class5/science/reading/level-16/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Pollution and Conservation",
+    "path": "/games/class5/science/reading/level-17/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Renewable and Non-Renewable Resources",
+    "path": "/games/class5/science/reading/level-18/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Technology in Daily Life",
+    "path": "/games/class5/science/reading/level-19/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Healthy Lifestyle and Exercise",
+    "path": "/games/class5/science/reading/level-20/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "/games/class5/science/listening/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Electricity",
+    "path": "/games/class5/science/listening/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Earth and Space",
+    "path": "/games/class5/science/listening/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Human Body Systems",
+    "path": "/games/class5/science/listening/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 5,
+    "topic": "Ecosystems Energy Flow",
+    "path": "/games/class5/science/listening/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 6,
+    "topic": "Physical and Chemical Changes",
+    "path": "/games/class5/science/listening/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 7,
+    "topic": "Light Properties Uses",
+    "path": "/games/class5/science/listening/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 8,
+    "topic": "Sound and Noise Pollution",
+    "path": "/games/class5/science/listening/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Electricity Static Simple Circuits",
+    "path": "/games/class5/science/listening/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Magnetism",
+    "path": "/games/class5/science/listening/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Structure of Earth",
+    "path": "/games/class5/science/listening/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Soil Types Importance",
+    "path": "/games/class5/science/listening/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Earth Moon Sun Movements",
+    "path": "/games/class5/science/listening/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Artificial Satellites",
+    "path": "/games/class5/science/listening/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Technology in Everyday Life",
+    "path": "/games/class5/science/listening/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "/games/class5/science/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Electricity and Magnetism",
+    "path": "/games/class5/science/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "/games/class5/science/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Advanced Sentence Speaking",
+    "path": "/games/class5/science/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 5,
+    "topic": "Science Story Speaking",
+    "path": "/games/class5/science/speaking/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "/games/class5/science/writing/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Electricity Writing",
+    "path": "/games/class5/science/writing/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Earth and Space",
+    "path": "/games/class5/science/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 4,
+    "topic": "Rapid Science Writing",
+    "path": "/games/class5/science/writing/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Computer Systems",
+    "path": "/games/class5/computer/reading/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "History of Computers",
+    "path": "/games/class5/computer/reading/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Input and Output Devices",
+    "path": "/games/class5/computer/reading/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 4,
+    "topic": "Storage Devices",
+    "path": "/games/class5/computer/reading/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 5,
+    "topic": "Operating Systems",
+    "path": "/games/class5/computer/reading/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 6,
+    "topic": "Word Processing",
+    "path": "/games/class5/computer/reading/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 7,
+    "topic": "Spreadsheets",
+    "path": "/games/class5/computer/reading/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 8,
+    "topic": "Presentation Software",
+    "path": "/games/class5/computer/reading/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 9,
+    "topic": "Computer Networks",
+    "path": "/games/class5/computer/reading/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 10,
+    "topic": "Internet and Web Browsing",
+    "path": "/games/class5/computer/reading/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 11,
+    "topic": "Email Communication",
+    "path": "/games/class5/computer/reading/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 12,
+    "topic": "Cyber Safety",
+    "path": "/games/class5/computer/reading/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 13,
+    "topic": "Computer Viruses",
+    "path": "/games/class5/computer/reading/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 14,
+    "topic": "Programming and Coding",
+    "path": "/games/class5/computer/reading/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 15,
+    "topic": "Artificial Intelligence",
+    "path": "/games/class5/computer/reading/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 16,
+    "topic": "Robotics",
+    "path": "/games/class5/computer/reading/level-16/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 17,
+    "topic": "Uses of Computers in Different Fields",
+    "path": "/games/class5/computer/reading/level-17/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 18,
+    "topic": "Digital Citizenship",
+    "path": "/games/class5/computer/reading/level-18/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 19,
+    "topic": "Future Technology",
+    "path": "/games/class5/computer/reading/level-19/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 20,
+    "topic": "Importance of Technology",
+    "path": "/games/class5/computer/reading/level-20/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "MS Word",
+    "path": "/games/class5/computer/listening/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "MS Excel",
+    "path": "/games/class5/computer/listening/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Cyber Safety",
+    "path": "/games/class5/computer/listening/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 4,
+    "topic": "Operating System Basics",
+    "path": "/games/class5/computer/listening/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 5,
+    "topic": "MS Word Formatting",
+    "path": "/games/class5/computer/listening/level-5/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 6,
+    "topic": "MS Excel Data Formulas",
+    "path": "/games/class5/computer/listening/level-6/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 7,
+    "topic": "MS Excel Charts",
+    "path": "/games/class5/computer/listening/level-7/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 8,
+    "topic": "MS PowerPoint Slides",
+    "path": "/games/class5/computer/listening/level-8/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 9,
+    "topic": "Algorithmic Thinking",
+    "path": "/games/class5/computer/listening/level-9/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 10,
+    "topic": "Conditional Logic",
+    "path": "/games/class5/computer/listening/level-10/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 11,
+    "topic": "Scratch Basics",
+    "path": "/games/class5/computer/listening/level-11/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 12,
+    "topic": "Animations Interactive Stories",
+    "path": "/games/class5/computer/listening/level-12/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 13,
+    "topic": "Basic Debugging",
+    "path": "/games/class5/computer/listening/level-13/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 14,
+    "topic": "Cyber Safety",
+    "path": "/games/class5/computer/listening/level-14/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 15,
+    "topic": "Responsible AI Use",
+    "path": "/games/class5/computer/listening/level-15/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "MS Word and Excel",
+    "path": "/games/class5/computer/speaking/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Cyber Safety",
+    "path": "/games/class5/computer/speaking/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Advanced Computer Speaking",
+    "path": "/games/class5/computer/speaking/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 4,
+    "topic": "Fast Computer Challenge",
+    "path": "/games/class5/computer/speaking/level-4/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "MS Word and Excel",
+    "path": "/games/class5/computer/writing/level-1/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Cyber Safety",
+    "path": "/games/class5/computer/writing/level-2/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Advanced Computer Writing",
+    "path": "/games/class5/computer/writing/level-3/index.html"
+  },
+  {
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 4,
+    "topic": "Rapid Typing Challenge",
+    "path": "/games/class5/computer/writing/level-4/index.html"
+  }
+];

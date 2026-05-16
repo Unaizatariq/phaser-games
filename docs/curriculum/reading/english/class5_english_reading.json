@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "The Water Cycle",
+    "passage": "The water cycle is a natural process that moves water around the Earth. Heat from the sun changes water into vapor, which rises into the sky. The vapor cools and forms clouds. Later, rain falls back to the ground and fills rivers, lakes, and oceans again. This cycle continues again and again.",
+    "answer": "water cycle",
+    "options": [
+      "water cycle",
+      "solar system",
+      "food chain",
+      "traffic signal"
+    ]
+  },
+  {
+    "topic": "Honesty",
+    "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
+    "answer": "honesty",
+    "options": [
+      "honesty",
+      "dishonesty",
+      "anger",
+      "fear"
+    ]
+  },
+  {
+    "topic": "Pollution and Environment",
+    "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
+    "answer": "pollution",
+    "options": [
+      "pollution",
+      "honesty",
+      "technology",
+      "education"
+    ]
+  },
+  {
+    "topic": "Importance of Education",
+    "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
+    "answer": "education",
+    "options": [
+      "education",
+      "pollution",
+      "weather",
+      "transport"
+    ]
+  },
+  {
+    "topic": "Hard Work Leads to Success",
+    "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
+    "answer": "hard work",
+    "options": [
+      "hard work",
+      "luck only",
+      "sleeping",
+      "playing only"
+    ]
+  },
+  {
+    "topic": "Global Warming",
+    "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
+    "answer": "global warming",
+    "options": [
+      "global warming",
+      "water cycle",
+      "honesty",
+      "daily routine"
+    ]
+  },
+  {
+    "topic": "Renewable Energy",
+    "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
+    "answer": "renewable energy",
+    "options": [
+      "renewable energy",
+      "plastic waste",
+      "traffic noise",
+      "dirty water"
+    ]
+  },
+  {
+    "topic": "Saving Water",
+    "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
+    "answer": "save water",
+    "options": [
+      "save water",
+      "waste water",
+      "pollute water",
+      "leave taps running"
+    ]
+  },
+  {
+    "topic": "My Aim in Life",
+    "passage": "Everyone has dreams and goals for the future. My aim in life is to become a doctor and help sick people. Doctors save lives and care for patients. To achieve my goal, I study hard and learn new things every day. I hope to serve my country in the future.",
+    "answer": "doctor",
+    "options": [
+      "doctor",
+      "farmer",
+      "pilot",
+      "artist"
+    ]
+  },
+  {
+    "topic": "Technology in Daily Life",
+    "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
+    "answer": "technology",
+    "options": [
+      "technology",
+      "pollution",
+      "farming",
+      "rain"
+    ]
+  }
+]

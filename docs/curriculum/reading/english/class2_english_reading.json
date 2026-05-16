@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "The Park",
+    "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
+    "answer": "park",
+    "options": [
+      "park",
+      "market",
+      "school",
+      "zoo"
+    ]
+  },
+  {
+    "topic": "Helping Others",
+    "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
+    "answer": "helped",
+    "options": [
+      "helped",
+      "ignored",
+      "laughed",
+      "ran away"
+    ]
+  },
+  {
+    "topic": "My Pet Dog",
+    "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
+    "answer": "Bruno",
+    "options": [
+      "Bruno",
+      "Tom",
+      "Ali",
+      "Max"
+    ]
+  },
+  {
+    "topic": "Clean Environment",
+    "passage": "A clean environment keeps us healthy and safe. We should throw garbage in dustbins and keep our streets clean. Trees and plants make the air fresh. Everyone should help protect the environment.",
+    "answer": "dustbins",
+    "options": [
+      "dustbins",
+      "rivers",
+      "roads",
+      "classrooms"
+    ]
+  },
+  {
+    "topic": "The Sun",
+    "passage": "The sun rises in the morning and gives us light and heat. Plants need sunlight to grow. The sun also helps clothes dry quickly. In the evening, the sun sets and the sky becomes dark.",
+    "answer": "light and heat",
+    "options": [
+      "light and heat",
+      "milk",
+      "books",
+      "raincoats"
+    ]
+  },
+  {
+    "topic": "My Favorite Game",
+    "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
+    "answer": "football",
+    "options": [
+      "football",
+      "cricket",
+      "ludo",
+      "hockey"
+    ]
+  },
+  {
+    "topic": "A Picnic Day",
+    "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
+    "answer": "lake",
+    "options": [
+      "lake",
+      "museum",
+      "market",
+      "hospital"
+    ]
+  },
+  {
+    "topic": "My Teacher",
+    "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
+    "answer": "kind",
+    "options": [
+      "kind",
+      "angry",
+      "lazy",
+      "careless"
+    ]
+  },
+  {
+    "topic": "The Market",
+    "passage": "Yesterday, I went to the market with my mother. There were many shops selling fruits, vegetables, toys, and clothes. The market was crowded and noisy. We bought fresh fruits and returned home.",
+    "answer": "market",
+    "options": [
+      "market",
+      "school",
+      "park",
+      "farm"
+    ]
+  },
+  {
+    "topic": "A Birthday Party",
+    "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
+    "answer": "birthday party",
+    "options": [
+      "birthday party",
+      "exam",
+      "picnic",
+      "sports day"
+    ]
+  }
+]

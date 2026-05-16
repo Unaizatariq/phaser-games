@@ -1,0 +1,6537 @@
+{
+  "english": [
+    {
+      "grade": "nursery",
+      "level": 1,
+      "topic": "Speak Alphabets A-Z",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the letter: A",
+          "answer": "A",
+          "expected": "A",
+          "options": [],
+          "audioText": "Say the letter: A",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "A",
+            "A"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: B",
+          "answer": "B",
+          "expected": "B",
+          "options": [],
+          "audioText": "Say the letter: B",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "B",
+            "B"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: C",
+          "answer": "C",
+          "expected": "C",
+          "options": [],
+          "audioText": "Say the letter: C",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "C",
+            "C"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: D",
+          "answer": "D",
+          "expected": "D",
+          "options": [],
+          "audioText": "Say the letter: D",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "D",
+            "D"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: E",
+          "answer": "E",
+          "expected": "E",
+          "options": [],
+          "audioText": "Say the letter: E",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "E",
+            "E"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: F",
+          "answer": "F",
+          "expected": "F",
+          "options": [],
+          "audioText": "Say the letter: F",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "F",
+            "F"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: G",
+          "answer": "G",
+          "expected": "G",
+          "options": [],
+          "audioText": "Say the letter: G",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "G",
+            "G"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: H",
+          "answer": "H",
+          "expected": "H",
+          "options": [],
+          "audioText": "Say the letter: H",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "H",
+            "H"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: I",
+          "answer": "I",
+          "expected": "I",
+          "options": [],
+          "audioText": "Say the letter: I",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "I",
+            "I"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: J",
+          "answer": "J",
+          "expected": "J",
+          "options": [],
+          "audioText": "Say the letter: J",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "J",
+            "J"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: K",
+          "answer": "K",
+          "expected": "K",
+          "options": [],
+          "audioText": "Say the letter: K",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "K",
+            "K"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: L",
+          "answer": "L",
+          "expected": "L",
+          "options": [],
+          "audioText": "Say the letter: L",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "L",
+            "L"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: M",
+          "answer": "M",
+          "expected": "M",
+          "options": [],
+          "audioText": "Say the letter: M",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "M",
+            "M"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: N",
+          "answer": "N",
+          "expected": "N",
+          "options": [],
+          "audioText": "Say the letter: N",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "N",
+            "N"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: O",
+          "answer": "O",
+          "expected": "O",
+          "options": [],
+          "audioText": "Say the letter: O",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "O",
+            "O"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: P",
+          "answer": "P",
+          "expected": "P",
+          "options": [],
+          "audioText": "Say the letter: P",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "P",
+            "P"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: Q",
+          "answer": "Q",
+          "expected": "Q",
+          "options": [],
+          "audioText": "Say the letter: Q",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Q",
+            "Q"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: R",
+          "answer": "R",
+          "expected": "R",
+          "options": [],
+          "audioText": "Say the letter: R",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "R",
+            "R"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: S",
+          "answer": "S",
+          "expected": "S",
+          "options": [],
+          "audioText": "Say the letter: S",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "S",
+            "S"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: T",
+          "answer": "T",
+          "expected": "T",
+          "options": [],
+          "audioText": "Say the letter: T",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "T",
+            "T"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: U",
+          "answer": "U",
+          "expected": "U",
+          "options": [],
+          "audioText": "Say the letter: U",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "U",
+            "U"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: V",
+          "answer": "V",
+          "expected": "V",
+          "options": [],
+          "audioText": "Say the letter: V",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "V",
+            "V"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: W",
+          "answer": "W",
+          "expected": "W",
+          "options": [],
+          "audioText": "Say the letter: W",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "W",
+            "W"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: X",
+          "answer": "X",
+          "expected": "X",
+          "options": [],
+          "audioText": "Say the letter: X",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "X",
+            "X"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: Y",
+          "answer": "Y",
+          "expected": "Y",
+          "options": [],
+          "audioText": "Say the letter: Y",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the letter: Z",
+          "answer": "Z",
+          "expected": "Z",
+          "options": [],
+          "audioText": "Say the letter: Z",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Z",
+            "Z"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 2,
+      "topic": "Speak Simple Words",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Apple",
+          "answer": "Apple",
+          "expected": "Apple",
+          "options": [],
+          "audioText": "Say the word: Apple",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Ball",
+          "answer": "Ball",
+          "expected": "Ball",
+          "options": [],
+          "audioText": "Say the word: Ball",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Cat",
+          "answer": "Cat",
+          "expected": "Cat",
+          "options": [],
+          "audioText": "Say the word: Cat",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 3,
+      "topic": "Speak Colors",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the color: Red",
+          "answer": "Red",
+          "expected": "Red",
+          "options": [],
+          "audioText": "Say the color: Red",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the color: Blue",
+          "answer": "Blue",
+          "expected": "Blue",
+          "options": [],
+          "audioText": "Say the color: Blue",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the color: Green",
+          "answer": "Green",
+          "expected": "Green",
+          "options": [],
+          "audioText": "Say the color: Green",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 4,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Apple",
+          "expected": "Apple",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "apple.png",
+          "requiredAsset": "apple.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Banana",
+          "expected": "Banana",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "banana.png",
+          "requiredAsset": "banana.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Cat",
+          "expected": "Cat",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "cat.png",
+          "requiredAsset": "cat.png"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 5,
+      "topic": "Speak After Seeing Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak the fruit name.",
+          "answer": "Mango",
+          "expected": "Mango",
+          "options": [],
+          "audioText": "Speak the fruit name.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mango.png",
+          "requiredAsset": "mango.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak the object name.",
+          "answer": "Ball",
+          "expected": "Ball",
+          "options": [],
+          "audioText": "Speak the object name.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "ball.png",
+          "requiredAsset": "ball.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak the animal name.",
+          "answer": "Dog",
+          "expected": "Dog",
+          "options": [],
+          "audioText": "Speak the animal name.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "dog.png",
+          "requiredAsset": "dog.png"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 1,
+      "topic": "Vocabulary Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: School",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Say the word: School",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Elephant",
+          "answer": "Elephant",
+          "expected": "Elephant",
+          "options": [],
+          "audioText": "Say the word: Elephant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 2,
+      "topic": "Pronunciation Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Beautiful",
+          "answer": "Beautiful",
+          "expected": "Beautiful",
+          "options": [],
+          "audioText": "Pronounce the word: Beautiful",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Mountain",
+          "answer": "Mountain",
+          "expected": "Mountain",
+          "options": [],
+          "audioText": "Pronounce the word: Mountain",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Pronounce the word: Hospital",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Pronounce the word: Hospital",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "clock.png",
+          "requiredAsset": "clock.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Horse",
+          "expected": "Horse",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "horse.png",
+          "requiredAsset": "horse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What place is this?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "What place is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "school.png",
+          "requiredAsset": "school.png"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 4,
+      "topic": "Describe the Image",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Children are playing in the park.",
+          "expected": "Children are playing in the park.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "park.png",
+          "requiredAsset": "park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "Students are studying in the classroom.",
+          "expected": "Students are studying in the classroom.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "classroom.png",
+          "requiredAsset": "classroom.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe what you see.",
+          "answer": "People are shopping in the market.",
+          "expected": "People are shopping in the market.",
+          "options": [],
+          "audioText": "Describe what you see.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "market.png",
+          "requiredAsset": "market.png"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 5,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'school'.",
+          "answer": "I go to school every day.",
+          "expected": "I go to school every day.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'school'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence using the word 'computer'.",
+          "answer": "I use a computer to study.",
+          "expected": "I use a computer to study.",
+          "options": [],
+          "audioText": "Speak a sentence using the word 'computer'.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about your best friend.",
+          "answer": "My best friend is very kind.",
+          "expected": "My best friend is very kind.",
+          "options": [],
+          "audioText": "Speak a sentence about your best friend.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 6,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your picnic day.",
+          "answer": "We went for a picnic and played games.",
+          "expected": "We went for a picnic and played games.",
+          "options": [],
+          "audioText": "Tell a short story about your picnic day.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about your favorite animal.",
+          "answer": "My favorite animal is a lion because it is strong.",
+          "expected": "My favorite animal is a lion because it is strong.",
+          "options": [],
+          "audioText": "Speak about your favorite animal.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about your school.",
+          "answer": "My school is beautiful and I love my teachers.",
+          "expected": "My school is beautiful and I love my teachers.",
+          "options": [],
+          "audioText": "Tell a short story about your school.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    }
+  ],
+  "maths": [
+    {
+      "grade": "nursery",
+      "level": 1,
+      "topic": "Counting 1-50",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the number: 1",
+          "answer": "One",
+          "expected": "One",
+          "options": [],
+          "audioText": "Say the number: 1",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "One",
+            "1"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 5",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "Say the number: 5",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 10",
+          "answer": "Ten",
+          "expected": "Ten",
+          "options": [],
+          "audioText": "Say the number: 10",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Ten",
+            "10"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 25",
+          "answer": "Twenty Five",
+          "expected": "Twenty Five",
+          "options": [],
+          "audioText": "Say the number: 25",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twenty Five",
+            "25"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 50",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "Say the number: 50",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 2,
+      "topic": "Shape Recognition",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What shape is this?",
+          "answer": "Circle",
+          "expected": "Circle",
+          "options": [],
+          "audioText": "What shape is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape is this?",
+          "answer": "Triangle",
+          "expected": "Triangle",
+          "options": [],
+          "audioText": "What shape is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape is this?",
+          "answer": "Square",
+          "expected": "Square",
+          "options": [],
+          "audioText": "What shape is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape is this?",
+          "answer": "Star",
+          "expected": "Star",
+          "options": [],
+          "audioText": "What shape is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape is this?",
+          "answer": "Oval",
+          "expected": "Oval",
+          "options": [],
+          "audioText": "What shape is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 3,
+      "topic": "Mental Maths",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What comes after 4?",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "What comes after 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What comes before 8?",
+          "answer": "Seven",
+          "expected": "Seven",
+          "options": [],
+          "audioText": "What comes before 8?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Seven",
+            "7"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 2 + 1?",
+          "answer": "Three",
+          "expected": "Three",
+          "options": [],
+          "audioText": "What is 2 + 1?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Three",
+            "3"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 5 - 2?",
+          "answer": "Three",
+          "expected": "Three",
+          "options": [],
+          "audioText": "What is 5 - 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Three",
+            "3"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 3 + 3?",
+          "answer": "Six",
+          "expected": "Six",
+          "options": [],
+          "audioText": "What is 3 + 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Six",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 1,
+      "topic": "Counting and Numbers",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the number: 12",
+          "answer": "Twelve",
+          "expected": "Twelve",
+          "options": [],
+          "audioText": "Say the number: 12",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twelve",
+            "12"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 18",
+          "answer": "Eighteen",
+          "expected": "Eighteen",
+          "options": [],
+          "audioText": "Say the number: 18",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eighteen",
+            "18"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 35",
+          "answer": "Thirty Five",
+          "expected": "Thirty Five",
+          "options": [],
+          "audioText": "Say the number: 35",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 42",
+          "answer": "Forty Two",
+          "expected": "Forty Two",
+          "options": [],
+          "audioText": "Say the number: 42",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the number: 50",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "Say the number: 50",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 2,
+      "topic": "Operators",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 2 + 2?",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "What is 2 + 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 5 - 1?",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "What is 5 - 1?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 3 × 2?",
+          "answer": "Six",
+          "expected": "Six",
+          "options": [],
+          "audioText": "What is 3 × 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Six",
+            "6"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 8 ÷ 2?",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "What is 8 ÷ 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 10 % 5?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 10 % 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "kg",
+      "level": 3,
+      "topic": "Fast Maths",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What comes next? 2, 4, 6",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What comes next? 2, 4, 6",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 7 + 1?",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What is 7 + 1?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 9 - 4?",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "What is 9 - 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 2 × 5?",
+          "answer": "Ten",
+          "expected": "Ten",
+          "options": [],
+          "audioText": "What is 2 × 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Ten",
+            "10"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 12 ÷ 3?",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "What is 12 ÷ 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 1,
+      "topic": "Addition and Subtraction",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 5 + 3?",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What is 5 + 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 9 - 4?",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "What is 9 - 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 10 + 5?",
+          "answer": "Fifteen",
+          "expected": "Fifteen",
+          "options": [],
+          "audioText": "What is 10 + 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifteen",
+            "15"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 20 - 10?",
+          "answer": "Ten",
+          "expected": "Ten",
+          "options": [],
+          "audioText": "What is 20 - 10?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Ten",
+            "10"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 7 + 2?",
+          "answer": "Nine",
+          "expected": "Nine",
+          "options": [],
+          "audioText": "What is 7 + 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Nine",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 2,
+      "topic": "Multiplication and Division",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 2 × 3?",
+          "answer": "Six",
+          "expected": "Six",
+          "options": [],
+          "audioText": "What is 2 × 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Six",
+            "6"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 12 ÷ 4?",
+          "answer": "Three",
+          "expected": "Three",
+          "options": [],
+          "audioText": "What is 12 ÷ 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Three",
+            "3"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 5 × 2?",
+          "answer": "Ten",
+          "expected": "Ten",
+          "options": [],
+          "audioText": "What is 5 × 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Ten",
+            "10"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 16 ÷ 2?",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What is 16 ÷ 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 3 × 4?",
+          "answer": "Twelve",
+          "expected": "Twelve",
+          "options": [],
+          "audioText": "What is 3 × 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twelve",
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 3,
+      "topic": "Mental Maths Challenge",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 15 + 5?",
+          "answer": "Twenty",
+          "expected": "Twenty",
+          "options": [],
+          "audioText": "What is 15 + 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twenty",
+            "20"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 25 - 10?",
+          "answer": "Fifteen",
+          "expected": "Fifteen",
+          "options": [],
+          "audioText": "What is 25 - 10?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifteen",
+            "15"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 8 × 2?",
+          "answer": "Sixteen",
+          "expected": "Sixteen",
+          "options": [],
+          "audioText": "What is 8 × 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Sixteen",
+            "16"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 18 ÷ 3?",
+          "answer": "Six",
+          "expected": "Six",
+          "options": [],
+          "audioText": "What is 18 ÷ 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Six",
+            "6"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 100 % 50?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 100 % 50?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 1,
+      "topic": "Place Value",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is the tens digit in 54?",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "What is the tens digit in 54?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is the ones digit in 89?",
+          "answer": "Nine",
+          "expected": "Nine",
+          "options": [],
+          "audioText": "What is the ones digit in 89?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Nine",
+            "9"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is the place value of 3 in 34?",
+          "answer": "Thirty",
+          "expected": "Thirty",
+          "options": [],
+          "audioText": "What is the place value of 3 in 34?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Thirty",
+            "30"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is the tens digit in 72?",
+          "answer": "Seven",
+          "expected": "Seven",
+          "options": [],
+          "audioText": "What is the tens digit in 72?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Seven",
+            "7"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is the place value of 5 in 58?",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "What is the place value of 5 in 58?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 2,
+      "topic": "Operators Practice",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 25 + 15?",
+          "answer": "Forty",
+          "expected": "Forty",
+          "options": [],
+          "audioText": "What is 25 + 15?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Forty",
+            "40"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 50 - 20?",
+          "answer": "Thirty",
+          "expected": "Thirty",
+          "options": [],
+          "audioText": "What is 50 - 20?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Thirty",
+            "30"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 6 × 5?",
+          "answer": "Thirty",
+          "expected": "Thirty",
+          "options": [],
+          "audioText": "What is 6 × 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Thirty",
+            "30"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 40 ÷ 5?",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What is 40 ÷ 5?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 20 % 10?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 20 % 10?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 3,
+      "topic": "Fast Answer Challenge",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 100 - 50?",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "What is 100 - 50?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 12 × 2?",
+          "answer": "Twenty Four",
+          "expected": "Twenty Four",
+          "options": [],
+          "audioText": "What is 12 × 2?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 81 ÷ 9?",
+          "answer": "Nine",
+          "expected": "Nine",
+          "options": [],
+          "audioText": "What is 81 ÷ 9?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Nine",
+            "9"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 14 + 6?",
+          "answer": "Twenty",
+          "expected": "Twenty",
+          "options": [],
+          "audioText": "What is 14 + 6?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twenty",
+            "20"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 33 - 3?",
+          "answer": "Thirty",
+          "expected": "Thirty",
+          "options": [],
+          "audioText": "What is 33 - 3?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Thirty",
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 1,
+      "topic": "Fractions",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the fraction 1/2",
+          "answer": "One Half",
+          "expected": "One Half",
+          "options": [],
+          "audioText": "Say the fraction 1/2",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the fraction 1/4",
+          "answer": "One Fourth",
+          "expected": "One Fourth",
+          "options": [],
+          "audioText": "Say the fraction 1/4",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the fraction 3/4",
+          "answer": "Three Fourths",
+          "expected": "Three Fourths",
+          "options": [],
+          "audioText": "Say the fraction 3/4",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which fraction is bigger: 1/2 or 1/4?",
+          "answer": "One Half",
+          "expected": "One Half",
+          "options": [],
+          "audioText": "Which fraction is bigger: 1/2 or 1/4?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is half of 10?",
+          "answer": "Five",
+          "expected": "Five",
+          "options": [],
+          "audioText": "What is half of 10?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Five",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 2,
+      "topic": "Measurements",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which unit measures length?",
+          "answer": "Meter",
+          "expected": "Meter",
+          "options": [],
+          "audioText": "Which unit measures length?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which unit measures weight?",
+          "answer": "Kilogram",
+          "expected": "Kilogram",
+          "options": [],
+          "audioText": "Which unit measures weight?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which unit measures liquid?",
+          "answer": "Liter",
+          "expected": "Liter",
+          "options": [],
+          "audioText": "Which unit measures liquid?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What tool measures time?",
+          "answer": "Clock",
+          "expected": "Clock",
+          "options": [],
+          "audioText": "What tool measures time?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What tool measures length?",
+          "answer": "Ruler",
+          "expected": "Ruler",
+          "options": [],
+          "audioText": "What tool measures length?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 3,
+      "topic": "Mental Maths",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 25 + 25?",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "What is 25 + 25?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 90 - 45?",
+          "answer": "Forty Five",
+          "expected": "Forty Five",
+          "options": [],
+          "audioText": "What is 90 - 45?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 9 × 9?",
+          "answer": "Eighty One",
+          "expected": "Eighty One",
+          "options": [],
+          "audioText": "What is 9 × 9?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 64 ÷ 8?",
+          "answer": "Eight",
+          "expected": "Eight",
+          "options": [],
+          "audioText": "What is 64 ÷ 8?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Eight",
+            "8"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 50 % 25?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 50 % 25?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 1,
+      "topic": "Decimals",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the decimal 0.5",
+          "answer": "Zero Point Five",
+          "expected": "Zero Point Five",
+          "options": [],
+          "audioText": "Say the decimal 0.5",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the decimal 0.9",
+          "answer": "Zero Point Nine",
+          "expected": "Zero Point Nine",
+          "options": [],
+          "audioText": "Say the decimal 0.9",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which decimal is greater: 0.2 or 0.8?",
+          "answer": "Zero Point Eight",
+          "expected": "Zero Point Eight",
+          "options": [],
+          "audioText": "Which decimal is greater: 0.2 or 0.8?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the decimal 1.5",
+          "answer": "One Point Five",
+          "expected": "One Point Five",
+          "options": [],
+          "audioText": "Say the decimal 1.5",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the decimal 2.0",
+          "answer": "Two Point Zero",
+          "expected": "Two Point Zero",
+          "options": [],
+          "audioText": "Say the decimal 2.0",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 2,
+      "topic": "Geometry",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "How many sides does a triangle have?",
+          "answer": "Three",
+          "expected": "Three",
+          "options": [],
+          "audioText": "How many sides does a triangle have?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Three",
+            "3"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "How many sides does a square have?",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "How many sides does a square have?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape has no corners?",
+          "answer": "Circle",
+          "expected": "Circle",
+          "options": [],
+          "audioText": "What shape has no corners?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape has 4 equal sides?",
+          "answer": "Square",
+          "expected": "Square",
+          "options": [],
+          "audioText": "What shape has 4 equal sides?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What shape has 3 sides?",
+          "answer": "Triangle",
+          "expected": "Triangle",
+          "options": [],
+          "audioText": "What shape has 3 sides?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 3,
+      "topic": "Rapid Maths",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 120 + 30?",
+          "answer": "One Fifty",
+          "expected": "One Fifty",
+          "options": [],
+          "audioText": "What is 120 + 30?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 200 - 75?",
+          "answer": "One Twenty Five",
+          "expected": "One Twenty Five",
+          "options": [],
+          "audioText": "What is 200 - 75?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 25 × 4?",
+          "answer": "One Hundred",
+          "expected": "One Hundred",
+          "options": [],
+          "audioText": "What is 25 × 4?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 144 ÷ 12?",
+          "answer": "Twelve",
+          "expected": "Twelve",
+          "options": [],
+          "audioText": "What is 144 ÷ 12?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twelve",
+            "12"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 100 % 25?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 100 % 25?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 1,
+      "topic": "Factors and Multiples",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say a factor of 12.",
+          "answer": "Three",
+          "expected": "Three",
+          "options": [],
+          "audioText": "Say a factor of 12.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Three",
+            "3"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say a multiple of 5.",
+          "answer": "Fifteen",
+          "expected": "Fifteen",
+          "options": [],
+          "audioText": "Say a multiple of 5.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifteen",
+            "15"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What are the factors of 10?",
+          "answer": "Two and Five",
+          "expected": "Two and Five",
+          "options": [],
+          "audioText": "What are the factors of 10?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say a multiple of 8.",
+          "answer": "Sixteen",
+          "expected": "Sixteen",
+          "options": [],
+          "audioText": "Say a multiple of 8.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Sixteen",
+            "16"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Say a factor of 20.",
+          "answer": "Four",
+          "expected": "Four",
+          "options": [],
+          "audioText": "Say a factor of 20.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Four",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 2,
+      "topic": "Advanced Operators",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is 125 + 25?",
+          "answer": "One Fifty",
+          "expected": "One Fifty",
+          "options": [],
+          "audioText": "What is 125 + 25?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 500 - 250?",
+          "answer": "Two Fifty",
+          "expected": "Two Fifty",
+          "options": [],
+          "audioText": "What is 500 - 250?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 12 × 12?",
+          "answer": "One Forty Four",
+          "expected": "One Forty Four",
+          "options": [],
+          "audioText": "What is 12 × 12?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 144 ÷ 12?",
+          "answer": "Twelve",
+          "expected": "Twelve",
+          "options": [],
+          "audioText": "What is 144 ÷ 12?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Twelve",
+            "12"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 50 % 10?",
+          "answer": "Zero",
+          "expected": "Zero",
+          "options": [],
+          "audioText": "What is 50 % 10?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Zero",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 3,
+      "topic": "Fast Mental Maths",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is half of 100?",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "What is half of 100?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is double of 25?",
+          "answer": "Fifty",
+          "expected": "Fifty",
+          "options": [],
+          "audioText": "What is double of 25?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "Fifty",
+            "50"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 99 + 1?",
+          "answer": "One Hundred",
+          "expected": "One Hundred",
+          "options": [],
+          "audioText": "What is 99 + 1?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 1000 - 1?",
+          "answer": "Nine Ninety Nine",
+          "expected": "Nine Ninety Nine",
+          "options": [],
+          "audioText": "What is 1000 - 1?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is 11 × 11?",
+          "answer": "One Twenty One",
+          "expected": "One Twenty One",
+          "options": [],
+          "audioText": "What is 11 × 11?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    }
+  ],
+  "science": [
+    {
+      "grade": "class1",
+      "level": 1,
+      "topic": "Speak Body Parts",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the body part: Eyes",
+          "answer": "Eyes",
+          "expected": "Eyes",
+          "options": [],
+          "audioText": "Say the body part: Eyes",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the body part: Hands",
+          "answer": "Hands",
+          "expected": "Hands",
+          "options": [],
+          "audioText": "Say the body part: Hands",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the body part: Legs",
+          "answer": "Legs",
+          "expected": "Legs",
+          "options": [],
+          "audioText": "Say the body part: Legs",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 2,
+      "topic": "Living Things Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the living thing name: Plant",
+          "answer": "Plant",
+          "expected": "Plant",
+          "options": [],
+          "audioText": "Say the living thing name: Plant",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the animal name: Cat",
+          "answer": "Cat",
+          "expected": "Cat",
+          "options": [],
+          "audioText": "Say the animal name: Cat",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the plant name: Flower",
+          "answer": "Flower",
+          "expected": "Flower",
+          "options": [],
+          "audioText": "Say the plant name: Flower",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this body part?",
+          "answer": "Eyes",
+          "expected": "Eyes",
+          "options": [],
+          "audioText": "What is this body part?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "eyes.png",
+          "requiredAsset": "eyes.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What animal is this?",
+          "answer": "Dog",
+          "expected": "Dog",
+          "options": [],
+          "audioText": "What animal is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "dog.png",
+          "requiredAsset": "dog.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What plant is this?",
+          "answer": "Flower",
+          "expected": "Flower",
+          "options": [],
+          "audioText": "What plant is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "flower.png",
+          "requiredAsset": "flower.png"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 4,
+      "topic": "Weather Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the weather type: Sunny",
+          "answer": "Sunny",
+          "expected": "Sunny",
+          "options": [],
+          "audioText": "Say the weather type: Sunny",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the weather type: Rainy",
+          "answer": "Rainy",
+          "expected": "Rainy",
+          "options": [],
+          "audioText": "Say the weather type: Rainy",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the weather type: Windy",
+          "answer": "Windy",
+          "expected": "Windy",
+          "options": [],
+          "audioText": "Say the weather type: Windy",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 1,
+      "topic": "Five Senses",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the sense used for hearing.",
+          "answer": "Hearing",
+          "expected": "Hearing",
+          "options": [],
+          "audioText": "Say the sense used for hearing.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the body part used for smelling.",
+          "answer": "Nose",
+          "expected": "Nose",
+          "options": [],
+          "audioText": "Say the body part used for smelling.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the sense used for tasting.",
+          "answer": "Taste",
+          "expected": "Taste",
+          "options": [],
+          "audioText": "Say the sense used for tasting.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 2,
+      "topic": "Plants and Water",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say what plants need to grow.",
+          "answer": "Water",
+          "expected": "Water",
+          "options": [],
+          "audioText": "Say what plants need to grow.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the part of plant: Leaf",
+          "answer": "Leaf",
+          "expected": "Leaf",
+          "options": [],
+          "audioText": "Say the part of plant: Leaf",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Seed",
+          "answer": "Seed",
+          "expected": "Seed",
+          "options": [],
+          "audioText": "Say the word: Seed",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this?",
+          "answer": "Tree",
+          "expected": "Tree",
+          "options": [],
+          "audioText": "What is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "tree.png",
+          "requiredAsset": "tree.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this plant part.",
+          "answer": "Leaf",
+          "expected": "Leaf",
+          "options": [],
+          "audioText": "Identify this plant part.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "leaf.png",
+          "requiredAsset": "leaf.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What material is this?",
+          "answer": "Wood",
+          "expected": "Wood",
+          "options": [],
+          "audioText": "What material is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "wood.png",
+          "requiredAsset": "wood.png"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 4,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak one sentence about water.",
+          "answer": "Water is important for life.",
+          "expected": "Water is important for life.",
+          "options": [],
+          "audioText": "Speak one sentence about water.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak one sentence about plants.",
+          "answer": "Plants need sunlight and water.",
+          "expected": "Plants need sunlight and water.",
+          "options": [],
+          "audioText": "Speak one sentence about plants.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak one sentence about weather.",
+          "answer": "Rainy weather brings water.",
+          "expected": "Rainy weather brings water.",
+          "options": [],
+          "audioText": "Speak one sentence about weather.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 1,
+      "topic": "States of Matter",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the state of matter: Solid",
+          "answer": "Solid",
+          "expected": "Solid",
+          "options": [],
+          "audioText": "Say the state of matter: Solid",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the state of matter: Liquid",
+          "answer": "Liquid",
+          "expected": "Liquid",
+          "options": [],
+          "audioText": "Say the state of matter: Liquid",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the state of matter: Gas",
+          "answer": "Gas",
+          "expected": "Gas",
+          "options": [],
+          "audioText": "Say the state of matter: Gas",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 2,
+      "topic": "Animals",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the herbivore animal name.",
+          "answer": "Cow",
+          "expected": "Cow",
+          "options": [],
+          "audioText": "Say the herbivore animal name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the carnivore animal name.",
+          "answer": "Tiger",
+          "expected": "Tiger",
+          "options": [],
+          "audioText": "Say the carnivore animal name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the water animal name.",
+          "answer": "Fish",
+          "expected": "Fish",
+          "options": [],
+          "audioText": "Say the water animal name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What state of matter is this?",
+          "answer": "Solid",
+          "expected": "Solid",
+          "options": [],
+          "audioText": "What state of matter is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "ice.png",
+          "requiredAsset": "ice.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify the animal.",
+          "answer": "Lion",
+          "expected": "Lion",
+          "options": [],
+          "audioText": "Identify the animal.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "lion.png",
+          "requiredAsset": "lion.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is this source of light?",
+          "answer": "Sun",
+          "expected": "Sun",
+          "options": [],
+          "audioText": "What is this source of light?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "sun.png",
+          "requiredAsset": "sun.png"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 4,
+      "topic": "Explain the Picture",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Describe the weather in the picture.",
+          "answer": "It is raining heavily.",
+          "expected": "It is raining heavily.",
+          "options": [],
+          "audioText": "Describe the weather in the picture.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "rainy_weather.png",
+          "requiredAsset": "rainy_weather.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Explain the clean environment picture.",
+          "answer": "People are cleaning the park.",
+          "expected": "People are cleaning the park.",
+          "options": [],
+          "audioText": "Explain the clean environment picture.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "clean_park.png",
+          "requiredAsset": "clean_park.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Describe the healthy food picture.",
+          "answer": "Healthy food keeps us strong.",
+          "expected": "Healthy food keeps us strong.",
+          "options": [],
+          "audioText": "Describe the healthy food picture.",
+          "evaluation": "semantic",
+          "micMode": "extended",
+          "image": "healthy_food.png",
+          "requiredAsset": "healthy_food.png"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 1,
+      "topic": "Human Body Organs",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the organ that pumps blood.",
+          "answer": "Heart",
+          "expected": "Heart",
+          "options": [],
+          "audioText": "Say the organ that pumps blood.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the organ used for breathing.",
+          "answer": "Lungs",
+          "expected": "Lungs",
+          "options": [],
+          "audioText": "Say the organ used for breathing.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the digestion organ name.",
+          "answer": "Stomach",
+          "expected": "Stomach",
+          "options": [],
+          "audioText": "Say the digestion organ name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 2,
+      "topic": "Energy Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the source of light energy.",
+          "answer": "Sun",
+          "expected": "Sun",
+          "options": [],
+          "audioText": "Say the source of light energy.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the source of heat energy.",
+          "answer": "Fire",
+          "expected": "Fire",
+          "options": [],
+          "audioText": "Say the source of heat energy.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the electrical device name.",
+          "answer": "Bulb",
+          "expected": "Bulb",
+          "options": [],
+          "audioText": "Say the electrical device name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Identify this planet.",
+          "answer": "Earth",
+          "expected": "Earth",
+          "options": [],
+          "audioText": "Identify this planet.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "earth.png",
+          "requiredAsset": "earth.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What organ is this?",
+          "answer": "Heart",
+          "expected": "Heart",
+          "options": [],
+          "audioText": "What organ is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "heart.png",
+          "requiredAsset": "heart.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What energy source is this?",
+          "answer": "Sun",
+          "expected": "Sun",
+          "options": [],
+          "audioText": "What energy source is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "sun.png",
+          "requiredAsset": "sun.png"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 4,
+      "topic": "Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about healthy eating.",
+          "answer": "Healthy food gives us energy.",
+          "expected": "Healthy food gives us energy.",
+          "options": [],
+          "audioText": "Speak a sentence about healthy eating.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak a sentence about the environment.",
+          "answer": "We should keep our environment clean.",
+          "expected": "We should keep our environment clean.",
+          "options": [],
+          "audioText": "Speak a sentence about the environment.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 5,
+      "topic": "Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about saving water.",
+          "answer": "We should save water to protect nature.",
+          "expected": "We should save water to protect nature.",
+          "options": [],
+          "audioText": "Tell a short story about saving water.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about the importance of exercise.",
+          "answer": "Exercise keeps our body healthy.",
+          "expected": "Exercise keeps our body healthy.",
+          "options": [],
+          "audioText": "Speak about the importance of exercise.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Tell a short story about day and night.",
+          "answer": "Earth rotation causes day and night.",
+          "expected": "Earth rotation causes day and night.",
+          "options": [],
+          "audioText": "Tell a short story about day and night.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 1,
+      "topic": "Microorganisms",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the microorganism name: Bacteria",
+          "answer": "Bacteria",
+          "expected": "Bacteria",
+          "options": [],
+          "audioText": "Say the microorganism name: Bacteria",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the microorganism name: Virus",
+          "answer": "Virus",
+          "expected": "Virus",
+          "options": [],
+          "audioText": "Say the microorganism name: Virus",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the microorganism name: Fungi",
+          "answer": "Fungi",
+          "expected": "Fungi",
+          "options": [],
+          "audioText": "Say the microorganism name: Fungi",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 2,
+      "topic": "Electricity and Magnetism",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the electrical component name.",
+          "answer": "Battery",
+          "expected": "Battery",
+          "options": [],
+          "audioText": "Say the electrical component name.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the conductor material.",
+          "answer": "Metal",
+          "expected": "Metal",
+          "options": [],
+          "audioText": "Say the conductor material.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the magnetic object.",
+          "answer": "Magnet",
+          "expected": "Magnet",
+          "options": [],
+          "audioText": "Say the magnetic object.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is this microorganism?",
+          "answer": "Bacteria",
+          "expected": "Bacteria",
+          "options": [],
+          "audioText": "What is this microorganism?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "bacteria.png",
+          "requiredAsset": "bacteria.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this planet.",
+          "answer": "Mars",
+          "expected": "Mars",
+          "options": [],
+          "audioText": "Identify this planet.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mars.png",
+          "requiredAsset": "mars.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is this science object?",
+          "answer": "Magnet",
+          "expected": "Magnet",
+          "options": [],
+          "audioText": "What is this science object?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "magnet.png",
+          "requiredAsset": "magnet.png"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 4,
+      "topic": "Advanced Sentence Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Speak one sentence about electricity.",
+          "answer": "Electricity powers machines.",
+          "expected": "Electricity powers machines.",
+          "options": [],
+          "audioText": "Speak one sentence about electricity.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak one sentence about sound pollution.",
+          "answer": "Noise pollution harms health.",
+          "expected": "Noise pollution harms health.",
+          "options": [],
+          "audioText": "Speak one sentence about sound pollution.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 5,
+      "topic": "Science Story Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Explain the importance of satellites.",
+          "answer": "Satellites help communication and weather forecasting.",
+          "expected": "Satellites help communication and weather forecasting.",
+          "options": [],
+          "audioText": "Explain the importance of satellites.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Speak about technology in daily life.",
+          "answer": "Technology helps people work faster.",
+          "expected": "Technology helps people work faster.",
+          "options": [],
+          "audioText": "Speak about technology in daily life.",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    }
+  ],
+  "computer": [
+    {
+      "grade": "class1",
+      "level": 1,
+      "topic": "Computer Vocabulary",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Say the word: Computer",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "Say the word: Computer",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Monitor",
+          "answer": "Monitor",
+          "expected": "Monitor",
+          "options": [],
+          "audioText": "Say the word: Monitor",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Mouse",
+          "answer": "Mouse",
+          "expected": "Mouse",
+          "options": [],
+          "audioText": "Say the word: Mouse",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: Keyboard",
+          "answer": "Keyboard",
+          "expected": "Keyboard",
+          "options": [],
+          "audioText": "Say the word: Keyboard",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Say the word: CPU",
+          "answer": "CPU",
+          "expected": "CPU",
+          "options": [],
+          "audioText": "Say the word: CPU",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "CPU",
+            "C P U"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 2,
+      "topic": "Device Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What device is this?",
+          "answer": "Monitor",
+          "expected": "Monitor",
+          "options": [],
+          "audioText": "What device is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "monitor.png",
+          "requiredAsset": "monitor.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What device is this?",
+          "answer": "Mouse",
+          "expected": "Mouse",
+          "options": [],
+          "audioText": "What device is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mouse.png",
+          "requiredAsset": "mouse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What device is this?",
+          "answer": "Keyboard",
+          "expected": "Keyboard",
+          "options": [],
+          "audioText": "What device is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "keyboard.png",
+          "requiredAsset": "keyboard.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "What device is this?",
+          "answer": "CPU",
+          "expected": "CPU",
+          "options": [],
+          "audioText": "What device is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "cpu.png",
+          "requiredAsset": "cpu.png",
+          "acceptedAnswers": [
+            "CPU",
+            "C P U"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "What device is this?",
+          "answer": "Computer",
+          "expected": "Computer",
+          "options": [],
+          "audioText": "What device is this?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "computer.png",
+          "requiredAsset": "computer.png"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 3,
+      "topic": "Computer Rules Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What should we keep clean before using a computer?",
+          "answer": "Hands",
+          "expected": "Hands",
+          "options": [],
+          "audioText": "What should we keep clean before using a computer?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Should we pull computer wires?",
+          "answer": "No",
+          "expected": "No",
+          "options": [],
+          "audioText": "Should we pull computer wires?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Should we sit properly while using computer?",
+          "answer": "Yes",
+          "expected": "Yes",
+          "options": [],
+          "audioText": "Should we sit properly while using computer?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What should we avoid touching?",
+          "answer": "Wires",
+          "expected": "Wires",
+          "options": [],
+          "audioText": "What should we avoid touching?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Should we eat near computers?",
+          "answer": "No",
+          "expected": "No",
+          "options": [],
+          "audioText": "Should we eat near computers?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 1,
+      "topic": "Parts of Computer",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which device is used for typing?",
+          "answer": "Keyboard",
+          "expected": "Keyboard",
+          "options": [],
+          "audioText": "Which device is used for typing?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device moves the pointer?",
+          "answer": "Mouse",
+          "expected": "Mouse",
+          "options": [],
+          "audioText": "Which device moves the pointer?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device shows pictures?",
+          "answer": "Monitor",
+          "expected": "Monitor",
+          "options": [],
+          "audioText": "Which device shows pictures?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which part is called the brain of computer?",
+          "answer": "CPU",
+          "expected": "CPU",
+          "options": [],
+          "audioText": "Which part is called the brain of computer?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "CPU",
+            "C P U"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device gives output?",
+          "answer": "Monitor",
+          "expected": "Monitor",
+          "options": [],
+          "audioText": "Which device gives output?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 2,
+      "topic": "Mouse Actions",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which action opens a file quickly?",
+          "answer": "Double Click",
+          "expected": "Double Click",
+          "options": [],
+          "audioText": "Which action opens a file quickly?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which action moves items?",
+          "answer": "Drag and Drop",
+          "expected": "Drag and Drop",
+          "options": [],
+          "audioText": "Which action moves items?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which action selects an item?",
+          "answer": "Single Click",
+          "expected": "Single Click",
+          "options": [],
+          "audioText": "Which action selects an item?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which action opens menu options?",
+          "answer": "Right Click",
+          "expected": "Right Click",
+          "options": [],
+          "audioText": "Which action opens menu options?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which action scrolls the page?",
+          "answer": "Scroll",
+          "expected": "Scroll",
+          "options": [],
+          "audioText": "Which action scrolls the page?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 3,
+      "topic": "Image Identification",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Identify this computer device.",
+          "answer": "Scanner",
+          "expected": "Scanner",
+          "options": [],
+          "audioText": "Identify this computer device.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "scanner.png",
+          "requiredAsset": "scanner.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this computer device.",
+          "answer": "Printer",
+          "expected": "Printer",
+          "options": [],
+          "audioText": "Identify this computer device.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "printer.png",
+          "requiredAsset": "printer.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this computer device.",
+          "answer": "Speaker",
+          "expected": "Speaker",
+          "options": [],
+          "audioText": "Identify this computer device.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "speaker.png",
+          "requiredAsset": "speaker.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this computer device.",
+          "answer": "Mouse",
+          "expected": "Mouse",
+          "options": [],
+          "audioText": "Identify this computer device.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mouse.png",
+          "requiredAsset": "mouse.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "Identify this computer device.",
+          "answer": "Keyboard",
+          "expected": "Keyboard",
+          "options": [],
+          "audioText": "Identify this computer device.",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "keyboard.png",
+          "requiredAsset": "keyboard.png"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 1,
+      "topic": "Keyboard Keys",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which key gives space between words?",
+          "answer": "Spacebar",
+          "expected": "Spacebar",
+          "options": [],
+          "audioText": "Which key gives space between words?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which key deletes letters?",
+          "answer": "Backspace",
+          "expected": "Backspace",
+          "options": [],
+          "audioText": "Which key deletes letters?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which key moves to next line?",
+          "answer": "Enter",
+          "expected": "Enter",
+          "options": [],
+          "audioText": "Which key moves to next line?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which keys are used for typing letters?",
+          "answer": "Alphabet Keys",
+          "expected": "Alphabet Keys",
+          "options": [],
+          "audioText": "Which keys are used for typing letters?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which keys type numbers?",
+          "answer": "Number Keys",
+          "expected": "Number Keys",
+          "options": [],
+          "audioText": "Which keys type numbers?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 2,
+      "topic": "Uses of Computer",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Where are computers used for learning?",
+          "answer": "School",
+          "expected": "School",
+          "options": [],
+          "audioText": "Where are computers used for learning?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Where are computers used for shopping?",
+          "answer": "Shops",
+          "expected": "Shops",
+          "options": [],
+          "audioText": "Where are computers used for shopping?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Where are computers used for treatment?",
+          "answer": "Hospital",
+          "expected": "Hospital",
+          "options": [],
+          "audioText": "Where are computers used for treatment?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Where are computers used for banking?",
+          "answer": "Bank",
+          "expected": "Bank",
+          "options": [],
+          "audioText": "Where are computers used for banking?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Where are computers used for drawing?",
+          "answer": "Office",
+          "expected": "Office",
+          "options": [],
+          "audioText": "Where are computers used for drawing?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 3,
+      "topic": "MS Paint Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which tool removes mistakes?",
+          "answer": "Eraser",
+          "expected": "Eraser",
+          "options": [],
+          "audioText": "Which tool removes mistakes?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which tool draws lines?",
+          "answer": "Pencil",
+          "expected": "Pencil",
+          "options": [],
+          "audioText": "Which tool draws lines?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which tool fills colors?",
+          "answer": "Fill Color",
+          "expected": "Fill Color",
+          "options": [],
+          "audioText": "Which tool fills colors?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which tool draws shapes?",
+          "answer": "Shapes",
+          "expected": "Shapes",
+          "options": [],
+          "audioText": "Which tool draws shapes?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which tool paints freely?",
+          "answer": "Brush",
+          "expected": "Brush",
+          "options": [],
+          "audioText": "Which tool paints freely?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 1,
+      "topic": "Input and Output Devices",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Name one input device.",
+          "answer": "Keyboard",
+          "expected": "Keyboard",
+          "options": [],
+          "audioText": "Name one input device.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Name one output device.",
+          "answer": "Monitor",
+          "expected": "Monitor",
+          "options": [],
+          "audioText": "Name one output device.",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device prints documents?",
+          "answer": "Printer",
+          "expected": "Printer",
+          "options": [],
+          "audioText": "Which device prints documents?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device scans pictures?",
+          "answer": "Scanner",
+          "expected": "Scanner",
+          "options": [],
+          "audioText": "Which device scans pictures?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device gives sound?",
+          "answer": "Speaker",
+          "expected": "Speaker",
+          "options": [],
+          "audioText": "Which device gives sound?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 2,
+      "topic": "Windows Basics",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is the main screen called?",
+          "answer": "Desktop",
+          "expected": "Desktop",
+          "options": [],
+          "audioText": "What is the main screen called?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What bar appears at the bottom of screen?",
+          "answer": "Taskbar",
+          "expected": "Taskbar",
+          "options": [],
+          "audioText": "What bar appears at the bottom of screen?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What small pictures open apps?",
+          "answer": "Icons",
+          "expected": "Icons",
+          "options": [],
+          "audioText": "What small pictures open apps?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What stores computer files?",
+          "answer": "Folder",
+          "expected": "Folder",
+          "options": [],
+          "audioText": "What stores computer files?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which button opens the start menu?",
+          "answer": "Start Button",
+          "expected": "Start Button",
+          "options": [],
+          "audioText": "Which button opens the start menu?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 3,
+      "topic": "Programming Logic",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which command moves turtle forward?",
+          "answer": "Forward",
+          "expected": "Forward",
+          "options": [],
+          "audioText": "Which command moves turtle forward?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which command turns turtle left?",
+          "answer": "Left",
+          "expected": "Left",
+          "options": [],
+          "audioText": "Which command turns turtle left?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which command turns turtle right?",
+          "answer": "Right",
+          "expected": "Right",
+          "options": [],
+          "audioText": "Which command turns turtle right?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Programming follows what kind of steps?",
+          "answer": "Step by Step",
+          "expected": "Step by Step",
+          "options": [],
+          "audioText": "Programming follows what kind of steps?",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "What do we call solving problems using logic?",
+          "answer": "Programming",
+          "expected": "Programming",
+          "options": [],
+          "audioText": "What do we call solving problems using logic?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 1,
+      "topic": "MS Word and Excel",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which software is used for documents?",
+          "answer": "MS Word",
+          "expected": "MS Word",
+          "options": [],
+          "audioText": "Which software is used for documents?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which software uses formulas?",
+          "answer": "MS Excel",
+          "expected": "MS Excel",
+          "options": [],
+          "audioText": "Which software uses formulas?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which formula adds numbers?",
+          "answer": "SUM",
+          "expected": "SUM",
+          "options": [],
+          "audioText": "Which formula adds numbers?",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "acceptedAnswers": [
+            "SUM",
+            "S U M"
+          ]
+        },
+        {
+          "type": "speech",
+          "prompt": "Which formula finds average?",
+          "answer": "AVERAGE",
+          "expected": "AVERAGE",
+          "options": [],
+          "audioText": "Which formula finds average?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which software creates slides?",
+          "answer": "PowerPoint",
+          "expected": "PowerPoint",
+          "options": [],
+          "audioText": "Which software creates slides?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 2,
+      "topic": "Cyber Safety",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Should we share passwords online?",
+          "answer": "No",
+          "expected": "No",
+          "options": [],
+          "audioText": "Should we share passwords online?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What type of password should we use?",
+          "answer": "Strong Password",
+          "expected": "Strong Password",
+          "options": [],
+          "audioText": "What type of password should we use?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Should we open unknown links?",
+          "answer": "No",
+          "expected": "No",
+          "options": [],
+          "audioText": "Should we open unknown links?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Who should we ask before downloading files?",
+          "answer": "Parents",
+          "expected": "Parents",
+          "options": [],
+          "audioText": "Who should we ask before downloading files?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Should we share personal information online?",
+          "answer": "No",
+          "expected": "No",
+          "options": [],
+          "audioText": "Should we share personal information online?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 3,
+      "topic": "Advanced Computer Speaking",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "What is used to store data in computer?",
+          "answer": "Storage",
+          "expected": "Storage",
+          "options": [],
+          "audioText": "What is used to store data in computer?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What does RAM help with?",
+          "answer": "Speed",
+          "expected": "Speed",
+          "options": [],
+          "audioText": "What does RAM help with?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What helps computers connect to internet?",
+          "answer": "Network",
+          "expected": "Network",
+          "options": [],
+          "audioText": "What helps computers connect to internet?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "What is used for block programming?",
+          "answer": "Scratch",
+          "expected": "Scratch",
+          "options": [],
+          "audioText": "What is used for block programming?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 4,
+      "topic": "Fast Computer Challenge",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "Which key deletes text?",
+          "answer": "Backspace",
+          "expected": "Backspace",
+          "options": [],
+          "audioText": "Which key deletes text?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device controls pointer?",
+          "answer": "Mouse",
+          "expected": "Mouse",
+          "options": [],
+          "audioText": "Which device controls pointer?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which software creates charts?",
+          "answer": "MS Excel",
+          "expected": "MS Excel",
+          "options": [],
+          "audioText": "Which software creates charts?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which device prints papers?",
+          "answer": "Printer",
+          "expected": "Printer",
+          "options": [],
+          "audioText": "Which device prints papers?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "Which software creates presentations?",
+          "answer": "PowerPoint",
+          "expected": "PowerPoint",
+          "options": [],
+          "audioText": "Which software creates presentations?",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    }
+  ],
+  "urdu": [
+    {
+      "grade": "nursery",
+      "level": 1,
+      "topic": "حروف کی آواز اور ادائیگی",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "حرف بولیں :الف",
+          "answer": "الف",
+          "expected": "الف",
+          "options": [],
+          "audioText": "حرف بولیں :الف",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "حرف بولیں :ب",
+          "answer": "بے",
+          "expected": "بے",
+          "options": [],
+          "audioText": "حرف بولیں :ب",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "حرف بولیں :ت",
+          "answer": "تے",
+          "expected": "تے",
+          "options": [],
+          "audioText": "حرف بولیں :ت",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "حرف بولیں :ج",
+          "answer": "جیم",
+          "expected": "جیم",
+          "options": [],
+          "audioText": "حرف بولیں :ج",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "حرف بولیں :م",
+          "answer": "میم",
+          "expected": "میم",
+          "options": [],
+          "audioText": "حرف بولیں :م",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 2,
+      "topic": "آسان الفاظ بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :آم",
+          "answer": "آم",
+          "expected": "آم",
+          "options": [],
+          "audioText": "لفظ بولیں :آم",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :انار",
+          "answer": "انار",
+          "expected": "انار",
+          "options": [],
+          "audioText": "لفظ بولیں :انار",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :بلی",
+          "answer": "بلی",
+          "expected": "بلی",
+          "options": [],
+          "audioText": "لفظ بولیں :بلی",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :گیند",
+          "answer": "گیند",
+          "expected": "گیند",
+          "options": [],
+          "audioText": "لفظ بولیں :گیند",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :کتاب",
+          "answer": "کتاب",
+          "expected": "کتاب",
+          "options": [],
+          "audioText": "لفظ بولیں :کتاب",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 3,
+      "topic": "تصویر دیکھ کر نام بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "یہ کیا ہے؟",
+          "answer": "سیب",
+          "expected": "سیب",
+          "options": [],
+          "audioText": "یہ کیا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "apple.png",
+          "requiredAsset": "apple.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "یہ کون سا پھل ہے؟",
+          "answer": "آم",
+          "expected": "آم",
+          "options": [],
+          "audioText": "یہ کون سا پھل ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mango.png",
+          "requiredAsset": "mango.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "یہ کون سا جانور ہے؟",
+          "answer": "بلی",
+          "expected": "بلی",
+          "options": [],
+          "audioText": "یہ کون سا جانور ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "cat.png",
+          "requiredAsset": "cat.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "یہ کیا ہے؟",
+          "answer": "گیند",
+          "expected": "گیند",
+          "options": [],
+          "audioText": "یہ کیا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "ball.png",
+          "requiredAsset": "ball.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "یہ کیا ہے؟",
+          "answer": "کتاب",
+          "expected": "کتاب",
+          "options": [],
+          "audioText": "یہ کیا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "book.png",
+          "requiredAsset": "book.png"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 4,
+      "topic": "رنگوں کے نام بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "رنگ بولیں :لال",
+          "answer": "لال",
+          "expected": "لال",
+          "options": [],
+          "audioText": "رنگ بولیں :لال",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "رنگ بولیں :نیلا",
+          "answer": "نیلا",
+          "expected": "نیلا",
+          "options": [],
+          "audioText": "رنگ بولیں :نیلا",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "رنگ بولیں :سبز",
+          "answer": "سبز",
+          "expected": "سبز",
+          "options": [],
+          "audioText": "رنگ بولیں :سبز",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "رنگ بولیں :کالا",
+          "answer": "کالا",
+          "expected": "کالا",
+          "options": [],
+          "audioText": "رنگ بولیں :کالا",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "رنگ بولیں :گلابی",
+          "answer": "گلابی",
+          "expected": "گلابی",
+          "options": [],
+          "audioText": "رنگ بولیں :گلابی",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "nursery",
+      "level": 5,
+      "topic": "پہلے حرف کی آواز",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "آم کا پہلا حرف بولیں۔",
+          "answer": "الف",
+          "expected": "الف",
+          "options": [],
+          "audioText": "آم کا پہلا حرف بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "mango.png",
+          "requiredAsset": "mango.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "بلی کا پہلا حرف بولیں۔",
+          "answer": "بے",
+          "expected": "بے",
+          "options": [],
+          "audioText": "بلی کا پہلا حرف بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "cat.png",
+          "requiredAsset": "cat.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "کتاب کا پہلا حرف بولیں۔",
+          "answer": "کاف",
+          "expected": "کاف",
+          "options": [],
+          "audioText": "کتاب کا پہلا حرف بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "book.png",
+          "requiredAsset": "book.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "گھر کا پہلا حرف بولیں۔",
+          "answer": "گاف",
+          "expected": "گاف",
+          "options": [],
+          "audioText": "گھر کا پہلا حرف بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "house.png",
+          "requiredAsset": "house.png"
+        },
+        {
+          "type": "speech",
+          "prompt": "پھول کا پہلا حرف بولیں۔",
+          "answer": "پے",
+          "expected": "پے",
+          "options": [],
+          "audioText": "پھول کا پہلا حرف بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word",
+          "image": "flower.png",
+          "requiredAsset": "flower.png"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 1,
+      "topic": "الفاظ کی ادائیگی",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :اسکول",
+          "answer": "اسکول",
+          "expected": "اسکول",
+          "options": [],
+          "audioText": "لفظ بولیں :اسکول",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :استاد",
+          "answer": "استاد",
+          "expected": "استاد",
+          "options": [],
+          "audioText": "لفظ بولیں :استاد",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :بچہ",
+          "answer": "بچہ",
+          "expected": "بچہ",
+          "options": [],
+          "audioText": "لفظ بولیں :بچہ",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :پانی",
+          "answer": "پانی",
+          "expected": "پانی",
+          "options": [],
+          "audioText": "لفظ بولیں :پانی",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ بولیں :درخت",
+          "answer": "درخت",
+          "expected": "درخت",
+          "options": [],
+          "audioText": "لفظ بولیں :درخت",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 2,
+      "topic": "حروف کی ترتیب",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "الف کے بعد کون سا حرف آتا ہے؟",
+          "answer": "بے",
+          "expected": "بے",
+          "options": [],
+          "audioText": "الف کے بعد کون سا حرف آتا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ب کے بعد کون سا حرف آتا ہے؟",
+          "answer": "پے",
+          "expected": "پے",
+          "options": [],
+          "audioText": "ب کے بعد کون سا حرف آتا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ت سے پہلے کون سا حرف آتا ہے؟",
+          "answer": "پے",
+          "expected": "پے",
+          "options": [],
+          "audioText": "ت سے پہلے کون سا حرف آتا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ج کے بعد کون سا حرف آتا ہے؟",
+          "answer": "چے",
+          "expected": "چے",
+          "options": [],
+          "audioText": "ج کے بعد کون سا حرف آتا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "د سے پہلے کون سا حرف آتا ہے؟",
+          "answer": "خے",
+          "expected": "خے",
+          "options": [],
+          "audioText": "د سے پہلے کون سا حرف آتا ہے؟",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 3,
+      "topic": "تصویر دیکھ کر لفظ بولیں",
+      "questions": []
+    },
+    {
+      "grade": "class1",
+      "level": 4,
+      "topic": "سادہ جملے بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "جملہ بولیں :میں اسکول جاتا ہوں۔",
+          "answer": "میں اسکول جاتا ہوں۔",
+          "expected": "میں اسکول جاتا ہوں۔",
+          "options": [],
+          "audioText": "جملہ بولیں :میں اسکول جاتا ہوں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ بولیں :مجھے کتاب پسند ہے۔",
+          "answer": "مجھے کتاب پسند ہے۔",
+          "expected": "مجھے کتاب پسند ہے۔",
+          "options": [],
+          "audioText": "جملہ بولیں :مجھے کتاب پسند ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ بولیں :بلی سو رہی ہے۔",
+          "answer": "بلی سو رہی ہے۔",
+          "expected": "بلی سو رہی ہے۔",
+          "options": [],
+          "audioText": "جملہ بولیں :بلی سو رہی ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ بولیں :علی کھیل رہا ہے۔",
+          "answer": "علی کھیل رہا ہے۔",
+          "expected": "علی کھیل رہا ہے۔",
+          "options": [],
+          "audioText": "جملہ بولیں :علی کھیل رہا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ بولیں :آج موسم اچھا ہے۔",
+          "answer": "آج موسم اچھا ہے۔",
+          "expected": "آج موسم اچھا ہے۔",
+          "options": [],
+          "audioText": "جملہ بولیں :آج موسم اچھا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class1",
+      "level": 5,
+      "topic": "مکمل جواب بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "آپ کا نام کیا ہے؟",
+          "answer": "میرا نام علی ہے۔",
+          "expected": "میرا نام علی ہے۔",
+          "options": [],
+          "audioText": "آپ کا نام کیا ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کہاں پڑھتے ہیں؟",
+          "answer": "میں اسکول میں پڑھتا ہوں۔",
+          "expected": "میں اسکول میں پڑھتا ہوں۔",
+          "options": [],
+          "audioText": "آپ کہاں پڑھتے ہیں؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کو کون سا پھل پسند ہے؟",
+          "answer": "مجھے آم پسند ہے۔",
+          "expected": "مجھے آم پسند ہے۔",
+          "options": [],
+          "audioText": "آپ کو کون سا پھل پسند ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کا پسندیدہ رنگ کون سا ہے؟",
+          "answer": "میرا پسندیدہ رنگ نیلا ہے۔",
+          "expected": "میرا پسندیدہ رنگ نیلا ہے۔",
+          "options": [],
+          "audioText": "آپ کا پسندیدہ رنگ کون سا ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ صبح کیا کرتے ہیں؟",
+          "answer": "میں صبح ناشتہ کرتا ہوں۔",
+          "expected": "میں صبح ناشتہ کرتا ہوں۔",
+          "options": [],
+          "audioText": "آپ صبح کیا کرتے ہیں؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 1,
+      "topic": "متضاد الفاظ بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "بڑا کا الٹ بولیں۔",
+          "answer": "چھوٹا",
+          "expected": "چھوٹا",
+          "options": [],
+          "audioText": "بڑا کا الٹ بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "گرم کا الٹ بولیں۔",
+          "answer": "ٹھنڈا",
+          "expected": "ٹھنڈا",
+          "options": [],
+          "audioText": "گرم کا الٹ بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "اونچا کا الٹ بولیں۔",
+          "answer": "نیچا",
+          "expected": "نیچا",
+          "options": [],
+          "audioText": "اونچا کا الٹ بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "تیز کا الٹ بولیں۔",
+          "answer": "آہستہ",
+          "expected": "آہستہ",
+          "options": [],
+          "audioText": "تیز کا الٹ بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "صاف کا الٹ بولیں۔",
+          "answer": "گندا",
+          "expected": "گندا",
+          "options": [],
+          "audioText": "صاف کا الٹ بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 2,
+      "topic": "واحد اور جمع",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "کتاب کی جمع بولیں۔",
+          "answer": "کتابیں",
+          "expected": "کتابیں",
+          "options": [],
+          "audioText": "کتاب کی جمع بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "بچہ کی جمع بولیں۔",
+          "answer": "بچے",
+          "expected": "بچے",
+          "options": [],
+          "audioText": "بچہ کی جمع بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "لڑکی کی جمع بولیں۔",
+          "answer": "لڑکیاں",
+          "expected": "لڑکیاں",
+          "options": [],
+          "audioText": "لڑکی کی جمع بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "درخت کی جمع بولیں۔",
+          "answer": "درخت",
+          "expected": "درخت",
+          "options": [],
+          "audioText": "درخت کی جمع بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "پرندہ کی جمع بولیں۔",
+          "answer": "پرندے",
+          "expected": "پرندے",
+          "options": [],
+          "audioText": "پرندہ کی جمع بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 3,
+      "topic": "تصویر بیان کریں",
+      "questions": []
+    },
+    {
+      "grade": "class2",
+      "level": 4,
+      "topic": "سوالوں کے جواب",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "آپ کس کلاس میں پڑھتے ہیں؟",
+          "answer": "میں کلاس دو میں پڑھتا ہوں۔",
+          "expected": "میں کلاس دو میں پڑھتا ہوں۔",
+          "options": [],
+          "audioText": "آپ کس کلاس میں پڑھتے ہیں؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کے استاد کا نام کیا ہے؟",
+          "answer": "میرے استاد کا نام احمد ہے۔",
+          "expected": "میرے استاد کا نام احمد ہے۔",
+          "options": [],
+          "audioText": "آپ کے استاد کا نام کیا ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کو کون سا کھیل پسند ہے؟",
+          "answer": "مجھے کرکٹ پسند ہے۔",
+          "expected": "مجھے کرکٹ پسند ہے۔",
+          "options": [],
+          "audioText": "آپ کو کون سا کھیل پسند ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ کے گھر میں کون کون ہے؟",
+          "answer": "میرے گھر میں امی ،ابو اور بہن ہیں۔",
+          "expected": "میرے گھر میں امی ،ابو اور بہن ہیں۔",
+          "options": [],
+          "audioText": "آپ کے گھر میں کون کون ہے؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "آپ روزانہ کیا پڑھتے ہیں؟",
+          "answer": "میں روزانہ سبق پڑھتا ہوں۔",
+          "expected": "میں روزانہ سبق پڑھتا ہوں۔",
+          "options": [],
+          "audioText": "آپ روزانہ کیا پڑھتے ہیں؟",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class2",
+      "level": 5,
+      "topic": "درست جملہ بنائیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "الفاظ :علی ،اسکول ،گیا۔",
+          "answer": "علی اسکول گیا۔",
+          "expected": "علی اسکول گیا۔",
+          "options": [],
+          "audioText": "الفاظ :علی ،اسکول ،گیا۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "الفاظ :بلی ،دودھ ،پیتی ہے۔",
+          "answer": "بلی دودھ پیتی ہے۔",
+          "expected": "بلی دودھ پیتی ہے۔",
+          "options": [],
+          "audioText": "الفاظ :بلی ،دودھ ،پیتی ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "الفاظ :بچے ،کھیل ،رہے ہیں۔",
+          "answer": "بچے کھیل رہے ہیں۔",
+          "expected": "بچے کھیل رہے ہیں۔",
+          "options": [],
+          "audioText": "الفاظ :بچے ،کھیل ،رہے ہیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "الفاظ :سارہ ،کتاب ،پڑھتی ہے۔",
+          "answer": "سارہ کتاب پڑھتی ہے۔",
+          "expected": "سارہ کتاب پڑھتی ہے۔",
+          "options": [],
+          "audioText": "الفاظ :سارہ ،کتاب ،پڑھتی ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "الفاظ :پرندہ ،اڑ ،رہا ہے۔",
+          "answer": "پرندہ اڑ رہا ہے۔",
+          "expected": "پرندہ اڑ رہا ہے۔",
+          "options": [],
+          "audioText": "الفاظ :پرندہ ،اڑ ،رہا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 1,
+      "topic": "اسم اور فعل",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "ایک اسم بولیں۔",
+          "answer": "کتاب",
+          "expected": "کتاب",
+          "options": [],
+          "audioText": "ایک اسم بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ایک فعل بولیں۔",
+          "answer": "دوڑنا",
+          "expected": "دوڑنا",
+          "options": [],
+          "audioText": "ایک فعل بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ایک اسم بولیں۔",
+          "answer": "درخت",
+          "expected": "درخت",
+          "options": [],
+          "audioText": "ایک اسم بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ایک فعل بولیں۔",
+          "answer": "کھانا",
+          "expected": "کھانا",
+          "options": [],
+          "audioText": "ایک فعل بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "ایک اسم بولیں۔",
+          "answer": "گھر",
+          "expected": "گھر",
+          "options": [],
+          "audioText": "ایک اسم بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 2,
+      "topic": "صفت کے ساتھ جملے",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "لفظ :خوبصورت",
+          "answer": "یہ خوبصورت پھول ہے۔",
+          "expected": "یہ خوبصورت پھول ہے۔",
+          "options": [],
+          "audioText": "لفظ :خوبصورت",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ :لمبا",
+          "answer": "یہ لمبا درخت ہے۔",
+          "expected": "یہ لمبا درخت ہے۔",
+          "options": [],
+          "audioText": "لفظ :لمبا",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ :صاف",
+          "answer": "یہ صاف کمرہ ہے۔",
+          "expected": "یہ صاف کمرہ ہے۔",
+          "options": [],
+          "audioText": "لفظ :صاف",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ :میٹھا",
+          "answer": "آم میٹھا ہے۔",
+          "expected": "آم میٹھا ہے۔",
+          "options": [],
+          "audioText": "لفظ :میٹھا",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "لفظ :تیز",
+          "answer": "گھوڑا تیز دوڑتا ہے۔",
+          "expected": "گھوڑا تیز دوڑتا ہے۔",
+          "options": [],
+          "audioText": "لفظ :تیز",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 3,
+      "topic": "تصویر سے کہانی",
+      "questions": []
+    },
+    {
+      "grade": "class3",
+      "level": 4,
+      "topic": "مکمل جملے",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "بارش کے بارے میں جملہ بولیں۔",
+          "answer": "بارش سے موسم خوشگوار ہو جاتا ہے۔",
+          "expected": "بارش سے موسم خوشگوار ہو جاتا ہے۔",
+          "options": [],
+          "audioText": "بارش کے بارے میں جملہ بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اسکول کے بارے میں جملہ بولیں۔",
+          "answer": "میرا اسکول بہت خوبصورت ہے۔",
+          "expected": "میرا اسکول بہت خوبصورت ہے۔",
+          "options": [],
+          "audioText": "اسکول کے بارے میں جملہ بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "دوست کے بارے میں جملہ بولیں۔",
+          "answer": "میرا دوست بہت اچھا ہے۔",
+          "expected": "میرا دوست بہت اچھا ہے۔",
+          "options": [],
+          "audioText": "دوست کے بارے میں جملہ بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "کتاب کے بارے میں جملہ بولیں۔",
+          "answer": "کتاب علم کا خزانہ ہے۔",
+          "expected": "کتاب علم کا خزانہ ہے۔",
+          "options": [],
+          "audioText": "کتاب کے بارے میں جملہ بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "پاکستان کے بارے میں جملہ بولیں۔",
+          "answer": "پاکستان ہمارا پیارا ملک ہے۔",
+          "expected": "پاکستان ہمارا پیارا ملک ہے۔",
+          "options": [],
+          "audioText": "پاکستان کے بارے میں جملہ بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class3",
+      "level": 5,
+      "topic": "مختصر گفتگو",
+      "questions": []
+    },
+    {
+      "grade": "class4",
+      "level": 1,
+      "topic": "روانی سے بولیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "اپنے اسکول کے بارے میں بولیں۔",
+          "answer": "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
+          "expected": "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
+          "options": [],
+          "audioText": "اپنے اسکول کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اپنے شہر کے بارے میں بولیں۔",
+          "answer": "کراچی پاکستان کا بڑا شہر ہے۔",
+          "expected": "کراچی پاکستان کا بڑا شہر ہے۔",
+          "options": [],
+          "audioText": "اپنے شہر کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اپنے پسندیدہ کھیل کے بارے میں بولیں۔",
+          "answer": "مجھے کرکٹ کھیلنا پسند ہے۔",
+          "expected": "مجھے کرکٹ کھیلنا پسند ہے۔",
+          "options": [],
+          "audioText": "اپنے پسندیدہ کھیل کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اپنے دوست کے بارے میں بولیں۔",
+          "answer": "میرا دوست بہت مددگار ہے۔",
+          "expected": "میرا دوست بہت مددگار ہے۔",
+          "options": [],
+          "audioText": "اپنے دوست کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اپنے خاندان کے بارے میں بولیں۔",
+          "answer": "میرا خاندان بہت پیارا ہے۔",
+          "expected": "میرا خاندان بہت پیارا ہے۔",
+          "options": [],
+          "audioText": "اپنے خاندان کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 2,
+      "topic": "تصویر کی وضاحت",
+      "questions": []
+    },
+    {
+      "grade": "class4",
+      "level": 3,
+      "topic": "اسم ،فعل ،صفت",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "جملہ :علی تیز دوڑتا ہے۔ صفت بولیں۔",
+          "answer": "تیز",
+          "expected": "تیز",
+          "options": [],
+          "audioText": "جملہ :علی تیز دوڑتا ہے۔ صفت بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ :سارہ کتاب پڑھتی ہے۔ فعل بولیں۔",
+          "answer": "پڑھتی ہے",
+          "expected": "پڑھتی ہے",
+          "options": [],
+          "audioText": "جملہ :سارہ کتاب پڑھتی ہے۔ فعل بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ :خوبصورت پھول کھلا ہے۔ اسم بولیں۔",
+          "answer": "پھول",
+          "expected": "پھول",
+          "options": [],
+          "audioText": "جملہ :خوبصورت پھول کھلا ہے۔ اسم بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ :بچہ پانی پیتا ہے۔ فعل بولیں۔",
+          "answer": "پیتا ہے",
+          "expected": "پیتا ہے",
+          "options": [],
+          "audioText": "جملہ :بچہ پانی پیتا ہے۔ فعل بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        },
+        {
+          "type": "speech",
+          "prompt": "جملہ :نیلا آسمان صاف ہے۔ صفت بولیں۔",
+          "answer": "نیلا",
+          "expected": "نیلا",
+          "options": [],
+          "audioText": "جملہ :نیلا آسمان صاف ہے۔ صفت بولیں۔",
+          "evaluation": "pronunciation",
+          "micMode": "word"
+        }
+      ]
+    },
+    {
+      "grade": "class4",
+      "level": 4,
+      "topic": "موضوعی جواب",
+      "questions": []
+    },
+    {
+      "grade": "class4",
+      "level": 5,
+      "topic": "گرامر درستگی",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :میں اسکول جاتا ہے۔",
+          "answer": "میں اسکول جاتا ہوں۔",
+          "expected": "میں اسکول جاتا ہوں۔",
+          "options": [],
+          "audioText": "غلط جملہ :میں اسکول جاتا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :وہ کتاب پڑھتا ہیں۔",
+          "answer": "وہ کتاب پڑھتا ہے۔",
+          "expected": "وہ کتاب پڑھتا ہے۔",
+          "options": [],
+          "audioText": "غلط جملہ :وہ کتاب پڑھتا ہیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :بچے کھیل رہا ہے۔",
+          "answer": "بچے کھیل رہے ہیں۔",
+          "expected": "بچے کھیل رہے ہیں۔",
+          "options": [],
+          "audioText": "غلط جملہ :بچے کھیل رہا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :سارہ پانی پیتا ہے۔",
+          "answer": "سارہ پانی پیتی ہے۔",
+          "expected": "سارہ پانی پیتی ہے۔",
+          "options": [],
+          "audioText": "غلط جملہ :سارہ پانی پیتا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :ہم بازار گیا۔",
+          "answer": "ہم بازار گئے۔",
+          "expected": "ہم بازار گئے۔",
+          "options": [],
+          "audioText": "غلط جملہ :ہم بازار گیا۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 1,
+      "topic": "اعلی سطح کی گفتگو",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "پاکستان کے بارے میں بولیں۔",
+          "answer": "پاکستان ایک خوبصورت اسلامی ملک ہے۔",
+          "expected": "پاکستان ایک خوبصورت اسلامی ملک ہے۔",
+          "options": [],
+          "audioText": "پاکستان کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "تعلیم کی اہمیت پر بولیں۔",
+          "answer": "تعلیم انسان کو کامیاب بناتی ہے۔",
+          "expected": "تعلیم انسان کو کامیاب بناتی ہے۔",
+          "options": [],
+          "audioText": "تعلیم کی اہمیت پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "محنت کے فائدے پر بولیں۔",
+          "answer": "محنت کامیابی کی کنجی ہے۔",
+          "expected": "محنت کامیابی کی کنجی ہے۔",
+          "options": [],
+          "audioText": "محنت کے فائدے پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "وقت کی پابندی پر بولیں۔",
+          "answer": "وقت کی پابندی اچھی عادت ہے۔",
+          "expected": "وقت کی پابندی اچھی عادت ہے۔",
+          "options": [],
+          "audioText": "وقت کی پابندی پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "صفائی کی اہمیت پر بولیں۔",
+          "answer": "صفائی ہمیں بیماریوں سے بچاتی ہے۔",
+          "expected": "صفائی ہمیں بیماریوں سے بچاتی ہے۔",
+          "options": [],
+          "audioText": "صفائی کی اہمیت پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 2,
+      "topic": "کہانی سنائیں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "ایمانداری پر کہانی سنائیں۔",
+          "answer": "ایماندار انسان ہمیشہ عزت پاتا ہے۔",
+          "expected": "ایماندار انسان ہمیشہ عزت پاتا ہے۔",
+          "options": [],
+          "audioText": "ایمانداری پر کہانی سنائیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "محنت پر کہانی سنائیں۔",
+          "answer": "محنت سے ہر مشکل آسان ہو جاتی ہے۔",
+          "expected": "محنت سے ہر مشکل آسان ہو جاتی ہے۔",
+          "options": [],
+          "audioText": "محنت پر کہانی سنائیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "سچائی پر کہانی سنائیں۔",
+          "answer": "سچ بولنے والا سب کو پسند ہوتا ہے۔",
+          "expected": "سچ بولنے والا سب کو پسند ہوتا ہے۔",
+          "options": [],
+          "audioText": "سچائی پر کہانی سنائیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "قومی ہیرو پر بولیں۔",
+          "answer": "قائداعظم پاکستان کے عظیم رہنما تھے۔",
+          "expected": "قائداعظم پاکستان کے عظیم رہنما تھے۔",
+          "options": [],
+          "audioText": "قومی ہیرو پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 3,
+      "topic": "تصویر سے مضمون",
+      "questions": []
+    },
+    {
+      "grade": "class5",
+      "level": 4,
+      "topic": "لیول 4",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "اپنے مستقبل کے خواب کے بارے میں بولیں۔",
+          "answer": "میں مستقبل میں انجینئر بننا چاہتا ہوں۔",
+          "expected": "میں مستقبل میں انجینئر بننا چاہتا ہوں۔",
+          "options": [],
+          "audioText": "اپنے مستقبل کے خواب کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "ٹیکنالوجی کے فائدے پر بولیں۔",
+          "answer": "ٹیکنالوجی زندگی آسان بناتی ہے۔",
+          "expected": "ٹیکنالوجی زندگی آسان بناتی ہے۔",
+          "options": [],
+          "audioText": "ٹیکنالوجی کے فائدے پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "انٹرنیٹ کے استعمال پر بولیں۔",
+          "answer": "انٹرنیٹ تعلیم کے لیے مفید ہے۔",
+          "expected": "انٹرنیٹ تعلیم کے لیے مفید ہے۔",
+          "options": [],
+          "audioText": "انٹرنیٹ کے استعمال پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "ماحول کے تحفظ پر بولیں۔",
+          "answer": "ہمیں درخت لگانے چاہئیں۔",
+          "expected": "ہمیں درخت لگانے چاہئیں۔",
+          "options": [],
+          "audioText": "ماحول کے تحفظ پر بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "اپنے ملک کے بارے میں بولیں۔",
+          "answer": "پاکستان ایک خوبصورت ملک ہے۔",
+          "expected": "پاکستان ایک خوبصورت ملک ہے۔",
+          "options": [],
+          "audioText": "اپنے ملک کے بارے میں بولیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    },
+    {
+      "grade": "class5",
+      "level": 5,
+      "topic": "غلط جملہ درست کریں",
+      "questions": [
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :ہم نے کتاب پڑھتا ہے۔",
+          "answer": "ہم نے کتاب پڑھی ہے۔",
+          "expected": "ہم نے کتاب پڑھی ہے۔",
+          "options": [],
+          "audioText": "غلط جملہ :ہم نے کتاب پڑھتا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :میں کل بازار جاتا تھا۔",
+          "answer": "میں کل بازار گیا تھا۔",
+          "expected": "میں کل بازار گیا تھا۔",
+          "options": [],
+          "audioText": "غلط جملہ :میں کل بازار جاتا تھا۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :وہ اچھے لڑکی ہے۔",
+          "answer": "وہ اچھی لڑکی ہے۔",
+          "expected": "وہ اچھی لڑکی ہے۔",
+          "options": [],
+          "audioText": "غلط جملہ :وہ اچھے لڑکی ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :بچے اسکول جا رہا ہے۔",
+          "answer": "بچے اسکول جا رہے ہیں۔",
+          "expected": "بچے اسکول جا رہے ہیں۔",
+          "options": [],
+          "audioText": "غلط جملہ :بچے اسکول جا رہا ہے۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        },
+        {
+          "type": "speech",
+          "prompt": "غلط جملہ :پاکستان خوبصورت ملک ہیں۔",
+          "answer": "پاکستان خوبصورت ملک ہے۔",
+          "expected": "پاکستان خوبصورت ملک ہے۔",
+          "options": [],
+          "audioText": "غلط جملہ :پاکستان خوبصورت ملک ہیں۔",
+          "evaluation": "semantic",
+          "micMode": "extended"
+        }
+      ]
+    }
+  ]
+}

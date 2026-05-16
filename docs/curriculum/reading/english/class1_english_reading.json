@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "My Family",
+    "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
+    "answer": "family",
+    "options": [
+      "family",
+      "market",
+      "garden",
+      "street"
+    ]
+  },
+  {
+    "topic": "My School",
+    "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
+    "answer": "school",
+    "options": [
+      "school",
+      "hospital",
+      "market",
+      "zoo"
+    ]
+  },
+  {
+    "topic": "My Best Friend",
+    "passage": "Ali is my best friend. We sit together in class. We share our books and lunch. After school, we play games together. We are happy friends.",
+    "answer": "Ali",
+    "options": [
+      "Ali",
+      "Sara",
+      "Ahmed",
+      "Bilal"
+    ]
+  },
+  {
+    "topic": "My Pet Cat",
+    "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
+    "answer": "cat",
+    "options": [
+      "cat",
+      "dog",
+      "goat",
+      "parrot"
+    ]
+  },
+  {
+    "topic": "Healthy Fruits",
+    "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
+    "answer": "mango",
+    "options": [
+      "mango",
+      "onion",
+      "bread",
+      "rice"
+    ]
+  },
+  {
+    "topic": "My Daily Routine",
+    "passage": "I wake up early every morning. I brush my teeth and wash my face. I go to school and learn many new things. In the evening, I play with my friends. I sleep early at night.",
+    "answer": "brush teeth",
+    "options": [
+      "brush teeth",
+      "watch TV only",
+      "skip school",
+      "eat candy"
+    ]
+  },
+  {
+    "topic": "Rainy Day",
+    "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
+    "answer": "umbrella",
+    "options": [
+      "umbrella",
+      "sunglasses",
+      "fan",
+      "kite"
+    ]
+  },
+  {
+    "topic": "Good Habits",
+    "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
+    "answer": "good habits",
+    "options": [
+      "good habits",
+      "bad habits",
+      "dirty hands",
+      "junk food"
+    ]
+  },
+  {
+    "topic": "My Favorite Toy",
+    "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
+    "answer": "teddy bear",
+    "options": [
+      "teddy bear",
+      "kite",
+      "truck",
+      "ball"
+    ]
+  },
+  {
+    "topic": "My Classroom",
+    "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
+    "answer": "classroom",
+    "options": [
+      "classroom",
+      "playground",
+      "kitchen",
+      "shop"
+    ]
+  }
+]

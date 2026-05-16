@@ -1,0 +1,288 @@
+[
+  {
+    "topic": "A for Apple",
+    "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
+    "answer": "apple",
+    "options": [
+      "apple",
+      "ball",
+      "cat",
+      "dog"
+    ]
+  },
+  {
+    "topic": "B for Ball",
+    "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
+    "answer": "ball",
+    "options": [
+      "ball",
+      "apple",
+      "kite",
+      "fish"
+    ]
+  },
+  {
+    "topic": "C for Cat",
+    "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
+    "answer": "cat",
+    "options": [
+      "cat",
+      "dog",
+      "goat",
+      "hen"
+    ]
+  },
+  {
+    "topic": "D for Dog",
+    "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
+    "answer": "dog",
+    "options": [
+      "dog",
+      "cat",
+      "fish",
+      "lion"
+    ]
+  },
+  {
+    "topic": "E for Elephant",
+    "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
+    "answer": "elephant",
+    "options": [
+      "elephant",
+      "fish",
+      "goat",
+      "hen"
+    ]
+  },
+  {
+    "topic": "F for Fish",
+    "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
+    "answer": "fish",
+    "options": [
+      "fish",
+      "dog",
+      "cat",
+      "kite"
+    ]
+  },
+  {
+    "topic": "G for Goat",
+    "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
+    "answer": "goat",
+    "options": [
+      "goat",
+      "hen",
+      "lion",
+      "rabbit"
+    ]
+  },
+  {
+    "topic": "H for Hen",
+    "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
+    "answer": "hen",
+    "options": [
+      "hen",
+      "goat",
+      "parrot",
+      "zebra"
+    ]
+  },
+  {
+    "topic": "I for Ice Cream",
+    "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
+    "answer": "ice cream",
+    "options": [
+      "ice cream",
+      "juice",
+      "orange",
+      "mango"
+    ]
+  },
+  {
+    "topic": "J for Juice",
+    "passage": "J is for juice. Juice is healthy and tasty. Sara drinks orange juice daily.",
+    "answer": "juice",
+    "options": [
+      "juice",
+      "kite",
+      "lion",
+      "nest"
+    ]
+  },
+  {
+    "topic": "K for Kite",
+    "passage": "K is for kite. The kite flies high in the sky. Kamran likes flying kites.",
+    "answer": "kite",
+    "options": [
+      "kite",
+      "juice",
+      "watch",
+      "van"
+    ]
+  },
+  {
+    "topic": "L for Lion",
+    "passage": "L is for lion. The lion is brave and strong. It lives in the jungle.",
+    "answer": "lion",
+    "options": [
+      "lion",
+      "rabbit",
+      "cat",
+      "fish"
+    ]
+  },
+  {
+    "topic": "M for Mango",
+    "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
+    "answer": "mango",
+    "options": [
+      "mango",
+      "orange",
+      "apple",
+      "juice"
+    ]
+  },
+  {
+    "topic": "N for Nest",
+    "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
+    "answer": "nest",
+    "options": [
+      "nest",
+      "mango",
+      "umbrella",
+      "watch"
+    ]
+  },
+  {
+    "topic": "O for Orange",
+    "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
+    "answer": "orange",
+    "options": [
+      "orange",
+      "mango",
+      "apple",
+      "fish"
+    ]
+  },
+  {
+    "topic": "P for Parrot",
+    "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
+    "answer": "parrot",
+    "options": [
+      "parrot",
+      "queen",
+      "rabbit",
+      "sun"
+    ]
+  },
+  {
+    "topic": "Q for Queen",
+    "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
+    "answer": "queen",
+    "options": [
+      "queen",
+      "parrot",
+      "zebra",
+      "yacht"
+    ]
+  },
+  {
+    "topic": "R for Rabbit",
+    "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
+    "answer": "rabbit",
+    "options": [
+      "rabbit",
+      "lion",
+      "tiger",
+      "goat"
+    ]
+  },
+  {
+    "topic": "S for Sun",
+    "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
+    "answer": "sun",
+    "options": [
+      "sun",
+      "watch",
+      "umbrella",
+      "van"
+    ]
+  },
+  {
+    "topic": "T for Tiger",
+    "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
+    "answer": "tiger",
+    "options": [
+      "tiger",
+      "zebra",
+      "rabbit",
+      "cat"
+    ]
+  },
+  {
+    "topic": "U for Umbrella",
+    "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
+    "answer": "umbrella",
+    "options": [
+      "umbrella",
+      "van",
+      "watch",
+      "kite"
+    ]
+  },
+  {
+    "topic": "V for Van",
+    "passage": "V is for van. The van carries people and goods. It moves on the road.",
+    "answer": "van",
+    "options": [
+      "van",
+      "watch",
+      "yacht",
+      "xylophone"
+    ]
+  },
+  {
+    "topic": "W for Watch",
+    "passage": "W is for watch. The watch shows time. My father wears a watch.",
+    "answer": "watch",
+    "options": [
+      "watch",
+      "van",
+      "sun",
+      "nest"
+    ]
+  },
+  {
+    "topic": "X for Xylophone",
+    "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
+    "answer": "xylophone",
+    "options": [
+      "xylophone",
+      "yacht",
+      "zebra",
+      "watch"
+    ]
+  },
+  {
+    "topic": "Y for Yacht",
+    "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
+    "answer": "yacht",
+    "options": [
+      "yacht",
+      "xylophone",
+      "van",
+      "kite"
+    ]
+  },
+  {
+    "topic": "Z for Zebra",
+    "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
+    "answer": "zebra",
+    "options": [
+      "zebra",
+      "tiger",
+      "lion",
+      "goat"
+    ]
+  }
+]

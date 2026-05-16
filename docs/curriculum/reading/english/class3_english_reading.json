@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "A Visit to the Zoo",
+    "passage": "Last Sunday, my family and I visited the zoo. We saw lions, elephants, monkeys, and many colorful birds. The monkeys were very funny because they jumped from one tree to another. We also watched a big elephant spraying water with its trunk. I enjoyed the zoo trip very much.",
+    "answer": "zoo",
+    "options": [
+      "zoo",
+      "museum",
+      "park",
+      "market"
+    ]
+  },
+  {
+    "topic": "Importance of Cleanliness",
+    "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
+    "answer": "cleanliness",
+    "options": [
+      "cleanliness",
+      "pollution",
+      "noise",
+      "traffic"
+    ]
+  },
+  {
+    "topic": "My Favorite Teacher",
+    "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
+    "answer": "Miss Sara",
+    "options": [
+      "Miss Sara",
+      "Miss Hina",
+      "Mr Ali",
+      "Mr Khan"
+    ]
+  },
+  {
+    "topic": "Trees Are Important",
+    "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
+    "answer": "oxygen",
+    "options": [
+      "oxygen",
+      "plastic",
+      "smoke",
+      "noise"
+    ]
+  },
+  {
+    "topic": "A Rainy Adventure",
+    "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
+    "answer": "rainbow",
+    "options": [
+      "rainbow",
+      "snowman",
+      "sunflower",
+      "moon"
+    ]
+  },
+  {
+    "topic": "My Hobby",
+    "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
+    "answer": "drawing",
+    "options": [
+      "drawing",
+      "singing",
+      "running",
+      "cooking"
+    ]
+  },
+  {
+    "topic": "Helping Parents",
+    "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
+    "answer": "parents",
+    "options": [
+      "parents",
+      "strangers",
+      "drivers",
+      "shopkeepers"
+    ]
+  },
+  {
+    "topic": "A School Trip",
+    "passage": "Our school arranged a trip to a historical museum. We saw old coins, paintings, and ancient tools. The guide told us interesting stories about history. We learned many new things during the visit. Everyone enjoyed the school trip a lot.",
+    "answer": "museum",
+    "options": [
+      "museum",
+      "beach",
+      "market",
+      "airport"
+    ]
+  },
+  {
+    "topic": "Healthy Food",
+    "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
+    "answer": "healthy food",
+    "options": [
+      "healthy food",
+      "junk food",
+      "only sweets",
+      "cold drinks"
+    ]
+  },
+  {
+    "topic": "My City",
+    "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
+    "answer": "city",
+    "options": [
+      "city",
+      "village",
+      "forest",
+      "desert"
+    ]
+  }
+]
