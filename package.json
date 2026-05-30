@@ -1,0 +1,9 @@
+{
+  "name": "diyaa-phaser-games-server",
+  "version": "1.0.0",
+  "description": "Standalone HTTP server for DIYAA Phaser curriculum games",
+  "scripts": {
+    "start": "npx -y http-server features -p 5500 --cors",
+    "dev": "npx -y http-server features -p 5500 --cors"
+  }
+}

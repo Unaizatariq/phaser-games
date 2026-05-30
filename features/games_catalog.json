@@ -1,0 +1,3485 @@
+[
+  {
+    "id": "nursery-english-reading-l1",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "A for Apple / B for Ball / C for Cat",
+    "path": "games/nursery/english/reading/level-1/index.html"
+  },
+  {
+    "id": "nursery-english-reading-l2",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "D for Dog / E for Elephant / F for Fish",
+    "path": "games/nursery/english/reading/level-2/index.html"
+  },
+  {
+    "id": "nursery-english-reading-l3",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "G for Goat / H for Hen / I for Ice Cream",
+    "path": "games/nursery/english/reading/level-3/index.html"
+  },
+  {
+    "id": "nursery-english-writing-l1",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Alphabet Tracing A-Z",
+    "path": "games/nursery/english/writing/level-1/index.html"
+  },
+  {
+    "id": "nursery-english-writing-l2",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Shape Tracing",
+    "path": "games/nursery/english/writing/level-2/index.html"
+  },
+  {
+    "id": "nursery-english-writing-l3",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Missing Alphabet Tracing",
+    "path": "games/nursery/english/writing/level-3/index.html"
+  },
+  {
+    "id": "nursery-english-listening-l1",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Alphabets A-Z",
+    "path": "games/nursery/english/listening/level-1/index.html"
+  },
+  {
+    "id": "nursery-english-listening-l2",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Colors",
+    "path": "games/nursery/english/listening/level-2/index.html"
+  },
+  {
+    "id": "nursery-english-listening-l3",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Fruits",
+    "path": "games/nursery/english/listening/level-3/index.html"
+  },
+  {
+    "id": "nursery-english-speaking-l1",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Speak Alphabets A-Z",
+    "path": "games/nursery/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "nursery-english-speaking-l2",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Speak Simple Words",
+    "path": "games/nursery/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "nursery-english-speaking-l3",
+    "grade": "nursery",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Speak Colors",
+    "path": "games/nursery/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "nursery-maths-reading-l1",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting 1 to 5",
+    "path": "games/nursery/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "nursery-maths-reading-l2",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Big and Small",
+    "path": "games/nursery/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "nursery-maths-reading-l3",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Shapes",
+    "path": "games/nursery/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "nursery-maths-writing-l1",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Number Tracing 1-50",
+    "path": "games/nursery/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "nursery-maths-writing-l2",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Shape Tracing",
+    "path": "games/nursery/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "nursery-maths-writing-l3",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Operator Tracing",
+    "path": "games/nursery/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "nursery-maths-listening-l1",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Counting 1-20",
+    "path": "games/nursery/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "nursery-maths-listening-l2",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Shapes",
+    "path": "games/nursery/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "nursery-maths-listening-l3",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Tall and Short",
+    "path": "games/nursery/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "nursery-maths-speaking-l1",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Counting 1-50",
+    "path": "games/nursery/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "nursery-maths-speaking-l2",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Shape Recognition",
+    "path": "games/nursery/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "nursery-maths-speaking-l3",
+    "grade": "nursery",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths",
+    "path": "games/nursery/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "nursery-science-reading-l1",
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Eyes",
+    "path": "games/nursery/science/reading/level-1/index.html"
+  },
+  {
+    "id": "nursery-science-reading-l2",
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Ears",
+    "path": "games/nursery/science/reading/level-2/index.html"
+  },
+  {
+    "id": "nursery-science-reading-l3",
+    "grade": "nursery",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Nose",
+    "path": "games/nursery/science/reading/level-3/index.html"
+  },
+  {
+    "id": "nursery-urdu-reading-l1",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "ا سے سیب",
+    "path": "games/nursery/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "nursery-urdu-reading-l2",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "ب سے گیند",
+    "path": "games/nursery/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "nursery-urdu-reading-l3",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "پ سے پتنگ",
+    "path": "games/nursery/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "nursery-urdu-writing-l1",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "مکمل حروفِ تہجی ٹریسنگ",
+    "path": "games/nursery/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "nursery-urdu-writing-l2",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "نقطوں والے حروف",
+    "path": "games/nursery/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "nursery-urdu-writing-l3",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "لائن اور پیٹرن ٹریسنگ",
+    "path": "games/nursery/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "nursery-urdu-listening-l1",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حروفِ تہجی",
+    "path": "games/nursery/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "nursery-urdu-listening-l2",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "نقطوں والے حروف",
+    "path": "games/nursery/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "nursery-urdu-listening-l3",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "پہلے اور بعد والے حروف",
+    "path": "games/nursery/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "nursery-urdu-speaking-l1",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "حروف کی آواز اور ادائیگی",
+    "path": "games/nursery/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "nursery-urdu-speaking-l2",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "آسان الفاظ بولیں",
+    "path": "games/nursery/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "nursery-urdu-speaking-l3",
+    "grade": "nursery",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "تصویر دیکھ کر نام بولیں",
+    "path": "games/nursery/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "kg-english-reading-l1",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Body",
+    "path": "games/kg/english/reading/level-1/index.html"
+  },
+  {
+    "id": "kg-english-reading-l2",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Colors Around Me",
+    "path": "games/kg/english/reading/level-2/index.html"
+  },
+  {
+    "id": "kg-english-reading-l3",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "My Family",
+    "path": "games/kg/english/reading/level-3/index.html"
+  },
+  {
+    "id": "kg-english-writing-l1",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Capital Letter Tracing",
+    "path": "games/kg/english/writing/level-1/index.html"
+  },
+  {
+    "id": "kg-english-writing-l2",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Small Letter Tracing",
+    "path": "games/kg/english/writing/level-2/index.html"
+  },
+  {
+    "id": "kg-english-writing-l3",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Word Tracing",
+    "path": "games/kg/english/writing/level-3/index.html"
+  },
+  {
+    "id": "kg-english-listening-l1",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Phonics",
+    "path": "games/kg/english/listening/level-1/index.html"
+  },
+  {
+    "id": "kg-english-listening-l2",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Vocabulary",
+    "path": "games/kg/english/listening/level-2/index.html"
+  },
+  {
+    "id": "kg-english-listening-l3",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Listening Skills",
+    "path": "games/kg/english/listening/level-3/index.html"
+  },
+  {
+    "id": "kg-english-speaking-l1",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/kg/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "kg-english-speaking-l2",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/kg/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "kg-english-speaking-l3",
+    "grade": "kg",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/kg/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "kg-maths-reading-l1",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting 1 to 20",
+    "path": "games/kg/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "kg-maths-reading-l2",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Addition",
+    "path": "games/kg/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "kg-maths-reading-l3",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Subtraction",
+    "path": "games/kg/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "kg-maths-writing-l1",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Number Writing",
+    "path": "games/kg/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "kg-maths-writing-l2",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Numbers",
+    "path": "games/kg/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "kg-maths-writing-l3",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Basic Operators",
+    "path": "games/kg/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "kg-maths-listening-l1",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Number Recognition",
+    "path": "games/kg/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "kg-maths-listening-l2",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Sorting by Shape",
+    "path": "games/kg/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "kg-maths-listening-l3",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Patterns",
+    "path": "games/kg/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "kg-maths-speaking-l1",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Counting and Numbers",
+    "path": "games/kg/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "kg-maths-speaking-l2",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Operators",
+    "path": "games/kg/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "kg-maths-speaking-l3",
+    "grade": "kg",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Maths",
+    "path": "games/kg/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "kg-science-reading-l1",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Body",
+    "path": "games/kg/science/reading/level-1/index.html"
+  },
+  {
+    "id": "kg-science-reading-l2",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Animals",
+    "path": "games/kg/science/reading/level-2/index.html"
+  },
+  {
+    "id": "kg-science-reading-l3",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Birds",
+    "path": "games/kg/science/reading/level-3/index.html"
+  },
+  {
+    "id": "kg-science-writing-l1",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "games/kg/science/writing/level-1/index.html"
+  },
+  {
+    "id": "kg-science-writing-l2",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "games/kg/science/writing/level-2/index.html"
+  },
+  {
+    "id": "kg-science-writing-l3",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "games/kg/science/writing/level-3/index.html"
+  },
+  {
+    "id": "kg-science-listening-l1",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "games/kg/science/listening/level-1/index.html"
+  },
+  {
+    "id": "kg-science-listening-l2",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "games/kg/science/listening/level-2/index.html"
+  },
+  {
+    "id": "kg-science-listening-l3",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "games/kg/science/listening/level-3/index.html"
+  },
+  {
+    "id": "kg-science-speaking-l1",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "My Body Parts",
+    "path": "games/kg/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "kg-science-speaking-l2",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Personal Hygiene",
+    "path": "games/kg/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "kg-science-speaking-l3",
+    "grade": "kg",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Plants and Animals",
+    "path": "games/kg/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "kg-urdu-reading-l1",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "میرا جسم",
+    "path": "games/kg/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "kg-urdu-reading-l2",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "میرے ارد گرد رنگ",
+    "path": "games/kg/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "kg-urdu-reading-l3",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "میرا خاندان",
+    "path": "games/kg/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "kg-urdu-writing-l1",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "حروف لکھائی",
+    "path": "games/kg/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "kg-urdu-writing-l2",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "لفظ مکمل کریں",
+    "path": "games/kg/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "kg-urdu-writing-l3",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر پہلا حرف",
+    "path": "games/kg/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "kg-urdu-listening-l1",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حرف اور آواز",
+    "path": "games/kg/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "kg-urdu-listening-l2",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "آسان الفاظ",
+    "path": "games/kg/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "kg-urdu-listening-l3",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "جانوروں کی آوازیں",
+    "path": "games/kg/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "kg-urdu-speaking-l1",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اردو حروف کی پہچان",
+    "path": "games/kg/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "kg-urdu-speaking-l2",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "اردو آوازیں",
+    "path": "games/kg/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "kg-urdu-speaking-l3",
+    "grade": "kg",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "عام چیزوں کے نام",
+    "path": "games/kg/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "class1-computer-reading-l1",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "What is a Computer?",
+    "path": "games/class1/computer/reading/level-1/index.html"
+  },
+  {
+    "id": "class1-computer-reading-l2",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Parts of a Computer",
+    "path": "games/class1/computer/reading/level-2/index.html"
+  },
+  {
+    "id": "class1-computer-reading-l3",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Monitor",
+    "path": "games/class1/computer/reading/level-3/index.html"
+  },
+  {
+    "id": "class1-computer-writing-l1",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Computer Vocabulary Typing",
+    "path": "games/class1/computer/writing/level-1/index.html"
+  },
+  {
+    "id": "class1-computer-writing-l2",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Letters",
+    "path": "games/class1/computer/writing/level-2/index.html"
+  },
+  {
+    "id": "class1-computer-writing-l3",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Device Recognition Writing",
+    "path": "games/class1/computer/writing/level-3/index.html"
+  },
+  {
+    "id": "class1-computer-listening-l1",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Introduction to Computer",
+    "path": "games/class1/computer/listening/level-1/index.html"
+  },
+  {
+    "id": "class1-computer-listening-l2",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Parts of Computer",
+    "path": "games/class1/computer/listening/level-2/index.html"
+  },
+  {
+    "id": "class1-computer-listening-l3",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Computer Handling",
+    "path": "games/class1/computer/listening/level-3/index.html"
+  },
+  {
+    "id": "class1-computer-speaking-l1",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Computer Vocabulary",
+    "path": "games/class1/computer/speaking/level-1/index.html"
+  },
+  {
+    "id": "class1-computer-speaking-l2",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Device Identification",
+    "path": "games/class1/computer/speaking/level-2/index.html"
+  },
+  {
+    "id": "class1-computer-speaking-l3",
+    "grade": "class1",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Computer Rules Speaking",
+    "path": "games/class1/computer/speaking/level-3/index.html"
+  },
+  {
+    "id": "class1-english-reading-l1",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Family",
+    "path": "games/class1/english/reading/level-1/index.html"
+  },
+  {
+    "id": "class1-english-reading-l2",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "My School",
+    "path": "games/class1/english/reading/level-2/index.html"
+  },
+  {
+    "id": "class1-english-reading-l3",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "My Best Friend",
+    "path": "games/class1/english/reading/level-3/index.html"
+  },
+  {
+    "id": "class1-english-writing-l1",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Keyboard Typing",
+    "path": "games/class1/english/writing/level-1/index.html"
+  },
+  {
+    "id": "class1-english-writing-l2",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Missing Letters",
+    "path": "games/class1/english/writing/level-2/index.html"
+  },
+  {
+    "id": "class1-english-writing-l3",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Sentence Typing",
+    "path": "games/class1/english/writing/level-3/index.html"
+  },
+  {
+    "id": "class1-english-listening-l1",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Verbs",
+    "path": "games/class1/english/listening/level-1/index.html"
+  },
+  {
+    "id": "class1-english-listening-l2",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "games/class1/english/listening/level-2/index.html"
+  },
+  {
+    "id": "class1-english-listening-l3",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Opposites",
+    "path": "games/class1/english/listening/level-3/index.html"
+  },
+  {
+    "id": "class1-english-speaking-l1",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/class1/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "class1-english-speaking-l2",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/class1/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "class1-english-speaking-l3",
+    "grade": "class1",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class1/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "class1-maths-reading-l1",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Counting Numbers",
+    "path": "games/class1/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "class1-maths-reading-l2",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Numbers 1 to 100",
+    "path": "games/class1/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "class1-maths-reading-l3",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Before, After, and Between",
+    "path": "games/class1/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "class1-maths-writing-l1",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Addition Writing",
+    "path": "games/class1/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "class1-maths-writing-l2",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Subtraction Writing",
+    "path": "games/class1/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "class1-maths-writing-l3",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Number Words",
+    "path": "games/class1/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "class1-maths-listening-l1",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Addition",
+    "path": "games/class1/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "class1-maths-listening-l2",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Subtraction",
+    "path": "games/class1/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "class1-maths-listening-l3",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Time",
+    "path": "games/class1/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "class1-maths-speaking-l1",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Addition and Subtraction",
+    "path": "games/class1/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "class1-maths-speaking-l2",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Multiplication and Division",
+    "path": "games/class1/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "class1-maths-speaking-l3",
+    "grade": "class1",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths Challenge",
+    "path": "games/class1/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "class1-science-reading-l1",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "My Body",
+    "path": "games/class1/science/reading/level-1/index.html"
+  },
+  {
+    "id": "class1-science-reading-l2",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Healthy Food",
+    "path": "games/class1/science/reading/level-2/index.html"
+  },
+  {
+    "id": "class1-science-reading-l3",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Cleanliness",
+    "path": "games/class1/science/reading/level-3/index.html"
+  },
+  {
+    "id": "class1-science-writing-l1",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Body Parts Writing",
+    "path": "games/class1/science/writing/level-1/index.html"
+  },
+  {
+    "id": "class1-science-writing-l2",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Living Things",
+    "path": "games/class1/science/writing/level-2/index.html"
+  },
+  {
+    "id": "class1-science-writing-l3",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Weather Writing",
+    "path": "games/class1/science/writing/level-3/index.html"
+  },
+  {
+    "id": "class1-science-listening-l1",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Body Parts",
+    "path": "games/class1/science/listening/level-1/index.html"
+  },
+  {
+    "id": "class1-science-listening-l2",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Living Things",
+    "path": "games/class1/science/listening/level-2/index.html"
+  },
+  {
+    "id": "class1-science-listening-l3",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Weather",
+    "path": "games/class1/science/listening/level-3/index.html"
+  },
+  {
+    "id": "class1-science-speaking-l1",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Speak Body Parts",
+    "path": "games/class1/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "class1-science-speaking-l2",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Living Things Speaking",
+    "path": "games/class1/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "class1-science-speaking-l3",
+    "grade": "class1",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class1/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "class1-urdu-reading-l1",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "میرا خاندان",
+    "path": "games/class1/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "class1-urdu-reading-l2",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "میرا اسکول",
+    "path": "games/class1/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "class1-urdu-reading-l3",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "میرا بہترین دوست",
+    "path": "games/class1/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "class1-urdu-writing-l1",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "لفظ ٹائپنگ",
+    "path": "games/class1/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "class1-urdu-writing-l2",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "جملہ مکمل کریں",
+    "path": "games/class1/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "class1-urdu-writing-l3",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر لفظ",
+    "path": "games/class1/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "class1-urdu-listening-l1",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "حروف اور الفاظ کی پہچان",
+    "path": "games/class1/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "class1-urdu-listening-l2",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "افعال کی پہچان",
+    "path": "games/class1/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "class1-urdu-listening-l3",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "احساسات",
+    "path": "games/class1/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "class1-urdu-speaking-l1",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "الفاظ کی ادائیگی",
+    "path": "games/class1/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "class1-urdu-speaking-l2",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "حروف کی ترتیب",
+    "path": "games/class1/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "class1-urdu-speaking-l3",
+    "grade": "class1",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "ملتے جلتے حروف",
+    "path": "games/class1/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "class2-computer-reading-l1",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "games/class2/computer/reading/level-1/index.html"
+  },
+  {
+    "id": "class2-computer-reading-l2",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Main Parts of a Computer",
+    "path": "games/class2/computer/reading/level-2/index.html"
+  },
+  {
+    "id": "class2-computer-reading-l3",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Input Devices",
+    "path": "games/class2/computer/reading/level-3/index.html"
+  },
+  {
+    "id": "class2-computer-writing-l1",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Keyboard Practice",
+    "path": "games/class2/computer/writing/level-1/index.html"
+  },
+  {
+    "id": "class2-computer-writing-l2",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Computer Actions",
+    "path": "games/class2/computer/writing/level-2/index.html"
+  },
+  {
+    "id": "class2-computer-writing-l3",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Fill in the Blanks",
+    "path": "games/class2/computer/writing/level-3/index.html"
+  },
+  {
+    "id": "class2-computer-listening-l1",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Computer Basics",
+    "path": "games/class2/computer/listening/level-1/index.html"
+  },
+  {
+    "id": "class2-computer-listening-l2",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Mouse Actions",
+    "path": "games/class2/computer/listening/level-2/index.html"
+  },
+  {
+    "id": "class2-computer-listening-l3",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Drawing Tools",
+    "path": "games/class2/computer/listening/level-3/index.html"
+  },
+  {
+    "id": "class2-computer-speaking-l1",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Parts of Computer",
+    "path": "games/class2/computer/speaking/level-1/index.html"
+  },
+  {
+    "id": "class2-computer-speaking-l2",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Mouse Actions",
+    "path": "games/class2/computer/speaking/level-2/index.html"
+  },
+  {
+    "id": "class2-computer-speaking-l3",
+    "grade": "class2",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class2/computer/speaking/level-3/index.html"
+  },
+  {
+    "id": "class2-english-reading-l1",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "The Park",
+    "path": "games/class2/english/reading/level-1/index.html"
+  },
+  {
+    "id": "class2-english-reading-l2",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Helping Others",
+    "path": "games/class2/english/reading/level-2/index.html"
+  },
+  {
+    "id": "class2-english-reading-l3",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "My Pet Dog",
+    "path": "games/class2/english/reading/level-3/index.html"
+  },
+  {
+    "id": "class2-english-writing-l1",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Nouns and Verbs",
+    "path": "games/class2/english/writing/level-1/index.html"
+  },
+  {
+    "id": "class2-english-writing-l2",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Fill in the Blanks",
+    "path": "games/class2/english/writing/level-2/index.html"
+  },
+  {
+    "id": "class2-english-writing-l3",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Sentence Correction",
+    "path": "games/class2/english/writing/level-3/index.html"
+  },
+  {
+    "id": "class2-english-listening-l1",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "games/class2/english/listening/level-1/index.html"
+  },
+  {
+    "id": "class2-english-listening-l2",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Articles",
+    "path": "games/class2/english/listening/level-2/index.html"
+  },
+  {
+    "id": "class2-english-listening-l3",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Sentence Making",
+    "path": "games/class2/english/listening/level-3/index.html"
+  },
+  {
+    "id": "class2-english-speaking-l1",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/class2/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "class2-english-speaking-l2",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/class2/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "class2-english-speaking-l3",
+    "grade": "class2",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class2/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "class2-maths-reading-l1",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Numbers up to 1000",
+    "path": "games/class2/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "class2-maths-reading-l2",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Place Value",
+    "path": "games/class2/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "class2-maths-reading-l3",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Addition",
+    "path": "games/class2/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "class2-maths-writing-l1",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Multiplication Writing",
+    "path": "games/class2/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "class2-maths-writing-l2",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Division Writing",
+    "path": "games/class2/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "class2-maths-writing-l3",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Mental Maths Writing",
+    "path": "games/class2/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "class2-maths-listening-l1",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Place Value",
+    "path": "games/class2/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "class2-maths-listening-l2",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Multiplication",
+    "path": "games/class2/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "class2-maths-listening-l3",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Money",
+    "path": "games/class2/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "class2-maths-speaking-l1",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Place Value",
+    "path": "games/class2/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "class2-maths-speaking-l2",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Operators Practice",
+    "path": "games/class2/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "class2-maths-speaking-l3",
+    "grade": "class2",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Answer Challenge",
+    "path": "games/class2/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "class2-science-reading-l1",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Living Things",
+    "path": "games/class2/science/reading/level-1/index.html"
+  },
+  {
+    "id": "class2-science-reading-l2",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Non-Living Things",
+    "path": "games/class2/science/reading/level-2/index.html"
+  },
+  {
+    "id": "class2-science-reading-l3",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants Around Us",
+    "path": "games/class2/science/reading/level-3/index.html"
+  },
+  {
+    "id": "class2-science-writing-l1",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "games/class2/science/writing/level-1/index.html"
+  },
+  {
+    "id": "class2-science-writing-l2",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Plants Writing",
+    "path": "games/class2/science/writing/level-2/index.html"
+  },
+  {
+    "id": "class2-science-writing-l3",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Materials",
+    "path": "games/class2/science/writing/level-3/index.html"
+  },
+  {
+    "id": "class2-science-listening-l1",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "games/class2/science/listening/level-1/index.html"
+  },
+  {
+    "id": "class2-science-listening-l2",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Plants",
+    "path": "games/class2/science/listening/level-2/index.html"
+  },
+  {
+    "id": "class2-science-listening-l3",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Materials",
+    "path": "games/class2/science/listening/level-3/index.html"
+  },
+  {
+    "id": "class2-science-speaking-l1",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Five Senses",
+    "path": "games/class2/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "class2-science-speaking-l2",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Plants and Water",
+    "path": "games/class2/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "class2-science-speaking-l3",
+    "grade": "class2",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class2/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "class2-urdu-reading-l1",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "پارک",
+    "path": "games/class2/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "class2-urdu-reading-l2",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "دوسروں کی مدد",
+    "path": "games/class2/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "class2-urdu-reading-l3",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "میرا پالتو کتا",
+    "path": "games/class2/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "class2-urdu-writing-l1",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "خالی جگہ پُر کریں",
+    "path": "games/class2/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "class2-urdu-writing-l2",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "متضاد الفاظ",
+    "path": "games/class2/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "class2-urdu-writing-l3",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "جمع لکھیں",
+    "path": "games/class2/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "class2-urdu-listening-l1",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "اسم",
+    "path": "games/class2/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "class2-urdu-listening-l2",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "صفت",
+    "path": "games/class2/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "class2-urdu-listening-l3",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "واحد جمع",
+    "path": "games/class2/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "class2-urdu-speaking-l1",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "متضاد الفاظ بولیں",
+    "path": "games/class2/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "class2-urdu-speaking-l2",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "واحد اور جمع",
+    "path": "games/class2/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "class2-urdu-speaking-l3",
+    "grade": "class2",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "جھوٹی اشکال",
+    "path": "games/class2/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "class3-computer-reading-l1",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "games/class3/computer/reading/level-1/index.html"
+  },
+  {
+    "id": "class3-computer-reading-l2",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "History of Computers",
+    "path": "games/class3/computer/reading/level-2/index.html"
+  },
+  {
+    "id": "class3-computer-reading-l3",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Parts of a Computer",
+    "path": "games/class3/computer/reading/level-3/index.html"
+  },
+  {
+    "id": "class3-computer-writing-l1",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Computer Uses",
+    "path": "games/class3/computer/writing/level-1/index.html"
+  },
+  {
+    "id": "class3-computer-writing-l2",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "MS Paint Writing",
+    "path": "games/class3/computer/writing/level-2/index.html"
+  },
+  {
+    "id": "class3-computer-writing-l3",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Rearrange Words",
+    "path": "games/class3/computer/writing/level-3/index.html"
+  },
+  {
+    "id": "class3-computer-listening-l1",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Keyboard Keys",
+    "path": "games/class3/computer/listening/level-1/index.html"
+  },
+  {
+    "id": "class3-computer-listening-l2",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Uses of Computers",
+    "path": "games/class3/computer/listening/level-2/index.html"
+  },
+  {
+    "id": "class3-computer-listening-l3",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "MS Paint",
+    "path": "games/class3/computer/listening/level-3/index.html"
+  },
+  {
+    "id": "class3-computer-speaking-l1",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Keyboard Keys",
+    "path": "games/class3/computer/speaking/level-1/index.html"
+  },
+  {
+    "id": "class3-computer-speaking-l2",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Uses of Computer",
+    "path": "games/class3/computer/speaking/level-2/index.html"
+  },
+  {
+    "id": "class3-computer-speaking-l3",
+    "grade": "class3",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "MS Paint Speaking",
+    "path": "games/class3/computer/speaking/level-3/index.html"
+  },
+  {
+    "id": "class3-english-reading-l1",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "A Visit to the Zoo",
+    "path": "games/class3/english/reading/level-1/index.html"
+  },
+  {
+    "id": "class3-english-reading-l2",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Importance of Cleanliness",
+    "path": "games/class3/english/reading/level-2/index.html"
+  },
+  {
+    "id": "class3-english-reading-l3",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "My Favorite Teacher",
+    "path": "games/class3/english/reading/level-3/index.html"
+  },
+  {
+    "id": "class3-english-writing-l1",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Grammar Writing",
+    "path": "games/class3/english/writing/level-1/index.html"
+  },
+  {
+    "id": "class3-english-writing-l2",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Rearrange Sentence",
+    "path": "games/class3/english/writing/level-2/index.html"
+  },
+  {
+    "id": "class3-english-writing-l3",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Short Paragraph Writing",
+    "path": "games/class3/english/writing/level-3/index.html"
+  },
+  {
+    "id": "class3-english-listening-l1",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Adverbs",
+    "path": "games/class3/english/listening/level-1/index.html"
+  },
+  {
+    "id": "class3-english-listening-l2",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Prepositions",
+    "path": "games/class3/english/listening/level-2/index.html"
+  },
+  {
+    "id": "class3-english-listening-l3",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Synonyms",
+    "path": "games/class3/english/listening/level-3/index.html"
+  },
+  {
+    "id": "class3-english-speaking-l1",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/class3/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "class3-english-speaking-l2",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/class3/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "class3-english-speaking-l3",
+    "grade": "class3",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class3/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "class3-maths-reading-l1",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Large Numbers",
+    "path": "games/class3/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "class3-maths-reading-l2",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Place Value and Expanded Form",
+    "path": "games/class3/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "class3-maths-reading-l3",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Addition and Subtraction",
+    "path": "games/class3/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "class3-maths-writing-l1",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Fractions Writing",
+    "path": "games/class3/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "class3-maths-writing-l2",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Measurement Writing",
+    "path": "games/class3/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "class3-maths-writing-l3",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Equation Solving",
+    "path": "games/class3/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "class3-maths-listening-l1",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Fractions",
+    "path": "games/class3/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "class3-maths-listening-l2",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Measurement",
+    "path": "games/class3/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "class3-maths-listening-l3",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Time and Calendar",
+    "path": "games/class3/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "class3-maths-speaking-l1",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Fractions",
+    "path": "games/class3/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "class3-maths-speaking-l2",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Measurements",
+    "path": "games/class3/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "class3-maths-speaking-l3",
+    "grade": "class3",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Mental Maths",
+    "path": "games/class3/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "class3-science-reading-l1",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Living and Non-Living Things",
+    "path": "games/class3/science/reading/level-1/index.html"
+  },
+  {
+    "id": "class3-science-reading-l2",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Parts of a Plant",
+    "path": "games/class3/science/reading/level-2/index.html"
+  },
+  {
+    "id": "class3-science-reading-l3",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Animals and Their Habitats",
+    "path": "games/class3/science/reading/level-3/index.html"
+  },
+  {
+    "id": "class3-science-writing-l1",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "games/class3/science/writing/level-1/index.html"
+  },
+  {
+    "id": "class3-science-writing-l2",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Animals",
+    "path": "games/class3/science/writing/level-2/index.html"
+  },
+  {
+    "id": "class3-science-writing-l3",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Environment Writing",
+    "path": "games/class3/science/writing/level-3/index.html"
+  },
+  {
+    "id": "class3-science-listening-l1",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "games/class3/science/listening/level-1/index.html"
+  },
+  {
+    "id": "class3-science-listening-l2",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Animals",
+    "path": "games/class3/science/listening/level-2/index.html"
+  },
+  {
+    "id": "class3-science-listening-l3",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Environment",
+    "path": "games/class3/science/listening/level-3/index.html"
+  },
+  {
+    "id": "class3-science-speaking-l1",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "States of Matter",
+    "path": "games/class3/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "class3-science-speaking-l2",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Animals",
+    "path": "games/class3/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "class3-science-speaking-l3",
+    "grade": "class3",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class3/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "class3-urdu-reading-l1",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "چڑیا گھر کی سیر",
+    "path": "games/class3/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "class3-urdu-reading-l2",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "صفائی کی اہمیت",
+    "path": "games/class3/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "class3-urdu-reading-l3",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "میری پسندیدہ استانی",
+    "path": "games/class3/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "class3-urdu-writing-l1",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "جملہ درست کریں",
+    "path": "games/class3/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "class3-urdu-writing-l2",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "سن کر لفظ لکھیں",
+    "path": "games/class3/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "class3-urdu-writing-l3",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "اسم، فعل، صفت",
+    "path": "games/class3/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "class3-urdu-listening-l1",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "متضاد الفاظ",
+    "path": "games/class3/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "class3-urdu-listening-l2",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "جملہ سن کر جواب دیں",
+    "path": "games/class3/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "class3-urdu-listening-l3",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "زمانہ",
+    "path": "games/class3/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "class3-urdu-speaking-l1",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اسم اور فعل",
+    "path": "games/class3/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "class3-urdu-speaking-l2",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "صفت کے ساتھ جملے",
+    "path": "games/class3/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "class3-urdu-speaking-l3",
+    "grade": "class3",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "جملے",
+    "path": "games/class3/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "class4-computer-reading-l1",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Introduction to Computers",
+    "path": "games/class4/computer/reading/level-1/index.html"
+  },
+  {
+    "id": "class4-computer-reading-l2",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Generations of Computers",
+    "path": "games/class4/computer/reading/level-2/index.html"
+  },
+  {
+    "id": "class4-computer-reading-l3",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Hardware and Software",
+    "path": "games/class4/computer/reading/level-3/index.html"
+  },
+  {
+    "id": "class4-computer-writing-l1",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "games/class4/computer/writing/level-1/index.html"
+  },
+  {
+    "id": "class4-computer-writing-l2",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "games/class4/computer/writing/level-2/index.html"
+  },
+  {
+    "id": "class4-computer-writing-l3",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "games/class4/computer/writing/level-3/index.html"
+  },
+  {
+    "id": "class4-computer-listening-l1",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "games/class4/computer/listening/level-1/index.html"
+  },
+  {
+    "id": "class4-computer-listening-l2",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "games/class4/computer/listening/level-2/index.html"
+  },
+  {
+    "id": "class4-computer-listening-l3",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "games/class4/computer/listening/level-3/index.html"
+  },
+  {
+    "id": "class4-computer-speaking-l1",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Input and Output Devices",
+    "path": "games/class4/computer/speaking/level-1/index.html"
+  },
+  {
+    "id": "class4-computer-speaking-l2",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Windows Basics",
+    "path": "games/class4/computer/speaking/level-2/index.html"
+  },
+  {
+    "id": "class4-computer-speaking-l3",
+    "grade": "class4",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Programming Logic",
+    "path": "games/class4/computer/speaking/level-3/index.html"
+  },
+  {
+    "id": "class4-english-reading-l1",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "The Solar System",
+    "path": "games/class4/english/reading/level-1/index.html"
+  },
+  {
+    "id": "class4-english-reading-l2",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Importance of Water",
+    "path": "games/class4/english/reading/level-2/index.html"
+  },
+  {
+    "id": "class4-english-reading-l3",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Teamwork",
+    "path": "games/class4/english/reading/level-3/index.html"
+  },
+  {
+    "id": "class4-english-writing-l1",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Tenses Writing",
+    "path": "games/class4/english/writing/level-1/index.html"
+  },
+  {
+    "id": "class4-english-writing-l2",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Paragraph Typing",
+    "path": "games/class4/english/writing/level-2/index.html"
+  },
+  {
+    "id": "class4-english-writing-l3",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Story Completion",
+    "path": "games/class4/english/writing/level-3/index.html"
+  },
+  {
+    "id": "class4-english-listening-l1",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Tenses",
+    "path": "games/class4/english/listening/level-1/index.html"
+  },
+  {
+    "id": "class4-english-listening-l2",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Subject and Predicate",
+    "path": "games/class4/english/listening/level-2/index.html"
+  },
+  {
+    "id": "class4-english-listening-l3",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Paragraph Listening",
+    "path": "games/class4/english/listening/level-3/index.html"
+  },
+  {
+    "id": "class4-english-speaking-l1",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/class4/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "class4-english-speaking-l2",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/class4/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "class4-english-speaking-l3",
+    "grade": "class4",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class4/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "class4-maths-reading-l1",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Whole Numbers",
+    "path": "games/class4/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "class4-maths-reading-l2",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Factors and Multiples",
+    "path": "games/class4/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "class4-maths-reading-l3",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Prime and Composite Numbers",
+    "path": "games/class4/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "class4-maths-writing-l1",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Decimal Writing",
+    "path": "games/class4/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "class4-maths-writing-l2",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Geometry Writing",
+    "path": "games/class4/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "class4-maths-writing-l3",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Rapid Maths Writing",
+    "path": "games/class4/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "class4-maths-listening-l1",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Decimals",
+    "path": "games/class4/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "class4-maths-listening-l2",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Geometry",
+    "path": "games/class4/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "class4-maths-listening-l3",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Data Handling",
+    "path": "games/class4/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "class4-maths-speaking-l1",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Decimals",
+    "path": "games/class4/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "class4-maths-speaking-l2",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Geometry",
+    "path": "games/class4/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "class4-maths-speaking-l3",
+    "grade": "class4",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Rapid Maths",
+    "path": "games/class4/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "class4-science-reading-l1",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Cells and Living Things",
+    "path": "games/class4/science/reading/level-1/index.html"
+  },
+  {
+    "id": "class4-science-reading-l2",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Human Body Systems",
+    "path": "games/class4/science/reading/level-2/index.html"
+  },
+  {
+    "id": "class4-science-reading-l3",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants and Photosynthesis",
+    "path": "games/class4/science/reading/level-3/index.html"
+  },
+  {
+    "id": "class4-science-writing-l1",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Human Body",
+    "path": "games/class4/science/writing/level-1/index.html"
+  },
+  {
+    "id": "class4-science-writing-l2",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Energy Writing",
+    "path": "games/class4/science/writing/level-2/index.html"
+  },
+  {
+    "id": "class4-science-writing-l3",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Solar System",
+    "path": "games/class4/science/writing/level-3/index.html"
+  },
+  {
+    "id": "class4-science-listening-l1",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Human Body",
+    "path": "games/class4/science/listening/level-1/index.html"
+  },
+  {
+    "id": "class4-science-listening-l2",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Energy",
+    "path": "games/class4/science/listening/level-2/index.html"
+  },
+  {
+    "id": "class4-science-listening-l3",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Solar System",
+    "path": "games/class4/science/listening/level-3/index.html"
+  },
+  {
+    "id": "class4-science-speaking-l1",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Human Body Organs",
+    "path": "games/class4/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "class4-science-speaking-l2",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Energy Speaking",
+    "path": "games/class4/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "class4-science-speaking-l3",
+    "grade": "class4",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class4/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "class4-urdu-reading-l1",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "نظام شمسی",
+    "path": "games/class4/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "class4-urdu-reading-l2",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "پانی کی اہمیت",
+    "path": "games/class4/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "class4-urdu-reading-l3",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "ٹیم ورک",
+    "path": "games/class4/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "class4-urdu-writing-l1",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "الفاظ سے جملے",
+    "path": "games/class4/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "class4-urdu-writing-l2",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "دو لائنیں لکھیں",
+    "path": "games/class4/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "class4-urdu-writing-l3",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "تصویر دیکھ کر جملے",
+    "path": "games/class4/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "class4-urdu-listening-l1",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "مترادف الفاظ",
+    "path": "games/class4/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "class4-urdu-listening-l2",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "مرکزی خیال",
+    "path": "games/class4/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "class4-urdu-listening-l3",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "درست جملہ",
+    "path": "games/class4/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "class4-urdu-speaking-l1",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "روانی سے بولیں",
+    "path": "games/class4/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "class4-urdu-speaking-l2",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "جملے",
+    "path": "games/class4/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "class4-urdu-speaking-l3",
+    "grade": "class4",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "اسم ،فعل ،صفت",
+    "path": "games/class4/urdu/speaking/level-3/index.html"
+  },
+  {
+    "id": "class5-computer-reading-l1",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Computer Systems",
+    "path": "games/class5/computer/reading/level-1/index.html"
+  },
+  {
+    "id": "class5-computer-reading-l2",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 2,
+    "topic": "History of Computers",
+    "path": "games/class5/computer/reading/level-2/index.html"
+  },
+  {
+    "id": "class5-computer-reading-l3",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Input and Output Devices",
+    "path": "games/class5/computer/reading/level-3/index.html"
+  },
+  {
+    "id": "class5-computer-writing-l1",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 1,
+    "topic": "MS Word and Excel",
+    "path": "games/class5/computer/writing/level-1/index.html"
+  },
+  {
+    "id": "class5-computer-writing-l2",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Cyber Safety",
+    "path": "games/class5/computer/writing/level-2/index.html"
+  },
+  {
+    "id": "class5-computer-writing-l3",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Advanced Computer Writing",
+    "path": "games/class5/computer/writing/level-3/index.html"
+  },
+  {
+    "id": "class5-computer-listening-l1",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 1,
+    "topic": "MS Word",
+    "path": "games/class5/computer/listening/level-1/index.html"
+  },
+  {
+    "id": "class5-computer-listening-l2",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 2,
+    "topic": "MS Excel",
+    "path": "games/class5/computer/listening/level-2/index.html"
+  },
+  {
+    "id": "class5-computer-listening-l3",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Cyber Safety",
+    "path": "games/class5/computer/listening/level-3/index.html"
+  },
+  {
+    "id": "class5-computer-speaking-l1",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "MS Word and Excel",
+    "path": "games/class5/computer/speaking/level-1/index.html"
+  },
+  {
+    "id": "class5-computer-speaking-l2",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Cyber Safety",
+    "path": "games/class5/computer/speaking/level-2/index.html"
+  },
+  {
+    "id": "class5-computer-speaking-l3",
+    "grade": "class5",
+    "subject": "computer",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Advanced Computer Speaking",
+    "path": "games/class5/computer/speaking/level-3/index.html"
+  },
+  {
+    "id": "class5-english-reading-l1",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 1,
+    "topic": "The Water Cycle",
+    "path": "games/class5/english/reading/level-1/index.html"
+  },
+  {
+    "id": "class5-english-reading-l2",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Honesty",
+    "path": "games/class5/english/reading/level-2/index.html"
+  },
+  {
+    "id": "class5-english-reading-l3",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Pollution and Environment",
+    "path": "games/class5/english/reading/level-3/index.html"
+  },
+  {
+    "id": "class5-english-writing-l1",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Advanced Grammar",
+    "path": "games/class5/english/writing/level-1/index.html"
+  },
+  {
+    "id": "class5-english-writing-l2",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Essay Writing",
+    "path": "games/class5/english/writing/level-2/index.html"
+  },
+  {
+    "id": "class5-english-writing-l3",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Creative Writing",
+    "path": "games/class5/english/writing/level-3/index.html"
+  },
+  {
+    "id": "class5-english-listening-l1",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Nouns",
+    "path": "games/class5/english/listening/level-1/index.html"
+  },
+  {
+    "id": "class5-english-listening-l2",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Pronouns",
+    "path": "games/class5/english/listening/level-2/index.html"
+  },
+  {
+    "id": "class5-english-listening-l3",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Advanced Grammar",
+    "path": "games/class5/english/listening/level-3/index.html"
+  },
+  {
+    "id": "class5-english-speaking-l1",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Vocabulary Speaking",
+    "path": "games/class5/english/speaking/level-1/index.html"
+  },
+  {
+    "id": "class5-english-speaking-l2",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Pronunciation Practice",
+    "path": "games/class5/english/speaking/level-2/index.html"
+  },
+  {
+    "id": "class5-english-speaking-l3",
+    "grade": "class5",
+    "subject": "english",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class5/english/speaking/level-3/index.html"
+  },
+  {
+    "id": "class5-maths-reading-l1",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Whole Numbers and Place Value",
+    "path": "games/class5/maths/reading/level-1/index.html"
+  },
+  {
+    "id": "class5-maths-reading-l2",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Factors and Multiples",
+    "path": "games/class5/maths/reading/level-2/index.html"
+  },
+  {
+    "id": "class5-maths-reading-l3",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Prime and Composite Numbers",
+    "path": "games/class5/maths/reading/level-3/index.html"
+  },
+  {
+    "id": "class5-maths-writing-l1",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "games/class5/maths/writing/level-1/index.html"
+  },
+  {
+    "id": "class5-maths-writing-l2",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Advanced Operators",
+    "path": "games/class5/maths/writing/level-2/index.html"
+  },
+  {
+    "id": "class5-maths-writing-l3",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Fast Mental Maths",
+    "path": "games/class5/maths/writing/level-3/index.html"
+  },
+  {
+    "id": "class5-maths-listening-l1",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "games/class5/maths/listening/level-1/index.html"
+  },
+  {
+    "id": "class5-maths-listening-l2",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Word Problems",
+    "path": "games/class5/maths/listening/level-2/index.html"
+  },
+  {
+    "id": "class5-maths-listening-l3",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Graphs and Charts",
+    "path": "games/class5/maths/listening/level-3/index.html"
+  },
+  {
+    "id": "class5-maths-speaking-l1",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Factors and Multiples",
+    "path": "games/class5/maths/speaking/level-1/index.html"
+  },
+  {
+    "id": "class5-maths-speaking-l2",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Advanced Operators",
+    "path": "games/class5/maths/speaking/level-2/index.html"
+  },
+  {
+    "id": "class5-maths-speaking-l3",
+    "grade": "class5",
+    "subject": "maths",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Fast Mental Maths",
+    "path": "games/class5/maths/speaking/level-3/index.html"
+  },
+  {
+    "id": "class5-science-reading-l1",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 1,
+    "topic": "Human Body Systems",
+    "path": "games/class5/science/reading/level-1/index.html"
+  },
+  {
+    "id": "class5-science-reading-l2",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 2,
+    "topic": "Nutrition and Balanced Diet",
+    "path": "games/class5/science/reading/level-2/index.html"
+  },
+  {
+    "id": "class5-science-reading-l3",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "reading",
+    "level": 3,
+    "topic": "Plants and Their Functions",
+    "path": "games/class5/science/reading/level-3/index.html"
+  },
+  {
+    "id": "class5-science-writing-l1",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "games/class5/science/writing/level-1/index.html"
+  },
+  {
+    "id": "class5-science-writing-l2",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 2,
+    "topic": "Electricity Writing",
+    "path": "games/class5/science/writing/level-2/index.html"
+  },
+  {
+    "id": "class5-science-writing-l3",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "writing",
+    "level": 3,
+    "topic": "Earth and Space",
+    "path": "games/class5/science/writing/level-3/index.html"
+  },
+  {
+    "id": "class5-science-listening-l1",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "games/class5/science/listening/level-1/index.html"
+  },
+  {
+    "id": "class5-science-listening-l2",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 2,
+    "topic": "Electricity",
+    "path": "games/class5/science/listening/level-2/index.html"
+  },
+  {
+    "id": "class5-science-listening-l3",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "listening",
+    "level": 3,
+    "topic": "Earth and Space",
+    "path": "games/class5/science/listening/level-3/index.html"
+  },
+  {
+    "id": "class5-science-speaking-l1",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "Microorganisms",
+    "path": "games/class5/science/speaking/level-1/index.html"
+  },
+  {
+    "id": "class5-science-speaking-l2",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "Electricity and Magnetism",
+    "path": "games/class5/science/speaking/level-2/index.html"
+  },
+  {
+    "id": "class5-science-speaking-l3",
+    "grade": "class5",
+    "subject": "science",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "Image Identification",
+    "path": "games/class5/science/speaking/level-3/index.html"
+  },
+  {
+    "id": "class5-urdu-reading-l1",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 1,
+    "topic": "پانی کا چکر",
+    "path": "games/class5/urdu/reading/level-1/index.html"
+  },
+  {
+    "id": "class5-urdu-reading-l2",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 2,
+    "topic": "ایمانداری",
+    "path": "games/class5/urdu/reading/level-2/index.html"
+  },
+  {
+    "id": "class5-urdu-reading-l3",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "reading",
+    "level": 3,
+    "topic": "آلودگی اور ماحول",
+    "path": "games/class5/urdu/reading/level-3/index.html"
+  },
+  {
+    "id": "class5-urdu-writing-l1",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 1,
+    "topic": "رموزِ اوقاف",
+    "path": "games/class5/urdu/writing/level-1/index.html"
+  },
+  {
+    "id": "class5-urdu-writing-l2",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 2,
+    "topic": "مختصر پیراگراف",
+    "path": "games/class5/urdu/writing/level-2/index.html"
+  },
+  {
+    "id": "class5-urdu-writing-l3",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "writing",
+    "level": 3,
+    "topic": "کہانی مکمل کریں",
+    "path": "games/class5/urdu/writing/level-3/index.html"
+  },
+  {
+    "id": "class5-urdu-listening-l1",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 1,
+    "topic": "قواعد",
+    "path": "games/class5/urdu/listening/level-1/index.html"
+  },
+  {
+    "id": "class5-urdu-listening-l2",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 2,
+    "topic": "سن کر سمجھنا",
+    "path": "games/class5/urdu/listening/level-2/index.html"
+  },
+  {
+    "id": "class5-urdu-listening-l3",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "listening",
+    "level": 3,
+    "topic": "اعلیٰ جملے",
+    "path": "games/class5/urdu/listening/level-3/index.html"
+  },
+  {
+    "id": "class5-urdu-speaking-l1",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 1,
+    "topic": "اعلی سطح کی گفتگو",
+    "path": "games/class5/urdu/speaking/level-1/index.html"
+  },
+  {
+    "id": "class5-urdu-speaking-l2",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 2,
+    "topic": "کہانی سنائیں",
+    "path": "games/class5/urdu/speaking/level-2/index.html"
+  },
+  {
+    "id": "class5-urdu-speaking-l3",
+    "grade": "class5",
+    "subject": "urdu",
+    "skill": "speaking",
+    "level": 3,
+    "topic": "اسم",
+    "path": "games/class5/urdu/speaking/level-3/index.html"
+  }
+]
