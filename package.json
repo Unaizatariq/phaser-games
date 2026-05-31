@@ -5,5 +5,11 @@
   "scripts": {
     "start": "npx -y http-server features -p 5500 --cors",
     "dev": "npx -y http-server features -p 5500 --cors"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "react": "^19.2.6",
+    "typescript": "^6.0.3"
   }
 }

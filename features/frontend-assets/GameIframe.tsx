@@ -37,7 +37,7 @@ export const GameIframe: React.FC<GameIframeProps> = ({
 
   // Retrieve base games server URL from environment variables or fallback to port 5500
   // In production, this can be your hosted server domain or empty string if copied to public folder
-  const gamesBaseUrl = (import.meta.env?.VITE_GAMES_URL) || 'http://localhost:5500';
+  const gamesBaseUrl = ((import.meta as any).env?.VITE_GAMES_URL) || 'http://localhost:5500';
 
   // Construct iframe source URL
   // If the path starts with "games/", and we are serving locally from public folder,

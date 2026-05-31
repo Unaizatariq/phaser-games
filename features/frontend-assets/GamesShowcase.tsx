@@ -417,7 +417,6 @@ const styles: Record<string, React.CSSProperties> = {
     marginBottom: '24px',
   },
   subjectTab: {
-    border: 'none',
     backgroundColor: '#ffffff',
     color: '#475569',
     padding: '12px 24px',
