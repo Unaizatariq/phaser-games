@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 9,
   "topic": "Mouse Skills",
-  "teach": "The mouse controls movement on the screen.",
-  "examples": [
-    "The mouse controls movement on the screen.",
-    "Clicking selects items.",
-    "Dragging moves objects."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Mouse Skills",
+      "prompt": "The mouse controls movement on the screen.",
+      "answer": "Mouse",
       "options": [
-        "Mouse Skills",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "readingText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "audioText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      "audioText": "The mouse controls movement on the screen.",
+      "art": "🖱️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse controls movement on the ____.",
-      "answer": "screen",
+      "prompt": "Clicking selects items.",
+      "answer": "Mouse",
       "options": [
-        "screen",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "readingText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "audioText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      "audioText": "Clicking selects items.",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clicking selects ____.",
-      "answer": "items",
+      "prompt": "Dragging moves objects.",
+      "answer": "Mouse",
       "options": [
-        "items",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "readingText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "audioText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      "audioText": "Dragging moves objects.",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Dragging moves ____.",
-      "answer": "objects",
+      "prompt": "Double-clicking opens programs and files.",
+      "answer": "Mouse",
       "options": [
-        "objects",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "readingText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "audioText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      "audioText": "Double-clicking opens programs and files.",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Double-clicking opens programs and ____.",
-      "answer": "files",
+      "prompt": "What is the story mainly about?",
+      "answer": "Mouse",
       "options": [
-        "files",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "readingText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files.",
-      "audioText": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+      "audioText": "What is the story mainly about?",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The mouse controls movement on the screen. Clicking selects items. Dragging moves objects. Double-clicking opens programs and files."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

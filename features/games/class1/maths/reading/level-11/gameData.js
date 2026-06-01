@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 11,
   "topic": "Money",
-  "teach": "Money is used to buy things.",
-  "examples": [
-    "Money is used to buy things.",
-    "Coins and notes are forms of money.",
-    "People use money in shops."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Money is used to buy things.",
       "answer": "Money",
       "options": [
         "Money",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "readingText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "audioText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      "audioText": "Money is used to buy things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used to buy ____.",
-      "answer": "things",
+      "prompt": "Coins and notes are forms of money.",
+      "answer": "Money",
       "options": [
-        "things",
-        "Counting Numbers",
-        "books",
-        "day"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "readingText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "audioText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      "audioText": "Coins and notes are forms of money.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use money in ____.",
-      "answer": "shops",
+      "prompt": "People use money in shops.",
+      "answer": "Money",
       "options": [
-        "shops",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "readingText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "audioText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      "audioText": "People use money in shops.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Saving money is a good ____.",
-      "answer": "habit",
+      "prompt": "Saving money is a good habit.",
+      "answer": "Money",
       "options": [
-        "habit",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "readingText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "audioText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      "audioText": "Saving money is a good habit.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "things",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "things",
-        "Counting Numbers",
-        "books",
-        "day"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "readingText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit.",
-      "audioText": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used to buy things. Coins and notes are forms of money. People use money in shops. Saving money is a good habit."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

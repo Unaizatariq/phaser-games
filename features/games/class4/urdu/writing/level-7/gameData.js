@@ -1,53 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 7,
-  "topic": "جمع اور واحد",
-  "teach": "جمع اور واحد اس سبق کا اہم موضوع ہے۔ پہلے اسے سمجھیں، پھر مثالوں سے مشق کریں۔",
-  "examples": [
-    "جمع اور واحد",
-    "مثال",
-    "مشق"
-  ],
+  "topic": "الفاظ سے جملے",
   "questions": [
     {
-      "type": "input",
-      "prompt": "جمع اور واحد کا تعلق کس سبق سے ہے؟",
-      "answer": "جمع اور واحد",
-      "options": [],
-      "audioText": "جمع اور واحد کا تعلق کس سبق سے ہے؟"
+      "prompt": "لفظ \"کتاب\" سے جملہ بنائیں۔",
+      "answer": "کتاب",
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ \"کتاب\" سے جملہ بنائیں۔",
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جواب لکھیں: جمع اور واحد کو غور سے پڑھ کر درست جواب منتخب کریں۔",
-      "answer": "درست",
-      "options": [],
-      "audioText": "جواب لکھیں: جمع اور واحد کو غور سے پڑھ کر درست جواب منتخب کریں۔"
+      "prompt": "لفظ \"دوست\" سے جملہ بنائیں۔",
+      "answer": "دوست",
+      "options": [
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ \"دوست\" سے جملہ بنائیں۔",
+      "art": "👧",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جمع اور واحد میں بچے کیا سیکھتے ہیں؟",
-      "answer": "تصور",
-      "options": [],
-      "audioText": "جمع اور واحد میں بچے کیا سیکھتے ہیں؟"
+      "prompt": "لفظ \"محنت\" سے جملہ بنائیں۔",
+      "answer": "محنت",
+      "options": [
+        {
+          "text": "محنت",
+          "tts": "محنت"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ \"محنت\" سے جملہ بنائیں۔",
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "محنت": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جمع اور واحد کی مشق کیوں ضروری ہے؟",
-      "answer": "سیکھنے کے لیے",
-      "options": [],
-      "audioText": "جمع اور واحد کی مشق کیوں ضروری ہے؟"
+      "prompt": "لفظ \"استاد\" سے جملہ بنائیں۔",
+      "answer": "استاد",
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ \"استاد\" سے جملہ بنائیں۔",
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جواب لکھیں: جمع اور واحد کو جملے میں استعمال کریں۔",
-      "answer": "جمع اور واحد",
-      "options": [],
-      "audioText": "جواب لکھیں: جمع اور واحد کو جملے میں استعمال کریں۔"
+      "prompt": "لفظ \"پاکستان\" سے جملہ بنائیں۔",
+      "answer": "پاکستان",
+      "options": [
+        {
+          "text": "پاکستان",
+          "tts": "پاکستان"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ \"پاکستان\" سے جملہ بنائیں۔",
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پاکستان": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

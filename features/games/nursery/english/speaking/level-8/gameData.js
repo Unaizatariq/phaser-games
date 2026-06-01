@@ -1,53 +1,205 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 8,
-  "topic": "Colours Red Pink Blue Black Green",
-  "teach": "Colours Red Pink Blue Black Green is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Colours Red Pink Blue Black Green",
-    "example",
-    "practice"
-  ],
+  "topic": "Speak Alphabets A-Z",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Colours Red Pink Blue Black Green",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Say the letter: A",
+      "answer": "A",
+      "options": [
+        "A",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: A",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "A": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Say the letter: B",
+      "answer": "B",
+      "options": [
+        "B",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: B",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "B": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Say the letter: C",
+      "answer": "C",
+      "options": [
+        "C",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: C",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "C": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Say the letter: D",
+      "answer": "D",
+      "options": [
+        "D",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: D",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "D": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Say the letter: E",
+      "answer": "E",
+      "options": [
+        "E",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: E",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "E": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "Say the letter: F",
+      "answer": "F",
+      "options": [
+        "F",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: F",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "F": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "Say the letter: G",
+      "answer": "G",
+      "options": [
+        "G",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: G",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "G": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "Say the letter: H",
+      "answer": "H",
+      "options": [
+        "H",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: H",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "H": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "Say the letter: I",
+      "answer": "I",
+      "options": [
+        "I",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: I",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "Say the letter: J",
+      "answer": "J",
+      "options": [
+        "J",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the letter: J",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "J": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

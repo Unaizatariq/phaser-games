@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 4,
   "topic": "سادہ جملہ ٹائپنگ",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "میرا اسکول اچھا ہے",
-    "میں روزانہ پڑھتا ہوں",
-    "علی کرکٹ کھیلتا ہے"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "جملہ ٹائپ کریں: میرا اسکول اچھا ہے۔",
       "answer": "میرا اسکول اچھا ہے",
-      "expected": "میرا اسکول اچھا ہے",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا اسکول اچھا ہے",
+          "tts": "میرا اسکول اچھا ہے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ ٹائپ کریں: میرا اسکول اچھا ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "میرا اسکول اچھا ہے": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ ٹائپ کریں: میں روزانہ پڑھتا ہوں۔",
       "answer": "میں روزانہ پڑھتا ہوں",
-      "expected": "میں روزانہ پڑھتا ہوں",
-      "options": [],
+      "options": [
+        {
+          "text": "میں روزانہ پڑھتا ہوں",
+          "tts": "میں روزانہ پڑھتا ہوں"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ ٹائپ کریں: میں روزانہ پڑھتا ہوں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "میں روزانہ پڑھتا ہوں": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ ٹائپ کریں: علی کرکٹ کھیلتا ہے۔",
       "answer": "علی کرکٹ کھیلتا ہے",
-      "expected": "علی کرکٹ کھیلتا ہے",
-      "options": [],
+      "options": [
+        {
+          "text": "علی کرکٹ کھیلتا ہے",
+          "tts": "علی کرکٹ کھیلتا ہے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ ٹائپ کریں: علی کرکٹ کھیلتا ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "علی کرکٹ کھیلتا ہے": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ ٹائپ کریں: یہ میری کتاب ہے۔",
       "answer": "یہ میری کتاب ہے",
-      "expected": "یہ میری کتاب ہے",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ میری کتاب ہے",
+          "tts": "یہ میری کتاب ہے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ ٹائپ کریں: یہ میری کتاب ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "یہ میری کتاب ہے": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ ٹائپ کریں: ہم دوست ہیں۔",
       "answer": "ہم دوست ہیں",
-      "expected": "ہم دوست ہیں",
-      "options": [],
+      "options": [
+        {
+          "text": "ہم دوست ہیں",
+          "tts": "ہم دوست ہیں"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ ٹائپ کریں: ہم دوست ہیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "ہم دوست ہیں": "🧒",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

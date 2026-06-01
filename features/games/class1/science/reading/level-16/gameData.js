@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 16,
   "topic": "Day and Night",
-  "teach": "The sun shines during the day.",
-  "examples": [
-    "The sun shines during the day.",
-    "The moon appears at night.",
-    "We play during the day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Day and Night",
+      "prompt": "The sun shines during the day.",
+      "answer": "Day",
       "options": [
-        "Day and Night",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "readingText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "audioText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      "audioText": "The sun shines during the day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun shines during the ____.",
-      "answer": "day",
+      "prompt": "The moon appears at night.",
+      "answer": "Day",
       "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "readingText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "audioText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      "audioText": "The moon appears at night.",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon appears at ____.",
-      "answer": "night",
+      "prompt": "We play during the day.",
+      "answer": "Day",
       "options": [
-        "night",
-        "My Body",
-        "things",
-        "ears"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "readingText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "audioText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      "audioText": "We play during the day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "day",
+      "prompt": "We sleep at night.",
+      "answer": "Day",
       "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "readingText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "audioText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      "audioText": "We sleep at night.",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "night",
+      "prompt": "What is the story mainly about?",
+      "answer": "Day",
       "options": [
-        "night",
-        "My Body",
-        "things",
-        "ears"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "readingText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night.",
-      "audioText": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sun shines during the day. The moon appears at night. We play during the day. We sleep at night."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

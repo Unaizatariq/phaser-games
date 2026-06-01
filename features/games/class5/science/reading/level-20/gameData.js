@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 20,
   "topic": "Healthy Lifestyle and Exercise",
-  "teach": "Exercise keeps our body healthy and active.",
-  "examples": [
-    "Exercise keeps our body healthy and active.",
-    "Healthy food gives strength and energy.",
-    "Proper sleep helps our body rest."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Lifestyle and Exercise",
+      "prompt": "Exercise keeps our body healthy and active.",
+      "answer": "Healthy",
       "options": [
-        "Healthy Lifestyle and Exercise",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Exercise keeps our body healthy and active.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise keeps our body healthy and ____.",
-      "answer": "active",
+      "prompt": "Healthy food gives strength and energy.",
+      "answer": "Healthy",
       "options": [
-        "active",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Healthy food gives strength and energy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food gives strength and ____.",
-      "answer": "energy",
+      "prompt": "Proper sleep helps our body rest.",
+      "answer": "Healthy",
       "options": [
-        "energy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Proper sleep helps our body rest.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle and Exercise, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Proper sleep helps our body ____.",
-      "answer": "rest",
+      "prompt": "Good habits keep us fit and happy.",
+      "answer": "Healthy",
       "options": [
-        "rest",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Good habits keep us fit and happy.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle and Exercise, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good habits keep us fit and ____.",
-      "answer": "happy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "happy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle and Exercise, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

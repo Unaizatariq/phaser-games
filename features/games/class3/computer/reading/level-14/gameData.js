@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 14,
   "topic": "Computer Safety",
-  "teach": "Computers should be handled carefully.",
-  "examples": [
-    "Computers should be handled carefully.",
-    "Hands should be clean while using computers.",
-    "Food and drinks should stay away from computers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Safety",
+      "prompt": "Computers should be handled carefully.",
+      "answer": "Computer",
       "options": [
-        "Computer Safety",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "readingText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "audioText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      "audioText": "Computers should be handled carefully.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers should be ____ carefully.",
-      "answer": "handled",
+      "prompt": "Hands should be clean while using computers.",
+      "answer": "Computer",
       "options": [
-        "handled",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "readingText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "audioText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      "audioText": "Hands should be clean while using computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hands should be clean while using ____.",
-      "answer": "computers",
+      "prompt": "Food and drinks should stay away from computers.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "readingText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "audioText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      "audioText": "Food and drinks should stay away from computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Proper care keeps computers working ____.",
-      "answer": "well",
+      "prompt": "Proper care keeps computers working well.",
+      "answer": "Computer",
       "options": [
-        "well",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "readingText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "audioText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      "audioText": "Proper care keeps computers working well.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "handled",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "handled",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "readingText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well.",
-      "audioText": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers should be handled carefully. Hands should be clean while using computers. Food and drinks should stay away from computers. Proper care keeps computers working well."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

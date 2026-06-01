@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Counting Objects",
-  "teach": "We can count toys.",
-  "examples": [
-    "We can count toys.",
-    "We can count pencils.",
-    "Counting is fun."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Counting Objects",
-      "options": [
-        "Counting Objects",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
-      ],
-      "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "readingText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "audioText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can count ____.",
-      "answer": "toys",
-      "options": [
-        "toys",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
-      ],
-      "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "readingText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "audioText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can count ____.",
-      "answer": "pencils",
-      "options": [
-        "pencils",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
-      ],
-      "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "readingText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "audioText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is fun.",
+      "prompt": "We can count toys.",
       "answer": "Counting",
       "options": [
         "Counting",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "readingText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "audioText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
+      "audioText": "We can count toys.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Objects, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is useful every ____.",
-      "answer": "day",
+      "prompt": "We can count pencils.",
+      "answer": "Counting",
       "options": [
-        "day",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "readingText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day.",
-      "audioText": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
+      "audioText": "We can count pencils.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Objects, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Counting is fun.",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Counting is fun.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Math is useful every day.",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Math is useful every day.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Objects, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Objects, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can count toys. We can count pencils. Counting is fun. Math is useful every day."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

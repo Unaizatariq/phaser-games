@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 6,
-  "topic": "Sorting by Size",
-  "teach": "Sorting by Size is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Sorting by Size",
-    "example",
-    "practice"
-  ],
+  "topic": "Number Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Sorting by Size",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Trace number 11",
+      "answer": "11",
+      "options": [
+        "11",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 11",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Trace number 18",
+      "answer": "18",
+      "options": [
+        "18",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 18",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "18": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Trace number 25",
+      "answer": "25",
+      "options": [
+        "25",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 25",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "25": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Trace number 35",
+      "answer": "35",
+      "options": [
+        "35",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 35",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "35": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Trace number 50",
+      "answer": "50",
+      "options": [
+        "50",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 50",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "50": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

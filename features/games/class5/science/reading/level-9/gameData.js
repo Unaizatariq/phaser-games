@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "Force and Motion",
-  "teach": "Force can move or stop objects.",
-  "examples": [
-    "Force can move or stop objects.",
-    "Pushes and pulls are forces.",
-    "Motion happens when an object changes position."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Force and Motion",
+      "prompt": "Force can move or stop objects.",
+      "answer": "Force",
       "options": [
-        "Force and Motion",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "readingText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "audioText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      "audioText": "Force can move or stop objects.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Force can move or stop ____.",
-      "answer": "objects",
+      "prompt": "Pushes and pulls are forces.",
+      "answer": "Force",
       "options": [
-        "objects",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "readingText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "audioText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      "audioText": "Pushes and pulls are forces.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Pushes and pulls are ____.",
-      "answer": "forces",
+      "prompt": "Motion happens when an object changes position.",
+      "answer": "Force",
       "options": [
-        "forces",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "readingText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "audioText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      "audioText": "Motion happens when an object changes position.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Motion, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Motion happens when an object changes ____.",
-      "answer": "position",
+      "prompt": "Gravity pulls objects toward Earth.",
+      "answer": "Force",
       "options": [
-        "position",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "readingText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "audioText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      "audioText": "Gravity pulls objects toward Earth.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Motion, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Gravity pulls objects toward ____.",
-      "answer": "Earth",
+      "prompt": "What is the story mainly about?",
+      "answer": "Force",
       "options": [
-        "Earth",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "readingText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth.",
-      "audioText": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Force and Motion, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Force can move or stop objects. Pushes and pulls are forces. Motion happens when an object changes position. Gravity pulls objects toward Earth."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

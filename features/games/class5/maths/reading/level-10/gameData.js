@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Angles and Lines",
-  "teach": "Angles are formed when two lines meet.",
-  "examples": [
-    "Angles are formed when two lines meet.",
-    "Acute angles are smaller than right angles.",
-    "Parallel lines never meet."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Angles and Lines",
+      "prompt": "Angles are formed when two lines meet.",
+      "answer": "Angles",
       "options": [
-        "Angles and Lines",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "readingText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "audioText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      "audioText": "Angles are formed when two lines meet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Angles are formed when two lines ____.",
-      "answer": "meet",
+      "prompt": "Acute angles are smaller than right angles.",
+      "answer": "Angles",
       "options": [
-        "meet",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "readingText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "audioText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      "audioText": "Acute angles are smaller than right angles.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Acute ____ are smaller than right angles.",
-      "answer": "angles",
+      "prompt": "Parallel lines never meet.",
+      "answer": "Angles",
       "options": [
-        "angles",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "readingText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "audioText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      "audioText": "Parallel lines never meet.",
+      "art": "📚",
+      "questionText": "According to the story about Angles and Lines, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "meet",
+      "prompt": "Perpendicular lines form right angles.",
+      "answer": "Angles",
       "options": [
-        "meet",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "readingText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "audioText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      "audioText": "Perpendicular lines form right angles.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "angles",
+      "prompt": "What is the story mainly about?",
+      "answer": "Angles",
       "options": [
-        "angles",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "readingText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles.",
-      "audioText": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Angles and Lines, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Angles are formed when two lines meet. Acute angles are smaller than right angles. Parallel lines never meet. Perpendicular lines form right angles."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

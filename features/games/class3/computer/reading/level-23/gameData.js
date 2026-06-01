@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 23,
-  "topic": "Future Technology",
-  "teach": "Technology continues to improve every year.",
-  "examples": [
-    "Technology continues to improve every year.",
-    "Robots and smart devices are becoming common.",
-    "Future computers may become even faster."
-  ],
+  "topic": "Parts of a Computer",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Future Technology",
+      "prompt": "A computer has different important parts.",
+      "answer": "Parts",
       "options": [
-        "Future Technology",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "readingText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "audioText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      "audioText": "A computer has different important parts.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology continues to improve every ____.",
-      "answer": "year",
+      "prompt": "The monitor displays information.",
+      "answer": "Parts",
       "options": [
-        "year",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "readingText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "audioText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      "audioText": "The monitor displays information.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots and smart devices are becoming ____.",
-      "answer": "common",
+      "prompt": "The keyboard is used for typing.",
+      "answer": "Parts",
       "options": [
-        "common",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "readingText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "audioText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      "audioText": "The keyboard is used for typing.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Future computers may become even ____.",
-      "answer": "faster",
+      "prompt": "The mouse helps us control the pointer.",
+      "answer": "Parts",
       "options": [
-        "faster",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "readingText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "audioText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      "audioText": "The mouse helps us control the pointer.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology will continue helping people ____.",
-      "answer": "worldwide",
+      "prompt": "What is the story mainly about?",
+      "answer": "Parts",
       "options": [
-        "worldwide",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "readingText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide.",
-      "audioText": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology continues to improve every year. Robots and smart devices are becoming common. Future computers may become even faster. Technology will continue helping people worldwide."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

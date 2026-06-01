@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 16,
   "topic": "Robots and Artificial Intelligence",
-  "teach": "Robots are machines controlled by computers.",
-  "examples": [
-    "Robots are machines controlled by computers.",
-    "Artificial intelligence helps machines think smartly.",
-    "Robots can work in factories and hospitals."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Robots and Artificial Intelligence",
+      "prompt": "Robots are machines controlled by computers.",
+      "answer": "Robots",
       "options": [
-        "Robots and Artificial Intelligence",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Robots",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "readingText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "audioText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      "audioText": "Robots are machines controlled by computers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robots": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots are machines controlled by ____.",
-      "answer": "computers",
+      "prompt": "Artificial intelligence helps machines think smartly.",
+      "answer": "Robots",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Robots",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "readingText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "audioText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      "audioText": "Artificial intelligence helps machines think smartly.",
+      "art": "📚",
+      "questionText": "According to the story about Robots and Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robots": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Artificial intelligence helps machines think ____.",
-      "answer": "smartly",
+      "prompt": "Robots can work in factories and hospitals.",
+      "answer": "Robots",
       "options": [
-        "smartly",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Robots",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "readingText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "audioText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      "audioText": "Robots can work in factories and hospitals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robots": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots can work in factories and ____.",
-      "answer": "hospitals",
+      "prompt": "AI is becoming common in modern technology.",
+      "answer": "Robots",
       "options": [
-        "hospitals",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Robots",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "readingText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "audioText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      "audioText": "AI is becoming common in modern technology.",
+      "art": "📚",
+      "questionText": "According to the story about Robots and Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robots": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: AI is becoming common in modern ____.",
-      "answer": "technology",
+      "prompt": "What is the story mainly about?",
+      "answer": "Robots",
       "options": [
-        "technology",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Robots",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "readingText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology.",
-      "audioText": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Robots and Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robots": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Robots are machines controlled by computers. Artificial intelligence helps machines think smartly. Robots can work in factories and hospitals. AI is becoming common in modern technology."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

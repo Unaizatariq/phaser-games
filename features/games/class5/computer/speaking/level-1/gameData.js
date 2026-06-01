@@ -1,84 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 1,
   "topic": "MS Word and Excel",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "MS Word",
-    "MS Excel",
-    "SUM"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which software is used for documents?",
       "answer": "MS Word",
-      "expected": "MS Word",
-      "options": [],
+      "options": [
+        "MS Word",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which software is used for documents?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "MS Word": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which software uses formulas?",
       "answer": "MS Excel",
-      "expected": "MS Excel",
-      "options": [],
+      "options": [
+        "MS Excel",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which software uses formulas?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "MS Excel": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which formula adds numbers?",
       "answer": "SUM",
-      "expected": "SUM",
-      "options": [],
-      "audioText": "Which formula adds numbers?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "SUM",
-        "S U M"
-      ]
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which formula adds numbers?",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "SUM": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which formula finds average?",
       "answer": "AVERAGE",
-      "expected": "AVERAGE",
-      "options": [],
+      "options": [
+        "AVERAGE",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which formula finds average?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "AVERAGE": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which software creates slides?",
       "answer": "PowerPoint",
-      "expected": "PowerPoint",
-      "options": [],
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which software creates slides?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

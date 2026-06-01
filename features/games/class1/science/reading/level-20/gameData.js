@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 20,
   "topic": "Things We Use",
-  "teach": "We use many things every day.",
-  "examples": [
-    "We use many things every day.",
-    "We use books in school.",
-    "We use soap to wash hands."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Things We Use",
+      "prompt": "We use many things every day.",
+      "answer": "Things",
       "options": [
-        "Things We Use",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
-      ],
-      "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "readingText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "audioText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use many things every ____.",
-      "answer": "day",
-      "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "readingText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "audioText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use books in ____.",
-      "answer": "school",
-      "options": [
+        "Things",
         "school",
-        "My Body",
-        "things",
-        "ears"
+        "home",
+        "book"
       ],
-      "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "readingText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "audioText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
+      "audioText": "We use many things every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Things": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use soap to wash ____.",
-      "answer": "hands",
+      "prompt": "We use books in school.",
+      "answer": "Things",
       "options": [
-        "hands",
-        "My Body",
-        "things",
-        "ears"
+        "Things",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "readingText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "audioText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
+      "audioText": "We use books in school.",
+      "art": "📚",
+      "questionText": "According to the story about Things We Use, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Things": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should take care of our ____.",
-      "answer": "things",
+      "prompt": "We use soap to wash hands.",
+      "answer": "Things",
       "options": [
-        "things",
-        "My Body",
-        "ears",
-        "play"
+        "Things",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "readingText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things.",
-      "audioText": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
+      "audioText": "We use soap to wash hands.",
+      "art": "📚",
+      "questionText": "According to the story about Things We Use, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Things": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "We should take care of our things.",
+      "answer": "Things",
+      "options": [
+        "Things",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "We should take care of our things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Things": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Things",
+      "options": [
+        "Things",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Things We Use, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Things": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We use many things every day. We use books in school. We use soap to wash hands. We should take care of our things."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

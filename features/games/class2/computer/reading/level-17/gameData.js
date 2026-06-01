@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 17,
   "topic": "Computer Lab Rules",
-  "teach": "Students should sit properly in the lab.",
-  "examples": [
-    "Students should sit properly in the lab.",
-    "Hands should be clean before using computers.",
-    "Follow teacher instructions carefully."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Lab Rules",
+      "prompt": "Students should sit properly in the lab.",
+      "answer": "Computer",
       "options": [
-        "Computer Lab Rules",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "readingText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "audioText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      "audioText": "Students should sit properly in the lab.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Lab Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students should sit properly in the ____.",
-      "answer": "lab",
+      "prompt": "Hands should be clean before using computers.",
+      "answer": "Computer",
       "options": [
-        "lab",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "readingText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "audioText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      "audioText": "Hands should be clean before using computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hands should be clean before using ____.",
-      "answer": "computers",
+      "prompt": "Follow teacher instructions carefully.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "readingText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "audioText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      "audioText": "Follow teacher instructions carefully.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Lab Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Follow teacher ____ carefully.",
-      "answer": "instructions",
+      "prompt": "Do not touch wires or plugs.",
+      "answer": "Computer",
       "options": [
-        "instructions",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "readingText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "audioText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      "audioText": "Do not touch wires or plugs.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Lab Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Do not touch wires or ____.",
-      "answer": "plugs",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "plugs",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "readingText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs.",
-      "audioText": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Lab Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Students should sit properly in the lab. Hands should be clean before using computers. Follow teacher instructions carefully. Do not touch wires or plugs."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

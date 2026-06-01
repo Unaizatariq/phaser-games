@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 5,
   "topic": "Operating Systems",
-  "teach": "An operating system manages computer functions.",
-  "examples": [
-    "An operating system manages computer functions.",
-    "Windows, Linux, and macOS are operating systems.",
-    "Operating systems run programs and applications."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Operating Systems",
+      "prompt": "An operating system manages computer functions.",
+      "answer": "Operating",
       "options": [
-        "Operating Systems",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "readingText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "audioText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      "audioText": "An operating system manages computer functions.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: An operating system manages computer ____.",
-      "answer": "functions",
+      "prompt": "Windows, Linux, and macOS are operating systems.",
+      "answer": "Operating",
       "options": [
-        "functions",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "readingText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "audioText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      "audioText": "Windows, Linux, and macOS are operating systems.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Windows, Linux, and macOS are operating ____.",
-      "answer": "systems",
+      "prompt": "Operating systems run programs and applications.",
+      "answer": "Operating",
       "options": [
-        "systems",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "readingText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "audioText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      "audioText": "Operating systems run programs and applications.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Operating systems run programs and ____.",
-      "answer": "applications",
+      "prompt": "They also manage files and hardware.",
+      "answer": "Operating",
       "options": [
-        "applications",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "readingText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "audioText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      "audioText": "They also manage files and hardware.",
+      "art": "📚",
+      "questionText": "According to the story about Operating Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They also manage files and ____.",
-      "answer": "hardware",
+      "prompt": "What is the story mainly about?",
+      "answer": "Operating",
       "options": [
-        "hardware",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "readingText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware.",
-      "audioText": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Operating Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "An operating system manages computer functions. Windows, Linux, and macOS are operating systems. Operating systems run programs and applications. They also manage files and hardware."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

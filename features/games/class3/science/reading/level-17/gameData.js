@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 17,
   "topic": "Machines Around Us",
-  "teach": "Machines make our work easier.",
-  "examples": [
-    "Machines make our work easier.",
-    "Fans, washing machines, and computers are machines.",
-    "Some machines run on electricity."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Machines Around Us",
+      "prompt": "Machines make our work easier.",
+      "answer": "Machines",
       "options": [
-        "Machines Around Us",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Machines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "readingText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "audioText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      "audioText": "Machines make our work easier.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Machines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Machines make our work ____.",
-      "answer": "easier",
+      "prompt": "Fans, washing machines, and computers are machines.",
+      "answer": "Machines",
       "options": [
-        "easier",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Machines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "readingText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "audioText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      "audioText": "Fans, washing machines, and computers are machines.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Machines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fans, washing ____, and computers are machines.",
-      "answer": "machines",
+      "prompt": "Some machines run on electricity.",
+      "answer": "Machines",
       "options": [
-        "machines",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Machines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "readingText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "audioText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      "audioText": "Some machines run on electricity.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Machines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some machines run on ____.",
-      "answer": "electricity",
+      "prompt": "Machines save time and effort.",
+      "answer": "Machines",
       "options": [
-        "electricity",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Machines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "readingText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "audioText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      "audioText": "Machines save time and effort.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Machines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Machines save time and ____.",
-      "answer": "effort",
+      "prompt": "What is the story mainly about?",
+      "answer": "Machines",
       "options": [
-        "effort",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Machines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "readingText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort.",
-      "audioText": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Machines Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Machines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Machines make our work easier. Fans, washing machines, and computers are machines. Some machines run on electricity. Machines save time and effort."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 1,
   "topic": "Keyboard Practice",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "alphabet keys",
-    "number keys",
-    "Enter"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type alphabet keys",
       "answer": "alphabet keys",
-      "expected": "alphabet keys",
-      "options": [],
+      "options": [
+        "alphabet keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type alphabet keys",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "alphabet keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type number keys",
       "answer": "number keys",
-      "expected": "number keys",
-      "options": [],
+      "options": [
+        "number keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type number keys",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "number keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type Enter key",
       "answer": "Enter",
-      "expected": "Enter",
-      "options": [],
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type Enter key",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type Spacebar key",
       "answer": "Spacebar",
-      "expected": "Spacebar",
-      "options": [],
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type Spacebar key",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type Backspace key",
       "answer": "Backspace",
-      "expected": "Backspace",
-      "options": [],
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type Backspace key",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

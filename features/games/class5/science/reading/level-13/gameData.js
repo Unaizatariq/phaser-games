@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 13,
   "topic": "Electricity and Circuits",
-  "teach": "Electricity flows through circuits.",
-  "examples": [
-    "Electricity flows through circuits.",
-    "A circuit needs a power source.",
-    "Bulbs glow when the circuit is complete."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Electricity and Circuits",
+      "prompt": "Electricity flows through circuits.",
+      "answer": "Electricity",
       "options": [
-        "Electricity and Circuits",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "readingText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "audioText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      "audioText": "Electricity flows through circuits.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Electricity flows through ____.",
-      "answer": "circuits",
+      "prompt": "A circuit needs a power source.",
+      "answer": "Electricity",
       "options": [
-        "circuits",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "readingText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "audioText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      "audioText": "A circuit needs a power source.",
+      "art": "📚",
+      "questionText": "According to the story about Electricity and Circuits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A circuit needs a power ____.",
-      "answer": "source",
+      "prompt": "Bulbs glow when the circuit is complete.",
+      "answer": "Electricity",
       "options": [
-        "source",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "readingText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "audioText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      "audioText": "Bulbs glow when the circuit is complete.",
+      "art": "📚",
+      "questionText": "According to the story about Electricity and Circuits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bulbs glow when the circuit is ____.",
-      "answer": "complete",
+      "prompt": "Wires help electricity move.",
+      "answer": "Electricity",
       "options": [
-        "complete",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "readingText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "audioText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      "audioText": "Wires help electricity move.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Wires help electricity ____.",
-      "answer": "move",
+      "prompt": "What is the story mainly about?",
+      "answer": "Electricity",
       "options": [
-        "move",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "readingText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move.",
-      "audioText": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Electricity and Circuits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Electricity flows through circuits. A circuit needs a power source. Bulbs glow when the circuit is complete. Wires help electricity move."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
   "topic": "Healthy Fruits",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "mango"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Fruits are healthy for our body.",
       "answer": "mango",
       "options": [
         "mango",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "bread",
         "rice"
       ],
-      "text": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "audioText": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+      "audioText": "Fruits are healthy for our body.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Fruits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "mango": "🥭",
+        "onion": "🔹",
+        "bread": "🔹",
+        "rice": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I eat apples, bananas, and mangoes.",
       "answer": "mango",
       "options": [
         "mango",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "bread",
         "rice"
       ],
-      "text": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "audioText": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+      "audioText": "I eat apples, bananas, and mangoes.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "mango": "🥭",
+        "onion": "🔹",
+        "bread": "🔹",
+        "rice": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Mango is my favorite fruit because it is sweet and juicy.",
       "answer": "mango",
       "options": [
         "mango",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "bread",
         "rice"
       ],
-      "text": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "audioText": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+      "audioText": "Mango is my favorite fruit because it is sweet and juicy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "mango": "🥭",
+        "onion": "🔹",
+        "bread": "🔹",
+        "rice": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Fruits make us strong and active.",
       "answer": "mango",
       "options": [
         "mango",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "bread",
         "rice"
       ],
-      "text": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "audioText": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+      "audioText": "Fruits make us strong and active.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Fruits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "mango": "🥭",
+        "onion": "🔹",
+        "bread": "🔹",
+        "rice": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "mango",
       "options": [
         "mango",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "bread",
         "rice"
       ],
-      "text": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active.",
-      "audioText": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Fruits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "mango": "🥭",
+        "onion": "🔹",
+        "bread": "🔹",
+        "rice": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fruits are healthy for our body. I eat apples, bananas, and mangoes. Mango is my favorite fruit because it is sweet and juicy. Fruits make us strong and active."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

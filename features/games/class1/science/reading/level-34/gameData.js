@@ -1,88 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 34,
-  "topic": "Exercise and Health",
-  "teach": "Exercise keeps our body fit.",
-  "examples": [
-    "Exercise keeps our body fit.",
-    "Running and jumping are good exercises."
-  ],
+  "topic": "Animals Around Us",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Exercise and Health",
+      "prompt": "Animals live around us.",
+      "answer": "Animals",
       "options": [
-        "Exercise and Health",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises."
+      "audioText": "Animals live around us.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise keeps our body ____.",
-      "answer": "fit",
+      "prompt": "Some animals are big.",
+      "answer": "Animals",
       "options": [
-        "fit",
-        "My Body",
-        "things",
-        "ears"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises."
+      "audioText": "Some animals are big.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Running and jumping are good ____.",
-      "answer": "exercises",
+      "prompt": "Some animals are small.",
+      "answer": "Animals",
       "options": [
-        "exercises",
-        "My Body",
-        "things",
-        "ears"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises."
+      "audioText": "Some animals are small.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "fit",
+      "prompt": "Animals are useful for us.",
+      "answer": "Animals",
       "options": [
-        "fit",
-        "My Body",
-        "things",
-        "ears"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises."
+      "audioText": "Animals are useful for us.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "exercises",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "exercises",
-        "My Body",
-        "things",
-        "ears"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise keeps our body fit. Running and jumping are good exercises."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

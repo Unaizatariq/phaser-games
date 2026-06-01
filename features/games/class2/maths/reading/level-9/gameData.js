@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Shapes and Geometry",
-  "teach": "Geometry studies shapes and figures.",
-  "examples": [
-    "Geometry studies shapes and figures.",
-    "Circles, squares, and triangles are common shapes.",
-    "Shapes have sides and corners."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Shapes and Geometry",
+      "prompt": "Geometry studies shapes and figures.",
+      "answer": "Shapes",
       "options": [
-        "Shapes and Geometry",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "readingText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "audioText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      "audioText": "Geometry studies shapes and figures.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry studies shapes and ____.",
-      "answer": "figures",
+      "prompt": "Circles, squares, and triangles are common shapes.",
+      "answer": "Shapes",
       "options": [
-        "figures",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "readingText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "audioText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      "audioText": "Circles, squares, and triangles are common shapes.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Circles, squares, and triangles are common ____.",
-      "answer": "shapes",
+      "prompt": "Shapes have sides and corners.",
+      "answer": "Shapes",
       "options": [
-        "shapes",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "readingText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "audioText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      "audioText": "Shapes have sides and corners.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes have sides and ____.",
-      "answer": "corners",
+      "prompt": "Geometry helps us understand space.",
+      "answer": "Shapes",
       "options": [
-        "corners",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "readingText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "audioText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      "audioText": "Geometry helps us understand space.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes and Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry helps us understand ____.",
-      "answer": "space",
+      "prompt": "What is the story mainly about?",
+      "answer": "Shapes",
       "options": [
-        "space",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "readingText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space.",
-      "audioText": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+      "audioText": "What is the story mainly about?",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes and Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Geometry studies shapes and figures. Circles, squares, and triangles are common shapes. Shapes have sides and corners. Geometry helps us understand space."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

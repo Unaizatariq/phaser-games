@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 13,
   "topic": "Computer Viruses",
-  "teach": "Computer viruses can damage files and programs.",
-  "examples": [
-    "Computer viruses can damage files and programs.",
-    "Viruses spread through unsafe downloads and emails.",
-    "Antivirus software protects computers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Viruses",
+      "prompt": "Computer viruses can damage files and programs.",
+      "answer": "Computer",
       "options": [
-        "Computer Viruses",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "readingText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "audioText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      "audioText": "Computer viruses can damage files and programs.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computer viruses can damage files and ____.",
-      "answer": "programs",
+      "prompt": "Viruses spread through unsafe downloads and emails.",
+      "answer": "Computer",
       "options": [
-        "programs",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "readingText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "audioText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      "audioText": "Viruses spread through unsafe downloads and emails.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Viruses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Viruses spread through unsafe downloads and ____.",
-      "answer": "emails",
+      "prompt": "Antivirus software protects computers.",
+      "answer": "Computer",
       "options": [
-        "emails",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "readingText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "audioText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      "audioText": "Antivirus software protects computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Antivirus software protects ____.",
-      "answer": "computers",
+      "prompt": "Safe computer habits prevent viruses.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "readingText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "audioText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      "audioText": "Safe computer habits prevent viruses.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safe computer habits prevent ____.",
-      "answer": "viruses",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "viruses",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "readingText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses.",
-      "audioText": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Viruses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computer viruses can damage files and programs. Viruses spread through unsafe downloads and emails. Antivirus software protects computers. Safe computer habits prevent viruses."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 7,
   "topic": "Multiplication and Division",
-  "teach": "Multiplication is repeated addition.",
-  "examples": [
-    "Multiplication is repeated addition.",
-    "Division means sharing equally.",
-    "Tables make multiplication easier."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Multiplication and Division",
+      "prompt": "Multiplication is repeated addition.",
+      "answer": "Multiplication",
       "options": [
-        "Multiplication and Division",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      "audioText": "Multiplication is repeated addition.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication is repeated ____.",
-      "answer": "addition",
+      "prompt": "Division means sharing equally.",
+      "answer": "Multiplication",
       "options": [
-        "addition",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      "audioText": "Division means sharing equally.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division means sharing ____.",
-      "answer": "equally",
+      "prompt": "Tables make multiplication easier.",
+      "answer": "Multiplication",
       "options": [
-        "equally",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      "audioText": "Tables make multiplication easier.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tables make multiplication ____.",
-      "answer": "easier",
+      "prompt": "Division helps solve distribution problems.",
+      "answer": "Multiplication",
       "options": [
-        "easier",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      "audioText": "Division helps solve distribution problems.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division helps solve distribution ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Multiplication",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+      "audioText": "What is the story mainly about?",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Multiplication is repeated addition. Division means sharing equally. Tables make multiplication easier. Division helps solve distribution problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

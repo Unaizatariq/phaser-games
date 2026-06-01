@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Hands",
-  "teach": "These are hands.",
-  "examples": [
-    "These are hands.",
-    "We write with hands."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "These are hands. We write with hands.",
       "answer": "Hands",
       "options": [
         "Hands",
-        "Eyes",
-        "Ears",
-        "Nose"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are hands. We write with hands.",
-      "readingText": "These are hands. We write with hands.",
-      "audioText": "These are hands. We write with hands."
+      "audioText": "These are hands. We write with hands.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "These are hands.",
+        "We write with hands."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hands": "✋",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hands",
+      "prompt": "What is the story mainly about?",
+      "answer": "Hands",
       "options": [
-        "hands",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Hands",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are hands. We write with hands.",
-      "readingText": "These are hands. We write with hands.",
-      "audioText": "These are hands. We write with hands."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Hands, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hands": "✋",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hands",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "hands",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "These are hands. We write with hands.",
-      "readingText": "These are hands. We write with hands.",
-      "audioText": "These are hands. We write with hands."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🍎",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hands",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "hands",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "These are hands. We write with hands.",
-      "readingText": "These are hands. We write with hands.",
-      "audioText": "These are hands. We write with hands."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🧊",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hands",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "hands",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "These are hands. We write with hands.",
-      "readingText": "These are hands. We write with hands.",
-      "audioText": "These are hands. We write with hands."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "💡",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "These are hands. We write with hands."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

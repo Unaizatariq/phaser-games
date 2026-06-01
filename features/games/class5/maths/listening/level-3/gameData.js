@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 3,
   "topic": "Graphs and Charts",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Line Graph",
-    "Pie Chart",
-    "Line Graph"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which graph shows information using lines?",
-      "answer": "Line Graph",
+      "prompt": "Solve: 4 + 1 = ?",
+      "answer": "5",
       "options": [
-        "Line Graph",
-        "Pie",
-        "Shape",
-        "Box"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "Which graph shows information using lines?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 4 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the chart with sections.",
-      "answer": "Pie Chart",
+      "prompt": "Solve: 5 + 2 = ?",
+      "answer": "7",
       "options": [
-        "Pie Chart",
-        "Bar Graph",
-        "Notebook",
-        "Clock"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Choose the chart with sections.",
-      "gameplayType": "drag-drop"
+      "audioText": "Solve: 5 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the graph used for trends.",
-      "answer": "Line Graph",
+      "prompt": "Solve: 6 + 3 = ?",
+      "answer": "9",
       "options": [
-        "Line Graph",
-        "Rectangle",
-        "Circle",
-        "Bag"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "Tap the graph used for trends.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 6 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "b": 3,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 4 = ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "audioText": "Solve: 7 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 8 + 5 = ?",
+      "answer": "13",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "15"
+      ],
+      "audioText": "Solve: 8 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 8,
+        "b": 5,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "13": "🔢",
+        "14": "🔢",
+        "12": "🔢",
+        "15": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

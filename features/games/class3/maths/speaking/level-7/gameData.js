@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 7,
-  "topic": "Even and Odd Numbers",
-  "teach": "Even and Odd Numbers builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Even and Odd Numbers",
-    "example",
-    "solve"
-  ],
+  "topic": "Fractions",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the main skill in Even and Odd Numbers?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "Say the answer: What is the main skill in Even and Odd Numbers?"
+      "prompt": "Say the fraction 1/2",
+      "answer": "One Half",
+      "options": [
+        "One Half",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the fraction 1/2",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Half": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct strategy."
+      "prompt": "Say the fraction 1/4",
+      "answer": "One Fourth",
+      "options": [
+        "One Fourth",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the fraction 1/4",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Fourth": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Say the answer: A good answer in maths should be"
+      "prompt": "Say the fraction 3/4",
+      "answer": "Three Fourths",
+      "options": [
+        "Three Fourths",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the fraction 3/4",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Three Fourths": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Say the answer: Word problems need us to find"
+      "prompt": "Which fraction is bigger: 1/2 or 1/4?",
+      "answer": "One Half",
+      "options": [
+        "One Half",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Which fraction is bigger: 1/2 or 1/4?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Half": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Say the answer: After solving, we should"
+      "prompt": "What is half of 10?",
+      "answer": "Five",
+      "options": [
+        "Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is half of 10?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

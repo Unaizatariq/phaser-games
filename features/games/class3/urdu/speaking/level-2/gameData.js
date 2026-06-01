@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 2,
   "topic": "صفت کے ساتھ جملے",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "یہ خوبصورت پھول ہے۔",
-    "یہ لمبا درخت ہے۔",
-    "یہ صاف کمرہ ہے۔"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "لفظ :خوبصورت",
       "answer": "یہ خوبصورت پھول ہے۔",
-      "expected": "یہ خوبصورت پھول ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ خوبصورت پھول ہے۔",
+          "tts": "یہ خوبصورت پھول ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ :خوبصورت",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "یہ خوبصورت پھول ہے۔": "🌸",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "لفظ :لمبا",
       "answer": "یہ لمبا درخت ہے۔",
-      "expected": "یہ لمبا درخت ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ لمبا درخت ہے۔",
+          "tts": "یہ لمبا درخت ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ :لمبا",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "یہ لمبا درخت ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "لفظ :صاف",
       "answer": "یہ صاف کمرہ ہے۔",
-      "expected": "یہ صاف کمرہ ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ صاف کمرہ ہے۔",
+          "tts": "یہ صاف کمرہ ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ :صاف",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "یہ صاف کمرہ ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "لفظ :میٹھا",
       "answer": "آم میٹھا ہے۔",
-      "expected": "آم میٹھا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "آم میٹھا ہے۔",
+          "tts": "آم میٹھا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ :میٹھا",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "آم میٹھا ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "لفظ :تیز",
       "answer": "گھوڑا تیز دوڑتا ہے۔",
-      "expected": "گھوڑا تیز دوڑتا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "گھوڑا تیز دوڑتا ہے۔",
+          "tts": "گھوڑا تیز دوڑتا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ :تیز",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "گھوڑا تیز دوڑتا ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

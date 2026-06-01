@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 8,
   "topic": "Computer Uses",
-  "teach": "Computers are used in many places.",
-  "examples": [
-    "Computers are used in many places.",
-    "Students use computers for learning.",
-    "Doctors use computers in hospitals."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Uses",
+      "prompt": "Computers are used in many places.",
+      "answer": "Computer",
       "options": [
-        "Computer Uses",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "readingText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "audioText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      "audioText": "Computers are used in many places.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are used in many ____.",
-      "answer": "places",
+      "prompt": "Students use computers for learning.",
+      "answer": "Computer",
       "options": [
-        "places",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "readingText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "audioText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      "audioText": "Students use computers for learning.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use ____ for learning.",
-      "answer": "computers",
+      "prompt": "Doctors use computers in hospitals.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "readingText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "audioText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      "audioText": "Doctors use computers in hospitals.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Doctors use computers in ____.",
-      "answer": "hospitals",
+      "prompt": "People use computers for communication.",
+      "answer": "Computer",
       "options": [
-        "hospitals",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "readingText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "audioText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      "audioText": "People use computers for communication.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use computers for ____.",
-      "answer": "communication",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "communication",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "readingText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication.",
-      "audioText": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Uses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are used in many places. Students use computers for learning. Doctors use computers in hospitals. People use computers for communication."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

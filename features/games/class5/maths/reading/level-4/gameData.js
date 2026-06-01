@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Fractions",
-  "teach": "Fractions represent equal parts of a whole.",
-  "examples": [
-    "Fractions represent equal parts of a whole.",
-    "Fractions can be added, subtracted, multiplied, and divided.",
-    "Equivalent fractions have the same value."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Fractions represent equal parts of a whole.",
       "answer": "Fractions",
       "options": [
         "Fractions",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "readingText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "audioText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      "audioText": "Fractions represent equal parts of a whole.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions represent equal parts of a ____.",
-      "answer": "whole",
+      "prompt": "Fractions can be added, subtracted, multiplied, and divided.",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "readingText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "audioText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      "audioText": "Fractions can be added, subtracted, multiplied, and divided.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions can be added, subtracted, multiplied, and ____.",
-      "answer": "divided",
+      "prompt": "Equivalent fractions have the same value.",
+      "answer": "Fractions",
       "options": [
-        "divided",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "readingText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "audioText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      "audioText": "Equivalent fractions have the same value.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Equivalent fractions have the same ____.",
-      "answer": "value",
+      "prompt": "Fractions are used in cooking and measurement.",
+      "answer": "Fractions",
       "options": [
-        "value",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "readingText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "audioText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      "audioText": "Fractions are used in cooking and measurement.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions are used in cooking and ____.",
-      "answer": "measurement",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fractions",
       "options": [
-        "measurement",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "readingText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement.",
-      "audioText": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+      "audioText": "What is the story mainly about?",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fractions represent equal parts of a whole. Fractions can be added, subtracted, multiplied, and divided. Equivalent fractions have the same value. Fractions are used in cooking and measurement."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

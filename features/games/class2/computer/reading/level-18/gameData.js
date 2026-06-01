@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 18,
   "topic": "Technology Around Us",
-  "teach": "Technology helps people in daily life.",
-  "examples": [
-    "Technology helps people in daily life.",
-    "Mobile phones and computers are technology tools.",
-    "Technology makes communication easy."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology Around Us",
+      "prompt": "Technology helps people in daily life.",
+      "answer": "Technology",
       "options": [
-        "Technology Around Us",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "readingText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "audioText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      "audioText": "Technology helps people in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps ____ in daily life.",
-      "answer": "people",
+      "prompt": "Mobile phones and computers are technology tools.",
+      "answer": "Technology",
       "options": [
-        "people",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "readingText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "audioText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      "audioText": "Mobile phones and computers are technology tools.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mobile phones and computers are technology ____.",
-      "answer": "tools",
+      "prompt": "Technology makes communication easy.",
+      "answer": "Technology",
       "options": [
-        "tools",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "readingText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "audioText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      "audioText": "Technology makes communication easy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes communication ____.",
-      "answer": "easy",
+      "prompt": "People use technology everywhere.",
+      "answer": "Technology",
       "options": [
-        "easy",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "readingText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "audioText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      "audioText": "People use technology everywhere.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use technology ____.",
-      "answer": "everywhere",
+      "prompt": "What is the story mainly about?",
+      "answer": "Technology",
       "options": [
-        "everywhere",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "readingText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere.",
-      "audioText": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Technology Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology helps people in daily life. Mobile phones and computers are technology tools. Technology makes communication easy. People use technology everywhere."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

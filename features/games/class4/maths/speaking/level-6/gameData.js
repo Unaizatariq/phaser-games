@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 6,
-  "topic": "Factors and Multiples",
-  "teach": "Factors and Multiples builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Factors and Multiples",
-    "example",
-    "solve"
-  ],
+  "topic": "Decimals",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the main skill in Factors and Multiples?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "Say the answer: What is the main skill in Factors and Multiples?"
+      "prompt": "Say the decimal 0.5",
+      "answer": "Zero Point Five",
+      "options": [
+        "Zero Point Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the decimal 0.5",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct strategy."
+      "prompt": "Say the decimal 0.9",
+      "answer": "Zero Point Nine",
+      "options": [
+        "Zero Point Nine",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the decimal 0.9",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Nine": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Say the answer: A good answer in maths should be"
+      "prompt": "Which decimal is greater: 0.2 or 0.8?",
+      "answer": "Zero Point Eight",
+      "options": [
+        "Zero Point Eight",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Which decimal is greater: 0.2 or 0.8?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Eight": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Say the answer: Word problems need us to find"
+      "prompt": "Say the decimal 1.5",
+      "answer": "One Point Five",
+      "options": [
+        "One Point Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the decimal 1.5",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Point Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Say the answer: After solving, we should"
+      "prompt": "Say the decimal 2.0",
+      "answer": "Two Point Zero",
+      "options": [
+        "Two Point Zero",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the decimal 2.0",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Two Point Zero": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

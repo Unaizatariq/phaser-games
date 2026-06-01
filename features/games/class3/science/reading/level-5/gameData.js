@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "The Human Body",
-  "teach": "Our body has many important organs.",
-  "examples": [
-    "Our body has many important organs.",
-    "The heart pumps blood.",
-    "The lungs help us breathe."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Human Body",
+      "prompt": "Our body has many important organs.",
+      "answer": "The",
       "options": [
-        "The Human Body",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "readingText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "audioText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      "audioText": "Our body has many important organs.",
+      "art": "📚",
+      "questionText": "According to the story about The Human Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our body has many important ____.",
-      "answer": "organs",
+      "prompt": "The heart pumps blood.",
+      "answer": "The",
       "options": [
-        "organs",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "readingText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "audioText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      "audioText": "The heart pumps blood.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The heart pumps ____.",
-      "answer": "blood",
+      "prompt": "The lungs help us breathe.",
+      "answer": "The",
       "options": [
-        "blood",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "readingText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "audioText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      "audioText": "The lungs help us breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The lungs help us ____.",
-      "answer": "breathe",
+      "prompt": "The brain controls our body.",
+      "answer": "The",
       "options": [
-        "breathe",
-        "Living and Non-Living Things",
-        "things",
-        "Parts of a Plant"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "readingText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "audioText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      "audioText": "The brain controls our body.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The brain controls our ____.",
-      "answer": "body",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "body",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "readingText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body.",
-      "audioText": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our body has many important organs. The heart pumps blood. The lungs help us breathe. The brain controls our body."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

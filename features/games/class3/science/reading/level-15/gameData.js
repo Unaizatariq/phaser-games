@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 15,
   "topic": "Plants and Animals Need Care",
-  "teach": "Plants need water and sunlight.",
-  "examples": [
-    "Plants need water and sunlight.",
-    "Animals need food and shelter.",
-    "People should take care of plants and animals."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Plants and Animals Need Care",
+      "prompt": "Plants need water and sunlight.",
+      "answer": "Plants",
       "options": [
-        "Plants and Animals Need Care",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "readingText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "audioText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      "audioText": "Plants need water and sunlight.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants need water and ____.",
-      "answer": "sunlight",
+      "prompt": "Animals need food and shelter.",
+      "answer": "Plants",
       "options": [
-        "sunlight",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "readingText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "audioText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      "audioText": "Animals need food and shelter.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Animals Need Care, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals need food and ____.",
-      "answer": "shelter",
+      "prompt": "People should take care of plants and animals.",
+      "answer": "Plants",
       "options": [
-        "shelter",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "readingText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "audioText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      "audioText": "People should take care of plants and animals.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People should take care of plants and ____.",
-      "answer": "animals",
+      "prompt": "Nature is important for life.",
+      "answer": "Plants",
       "options": [
-        "animals",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "readingText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "audioText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      "audioText": "Nature is important for life.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Animals Need Care, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is important for life.",
-      "answer": "Nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "Nature",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "readingText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life.",
-      "audioText": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Animals Need Care, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants need water and sunlight. Animals need food and shelter. People should take care of plants and animals. Nature is important for life."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

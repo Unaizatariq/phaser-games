@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 3,
   "topic": "تصویر دیکھ کر پہلا حرف",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "آ",
-    "ب",
-    "ک"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "آم کی تصویر دیکھ کر پہلا حرف لکھیں: آ",
       "answer": "آ",
-      "expected": "آ",
-      "options": [],
+      "options": [
+        {
+          "text": "آ",
+          "tts": "آ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آم کی تصویر دیکھ کر پہلا حرف لکھیں: آ",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "آ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "بلی کی تصویر دیکھ کر پہلا حرف لکھیں: ب",
       "answer": "ب",
-      "expected": "ب",
-      "options": [],
+      "options": [
+        {
+          "text": "ب",
+          "tts": "ب"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "بلی کی تصویر دیکھ کر پہلا حرف لکھیں: ب",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "ب": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "کتاب کی تصویر دیکھ کر پہلا حرف لکھیں: ک",
       "answer": "ک",
-      "expected": "ک",
-      "options": [],
+      "options": [
+        {
+          "text": "ک",
+          "tts": "ک"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "کتاب کی تصویر دیکھ کر پہلا حرف لکھیں: ک",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "ک": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "قلم کی تصویر دیکھ کر پہلا حرف لکھیں: ق",
       "answer": "ق",
-      "expected": "ق",
-      "options": [],
+      "options": [
+        {
+          "text": "ق",
+          "tts": "ق"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "قلم کی تصویر دیکھ کر پہلا حرف لکھیں: ق",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "ق": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "میز کی تصویر دیکھ کر پہلا حرف لکھیں: م",
       "answer": "م",
-      "expected": "م",
-      "options": [],
+      "options": [
+        {
+          "text": "م",
+          "tts": "م"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "میز کی تصویر دیکھ کر پہلا حرف لکھیں: م",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "م": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

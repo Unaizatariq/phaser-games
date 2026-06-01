@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 7,
-  "topic": "Time",
-  "teach": "Time tells when something happens. We read time on clocks and talk about morning, afternoon and night.",
-  "examples": [
-    "clock",
-    "morning",
-    "night"
-  ],
+  "topic": "water",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "clock",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "clock",
-        "shoe",
+        "ball",
+        "book",
+        "chair",
+        "mouse"
+      ],
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
+    },
+    {
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
+      "options": [
+        "book",
         "apple",
-        "chair"
+        "car",
+        "printer"
       ],
-      "audioText": "What tells us time?"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "hour",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "hour",
-        "minute",
-        "day",
-        "month"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "The short hand on a clock shows"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "minute",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "minute",
-        "hour",
-        "year",
-        "shape"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "The long hand on a clock shows"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "night",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "night",
-        "morning",
-        "school",
-        "park"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "We usually sleep at"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "when something happens",
-      "options": [
-        "when something happens",
-        "what color it is",
-        "how heavy it is",
-        "what animal it is"
-      ],
-      "audioText": "Time tells us"
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

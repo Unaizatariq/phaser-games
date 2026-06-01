@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 9,
   "topic": "My Best Friend",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "friend"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My best friend plays with me every day.",
       "answer": "friend",
       "options": [
         "friend",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "driver",
         "farmer"
       ],
-      "text": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "audioText": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+      "audioText": "My best friend plays with me every day.",
+      "art": "👧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "friend": "🧒",
+        "stranger": "🔹",
+        "driver": "🔹",
+        "farmer": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "We share our toys and books.",
       "answer": "friend",
       "options": [
         "friend",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "driver",
         "farmer"
       ],
-      "text": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "audioText": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+      "audioText": "We share our toys and books.",
+      "art": "👧",
+      "questionText": "According to the story about My Best Friend, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "friend": "🧒",
+        "stranger": "🔹",
+        "driver": "🔹",
+        "farmer": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "We help each other and have fun together.",
       "answer": "friend",
       "options": [
         "friend",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "driver",
         "farmer"
       ],
-      "text": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "audioText": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+      "audioText": "We help each other and have fun together.",
+      "art": "👧",
+      "questionText": "According to the story about My Best Friend, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "friend": "🧒",
+        "stranger": "🔹",
+        "driver": "🔹",
+        "farmer": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "What is the story mainly about?",
       "answer": "friend",
       "options": [
         "friend",
@@ -61,27 +97,58 @@ window.GAME_DATA = {
         "driver",
         "farmer"
       ],
-      "text": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "audioText": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+      "audioText": "What is the story mainly about?",
+      "art": "👧",
+      "questionText": "According to the story about My Best Friend, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "friend": "🧒",
+        "stranger": "🔹",
+        "driver": "🔹",
+        "farmer": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "friend",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "friend",
-        "stranger",
-        "driver",
-        "farmer"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together.",
-      "audioText": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "👧",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My best friend plays with me every day. We share our toys and books. We help each other and have fun together."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

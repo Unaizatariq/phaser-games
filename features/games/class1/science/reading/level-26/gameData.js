@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 26,
   "topic": "Hot and Cold Things",
-  "teach": "Tea is hot.",
-  "examples": [
-    "Tea is hot.",
-    "Ice cream is cold.",
-    "Hot things feel warm."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Hot and Cold Things",
+      "prompt": "Tea is hot.",
+      "answer": "Hot",
       "options": [
-        "Hot and Cold Things",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Hot",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "readingText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "audioText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      "audioText": "Tea is hot.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hot": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tea is ____.",
-      "answer": "hot",
+      "prompt": "Ice cream is cold.",
+      "answer": "Hot",
       "options": [
-        "hot",
-        "My Body",
-        "things",
-        "ears"
+        "Hot",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "readingText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "audioText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      "audioText": "Ice cream is cold.",
+      "art": "📚",
+      "questionText": "According to the story about Hot and Cold Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hot": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ice cream is ____.",
-      "answer": "cold",
+      "prompt": "Hot things feel warm.",
+      "answer": "Hot",
       "options": [
-        "cold",
-        "My Body",
-        "things",
-        "ears"
+        "Hot",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "readingText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "audioText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      "audioText": "Hot things feel warm.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hot": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hot things feel ____.",
-      "answer": "warm",
+      "prompt": "Cold things feel cool.",
+      "answer": "Hot",
       "options": [
-        "warm",
-        "My Body",
-        "things",
-        "ears"
+        "Hot",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "readingText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "audioText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      "audioText": "Cold things feel cool.",
+      "art": "📚",
+      "questionText": "According to the story about Hot and Cold Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hot": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cold things feel ____.",
-      "answer": "cool",
+      "prompt": "What is the story mainly about?",
+      "answer": "Hot",
       "options": [
-        "cool",
-        "My Body",
-        "things",
-        "ears"
+        "Hot",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "readingText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool.",
-      "audioText": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Hot and Cold Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hot": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Tea is hot. Ice cream is cold. Hot things feel warm. Cold things feel cool."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

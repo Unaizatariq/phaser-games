@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 8,
   "topic": "Presentation Software",
-  "teach": "Presentation software creates slideshows.",
-  "examples": [
-    "Presentation software creates slideshows.",
-    "Slides can contain text, pictures, and charts.",
-    "Teachers use presentations during lessons."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Presentation Software",
+      "prompt": "Presentation software creates slideshows.",
+      "answer": "Presentation",
       "options": [
-        "Presentation Software",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "readingText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "audioText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      "audioText": "Presentation software creates slideshows.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Presentation software creates ____.",
-      "answer": "slideshows",
+      "prompt": "Slides can contain text, pictures, and charts.",
+      "answer": "Presentation",
       "options": [
-        "slideshows",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "readingText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "audioText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      "audioText": "Slides can contain text, pictures, and charts.",
+      "art": "📚",
+      "questionText": "According to the story about Presentation Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Slides can contain text, pictures, and ____.",
-      "answer": "charts",
+      "prompt": "Teachers use presentations during lessons.",
+      "answer": "Presentation",
       "options": [
-        "charts",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "readingText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "audioText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      "audioText": "Teachers use presentations during lessons.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers use presentations during ____.",
-      "answer": "lessons",
+      "prompt": "Presentations make information easy to understand.",
+      "answer": "Presentation",
       "options": [
-        "lessons",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "readingText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "audioText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      "audioText": "Presentations make information easy to understand.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Presentations make information easy to ____.",
-      "answer": "understand",
+      "prompt": "What is the story mainly about?",
+      "answer": "Presentation",
       "options": [
-        "understand",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "readingText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand.",
-      "audioText": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Presentation Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Presentation software creates slideshows. Slides can contain text, pictures, and charts. Teachers use presentations during lessons. Presentations make information easy to understand."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

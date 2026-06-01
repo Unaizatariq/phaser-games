@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 8,
-  "topic": "Number Words One to Five",
-  "teach": "Number Words One to Five teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Counting 1-50",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "Say the answer: What is the topic about?"
+      "prompt": "Say the number: 1",
+      "answer": "One",
+      "options": [
+        "One",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 1",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Say the answer: Computers help us"
+      "prompt": "Say the number: 5",
+      "answer": "Five",
+      "options": [
+        "Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 5",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Say the answer: We should use computers"
+      "prompt": "Say the number: 10",
+      "answer": "Ten",
+      "options": [
+        "Ten",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 10",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Ten": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Say the answer: A keyboard is used to"
+      "prompt": "Say the number: 25",
+      "answer": "Twenty Five",
+      "options": [
+        "Twenty Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 25",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Twenty Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Say the answer: Good digital habit means"
+      "prompt": "Say the number: 50",
+      "answer": "Fifty",
+      "options": [
+        "Fifty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 50",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

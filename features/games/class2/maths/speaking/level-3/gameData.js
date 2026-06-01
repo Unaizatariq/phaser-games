@@ -1,96 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 3,
   "topic": "Fast Answer Challenge",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Fifty",
-    "Twenty Four",
-    "Nine"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "What is 100 - 50?",
       "answer": "Fifty",
-      "expected": "Fifty",
-      "options": [],
-      "audioText": "What is 100 - 50?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Fifty",
-        "50"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 100 - 50?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 100,
+        "op": "-",
+        "b": 50,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 12 × 2?",
       "answer": "Twenty Four",
-      "expected": "Twenty Four",
-      "options": [],
+      "options": [
+        "Twenty Four",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What is 12 × 2?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Twenty Four": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 81 ÷ 9?",
       "answer": "Nine",
-      "expected": "Nine",
-      "options": [],
-      "audioText": "What is 81 ÷ 9?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Nine",
-        "9"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 81 ÷ 9?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Nine": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 14 + 6?",
       "answer": "Twenty",
-      "expected": "Twenty",
-      "options": [],
-      "audioText": "What is 14 + 6?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Twenty",
-        "20"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 14 + 6?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 14,
+        "op": "+",
+        "b": 6,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Twenty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 33 - 3?",
       "answer": "Thirty",
-      "expected": "Thirty",
-      "options": [],
-      "audioText": "What is 33 - 3?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Thirty",
-        "30"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 33 - 3?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 33,
+        "op": "-",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Thirty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

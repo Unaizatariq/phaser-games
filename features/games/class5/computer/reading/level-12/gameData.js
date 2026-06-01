@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 12,
   "topic": "Cyber Safety",
-  "teach": "Cyber safety protects people online.",
-  "examples": [
-    "Cyber safety protects people online.",
-    "Strong passwords help secure accounts.",
-    "Personal information should remain private."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Cyber Safety",
+      "prompt": "Cyber safety protects people online.",
+      "answer": "Cyber",
       "options": [
-        "Cyber Safety",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "readingText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "audioText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      "audioText": "Cyber safety protects people online.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cyber safety protects people ____.",
-      "answer": "online",
+      "prompt": "Strong passwords help secure accounts.",
+      "answer": "Cyber",
       "options": [
-        "online",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "readingText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "audioText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      "audioText": "Strong passwords help secure accounts.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Strong passwords help secure ____.",
-      "answer": "accounts",
+      "prompt": "Personal information should remain private.",
+      "answer": "Cyber",
       "options": [
-        "accounts",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "readingText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "audioText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      "audioText": "Personal information should remain private.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Personal information should remain ____.",
-      "answer": "private",
+      "prompt": "People should avoid unsafe websites.",
+      "answer": "Cyber",
       "options": [
-        "private",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "readingText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "audioText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      "audioText": "People should avoid unsafe websites.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People should avoid unsafe ____.",
-      "answer": "websites",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cyber",
       "options": [
-        "websites",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "readingText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites.",
-      "audioText": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cyber safety protects people online. Strong passwords help secure accounts. Personal information should remain private. People should avoid unsafe websites."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

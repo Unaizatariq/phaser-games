@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 9,
   "topic": "Spreadsheets",
-  "teach": "Spreadsheets organize data in rows and columns.",
-  "examples": [
-    "Spreadsheets organize data in rows and columns.",
-    "They are useful for calculations.",
-    "Microsoft Excel is spreadsheet software."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Spreadsheets organize data in rows and columns.",
       "answer": "Spreadsheets",
       "options": [
         "Spreadsheets",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "readingText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "audioText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      "audioText": "Spreadsheets organize data in rows and columns.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Spreadsheets organize data in rows and ____.",
-      "answer": "columns",
+      "prompt": "They are useful for calculations.",
+      "answer": "Spreadsheets",
       "options": [
-        "columns",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "readingText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "audioText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      "audioText": "They are useful for calculations.",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They are useful for ____.",
-      "answer": "calculations",
+      "prompt": "Microsoft Excel is spreadsheet software.",
+      "answer": "Spreadsheets",
       "options": [
-        "calculations",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "readingText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "audioText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      "audioText": "Microsoft Excel is spreadsheet software.",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Microsoft Excel is spreadsheet ____.",
-      "answer": "software",
+      "prompt": "Businesses use spreadsheets to manage records.",
+      "answer": "Spreadsheets",
       "options": [
-        "software",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "readingText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "audioText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      "audioText": "Businesses use spreadsheets to manage records.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Businesses use spreadsheets to manage ____.",
-      "answer": "records",
+      "prompt": "What is the story mainly about?",
+      "answer": "Spreadsheets",
       "options": [
-        "records",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "readingText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records.",
-      "audioText": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Spreadsheets organize data in rows and columns. They are useful for calculations. Microsoft Excel is spreadsheet software. Businesses use spreadsheets to manage records."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

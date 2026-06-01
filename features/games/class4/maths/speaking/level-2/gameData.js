@@ -1,88 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 2,
   "topic": "Geometry",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Three",
-    "Four",
-    "Circle"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "How many sides does a triangle have?",
       "answer": "Three",
-      "expected": "Three",
-      "options": [],
-      "audioText": "How many sides does a triangle have?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Three",
-        "3"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "How many sides does a triangle have?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Three": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "How many sides does a square have?",
       "answer": "Four",
-      "expected": "Four",
-      "options": [],
-      "audioText": "How many sides does a square have?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Four",
-        "4"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "How many sides does a square have?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Four": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What shape has no corners?",
       "answer": "Circle",
-      "expected": "Circle",
-      "options": [],
+      "options": [
+        "Circle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What shape has no corners?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Circle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What shape has 4 equal sides?",
       "answer": "Square",
-      "expected": "Square",
-      "options": [],
+      "options": [
+        "Square",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What shape has 4 equal sides?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Square": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What shape has 3 sides?",
       "answer": "Triangle",
-      "expected": "Triangle",
-      "options": [],
+      "options": [
+        "Triangle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What shape has 3 sides?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Triangle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Before and After",
-  "teach": "1 comes before 2.",
-  "examples": [
-    "1 comes before 2.",
-    "2 comes after 1.",
-    "3 comes after 2."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Before and After",
+      "prompt": "1 comes before 2.",
+      "answer": "Before",
       "options": [
-        "Before and After",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
+        "Before",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "readingText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "audioText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      "audioText": "1 comes before 2.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 1 comes ____ 2.",
-      "answer": "before",
+      "prompt": "2 comes after 1.",
+      "answer": "Before",
       "options": [
-        "before",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Before",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "readingText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "audioText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      "audioText": "2 comes after 1.",
+      "art": "📚",
+      "questionText": "According to the story about Before and After, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2 comes ____ 1.",
-      "answer": "after",
+      "prompt": "3 comes after 2.",
+      "answer": "Before",
       "options": [
-        "after",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Before",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "readingText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "audioText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      "audioText": "3 comes after 2.",
+      "art": "📚",
+      "questionText": "According to the story about Before and After, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers are in ____.",
-      "answer": "order",
+      "prompt": "Numbers are in order.",
+      "answer": "Before",
       "options": [
-        "order",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Before",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "readingText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "audioText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      "audioText": "Numbers are in order.",
+      "art": "📚",
+      "questionText": "According to the story about Before and After, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "before",
+      "prompt": "What is the story mainly about?",
+      "answer": "Before",
       "options": [
-        "before",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Before",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "readingText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order.",
-      "audioText": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Before and After, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "1 comes before 2. 2 comes after 1. 3 comes after 2. Numbers are in order."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

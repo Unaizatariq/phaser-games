@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Measurement",
-  "teach": "We can measure things.",
-  "examples": [
-    "We can measure things.",
-    "A ruler measures length.",
-    "Some things are long."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "We can measure things.",
       "answer": "Measurement",
       "options": [
         "Measurement",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "readingText": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "audioText": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      "audioText": "We can measure things.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can measure ____.",
-      "answer": "things",
+      "prompt": "A ruler measures length.",
+      "answer": "Measurement",
       "options": [
-        "things",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "readingText": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "audioText": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      "audioText": "A ruler measures length.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A ruler measures ____.",
-      "answer": "length",
+      "prompt": "Some things are long.",
+      "answer": "Measurement",
       "options": [
-        "length",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "readingText": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "audioText": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      "audioText": "Some things are long.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some things are ____.",
-      "answer": "long",
+      "prompt": "Some things are short.",
+      "answer": "Measurement",
       "options": [
-        "long",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "readingText": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "audioText": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      "audioText": "Some things are short.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some things are ____.",
-      "answer": "short",
+      "prompt": "What is the story mainly about?",
+      "answer": "Measurement",
       "options": [
-        "short",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "readingText": "We can measure things. A ruler measures length. Some things are long. Some things are short.",
-      "audioText": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+      "audioText": "What is the story mainly about?",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can measure things. A ruler measures length. Some things are long. Some things are short."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

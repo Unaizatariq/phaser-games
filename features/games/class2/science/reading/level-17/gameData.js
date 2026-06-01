@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 17,
   "topic": "Means of Transport",
-  "teach": "Cars and buses move on roads.",
-  "examples": [
-    "Cars and buses move on roads.",
-    "Trains run on tracks.",
-    "Airplanes fly in the sky."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Means of Transport",
+      "prompt": "Cars and buses move on roads.",
+      "answer": "Means",
       "options": [
-        "Means of Transport",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Means",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "readingText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "audioText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      "audioText": "Cars and buses move on roads.",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Means": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cars and buses move on ____.",
-      "answer": "roads",
+      "prompt": "Trains run on tracks.",
+      "answer": "Means",
       "options": [
-        "roads",
-        "Living Things",
-        "move",
-        "things"
+        "Means",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "readingText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "audioText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      "audioText": "Trains run on tracks.",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Means": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trains run on ____.",
-      "answer": "tracks",
+      "prompt": "Airplanes fly in the sky.",
+      "answer": "Means",
       "options": [
-        "tracks",
-        "Living Things",
-        "move",
-        "things"
+        "Means",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "readingText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "audioText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      "audioText": "Airplanes fly in the sky.",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Means": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Airplanes fly in the ____.",
-      "answer": "sky",
+      "prompt": "Transport helps us travel easily.",
+      "answer": "Means",
       "options": [
-        "sky",
-        "Living Things",
-        "move",
-        "things"
+        "Means",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "readingText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "audioText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      "audioText": "Transport helps us travel easily.",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Means": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Transport helps us travel ____.",
-      "answer": "easily",
+      "prompt": "What is the story mainly about?",
+      "answer": "Means",
       "options": [
-        "easily",
-        "Living Things",
-        "move",
-        "things"
+        "Means",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "readingText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily.",
-      "audioText": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Means": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cars and buses move on roads. Trains run on tracks. Airplanes fly in the sky. Transport helps us travel easily."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

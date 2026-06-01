@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
   "topic": "Good Habits",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "good habits"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Good habits keep us healthy and happy.",
       "answer": "good habits",
       "options": [
         "good habits",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "dirty hands",
         "junk food"
       ],
-      "text": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "audioText": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+      "audioText": "Good habits keep us healthy and happy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "good habits": "🔹",
+        "bad habits": "🔹",
+        "dirty hands": "✋",
+        "junk food": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I brush my teeth twice a day.",
       "answer": "good habits",
       "options": [
         "good habits",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "dirty hands",
         "junk food"
       ],
-      "text": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "audioText": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+      "audioText": "I brush my teeth twice a day.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "good habits": "🔹",
+        "bad habits": "🔹",
+        "dirty hands": "✋",
+        "junk food": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "I wash my hands before eating food.",
       "answer": "good habits",
       "options": [
         "good habits",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "dirty hands",
         "junk food"
       ],
-      "text": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "audioText": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+      "audioText": "I wash my hands before eating food.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "good habits": "🔹",
+        "bad habits": "🔹",
+        "dirty hands": "✋",
+        "junk food": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I help my parents at home and keep my room clean.",
       "answer": "good habits",
       "options": [
         "good habits",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "dirty hands",
         "junk food"
       ],
-      "text": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "audioText": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+      "audioText": "I help my parents at home and keep my room clean.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "good habits": "🔹",
+        "bad habits": "🔹",
+        "dirty hands": "✋",
+        "junk food": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "good habits",
       "options": [
         "good habits",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "dirty hands",
         "junk food"
       ],
-      "text": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean.",
-      "audioText": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "good habits": "🔹",
+        "bad habits": "🔹",
+        "dirty hands": "✋",
+        "junk food": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Good habits keep us healthy and happy. I brush my teeth twice a day. I wash my hands before eating food. I help my parents at home and keep my room clean."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

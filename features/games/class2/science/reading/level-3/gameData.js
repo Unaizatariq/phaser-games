@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Plants Around Us",
-  "teach": "Plants are important for life.",
-  "examples": [
-    "Plants are important for life.",
-    "Plants need water and sunlight to grow.",
-    "Flowers and fruits grow on plants."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Plants Around Us",
-      "options": [
-        "Plants Around Us",
-        "Living Things",
-        "Non-Living Things",
-        "Animals Around Us"
-      ],
-      "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ are important for life.",
+      "prompt": "Plants are important for life.",
       "answer": "Plants",
       "options": [
         "Plants",
-        "Living Things",
-        "move",
-        "things"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
+      "audioText": "Plants are important for life.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants need water and sunlight to ____.",
-      "answer": "grow",
-      "options": [
-        "grow",
-        "Living Things",
-        "move",
-        "things"
-      ],
-      "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants make the air ____.",
-      "answer": "fresh",
-      "options": [
-        "fresh",
-        "Living Things",
-        "move",
-        "things"
-      ],
-      "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
+      "prompt": "Plants need water and sunlight to grow.",
       "answer": "Plants",
       "options": [
         "Plants",
-        "Living Things",
-        "move",
-        "things"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
+      "audioText": "Plants need water and sunlight to grow.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Flowers and fruits grow on plants.",
+      "answer": "Plants",
+      "options": [
+        "Plants",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Flowers and fruits grow on plants.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Plants make the air fresh.",
+      "answer": "Plants",
+      "options": [
+        "Plants",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Plants make the air fresh.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
+      "options": [
+        "Plants",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants are important for life. Plants need water and sunlight to grow. Flowers and fruits grow on plants. Plants make the air fresh."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

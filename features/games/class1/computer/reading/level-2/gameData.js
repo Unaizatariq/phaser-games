@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 2,
   "topic": "Parts of a Computer",
-  "teach": "A computer has many parts.",
-  "examples": [
-    "A computer has many parts.",
-    "The monitor shows pictures and words.",
-    "The keyboard helps us type."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Parts of a Computer",
+      "prompt": "A computer has many parts.",
+      "answer": "Parts",
       "options": [
-        "Parts of a Computer",
-        "What is a Computer?",
-        "Monitor",
-        "Keyboard"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "readingText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "audioText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      "audioText": "A computer has many parts.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer has many ____.",
-      "answer": "parts",
+      "prompt": "The monitor shows pictures and words.",
+      "answer": "Parts",
       "options": [
-        "parts",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "readingText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "audioText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      "audioText": "The monitor shows pictures and words.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The monitor shows pictures and ____.",
-      "answer": "words",
+      "prompt": "The keyboard helps us type.",
+      "answer": "Parts",
       "options": [
-        "words",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "readingText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "audioText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      "audioText": "The keyboard helps us type.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The keyboard helps us ____.",
-      "answer": "type",
+      "prompt": "The mouse helps us click and move.",
+      "answer": "Parts",
       "options": [
-        "type",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "readingText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "audioText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      "audioText": "The mouse helps us click and move.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse helps us click and ____.",
-      "answer": "move",
+      "prompt": "What is the story mainly about?",
+      "answer": "Parts",
       "options": [
-        "move",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "readingText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move.",
-      "audioText": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer has many parts. The monitor shows pictures and words. The keyboard helps us type. The mouse helps us click and move."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

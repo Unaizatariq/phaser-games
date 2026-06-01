@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 2,
   "topic": "Energy Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "sun",
-    "fire",
-    "fan"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one source of light energy",
       "answer": "sun",
-      "expected": "sun",
-      "options": [],
+      "options": [
+        "sun",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one source of light energy",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "sun": "☀️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one source of heat energy",
       "answer": "fire",
-      "expected": "fire",
-      "options": [],
+      "options": [
+        "fire",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one source of heat energy",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "fire": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one electrical device",
       "answer": "fan",
-      "expected": "fan",
-      "options": [],
+      "options": [
+        "fan",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one electrical device",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "fan": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one renewable energy source",
       "answer": "solar energy",
-      "expected": "solar energy",
-      "options": [],
+      "options": [
+        "solar energy",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one renewable energy source",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "solar energy": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one non-renewable energy source",
       "answer": "coal",
-      "expected": "coal",
-      "options": [],
+      "options": [
+        "coal",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one non-renewable energy source",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "coal": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

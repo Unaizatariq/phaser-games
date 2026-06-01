@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 2,
   "topic": "واحد اور جمع",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "کتابیں",
-    "بچے",
-    "لڑکیاں"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "کتاب کی جمع بولیں۔",
       "answer": "کتابیں",
-      "expected": "کتابیں",
-      "options": [],
+      "options": [
+        {
+          "text": "کتابیں",
+          "tts": "kitaben"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "کتاب کی جمع بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتابیں": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "بچہ کی جمع بولیں۔",
       "answer": "بچے",
-      "expected": "بچے",
-      "options": [],
+      "options": [
+        {
+          "text": "بچے",
+          "tts": "بچے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "بچہ کی جمع بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "بچے": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "لڑکی کی جمع بولیں۔",
       "answer": "لڑکیاں",
-      "expected": "لڑکیاں",
-      "options": [],
+      "options": [
+        {
+          "text": "لڑکیاں",
+          "tts": "لڑکیاں"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لڑکی کی جمع بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "لڑکیاں": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "درخت کی جمع بولیں۔",
       "answer": "درخت",
-      "expected": "درخت",
-      "options": [],
+      "options": [
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "درخت کی جمع بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "درخت": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "پرندہ کی جمع بولیں۔",
       "answer": "پرندے",
-      "expected": "پرندے",
-      "options": [],
+      "options": [
+        {
+          "text": "پرندے",
+          "tts": "parinday"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "پرندہ کی جمع بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پرندے": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

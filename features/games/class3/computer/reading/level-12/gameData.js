@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 12,
   "topic": "The Internet",
-  "teach": "The internet connects millions of computers.",
-  "examples": [
-    "The internet connects millions of computers.",
-    "People use it to search information.",
-    "Students can learn through online resources."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Internet",
+      "prompt": "The internet connects millions of computers.",
+      "answer": "The",
       "options": [
-        "The Internet",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "readingText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "audioText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      "audioText": "The internet connects millions of computers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet connects millions of ____.",
-      "answer": "computers",
+      "prompt": "People use it to search information.",
+      "answer": "The",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "readingText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "audioText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      "audioText": "People use it to search information.",
+      "art": "📚",
+      "questionText": "According to the story about The Internet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use it to search ____.",
-      "answer": "information",
+      "prompt": "Students can learn through online resources.",
+      "answer": "The",
       "options": [
-        "information",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "readingText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "audioText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      "audioText": "Students can learn through online resources.",
+      "art": "📚",
+      "questionText": "According to the story about The Internet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students can learn through online ____.",
-      "answer": "resources",
+      "prompt": "The internet should be used safely.",
+      "answer": "The",
       "options": [
-        "resources",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "readingText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "audioText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      "audioText": "The internet should be used safely.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet should be used ____.",
-      "answer": "safely",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "safely",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "readingText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely.",
-      "audioText": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The internet connects millions of computers. People use it to search information. Students can learn through online resources. The internet should be used safely."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

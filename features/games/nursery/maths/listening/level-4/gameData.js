@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 4,
-  "topic": "Tall Short More Less Long Short",
-  "teach": "Tall Short More Less Long Short is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Tall Short More Less Long Short",
-    "example",
-    "practice"
-  ],
+  "topic": "shapes",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Tall Short More Less Long Short",
+      "prompt": "Solve: 5 + 1 = ?",
+      "answer": "6",
       "options": [
-        "Tall Short More Less Long Short",
-        "Random topic",
-        "Wrong topic",
-        "Another lesson"
+        "6",
+        "7",
+        "5",
+        "8"
       ],
-      "audioText": "What is today’s topic?"
+      "audioText": "Solve: 5 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the example",
+      "prompt": "Solve: 6 + 2 = ?",
+      "answer": "8",
       "options": [
-        "read the example",
-        "skip the lesson",
-        "guess only",
-        "close the book"
+        "8",
+        "9",
+        "7",
+        "10"
       ],
-      "audioText": "To learn this topic, first we should"
+      "audioText": "Solve: 6 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 6,
+        "b": 2,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "related to the topic",
+      "prompt": "Solve: 7 + 3 = ?",
+      "answer": "10",
       "options": [
-        "related to the topic",
-        "random",
-        "empty",
-        "copied wrong"
+        "10",
+        "11",
+        "9",
+        "12"
       ],
-      "audioText": "A good answer should be"
+      "audioText": "Solve: 7 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 7,
+        "b": 3,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "11": "🔢",
+        "9": "🔢",
+        "12": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "remember better",
+      "prompt": "Solve: 8 + 4 = ?",
+      "answer": "12",
       "options": [
-        "remember better",
-        "forget",
-        "sleep",
-        "stop learning"
+        "12",
+        "13",
+        "11",
+        "14"
       ],
-      "audioText": "Practice helps us"
+      "audioText": "Solve: 8 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 8,
+        "b": 4,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "13": "🔢",
+        "11": "🔢",
+        "14": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "try again",
+      "prompt": "Solve: 1 + 5 = ?",
+      "answer": "6",
       "options": [
-        "try again",
-        "give up",
-        "ignore",
-        "rush"
+        "6",
+        "7",
+        "5",
+        "8"
       ],
-      "audioText": "Choose the correct learning habit."
+      "audioText": "Solve: 1 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 1,
+        "b": 5,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

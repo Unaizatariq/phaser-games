@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 5,
-  "topic": "Drag and Drop Function",
-  "teach": "Drag and Drop Function is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Drag and Drop Function",
-    "example",
-    "practice"
-  ],
+  "topic": "Computer Uses",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Drag and Drop Function",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type one use of computer in school",
+      "answer": "learning",
+      "options": [
+        "learning",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one use of computer in school",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "learning": "👂",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type one use of computer in hospital",
+      "answer": "patient records",
+      "options": [
+        "patient records",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one use of computer in hospital",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "patient records": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type one use of computer in bank",
+      "answer": "money records",
+      "options": [
+        "money records",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one use of computer in bank",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "money records": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type one use of computer in office",
+      "answer": "documents",
+      "options": [
+        "documents",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one use of computer in office",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "documents": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type one use of computer in shops",
+      "answer": "billing",
+      "options": [
+        "billing",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one use of computer in shops",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "billing": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

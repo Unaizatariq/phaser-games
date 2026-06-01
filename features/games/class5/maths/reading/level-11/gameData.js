@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 11,
   "topic": "Perimeter and Area",
-  "teach": "Perimeter measures the boundary of a shape.",
-  "examples": [
-    "Perimeter measures the boundary of a shape.",
-    "Area measures the surface inside a shape.",
-    "Formulas help calculate area and perimeter."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Perimeter and Area",
+      "prompt": "Perimeter measures the boundary of a shape.",
+      "answer": "Perimeter",
       "options": [
-        "Perimeter and Area",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "readingText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "audioText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      "audioText": "Perimeter measures the boundary of a shape.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Perimeter measures the boundary of a ____.",
-      "answer": "shape",
+      "prompt": "Area measures the surface inside a shape.",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "readingText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "audioText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      "audioText": "Area measures the surface inside a shape.",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter and Area, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Formulas help calculate area and ____.",
-      "answer": "perimeter",
+      "prompt": "Formulas help calculate area and perimeter.",
+      "answer": "Perimeter",
       "options": [
-        "perimeter",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "readingText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "audioText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      "audioText": "Formulas help calculate area and perimeter.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Area and perimeter are useful in ____ life.",
-      "answer": "real",
+      "prompt": "Area and perimeter are useful in real life.",
+      "answer": "Perimeter",
       "options": [
-        "real",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "readingText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "audioText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      "audioText": "Area and perimeter are useful in real life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "shape",
+      "prompt": "What is the story mainly about?",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "readingText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life.",
-      "audioText": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter and Area, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Perimeter measures the boundary of a shape. Area measures the surface inside a shape. Formulas help calculate area and perimeter. Area and perimeter are useful in real life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

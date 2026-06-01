@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Subtraction",
-  "teach": "Subtraction means taking away.",
-  "examples": [
-    "Subtraction means taking away.",
-    "We subtract smaller numbers from larger numbers.",
-    "Subtraction helps us solve daily problems."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Subtraction means taking away.",
       "answer": "Subtraction",
       "options": [
         "Subtraction",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "readingText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "audioText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      "audioText": "Subtraction means taking away.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction means taking ____.",
-      "answer": "away",
+      "prompt": "We subtract smaller numbers from larger numbers.",
+      "answer": "Subtraction",
       "options": [
-        "away",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "readingText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "audioText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      "audioText": "We subtract smaller numbers from larger numbers.",
+      "art": "➖",
+      "questionText": "According to the story about Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We subtract smaller ____ from larger numbers.",
-      "answer": "numbers",
+      "prompt": "Subtraction helps us solve daily problems.",
+      "answer": "Subtraction",
       "options": [
-        "numbers",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "readingText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "audioText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      "audioText": "Subtraction helps us solve daily problems.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction helps us solve daily ____.",
-      "answer": "problems",
+      "prompt": "Borrowing is sometimes needed in subtraction.",
+      "answer": "Subtraction",
       "options": [
-        "problems",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "readingText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "audioText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      "audioText": "Borrowing is sometimes needed in subtraction.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "away",
+      "prompt": "What is the story mainly about?",
+      "answer": "Subtraction",
       "options": [
-        "away",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "readingText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction.",
-      "audioText": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+      "audioText": "What is the story mainly about?",
+      "art": "➖",
+      "questionText": "According to the story about Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Subtraction means taking away. We subtract smaller numbers from larger numbers. Subtraction helps us solve daily problems. Borrowing is sometimes needed in subtraction."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

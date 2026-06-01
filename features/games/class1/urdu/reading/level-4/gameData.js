@@ -1,87 +1,200 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 4,
   "topic": "میری پالتو بلی",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "بلی"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "میرے پاس ایک چھوٹی پالتو بلی ہے۔",
       "answer": "بلی",
       "options": [
-        "بلی",
-        "کتا",
-        "بکری",
-        "طوطا"
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "بکری",
+          "tts": "بکری"
+        },
+        {
+          "text": "طوطا",
+          "tts": "طوطا"
+        }
       ],
-      "text": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "میرے پاس ایک چھوٹی پالتو بلی ہے۔",
+      "narrationTTS": "میرے پاس ایک چھوٹی پالتو بلی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
-      "answer": "بلی",
+      "prompt": "اس کے بال نرم اور سفید ہیں۔",
+      "answer": "نرم اور سفید",
       "options": [
-        "بلی",
-        "کتا",
-        "بکری",
-        "طوطا"
+        {
+          "text": "نرم اور سفید",
+          "tts": "naram aur safed"
+        },
+        {
+          "text": "کالے",
+          "tts": "kaalay"
+        },
+        {
+          "text": "سخت",
+          "tts": "sakht"
+        },
+        {
+          "text": "لال",
+          "tts": "laal"
+        }
       ],
-      "text": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+      "audioText": "اس کے بال نرم اور سفید ہیں۔",
+      "art": "",
+      "questionText": "بلی کے بال کیسے ہیں؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Billi ke baal kaisay hain?",
+      "audioTextTTS": "اس کے بال نرم اور سفید ہیں۔",
+      "narrationTTS": "اس کے بال نرم اور سفید ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
-      "answer": "بلی",
+      "prompt": "بلی روز دودھ پیتی ہے۔",
+      "answer": "دودھ",
       "options": [
-        "بلی",
-        "کتا",
-        "بکری",
-        "طوطا"
+        {
+          "text": "دودھ",
+          "tts": "doodh"
+        },
+        {
+          "text": "پانی",
+          "tts": "pani"
+        },
+        {
+          "text": "چائے",
+          "tts": "chai"
+        },
+        {
+          "text": "جوس",
+          "tts": "juice"
+        }
       ],
-      "text": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+      "audioText": "بلی روز دودھ پیتی ہے۔",
+      "art": "",
+      "questionText": "بلی کیا پیتی ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Billi kya peeti hai?",
+      "audioTextTTS": "بلی روز دودھ پیتی ہے۔",
+      "narrationTTS": "بلی روز دودھ پیتی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "بلی",
+      "prompt": "اسے گیند سے کھیلنا پسند ہے۔",
+      "answer": "پسند",
       "options": [
-        "بلی",
-        "کتا",
-        "بکری",
-        "طوطا"
+        {
+          "text": "پسند",
+          "tts": "پسند"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "بکری",
+          "tts": "بکری"
+        }
       ],
-      "text": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+      "audioText": "اسے گیند سے کھیلنا پسند ہے۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "اسے گیند سے کھیلنا پسند ہے۔",
+      "narrationTTS": "اسے گیند سے کھیلنا پسند ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "بلی",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "بلی",
-        "کتا",
-        "بکری",
-        "طوطا"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "بکری",
+          "tts": "بکری"
+        }
       ],
-      "text": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔",
-      "audioText": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "میرے پاس ایک چھوٹی پالتو بلی ہے۔ اس کے بال نرم اور سفید ہیں۔ بلی روز دودھ پیتی ہے۔ اسے گیند سے کھیلنا پسند ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

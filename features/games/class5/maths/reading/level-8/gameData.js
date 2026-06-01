@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Multiplication and Division",
-  "teach": "Multiplication is repeated addition.",
-  "examples": [
-    "Multiplication is repeated addition.",
-    "Division means sharing equally.",
-    "Long multiplication solves larger problems."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Multiplication and Division",
+      "prompt": "Multiplication is repeated addition.",
+      "answer": "Multiplication",
       "options": [
-        "Multiplication and Division",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      "audioText": "Multiplication is repeated addition.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication is repeated ____.",
-      "answer": "addition",
+      "prompt": "Division means sharing equally.",
+      "answer": "Multiplication",
       "options": [
-        "addition",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      "audioText": "Division means sharing equally.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division means sharing ____.",
-      "answer": "equally",
+      "prompt": "Long multiplication solves larger problems.",
+      "answer": "Multiplication",
       "options": [
-        "equally",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      "audioText": "Long multiplication solves larger problems.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Long multiplication solves larger ____.",
-      "answer": "problems",
+      "prompt": "Division can produce remainders.",
+      "answer": "Multiplication",
       "options": [
-        "problems",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      "audioText": "Division can produce remainders.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division can produce ____.",
-      "answer": "remainders",
+      "prompt": "What is the story mainly about?",
+      "answer": "Multiplication",
       "options": [
-        "remainders",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "readingText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders.",
-      "audioText": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+      "audioText": "What is the story mainly about?",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication and Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Multiplication is repeated addition. Division means sharing equally. Long multiplication solves larger problems. Division can produce remainders."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

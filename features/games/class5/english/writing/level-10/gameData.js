@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 10,
-  "topic": "Subject and Predicate",
-  "teach": "Subject and Predicate is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Subject and Predicate",
-    "example",
-    "practice"
-  ],
+  "topic": "Advanced Grammar",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Subject and Predicate",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Correct grammar mistakes",
+      "answer": "I am going to school.",
+      "options": [
+        "I am going to school.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Correct grammar mistakes",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I am going to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type correct punctuation",
+      "answer": "What is your name?",
+      "options": [
+        "What is your name?",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type correct punctuation",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "What is your name?": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Fix spelling mistakes",
+      "answer": "beautiful",
+      "options": [
+        "beautiful",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Fix spelling mistakes",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "beautiful": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Write proper sentence",
+      "answer": "I like to read books.",
+      "options": [
+        "I like to read books.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write proper sentence",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I like to read books.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Correct paragraph grammar",
+      "answer": "I go to school every day. I study and play with my friends.",
+      "options": [
+        "I go to school every day. I study and play with my friends.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Correct paragraph grammar",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "I go to school every day. I study and play with my friends.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

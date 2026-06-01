@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 14,
   "topic": "Earth and Solar System",
-  "teach": "Earth is part of the solar system.",
-  "examples": [
-    "Earth is part of the solar system.",
-    "The sun is a star at the center.",
-    "Planets move around the sun."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Earth and Solar System",
-      "options": [
-        "Earth and Solar System",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
-      ],
-      "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "readingText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "audioText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earth is part of the solar ____.",
-      "answer": "system",
-      "options": [
-        "system",
-        "Human Body Systems",
-        "together",
-        "food"
-      ],
-      "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "readingText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "audioText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is a star at the ____.",
-      "answer": "center",
-      "options": [
-        "center",
-        "Human Body Systems",
-        "together",
-        "food"
-      ],
-      "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "readingText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "audioText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Planets move around the ____.",
-      "answer": "sun",
-      "options": [
-        "sun",
-        "Human Body Systems",
-        "together",
-        "food"
-      ],
-      "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "readingText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "audioText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon moves around ____.",
+      "prompt": "Earth is part of the solar system.",
       "answer": "Earth",
       "options": [
         "Earth",
-        "Human Body Systems",
-        "together",
-        "food"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "readingText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth.",
-      "audioText": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
+      "audioText": "Earth is part of the solar system.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "The sun is a star at the center.",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "The sun is a star at the center.",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Solar System, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Planets move around the sun.",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Planets move around the sun.",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Solar System, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "The moon moves around Earth.",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "The moon moves around Earth.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Solar System, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Earth is part of the solar system. The sun is a star at the center. Planets move around the sun. The moon moves around Earth."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

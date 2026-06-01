@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 3,
   "topic": "MS Paint Speaking",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Eraser",
-    "Pencil",
-    "Fill Color"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which tool removes mistakes?",
       "answer": "Eraser",
-      "expected": "Eraser",
-      "options": [],
+      "options": [
+        "Eraser",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which tool removes mistakes?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Eraser": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which tool draws lines?",
       "answer": "Pencil",
-      "expected": "Pencil",
-      "options": [],
+      "options": [
+        "Pencil",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which tool draws lines?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Pencil": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which tool fills colors?",
       "answer": "Fill Color",
-      "expected": "Fill Color",
-      "options": [],
+      "options": [
+        "Fill Color",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which tool fills colors?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Fill Color": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which tool draws shapes?",
       "answer": "Shapes",
-      "expected": "Shapes",
-      "options": [],
+      "options": [
+        "Shapes",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which tool draws shapes?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🔷",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Shapes": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which tool paints freely?",
       "answer": "Brush",
-      "expected": "Brush",
-      "options": [],
+      "options": [
+        "Brush",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which tool paints freely?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Brush": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

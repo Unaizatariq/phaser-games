@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 7,
   "topic": "Air Around Us",
-  "teach": "Air is everywhere around us.",
-  "examples": [
-    "Air is everywhere around us.",
-    "We need air to breathe.",
-    "Plants and animals also need air."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Air Around Us",
+      "prompt": "Air is everywhere around us.",
+      "answer": "Air",
       "options": [
-        "Air Around Us",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "readingText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "audioText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      "audioText": "Air is everywhere around us.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Air is everywhere ____ us.",
-      "answer": "around",
+      "prompt": "We need air to breathe.",
+      "answer": "Air",
       "options": [
-        "around",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "readingText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "audioText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      "audioText": "We need air to breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We need air to ____.",
-      "answer": "breathe",
+      "prompt": "Plants and animals also need air.",
+      "answer": "Air",
       "options": [
-        "breathe",
-        "Living and Non-Living Things",
-        "things",
-        "Parts of a Plant"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "readingText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "audioText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      "audioText": "Plants and animals also need air.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants and animals also need ____.",
-      "answer": "air",
+      "prompt": "Clean air keeps us healthy.",
+      "answer": "Air",
       "options": [
-        "air",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "readingText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "audioText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      "audioText": "Clean air keeps us healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean air ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "What is the story mainly about?",
+      "answer": "Air",
       "options": [
-        "keeps",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "readingText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy.",
-      "audioText": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Air Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Air is everywhere around us. We need air to breathe. Plants and animals also need air. Clean air keeps us healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

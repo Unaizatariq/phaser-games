@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Plants",
-  "teach": "Plants are green.",
-  "examples": [
-    "Plants are green.",
-    "Plants need water to grow."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Plants are green. Plants need water to grow.",
       "answer": "Plants",
       "options": [
         "Plants",
-        "My Body",
-        "Animals",
-        "Birds"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green. Plants need water to grow.",
-      "readingText": "Plants are green. Plants need water to grow.",
-      "audioText": "Plants are green. Plants need water to grow."
+      "audioText": "Plants are green. Plants need water to grow.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "Plants are green.",
+        "Plants need water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants are ____.",
-      "answer": "green",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "green",
-        "My Body",
-        "eyes",
-        "hands"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green. Plants need water to grow.",
-      "readingText": "Plants are green. Plants need water to grow.",
-      "audioText": "Plants are green. Plants need water to grow."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants need water to ____.",
-      "answer": "grow",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "grow",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Plants are green. Plants need water to grow.",
-      "readingText": "Plants are green. Plants need water to grow.",
-      "audioText": "Plants are green. Plants need water to grow."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🍎",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "green",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "green",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Plants are green. Plants need water to grow.",
-      "readingText": "Plants are green. Plants need water to grow.",
-      "audioText": "Plants are green. Plants need water to grow."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🧊",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "grow",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "grow",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Plants are green. Plants need water to grow.",
-      "readingText": "Plants are green. Plants need water to grow.",
-      "audioText": "Plants are green. Plants need water to grow."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "💡",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants are green. Plants need water to grow."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

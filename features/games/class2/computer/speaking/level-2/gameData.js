@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 2,
   "topic": "Mouse Actions",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Double Click",
-    "Drag and Drop",
-    "Single Click"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which action opens a file quickly?",
       "answer": "Double Click",
-      "expected": "Double Click",
-      "options": [],
+      "options": [
+        "Double Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which action opens a file quickly?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Double Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which action moves items?",
       "answer": "Drag and Drop",
-      "expected": "Drag and Drop",
-      "options": [],
+      "options": [
+        "Drag and Drop",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which action moves items?",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Drag and Drop": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which action selects an item?",
       "answer": "Single Click",
-      "expected": "Single Click",
-      "options": [],
+      "options": [
+        "Single Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which action selects an item?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Single Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which action opens menu options?",
       "answer": "Right Click",
-      "expected": "Right Click",
-      "options": [],
+      "options": [
+        "Right Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which action opens menu options?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Right Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which action scrolls the page?",
       "answer": "Scroll",
-      "expected": "Scroll",
-      "options": [],
+      "options": [
+        "Scroll",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which action scrolls the page?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Scroll": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

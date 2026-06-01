@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 2,
   "topic": "History of Computers",
-  "teach": "Computers have evolved over many years.",
-  "examples": [
-    "Computers have evolved over many years.",
-    "Early computers were large and expensive.",
-    "Modern computers are smaller and more powerful."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "History of Computers",
+      "prompt": "Computers have evolved over many years.",
+      "answer": "History",
       "options": [
-        "History of Computers",
-        "Computer Systems",
-        "Input and Output Devices",
-        "Storage Devices"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "readingText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "audioText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      "audioText": "Computers have evolved over many years.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers have evolved over many ____.",
-      "answer": "years",
+      "prompt": "Early computers were large and expensive.",
+      "answer": "History",
       "options": [
-        "years",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "readingText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "audioText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      "audioText": "Early computers were large and expensive.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Early computers were large and ____.",
-      "answer": "expensive",
+      "prompt": "Modern computers are smaller and more powerful.",
+      "answer": "History",
       "options": [
-        "expensive",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "readingText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "audioText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      "audioText": "Modern computers are smaller and more powerful.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Modern computers are smaller and more ____.",
-      "answer": "powerful",
+      "prompt": "Technology has improved computer speed and storage.",
+      "answer": "History",
       "options": [
-        "powerful",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "readingText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "audioText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      "audioText": "Technology has improved computer speed and storage.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology has improved computer speed and ____.",
-      "answer": "storage",
+      "prompt": "What is the story mainly about?",
+      "answer": "History",
       "options": [
-        "storage",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "readingText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage.",
-      "audioText": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers have evolved over many years. Early computers were large and expensive. Modern computers are smaller and more powerful. Technology has improved computer speed and storage."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

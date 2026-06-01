@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 1,
   "topic": "الفاظ سے جملے",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "کتاب",
-    "دوست",
-    "محنت"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "لفظ \"کتاب\" سے جملہ بنائیں۔",
       "answer": "کتاب",
-      "expected": "کتاب",
-      "options": [],
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"کتاب\" سے جملہ بنائیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ \"دوست\" سے جملہ بنائیں۔",
       "answer": "دوست",
-      "expected": "دوست",
-      "options": [],
+      "options": [
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"دوست\" سے جملہ بنائیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "👧",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ \"محنت\" سے جملہ بنائیں۔",
       "answer": "محنت",
-      "expected": "محنت",
-      "options": [],
+      "options": [
+        {
+          "text": "محنت",
+          "tts": "محنت"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"محنت\" سے جملہ بنائیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "محنت": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ \"استاد\" سے جملہ بنائیں۔",
       "answer": "استاد",
-      "expected": "استاد",
-      "options": [],
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"استاد\" سے جملہ بنائیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ \"پاکستان\" سے جملہ بنائیں۔",
       "answer": "پاکستان",
-      "expected": "پاکستان",
-      "options": [],
+      "options": [
+        {
+          "text": "پاکستان",
+          "tts": "پاکستان"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"پاکستان\" سے جملہ بنائیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پاکستان": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

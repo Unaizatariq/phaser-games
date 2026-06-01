@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Sentence Correction",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "I am Ali.",
-    "She goes to school.",
-    "We are happy."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Correct sentence: i am ali",
       "answer": "I am Ali.",
-      "expected": "I am Ali.",
-      "options": [],
+      "options": [
+        "I am Ali.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct sentence: i am ali",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I am Ali.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Correct sentence: she go school",
       "answer": "She goes to school.",
-      "expected": "She goes to school.",
-      "options": [],
+      "options": [
+        "She goes to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct sentence: she go school",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "She goes to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Correct sentence: we is happy",
       "answer": "We are happy.",
-      "expected": "We are happy.",
-      "options": [],
+      "options": [
+        "We are happy.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct sentence: we is happy",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "We are happy.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Correct sentence: ali play cricket",
       "answer": "Ali plays cricket.",
-      "expected": "Ali plays cricket.",
-      "options": [],
+      "options": [
+        "Ali plays cricket.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct sentence: ali play cricket",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Ali plays cricket.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Correct sentence: cat are sleeping",
       "answer": "The cat is sleeping.",
-      "expected": "The cat is sleeping.",
-      "options": [],
+      "options": [
+        "The cat is sleeping.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct sentence: cat are sleeping",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "The cat is sleeping.": "🐱",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

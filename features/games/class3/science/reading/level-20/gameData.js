@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 20,
   "topic": "Environment Protection",
-  "teach": "Trees keep the environment clean.",
-  "examples": [
-    "Trees keep the environment clean.",
-    "We should plant more trees.",
-    "Recycling reduces waste."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Environment Protection",
+      "prompt": "Trees keep the environment clean.",
+      "answer": "Environment",
       "options": [
-        "Environment Protection",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "readingText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "audioText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      "audioText": "Trees keep the environment clean.",
+      "art": "🌎",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trees keep the environment ____.",
-      "answer": "clean",
+      "prompt": "We should plant more trees.",
+      "answer": "Environment",
       "options": [
-        "clean",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "readingText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "audioText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      "audioText": "We should plant more trees.",
+      "art": "🌎",
+      "questionText": "According to the story about Environment Protection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should plant more ____.",
-      "answer": "trees",
+      "prompt": "Recycling reduces waste.",
+      "answer": "Environment",
       "options": [
-        "trees",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "readingText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "audioText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      "audioText": "Recycling reduces waste.",
+      "art": "🌎",
+      "questionText": "According to the story about Environment Protection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Recycling reduces ____.",
-      "answer": "waste",
+      "prompt": "Everyone should care for nature.",
+      "answer": "Environment",
       "options": [
-        "waste",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "readingText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "audioText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      "audioText": "Everyone should care for nature.",
+      "art": "🌎",
+      "questionText": "According to the story about Environment Protection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Everyone should care for ____.",
-      "answer": "nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Environment",
       "options": [
-        "nature",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "readingText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature.",
-      "audioText": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+      "audioText": "What is the story mainly about?",
+      "art": "🌎",
+      "questionText": "According to the story about Environment Protection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Trees keep the environment clean. We should plant more trees. Recycling reduces waste. Everyone should care for nature."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Comparing Numbers",
-  "teach": "5 is bigger than 3.",
-  "examples": [
-    "5 is bigger than 3.",
-    "2 is smaller than 4.",
-    "Numbers can be compared."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Comparing Numbers",
+      "prompt": "5 is bigger than 3.",
+      "answer": "Comparing",
       "options": [
-        "Comparing Numbers",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "readingText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "audioText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      "audioText": "5 is bigger than 3.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 5 is bigger ____ 3.",
-      "answer": "than",
+      "prompt": "2 is smaller than 4.",
+      "answer": "Comparing",
       "options": [
-        "than",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "readingText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "audioText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      "audioText": "2 is smaller than 4.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers can be ____.",
-      "answer": "compared",
+      "prompt": "Numbers can be compared.",
+      "answer": "Comparing",
       "options": [
-        "compared",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "readingText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "audioText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      "audioText": "Numbers can be compared.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us understand ____.",
-      "answer": "size",
+      "prompt": "Math helps us understand size.",
+      "answer": "Comparing",
       "options": [
-        "size",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "readingText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "audioText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      "audioText": "Math helps us understand size.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "than",
+      "prompt": "What is the story mainly about?",
+      "answer": "Comparing",
       "options": [
-        "than",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "readingText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size.",
-      "audioText": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "5 is bigger than 3. 2 is smaller than 4. Numbers can be compared. Math helps us understand size."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

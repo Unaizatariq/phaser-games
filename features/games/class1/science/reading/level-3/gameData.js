@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Cleanliness",
-  "teach": "Cleanliness keeps us healthy.",
-  "examples": [
-    "Cleanliness keeps us healthy.",
-    "We should wash our hands daily.",
-    "We should keep our room clean."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Cleanliness keeps us healthy.",
       "answer": "Cleanliness",
       "options": [
         "Cleanliness",
-        "My Body",
-        "Healthy Food",
-        "Animals Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      "audioText": "Cleanliness keeps us healthy.",
+      "art": "🧼",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cleanliness ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "We should wash our hands daily.",
+      "answer": "Cleanliness",
       "options": [
-        "keeps",
-        "My Body",
-        "things",
-        "ears"
+        "Cleanliness",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      "audioText": "We should wash our hands daily.",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should wash our ____ daily.",
-      "answer": "hands",
+      "prompt": "We should keep our room clean.",
+      "answer": "Cleanliness",
       "options": [
-        "hands",
-        "My Body",
-        "things",
-        "ears"
+        "Cleanliness",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      "audioText": "We should keep our room clean.",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep our room ____.",
-      "answer": "clean",
+      "prompt": "Clean places look beautiful.",
+      "answer": "Cleanliness",
       "options": [
-        "clean",
-        "My Body",
-        "things",
-        "ears"
+        "Cleanliness",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      "audioText": "Clean places look beautiful.",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean places look ____.",
-      "answer": "beautiful",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cleanliness",
       "options": [
-        "beautiful",
-        "My Body",
-        "things",
-        "ears"
+        "Cleanliness",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+      "audioText": "What is the story mainly about?",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cleanliness keeps us healthy. We should wash our hands daily. We should keep our room clean. Clean places look beautiful."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

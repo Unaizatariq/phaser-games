@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "Living and Non-Living Things",
-  "teach": "Living things can grow, move, and breathe.",
-  "examples": [
-    "Living things can grow, move, and breathe.",
-    "Humans, animals, and plants are living things.",
-    "Non-living things do not grow or breathe."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Living and Non-Living Things",
+      "prompt": "Living things can grow, move, and breathe.",
+      "answer": "Living",
       "options": [
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats",
-        "Food and Nutrition"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "readingText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "audioText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      "audioText": "Living things can grow, move, and breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Living things can grow, move, and ____.",
-      "answer": "breathe",
+      "prompt": "Humans, animals, and plants are living things.",
+      "answer": "Living",
       "options": [
-        "breathe",
-        "Living and Non-Living Things",
-        "things",
-        "Parts of a Plant"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "readingText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "audioText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      "audioText": "Humans, animals, and plants are living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Humans, animals, and plants are living ____.",
-      "answer": "things",
+      "prompt": "Non-living things do not grow or breathe.",
+      "answer": "Living",
       "options": [
-        "things",
-        "Living and Non-Living Things",
-        "breathe",
-        "Parts of a Plant"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "readingText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "audioText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      "audioText": "Non-living things do not grow or breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "breathe",
+      "prompt": "Tables, chairs, and toys are non-living things.",
+      "answer": "Living",
       "options": [
-        "breathe",
-        "Living and Non-Living Things",
-        "things",
-        "Parts of a Plant"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "readingText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "audioText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      "audioText": "Tables, chairs, and toys are non-living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "things",
+      "prompt": "What is the story mainly about?",
+      "answer": "Living",
       "options": [
-        "things",
-        "Living and Non-Living Things",
-        "breathe",
-        "Parts of a Plant"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "readingText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things.",
-      "audioText": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Living and Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Living things can grow, move, and breathe. Humans, animals, and plants are living things. Non-living things do not grow or breathe. Tables, chairs, and toys are non-living things."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

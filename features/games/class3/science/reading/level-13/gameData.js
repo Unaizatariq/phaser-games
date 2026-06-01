@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 13,
   "topic": "Sound Around Us",
-  "teach": "Sound is made when things vibrate.",
-  "examples": [
-    "Sound is made when things vibrate.",
-    "We hear sound with our ears.",
-    "Some sounds are soft."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Sound Around Us",
+      "prompt": "Sound is made when things vibrate.",
+      "answer": "Sound",
       "options": [
-        "Sound Around Us",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "readingText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "audioText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      "audioText": "Sound is made when things vibrate.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sound is made when things ____.",
-      "answer": "vibrate",
+      "prompt": "We hear sound with our ears.",
+      "answer": "Sound",
       "options": [
-        "vibrate",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "readingText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "audioText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      "audioText": "We hear sound with our ears.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We hear sound with our ____.",
-      "answer": "ears",
+      "prompt": "Some sounds are soft.",
+      "answer": "Sound",
       "options": [
-        "ears",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "readingText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "audioText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      "audioText": "Some sounds are soft.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some sounds are ____.",
-      "answer": "soft",
+      "prompt": "Some sounds are loud.",
+      "answer": "Sound",
       "options": [
-        "soft",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "readingText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "audioText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      "audioText": "Some sounds are loud.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some sounds are ____.",
-      "answer": "loud",
+      "prompt": "What is the story mainly about?",
+      "answer": "Sound",
       "options": [
-        "loud",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "readingText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud.",
-      "audioText": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Sound Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sound is made when things vibrate. We hear sound with our ears. Some sounds are soft. Some sounds are loud."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

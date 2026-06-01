@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 9,
   "topic": "Drawing on Computer",
-  "teach": "We can draw pictures on computers.",
-  "examples": [
-    "We can draw pictures on computers.",
-    "Paint programs help us color drawings.",
-    "Drawing on computers is fun."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Drawing on Computer",
+      "prompt": "We can draw pictures on computers.",
+      "answer": "Drawing",
       "options": [
-        "Drawing on Computer",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "readingText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "audioText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      "audioText": "We can draw pictures on computers.",
+      "art": "📚",
+      "questionText": "According to the story about Drawing on Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can draw pictures on ____.",
-      "answer": "computers",
+      "prompt": "Paint programs help us color drawings.",
+      "answer": "Drawing",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "readingText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "audioText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      "audioText": "Paint programs help us color drawings.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Paint programs help us color ____.",
-      "answer": "drawings",
+      "prompt": "Drawing on computers is fun.",
+      "answer": "Drawing",
       "options": [
-        "drawings",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "readingText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "audioText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      "audioText": "Drawing on computers is fun.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "computers",
+      "prompt": "Children enjoy making art on computers.",
+      "answer": "Drawing",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "readingText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "audioText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      "audioText": "Children enjoy making art on computers.",
+      "art": "📚",
+      "questionText": "According to the story about Drawing on Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "drawings",
+      "prompt": "What is the story mainly about?",
+      "answer": "Drawing",
       "options": [
-        "drawings",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "readingText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers.",
-      "audioText": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Drawing on Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can draw pictures on computers. Paint programs help us color drawings. Drawing on computers is fun. Children enjoy making art on computers."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

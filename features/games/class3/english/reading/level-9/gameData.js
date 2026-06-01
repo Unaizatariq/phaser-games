@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 9,
   "topic": "Healthy Food",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "healthy food"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Healthy food keeps our body strong and active.",
       "answer": "healthy food",
       "options": [
         "healthy food",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "only sweets",
         "cold drinks"
       ],
-      "text": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "audioText": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+      "audioText": "Healthy food keeps our body strong and active.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Fruits, vegetables, milk, eggs, and fish are healthy foods.",
       "answer": "healthy food",
       "options": [
         "healthy food",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "only sweets",
         "cold drinks"
       ],
-      "text": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "audioText": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+      "audioText": "Fruits, vegetables, milk, eggs, and fish are healthy foods.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Junk food is tasty but not good for health.",
       "answer": "healthy food",
       "options": [
         "healthy food",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "only sweets",
         "cold drinks"
       ],
-      "text": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "audioText": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+      "audioText": "Junk food is tasty but not good for health.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "We should drink plenty of water and eat balanced meals every day.",
       "answer": "healthy food",
       "options": [
         "healthy food",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "only sweets",
         "cold drinks"
       ],
-      "text": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "audioText": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+      "audioText": "We should drink plenty of water and eat balanced meals every day.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Healthy habits help us stay fit.",
       "answer": "healthy food",
       "options": [
         "healthy food",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "only sweets",
         "cold drinks"
       ],
-      "text": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit.",
-      "audioText": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+      "audioText": "Healthy habits help us stay fit.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "healthy food",
+      "options": [
+        "healthy food",
+        "junk food",
+        "only sweets",
+        "cold drinks"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy food": "🍎",
+        "junk food": "🔹",
+        "only sweets": "🔹",
+        "cold drinks": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Healthy food keeps our body strong and active. Fruits, vegetables, milk, eggs, and fish are healthy foods. Junk food is tasty but not good for health. We should drink plenty of water and eat balanced meals every day. Healthy habits help us stay fit."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

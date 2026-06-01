@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 18,
   "topic": "Safety and First Aid",
-  "teach": "Safety rules prevent accidents.",
-  "examples": [
-    "Safety rules prevent accidents.",
-    "First aid helps injured people quickly.",
-    "Bandages cover small cuts."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Safety and First Aid",
+      "prompt": "Safety rules prevent accidents.",
+      "answer": "Safety",
       "options": [
-        "Safety and First Aid",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "readingText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "audioText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      "audioText": "Safety rules prevent accidents.",
+      "art": "🔒",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safety rules prevent ____.",
-      "answer": "accidents",
+      "prompt": "First aid helps injured people quickly.",
+      "answer": "Safety",
       "options": [
-        "accidents",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "readingText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "audioText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      "audioText": "First aid helps injured people quickly.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: First aid helps injured ____ quickly.",
-      "answer": "people",
+      "prompt": "Bandages cover small cuts.",
+      "answer": "Safety",
       "options": [
-        "people",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "readingText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "audioText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      "audioText": "Bandages cover small cuts.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bandages cover small ____.",
-      "answer": "cuts",
+      "prompt": "Adults should help during emergencies.",
+      "answer": "Safety",
       "options": [
-        "cuts",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "readingText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "audioText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      "audioText": "Adults should help during emergencies.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Adults should help during ____.",
-      "answer": "emergencies",
+      "prompt": "What is the story mainly about?",
+      "answer": "Safety",
       "options": [
-        "emergencies",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "readingText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies.",
-      "audioText": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+      "audioText": "What is the story mainly about?",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Safety rules prevent accidents. First aid helps injured people quickly. Bandages cover small cuts. Adults should help during emergencies."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

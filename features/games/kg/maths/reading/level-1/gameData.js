@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Counting 1 to 20",
-  "teach": "We can count from 1 to 20.",
-  "examples": [
-    "We can count from 1 to 20.",
-    "Counting helps us in daily life.",
-    "Numbers are important."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Counting 1 to 20",
-      "options": [
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction",
-        "Shapes Around Us"
-      ],
-      "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "readingText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "audioText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can ____ from 1 to 20.",
-      "answer": "count",
-      "options": [
-        "count",
-        "Counting 1 to 20",
-        "Counting",
-        "Numbers"
-      ],
-      "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "readingText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "audioText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ helps us in daily life.",
+      "prompt": "We can count from 1 to 20.",
       "answer": "Counting",
       "options": [
         "Counting",
-        "Counting 1 to 20",
-        "count",
-        "Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "readingText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "audioText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
+      "audioText": "We can count from 1 to 20.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ are important.",
-      "answer": "Numbers",
+      "prompt": "Counting helps us in daily life.",
+      "answer": "Counting",
       "options": [
-        "Numbers",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "readingText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "audioText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
+      "audioText": "Counting helps us in daily life.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves counting ____.",
-      "answer": "skills",
+      "prompt": "Numbers are important.",
+      "answer": "Counting",
       "options": [
-        "skills",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "readingText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills.",
-      "audioText": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
+      "audioText": "Numbers are important.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Practice improves counting skills.",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Practice improves counting skills.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can count from 1 to 20. Counting helps us in daily life. Numbers are important. Practice improves counting skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

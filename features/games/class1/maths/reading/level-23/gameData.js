@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 23,
-  "topic": "Fun with Math",
-  "teach": "Math is everywhere around us.",
-  "examples": [
-    "Math is everywhere around us.",
-    "We use math every day.",
-    "Math helps us count and compare."
-  ],
+  "topic": "Before, After, and Between",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Math",
+      "prompt": "3 comes after 2.",
+      "answer": "Before,",
       "options": [
-        "Fun with Math",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "3 comes after 2.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is everywhere ____ us.",
-      "answer": "around",
+      "prompt": "5 comes before 6.",
+      "answer": "Before,",
       "options": [
-        "around",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "5 comes before 6.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math every ____.",
-      "answer": "day",
+      "prompt": "4 comes between 3 and 5.",
+      "answer": "Before,",
       "options": [
-        "day",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "4 comes between 3 and 5.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us count and ____.",
-      "answer": "compare",
+      "prompt": "Numbers follow an order.",
+      "answer": "Before,",
       "options": [
-        "compare",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "Numbers follow an order.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning ____ can be fun.",
-      "answer": "math",
+      "prompt": "What is the story mainly about?",
+      "answer": "Before,",
       "options": [
-        "math",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 12,
   "topic": "Volume",
-  "teach": "Volume measures space inside a solid object.",
-  "examples": [
-    "Volume measures space inside a solid object.",
-    "Cubes and boxes have volume.",
-    "Volume is measured in cubic units."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Volume measures space inside a solid object.",
       "answer": "Volume",
       "options": [
         "Volume",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "readingText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "audioText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      "audioText": "Volume measures space inside a solid object.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume measures space inside a solid ____.",
-      "answer": "object",
+      "prompt": "Cubes and boxes have volume.",
+      "answer": "Volume",
       "options": [
-        "object",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "readingText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "audioText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      "audioText": "Cubes and boxes have volume.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume is measured in cubic ____.",
-      "answer": "units",
+      "prompt": "Volume is measured in cubic units.",
+      "answer": "Volume",
       "options": [
-        "units",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "readingText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "audioText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      "audioText": "Volume is measured in cubic units.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume helps measure containers and ____.",
-      "answer": "spaces",
+      "prompt": "Volume helps measure containers and spaces.",
+      "answer": "Volume",
       "options": [
-        "spaces",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "readingText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "audioText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      "audioText": "Volume helps measure containers and spaces.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "object",
+      "prompt": "What is the story mainly about?",
+      "answer": "Volume",
       "options": [
-        "object",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "readingText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces.",
-      "audioText": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Volume, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Volume measures space inside a solid object. Cubes and boxes have volume. Volume is measured in cubic units. Volume helps measure containers and spaces."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

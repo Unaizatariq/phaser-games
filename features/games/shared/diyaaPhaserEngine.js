@@ -14,27 +14,6 @@
         speaking: { label: 'SPEAKING', color: 0xd85b00, hex: '#d85b00', icon: 'mic-icon' }
     };
     const theme = MODE_THEME[MODE] || MODE_THEME.reading;
-
-    const URDU_KEYS = ['ا', 'ب', 'پ', 'ت', 'ٹ', 'ث', 'ج', 'چ', 'ح', 'خ', 'د', 'ڈ', 'ذ', 'ر', 'ڑ', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ک', 'گ', 'ل', 'م', 'ن', 'و', 'ہ', 'ء', 'ی', 'ے'];
-    const SPEECH_ALIASES = {
-        eyes: ['eye', 'ice', 'i', 'i s', "i's", 'ayes', 'ise', 'aiz'],
-        eye: ['eyes', 'ice', 'i', 'i s', "i's", 'ayes'],
-        ears: ['ear', 'years', 'here is'],
-        ear: ['ears', 'year'],
-        nose: ['knows', 'noes'],
-        mouth: ['mouse'],
-        hair: ['here', 'hare'],
-        hand: ['and'],
-        eight: ['ate'],
-        two: ['too', 'to'],
-        four: ['for'],
-        one: ['won'],
-        sea: ['see'],
-        see: ['sea'],
-        write: ['right'],
-        right: ['write'],
-        flower: ['flour']
-    };
     const uiKeys = ['bg-menu', 'bg-game', 'panel-background', 'option-card', 'progress-bar-bg', 'progress-bar-fill', 'play-button', 'next-button', 'retry-button', 'home-button', 'star-icon', 'heart-full', 'heart-empty', 'mascot', 'speaker-icon', 'mic-icon', 'pencil-icon', 'book-icon', 'close-icon', 'pause-icon', 'hint-icon'];
     const audioKeys = { right: 'ui/right.mp3', wrong: 'ui/wrong.mp3', complete: 'ui/level-complete.mp3' };
     const subjectAssets = {
@@ -44,41 +23,13 @@
         computer: { prefix: 'assets/computer/', items: ['devices/desktop-computer', 'devices/laptop', 'devices/monitor', 'devices/cpu', 'devices/printer', 'devices/mouse', 'devices/keyboard', 'devices/speakers', 'devices/headphones', 'devices/webcam', 'devices/microphone', 'devices/scanner', 'devices/joystick', 'devices/projector', 'devices/usb-drive', 'devices/hard-drive', 'devices/wifi-router', 'devices/power-button', 'devices/tasks', 'devices/home'] },
         urdu: { prefix: 'assets/urdu/', items: [...Array.from({ length: 40 }, (_, i) => 'alphabet/' + String(i + 1)), 'icons/urdu-book', 'icons/teacher-female', 'icons/teacher-male', 'icons/listen', 'icons/record', 'icons/correct', 'icons/wrong'] }
     };
-    function clean(v) { return String(v || '').toLowerCase().replace(/[؟?.,!۔،؛:;()\[\]{}"'“”‘’]/g, '').replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim(); }
-    function normalizeSpeechText(v) {
-        let s = clean(v)
-            .replace(/\bcolour\b/g, 'color')
-            .replace(/\bgrey\b/g, 'gray')
-            .replace(/\bzero\b/g, '0').replace(/\bone\b/g, '1').replace(/\btwo\b/g, '2').replace(/\bthree\b/g, '3').replace(/\bfour\b/g, '4').replace(/\bfive\b/g, '5')
-            .replace(/\bsix\b/g, '6').replace(/\bseven\b/g, '7').replace(/\beight\b/g, '8').replace(/\bnine\b/g, '9').replace(/\bten\b/g, '10')
-            .replace(/\bmein\b/g, 'میں').replace(/\bmain\b/g, 'میں').replace(/\bhai\b/g, 'ہے').replace(/\bhain\b/g, 'ہیں')
-            .replace(/\baap\b/g, 'آپ').replace(/\bye\b/g, 'یہ').replace(/\byeh\b/g, 'یہ').replace(/\bwoh\b/g, 'وہ')
-            .replace(/\bkitab\b/g, 'کتاب').replace(/\bsaib\b/g, 'سیب').replace(/\baam\b/g, 'آم').replace(/\bkela\b/g, 'کیلا')
-            .replace(/\bbilli\b/g, 'بلی').replace(/\bkutta\b/g, 'کتا').replace(/\bpani\b/g, 'پانی')
-            .replace(/\bi\s*s\b/g, 'eyes')
-            .replace(/\bayes\b/g, 'eyes')
-            .replace(/\bise\b/g, 'eyes')
-            .replace(/\bice\b/g, 'eyes')
-            .replace(/\sk\b/g, ' k')
-            .replace(/\s+/g, ' ').trim();
-        return s;
-    }
+    function clean(v) { return String(v || '').toLowerCase().replace(/[؟?.,!۔،]/g, '').replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim(); }
     function cap(v) { return String(v || '').replace(/[-_]/g, ' ').replace(/\b\w/g, m => m.toUpperCase()); }
     function key(subject, item) { return 'asset_' + subject + '_' + item.replace(/[^a-zA-Z0-9]/g, '_'); }
     function normTokens(v) { return clean(v).split(' ').filter(x => x.length > 1); }
     function editDistance(a, b) { a = clean(a); b = clean(b); const dp = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0)); for (let i = 0; i <= a.length; i++) dp[i][0] = i; for (let j = 0; j <= b.length; j++) dp[0][j] = j; for (let i = 1; i <= a.length; i++) { for (let j = 1; j <= b.length; j++) { dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); } } return dp[a.length][b.length]; }
     function similarity(a, b) { a = clean(a); b = clean(b); if (!a || !b) return 0; if (a === b) return 1; const max = Math.max(a.length, b.length); return (max - editDistance(a, b)) / max; }
-    function exactAnswerText(v) { return normalizeSpeechText(v).replace(/\s+/g, ' ').trim(); }
-    function strictAnswerMatches(answer, expected) {
-        const a = exactAnswerText(answer), e = exactAnswerText(expected);
-        if (!a || !e) return false;
-        if (a === e) return true;
-        const at = a.split(' ').filter(Boolean), et = e.split(' ').filter(Boolean);
-        // Allow exact token coverage for full sentence answers, but never allow misspelled single words.
-        if (et.length > 1 && et.every(t => at.includes(t))) return true;
-        return false;
-    }
-    function flex(a, b) { return strictAnswerMatches(a, b); }
+    function flex(a, b) { a = clean(a); b = clean(b); if (!a || !b) return false; if (a === b) return true; if ((a.length > 3 && b.includes(a)) || (b.length > 3 && a.includes(b))) return true; const at = normTokens(a), bt = normTokens(b); if (bt.length && bt.every(t => at.includes(t))) return true; if (at.length && at.every(t => bt.includes(t)) && a.length <= b.length + 6) return true; return similarity(a, b) >= 0.78; }
     function assetAbs(p) { return BASE_ABS + p; } function assetRel(p) { return BASE_REL + p; }
     function assetMatch(value) {
         const s = clean(value); if (!s) return null;
@@ -93,22 +44,6 @@
         for (const item of subjectAssets.science.items) { const name = item.split('/').pop().replace(/-/g, ' '); if (s.includes(name)) return key('science', item); }
         if (SUBJECT.includes('urdu')) return key('urdu', 'icons/urdu-book');
         return null;
-    }
-    function subjectAlias() { return SUBJECT.includes('math') ? 'math' : (SUBJECT.includes('urdu') ? 'urdu' : SUBJECT.includes('computer') ? 'computer' : SUBJECT.includes('science') ? 'science' : 'english'); }
-    function getListeningDefinition(q) {
-        const direct = q.definition || q.explanation || q.topicDefinition || q.lessonText || q.content || GAME.definition || GAME.explanation;
-        if (direct) return String(direct).replace(/\s+/g, ' ').trim();
-        const topic = String(q.topic || GAME.topic || q.title || q.prompt || '').replace(/[:?؟.].*$/, '').trim();
-        const sub = subjectAlias();
-        if (RTL || sub === 'urdu') return topic ? `${topic} کے بارے میں سنیں، سمجھیں، پھر درست جواب منتخب کریں۔` : 'غور سے سنیں، سمجھیں، پھر درست جواب منتخب کریں۔';
-        if (sub === 'math') return topic ? `${cap(topic)} helps us understand numbers, signs, and simple problem solving.` : 'Listen carefully and use numbers or signs to choose the correct answer.';
-        if (sub === 'science') return topic ? `${cap(topic)} helps us learn about the world around us through observation.` : 'Science helps us observe, understand, and explain things around us.';
-        if (sub === 'computer') return topic ? `${cap(topic)} is part of learning how computers and digital devices work.` : 'Computer learning helps us understand devices, tools, and safe technology use.';
-        if (topic.toLowerCase().includes('verb')) return 'Verb is an action word. It shows what someone or something is doing.';
-        return topic ? `${cap(topic)} helps us read, listen, and choose the correct answer.` : 'Listen carefully, understand the idea, and choose the correct answer.';
-    }
-    function narrationSequence(parts) {
-        return parts.map(v => String(v || '').replace(/\s+/g, ' ').trim()).filter(Boolean).join(' ');
     }
     function textLang() { return RTL ? 'ur-PK' : 'en-PK'; }
     function sanitizeNarrationText(text, lang) {
@@ -234,10 +169,10 @@
         const commaPause = /[،,]$/.test(raw) ? 250 : 0;
         const fullStopPause = /[.!?؟۔]$/.test(raw) ? 450 : 0;
 
-        const min = isUr ? 430 : 330;
-        const max = isUr ? 780 : 620;
-        const base = isUr ? 430 : 330;
-        const perChar = isUr ? 26 : 20;
+        const min = isUr ? 850 : 650;
+        const max = isUr ? 1100 : 850;
+        const base = isUr ? 850 : 650;
+        const perChar = isUr ? 32 : 24;
 
         const wordMs = Math.max(min, Math.min(max, base + len * perChar));
         return wordMs + commaPause + fullStopPause;
@@ -309,7 +244,6 @@
 
                 audio.onloadedmetadata = () => {
                     const dur = Number.isFinite(audio.duration) ? audio.duration * 1000 : 0;
-                    clearProgress();
                     clearProgress = runWordProgress(text, opts, dur);
                 };
 
@@ -320,10 +254,6 @@
 
                 audio.onended = done;
                 window.__diyaaCurrentNarrationAudio = audio;
-
-                if (typeof opts.onWord === 'function') {
-                    clearProgress = runWordProgress(text, opts, 0);
-                }
 
                 const playPromise = audio.play();
                 if (playPromise && typeof playPromise.catch === 'function') playPromise.catch(reject);
@@ -475,10 +405,9 @@
                         }
                     }, 10000);
 
-                    startFallbackProgress();
                     fallbackTimer = setTimeout(
                         () => startFallbackProgress(),
-                        isUr ? 900 : 700
+                        isUr ? 1600 : 1200
                     );
                 };
 
@@ -577,65 +506,29 @@
     }
 
     function speechExpectedList(q) {
-        const items = [];
-        const add = v => {
-            if (!v) return;
-            const raw = String(v).trim();
-            const norm = normalizeSpeechText(raw);
-            [raw, norm].forEach(x => { if (x && !items.includes(x)) items.push(x); });
-            const aliases = SPEECH_ALIASES[norm] || SPEECH_ALIASES[clean(raw)] || [];
-            aliases.forEach(x => { const nx = normalizeSpeechText(x); if (nx && !items.includes(nx)) items.push(nx); });
-            if (hasUrduScript(raw)) {
-                const roman = romanizeUrduForFallback(raw).trim();
-                if (roman && !items.includes(roman)) items.push(roman);
-            }
-        };
+        const items = []; const add = v => { if (v && !items.includes(String(v))) items.push(String(v)); };
         add(q.answer); add(q.expected); add(q.word); add(q.correctAnswer);
         if (Array.isArray(q.acceptedAnswers)) q.acceptedAnswers.forEach(add);
         if (Array.isArray(q.validAnswers)) q.validAnswers.forEach(add);
         return items.filter(Boolean);
     }
-    function phoneticKey(v) {
-        return normalizeSpeechText(v)
-            .replace(/ph/g, 'f').replace(/ght/g, 't').replace(/ck/g, 'k').replace(/qu/g, 'kw')
-            .replace(/x/g, 'ks').replace(/c(?=[eiy])/g, 's').replace(/c/g, 'k')
-            .replace(/[aeiou]/g, '').replace(/(.)\1+/g, '$1');
-    }
     function speechSimilarity(a, b) {
-        a = normalizeSpeechText(a); b = normalizeSpeechText(b); if (!a || !b) return 0; if (a === b) return 1;
+        a = clean(a); b = clean(b); if (!a || !b) return 0; if (a === b) return 1;
         const at = a.split(' ').filter(Boolean), bt = b.split(' ').filter(Boolean);
         const common = at.filter(t => bt.includes(t)).length;
         const tokenScore = common / Math.max(at.length, bt.length, 1);
         return Math.max(similarity(a, b), tokenScore);
     }
-    function isExplicitSpeechAlias(h, e) {
-        const aliases = (SPEECH_ALIASES[e] || []).map(normalizeSpeechText);
-        const hTokens = h.split(' ').filter(Boolean);
-        return aliases.includes(h) || hTokens.some(t => aliases.includes(t));
-    }
-    function isLikelyMisspelledShortWord(h, e) {
-        h = normalizeSpeechText(h); e = normalizeSpeechText(e);
-        if (!h || !e || h === e || e.includes(' ') || h.includes(' ')) return false;
-        // Important strict rule: BOOK != BOK. Do not accept missing/added letters for short typed/spoken words
-        // unless the value is a manually approved speech alias such as eyes/ice.
-        return e.length <= 4 && editDistance(h, e) > 0;
-    }
     function speechMatches(heard, expectedList) {
-        const h = normalizeSpeechText(heard); if (!h) return false;
+        const h = clean(heard); if (!h) return false;
         return expectedList.some(exp => {
-            const e = normalizeSpeechText(exp); if (!e) return false;
+            const e = clean(exp); if (!e) return false;
             if (h === e) return true;
+            if (e.length <= 4 && !e.includes(' ')) return similarity(h, e) >= 0.88;
             const eTokens = e.split(' ').filter(Boolean), hTokens = h.split(' ').filter(Boolean);
-            if (isExplicitSpeechAlias(h, e)) return true;
-            if (eTokens.length === 1 && hTokens.includes(e)) return true;
-            if (isLikelyMisspelledShortWord(h, e)) return false;
-            if (eTokens.length === 1) {
-                const hk = phoneticKey(h), ek = phoneticKey(e);
-                // Longer words may allow close recognition or phonetic similarity; short words stay strict.
-                return hTokens.includes(e) || similarity(h, e) >= 0.88 || (!!hk && hk === ek && e.length >= 5);
-            }
+            if (eTokens.length === 1) return hTokens.includes(e) || similarity(h, e) >= 0.84;
             const covered = eTokens.filter(t => hTokens.includes(t)).length / eTokens.length;
-            return covered >= 0.78 || speechSimilarity(h, e) >= 0.84;
+            return covered >= 0.70 || speechSimilarity(h, e) >= 0.78;
         });
     }
     function bestSpeechMatch(heardList, expectedList) {
@@ -660,18 +553,16 @@
             const uiSet = new Set([...uiKeys, 'mascot-wow', 'mascot-oops', 'pause-button', 'sound-button', 'read-button', 'coin-icon']);
             uiSet.forEach(k => { this.load.image(k, assetAbs('ui/' + k + '.png')); this.load.image(k + '_rel', assetRel('ui/' + k + '.png')); });
             Object.entries(audioKeys).forEach(([k, p]) => { this.load.audio(k, assetAbs(p)); this.load.audio(k + '_rel', assetRel(p)); });
-            const subAlias = subjectAlias();
+            const subAlias = SUBJECT.includes('math') ? 'math' : (SUBJECT.includes('urdu') ? 'urdu' : SUBJECT);
             const needed = new Set();
             const addAssetFromValue = v => { const m = assetMatch(v); if (m) needed.add(m); };
             (GAME.examples || []).forEach(addAssetFromValue);
             (GAME.questions || []).forEach(q => {
-                [q.answer, q.expected, q.word, q.correctAnswer, q.prompt, q.question, q.text, q.passage, q.definition, q.explanation, q.topic].forEach(addAssetFromValue);
+                [q.answer, q.expected, q.word, q.correctAnswer, q.prompt, q.question, q.text, q.passage].forEach(addAssetFromValue);
                 (q.options || []).forEach(addAssetFromValue);
             });
-            // Small always-needed visual set only. This removes the previous heavy preload of entire subject asset folders.
-            ['english/icons/book', 'english/icons/pencil', 'english/icons/speaker', 'english/icons/mic', 'math/shapes/star', 'math/tools/blocks', 'computer/devices/desktop-computer', 'science/science-icons/leaf', 'urdu/icons/urdu-book'].forEach(v => {
-                const [sub, ...rest] = v.split('/'); needed.add(key(sub, rest.join('/')));
-            });
+            const loadSubject = (sub) => { const cfg = subjectAssets[sub]; if (!cfg) return; cfg.items.forEach(item => { const k = key(sub, item); if (needed.has(k) || sub === subAlias) { this.load.image(k, assetAbs(cfg.prefix + item + '.png')); this.load.image(k + '_rel', assetRel(cfg.prefix + item + '.png')); } }); };
+            loadSubject(subAlias);
             ['english', 'math', 'science', 'computer', 'urdu'].forEach(sub => {
                 const cfg = subjectAssets[sub]; if (!cfg) return;
                 cfg.items.forEach(item => { const k = key(sub, item); if (needed.has(k)) { this.load.image(k, assetAbs(cfg.prefix + item + '.png')); this.load.image(k + '_rel', assetRel(cfg.prefix + item + '.png')); } });
@@ -809,43 +700,44 @@
             return arr;
         }
         makeStylishReadButton(x, y, label, cb, ignorePause = false) {
-            const isSound = /sound|listen|play/i.test(String(label));
-            const w = isSound ? 235 : 190, h = isSound ? 62 : 56;
-            const container = this.addDyn(this.add.container(x, y).setDepth(230));
+            const w = 180, h = 54;
+            const container = this.addDyn(this.add.container(x, y).setDepth(21));
 
             const shadow = this.add.graphics();
-            shadow.fillStyle(0x0f172a, .22).fillRoundedRect(-w / 2 + 4, -h / 2 + 6, w, h, 28);
+            shadow.fillStyle(0x0f172a, .2).fillRoundedRect(-w / 2 + 3, -h / 2 + 5, w, h, 27);
             container.add(shadow);
 
             const base = this.add.graphics();
-            const draw = (hover = false) => {
-                base.clear();
-                base.fillGradientStyle(0x22c55e, 0x16a34a, 0x0ea5e9, 0x0284c7, hover ? 1 : .96);
-                base.fillRoundedRect(-w / 2, -h / 2, w, h, 28);
-                base.lineStyle(4, hover ? 0xffffff : 0xbbf7d0, 1).strokeRoundedRect(-w / 2, -h / 2, w, h, 28);
-            };
-            draw(false);
+            base.fillStyle(0x16a34a, 1).fillRoundedRect(-w / 2, -h / 2, w, h, 27);
+            base.lineStyle(4, 0x4ade80, 1).strokeRoundedRect(-w / 2, -h / 2, w, h, 27);
             container.add(base);
 
-            const iconBg = this.add.graphics();
-            iconBg.fillStyle(0xffffff, .22).fillCircle(-w / 2 + 38, 0, 22);
-            container.add(iconBg);
+            const tri = this.add.graphics();
+            tri.fillStyle(0xffffff, 1);
+            tri.beginPath();
+            const tx = -w / 2 + 32, ty = 0;
+            tri.moveTo(tx - 8, ty - 10);
+            tri.lineTo(tx + 10, ty);
+            tri.lineTo(tx - 8, ty + 10);
+            tri.closePath();
+            tri.fillPath();
+            container.add(tri);
 
-            const icon = isSound ? '🔊' : '▶';
-            container.add(this.add.text(-w / 2 + 38, 0, icon, {
-                fontFamily: 'Arial, sans-serif', fontSize: isSound ? 25 : 23, fontStyle: '900', color: '#ffffff'
-            }).setOrigin(.5));
-
-            container.add(this.add.text(isSound ? 20 : 14, 0, label, {
-                fontFamily: textFont(), fontSize: isSound ? 21 : 22, fontStyle: '900', color: '#ffffff', align: 'center'
+            container.add(this.add.text(12, 0, label, {
+                fontFamily: textFont(), fontSize: 22, fontStyle: '900', color: '#ffffff', align: 'center'
             }).setOrigin(.5));
 
             const zone = this.add.zone(0, 0, w, h).setInteractive({ useHandCursor: true }).on('pointerdown', () => {
                 if (ignorePause || !this.isPaused) cb && cb();
             });
-            zone.on('pointerover', () => { draw(true); this.tweens.add({ targets: container, scaleX: 1.045, scaleY: 1.045, duration: 90 }); });
-            zone.on('pointerout', () => { draw(false); this.tweens.add({ targets: container, scaleX: 1, scaleY: 1, duration: 90 }); });
-            zone.on('pointerdown', () => this.tweens.add({ targets: container, scaleX: .98, scaleY: .98, yoyo: true, duration: 65 }));
+
+            zone.on('pointerover', () => {
+                this.tweens.add({ targets: container, scaleX: 1.05, scaleY: 1.05, duration: 100 });
+            });
+            zone.on('pointerout', () => {
+                this.tweens.add({ targets: container, scaleX: 1, scaleY: 1, duration: 100 });
+            });
+
             container.add(zone);
             return [container];
         }
@@ -890,8 +782,8 @@
             return [container];
         }
         showStart() { this.showQuestion(); }
-        sampleChip(x, y, text) { const g = this.addPanel(x - 70, y - 52, 140, 104, 18, 0xffffff, .96, theme.color, 4).setDepth(8); const k = assetMatch(text); const kk = k && this.img(k); if (kk) { const im = this.add.image(x, y - 8, kk).setDisplaySize(82, 82).setDepth(9); this.dynamic.push(im); } const label = this.add.text(x, y + 38, String(text).slice(0, 18), { fontFamily: textFont(), fontSize: 15, fontStyle: '900', color: C.ink, align: 'center', wordWrap: { width: 118 }, rtl: RTL }).setOrigin(.5).setDepth(9); this.dynamic.push(label); return g; }
-        teacherText(q) { const opts = (q.options || []).length ? ' Options are ' + q.options.join(', ') : ''; if (MODE === 'listening') return narrationSequence([getListeningDefinition(q), q.audioText || q.prompt || q.question || 'Listen and choose.', opts]); if (MODE === 'speaking') return (q.audioText || q.prompt || 'Speak the answer') + '. Speak clearly.'; if (MODE === 'writing') return narrationSequence([q.instruction || 'Write the answer.', q.audioText || q.prompt || q.question, opts]); return (q.audioText || q.prompt || 'Read and answer.') + opts; }
+        sampleChip(x, y, text) { const g = this.addPanel(x - 70, y - 52, 140, 104, 18, 0xffffff, .96, theme.color, 4).setDepth(8); const k = assetMatch(text); const kk = k && this.img(k); if (kk) { const im = this.add.image(x, y - 8, kk).setDisplaySize(64, 64).setDepth(9); this.dynamic.push(im); } const label = this.add.text(x, y + 38, String(text).slice(0, 18), { fontFamily: textFont(), fontSize: 15, fontStyle: '900', color: C.ink, align: 'center', wordWrap: { width: 118 }, rtl: RTL }).setOrigin(.5).setDepth(9); this.dynamic.push(label); return g; }
+        teacherText(q) { const opts = (q.options || []).length ? ' Options are ' + q.options.join(', ') : ''; if (MODE === 'listening') return q.audioText || q.prompt || 'Listen and choose.'; if (MODE === 'speaking') return (q.audioText || q.prompt || 'Speak the answer') + '. Speak clearly.'; if (MODE === 'writing') return (q.audioText || q.prompt || 'Write the answer') + '.'; return (q.audioText || q.prompt || 'Read and answer.') + opts; }
         shuffleOptions(opts) { const arr = (opts || []).slice(); for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; }
         readingQuestionText(q, opts) { const prompt = this.cleanText(q.question || q.prompt || 'Choose the correct answer.'); const list = (opts || []).filter(Boolean); if (RTL) return `${prompt} اختیارات ہیں: ${list.join('، ')}`; return `${prompt}. Options are: ${list.join(', ')}.`; }
         showQuestion() {
@@ -931,7 +823,7 @@
             else this.renderReading(q);
 
             this.time.delayedCall(140, () => {
-                if (false && this.soundOn && !this.isPaused && MODE !== 'reading') {
+                if (this.soundOn && !this.isPaused && MODE !== 'reading') {
                     speak(this.teacherText(q), {
                         source: q,
                         index: this.q,
@@ -1115,324 +1007,59 @@
                 this.assetCard(xs[i], ys[i], o, 220, 68, v => this.answer(v, q.answer), badges[i]);
             });
         }
-        makeNarrationBox(x, y, w, h, text, fontSize = 22) {
-            const words = String(text || '').replace(/\s+/g, ' ').trim().split(/\s+/).filter(Boolean);
-            const dir = RTL ? 'rtl' : 'ltr';
-            const safe = t => String(t).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
-            const html = `<div class="diyaa-narration-box" style="width:${w}px;height:${h}px;overflow:hidden;box-sizing:border-box;padding:12px 18px;border-radius:22px;background:transparent;border:0;font-family:${textFont()};font-size:${fontSize}px;line-height:1.45;font-weight:900;color:#173B7A;text-align:${RTL ? 'right' : 'center'};direction:${dir};text-shadow:0 2px 0 rgba(255,255,255,.75);">
-                <div class="diyaa-narration-inner" style="transition:transform 220ms ease;will-change:transform;">
-                    ${words.map((wrd, i) => `<span data-i="${i}" style="display:inline-block;margin:${RTL ? '0 0 0 .15em' : '0 .15em 0 0'};transition:color 90ms linear,font-weight 90ms linear;">${safe(wrd)}</span>`).join(' ')}
-                </div>
-            </div>`;
-            const dom = this.add.dom(x, y).createFromHTML(html).setDepth(8).setOrigin(.5);
-            this.addDyn(dom);
-            const root = dom.node.querySelector('.diyaa-narration-box');
-            const inner = dom.node.querySelector('.diyaa-narration-inner');
-            const spans = [...dom.node.querySelectorAll('span[data-i]')];
-            const highlight = (idx) => {
-                spans.forEach((sp, i) => { sp.style.color = i === idx ? '#22c55e' : '#173B7A'; sp.style.fontWeight = i === idx ? '950' : '900'; });
-                const sp = spans[idx];
-                if (sp && root && inner) {
-                    const max = Math.max(0, inner.scrollHeight - root.clientHeight);
-                    inner.style.transform = `translateY(${-Math.min(max, Math.max(0, sp.offsetTop - 10))}px)`;
-                }
-            };
-            const reset = () => { spans.forEach(sp => { sp.style.color = '#173B7A'; sp.style.fontWeight = '900'; }); if (inner) inner.style.transform = 'translateY(0px)'; };
-            reset();
-            return { text: words.join(' '), highlight, reset };
-        }
-        renderMathVisual(q) {
-            const src = String(q.prompt || q.question || q.audioText || q.answer || '');
-            const expression = src.match(/(\d+)\s*([+\-xX×*÷/%])\s*(\d+)/);
-            const numberOnly = src.match(/\b(\d{1,2})\b/);
-            const y = 330;
-            const drawGroup = (n, x, color = 0xffd23a) => {
-                n = Math.max(1, Math.min(12, Number(n) || 1));
-                for (let i = 0; i < n; i++) {
-                    const gx = x + (i % 6) * 42, gy = y + Math.floor(i / 6) * 42;
-                    const c = this.addDyn(this.add.graphics().setDepth(9));
-                    c.fillStyle(color, 1).fillCircle(gx, gy, 17).lineStyle(4, 0xffffff, 1).strokeCircle(gx, gy, 17).lineStyle(2, 0xf59e0b, 1).strokeCircle(gx, gy, 19);
-                }
-            };
-            if (expression) {
-                const a = Math.min(12, Number(expression[1])), op = expression[2], b = Math.min(12, Number(expression[3]));
-                drawGroup(a, W / 2 - 275, 0xffd23a);
-                this.addDyn(this.add.text(W / 2, y + 20, op, { fontFamily: textFont(), fontSize: 54, fontStyle: '900', color: theme.hex, stroke: '#fff', strokeThickness: 6 }).setOrigin(.5).setDepth(9));
-                drawGroup(b, W / 2 + 100, 0x60a5fa);
-                return true;
-            }
-            if (numberOnly) {
-                const n = Math.min(12, Number(numberOnly[1]));
-                drawGroup(n, W / 2 - Math.min(5, n) * 21, 0xffd23a);
-                return true;
-            }
-            const kk = this.img(key('math', 'tools/blocks')) || this.img(key('math', 'shapes/star'));
-            if (kk) this.addDyn(this.add.image(W / 2, y + 20, kk).setDisplaySize(166, 166).setDepth(9));
-            return true;
-        }
         renderListening(q) {
-            const isMathListen = subjectAlias() === 'math';
-            const definition = isMathListen ? '' : getListeningDefinition(q);
-            const narration = isMathListen
-                ? { text: '', highlight: () => { }, reset: () => { } }
-                : this.makeNarrationBox(W / 2, 286, 760, 120, definition, RTL ? 24 : 22);
-            if (isMathListen) this.renderMathVisual(q);
-            else {
-                const k = assetMatch(q.answer || q.prompt || q.question || q.topic);
-                const kk = k && this.img(k);
-                if (kk) this.addDyn(this.add.image(W / 2, 382, kk).setDisplaySize(154, 154).setDepth(9));
-            }
-            const opts = this.shuffleOptions((q.options && q.options.length ? q.options : [q.answer, 'A', 'B']).slice(0, 4));
-            const fullNarration = narrationSequence([definition, q.audioText || q.prompt || q.question || 'Listen and choose.', (opts.length ? (RTL ? 'اختیارات ہیں ' : 'Options are ') + opts.join(RTL ? '، ' : ', ') : '')]);
             const startListen = () => {
-                narration.reset();
-                stopAllNarration();
                 if (this.soundOn && !this.isPaused) {
-                    speak(fullNarration, { source: q, index: this.q, purpose: 'listening', lang: GAME.lang || textLang(), forceTTS: true, onWord: (i) => { if (!isMathListen && i < narration.text.split(/\s+/).length) narration.highlight(i); } });
+                    speak(this.teacherText(q), {
+                        source: q,
+                        index: this.q,
+                        purpose: 'listening',
+                        lang: GAME.lang || textLang(),
+                        forceTTS: true
+                    });
                 }
             };
-            this.makeStylishReadButton(W / 2, 430, 'PLAY SOUND', startListen).forEach(o => this.addDyn(o));
-            const xs = [W / 2 - 132, W / 2 + 132, W / 2 - 132, W / 2 + 132];
-            const ys = [512, 512, 590, 590];
+
+            this.makeStylishReadButton(W / 2, 405, 'PLAY SOUND', startListen)
+                .forEach(o => this.addDyn(o));
+
+            const opts = this.shuffleOptions((q.options && q.options.length ? q.options : [q.answer, 'A', 'B']).slice(0, 4));
+
+            const xs = [W / 2 - 125, W / 2 + 125, W / 2 - 125, W / 2 + 125];
+            const ys = [500, 500, 575, 575];
             const badges = ['A', 'B', 'C', 'D'];
-            opts.forEach((o, i) => this.assetCard(xs[i], ys[i], o, 236, 72, v => this.answer(v, q.answer), badges[i]));
+
+            opts.forEach((o, i) => {
+                this.assetCard(xs[i], ys[i], o, 220, 68, v => this.answer(v, q.answer), badges[i]);
+            });
         }
         renderWriting(q) {
-            const expected = String(q.answer || q.expected || '').trim();
-            const prompt = String(q.prompt || 'Write the answer.').trim();
-            const isTracing = q.type === 'tracing' || q.writingMode === 'trace';
-            const isUrduWriting = RTL || subjectAlias() === 'urdu' || hasUrduScript(expected + prompt);
-            const visualKey = assetMatch(expected || prompt);
-            const visual = visualKey && this.img(visualKey);
-            if (visual) this.addDyn(this.add.image(W / 2, 250, visual).setDisplaySize(150, 150).setDepth(9));
-            this.makeStylishReadButton(W / 2, 618, 'READ', () => { if (this.soundOn && !this.isPaused) speak(this.teacherText(q), { source: q, index: this.q, purpose: 'writing', lang: GAME.lang || textLang(), forceTTS: true }); }).forEach(o => this.addDyn(o));
+            const expected = String(q.answer || q.expected || '').trim(); const prompt = String(q.prompt || 'Write the answer.').trim(); const isTracing = q.type === 'tracing' || q.writingMode === 'trace';
 
-            if (isTracing || isUrduWriting) {
-                const guide = String(expected || prompt.replace(/^Trace\s+/i, '')).slice(0, 24);
-                const html = `<div style="position:relative;width:540px;height:${isUrduWriting ? 178 : 210}px;overflow:hidden;border-radius:24px;background:rgba(255,255,255,.92);direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};box-shadow:0 8px 18px rgba(15,23,42,.12);border:4px dashed ${theme.hex};box-sizing:border-box;">
-      <div style="position:absolute;top:8px;${RTL ? 'right' : 'left'}:14px;font-size:18px;font-weight:900;color:${theme.hex};z-index:2;">✎ Pencil Practice</div>
-      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:${RTL ? 66 : 78}px;font-weight:900;color:rgba(15,23,42,.10);letter-spacing:1px;-webkit-text-stroke:2px rgba(7,95,196,.25);text-align:center;line-height:1.05;padding:22px;box-sizing:border-box;">${guide.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))}</div>
-      <canvas width="540" height="${isUrduWriting ? 178 : 210}" style="position:absolute;inset:0;touch-action:none;cursor:crosshair;z-index:3;"></canvas>
+            if (isTracing) {
+                const guide = String(expected || prompt.replace(/^Trace\s+/i, '')).slice(0, 18);
+                const html = `<div style="position:relative;width:500px;height:220px;overflow:hidden;border-radius:24px;background:rgba(255,255,255,.9);direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 4px solid ${theme.hex};">
+      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:${RTL ? 80 : 90}px;font-weight:900;color:rgba(15,23,42,.12);letter-spacing:1px;-webkit-text-stroke:2px rgba(7,95,196,.35);text-align:center;line-height:1.05;padding:8px;box-sizing:border-box;">${guide.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))}</div>
+      <canvas width="500" height="220" style="position:absolute;inset:0;touch-action:none;cursor:crosshair;"></canvas>
     </div>`;
-                const traceDom = this.add.dom(W / 2, isUrduWriting ? 342 : 380).createFromHTML(html).setDepth(11).setOrigin(.5); this.addDyn(traceDom);
-                const canvas = traceDom.node.querySelector('canvas'); const ctx = canvas.getContext('2d'); let drawing = false, touched = false; ctx.lineWidth = isUrduWriting ? 11 : 10; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = theme.hex;
+                const traceDom = this.add.dom(W / 2, 380).createFromHTML(html).setDepth(11).setOrigin(.5); this.addDyn(traceDom);
+                const canvas = traceDom.node.querySelector('canvas'); const ctx = canvas.getContext('2d'); let drawing = false, touched = false; ctx.lineWidth = 10; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = theme.hex;
                 const pos = (ev) => { const r = canvas.getBoundingClientRect(); const e = ev.touches && ev.touches[0] ? ev.touches[0] : ev; return { x: (e.clientX - r.left) * (canvas.width / r.width), y: (e.clientY - r.top) * (canvas.height / r.height) }; };
-                const start = (ev) => { ev.preventDefault(); drawing = true; touched = true; const p = pos(ev); ctx.beginPath(); ctx.moveTo(p.x, p.y); };
-                const move = (ev) => { if (!drawing) return; ev.preventDefault(); const p = pos(ev); ctx.lineTo(p.x, p.y); ctx.stroke(); };
-                const end = () => { drawing = false; };
+                const start = (ev) => { ev.preventDefault(); drawing = true; touched = true; const p = pos(ev); ctx.beginPath(); ctx.moveTo(p.x, p.y); }; const move = (ev) => { if (!drawing) return; ev.preventDefault(); const p = pos(ev); ctx.lineTo(p.x, p.y); ctx.stroke(); }; const end = () => { drawing = false; };
                 canvas.addEventListener('pointerdown', start); canvas.addEventListener('pointermove', move); window.addEventListener('pointerup', end, { passive: true }); canvas.addEventListener('touchstart', start, { passive: false }); canvas.addEventListener('touchmove', move, { passive: false }); canvas.addEventListener('touchend', end, { passive: true });
-
-                const input = this.add.dom(W / 2, isUrduWriting ? 462 : 520, 'input', `font-size:${RTL ? 30 : 24}px;padding:10px 16px;border-radius:18px;border:4px solid ${theme.hex};text-align:${RTL ? 'right' : 'center'};outline:none;width:430px;background:white;color:#17324d;font-weight:900;direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};box-shadow:0 4px 6px rgba(0,0,0,.1);`, ''); this.addDyn(input);
-                input.node.placeholder = RTL ? 'اردو حروف یہاں آئیں گے' : 'Type answer to check';
-
-                if (isUrduWriting) {
-                    const safeKey = (k) => String(k).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
-                    const keyboardHtml = `<div style="width:780px;max-width:780px;direction:rtl;font-family:${textFont()};box-sizing:border-box;">
-                        <button data-action="toggle" style="display:block;margin:0 auto 7px auto;width:245px;height:42px;border:0;border-radius:18px;background:linear-gradient(180deg,#38bdf8,#2563eb);color:white;font-size:18px;font-weight:900;box-shadow:0 5px 0 rgba(30,64,175,.35);font-family:${textFont()};cursor:pointer;">اردو Keyboard دکھائیں</button>
-                        <div class="diyaa-urdu-keyboard" data-open="0" style="display:none;width:760px;max-width:760px;min-height:122px;padding:8px 10px;border-radius:22px;background:rgba(255,250,240,.97);border:3px solid ${theme.hex};box-shadow:0 8px 18px rgba(15,23,42,.14);box-sizing:border-box;direction:rtl;font-family:${textFont()};flex-wrap:wrap;gap:5px;align-items:center;justify-content:center;">
-                        ${URDU_KEYS.map(ch => `<button data-key="${safeKey(ch)}" style="width:40px;height:36px;border:0;border-radius:12px;background:#ffffff;color:#173B7A;font-size:25px;font-weight:900;box-shadow:0 3px 0 rgba(15,23,42,.14);font-family:${textFont()};cursor:pointer;line-height:1;">${safeKey(ch)}</button>`).join('')}
-                        <button data-action="space" style="width:96px;height:36px;border:0;border-radius:12px;background:#dbeafe;color:#173B7A;font-size:16px;font-weight:900;box-shadow:0 3px 0 rgba(15,23,42,.14);font-family:${textFont()};cursor:pointer;">Space</button>
-                        <button data-action="backspace" style="width:102px;height:36px;border:0;border-radius:12px;background:#fde68a;color:#173B7A;font-size:17px;font-weight:900;box-shadow:0 3px 0 rgba(15,23,42,.14);font-family:${textFont()};cursor:pointer;">⌫ Back</button>
-                        <button data-action="clear" style="width:92px;height:36px;border:0;border-radius:12px;background:#fed7aa;color:#7c2d12;font-size:16px;font-weight:900;box-shadow:0 3px 0 rgba(15,23,42,.14);font-family:${textFont()};cursor:pointer;">Clear</button>
-                        <button data-action="submit" style="width:102px;height:36px;border:0;border-radius:12px;background:${theme.hex};color:white;font-size:16px;font-weight:900;box-shadow:0 3px 0 rgba(15,23,42,.18);font-family:${textFont()};cursor:pointer;">Submit</button>
-                        </div>
-                    </div>`;
-                    const kb = this.add.dom(W / 2, 555).createFromHTML(keyboardHtml).setDepth(12).setOrigin(.5); this.addDyn(kb);
-                    const kbPanel = kb.node.querySelector('.diyaa-urdu-keyboard');
-                    const toggleBtn = kb.node.querySelector('[data-action="toggle"]');
-                    const setKeyboardOpen = open => {
-                        kbPanel.setAttribute('data-open', open ? '1' : '0');
-                        kbPanel.style.display = open ? 'flex' : 'none';
-                        toggleBtn.textContent = open ? 'اردو Keyboard چھپائیں' : 'اردو Keyboard دکھائیں';
-                    };
-                    setKeyboardOpen(false);
-                    toggleBtn.addEventListener('pointerdown', ev => { ev.preventDefault(); setKeyboardOpen(kbPanel.getAttribute('data-open') !== '1'); });
-                    kb.node.querySelectorAll('button').forEach(btn => {
-                        if (btn === toggleBtn) return;
-                        btn.addEventListener('pointerdown', ev => {
-                            ev.preventDefault();
-                            const key = btn.getAttribute('data-key');
-                            const action = btn.getAttribute('data-action');
-                            if (key) input.node.value = String(input.node.value || '') + key;
-                            if (action === 'space') input.node.value = String(input.node.value || '') + ' ';
-                            if (action === 'backspace') input.node.value = String(input.node.value || '').slice(0, -1);
-                            if (action === 'clear') { input.node.value = ''; ctx.clearRect(0, 0, canvas.width, canvas.height); touched = false; }
-                            if (action === 'submit') {
-                                const typed = String(input.node.value || '').trim();
-                                if (typed) this.answer(typed, expected); else if (touched && expected.length <= 2) this.answer(expected, expected); else this.playFx('wrong');
-                            }
-                        });
-                    });
-                } else {
-                    this.makeStylishButton(W / 2 - 130, 585, 'CLEAR', 0xf97316, () => { ctx.clearRect(0, 0, canvas.width, canvas.height); touched = false; input.node.value = ''; });
-                    this.makeStylishButton(W / 2 + 130, 585, 'CHECK', theme.color, () => {
-                        const typed = String(input.node.value || '').trim();
-                        if (typed) this.answer(typed, expected);
-                        else if (touched && isTracing && expected.length <= 2) this.answer(expected, expected);
-                        else { this.playFx('wrong'); }
-                    });
-                }
+                this.makeBtn(W / 2 - 100, 540, 'CLEAR', () => { ctx.clearRect(0, 0, canvas.width, canvas.height); touched = false; }, 0xf97316, 160, 60, 'retry-button').forEach(o => this.addDyn(o));
+                this.makeBtn(W / 2 + 100, 540, 'DONE', () => { if (touched || expected.length <= 1) this.answer(expected, expected); else { this.playFx('wrong'); } }, theme.color, 160, 60, 'read-button').forEach(o => this.addDyn(o));
             } else {
-                const input = this.add.dom(W / 2, 390, 'input', `font-size:32px;padding:18px;border-radius:20px;border:5px solid ${theme.hex};text-align:center;outline:none;width:400px;background:white;color:#17324d;font-weight:900;direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};box-shadow:0 4px 6px rgba(0,0,0,0.1);`, ''); this.addDyn(input);
-                this.makeStylishButton(W / 2, 510, 'CHECK', theme.color, () => this.answer(input.node.value, expected));
+                const input = this.add.dom(W / 2, 390, 'input', `font-size:32px;padding:18px;border-radius:20px;border:5px solid ${theme.hex};text-align:center;outline:none;width:400px;background:white;color:#17324d;font-weight:900;direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};box-shadow: 0 4px 6px rgba(0,0,0,0.1);`, ''); this.addDyn(input);
+                this.makeBtn(W / 2, 510, 'CHECK', () => this.answer(input.node.value, expected), theme.color, 200, 70, 'read-button').forEach(o => this.addDyn(o));
             }
         }
         renderSpeaking(q) {
             const expected = q.answer || q.expected || '';
-            this.assetCard(W / 2, 318, expected, 390, 112, null);
-            const status = this.addDyn(this.add.text(W / 2, 424, 'Mic ready. Press Speak Now and say the answer.', { fontFamily: textFont(), fontSize: 24, fontStyle: '900', color: C.ink, stroke: '#ffffff', strokeThickness: 4, align: 'center', wordWrap: { width: 720 }, rtl: RTL }).setOrigin(.5).setDepth(9));
-            this.makeStylishButton(W / 2 - 145, 520, 'SPEAK NOW', 0x16a34a, () => this.startSpeech(q, status));
-            this.makeStylishButton(W / 2 + 145, 520, 'REPLAY', theme.color, () => { if (this.soundOn && !this.isPaused) speak(this.teacherText(q), { source: q, index: this.q, purpose: 'speaking', lang: GAME.lang || textLang(), forceTTS: true }); });
-        }
-        requestMicPermission(status) {
-            if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return Promise.resolve(true);
-            status.setText('Requesting microphone permission...');
-            return navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } })
-                .then(stream => { try { stream.getTracks().forEach(t => t.stop()); } catch (e) { } return true; })
-                .catch(() => { status.setText('Microphone blocked. Please allow mic permission and retry.'); this.playFx('wrong'); return false; });
-        }
-        showSpeechTextFallback(q, status) {
-            const expected = speechExpectedList(q)[0] || '';
-            status.setText('Speech recognition is not supported here. Type the spoken answer below.');
-            const input = this.add.dom(W / 2, 590, 'input', `font-size:24px;padding:12px 16px;border-radius:18px;border:4px solid ${theme.hex};text-align:center;outline:none;width:360px;background:white;color:#17324d;font-weight:900;direction:${RTL ? 'rtl' : 'ltr'};font-family:${textFont()};`, '');
-            this.addDyn(input);
-            this.makeStylishButton(W / 2 + 315, 590, 'CHECK', theme.color, () => this.answer(input.node.value, expected));
-        }
-        async startSpeech(q, status) {
-            stopAllNarration();
-            const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-            if (!SR) { this.showSpeechTextFallback(q, status); return; }
-            const permissionOk = await this.requestMicPermission(status);
-            if (!permissionOk) return;
-
-            const expectedList = speechExpectedList(q);
-            const expected = expectedList[0] || '';
-            const isUrduExpected = expectedList.some(x => hasUrduScript(x));
-            const lang = GAME.lang || (isUrduExpected || RTL ? 'ur-PK' : 'en-US');
-            let heardList = [];
-            let heardDetails = [];
-            let gotAnySound = false;
-            let completed = false;
-            let activeRec = null;
-            let stopTimer = null;
-            let noAudioTimer = null;
-            let silenceTimer = null;
-            let attempts = 0;
-
-            const setState = (msg) => status.setText(msg);
-            const uniqueHeard = () => [...new Set(heardList.map(normalizeSpeechText).filter(Boolean))];
-            const shortHeard = () => uniqueHeard().slice(-4).join(' / ');
-            const clearTimers = () => {
-                [stopTimer, noAudioTimer, silenceTimer].forEach(t => { if (t) clearTimeout(t); });
-                stopTimer = noAudioTimer = silenceTimer = null;
-            };
-            const stopActive = () => { try { if (activeRec) activeRec.stop(); } catch (e) { try { if (activeRec) activeRec.abort(); } catch (_) { } } };
-            const finish = (ok, heard, msg) => {
-                if (completed) return;
-                completed = true;
-                clearTimers();
-                stopActive();
-                const shown = heard ? normalizeSpeechText(heard) : shortHeard();
-                setState(msg || (shown ? 'Heard: ' + shown : 'Processing...'));
-                this.time.delayedCall(ok ? 350 : 650, () => this.answer(ok ? expected : (shown || 'wrong answer'), expected));
-            };
-            const evaluate = (allowWrongFinish = false) => {
-                const all = uniqueHeard();
-                if (!all.length) return false;
-                const direct = all.find(h => speechMatches(h, expectedList));
-                if (direct) { finish(true, direct, 'Correct! Heard: ' + direct); return true; }
-                const best = bestSpeechMatch(all, expectedList);
-                if (best.ok) { finish(true, best.heard || all[0], 'Correct! Heard: ' + (best.heard || all[0])); return true; }
-                if (allowWrongFinish) {
-                    const shown = best.heard || all[all.length - 1] || all[0];
-                    finish(false, shown, 'Try Again. Heard: ' + shown);
-                    return true;
-                }
-                return false;
-            };
-            const startRecognitionAttempt = () => {
-                if (completed) return;
-                attempts++;
-                clearTimers();
-                const rec = new SR();
-                activeRec = rec;
-                rec.lang = lang;
-                rec.interimResults = true;
-                rec.continuous = true;
-                rec.maxAlternatives = 12;
-
-                setState(attempts === 1 ? 'Listening... say the answer once.' : 'Listening again... I will show what I hear.');
-                noAudioTimer = setTimeout(() => {
-                    if (!completed && !gotAnySound && !heardList.length) setState('Listening... no voice yet. Speak a little louder.');
-                }, 12000);
-                // Extra-long timeout prevents early cut-off for children, soft voices, and distance from mic.
-                stopTimer = setTimeout(() => {
-                    if (!completed) { setState(heardList.length ? 'Processing... Heard: ' + shortHeard() : 'Processing...'); try { rec.stop(); } catch (e) { } }
-                }, 30000);
-
-                rec.onaudiostart = () => { gotAnySound = true; setState('Listening... audio detected.'); };
-                rec.onsoundstart = () => { gotAnySound = true; setState('Listening... sound detected.'); };
-                rec.onspeechstart = () => { gotAnySound = true; setState('Listening... speech detected.'); };
-                rec.onspeechend = () => {
-                    if (completed) return;
-                    const shown = shortHeard();
-                    setState(shown ? 'Processing... Heard: ' + shown : 'Processing...');
-                    if (silenceTimer) clearTimeout(silenceTimer);
-                    // Wait longer after speech ends because Chrome often delivers final transcripts late.
-                    silenceTimer = setTimeout(() => { if (!completed) { try { rec.stop(); } catch (e) { } } }, 5200);
-                };
-                rec.onresult = e => {
-                    gotAnySound = true;
-                    if (silenceTimer) { clearTimeout(silenceTimer); silenceTimer = null; }
-                    let live = [];
-                    for (let i = e.resultIndex; i < e.results.length; i++) {
-                        const res = e.results[i];
-                        for (let j = 0; j < res.length; j++) {
-                            const alt = res[j];
-                            const t = (alt && alt.transcript || '').trim();
-                            if (!t) continue;
-                            heardList.push(t);
-                            const conf = typeof alt.confidence === 'number' && alt.confidence > 0 ? ' ' + Math.round(alt.confidence * 100) + '%' : '';
-                            heardDetails.push(t + conf);
-                            live.push(t);
-                        }
-                    }
-                    const shown = normalizeSpeechText(live.join(' ')) || shortHeard();
-                    if (shown) setState('Heard: ' + shown + '\nStill listening...');
-                    evaluate(false);
-                };
-                rec.onerror = e => {
-                    if (completed) return;
-                    if (e.error === 'no-speech' || e.error === 'audio-capture') {
-                        // Never fail immediately on no-speech. Keep the session child-friendly and retry after the engine ends.
-                        setState(heardList.length ? 'Processing... Heard: ' + shortHeard() : 'Listening...');
-                        return;
-                    }
-                    clearTimers();
-                    const msg = e.error === 'not-allowed' ? 'Microphone permission blocked. Allow mic and retry.' : 'Mic error: ' + (e.error || 'try again');
-                    setState(msg);
-                    this.playFx('wrong');
-                };
-                rec.onend = () => {
-                    if (completed) return;
-                    clearTimers();
-                    if (evaluate(true)) return;
-                    if (attempts < 3 && !heardList.length) {
-                        setState(gotAnySound ? 'Audio detected, but no word converted yet. Listening again...' : 'No voice detected yet. Listening again...');
-                        this.time.delayedCall(280, startRecognitionAttempt);
-                        return;
-                    }
-                    const shown = shortHeard();
-                    if (shown) {
-                        finish(false, shown, 'Try Again. Heard: ' + shown);
-                    } else {
-                        setState(gotAnySound ? 'Audio detected, but browser could not convert it to text. Press Speak Now and try once more.' : 'No voice detected. Press Speak Now and speak near the mic.');
-                        this.playFx('wrong');
-                    }
-                };
-                try { rec.start(); } catch (e) { setState('Please click Speak Now again and allow mic permission.'); }
-            };
-            startRecognitionAttempt();
+            this.assetCard(W / 2, 330, expected, 360, 110, null);
+            const status = this.addDyn(this.add.text(W / 2, 430, 'Press the mic and speak clearly.', { fontFamily: textFont(), fontSize: 24, fontStyle: '900', color: C.ink, stroke: '#ffffff', strokeThickness: 4, align: 'center', wordWrap: { width: 640 }, rtl: RTL }).setOrigin(.5).setDepth(9));
+            this.makeBtn(W / 2 - 130, 520, 'SPEAK NOW', () => this.startSpeech(q, status), 0x16a34a, 220, 70, 'mic-icon').forEach(o => this.addDyn(o));
+            this.makeBtn(W / 2 + 130, 520, 'REPLAY', () => { if (this.soundOn && !this.isPaused) speak(this.teacherText(q), { source: q, index: this.q, purpose: 'speaking', lang: GAME.lang || textLang() }); }, theme.color, 220, 70, 'sound-button').forEach(o => this.addDyn(o));
         }
         playFx(k) { try { const s = this.snd(k); if (s) this.sound.play(s, { volume: .85 }); } catch (e) { } }
         answer(v, expected) {
@@ -1463,6 +1090,18 @@
                     setTimeout(() => this.gameOver(), 850);
                 }
             }
+        }
+        startSpeech(q, status) {
+            const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SR) { status.setText('Speech recognition needs Chrome/Edge on HTTPS or localhost.'); return; }
+            const expectedList = speechExpectedList(q); const expected = expectedList[0] || ''; const lang = GAME.lang || (RTL ? 'ur-PK' : 'en-PK'); const rec = new SR(); rec.lang = lang; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 8;
+            let heardList = []; let completed = false;
+            const finish = (ok, heard, msg) => { if (completed) return; completed = true; try { rec.abort(); } catch (e) { } status.setText(msg || ('I heard: ' + (heard || ''))); this.answer(ok ? expected : (heard || 'wrong answer'), expected); };
+            status.setText('Listening... speak the answer clearly.');
+            rec.onresult = e => { let live = '', finalTexts = []; for (let i = e.resultIndex; i < e.results.length; i++) { const res = e.results[i]; if (res[0] && res[0].transcript) live += res[0].transcript + ' '; for (let j = 0; j < res.length; j++) { const t = (res[j] && res[j].transcript || '').trim(); if (t) { heardList.push(t); if (res.isFinal) finalTexts.push(t); } } } const current = live.trim(); if (current) status.setText('I heard: ' + current); const all = [...new Set(heardList.map(clean).filter(Boolean))]; if (all.some(h => speechMatches(h, expectedList))) return finish(true, all[0], 'Correct! I heard: ' + all[0]); if (finalTexts.length) { const best = bestSpeechMatch(all, expectedList); return finish(false, best.heard || finalTexts[0], 'Wrong answer. I heard: ' + (best.heard || finalTexts[0])); } };
+            rec.onerror = e => { if (completed) return; const msg = e.error === 'not-allowed' ? 'Microphone permission blocked. Please allow mic and retry.' : (e.error === 'no-speech' ? 'No speech detected. Try again.' : 'Mic error: ' + (e.error || 'try again')); status.setText(msg); this.playFx('wrong'); };
+            rec.onend = () => { if (completed) return; const unique = [...new Set(heardList.map(clean).filter(Boolean))]; if (!unique.length) { status.setText('No clear audio. Try again.'); this.playFx('wrong'); return; } const best = bestSpeechMatch(unique, expectedList); finish(!!best.ok, best.heard || unique[0], best.ok ? ('Correct! I heard: ' + (best.heard || unique[0])) : ('Wrong answer. I heard: ' + (best.heard || unique[0]))); };
+            try { rec.start(); setTimeout(() => { if (!completed) { try { rec.stop(); } catch (e) { } } }, 5200); } catch (e) { status.setText('Please click the mic again and allow permission.'); }
         }
         feedback(ok) {
             this.hideGameplayContent();
@@ -1613,101 +1252,33 @@
                 'panel-background',
                 W / 2,
                 H / 2,
-                620,
-                455,
-                34,
+                430,
+                315,
+                32,
                 0xfff8e8,
                 theme.color
             ).setDepth(201));
 
             const mascotKey = this.img('mascot-wow') || this.img('mascot');
             if (mascotKey) {
-                this.addDyn(this.add.image(W / 2, H / 2 - 138, mascotKey).setDisplaySize(125, 125).setDepth(202));
+                this.addDyn(this.add.image(W / 2, H / 2 - 65, mascotKey).setDisplaySize(135, 135).setDepth(202));
             }
 
-            this.addDyn(this.add.text(W / 2, H / 2 - 64, 'LEVEL COMPLETE', {
+            this.addDyn(this.add.text(W / 2, H / 2 + 35, 'LEVEL COMPLETE', {
                 fontFamily: textFont(),
                 fontSize: 32,
                 fontStyle: '900',
                 color: theme.hex,
                 stroke: '#ffffff',
-                strokeThickness: 6
+                strokeThickness: 5
             }).setOrigin(.5).setDepth(203));
 
-            const total = (GAME.questions || []).length || this.q || 1;
-            const correct = this.score;
-            const wrong = Math.max(0, total - correct);
-            const stars = correct >= total ? 3 : (correct >= Math.ceil(total * .7) ? 2 : 1);
-            const starLine = '★'.repeat(stars) + '☆'.repeat(Math.max(0, 3 - stars));
-
-            const scoreCard = this.add.graphics().setDepth(203);
-            scoreCard.fillStyle(0xffffff, .96).fillRoundedRect(W / 2 - 190, H / 2 - 30, 380, 66, 22);
-            scoreCard.lineStyle(4, theme.color, .95).strokeRoundedRect(W / 2 - 190, H / 2 - 30, 380, 66, 22);
-            this.addDyn(scoreCard);
-
-            this.addDyn(this.add.text(W / 2 - 78, H / 2 + 3, 'FINAL SCORE', {
-                fontFamily: textFont(),
-                fontSize: 18,
-                fontStyle: '900',
-                color: C.mute
-            }).setOrigin(.5).setDepth(204));
-
-            this.addDyn(this.add.text(W / 2 + 96, H / 2 + 3, `${correct}/${total}`, {
-                fontFamily: textFont(),
-                fontSize: 34,
-                fontStyle: '900',
-                color: theme.hex,
-                stroke: '#ffffff',
-                strokeThickness: 4
-            }).setOrigin(.5).setDepth(204));
-
-            this.addDyn(this.add.text(W / 2, H / 2 + 58, starLine, {
-                fontFamily: 'Arial, sans-serif',
-                fontSize: 35,
-                fontStyle: '900',
-                color: '#f59e0b',
-                stroke: '#7c2d12',
-                strokeThickness: 2
-            }).setOrigin(.5).setDepth(204));
-
-            const stats = [
-                ['XP', `${correct * 10}`, 0x2563eb],
-                ['CORRECT', `${correct}`, 0x16a34a],
-                ['WRONG', `${wrong}`, 0xef4444]
-            ];
-
-            stats.forEach((st, i) => {
-                const x = W / 2 - 190 + i * 190;
-                const y = H / 2 + 112;
-
-                const card = this.add.graphics().setDepth(203);
-                card.fillStyle(0xffffff, .95).fillRoundedRect(x - 78, y - 32, 156, 64, 18);
-                card.lineStyle(3, st[2], .9).strokeRoundedRect(x - 78, y - 32, 156, 64, 18);
-                this.addDyn(card);
-
-                this.addDyn(this.add.text(x, y - 11, st[0], {
-                    fontFamily: textFont(),
-                    fontSize: 15,
-                    fontStyle: '900',
-                    color: C.mute,
-                    align: 'center'
-                }).setOrigin(.5).setDepth(204));
-
-                this.addDyn(this.add.text(x, y + 13, st[1], {
-                    fontFamily: textFont(),
-                    fontSize: 24,
-                    fontStyle: '900',
-                    color: '#17324d',
-                    align: 'center'
-                }).setOrigin(.5).setDepth(204));
-            });
-
-            this.makeStylishButton(W / 2 - 110, H / 2 + 185, 'RETRY', 0xf97316, () => {
+            this.makeStylishButton(W / 2 - 85, H / 2 + 105, 'RETRY', 0xf97316, () => {
                 this.resetProgress();
                 this.showQuestion();
             }, true);
 
-            this.makeStylishButton(W / 2 + 110, H / 2 + 185, 'NEXT', 0x16a34a, () => {
+            this.makeStylishButton(W / 2 + 85, H / 2 + 105, 'NEXT', 0x16a34a, () => {
                 try {
                     window.parent.postMessage({
                         type: 'DIYAA_LEVEL_COMPLETE',
@@ -1715,7 +1286,6 @@
                         lives: this.lives
                     }, '*');
                 } catch (e) { }
-
                 if (window.parent === window) this.showQuestion();
             }, true);
         }

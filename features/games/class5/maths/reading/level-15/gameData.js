@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 15,
   "topic": "Money and Budgeting",
-  "teach": "Money is used for buying and selling.",
-  "examples": [
-    "Money is used for buying and selling.",
-    "People save money for future needs.",
-    "Math helps calculate prices and expenses."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Money and Budgeting",
+      "prompt": "Money is used for buying and selling.",
+      "answer": "Money",
       "options": [
-        "Money and Budgeting",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "readingText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "audioText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      "audioText": "Money is used for buying and selling.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used for buying and ____.",
-      "answer": "selling",
+      "prompt": "People save money for future needs.",
+      "answer": "Money",
       "options": [
-        "selling",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "readingText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "audioText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      "audioText": "People save money for future needs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People save money for future ____.",
-      "answer": "needs",
+      "prompt": "Math helps calculate prices and expenses.",
+      "answer": "Money",
       "options": [
-        "needs",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "readingText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "audioText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      "audioText": "Math helps calculate prices and expenses.",
+      "art": "📚",
+      "questionText": "According to the story about Money and Budgeting, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps calculate prices and ____.",
-      "answer": "expenses",
+      "prompt": "Budgeting helps manage money wisely.",
+      "answer": "Money",
       "options": [
-        "expenses",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "readingText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "audioText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      "audioText": "Budgeting helps manage money wisely.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Budgeting helps manage money ____.",
-      "answer": "wisely",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "wisely",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "readingText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely.",
-      "audioText": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money and Budgeting, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used for buying and selling. People save money for future needs. Math helps calculate prices and expenses. Budgeting helps manage money wisely."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

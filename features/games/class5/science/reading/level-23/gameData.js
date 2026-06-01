@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 23,
-  "topic": "Healthy Lifestyle and Exercise",
-  "teach": "Exercise keeps our body healthy and active.",
-  "examples": [
-    "Exercise keeps our body healthy and active.",
-    "Healthy food gives strength and energy.",
-    "Proper sleep helps our body rest."
-  ],
+  "topic": "Plants and Their Functions",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Lifestyle and Exercise",
+      "prompt": "Plants are important for life on Earth.",
+      "answer": "Plants",
       "options": [
-        "Healthy Lifestyle and Exercise",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Plants are important for life on Earth.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise keeps our body healthy and ____.",
-      "answer": "active",
+      "prompt": "Roots absorb water from the soil.",
+      "answer": "Plants",
       "options": [
-        "active",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Roots absorb water from the soil.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food gives strength and ____.",
-      "answer": "energy",
+      "prompt": "Leaves prepare food through photosynthesis.",
+      "answer": "Plants",
       "options": [
-        "energy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Leaves prepare food through photosynthesis.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Proper sleep helps our body ____.",
-      "answer": "rest",
+      "prompt": "Flowers help plants produce seeds.",
+      "answer": "Plants",
       "options": [
-        "rest",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "Flowers help plants produce seeds.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good habits keep us fit and ____.",
-      "answer": "happy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "happy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "readingText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy.",
-      "audioText": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise keeps our body healthy and active. Healthy food gives strength and energy. Proper sleep helps our body rest. Good habits keep us fit and happy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

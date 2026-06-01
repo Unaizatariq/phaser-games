@@ -1,94 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 2,
   "topic": "Device Identification",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Monitor",
-    "Mouse",
-    "Keyboard"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "What device is this?",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "What device is this?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "monitor.png",
-      "requiredAsset": "monitor.png"
+      "art": "🖥️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What device is this?",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "What device is this?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "mouse.png",
-      "requiredAsset": "mouse.png"
+      "art": "🖱️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What device is this?",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "What device is this?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "keyboard.png",
-      "requiredAsset": "keyboard.png"
+      "art": "⌨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What device is this?",
       "answer": "CPU",
-      "expected": "CPU",
-      "options": [],
-      "audioText": "What device is this?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "cpu.png",
-      "requiredAsset": "cpu.png",
-      "acceptedAnswers": [
+      "options": [
         "CPU",
-        "C P U"
-      ]
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "What device is this?",
+      "art": "🧠",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What device is this?",
       "answer": "Computer",
-      "expected": "Computer",
-      "options": [],
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "What device is this?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "computer.png",
-      "requiredAsset": "computer.png"
+      "art": "💻",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Counting Numbers",
-  "teach": "Numbers help us count things.",
-  "examples": [
-    "Numbers help us count things.",
-    "We can count toys, pencils, and books.",
-    "Counting is useful every day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Counting Numbers",
+      "prompt": "Numbers help us count things.",
+      "answer": "Counting",
       "options": [
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between",
-        "Addition"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "readingText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "audioText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      "audioText": "Numbers help us count things.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers help us count ____.",
-      "answer": "things",
+      "prompt": "We can count toys, pencils, and books.",
+      "answer": "Counting",
       "options": [
-        "things",
-        "Counting Numbers",
-        "books",
-        "day"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "readingText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "audioText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      "audioText": "We can count toys, pencils, and books.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can count toys, pencils, and ____.",
-      "answer": "books",
+      "prompt": "Counting is useful every day.",
+      "answer": "Counting",
       "options": [
-        "books",
-        "Counting Numbers",
-        "things",
-        "day"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "readingText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "audioText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      "audioText": "Counting is useful every day.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Counting is useful every ____.",
-      "answer": "day",
+      "prompt": "Practice makes counting easy.",
+      "answer": "Counting",
       "options": [
-        "day",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "readingText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "audioText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      "audioText": "Practice makes counting easy.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice makes counting ____.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
       "options": [
-        "easy",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "readingText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy.",
-      "audioText": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Numbers help us count things. We can count toys, pencils, and books. Counting is useful every day. Practice makes counting easy."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

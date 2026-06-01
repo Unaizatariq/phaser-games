@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 12,
   "topic": "Helping Others",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "helped"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Sara was walking home from school when she saw an old woman carrying heavy bags.",
       "answer": "helped",
       "options": [
         "helped",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "laughed",
         "ran away"
       ],
-      "text": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags.",
+      "art": "📚",
+      "questionText": "According to the story about Helping Others, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "helped": "🔹",
+        "ignored": "🔴",
+        "laughed": "🔹",
+        "ran away": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Sara quickly helped her cross the road safely.",
       "answer": "helped",
       "options": [
         "helped",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "laughed",
         "ran away"
       ],
-      "text": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+      "audioText": "Sara quickly helped her cross the road safely.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "helped": "🔹",
+        "ignored": "🔴",
+        "laughed": "🔹",
+        "ran away": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "The old woman smiled and thanked Sara for her kindness.",
       "answer": "helped",
       "options": [
         "helped",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "laughed",
         "ran away"
       ],
-      "text": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+      "audioText": "The old woman smiled and thanked Sara for her kindness.",
+      "art": "📚",
+      "questionText": "According to the story about Helping Others, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "helped": "🔹",
+        "ignored": "🔴",
+        "laughed": "🔹",
+        "ran away": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Sara felt proud and happy.",
       "answer": "helped",
       "options": [
         "helped",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "laughed",
         "ran away"
       ],
-      "text": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+      "audioText": "Sara felt proud and happy.",
+      "art": "📚",
+      "questionText": "According to the story about Helping Others, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "helped": "🔹",
+        "ignored": "🔴",
+        "laughed": "🔹",
+        "ran away": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "helped",
       "options": [
         "helped",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "laughed",
         "ran away"
       ],
-      "text": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy.",
-      "audioText": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Helping Others, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "helped": "🔹",
+        "ignored": "🔴",
+        "laughed": "🔹",
+        "ran away": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sara was walking home from school when she saw an old woman carrying heavy bags. Sara quickly helped her cross the road safely. The old woman smiled and thanked Sara for her kindness. Sara felt proud and happy."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

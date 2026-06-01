@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 1,
   "topic": "لفظ ٹائپنگ",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "کتاب",
-    "اسکول",
-    "استاد"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "لفظ ٹائپ کریں: کتاب",
       "answer": "کتاب",
-      "expected": "کتاب",
-      "options": [],
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ ٹائپ کریں: کتاب",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ ٹائپ کریں: اسکول",
       "answer": "اسکول",
-      "expected": "اسکول",
-      "options": [],
+      "options": [
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        }
+      ],
       "audioText": "لفظ ٹائپ کریں: اسکول",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🏫",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "اسکول": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "پارک": "🌳",
+        "دوست": "🧒"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ ٹائپ کریں: استاد",
       "answer": "استاد",
-      "expected": "استاد",
-      "options": [],
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ ٹائپ کریں: استاد",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ ٹائپ کریں: قلم",
       "answer": "قلم",
-      "expected": "قلم",
-      "options": [],
+      "options": [
+        {
+          "text": "قلم",
+          "tts": "قلم"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ ٹائپ کریں: قلم",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "قلم": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "لفظ ٹائپ کریں: گھر",
       "answer": "گھر",
-      "expected": "گھر",
-      "options": [],
+      "options": [
+        {
+          "text": "گھر",
+          "tts": "ghar"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ ٹائپ کریں: گھر",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "گھر": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

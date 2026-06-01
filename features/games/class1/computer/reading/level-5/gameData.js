@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 5,
   "topic": "Mouse",
-  "teach": "The mouse helps us move the pointer.",
-  "examples": [
-    "The mouse helps us move the pointer.",
-    "We click the mouse to open things.",
-    "A mouse has buttons."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The mouse helps us move the pointer.",
       "answer": "Mouse",
       "options": [
         "Mouse",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "readingText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "audioText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      "audioText": "The mouse helps us move the pointer.",
+      "art": "🖱️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse helps us move the ____.",
-      "answer": "pointer",
+      "prompt": "We click the mouse to open things.",
+      "answer": "Mouse",
       "options": [
-        "pointer",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "readingText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "audioText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      "audioText": "We click the mouse to open things.",
+      "art": "🖱️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We click the mouse to open ____.",
-      "answer": "things",
+      "prompt": "A mouse has buttons.",
+      "answer": "Mouse",
       "options": [
-        "things",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "readingText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "audioText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      "audioText": "A mouse has buttons.",
+      "art": "🖱️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A mouse has ____.",
-      "answer": "buttons",
+      "prompt": "It makes computer work easy.",
+      "answer": "Mouse",
       "options": [
-        "buttons",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "readingText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "audioText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      "audioText": "It makes computer work easy.",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It makes computer work ____.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Mouse",
       "options": [
-        "easy",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Mouse",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "readingText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy.",
-      "audioText": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+      "audioText": "What is the story mainly about?",
+      "art": "🖱️",
+      "questionText": "According to the story about Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Mouse": "🖱️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The mouse helps us move the pointer. We click the mouse to open things. A mouse has buttons. It makes computer work easy."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

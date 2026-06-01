@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 22,
-  "topic": "Future Technology",
-  "teach": "Technology changes and improves every year.",
-  "examples": [
-    "Technology changes and improves every year.",
-    "Smart devices are becoming more advanced.",
-    "Future computers may work even faster."
-  ],
+  "topic": "History of Computers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Future Technology",
+      "prompt": "Computers have evolved over many years.",
+      "answer": "History",
       "options": [
-        "Future Technology",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Computers have evolved over many years.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology changes and improves every ____.",
-      "answer": "year",
+      "prompt": "Early computers were large and expensive.",
+      "answer": "History",
       "options": [
-        "year",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Early computers were large and expensive.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart devices are becoming more ____.",
-      "answer": "advanced",
+      "prompt": "Modern computers are smaller and more powerful.",
+      "answer": "History",
       "options": [
-        "advanced",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Modern computers are smaller and more powerful.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Future computers may work even ____.",
-      "answer": "faster",
+      "prompt": "Technology has improved computer speed and storage.",
+      "answer": "History",
       "options": [
-        "faster",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Technology has improved computer speed and storage.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology will continue shaping the ____.",
-      "answer": "world",
+      "prompt": "What is the story mainly about?",
+      "answer": "History",
       "options": [
-        "world",
-        "Computer Systems",
-        "software",
-        "parts"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

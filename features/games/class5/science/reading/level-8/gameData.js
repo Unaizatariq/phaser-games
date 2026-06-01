@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Changes in Matter",
-  "teach": "Matter can change from one state to another.",
-  "examples": [
-    "Matter can change from one state to another.",
-    "Ice melts into water.",
-    "Water changes into steam when heated."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Changes in Matter",
+      "prompt": "Matter can change from one state to another.",
+      "answer": "Changes",
       "options": [
-        "Changes in Matter",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Changes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "readingText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "audioText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      "audioText": "Matter can change from one state to another.",
+      "art": "📚",
+      "questionText": "According to the story about Changes in Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Changes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Matter can change from one state to ____.",
-      "answer": "another",
+      "prompt": "Ice melts into water.",
+      "answer": "Changes",
       "options": [
-        "another",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Changes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "readingText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "audioText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      "audioText": "Ice melts into water.",
+      "art": "📚",
+      "questionText": "According to the story about Changes in Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Changes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ice melts into ____.",
-      "answer": "water",
+      "prompt": "Water changes into steam when heated.",
+      "answer": "Changes",
       "options": [
-        "water",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Changes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "readingText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "audioText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      "audioText": "Water changes into steam when heated.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Changes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water changes into steam when ____.",
-      "answer": "heated",
+      "prompt": "Cooling changes steam back into water.",
+      "answer": "Changes",
       "options": [
-        "heated",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Changes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "readingText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "audioText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      "audioText": "Cooling changes steam back into water.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Changes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "another",
+      "prompt": "What is the story mainly about?",
+      "answer": "Changes",
       "options": [
-        "another",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Changes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "readingText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water.",
-      "audioText": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Changes in Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Changes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Matter can change from one state to another. Ice melts into water. Water changes into steam when heated. Cooling changes steam back into water."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

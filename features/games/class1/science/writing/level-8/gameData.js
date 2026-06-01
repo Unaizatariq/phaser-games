@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 8,
-  "topic": "Keeping Surroundings Clean",
-  "teach": "Clean surroundings keep us healthy. We throw trash in bins and keep places neat.",
-  "examples": [
-    "dustbin",
-    "clean room",
-    "healthy"
-  ],
+  "topic": "Body Parts Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Where should we throw trash?",
-      "answer": "dustbin",
-      "options": [],
-      "audioText": "Where should we throw trash?"
+      "prompt": "Type the body part used for seeing",
+      "answer": "eyes",
+      "options": [
+        "eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the body part used for seeing",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Clean surroundings help us stay",
-      "answer": "healthy",
-      "options": [],
-      "audioText": "Write the answer: Clean surroundings help us stay"
+      "prompt": "Type the body part used for hearing",
+      "answer": "ears",
+      "options": [
+        "ears",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the body part used for hearing",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "ears": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should not litter in",
-      "answer": "parks",
-      "options": [],
-      "audioText": "Write the answer: We should not litter in"
+      "prompt": "Type the body part used for walking",
+      "answer": "legs",
+      "options": [
+        "legs",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the body part used for walking",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "legs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Sweeping removes",
-      "answer": "dust",
-      "options": [],
-      "audioText": "Write the answer: Sweeping removes"
+      "prompt": "Type the body part used for smelling",
+      "answer": "nose",
+      "options": [
+        "nose",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the body part used for smelling",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "nose": "👃",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A clean classroom is good for",
-      "answer": "learning",
-      "options": [],
-      "audioText": "Write the answer: A clean classroom is good for"
+      "prompt": "Type the body part used for eating",
+      "answer": "mouth",
+      "options": [
+        "mouth",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the body part used for eating",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "mouth": "👄",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

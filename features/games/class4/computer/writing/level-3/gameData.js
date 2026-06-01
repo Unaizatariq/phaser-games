@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 3,
   "topic": "Programming Logic",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "forward",
-    "left",
-    "right"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type command moving turtle forward",
       "answer": "forward",
-      "expected": "forward",
-      "options": [],
+      "options": [
+        "forward",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type command moving turtle forward",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "forward": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type command turning turtle left",
       "answer": "left",
-      "expected": "left",
-      "options": [],
+      "options": [
+        "left",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type command turning turtle left",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "left": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type command turning turtle right",
       "answer": "right",
-      "expected": "right",
-      "options": [],
+      "options": [
+        "right",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type command turning turtle right",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "right": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type meaning of programming",
       "answer": "giving instructions",
-      "expected": "giving instructions",
-      "options": [],
+      "options": [
+        "giving instructions",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type meaning of programming",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "giving instructions": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type what programming follows",
       "answer": "steps",
-      "expected": "steps",
-      "options": [],
+      "options": [
+        "steps",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type what programming follows",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "steps": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

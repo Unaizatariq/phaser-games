@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "The Sun",
-  "teach": "The sun gives us heat and light.",
-  "examples": [
-    "The sun gives us heat and light.",
-    "Plants need sunlight to grow.",
-    "The sun rises in the morning."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Sun",
+      "prompt": "The sun gives us heat and light.",
+      "answer": "The",
       "options": [
-        "The Sun",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "readingText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "audioText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      "audioText": "The sun gives us heat and light.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun gives us heat and ____.",
-      "answer": "light",
+      "prompt": "Plants need sunlight to grow.",
+      "answer": "The",
       "options": [
-        "light",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "readingText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "audioText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      "audioText": "Plants need sunlight to grow.",
+      "art": "📚",
+      "questionText": "According to the story about The Sun, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants need sunlight to ____.",
-      "answer": "grow",
+      "prompt": "The sun rises in the morning.",
+      "answer": "The",
       "options": [
-        "grow",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "readingText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "audioText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      "audioText": "The sun rises in the morning.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun rises in the ____.",
-      "answer": "morning",
+      "prompt": "It sets in the evening.",
+      "answer": "The",
       "options": [
-        "morning",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "readingText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "audioText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      "audioText": "It sets in the evening.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It sets in the ____.",
-      "answer": "evening",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "evening",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "readingText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening.",
-      "audioText": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sun gives us heat and light. Plants need sunlight to grow. The sun rises in the morning. It sets in the evening."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

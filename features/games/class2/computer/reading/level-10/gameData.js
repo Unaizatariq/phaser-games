@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 10,
   "topic": "Playing Educational Games",
-  "teach": "Educational games help children learn.",
-  "examples": [
-    "Educational games help children learn.",
-    "Some games teach math and spelling.",
-    "Games make learning fun and exciting."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Playing Educational Games",
+      "prompt": "Educational games help children learn.",
+      "answer": "Playing",
       "options": [
-        "Playing Educational Games",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "readingText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "audioText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      "audioText": "Educational games help children learn.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Educational games help ____ learn.",
-      "answer": "children",
+      "prompt": "Some games teach math and spelling.",
+      "answer": "Playing",
       "options": [
-        "children",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "readingText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "audioText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      "audioText": "Some games teach math and spelling.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some games teach math and ____.",
-      "answer": "spelling",
+      "prompt": "Games make learning fun and exciting.",
+      "answer": "Playing",
       "options": [
-        "spelling",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "readingText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "audioText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      "audioText": "Games make learning fun and exciting.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Games make learning fun and ____.",
-      "answer": "exciting",
+      "prompt": "Children should play games for a limited time.",
+      "answer": "Playing",
       "options": [
-        "exciting",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "readingText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "audioText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      "audioText": "Children should play games for a limited time.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children should play games for a limited ____.",
-      "answer": "time",
+      "prompt": "What is the story mainly about?",
+      "answer": "Playing",
       "options": [
-        "time",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "readingText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time.",
-      "audioText": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Playing Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Educational games help children learn. Some games teach math and spelling. Games make learning fun and exciting. Children should play games for a limited time."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

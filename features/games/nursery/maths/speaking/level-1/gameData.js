@@ -1,100 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 1,
   "topic": "Counting 1-50",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "One",
-    "Five",
-    "Ten"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say the number: 1",
       "answer": "One",
-      "expected": "One",
-      "options": [],
-      "audioText": "Say the number: 1",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "One",
-        "1"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 1",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the number: 5",
       "answer": "Five",
-      "expected": "Five",
-      "options": [],
-      "audioText": "Say the number: 5",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Five",
-        "5"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 5",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the number: 10",
       "answer": "Ten",
-      "expected": "Ten",
-      "options": [],
-      "audioText": "Say the number: 10",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Ten",
-        "10"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 10",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Ten": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the number: 25",
       "answer": "Twenty Five",
-      "expected": "Twenty Five",
-      "options": [],
-      "audioText": "Say the number: 25",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Twenty Five",
-        "25"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 25",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Twenty Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the number: 50",
       "answer": "Fifty",
-      "expected": "Fifty",
-      "options": [],
-      "audioText": "Say the number: 50",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Fifty",
-        "50"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say the number: 50",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 20,
   "topic": "Fun with Math",
-  "teach": "Math is everywhere around us.",
-  "examples": [
-    "Math is everywhere around us.",
-    "We use math every day.",
-    "Math helps us count and compare."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Math",
+      "prompt": "Math is everywhere around us.",
+      "answer": "Fun",
       "options": [
-        "Fun with Math",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "Math is everywhere around us.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is everywhere ____ us.",
-      "answer": "around",
+      "prompt": "We use math every day.",
+      "answer": "Fun",
       "options": [
-        "around",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "We use math every day.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math every ____.",
-      "answer": "day",
+      "prompt": "Math helps us count and compare.",
+      "answer": "Fun",
       "options": [
-        "day",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "Math helps us count and compare.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us count and ____.",
-      "answer": "compare",
+      "prompt": "Learning math can be fun.",
+      "answer": "Fun",
       "options": [
-        "compare",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "Learning math can be fun.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning ____ can be fun.",
-      "answer": "math",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fun",
       "options": [
-        "math",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "readingText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun.",
-      "audioText": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math is everywhere around us. We use math every day. Math helps us count and compare. Learning math can be fun."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

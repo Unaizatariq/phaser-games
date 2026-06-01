@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 23,
-  "topic": "Learning with Computers",
-  "teach": "Students learn many things with computers.",
-  "examples": [
-    "Students learn many things with computers.",
-    "Teachers use computers in classrooms.",
-    "Computers help children study better."
-  ],
+  "topic": "Monitor",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Learning with Computers",
+      "prompt": "The monitor looks like a TV screen.",
+      "answer": "Monitor",
       "options": [
-        "Learning with Computers",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "readingText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "audioText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      "audioText": "The monitor looks like a TV screen.",
+      "art": "🖥️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students learn many things with ____.",
-      "answer": "computers",
+      "prompt": "It shows games, pictures, and videos.",
+      "answer": "Monitor",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "readingText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "audioText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      "audioText": "It shows games, pictures, and videos.",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers use computers in ____.",
-      "answer": "classrooms",
+      "prompt": "We can read and watch things on it.",
+      "answer": "Monitor",
       "options": [
-        "classrooms",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "readingText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "audioText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      "audioText": "We can read and watch things on it.",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers help children study ____.",
-      "answer": "better",
+      "prompt": "The monitor is an important computer part.",
+      "answer": "Monitor",
       "options": [
-        "better",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "readingText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "audioText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      "audioText": "The monitor is an important computer part.",
+      "art": "🖥️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning becomes ____ and fun.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Monitor",
       "options": [
-        "easy",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "readingText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun.",
-      "audioText": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+      "audioText": "What is the story mainly about?",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Students learn many things with computers. Teachers use computers in classrooms. Computers help children study better. Learning becomes easy and fun."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

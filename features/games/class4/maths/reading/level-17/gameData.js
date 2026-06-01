@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 17,
   "topic": "Lines and Shapes",
-  "teach": "Straight and curved lines form shapes.",
-  "examples": [
-    "Straight and curved lines form shapes.",
-    "Parallel lines never meet.",
-    "Intersecting lines cross each other."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Lines and Shapes",
+      "prompt": "Straight and curved lines form shapes.",
+      "answer": "Lines",
       "options": [
-        "Lines and Shapes",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "readingText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "audioText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      "audioText": "Straight and curved lines form shapes.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Straight and curved lines form ____.",
-      "answer": "shapes",
+      "prompt": "Parallel lines never meet.",
+      "answer": "Lines",
       "options": [
-        "shapes",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "readingText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "audioText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      "audioText": "Parallel lines never meet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Parallel lines never ____.",
-      "answer": "meet",
+      "prompt": "Intersecting lines cross each other.",
+      "answer": "Lines",
       "options": [
-        "meet",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "readingText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "audioText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      "audioText": "Intersecting lines cross each other.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Intersecting lines cross each ____.",
-      "answer": "other",
+      "prompt": "Lines are important in geometry.",
+      "answer": "Lines",
       "options": [
-        "other",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "readingText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "audioText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      "audioText": "Lines are important in geometry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Lines are important in ____.",
-      "answer": "geometry",
+      "prompt": "What is the story mainly about?",
+      "answer": "Lines",
       "options": [
-        "geometry",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "readingText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry.",
-      "audioText": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Lines and Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Straight and curved lines form shapes. Parallel lines never meet. Intersecting lines cross each other. Lines are important in geometry."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

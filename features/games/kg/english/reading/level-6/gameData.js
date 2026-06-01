@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 6,
   "topic": "Healthy Food",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "healthy"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Fruits and vegetables keep us healthy.",
       "answer": "healthy",
       "options": [
         "healthy",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "sleepy",
         "empty"
       ],
-      "text": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "audioText": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+      "audioText": "Fruits and vegetables keep us healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy": "🍎",
+        "dirty": "🔹",
+        "sleepy": "🔹",
+        "empty": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Milk and eggs help us grow strong.",
       "answer": "healthy",
       "options": [
         "healthy",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "sleepy",
         "empty"
       ],
-      "text": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "audioText": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+      "audioText": "Milk and eggs help us grow strong.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy": "🍎",
+        "dirty": "🔹",
+        "sleepy": "🔹",
+        "empty": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Healthy food gives us energy to play and learn.",
       "answer": "healthy",
       "options": [
         "healthy",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "sleepy",
         "empty"
       ],
-      "text": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "audioText": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+      "audioText": "Healthy food gives us energy to play and learn.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy": "🍎",
+        "dirty": "🔹",
+        "sleepy": "🔹",
+        "empty": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "What is the story mainly about?",
       "answer": "healthy",
       "options": [
         "healthy",
@@ -61,27 +97,58 @@ window.GAME_DATA = {
         "sleepy",
         "empty"
       ],
-      "text": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "audioText": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "healthy": "🍎",
+        "dirty": "🔹",
+        "sleepy": "🔹",
+        "empty": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "healthy",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "healthy",
-        "dirty",
-        "sleepy",
-        "empty"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn.",
-      "audioText": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🏠",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fruits and vegetables keep us healthy. Milk and eggs help us grow strong. Healthy food gives us energy to play and learn."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

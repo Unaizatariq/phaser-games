@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "States of Matter",
-  "teach": "Matter exists in three states.",
-  "examples": [
-    "Matter exists in three states.",
-    "Solids keep their shape.",
-    "Liquids flow easily."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "States of Matter",
+      "prompt": "Matter exists in three states.",
+      "answer": "States",
       "options": [
-        "States of Matter",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "readingText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "audioText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      "audioText": "Matter exists in three states.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Matter exists in three ____.",
-      "answer": "states",
+      "prompt": "Solids keep their shape.",
+      "answer": "States",
       "options": [
-        "states",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "readingText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "audioText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      "audioText": "Solids keep their shape.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Solids keep their ____.",
-      "answer": "shape",
+      "prompt": "Liquids flow easily.",
+      "answer": "States",
       "options": [
-        "shape",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "readingText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "audioText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      "audioText": "Liquids flow easily.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liquids flow ____.",
-      "answer": "easily",
+      "prompt": "Gases spread in the air.",
+      "answer": "States",
       "options": [
-        "easily",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "readingText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "audioText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      "audioText": "Gases spread in the air.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Gases spread in the ____.",
-      "answer": "air",
+      "prompt": "What is the story mainly about?",
+      "answer": "States",
       "options": [
-        "air",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "readingText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air.",
-      "audioText": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Matter exists in three states. Solids keep their shape. Liquids flow easily. Gases spread in the air."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

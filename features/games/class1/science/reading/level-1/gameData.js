@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "My Body",
-  "teach": "My body helps me do many things.",
-  "examples": [
-    "My body helps me do many things.",
-    "I have two eyes and two ears.",
-    "My hands help me write and play."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "My Body",
+      "prompt": "My body helps me do many things.",
+      "answer": "My",
       "options": [
-        "My Body",
-        "Healthy Food",
-        "Cleanliness",
-        "Animals Around Us"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "readingText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      "audioText": "My body helps me do many things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: My body helps me do many ____.",
-      "answer": "things",
+      "prompt": "I have two eyes and two ears.",
+      "answer": "My",
       "options": [
-        "things",
-        "My Body",
-        "ears",
-        "play"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "readingText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      "audioText": "I have two eyes and two ears.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: I have two eyes and two ____.",
-      "answer": "ears",
+      "prompt": "My hands help me write and play.",
+      "answer": "My",
       "options": [
-        "ears",
-        "My Body",
-        "things",
-        "play"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "readingText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      "audioText": "My hands help me write and play.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: My hands help me write and ____.",
-      "answer": "play",
+      "prompt": "My legs help me walk and run.",
+      "answer": "My",
       "options": [
-        "play",
-        "My Body",
-        "things",
-        "ears"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "readingText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      "audioText": "My legs help me walk and run.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: My legs help me walk and ____.",
-      "answer": "run",
+      "prompt": "What is the story mainly about?",
+      "answer": "My",
       "options": [
-        "run",
-        "My Body",
-        "things",
-        "ears"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "readingText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My body helps me do many things. I have two eyes and two ears. My hands help me write and play. My legs help me walk and run."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

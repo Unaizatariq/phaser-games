@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Multiplication",
-  "teach": "Multiplication means repeated addition.",
-  "examples": [
-    "Multiplication means repeated addition.",
-    "2 multiplied by 3 equals 6.",
-    "Multiplication helps us count quickly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Multiplication means repeated addition.",
       "answer": "Multiplication",
       "options": [
         "Multiplication",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "readingText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "audioText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      "audioText": "Multiplication means repeated addition.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication means repeated ____.",
-      "answer": "addition",
+      "prompt": "2 multiplied by 3 equals 6.",
+      "answer": "Multiplication",
       "options": [
-        "addition",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "readingText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "audioText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      "audioText": "2 multiplied by 3 equals 6.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2 multiplied by 3 ____ 6.",
-      "answer": "equals",
+      "prompt": "Multiplication helps us count quickly.",
+      "answer": "Multiplication",
       "options": [
-        "equals",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "readingText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "audioText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      "audioText": "Multiplication helps us count quickly.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication helps us ____ quickly.",
-      "answer": "count",
+      "prompt": "Tables make multiplication easier.",
+      "answer": "Multiplication",
       "options": [
-        "count",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "readingText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "audioText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      "audioText": "Tables make multiplication easier.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tables make multiplication ____.",
-      "answer": "easier",
+      "prompt": "What is the story mainly about?",
+      "answer": "Multiplication",
       "options": [
-        "easier",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "readingText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier.",
-      "audioText": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+      "audioText": "What is the story mainly about?",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Multiplication means repeated addition. 2 multiplied by 3 equals 6. Multiplication helps us count quickly. Tables make multiplication easier."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

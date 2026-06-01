@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 7,
-  "topic": "Prepositions",
-  "teach": "Prepositions helps children read, speak and write clear English sentences.",
-  "examples": [
-    "read",
-    "understand",
-    "use in sentence"
-  ],
+  "topic": "water",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "English grammar",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "English grammar",
-        "maths table",
-        "science lab",
-        "computer wire"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Prepositions is part of"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "clear",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "clear",
-        "random",
-        "broken",
-        "empty"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Good sentences should be"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "write better",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "write better",
-        "count faster",
-        "draw lines only",
-        "wash hands"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "We learn grammar to"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read examples",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "read examples",
-        "skip examples",
-        "guess all",
-        "stop"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Choose the best learning step."
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "sentence meaning",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "sentence meaning",
-        "button color",
-        "screen size",
-        "music"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "A correct answer should match the"
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

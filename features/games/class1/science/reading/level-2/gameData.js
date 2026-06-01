@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Healthy Food",
-  "teach": "Healthy food keeps us strong.",
-  "examples": [
-    "Healthy food keeps us strong.",
-    "Milk and eggs are healthy.",
-    "Fruits and vegetables are good for health."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Food",
+      "prompt": "Healthy food keeps us strong.",
+      "answer": "Healthy",
       "options": [
-        "Healthy Food",
-        "My Body",
-        "Cleanliness",
-        "Animals Around Us"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "readingText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "audioText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      "audioText": "Healthy food keeps us strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food ____ us strong.",
-      "answer": "keeps",
+      "prompt": "Milk and eggs are healthy.",
+      "answer": "Healthy",
       "options": [
-        "keeps",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "readingText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "audioText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      "audioText": "Milk and eggs are healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Milk and ____ are healthy.",
-      "answer": "eggs",
+      "prompt": "Fruits and vegetables are good for health.",
+      "answer": "Healthy",
       "options": [
-        "eggs",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "readingText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "audioText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      "audioText": "Fruits and vegetables are good for health.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fruits and vegetables are good for ____.",
-      "answer": "health",
+      "prompt": "We should eat healthy food every day.",
+      "answer": "Healthy",
       "options": [
-        "health",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "readingText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "audioText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      "audioText": "We should eat healthy food every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should eat healthy food every ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "readingText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day.",
-      "audioText": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Healthy food keeps us strong. Milk and eggs are healthy. Fruits and vegetables are good for health. We should eat healthy food every day."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

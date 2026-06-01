@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 22,
-  "topic": "Technology in Daily Life",
-  "teach": "Technology helps people in many ways.",
-  "examples": [
-    "Technology helps people in many ways.",
-    "Computers and mobile phones make communication easy.",
-    "Machines save time and effort."
-  ],
+  "topic": "Nutrition and Balanced Diet",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology in Daily Life",
+      "prompt": "A balanced diet keeps us healthy and active.",
+      "answer": "Nutrition",
       "options": [
-        "Technology in Daily Life",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "A balanced diet keeps us healthy and active.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps people in many ____.",
-      "answer": "ways",
+      "prompt": "Fruits and vegetables provide vitamins.",
+      "answer": "Nutrition",
       "options": [
-        "ways",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Fruits and vegetables provide vitamins.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers and mobile phones make communication ____.",
-      "answer": "easy",
+      "prompt": "Proteins help our body grow strong.",
+      "answer": "Nutrition",
       "options": [
-        "easy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Proteins help our body grow strong.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Machines save time and ____.",
-      "answer": "effort",
+      "prompt": "We should avoid eating too much junk food.",
+      "answer": "Nutrition",
       "options": [
-        "effort",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "We should avoid eating too much junk food.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology should be used ____.",
-      "answer": "wisely",
+      "prompt": "What is the story mainly about?",
+      "answer": "Nutrition",
       "options": [
-        "wisely",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

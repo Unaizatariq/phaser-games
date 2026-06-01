@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 13,
-  "topic": "Basic Debugging",
-  "teach": "Basic Debugging is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Basic Debugging",
-    "example",
-    "practice"
-  ],
+  "topic": "MS Word and Excel",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Basic Debugging",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Which software is used for documents?",
+      "answer": "MS Word",
+      "options": [
+        "MS Word",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which software is used for documents?",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "MS Word": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Which software uses formulas?",
+      "answer": "MS Excel",
+      "options": [
+        "MS Excel",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which software uses formulas?",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "MS Excel": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Which formula adds numbers?",
+      "answer": "SUM",
+      "options": [
+        "SUM",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which formula adds numbers?",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "SUM": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Which formula finds average?",
+      "answer": "AVERAGE",
+      "options": [
+        "AVERAGE",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which formula finds average?",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "AVERAGE": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Which software creates slides?",
+      "answer": "PowerPoint",
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which software creates slides?",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

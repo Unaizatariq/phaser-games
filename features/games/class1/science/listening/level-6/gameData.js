@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 6,
-  "topic": "Plants Need Water",
-  "teach": "Plants need water, sunlight, air and soil to grow healthy.",
-  "examples": [
-    "water",
-    "sunlight",
-    "soil"
-  ],
+  "topic": "water",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "grow",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "grow",
-        "run",
-        "read",
-        "fly"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Plants need water to"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "dry",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "dry",
-        "sing",
-        "jump",
-        "type"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Without water, a plant may"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "food",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "food",
-        "shoes",
-        "books",
-        "noise"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Sunlight helps plants make"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "regularly",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "regularly",
-        "never",
-        "with ink",
-        "with oil"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "We should water plants"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "support",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "support",
-        "music",
-        "numbers",
-        "screen"
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
       ],
-      "audioText": "Soil holds the plant and gives"
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

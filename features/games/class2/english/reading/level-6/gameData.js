@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 6,
   "topic": "My Favorite Game",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "football"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My favorite game is football.",
       "answer": "football",
       "options": [
         "football",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "ludo",
         "hockey"
       ],
-      "text": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "audioText": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+      "audioText": "My favorite game is football.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "football": "⚽",
+        "cricket": "🔹",
+        "ludo": "🔹",
+        "hockey": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I play football with my friends in the playground every evening.",
       "answer": "football",
       "options": [
         "football",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "ludo",
         "hockey"
       ],
-      "text": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "audioText": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+      "audioText": "I play football with my friends in the playground every evening.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "football": "⚽",
+        "cricket": "🔹",
+        "ludo": "🔹",
+        "hockey": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Running and kicking the ball makes me active and strong.",
       "answer": "football",
       "options": [
         "football",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "ludo",
         "hockey"
       ],
-      "text": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "audioText": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+      "audioText": "Running and kicking the ball makes me active and strong.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Game, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "football": "⚽",
+        "cricket": "🔹",
+        "ludo": "🔹",
+        "hockey": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Our team works together to win matches.",
       "answer": "football",
       "options": [
         "football",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "ludo",
         "hockey"
       ],
-      "text": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "audioText": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+      "audioText": "Our team works together to win matches.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Game, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "football": "⚽",
+        "cricket": "🔹",
+        "ludo": "🔹",
+        "hockey": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "football",
       "options": [
         "football",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "ludo",
         "hockey"
       ],
-      "text": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches.",
-      "audioText": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Game, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "football": "⚽",
+        "cricket": "🔹",
+        "ludo": "🔹",
+        "hockey": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My favorite game is football. I play football with my friends in the playground every evening. Running and kicking the ball makes me active and strong. Our team works together to win matches."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

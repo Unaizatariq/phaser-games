@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 21,
-  "topic": "Lions live in dens.",
-  "teach": "Dogs live in kennels.",
-  "examples": [
-    "Dogs live in kennels."
-  ],
+  "topic": "Living Things",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Lions live in dens.",
+      "prompt": "Living things can grow and move.",
+      "answer": "Living",
       "options": [
-        "Lions live in dens.",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Dogs live in kennels.",
-      "readingText": "Dogs live in kennels.",
-      "audioText": "Dogs live in kennels."
+      "audioText": "Living things can grow and move.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Dogs live in ____.",
-      "answer": "kennels",
+      "prompt": "Humans, animals, and plants are living things.",
+      "answer": "Living",
       "options": [
-        "kennels",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Dogs live in kennels.",
-      "readingText": "Dogs live in kennels.",
-      "audioText": "Dogs live in kennels."
+      "audioText": "Humans, animals, and plants are living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "kennels",
+      "prompt": "Living things need food and water.",
+      "answer": "Living",
       "options": [
-        "kennels",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Dogs live in kennels.",
-      "readingText": "Dogs live in kennels.",
-      "audioText": "Dogs live in kennels."
+      "audioText": "Living things need food and water.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "kennels",
+      "prompt": "Living things can breathe.",
+      "answer": "Living",
       "options": [
-        "kennels",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Dogs live in kennels.",
-      "readingText": "Dogs live in kennels.",
-      "audioText": "Dogs live in kennels."
+      "audioText": "Living things can breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "kennels",
+      "prompt": "What is the story mainly about?",
+      "answer": "Living",
       "options": [
-        "kennels",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Dogs live in kennels.",
-      "readingText": "Dogs live in kennels.",
-      "audioText": "Dogs live in kennels."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Dogs live in kennels."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

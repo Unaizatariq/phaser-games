@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 22,
-  "topic": "Day and Night",
-  "teach": "Day starts when the sun rises.",
-  "examples": [
-    "Day starts when the sun rises.",
-    "Night begins after sunset.",
-    "We work and play during the day."
-  ],
+  "topic": "Non-Living Things",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Day and Night",
+      "prompt": "Tables and chairs are non-living things.",
+      "answer": "Non-Living",
       "options": [
-        "Day and Night",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "Tables and chairs are non-living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Day starts when the sun ____.",
-      "answer": "rises",
+      "prompt": "Non-living things do not grow.",
+      "answer": "Non-Living",
       "options": [
-        "rises",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "Non-living things do not grow.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Night begins after ____.",
-      "answer": "sunset",
+      "prompt": "They do not need food or water.",
+      "answer": "Non-Living",
       "options": [
-        "sunset",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "They do not need food or water.",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We work and play during the ____.",
-      "answer": "day",
+      "prompt": "They cannot move by themselves.",
+      "answer": "Non-Living",
       "options": [
-        "day",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "They cannot move by themselves.",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We sleep at ____.",
-      "answer": "night",
+      "prompt": "What is the story mainly about?",
+      "answer": "Non-Living",
       "options": [
-        "night",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

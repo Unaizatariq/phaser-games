@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 23,
   "topic": "Our Home",
-  "teach": "Our home keeps us safe.",
-  "examples": [
-    "Our home keeps us safe.",
-    "We live with our family at home.",
-    "We should keep our home clean."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Our Home",
+      "prompt": "Our home keeps us safe.",
+      "answer": "Our",
       "options": [
-        "Our Home",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
-      ],
-      "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "readingText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "audioText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our home keeps us ____.",
-      "answer": "safe",
-      "options": [
-        "safe",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "readingText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "audioText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We live with our family at ____.",
-      "answer": "home",
-      "options": [
+        "Our",
+        "school",
         "home",
-        "My Body",
-        "things",
-        "ears"
+        "book"
       ],
-      "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "readingText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "audioText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
+      "audioText": "Our home keeps us safe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep our home ____.",
-      "answer": "clean",
+      "prompt": "We live with our family at home.",
+      "answer": "Our",
       "options": [
-        "clean",
-        "My Body",
-        "things",
-        "ears"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "readingText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "audioText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
+      "audioText": "We live with our family at home.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Home is a happy ____.",
-      "answer": "place",
+      "prompt": "We should keep our home clean.",
+      "answer": "Our",
       "options": [
-        "place",
-        "My Body",
-        "things",
-        "ears"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "readingText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place.",
-      "audioText": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
+      "audioText": "We should keep our home clean.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Home is a happy place.",
+      "answer": "Our",
+      "options": [
+        "Our",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Home is a happy place.",
+      "art": "📚",
+      "questionText": "According to the story about Our Home, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Our",
+      "options": [
+        "Our",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Our Home, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our home keeps us safe. We live with our family at home. We should keep our home clean. Home is a happy place."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

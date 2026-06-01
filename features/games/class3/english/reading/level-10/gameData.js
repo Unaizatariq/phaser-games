@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 10,
   "topic": "My City",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "city"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I live in a beautiful city.",
       "answer": "city",
       "options": [
         "city",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "forest",
         "desert"
       ],
-      "text": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "audioText": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+      "audioText": "I live in a beautiful city.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "There are schools, parks, markets, and hospitals in my city.",
       "answer": "city",
       "options": [
         "city",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "forest",
         "desert"
       ],
-      "text": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "audioText": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+      "audioText": "There are schools, parks, markets, and hospitals in my city.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "People travel by buses, cars, and motorcycles on busy roads.",
       "answer": "city",
       "options": [
         "city",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "forest",
         "desert"
       ],
-      "text": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "audioText": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+      "audioText": "People travel by buses, cars, and motorcycles on busy roads.",
+      "art": "📚",
+      "questionText": "According to the story about My City, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "At night, the streets look bright with colorful lights.",
       "answer": "city",
       "options": [
         "city",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "forest",
         "desert"
       ],
-      "text": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "audioText": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+      "audioText": "At night, the streets look bright with colorful lights.",
+      "art": "📚",
+      "questionText": "According to the story about My City, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "I love my city very much.",
       "answer": "city",
       "options": [
         "city",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "forest",
         "desert"
       ],
-      "text": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much.",
-      "audioText": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+      "audioText": "I love my city very much.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "city",
+      "options": [
+        "city",
+        "village",
+        "forest",
+        "desert"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My City, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "city": "🔹",
+        "village": "🔹",
+        "forest": "🔹",
+        "desert": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I live in a beautiful city. There are schools, parks, markets, and hospitals in my city. People travel by buses, cars, and motorcycles on busy roads. At night, the streets look bright with colorful lights. I love my city very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

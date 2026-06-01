@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
-  "topic": "S for Sun / T for Tiger / U for Umbrella",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "sun",
-    "tiger",
-    "umbrella"
-  ],
+  "topic": "G for Goat",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "sun",
+      "prompt": "G is for goat.",
+      "answer": "goat",
       "options": [
-        "sun",
-        "watch",
-        "umbrella",
-        "van"
+        "goat",
+        "hen",
+        "lion",
+        "rabbit"
       ],
-      "text": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "audioText": "S is for sun. The sun shines brightly. It gives us light and heat."
+      "audioText": "G is for goat.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "goat": "🐐",
+        "hen": "🔹",
+        "lion": "🔹",
+        "rabbit": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "sun",
+      "prompt": "The goat eats green grass.",
+      "answer": "goat",
       "options": [
-        "sun",
-        "watch",
-        "umbrella",
-        "van"
+        "goat",
+        "hen",
+        "lion",
+        "rabbit"
       ],
-      "text": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "audioText": "S is for sun. The sun shines brightly. It gives us light and heat."
+      "audioText": "The goat eats green grass.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "goat": "🐐",
+        "hen": "🔹",
+        "lion": "🔹",
+        "rabbit": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "sun",
+      "prompt": "It lives on a farm.",
+      "answer": "goat",
       "options": [
-        "sun",
-        "watch",
-        "umbrella",
-        "van"
+        "goat",
+        "hen",
+        "lion",
+        "rabbit"
       ],
-      "text": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "audioText": "S is for sun. The sun shines brightly. It gives us light and heat."
+      "audioText": "It lives on a farm.",
+      "art": "📚",
+      "questionText": "According to the story about G for Goat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "goat": "🐐",
+        "hen": "🔹",
+        "lion": "🔹",
+        "rabbit": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "sun",
+      "prompt": "What is the story mainly about?",
+      "answer": "goat",
       "options": [
-        "sun",
-        "watch",
-        "umbrella",
-        "van"
+        "goat",
+        "hen",
+        "lion",
+        "rabbit"
       ],
-      "text": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "audioText": "S is for sun. The sun shines brightly. It gives us light and heat."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about G for Goat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "goat": "🐐",
+        "hen": "🔹",
+        "lion": "🔹",
+        "rabbit": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "sun",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "sun",
-        "watch",
-        "umbrella",
-        "van"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "passage": "S is for sun. The sun shines brightly. It gives us light and heat.",
-      "audioText": "S is for sun. The sun shines brightly. It gives us light and heat."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "tiger",
-      "options": [
-        "tiger",
-        "zebra",
-        "rabbit",
-        "cat"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🏫",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "audioText": "T is for tiger. The tiger has black stripes. It is a wild animal."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "tiger",
-      "options": [
-        "tiger",
-        "zebra",
-        "rabbit",
-        "cat"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "audioText": "T is for tiger. The tiger has black stripes. It is a wild animal."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "tiger",
-      "options": [
-        "tiger",
-        "zebra",
-        "rabbit",
-        "cat"
-      ],
-      "text": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "audioText": "T is for tiger. The tiger has black stripes. It is a wild animal."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "tiger",
-      "options": [
-        "tiger",
-        "zebra",
-        "rabbit",
-        "cat"
-      ],
-      "text": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "audioText": "T is for tiger. The tiger has black stripes. It is a wild animal."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "tiger",
-      "options": [
-        "tiger",
-        "zebra",
-        "rabbit",
-        "cat"
-      ],
-      "text": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "passage": "T is for tiger. The tiger has black stripes. It is a wild animal.",
-      "audioText": "T is for tiger. The tiger has black stripes. It is a wild animal."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "umbrella",
-      "options": [
-        "umbrella",
-        "van",
-        "watch",
-        "kite"
-      ],
-      "text": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "audioText": "U is for umbrella. The umbrella protects us from rain. It is colorful."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "umbrella",
-      "options": [
-        "umbrella",
-        "van",
-        "watch",
-        "kite"
-      ],
-      "text": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "audioText": "U is for umbrella. The umbrella protects us from rain. It is colorful."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "umbrella",
-      "options": [
-        "umbrella",
-        "van",
-        "watch",
-        "kite"
-      ],
-      "text": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "audioText": "U is for umbrella. The umbrella protects us from rain. It is colorful."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "umbrella",
-      "options": [
-        "umbrella",
-        "van",
-        "watch",
-        "kite"
-      ],
-      "text": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "audioText": "U is for umbrella. The umbrella protects us from rain. It is colorful."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "umbrella",
-      "options": [
-        "umbrella",
-        "van",
-        "watch",
-        "kite"
-      ],
-      "text": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "passage": "U is for umbrella. The umbrella protects us from rain. It is colorful.",
-      "audioText": "U is for umbrella. The umbrella protects us from rain. It is colorful."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "S is for sun. The sun shines brightly. It gives us light and heat. T is for tiger. The tiger has black stripes. It is a wild animal. U is for umbrella. The umbrella protects us from rain. It is colorful."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

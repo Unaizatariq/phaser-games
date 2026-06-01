@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 7,
   "topic": "Time",
-  "teach": "A clock shows time.",
-  "examples": [
-    "A clock shows time.",
-    "Morning comes before evening.",
-    "We go to school in the morning."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "A clock shows time.",
       "answer": "Time",
       "options": [
         "Time",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "readingText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "audioText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      "audioText": "A clock shows time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Morning comes before ____.",
-      "answer": "evening",
+      "prompt": "Morning comes before evening.",
+      "answer": "Time",
       "options": [
-        "evening",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "readingText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "audioText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      "audioText": "Morning comes before evening.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We go to school in the ____.",
-      "answer": "morning",
+      "prompt": "We go to school in the morning.",
+      "answer": "Time",
       "options": [
-        "morning",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "readingText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "audioText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      "audioText": "We go to school in the morning.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "time",
+      "prompt": "Time is important.",
+      "answer": "Time",
       "options": [
-        "time",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "readingText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "audioText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      "audioText": "Time is important.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "evening",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "evening",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "readingText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important.",
-      "audioText": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A clock shows time. Morning comes before evening. We go to school in the morning. Time is important."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

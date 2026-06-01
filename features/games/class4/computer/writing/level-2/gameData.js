@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 2,
   "topic": "Windows Basics",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "desktop",
-    "taskbar",
-    "icon"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type the main screen name",
       "answer": "desktop",
-      "expected": "desktop",
-      "options": [],
+      "options": [
+        "desktop",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type the main screen name",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "desktop": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the bar at bottom of screen",
       "answer": "taskbar",
-      "expected": "taskbar",
-      "options": [],
+      "options": [
+        "taskbar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type the bar at bottom of screen",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "taskbar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type small picture opening apps",
       "answer": "icon",
-      "expected": "icon",
-      "options": [],
+      "options": [
+        "icon",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type small picture opening apps",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "icon": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type place storing files",
       "answer": "folder",
-      "expected": "folder",
-      "options": [],
+      "options": [
+        "folder",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type place storing files",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "folder": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type button opening start menu",
       "answer": "start button",
-      "expected": "start button",
-      "options": [],
+      "options": [
+        "start button",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type button opening start menu",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "start button": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

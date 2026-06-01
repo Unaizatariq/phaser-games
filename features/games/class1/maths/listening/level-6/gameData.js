@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 6,
-  "topic": "Subtraction",
-  "teach": "Subtraction means taking away to find how many are left.",
-  "examples": [
-    "minus",
-    "take away",
-    "left"
-  ],
+  "topic": "place value",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "5",
+      "prompt": "Solve: 7 + 1 = ?",
+      "answer": "8",
       "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "8",
+        "9",
+        "7",
+        "10"
       ],
-      "audioText": "What is 9 - 4?"
+      "audioText": "Solve: 7 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
+      "prompt": "Solve: 8 + 2 = ?",
       "answer": "10",
       "options": [
-        "5",
-        "9",
         "10",
-        "15"
+        "11",
+        "9",
+        "12"
       ],
-      "audioText": "What is 15 - 5?"
+      "audioText": "Solve: 8 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 8,
+        "b": 2,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "11": "🔢",
+        "9": "🔢",
+        "12": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "taking away",
+      "prompt": "Solve: 1 + 3 = ?",
+      "answer": "4",
       "options": [
-        "taking away",
-        "adding more",
-        "counting groups",
-        "drawing shapes"
-      ],
-      "audioText": "Subtraction means"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "5",
-      "options": [
-        "3",
         "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "audioText": "Solve: 1 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 1,
+        "b": 3,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "4": "🔢",
+        "5": "🔢",
+        "3": "🔢",
+        "6": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 2 + 4 = ?",
+      "answer": "6",
+      "options": [
+        "6",
+        "7",
         "5",
         "8"
       ],
-      "audioText": "Ali had 8 candies and ate 3. How many left?"
+      "audioText": "Solve: 2 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 4,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "10",
+      "prompt": "Solve: 3 + 5 = ?",
+      "answer": "8",
       "options": [
-        "5",
-        "10",
-        "15",
-        "30"
+        "8",
+        "9",
+        "7",
+        "10"
       ],
-      "audioText": "20 - 10 ="
+      "audioText": "Solve: 3 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 3,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

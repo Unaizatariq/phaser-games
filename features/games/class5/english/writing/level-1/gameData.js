@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Advanced Grammar",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "I am going to school.",
-    "What is your name?",
-    "beautiful"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Correct grammar mistakes",
       "answer": "I am going to school.",
-      "expected": "I am going to school.",
-      "options": [],
+      "options": [
+        "I am going to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct grammar mistakes",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I am going to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type correct punctuation",
       "answer": "What is your name?",
-      "expected": "What is your name?",
-      "options": [],
+      "options": [
+        "What is your name?",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type correct punctuation",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "What is your name?": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Fix spelling mistakes",
       "answer": "beautiful",
-      "expected": "beautiful",
-      "options": [],
+      "options": [
+        "beautiful",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Fix spelling mistakes",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "beautiful": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write proper sentence",
       "answer": "I like to read books.",
-      "expected": "I like to read books.",
-      "options": [],
+      "options": [
+        "I like to read books.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write proper sentence",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I like to read books.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Correct paragraph grammar",
       "answer": "I go to school every day. I study and play with my friends.",
-      "expected": "I go to school every day. I study and play with my friends.",
-      "options": [],
+      "options": [
+        "I go to school every day. I study and play with my friends.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Correct paragraph grammar",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "I go to school every day. I study and play with my friends.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

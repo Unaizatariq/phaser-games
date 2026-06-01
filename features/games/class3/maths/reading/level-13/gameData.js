@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 13,
   "topic": "Patterns and Sequences",
-  "teach": "Patterns follow a repeated order.",
-  "examples": [
-    "Patterns follow a repeated order.",
-    "Number sequences help predict numbers.",
-    "Patterns improve logical thinking."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Patterns and Sequences",
+      "prompt": "Patterns follow a repeated order.",
+      "answer": "Patterns",
       "options": [
-        "Patterns and Sequences",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "readingText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "audioText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      "audioText": "Patterns follow a repeated order.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns follow a repeated ____.",
-      "answer": "order",
+      "prompt": "Number sequences help predict numbers.",
+      "answer": "Patterns",
       "options": [
-        "order",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "readingText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "audioText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      "audioText": "Number sequences help predict numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Patterns and Sequences, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Number sequences help predict ____.",
-      "answer": "numbers",
+      "prompt": "Patterns improve logical thinking.",
+      "answer": "Patterns",
       "options": [
-        "numbers",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "readingText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "audioText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      "audioText": "Patterns improve logical thinking.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns improve logical ____.",
-      "answer": "thinking",
+      "prompt": "Math patterns appear in nature too.",
+      "answer": "Patterns",
       "options": [
-        "thinking",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "readingText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "audioText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      "audioText": "Math patterns appear in nature too.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math patterns appear in nature ____.",
-      "answer": "too",
+      "prompt": "What is the story mainly about?",
+      "answer": "Patterns",
       "options": [
-        "too",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "readingText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too.",
-      "audioText": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Patterns and Sequences, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Patterns follow a repeated order. Number sequences help predict numbers. Patterns improve logical thinking. Math patterns appear in nature too."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

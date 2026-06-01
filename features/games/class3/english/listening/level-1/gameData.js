@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 1,
   "topic": "Adverbs",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Quickly",
-    "Slowly",
-    "Carefully"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which word is an adverb?",
-      "answer": "Quickly",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "Quickly",
-        "Table",
-        "Blue",
-        "Apple"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Which word is an adverb?",
-      "gameplayType": "listen-tap"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the adverb.",
-      "answer": "Slowly",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Slowly",
-        "Pen",
-        "Jump",
-        "Tall"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Tap the adverb.",
-      "gameplayType": "drag-drop"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the describing action word.",
-      "answer": "Carefully",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "Carefully",
-        "Chair",
-        "Book",
-        "Run"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Catch the describing action word.",
-      "gameplayType": "basket-catch"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
+      "options": [
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
+      ],
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
+    },
+    {
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

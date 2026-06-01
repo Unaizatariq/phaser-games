@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 19,
   "topic": "Future Technology",
-  "teach": "Technology changes and improves every year.",
-  "examples": [
-    "Technology changes and improves every year.",
-    "Smart devices are becoming more advanced.",
-    "Future computers may work even faster."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Future Technology",
+      "prompt": "Technology changes and improves every year.",
+      "answer": "Future",
       "options": [
-        "Future Technology",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Technology changes and improves every year.",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology changes and improves every ____.",
-      "answer": "year",
+      "prompt": "Smart devices are becoming more advanced.",
+      "answer": "Future",
       "options": [
-        "year",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Smart devices are becoming more advanced.",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart devices are becoming more ____.",
-      "answer": "advanced",
+      "prompt": "Future computers may work even faster.",
+      "answer": "Future",
       "options": [
-        "advanced",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Future computers may work even faster.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Future computers may work even ____.",
-      "answer": "faster",
+      "prompt": "Technology will continue shaping the world.",
+      "answer": "Future",
       "options": [
-        "faster",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "Technology will continue shaping the world.",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology will continue shaping the ____.",
-      "answer": "world",
+      "prompt": "What is the story mainly about?",
+      "answer": "Future",
       "options": [
-        "world",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "readingText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world.",
-      "audioText": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology changes and improves every year. Smart devices are becoming more advanced. Future computers may work even faster. Technology will continue shaping the world."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

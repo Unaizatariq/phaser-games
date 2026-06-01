@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
   "topic": "Saving Water",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "save water"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Water is necessary for all living things, but clean water is limited.",
       "answer": "save water",
       "options": [
         "save water",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "pollute water",
         "leave taps running"
       ],
-      "text": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "audioText": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+      "audioText": "Water is necessary for all living things, but clean water is limited.",
+      "art": "📚",
+      "questionText": "According to the story about Saving Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "save water": "💧",
+        "waste water": "💧",
+        "pollute water": "💧",
+        "leave taps running": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "People waste water by leaving taps running and using more than they need.",
       "answer": "save water",
       "options": [
         "save water",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "pollute water",
         "leave taps running"
       ],
-      "text": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "audioText": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+      "audioText": "People waste water by leaving taps running and using more than they need.",
+      "art": "📚",
+      "questionText": "According to the story about Saving Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "save water": "💧",
+        "waste water": "💧",
+        "pollute water": "💧",
+        "leave taps running": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "We should save water by turning off taps and fixing leaks.",
       "answer": "save water",
       "options": [
         "save water",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "pollute water",
         "leave taps running"
       ],
-      "text": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "audioText": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+      "audioText": "We should save water by turning off taps and fixing leaks.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "save water": "💧",
+        "waste water": "💧",
+        "pollute water": "💧",
+        "leave taps running": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Saving water today will help future generations.",
       "answer": "save water",
       "options": [
         "save water",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "pollute water",
         "leave taps running"
       ],
-      "text": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "audioText": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+      "audioText": "Saving water today will help future generations.",
+      "art": "📚",
+      "questionText": "According to the story about Saving Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "save water": "💧",
+        "waste water": "💧",
+        "pollute water": "💧",
+        "leave taps running": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "save water",
       "options": [
         "save water",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "pollute water",
         "leave taps running"
       ],
-      "text": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations.",
-      "audioText": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Saving Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "save water": "💧",
+        "waste water": "💧",
+        "pollute water": "💧",
+        "leave taps running": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Water is necessary for all living things, but clean water is limited. People waste water by leaving taps running and using more than they need. We should save water by turning off taps and fixing leaks. Saving water today will help future generations."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "Cells and Living Things",
-  "teach": "All living things are made of cells.",
-  "examples": [
-    "All living things are made of cells.",
-    "Cells are very tiny building blocks of life.",
-    "Plants and animals are made of many cells."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Cells and Living Things",
+      "prompt": "All living things are made of cells.",
+      "answer": "Cells",
       "options": [
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis",
-        "Animals and Adaptation"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "readingText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "audioText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      "audioText": "All living things are made of cells.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: All living things are made of ____.",
-      "answer": "cells",
+      "prompt": "Cells are very tiny building blocks of life.",
+      "answer": "Cells",
       "options": [
-        "cells",
-        "Cells and Living Things",
-        "blocks",
-        "survive"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "readingText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "audioText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      "audioText": "Cells are very tiny building blocks of life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cells are very tiny building ____ of life.",
-      "answer": "blocks",
+      "prompt": "Plants and animals are made of many cells.",
+      "answer": "Cells",
       "options": [
-        "blocks",
-        "Cells and Living Things",
-        "cells",
-        "survive"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "readingText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "audioText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      "audioText": "Plants and animals are made of many cells.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cells help living things grow and ____.",
-      "answer": "survive",
+      "prompt": "Cells help living things grow and survive.",
+      "answer": "Cells",
       "options": [
-        "survive",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "readingText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "audioText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      "audioText": "Cells help living things grow and survive.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "cells",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cells",
       "options": [
-        "cells",
-        "Cells and Living Things",
-        "blocks",
-        "survive"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "readingText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive.",
-      "audioText": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Cells and Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "All living things are made of cells. Cells are very tiny building blocks of life. Plants and animals are made of many cells. Cells help living things grow and survive."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

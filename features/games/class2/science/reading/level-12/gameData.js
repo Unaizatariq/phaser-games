@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 12,
   "topic": "Seasons",
-  "teach": "There are different seasons in a year.",
-  "examples": [
-    "There are different seasons in a year.",
-    "Summer is hot.",
-    "Winter is cold."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "There are different seasons in a year.",
       "answer": "Seasons",
       "options": [
         "Seasons",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "readingText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "audioText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      "audioText": "There are different seasons in a year.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Seasons": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are different seasons in a ____.",
-      "answer": "year",
+      "prompt": "Summer is hot.",
+      "answer": "Seasons",
       "options": [
-        "year",
-        "Living Things",
-        "move",
-        "things"
+        "Seasons",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "readingText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "audioText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      "audioText": "Summer is hot.",
+      "art": "📚",
+      "questionText": "According to the story about Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Seasons": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Summer is ____.",
-      "answer": "hot",
+      "prompt": "Winter is cold.",
+      "answer": "Seasons",
       "options": [
-        "hot",
-        "Living Things",
-        "move",
-        "things"
+        "Seasons",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "readingText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "audioText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      "audioText": "Winter is cold.",
+      "art": "📚",
+      "questionText": "According to the story about Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Seasons": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Winter is ____.",
-      "answer": "cold",
+      "prompt": "Rainy season brings rain.",
+      "answer": "Seasons",
       "options": [
-        "cold",
-        "Living Things",
-        "move",
-        "things"
+        "Seasons",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "readingText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "audioText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      "audioText": "Rainy season brings rain.",
+      "art": "📚",
+      "questionText": "According to the story about Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Seasons": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Rainy season brings ____.",
-      "answer": "rain",
+      "prompt": "What is the story mainly about?",
+      "answer": "Seasons",
       "options": [
-        "rain",
-        "Living Things",
-        "move",
-        "things"
+        "Seasons",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "readingText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain.",
-      "audioText": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Seasons": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "There are different seasons in a year. Summer is hot. Winter is cold. Rainy season brings rain."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

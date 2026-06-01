@@ -1,66 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 4,
   "topic": "Describe the Image",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Children are playing in the park.",
-    "Students are studying in the classroom.",
-    "People are shopping in the market."
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Describe what you see.",
       "answer": "Children are playing in the park.",
-      "expected": "Children are playing in the park.",
-      "options": [],
+      "options": [
+        "Children are playing in the park.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Describe what you see.",
-      "evaluation": "semantic",
-      "micMode": "extended",
-      "image": "park.png",
-      "requiredAsset": "park.png"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Children are playing in the park.": "🌳",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Describe what you see.",
       "answer": "Students are studying in the classroom.",
-      "expected": "Students are studying in the classroom.",
-      "options": [],
+      "options": [
+        "Students are studying in the classroom.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Describe what you see.",
-      "evaluation": "semantic",
-      "micMode": "extended",
-      "image": "classroom.png",
-      "requiredAsset": "classroom.png"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Students are studying in the classroom.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Describe what you see.",
       "answer": "People are shopping in the market.",
-      "expected": "People are shopping in the market.",
-      "options": [],
+      "options": [
+        "People are shopping in the market.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Describe what you see.",
-      "evaluation": "semantic",
-      "micMode": "extended",
-      "image": "market.png",
-      "requiredAsset": "market.png"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "People are shopping in the market.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "🐄",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
+    },
+    {
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "📖",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

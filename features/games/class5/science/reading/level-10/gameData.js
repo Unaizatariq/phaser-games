@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 10,
   "topic": "Energy Around Us",
-  "teach": "Energy helps us do work.",
-  "examples": [
-    "Energy helps us do work.",
-    "The sun is a major source of energy.",
-    "Electricity powers many machines."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Energy Around Us",
+      "prompt": "Energy helps us do work.",
+      "answer": "Energy",
       "options": [
-        "Energy Around Us",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Energy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "readingText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "audioText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      "audioText": "Energy helps us do work.",
+      "art": "💡",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Energy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Energy helps us do ____.",
-      "answer": "work",
+      "prompt": "The sun is a major source of energy.",
+      "answer": "Energy",
       "options": [
-        "work",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Energy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "readingText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "audioText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      "audioText": "The sun is a major source of energy.",
+      "art": "💡",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Energy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is a major source of ____.",
-      "answer": "energy",
+      "prompt": "Electricity powers many machines.",
+      "answer": "Energy",
       "options": [
-        "energy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Energy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "readingText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "audioText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      "audioText": "Electricity powers many machines.",
+      "art": "💡",
+      "questionText": "According to the story about Energy Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Energy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Electricity powers many ____.",
-      "answer": "machines",
+      "prompt": "Food gives energy to our body.",
+      "answer": "Energy",
       "options": [
-        "machines",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Energy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "readingText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "audioText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      "audioText": "Food gives energy to our body.",
+      "art": "💡",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Energy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Food gives energy to our ____.",
-      "answer": "body",
+      "prompt": "What is the story mainly about?",
+      "answer": "Energy",
       "options": [
-        "body",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Energy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "readingText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body.",
-      "audioText": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+      "audioText": "What is the story mainly about?",
+      "art": "💡",
+      "questionText": "According to the story about Energy Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Energy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Energy helps us do work. The sun is a major source of energy. Electricity powers many machines. Food gives energy to our body."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

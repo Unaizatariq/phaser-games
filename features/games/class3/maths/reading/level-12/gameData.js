@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 12,
   "topic": "Money",
-  "teach": "Money is used to buy goods and services.",
-  "examples": [
-    "Money is used to buy goods and services.",
-    "Coins and notes have different values.",
-    "Math helps count and save money."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Money is used to buy goods and services.",
       "answer": "Money",
       "options": [
         "Money",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "readingText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "audioText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      "audioText": "Money is used to buy goods and services.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used to buy goods and ____.",
-      "answer": "services",
+      "prompt": "Coins and notes have different values.",
+      "answer": "Money",
       "options": [
-        "services",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "readingText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "audioText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      "audioText": "Coins and notes have different values.",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Coins and notes have different ____.",
-      "answer": "values",
+      "prompt": "Math helps count and save money.",
+      "answer": "Money",
       "options": [
-        "values",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "readingText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "audioText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      "audioText": "Math helps count and save money.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use money every ____.",
-      "answer": "day",
+      "prompt": "People use money every day.",
+      "answer": "Money",
       "options": [
-        "day",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "readingText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "audioText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      "audioText": "People use money every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "services",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "services",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "readingText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day.",
-      "audioText": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used to buy goods and services. Coins and notes have different values. Math helps count and save money. People use money every day."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,100 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 3,
   "topic": "Mental Maths",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Five",
-    "Seven",
-    "Three"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "What comes after 4?",
       "answer": "Five",
-      "expected": "Five",
-      "options": [],
-      "audioText": "What comes after 4?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Five",
-        "5"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What comes after 4?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What comes before 8?",
       "answer": "Seven",
-      "expected": "Seven",
-      "options": [],
-      "audioText": "What comes before 8?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Seven",
-        "7"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What comes before 8?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Seven": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 2 + 1?",
       "answer": "Three",
-      "expected": "Three",
-      "options": [],
-      "audioText": "What is 2 + 1?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Three",
-        "3"
-      ]
+        "3",
+        "4",
+        "2"
+      ],
+      "audioText": "What is 2 + 1?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 2,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "Three": "🔹",
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 5 - 2?",
       "answer": "Three",
-      "expected": "Three",
-      "options": [],
-      "audioText": "What is 5 - 2?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Three",
-        "3"
-      ]
+        "3",
+        "4",
+        "2"
+      ],
+      "audioText": "What is 5 - 2?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "-",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "Three": "🔹",
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 3 + 3?",
       "answer": "Six",
-      "expected": "Six",
-      "options": [],
-      "audioText": "What is 3 + 3?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Six",
-        "6"
-      ]
+        "6",
+        "7",
+        "5"
+      ],
+      "audioText": "What is 3 + 3?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 3,
+        "b": 3,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "Six": "🔹",
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

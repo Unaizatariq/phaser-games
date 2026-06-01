@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Addition",
-  "teach": "Addition means putting things together.",
-  "examples": [
-    "Addition means putting things together.",
-    "2 apples plus 1 apple make 3 apples.",
-    "Addition increases numbers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Addition means putting things together.",
       "answer": "Addition",
       "options": [
         "Addition",
-        "Counting 1 to 20",
-        "Subtraction",
-        "Shapes Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "readingText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "audioText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      "audioText": "Addition means putting things together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition means putting things ____.",
-      "answer": "together",
+      "prompt": "2 apples plus 1 apple make 3 apples.",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "readingText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "audioText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      "audioText": "2 apples plus 1 apple make 3 apples.",
+      "art": "➕",
+      "questionText": "According to the story about Addition, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2 ____ plus 1 apple make 3 apples.",
-      "answer": "apples",
+      "prompt": "Addition increases numbers.",
+      "answer": "Addition",
       "options": [
-        "apples",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "readingText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "audioText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      "audioText": "Addition increases numbers.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition increases ____.",
-      "answer": "numbers",
+      "prompt": "Addition is fun.",
+      "answer": "Addition",
       "options": [
-        "numbers",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "readingText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "audioText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      "audioText": "Addition is fun.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "together",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "readingText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun.",
-      "audioText": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Addition means putting things together. 2 apples plus 1 apple make 3 apples. Addition increases numbers. Addition is fun."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 4,
-  "topic": "Typing Basics",
-  "teach": "Typing Basics is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Typing Basics",
-    "example",
-    "practice"
-  ],
+  "topic": "Parts of Computer",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Typing Basics",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Which device is used for typing?",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Which device is used for typing?",
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Which device moves the pointer?",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Which device moves the pointer?",
+      "art": "🖱️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Which device shows pictures?",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device shows pictures?",
+      "art": "🖥️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Which part is called the brain of computer?",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which part is called the brain of computer?",
+      "art": "🧠",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Which device gives output?",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device gives output?",
+      "art": "🖥️",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

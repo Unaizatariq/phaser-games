@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 18,
   "topic": "Capacity and Volume",
-  "teach": "Capacity shows how much a container can hold.",
-  "examples": [
-    "Capacity shows how much a container can hold.",
-    "Volume measures space inside an object.",
-    "Liters measure liquids."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Capacity and Volume",
-      "options": [
-        "Capacity and Volume",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
-      ],
-      "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Capacity shows how much a container can ____.",
-      "answer": "hold",
-      "options": [
-        "hold",
-        "Large Numbers",
-        "quantities",
-        "10000"
-      ],
-      "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume measures space inside an ____.",
-      "answer": "object",
-      "options": [
-        "object",
-        "Large Numbers",
-        "quantities",
-        "10000"
-      ],
-      "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liters measure ____.",
-      "answer": "liquids",
-      "options": [
-        "liquids",
-        "Large Numbers",
-        "quantities",
-        "10000"
-      ],
-      "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is important in daily life.",
+      "prompt": "Capacity shows how much a container can hold.",
       "answer": "Capacity",
       "options": [
         "Capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
+      "audioText": "Capacity shows how much a container can hold.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Volume measures space inside an object.",
+      "answer": "Capacity",
+      "options": [
+        "Capacity",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Volume measures space inside an object.",
+      "art": "📚",
+      "questionText": "According to the story about Capacity and Volume, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Liters measure liquids.",
+      "answer": "Capacity",
+      "options": [
+        "Capacity",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Liters measure liquids.",
+      "art": "📚",
+      "questionText": "According to the story about Capacity and Volume, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Capacity is important in daily life.",
+      "answer": "Capacity",
+      "options": [
+        "Capacity",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Capacity is important in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Capacity",
+      "options": [
+        "Capacity",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Capacity and Volume, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Capacity shows how much a container can hold. Volume measures space inside an object. Liters measure liquids. Capacity is important in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

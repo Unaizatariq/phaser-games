@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 11,
-  "topic": "Weather Patterns",
-  "teach": "Weather Patterns builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Weather Patterns",
-    "example",
-    "solve"
-  ],
+  "topic": "States of Matter",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the main skill in Weather Patterns?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "What is the main skill in Weather Patterns?"
+      "prompt": "Type one solid object",
+      "answer": "book",
+      "options": [
+        "book",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one solid object",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "book": "📘",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct strategy."
+      "prompt": "Type one liquid object",
+      "answer": "water",
+      "options": [
+        "water",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one liquid object",
+      "art": "💧",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "water": "💧",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Write the answer: A good answer in maths should be"
+      "prompt": "Type one gas",
+      "answer": "air",
+      "options": [
+        "air",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one gas",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "air": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Write the answer: Word problems need us to find"
+      "prompt": "Type the state of ice",
+      "answer": "solid",
+      "options": [
+        "solid",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the state of ice",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "solid": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Write the answer: After solving, we should"
+      "prompt": "Type the state of steam",
+      "answer": "gas",
+      "options": [
+        "gas",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the state of steam",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "gas": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

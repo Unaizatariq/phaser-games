@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 21,
-  "topic": "Coal and oil are non-renewable resources.",
-  "teach": "We should save natural resources.",
-  "examples": [
-    "We should save natural resources."
-  ],
+  "topic": "Human Body Systems",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Coal and oil are non-renewable resources.",
+      "prompt": "The human body has many systems that work together.",
+      "answer": "Human",
       "options": [
-        "Coal and oil are non-renewable resources.",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should save natural resources.",
-      "readingText": "We should save natural resources.",
-      "audioText": "We should save natural resources."
+      "audioText": "The human body has many systems that work together.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should save natural ____.",
-      "answer": "resources",
+      "prompt": "The digestive system helps break down food.",
+      "answer": "Human",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should save natural resources.",
-      "readingText": "We should save natural resources.",
-      "audioText": "We should save natural resources."
+      "audioText": "The digestive system helps break down food.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "resources",
+      "prompt": "The respiratory system helps us breathe.",
+      "answer": "Human",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should save natural resources.",
-      "readingText": "We should save natural resources.",
-      "audioText": "We should save natural resources."
+      "audioText": "The respiratory system helps us breathe.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "resources",
+      "prompt": "The circulatory system carries blood throughout the body.",
+      "answer": "Human",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should save natural resources.",
-      "readingText": "We should save natural resources.",
-      "audioText": "We should save natural resources."
+      "audioText": "The circulatory system carries blood throughout the body.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "resources",
+      "prompt": "What is the story mainly about?",
+      "answer": "Human",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should save natural resources.",
-      "readingText": "We should save natural resources.",
-      "audioText": "We should save natural resources."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We should save natural resources."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

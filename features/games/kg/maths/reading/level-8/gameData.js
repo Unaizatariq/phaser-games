@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Money",
-  "teach": "Money is used to buy things.",
-  "examples": [
-    "Money is used to buy things.",
-    "Coins and notes are money.",
-    "People use money in shops."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Money is used to buy things.",
       "answer": "Money",
       "options": [
         "Money",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "readingText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "audioText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      "audioText": "Money is used to buy things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used to buy ____.",
-      "answer": "things",
+      "prompt": "Coins and notes are money.",
+      "answer": "Money",
       "options": [
-        "things",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "readingText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "audioText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      "audioText": "Coins and notes are money.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use money in ____.",
-      "answer": "shops",
+      "prompt": "People use money in shops.",
+      "answer": "Money",
       "options": [
-        "shops",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "readingText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "audioText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      "audioText": "People use money in shops.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "things",
+      "prompt": "Saving money is good.",
+      "answer": "Money",
       "options": [
-        "things",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "readingText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "audioText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      "audioText": "Saving money is good.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "money",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "money",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "readingText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good.",
-      "audioText": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used to buy things. Coins and notes are money. People use money in shops. Saving money is good."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

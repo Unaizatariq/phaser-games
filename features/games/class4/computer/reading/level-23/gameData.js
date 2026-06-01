@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 23,
-  "topic": "Responsible Use of Technology",
-  "teach": "Technology should be used wisely.",
-  "examples": [
-    "Technology should be used wisely.",
-    "Too much screen time can affect health.",
-    "Students should balance study and play."
-  ],
+  "topic": "Hardware and Software",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Responsible Use of Technology",
+      "prompt": "Hardware means the physical parts of a computer.",
+      "answer": "Hardware",
       "options": [
-        "Responsible Use of Technology",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Hardware means the physical parts of a computer.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology should be used ____.",
-      "answer": "wisely",
+      "prompt": "Software means programs and applications.",
+      "answer": "Hardware",
       "options": [
-        "wisely",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Software means programs and applications.",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Too much screen time can affect ____.",
-      "answer": "health",
+      "prompt": "Both hardware and software are important.",
+      "answer": "Hardware",
       "options": [
-        "health",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Both hardware and software are important.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students should balance study and ____.",
-      "answer": "play",
+      "prompt": "A computer cannot work without software.",
+      "answer": "Hardware",
       "options": [
-        "play",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "A computer cannot work without software.",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Responsible use of ____ is important.",
-      "answer": "technology",
+      "prompt": "What is the story mainly about?",
+      "answer": "Hardware",
       "options": [
-        "technology",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

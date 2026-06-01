@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 3,
   "topic": "Earth and Space",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Earth rotation",
-    "Mercury",
-    "Satellite"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What causes day and night?",
-      "answer": "Earth rotation",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "Earth rotation",
-        "Moon movement",
-        "Rain",
-        "Clouds"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "What causes day and night?",
-      "gameplayType": "listen-tap"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the planet closest to the Sun.",
-      "answer": "Mercury",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "Mercury",
-        "Earth",
-        "Mars",
-        "Saturn"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Choose the planet closest to the Sun.",
-      "gameplayType": "drag-drop"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the artificial satellite.",
-      "answer": "Satellite",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "Satellite",
-        "Tree",
-        "Book",
-        "Bottle"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Tap the artificial satellite.",
-      "gameplayType": "basket-catch"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
+      "options": [
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
+      ],
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

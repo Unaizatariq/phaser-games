@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Addition",
-  "teach": "Addition means combining numbers together.",
-  "examples": [
-    "Addition means combining numbers together.",
-    "We use addition to find totals.",
-    "Addition can be done vertically or horizontally."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Addition means combining numbers together.",
       "answer": "Addition",
       "options": [
         "Addition",
-        "Numbers up to 1000",
-        "Place Value",
-        "Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "readingText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "audioText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      "audioText": "Addition means combining numbers together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition means combining numbers ____.",
-      "answer": "together",
+      "prompt": "We use addition to find totals.",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "readingText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "audioText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      "audioText": "We use addition to find totals.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use addition to find ____.",
-      "answer": "totals",
+      "prompt": "Addition can be done vertically or horizontally.",
+      "answer": "Addition",
       "options": [
-        "totals",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "readingText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "audioText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      "audioText": "Addition can be done vertically or horizontally.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition can be done vertically or ____.",
-      "answer": "horizontally",
+      "prompt": "Practice improves addition skills.",
+      "answer": "Addition",
       "options": [
-        "horizontally",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "readingText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "audioText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      "audioText": "Practice improves addition skills.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves addition ____.",
-      "answer": "skills",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "skills",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "readingText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills.",
-      "audioText": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Addition means combining numbers together. We use addition to find totals. Addition can be done vertically or horizontally. Practice improves addition skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

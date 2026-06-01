@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Animals and Adaptation",
-  "teach": "Animals adapt to survive in their habitats.",
-  "examples": [
-    "Animals adapt to survive in their habitats.",
-    "Camels can live in deserts.",
-    "Polar bears stay warm in cold places."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Animals and Adaptation",
+      "prompt": "Animals adapt to survive in their habitats.",
+      "answer": "Animals",
       "options": [
-        "Animals and Adaptation",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "readingText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "audioText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      "audioText": "Animals adapt to survive in their habitats.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals adapt to survive in their ____.",
-      "answer": "habitats",
+      "prompt": "Camels can live in deserts.",
+      "answer": "Animals",
       "options": [
-        "habitats",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "readingText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "audioText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      "audioText": "Camels can live in deserts.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Adaptation, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Camels can live in ____.",
-      "answer": "deserts",
+      "prompt": "Polar bears stay warm in cold places.",
+      "answer": "Animals",
       "options": [
-        "deserts",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "readingText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "audioText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      "audioText": "Polar bears stay warm in cold places.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Adaptation, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Polar bears stay warm in cold ____.",
-      "answer": "places",
+      "prompt": "Adaptations help animals stay safe.",
+      "answer": "Animals",
       "options": [
-        "places",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "readingText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "audioText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      "audioText": "Adaptations help animals stay safe.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Adaptations help animals stay ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "safe",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "readingText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe.",
-      "audioText": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Adaptation, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals adapt to survive in their habitats. Camels can live in deserts. Polar bears stay warm in cold places. Adaptations help animals stay safe."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 19,
   "topic": "The Earth",
-  "teach": "Earth is our home planet.",
-  "examples": [
-    "Earth is our home planet.",
-    "It has land, water, and air.",
-    "Plants, animals, and humans live on Earth."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Earth",
+      "prompt": "Earth is our home planet.",
+      "answer": "The",
       "options": [
-        "The Earth",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Earth is our home planet.",
+      "art": "📚",
+      "questionText": "According to the story about The Earth, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earth is our home ____.",
-      "answer": "planet",
+      "prompt": "It has land, water, and air.",
+      "answer": "The",
       "options": [
-        "planet",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "It has land, water, and air.",
+      "art": "📚",
+      "questionText": "According to the story about The Earth, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It has land, water, and ____.",
-      "answer": "air",
+      "prompt": "Plants, animals, and humans live on Earth.",
+      "answer": "The",
       "options": [
-        "air",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Plants, animals, and humans live on Earth.",
+      "art": "📚",
+      "questionText": "According to the story about The Earth, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants, animals, and humans live on ____.",
-      "answer": "Earth",
+      "prompt": "We should protect our planet.",
+      "answer": "The",
       "options": [
-        "Earth",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "We should protect our planet.",
+      "art": "📚",
+      "questionText": "According to the story about The Earth, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "planet",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "planet",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

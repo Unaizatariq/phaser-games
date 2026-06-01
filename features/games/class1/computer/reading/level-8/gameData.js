@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 8,
   "topic": "Computer Lab",
-  "teach": "Many schools have computer labs.",
-  "examples": [
-    "Many schools have computer labs.",
-    "Students learn computer skills there.",
-    "We should use computers carefully."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Lab",
+      "prompt": "Many schools have computer labs.",
+      "answer": "Computer",
       "options": [
-        "Computer Lab",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "readingText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "audioText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      "audioText": "Many schools have computer labs.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Many schools have computer ____.",
-      "answer": "labs",
+      "prompt": "Students learn computer skills there.",
+      "answer": "Computer",
       "options": [
-        "labs",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "readingText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "audioText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      "audioText": "Students learn computer skills there.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students learn computer skills ____.",
-      "answer": "there",
+      "prompt": "We should use computers carefully.",
+      "answer": "Computer",
       "options": [
-        "there",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "readingText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "audioText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      "audioText": "We should use computers carefully.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should use ____ carefully.",
-      "answer": "computers",
+      "prompt": "The computer lab should stay clean.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "readingText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "audioText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      "audioText": "The computer lab should stay clean.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The computer lab should stay ____.",
-      "answer": "clean",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "clean",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "readingText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean.",
-      "audioText": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Lab, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Many schools have computer labs. Students learn computer skills there. We should use computers carefully. The computer lab should stay clean."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

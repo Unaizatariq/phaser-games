@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 3,
   "topic": "Tall and Short",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Tall Tree",
-    "Short Chair",
-    "Long Rope"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which object is tall?",
-      "answer": "Tall Tree",
+      "prompt": "Solve: 4 + 1 = ?",
+      "answer": "5",
       "options": [
-        "Tall Tree",
-        "Small Box",
-        "Short Pencil",
-        "Tiny Ball"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "Which object is tall?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 4 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the short object.",
-      "answer": "Short Chair",
+      "prompt": "Solve: 5 + 2 = ?",
+      "answer": "7",
       "options": [
-        "Short Chair",
-        "Tall Pole",
-        "Long Rope",
-        "Big Tree"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Choose the short object.",
-      "gameplayType": "drag-drop"
+      "audioText": "Solve: 5 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the long object.",
-      "answer": "Long Rope",
+      "prompt": "Solve: 6 + 3 = ?",
+      "answer": "9",
       "options": [
-        "Long Rope",
-        "Tiny Ball",
-        "Short Cup",
-        "Small Pen"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "Tap the long object.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 6 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "b": 3,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 4 = ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "audioText": "Solve: 7 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 8 + 5 = ?",
+      "answer": "13",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "15"
+      ],
+      "audioText": "Solve: 8 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 8,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "13": "🔢",
+        "14": "🔢",
+        "12": "🔢",
+        "15": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

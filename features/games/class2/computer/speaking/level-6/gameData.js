@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 6,
-  "topic": "Drawing Lines and Shapes",
-  "teach": "Drawing Lines and Shapes builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Drawing Lines and Shapes",
-    "example",
-    "solve"
-  ],
+  "topic": "Parts of Computer",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the main skill in Drawing Lines and Shapes?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "Say the answer: What is the main skill in Drawing Lines and Shapes?"
+      "prompt": "Which device is used for typing?",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Which device is used for typing?",
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct strategy."
+      "prompt": "Which device moves the pointer?",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Which device moves the pointer?",
+      "art": "🖱️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Say the answer: A good answer in maths should be"
+      "prompt": "Which device shows pictures?",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device shows pictures?",
+      "art": "🖥️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Say the answer: Word problems need us to find"
+      "prompt": "Which part is called the brain of computer?",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which part is called the brain of computer?",
+      "art": "🧠",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Say the answer: After solving, we should"
+      "prompt": "Which device gives output?",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device gives output?",
+      "art": "🖥️",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

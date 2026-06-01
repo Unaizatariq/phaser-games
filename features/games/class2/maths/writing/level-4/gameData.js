@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 4,
-  "topic": "Subtraction",
-  "teach": "Subtraction builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Subtraction",
-    "example",
-    "solve"
-  ],
+  "topic": "Multiplication Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: 14 - 6 =",
-      "answer": "8",
-      "options": [],
-      "audioText": "Write the answer: 14 - 6 ="
+      "prompt": "Type answer: 2 × 5 =",
+      "answer": "10",
+      "options": [
+        "10",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 2 × 5 =",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 10,
+        "b": 0,
+        "op": "count",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Sara had 10 apples and gave 3. Left?",
-      "answer": "7",
-      "options": [],
-      "audioText": "Sara had 10 apples and gave 3. Left?"
+      "prompt": "Type answer: 3 × 4 =",
+      "answer": "12",
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 3 × 4 =",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Subtraction means",
-      "answer": "taking away",
-      "options": [],
-      "audioText": "Write the answer: Subtraction means"
+      "prompt": "Type answer: 5 × 5 =",
+      "answer": "25",
+      "options": [
+        "25",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 5 × 5 =",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "25": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Complete: 20 - __ = 15",
-      "answer": "5",
-      "options": [],
-      "audioText": "Write the answer: Complete: 20 - __ = 15"
+      "prompt": "Type answer: 6 × 2 =",
+      "answer": "12",
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 6 × 2 =",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Which is smaller? 9-4 or 10-2",
-      "answer": "9-4",
-      "options": [],
-      "audioText": "Which is smaller? 9-4 or 10-2"
+      "prompt": "Type answer: 7 × 3 =",
+      "answer": "21",
+      "options": [
+        "21",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 7 × 3 =",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "21": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

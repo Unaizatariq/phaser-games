@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 2,
   "topic": "Plants",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Water",
-    "Leaf",
-    "Seed"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
       "prompt": "What do plants need to grow?",
-      "answer": "Water",
+      "answer": "water",
       "options": [
-        "Water",
-        "Plastic",
-        "Stone",
-        "Glass"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "What do plants need to grow?",
-      "gameplayType": "listen-tap"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the part of a plant.",
-      "answer": "Leaf",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "Leaf",
-        "Chair",
-        "Table",
-        "Pencil"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Choose the part of a plant.",
-      "gameplayType": "drag-drop"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the seed.",
-      "answer": "Seed",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "Seed",
-        "Bottle",
-        "Spoon",
-        "Phone"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Tap the seed.",
-      "gameplayType": "basket-catch"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
+      "options": [
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
+      ],
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

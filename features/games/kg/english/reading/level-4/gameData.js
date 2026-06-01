@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 4,
   "topic": "My School",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "school"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My school is clean and beautiful.",
       "answer": "school",
       "options": [
         "school",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "farm",
         "lake"
       ],
-      "text": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "audioText": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+      "audioText": "My school is clean and beautiful.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "shop": "🔹",
+        "farm": "🔹",
+        "lake": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I go to school every morning.",
       "answer": "school",
       "options": [
         "school",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "farm",
         "lake"
       ],
-      "text": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "audioText": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+      "audioText": "I go to school every morning.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "shop": "🔹",
+        "farm": "🔹",
+        "lake": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My teacher teaches me many new things.",
       "answer": "school",
       "options": [
         "school",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "farm",
         "lake"
       ],
-      "text": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "audioText": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+      "audioText": "My teacher teaches me many new things.",
+      "art": "🏫",
+      "questionText": "According to the story about My School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "shop": "🔹",
+        "farm": "🔹",
+        "lake": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I like my school.",
       "answer": "school",
       "options": [
         "school",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "farm",
         "lake"
       ],
-      "text": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "audioText": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+      "audioText": "I like my school.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "shop": "🔹",
+        "farm": "🔹",
+        "lake": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "school",
       "options": [
         "school",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "farm",
         "lake"
       ],
-      "text": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school.",
-      "audioText": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+      "audioText": "What is the story mainly about?",
+      "art": "🏫",
+      "questionText": "According to the story about My School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "shop": "🔹",
+        "farm": "🔹",
+        "lake": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My school is clean and beautiful. I go to school every morning. My teacher teaches me many new things. I like my school."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

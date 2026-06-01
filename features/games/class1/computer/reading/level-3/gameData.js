@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 3,
   "topic": "Monitor",
-  "teach": "The monitor looks like a TV screen.",
-  "examples": [
-    "The monitor looks like a TV screen.",
-    "It shows games, pictures, and videos.",
-    "We can read and watch things on it."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The monitor looks like a TV screen.",
       "answer": "Monitor",
       "options": [
         "Monitor",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Keyboard"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "readingText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "audioText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      "audioText": "The monitor looks like a TV screen.",
+      "art": "🖥️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The monitor looks like a TV ____.",
-      "answer": "screen",
+      "prompt": "It shows games, pictures, and videos.",
+      "answer": "Monitor",
       "options": [
-        "screen",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "readingText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "audioText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      "audioText": "It shows games, pictures, and videos.",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It shows games, pictures, and ____.",
-      "answer": "videos",
+      "prompt": "We can read and watch things on it.",
+      "answer": "Monitor",
       "options": [
-        "videos",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "readingText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "audioText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      "audioText": "We can read and watch things on it.",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can read and watch ____ on it.",
-      "answer": "things",
+      "prompt": "The monitor is an important computer part.",
+      "answer": "Monitor",
       "options": [
-        "things",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "readingText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "audioText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      "audioText": "The monitor is an important computer part.",
+      "art": "🖥️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The monitor is an important computer ____.",
-      "answer": "part",
+      "prompt": "What is the story mainly about?",
+      "answer": "Monitor",
       "options": [
-        "part",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Monitor",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "readingText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part.",
-      "audioText": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+      "audioText": "What is the story mainly about?",
+      "art": "🖥️",
+      "questionText": "According to the story about Monitor, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Monitor": "🖥️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The monitor looks like a TV screen. It shows games, pictures, and videos. We can read and watch things on it. The monitor is an important computer part."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

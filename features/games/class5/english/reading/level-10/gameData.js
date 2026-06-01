@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 10,
   "topic": "Technology in Daily Life",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "technology"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Technology has become an important part of our daily lives.",
       "answer": "technology",
       "options": [
         "technology",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "farming",
         "rain"
       ],
-      "text": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "audioText": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+      "audioText": "Technology has become an important part of our daily lives.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "technology": "🔹",
+        "pollution": "🔹",
+        "farming": "🔹",
+        "rain": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Computers, mobile phones, and the internet help people communicate and learn quickly.",
       "answer": "technology",
       "options": [
         "technology",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "farming",
         "rain"
       ],
-      "text": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "audioText": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+      "audioText": "Computers, mobile phones, and the internet help people communicate and learn quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Technology in Daily Life, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "technology": "🔹",
+        "pollution": "🔹",
+        "farming": "🔹",
+        "rain": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Students use technology for education and research.",
       "answer": "technology",
       "options": [
         "technology",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "farming",
         "rain"
       ],
-      "text": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "audioText": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+      "audioText": "Students use technology for education and research.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "technology": "🔹",
+        "pollution": "🔹",
+        "farming": "🔹",
+        "rain": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "However, people should use technology wisely and avoid spending too much time on screens.",
       "answer": "technology",
       "options": [
         "technology",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "farming",
         "rain"
       ],
-      "text": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "audioText": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+      "audioText": "However, people should use technology wisely and avoid spending too much time on screens.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "technology": "🔹",
+        "pollution": "🔹",
+        "farming": "🔹",
+        "rain": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "technology",
       "options": [
         "technology",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "farming",
         "rain"
       ],
-      "text": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens.",
-      "audioText": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Technology in Daily Life, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "technology": "🔹",
+        "pollution": "🔹",
+        "farming": "🔹",
+        "rain": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology has become an important part of our daily lives. Computers, mobile phones, and the internet help people communicate and learn quickly. Students use technology for education and research. However, people should use technology wisely and avoid spending too much time on screens."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

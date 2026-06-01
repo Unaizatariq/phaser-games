@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 6,
   "topic": "CPU",
-  "teach": "The CPU is the brain of the computer.",
-  "examples": [
-    "The CPU is the brain of the computer.",
-    "It controls all computer work.",
-    "The CPU works very fast."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The CPU is the brain of the computer.",
       "answer": "CPU",
       "options": [
         "CPU",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "readingText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "audioText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      "audioText": "The CPU is the brain of the computer.",
+      "art": "🧠",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "CPU": "🧠",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The CPU is the brain of the ____.",
-      "answer": "computer",
+      "prompt": "It controls all computer work.",
+      "answer": "CPU",
       "options": [
-        "computer",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "CPU",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "readingText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "audioText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      "audioText": "It controls all computer work.",
+      "art": "🧠",
+      "questionText": "According to the story about CPU, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "CPU": "🧠",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It controls all computer ____.",
-      "answer": "work",
+      "prompt": "The CPU works very fast.",
+      "answer": "CPU",
       "options": [
-        "work",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "CPU",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "readingText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "audioText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      "audioText": "The CPU works very fast.",
+      "art": "🧠",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "CPU": "🧠",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The CPU works very ____.",
-      "answer": "fast",
+      "prompt": "Every computer needs a CPU.",
+      "answer": "CPU",
       "options": [
-        "fast",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "CPU",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "readingText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "audioText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      "audioText": "Every computer needs a CPU.",
+      "art": "🧠",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "CPU": "🧠",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "computer",
+      "prompt": "What is the story mainly about?",
+      "answer": "CPU",
       "options": [
-        "computer",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "CPU",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "readingText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU.",
-      "audioText": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+      "audioText": "What is the story mainly about?",
+      "art": "🧠",
+      "questionText": "According to the story about CPU, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "CPU": "🧠",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The CPU is the brain of the computer. It controls all computer work. The CPU works very fast. Every computer needs a CPU."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

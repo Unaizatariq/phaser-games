@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Legs",
-  "teach": "These are legs.",
-  "examples": [
-    "These are legs.",
-    "We walk with legs."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "These are legs. We walk with legs.",
       "answer": "Legs",
       "options": [
         "Legs",
-        "Eyes",
-        "Ears",
-        "Nose"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are legs. We walk with legs.",
-      "readingText": "These are legs. We walk with legs.",
-      "audioText": "These are legs. We walk with legs."
+      "audioText": "These are legs. We walk with legs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "These are legs.",
+        "We walk with legs."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Legs": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "legs",
+      "prompt": "What is the story mainly about?",
+      "answer": "Legs",
       "options": [
-        "legs",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Legs",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are legs. We walk with legs.",
-      "readingText": "These are legs. We walk with legs.",
-      "audioText": "These are legs. We walk with legs."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Legs, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Legs": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "legs",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "legs",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "These are legs. We walk with legs.",
-      "readingText": "These are legs. We walk with legs.",
-      "audioText": "These are legs. We walk with legs."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🧊",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "legs",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "legs",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "These are legs. We walk with legs.",
-      "readingText": "These are legs. We walk with legs.",
-      "audioText": "These are legs. We walk with legs."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💡",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "legs",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "legs",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "These are legs. We walk with legs.",
-      "readingText": "These are legs. We walk with legs.",
-      "audioText": "These are legs. We walk with legs."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌎",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "These are legs. We walk with legs."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

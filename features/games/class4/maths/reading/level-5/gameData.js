@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Decimals",
-  "teach": "Decimals represent parts of numbers.",
-  "examples": [
-    "Decimals represent parts of numbers.",
-    "A decimal point separates whole numbers and fractions.",
-    "Decimals are used in money and measurement."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Decimals represent parts of numbers.",
       "answer": "Decimals",
       "options": [
         "Decimals",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "readingText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "audioText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      "audioText": "Decimals represent parts of numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Decimals represent parts of ____.",
-      "answer": "numbers",
+      "prompt": "A decimal point separates whole numbers and fractions.",
+      "answer": "Decimals",
       "options": [
-        "numbers",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "readingText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "audioText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      "audioText": "A decimal point separates whole numbers and fractions.",
+      "art": "📚",
+      "questionText": "According to the story about Decimals, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A decimal point separates whole numbers and ____.",
-      "answer": "fractions",
+      "prompt": "Decimals are used in money and measurement.",
+      "answer": "Decimals",
       "options": [
-        "fractions",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "readingText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "audioText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      "audioText": "Decimals are used in money and measurement.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Decimals are used in money and ____.",
-      "answer": "measurement",
+      "prompt": "We can add and subtract decimals.",
+      "answer": "Decimals",
       "options": [
-        "measurement",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "readingText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "audioText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      "audioText": "We can add and subtract decimals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Decimals",
       "options": [
-        "numbers",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "readingText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals.",
-      "audioText": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Decimals, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Decimals represent parts of numbers. A decimal point separates whole numbers and fractions. Decimals are used in money and measurement. We can add and subtract decimals."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

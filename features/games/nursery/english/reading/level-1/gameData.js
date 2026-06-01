@@ -1,19 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 1,
-  "topic": "A for Apple / B for Ball / C for Cat",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "apple",
-    "ball",
-    "cat"
-  ],
+  "topic": "A for Apple",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "A is for apple.",
       "answer": "apple",
       "options": [
         "apple",
@@ -21,13 +16,26 @@ window.GAME_DATA = {
         "cat",
         "dog"
       ],
-      "text": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "audioText": "A is for apple. The apple is red and sweet. Ali likes apples every day."
+      "audioText": "A is for apple.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "apple": "🍎",
+        "ball": "⚽",
+        "cat": "🐱",
+        "dog": "🐶"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "The apple is red and sweet.",
       "answer": "apple",
       "options": [
         "apple",
@@ -35,13 +43,26 @@ window.GAME_DATA = {
         "cat",
         "dog"
       ],
-      "text": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "audioText": "A is for apple. The apple is red and sweet. Ali likes apples every day."
+      "audioText": "The apple is red and sweet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "apple": "🍎",
+        "ball": "⚽",
+        "cat": "🐱",
+        "dog": "🐶"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Ali likes apples every day.",
       "answer": "apple",
       "options": [
         "apple",
@@ -49,13 +70,26 @@ window.GAME_DATA = {
         "cat",
         "dog"
       ],
-      "text": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "audioText": "A is for apple. The apple is red and sweet. Ali likes apples every day."
+      "audioText": "Ali likes apples every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "apple": "🍎",
+        "ball": "⚽",
+        "cat": "🐱",
+        "dog": "🐶"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "What is the story mainly about?",
       "answer": "apple",
       "options": [
         "apple",
@@ -63,167 +97,58 @@ window.GAME_DATA = {
         "cat",
         "dog"
       ],
-      "text": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "audioText": "A is for apple. The apple is red and sweet. Ali likes apples every day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about A for Apple, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "apple": "🍎",
+        "ball": "⚽",
+        "cat": "🐱",
+        "dog": "🐶"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "apple",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "apple",
-        "ball",
-        "cat",
-        "dog"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day.",
-      "audioText": "A is for apple. The apple is red and sweet. Ali likes apples every day."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "ball",
-      "options": [
-        "ball",
-        "apple",
-        "kite",
-        "fish"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "⭐",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "audioText": "B is for ball. The ball is round and colorful. Bilal plays with the ball."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "ball",
-      "options": [
-        "ball",
-        "apple",
-        "kite",
-        "fish"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "audioText": "B is for ball. The ball is round and colorful. Bilal plays with the ball."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "ball",
-      "options": [
-        "ball",
-        "apple",
-        "kite",
-        "fish"
-      ],
-      "text": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "audioText": "B is for ball. The ball is round and colorful. Bilal plays with the ball."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "ball",
-      "options": [
-        "ball",
-        "apple",
-        "kite",
-        "fish"
-      ],
-      "text": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "audioText": "B is for ball. The ball is round and colorful. Bilal plays with the ball."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "ball",
-      "options": [
-        "ball",
-        "apple",
-        "kite",
-        "fish"
-      ],
-      "text": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "passage": "B is for ball. The ball is round and colorful. Bilal plays with the ball.",
-      "audioText": "B is for ball. The ball is round and colorful. Bilal plays with the ball."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "cat",
-      "options": [
-        "cat",
-        "dog",
-        "goat",
-        "hen"
-      ],
-      "text": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "audioText": "C is for cat. The cat is soft and small. It drinks milk every morning."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "cat",
-      "options": [
-        "cat",
-        "dog",
-        "goat",
-        "hen"
-      ],
-      "text": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "audioText": "C is for cat. The cat is soft and small. It drinks milk every morning."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "cat",
-      "options": [
-        "cat",
-        "dog",
-        "goat",
-        "hen"
-      ],
-      "text": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "audioText": "C is for cat. The cat is soft and small. It drinks milk every morning."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "cat",
-      "options": [
-        "cat",
-        "dog",
-        "goat",
-        "hen"
-      ],
-      "text": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "audioText": "C is for cat. The cat is soft and small. It drinks milk every morning."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "cat",
-      "options": [
-        "cat",
-        "dog",
-        "goat",
-        "hen"
-      ],
-      "text": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "passage": "C is for cat. The cat is soft and small. It drinks milk every morning.",
-      "audioText": "C is for cat. The cat is soft and small. It drinks milk every morning."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A is for apple. The apple is red and sweet. Ali likes apples every day. B is for ball. The ball is round and colorful. Bilal plays with the ball. C is for cat. The cat is soft and small. It drinks milk every morning."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

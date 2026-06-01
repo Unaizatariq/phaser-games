@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 2,
   "topic": "ب سے گیند",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "گیند"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "ب سے گیند۔",
       "answer": "گیند",
       "options": [
-        "گیند",
-        "سیب",
-        "پتنگ",
-        "مچھلی"
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "audioText": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+      "audioText": "ب سے گیند۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "ب سے گیند۔",
+      "narrationTTS": "ب سے گیند۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
+      "prompt": "گیند گول اور رنگین ہوتی ہے۔",
       "answer": "گیند",
       "options": [
-        "گیند",
-        "سیب",
-        "پتنگ",
-        "مچھلی"
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "audioText": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+      "audioText": "گیند گول اور رنگین ہوتی ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "گیند گول اور رنگین ہوتی ہے۔",
+      "narrationTTS": "گیند گول اور رنگین ہوتی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "بلال گیند سے کھیلتا ہے۔",
       "answer": "گیند",
       "options": [
-        "گیند",
-        "سیب",
-        "پتنگ",
-        "مچھلی"
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "audioText": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+      "audioText": "بلال گیند سے کھیلتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "بلال گیند سے کھیلتا ہے۔",
+      "narrationTTS": "بلال گیند سے کھیلتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "گیند",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "گیند",
-        "سیب",
-        "پتنگ",
-        "مچھلی"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        }
       ],
-      "text": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "audioText": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "گیند",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "گیند",
-        "سیب",
-        "پتنگ",
-        "مچھلی"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔",
-      "audioText": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "ب سے گیند۔ گیند گول اور رنگین ہوتی ہے۔ بلال گیند سے کھیلتا ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

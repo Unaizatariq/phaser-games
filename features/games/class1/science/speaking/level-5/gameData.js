@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 5,
-  "topic": "Parts of a Plant",
-  "teach": "A plant has roots, stem, leaves and flowers. Each part helps the plant live.",
-  "examples": [
-    "root",
-    "stem",
-    "leaf"
-  ],
+  "topic": "Speak Body Parts",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: Which part makes food for plant?",
-      "answer": "leaf",
-      "options": [],
-      "audioText": "Say the answer: Which part makes food for plant?"
+      "prompt": "Say the body part: Eyes",
+      "answer": "Eyes",
+      "options": [
+        "Eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Eyes",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Which part holds the plant in soil?",
-      "answer": "root",
-      "options": [],
-      "audioText": "Say the answer: Which part holds the plant in soil?"
+      "prompt": "Say the body part: Hands",
+      "answer": "Hands",
+      "options": [
+        "Hands",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Hands",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Hands": "✋",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: The stem helps carry",
-      "answer": "water",
-      "options": [],
-      "audioText": "Say the answer: The stem helps carry"
+      "prompt": "Say the body part: Legs",
+      "answer": "Legs",
+      "options": [
+        "Legs",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Legs",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Legs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Which is part of a plant?",
-      "answer": "flower",
-      "options": [],
-      "audioText": "Say the answer: Which is part of a plant?"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💡",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Plants need water to",
-      "answer": "grow",
-      "options": [],
-      "audioText": "Say the answer: Plants need water to"
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌎",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

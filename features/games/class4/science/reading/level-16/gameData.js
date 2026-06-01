@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 16,
   "topic": "Earth and Space",
-  "teach": "Earth is part of the solar system.",
-  "examples": [
-    "Earth is part of the solar system.",
-    "The moon moves around Earth.",
-    "Stars shine in the night sky."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Earth and Space",
-      "options": [
-        "Earth and Space",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
-      ],
-      "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "readingText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "audioText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earth is part of the solar ____.",
-      "answer": "system",
-      "options": [
-        "system",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
-      ],
-      "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "readingText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "audioText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon moves around ____.",
+      "prompt": "Earth is part of the solar system.",
       "answer": "Earth",
       "options": [
         "Earth",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "readingText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "audioText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
+      "audioText": "Earth is part of the solar system.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Stars shine in the night ____.",
-      "answer": "sky",
+      "prompt": "The moon moves around Earth.",
+      "answer": "Earth",
       "options": [
-        "sky",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Earth",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "readingText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "audioText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
+      "audioText": "The moon moves around Earth.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Astronauts explore ____.",
-      "answer": "space",
+      "prompt": "Stars shine in the night sky.",
+      "answer": "Earth",
       "options": [
-        "space",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Earth",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "readingText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space.",
-      "audioText": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
+      "audioText": "Stars shine in the night sky.",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Space, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Astronauts explore space.",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Astronauts explore space.",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Space, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Earth",
+      "options": [
+        "Earth",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Earth and Space, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Earth": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Earth is part of the solar system. The moon moves around Earth. Stars shine in the night sky. Astronauts explore space."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 10,
   "topic": "Internet and Web Browsing",
-  "teach": "The internet connects computers worldwide.",
-  "examples": [
-    "The internet connects computers worldwide.",
-    "Web browsers help people access websites.",
-    "Students use the internet for research."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Internet and Web Browsing",
+      "prompt": "The internet connects computers worldwide.",
+      "answer": "Internet",
       "options": [
-        "Internet and Web Browsing",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "readingText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "audioText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      "audioText": "The internet connects computers worldwide.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet connects computers ____.",
-      "answer": "worldwide",
+      "prompt": "Web browsers help people access websites.",
+      "answer": "Internet",
       "options": [
-        "worldwide",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "readingText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "audioText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      "audioText": "Web browsers help people access websites.",
+      "art": "🌐",
+      "questionText": "According to the story about Internet and Web Browsing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Web browsers help people access ____.",
-      "answer": "websites",
+      "prompt": "Students use the internet for research.",
+      "answer": "Internet",
       "options": [
-        "websites",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "readingText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "audioText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      "audioText": "Students use the internet for research.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use the internet for ____.",
-      "answer": "research",
+      "prompt": "Safe internet use is very important.",
+      "answer": "Internet",
       "options": [
-        "research",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "readingText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "audioText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      "audioText": "Safe internet use is very important.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safe ____ use is very important.",
-      "answer": "internet",
+      "prompt": "What is the story mainly about?",
+      "answer": "Internet",
       "options": [
-        "internet",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "readingText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important.",
-      "audioText": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+      "audioText": "What is the story mainly about?",
+      "art": "🌐",
+      "questionText": "According to the story about Internet and Web Browsing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The internet connects computers worldwide. Web browsers help people access websites. Students use the internet for research. Safe internet use is very important."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

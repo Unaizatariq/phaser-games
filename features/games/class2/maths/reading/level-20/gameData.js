@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 20,
   "topic": "Fun with Math",
-  "teach": "Math is part of everyday life.",
-  "examples": [
-    "Math is part of everyday life.",
-    "We use math for shopping and counting.",
-    "Math develops thinking skills."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Math",
+      "prompt": "Math is part of everyday life.",
+      "answer": "Fun",
       "options": [
-        "Fun with Math",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Math is part of everyday life.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is part of ____ life.",
-      "answer": "everyday",
+      "prompt": "We use math for shopping and counting.",
+      "answer": "Fun",
       "options": [
-        "everyday",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "We use math for shopping and counting.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math for shopping and ____.",
-      "answer": "counting",
+      "prompt": "Math develops thinking skills.",
+      "answer": "Fun",
       "options": [
-        "counting",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Math develops thinking skills.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math develops thinking ____.",
-      "answer": "skills",
+      "prompt": "Learning math can be fun and exciting.",
+      "answer": "Fun",
       "options": [
-        "skills",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Learning math can be fun and exciting.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math can be fun and ____.",
-      "answer": "exciting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fun",
       "options": [
-        "exciting",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Math, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

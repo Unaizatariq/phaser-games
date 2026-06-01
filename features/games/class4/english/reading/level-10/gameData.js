@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 10,
   "topic": "A Brave Boy",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "bravery"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "One day, a small fire started in a house near Ali’s street.",
       "answer": "bravery",
       "options": [
         "bravery",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "audioText": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+      "audioText": "One day, a small fire started in a house near Ali’s street.",
+      "art": "📚",
+      "questionText": "According to the story about A Brave Boy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Ali quickly informed the neighbors and called for help.",
       "answer": "bravery",
       "options": [
         "bravery",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "audioText": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+      "audioText": "Ali quickly informed the neighbors and called for help.",
+      "art": "📚",
+      "questionText": "According to the story about A Brave Boy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Everyone came together to stop the fire before it spread further.",
       "answer": "bravery",
       "options": [
         "bravery",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "audioText": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+      "audioText": "Everyone came together to stop the fire before it spread further.",
+      "art": "📚",
+      "questionText": "According to the story about A Brave Boy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Ali’s bravery saved the family and their home.",
       "answer": "bravery",
       "options": [
         "bravery",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "audioText": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+      "audioText": "Ali’s bravery saved the family and their home.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "People praised him for his courage.",
       "answer": "bravery",
       "options": [
         "bravery",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage.",
-      "audioText": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+      "audioText": "People praised him for his courage.",
+      "art": "📚",
+      "questionText": "According to the story about A Brave Boy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "bravery",
+      "options": [
+        "bravery",
+        "laziness",
+        "anger",
+        "fear"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about A Brave Boy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "bravery": "🔹",
+        "laziness": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "One day, a small fire started in a house near Ali’s street. Ali quickly informed the neighbors and called for help. Everyone came together to stop the fire before it spread further. Ali’s bravery saved the family and their home. People praised him for his courage."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

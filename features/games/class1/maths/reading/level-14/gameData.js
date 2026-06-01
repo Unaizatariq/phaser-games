@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 14,
   "topic": "Heavy and Light",
-  "teach": "A rock is heavy.",
-  "examples": [
-    "A rock is heavy.",
-    "A feather is light.",
-    "Heavy things are hard to lift."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Heavy and Light",
+      "prompt": "A rock is heavy.",
+      "answer": "Heavy",
       "options": [
-        "Heavy and Light",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Heavy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "readingText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "audioText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      "audioText": "A rock is heavy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Heavy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A rock is ____.",
-      "answer": "heavy",
+      "prompt": "A feather is light.",
+      "answer": "Heavy",
       "options": [
-        "heavy",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Heavy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "readingText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "audioText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      "audioText": "A feather is light.",
+      "art": "📚",
+      "questionText": "According to the story about Heavy and Light, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Heavy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A feather is ____.",
-      "answer": "light",
+      "prompt": "Heavy things are hard to lift.",
+      "answer": "Heavy",
       "options": [
-        "light",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Heavy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "readingText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "audioText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      "audioText": "Heavy things are hard to lift.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Heavy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Heavy things are hard to ____.",
-      "answer": "lift",
+      "prompt": "Light things are easy to carry.",
+      "answer": "Heavy",
       "options": [
-        "lift",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Heavy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "readingText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "audioText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      "audioText": "Light things are easy to carry.",
+      "art": "📚",
+      "questionText": "According to the story about Heavy and Light, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Heavy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Light things are easy to ____.",
-      "answer": "carry",
+      "prompt": "What is the story mainly about?",
+      "answer": "Heavy",
       "options": [
-        "carry",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Heavy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "readingText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry.",
-      "audioText": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Heavy and Light, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Heavy": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A rock is heavy. A feather is light. Heavy things are hard to lift. Light things are easy to carry."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

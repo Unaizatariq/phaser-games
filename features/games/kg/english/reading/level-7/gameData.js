@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "Good Habits",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "wash hands"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I brush my teeth every morning.",
       "answer": "wash hands",
       "options": [
         "wash hands",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "break toys",
         "skip brushing"
       ],
-      "text": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "audioText": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+      "audioText": "I brush my teeth every morning.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "wash hands": "✋",
+        "throw food": "🔹",
+        "break toys": "🔹",
+        "skip brushing": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I wash my hands before eating food.",
       "answer": "wash hands",
       "options": [
         "wash hands",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "break toys",
         "skip brushing"
       ],
-      "text": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "audioText": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+      "audioText": "I wash my hands before eating food.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "wash hands": "✋",
+        "throw food": "🔹",
+        "break toys": "🔹",
+        "skip brushing": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "I keep my room clean.",
       "answer": "wash hands",
       "options": [
         "wash hands",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "break toys",
         "skip brushing"
       ],
-      "text": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "audioText": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+      "audioText": "I keep my room clean.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "wash hands": "✋",
+        "throw food": "🔹",
+        "break toys": "🔹",
+        "skip brushing": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Good habits make me healthy.",
       "answer": "wash hands",
       "options": [
         "wash hands",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "break toys",
         "skip brushing"
       ],
-      "text": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "audioText": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+      "audioText": "Good habits make me healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "wash hands": "✋",
+        "throw food": "🔹",
+        "break toys": "🔹",
+        "skip brushing": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "wash hands",
       "options": [
         "wash hands",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "break toys",
         "skip brushing"
       ],
-      "text": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy.",
-      "audioText": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Good Habits, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "wash hands": "✋",
+        "throw food": "🔹",
+        "break toys": "🔹",
+        "skip brushing": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I brush my teeth every morning. I wash my hands before eating food. I keep my room clean. Good habits make me healthy."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

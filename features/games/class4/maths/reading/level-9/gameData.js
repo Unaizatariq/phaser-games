@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Angles",
-  "teach": "Angles are formed when two lines meet.",
-  "examples": [
-    "Angles are formed when two lines meet.",
-    "Angles are measured in degrees.",
-    "Right angles measure 90 degrees."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Angles are formed when two lines meet.",
       "answer": "Angles",
       "options": [
         "Angles",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "readingText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "audioText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      "audioText": "Angles are formed when two lines meet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Angles are formed when two lines ____.",
-      "answer": "meet",
+      "prompt": "Angles are measured in degrees.",
+      "answer": "Angles",
       "options": [
-        "meet",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "readingText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "audioText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      "audioText": "Angles are measured in degrees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Angles are measured in ____.",
-      "answer": "degrees",
+      "prompt": "Right angles measure 90 degrees.",
+      "answer": "Angles",
       "options": [
-        "degrees",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "readingText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "audioText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      "audioText": "Right angles measure 90 degrees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Angles are important in ____.",
-      "answer": "geometry",
+      "prompt": "Angles are important in geometry.",
+      "answer": "Angles",
       "options": [
-        "geometry",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "readingText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "audioText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      "audioText": "Angles are important in geometry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "meet",
+      "prompt": "What is the story mainly about?",
+      "answer": "Angles",
       "options": [
-        "meet",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Angles",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "readingText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry.",
-      "audioText": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Angles, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Angles": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Angles are formed when two lines meet. Angles are measured in degrees. Right angles measure 90 degrees. Angles are important in geometry."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

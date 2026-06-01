@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 5,
   "topic": "پہلے اور بعد والے حروف",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "ب",
-    "پ",
-    "پ"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "الف کے بعد آنے والا حرف ٹریس کریں: ب",
       "answer": "ب",
-      "expected": "ب",
-      "options": [],
+      "options": [
+        {
+          "text": "ب",
+          "tts": "ب"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الف کے بعد آنے والا حرف ٹریس کریں: ب",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "ب": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "ب کے بعد آنے والا حرف ٹریس کریں: پ",
       "answer": "پ",
-      "expected": "پ",
-      "options": [],
+      "options": [
+        {
+          "text": "پ",
+          "tts": "پ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ب کے بعد آنے والا حرف ٹریس کریں: پ",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "پ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "ت سے پہلے آنے والا حرف ٹریس کریں: پ",
       "answer": "پ",
-      "expected": "پ",
-      "options": [],
+      "options": [
+        {
+          "text": "پ",
+          "tts": "پ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ت سے پہلے آنے والا حرف ٹریس کریں: پ",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "پ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "ج کے بعد آنے والا حرف ٹریس کریں: چ",
       "answer": "چ",
-      "expected": "چ",
-      "options": [],
+      "options": [
+        {
+          "text": "چ",
+          "tts": "چ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ج کے بعد آنے والا حرف ٹریس کریں: چ",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "چ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "د سے پہلے آنے والا حرف ٹریس کریں: خ",
       "answer": "خ",
-      "expected": "خ",
-      "options": [],
+      "options": [
+        {
+          "text": "خ",
+          "tts": "خ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "د سے پہلے آنے والا حرف ٹریس کریں: خ",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "خ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

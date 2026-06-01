@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 16,
   "topic": "Comparing Numbers",
-  "teach": "Numbers can be greater or smaller.",
-  "examples": [
-    "Numbers can be greater or smaller.",
-    "452 is greater than 321.",
-    "Symbols help compare numbers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Comparing Numbers",
+      "prompt": "Numbers can be greater or smaller.",
+      "answer": "Comparing",
       "options": [
-        "Comparing Numbers",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "readingText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "audioText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      "audioText": "Numbers can be greater or smaller.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers can be greater or ____.",
-      "answer": "smaller",
+      "prompt": "452 is greater than 321.",
+      "answer": "Comparing",
       "options": [
-        "smaller",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "readingText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "audioText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      "audioText": "452 is greater than 321.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 452 is greater than ____.",
-      "answer": "321",
+      "prompt": "Symbols help compare numbers.",
+      "answer": "Comparing",
       "options": [
-        "321",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "readingText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "audioText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      "audioText": "Symbols help compare numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symbols help compare ____.",
-      "answer": "numbers",
+      "prompt": "Comparing numbers improves understanding.",
+      "answer": "Comparing",
       "options": [
-        "numbers",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "readingText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "audioText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      "audioText": "Comparing numbers improves understanding.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Comparing numbers improves ____.",
-      "answer": "understanding",
+      "prompt": "What is the story mainly about?",
+      "answer": "Comparing",
       "options": [
-        "understanding",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "readingText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding.",
-      "audioText": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Numbers can be greater or smaller. 452 is greater than 321. Symbols help compare numbers. Comparing numbers improves understanding."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

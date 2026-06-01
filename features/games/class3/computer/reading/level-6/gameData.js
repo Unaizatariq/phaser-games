@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 6,
   "topic": "Uses of Computers",
-  "teach": "Computers are used in schools for learning.",
-  "examples": [
-    "Computers are used in schools for learning.",
-    "Doctors use computers in hospitals.",
-    "Banks use computers to keep records."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Uses of Computers",
+      "prompt": "Computers are used in schools for learning.",
+      "answer": "Uses",
       "options": [
-        "Uses of Computers",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "readingText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "audioText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      "audioText": "Computers are used in schools for learning.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are used in ____ for learning.",
-      "answer": "schools",
+      "prompt": "Doctors use computers in hospitals.",
+      "answer": "Uses",
       "options": [
-        "schools",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "readingText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "audioText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      "audioText": "Doctors use computers in hospitals.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Doctors use computers in ____.",
-      "answer": "hospitals",
+      "prompt": "Banks use computers to keep records.",
+      "answer": "Uses",
       "options": [
-        "hospitals",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "readingText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "audioText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      "audioText": "Banks use computers to keep records.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Banks use computers to keep ____.",
-      "answer": "records",
+      "prompt": "Computers help people communicate worldwide.",
+      "answer": "Uses",
       "options": [
-        "records",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "readingText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "audioText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      "audioText": "Computers help people communicate worldwide.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers help people communicate ____.",
-      "answer": "worldwide",
+      "prompt": "What is the story mainly about?",
+      "answer": "Uses",
       "options": [
-        "worldwide",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "readingText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide.",
-      "audioText": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are used in schools for learning. Doctors use computers in hospitals. Banks use computers to keep records. Computers help people communicate worldwide."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

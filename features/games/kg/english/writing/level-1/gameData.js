@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Capital Letter Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "A",
-    "F",
-    "K"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace capital letter A",
       "answer": "A",
-      "expected": "A",
-      "options": [],
+      "options": [
+        "A",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace capital letter A",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "A": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace capital letter F",
       "answer": "F",
-      "expected": "F",
-      "options": [],
+      "options": [
+        "F",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace capital letter F",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "F": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace capital letter K",
       "answer": "K",
-      "expected": "K",
-      "options": [],
+      "options": [
+        "K",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace capital letter K",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "K": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace capital letter P",
       "answer": "P",
-      "expected": "P",
-      "options": [],
+      "options": [
+        "P",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace capital letter P",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "P": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace capital letter Z",
       "answer": "Z",
-      "expected": "Z",
-      "options": [],
+      "options": [
+        "Z",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace capital letter Z",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Z": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

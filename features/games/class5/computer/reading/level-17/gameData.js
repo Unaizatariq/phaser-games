@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 17,
   "topic": "Uses of Computers in Different Fields",
-  "teach": "Computers are used in education and business.",
-  "examples": [
-    "Computers are used in education and business.",
-    "Doctors use computers in hospitals.",
-    "Scientists use computers for research."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Uses of Computers in Different Fields",
+      "prompt": "Computers are used in education and business.",
+      "answer": "Uses",
       "options": [
-        "Uses of Computers in Different Fields",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "readingText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "audioText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      "audioText": "Computers are used in education and business.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers in Different Fields, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are used in education and ____.",
-      "answer": "business",
+      "prompt": "Doctors use computers in hospitals.",
+      "answer": "Uses",
       "options": [
-        "business",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "readingText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "audioText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      "audioText": "Doctors use computers in hospitals.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers in Different Fields, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Doctors use computers in ____.",
-      "answer": "hospitals",
+      "prompt": "Scientists use computers for research.",
+      "answer": "Uses",
       "options": [
-        "hospitals",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "readingText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "audioText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      "audioText": "Scientists use computers for research.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers in Different Fields, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Scientists use computers for ____.",
-      "answer": "research",
+      "prompt": "Banks use computers to manage records.",
+      "answer": "Uses",
       "options": [
-        "research",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "readingText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "audioText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      "audioText": "Banks use computers to manage records.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers in Different Fields, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Banks use computers to manage ____.",
-      "answer": "records",
+      "prompt": "What is the story mainly about?",
+      "answer": "Uses",
       "options": [
-        "records",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "readingText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records.",
-      "audioText": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers in Different Fields, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are used in education and business. Doctors use computers in hospitals. Scientists use computers for research. Banks use computers to manage records."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

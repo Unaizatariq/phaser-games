@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 20,
   "topic": "Environment",
-  "teach": "Our surroundings are called environment.",
-  "examples": [
-    "Our surroundings are called environment.",
-    "Trees and plants make the environment beautiful.",
-    "We should keep our environment clean."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Our surroundings are called environment.",
       "answer": "Environment",
       "options": [
         "Environment",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "readingText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "audioText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      "audioText": "Our surroundings are called environment.",
+      "art": "🌎",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trees and plants make the environment ____.",
-      "answer": "beautiful",
+      "prompt": "Trees and plants make the environment beautiful.",
+      "answer": "Environment",
       "options": [
-        "beautiful",
-        "Living Things",
-        "move",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "readingText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "audioText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      "audioText": "Trees and plants make the environment beautiful.",
+      "art": "🌎",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep our environment ____.",
-      "answer": "clean",
+      "prompt": "We should keep our environment clean.",
+      "answer": "Environment",
       "options": [
-        "clean",
-        "Living Things",
-        "move",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "readingText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "audioText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      "audioText": "We should keep our environment clean.",
+      "art": "🌎",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean environment ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "Clean environment keeps us healthy.",
+      "answer": "Environment",
       "options": [
-        "keeps",
-        "Living Things",
-        "move",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "readingText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "audioText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      "audioText": "Clean environment keeps us healthy.",
+      "art": "🌎",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "environment",
+      "prompt": "What is the story mainly about?",
+      "answer": "Environment",
       "options": [
-        "environment",
-        "Living Things",
-        "move",
-        "things"
+        "Environment",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "readingText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy.",
-      "audioText": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "🌎",
+      "questionText": "According to the story about Environment, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Environment": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our surroundings are called environment. Trees and plants make the environment beautiful. We should keep our environment clean. Clean environment keeps us healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

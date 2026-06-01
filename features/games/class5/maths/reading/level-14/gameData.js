@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 14,
   "topic": "Time and Calendars",
-  "teach": "Time helps organize daily activities.",
-  "examples": [
-    "Time helps organize daily activities.",
-    "Calendars show days, weeks, and months.",
-    "There are 24 hours in one day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Time and Calendars",
+      "prompt": "Time helps organize daily activities.",
+      "answer": "Time",
       "options": [
-        "Time and Calendars",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "readingText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "audioText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      "audioText": "Time helps organize daily activities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time helps organize daily ____.",
-      "answer": "activities",
+      "prompt": "Calendars show days, weeks, and months.",
+      "answer": "Time",
       "options": [
-        "activities",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "readingText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "audioText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      "audioText": "Calendars show days, weeks, and months.",
+      "art": "📚",
+      "questionText": "According to the story about Time and Calendars, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Calendars show days, weeks, and ____.",
-      "answer": "months",
+      "prompt": "There are 24 hours in one day.",
+      "answer": "Time",
       "options": [
-        "months",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "readingText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "audioText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      "audioText": "There are 24 hours in one day.",
+      "art": "📚",
+      "questionText": "According to the story about Time and Calendars, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are 24 hours in one ____.",
-      "answer": "day",
+      "prompt": "Time management is important in life.",
+      "answer": "Time",
       "options": [
-        "day",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "readingText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "audioText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      "audioText": "Time management is important in life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time ____ is important in life.",
-      "answer": "management",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "management",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "readingText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life.",
-      "audioText": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time and Calendars, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Time helps organize daily activities. Calendars show days, weeks, and months. There are 24 hours in one day. Time management is important in life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 4,
-  "topic": "Opposites",
-  "teach": "Opposites are words with different meanings, such as hot and cold.",
-  "examples": [
-    "hot/cold",
-    "big/small",
-    "day/night"
-  ],
+  "topic": "friend",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "cold",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "cold",
-        "warm",
-        "red",
-        "light"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Opposite of hot is"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "short",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "long",
-        "short",
-        "wide",
-        "round"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Opposite of tall is"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "open and close",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "open and close",
-        "apple and mango",
-        "book and bag",
-        "red and blue"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Choose the opposite pair."
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "night",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "night",
-        "sun",
-        "morning",
-        "bright"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Opposite of day is"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "small",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "small",
-        "large",
-        "huge",
-        "round"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Complete: big and blank."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

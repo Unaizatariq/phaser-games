@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 10,
-  "topic": "Picture Description",
-  "teach": "Picture description means looking carefully and telling what we see: people, place, action and details.",
-  "examples": [
-    "look",
-    "notice",
-    "describe"
-  ],
+  "topic": "sentence",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "look carefully",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "look carefully",
-        "close eyes",
-        "run away",
-        "erase it"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "What should we do first?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Children are playing in the park.",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Children are playing in the park.",
-        "The sum is five.",
-        "A computer has keys.",
-        "The clock is round."
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Which sentence describes a park picture?"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "what we see",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "what we see",
-        "only numbers",
-        "only spelling",
-        "only time"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "A good description tells about"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "The girl is holding a red balloon.",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "The girl is holding a red balloon.",
-        "Balloon girl red holding.",
-        "Seven plus two.",
-        "Mouse keyboard monitor."
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Choose a describing sentence."
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "people, place and action",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "people, place and action",
-        "only dots",
-        "only months",
-        "only tables"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "We can mention"
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

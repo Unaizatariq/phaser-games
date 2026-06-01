@@ -1,158 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 9,
-  "topic": "Y for Yacht / Z for Zebra",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "yacht",
-    "zebra"
-  ],
+  "topic": "I for Ice Cream",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "yacht",
+      "prompt": "I is for ice cream.",
+      "answer": "ice cream",
       "options": [
-        "yacht",
-        "xylophone",
-        "van",
-        "kite"
+        "ice cream",
+        "juice",
+        "orange",
+        "mango"
       ],
-      "text": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "audioText": "Y is for yacht. The yacht sails on water. It is a beautiful boat."
+      "audioText": "I is for ice cream.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ice cream": "🔹",
+        "juice": "🔹",
+        "orange": "🍊",
+        "mango": "🥭"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "yacht",
+      "prompt": "Ice cream is cold and sweet.",
+      "answer": "ice cream",
       "options": [
-        "yacht",
-        "xylophone",
-        "van",
-        "kite"
+        "ice cream",
+        "juice",
+        "orange",
+        "mango"
       ],
-      "text": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "audioText": "Y is for yacht. The yacht sails on water. It is a beautiful boat."
+      "audioText": "Ice cream is cold and sweet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ice cream": "🔹",
+        "juice": "🔹",
+        "orange": "🍊",
+        "mango": "🥭"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "yacht",
+      "prompt": "I like chocolate flavor.",
+      "answer": "ice cream",
       "options": [
-        "yacht",
-        "xylophone",
-        "van",
-        "kite"
+        "ice cream",
+        "juice",
+        "orange",
+        "mango"
       ],
-      "text": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "audioText": "Y is for yacht. The yacht sails on water. It is a beautiful boat."
+      "audioText": "I like chocolate flavor.",
+      "art": "📚",
+      "questionText": "According to the story about I for Ice Cream, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ice cream": "🔹",
+        "juice": "🔹",
+        "orange": "🍊",
+        "mango": "🥭"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "yacht",
+      "prompt": "What is the story mainly about?",
+      "answer": "ice cream",
       "options": [
-        "yacht",
-        "xylophone",
-        "van",
-        "kite"
+        "ice cream",
+        "juice",
+        "orange",
+        "mango"
       ],
-      "text": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "audioText": "Y is for yacht. The yacht sails on water. It is a beautiful boat."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about I for Ice Cream, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ice cream": "🔹",
+        "juice": "🔹",
+        "orange": "🍊",
+        "mango": "🥭"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "yacht",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "yacht",
-        "xylophone",
-        "van",
-        "kite"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat.",
-      "audioText": "Y is for yacht. The yacht sails on water. It is a beautiful boat."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "zebra",
-      "options": [
-        "zebra",
-        "tiger",
-        "lion",
-        "goat"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "👧",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "audioText": "Z is for zebra. The zebra has black and white stripes. It runs very fast."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "zebra",
-      "options": [
-        "zebra",
-        "tiger",
-        "lion",
-        "goat"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "audioText": "Z is for zebra. The zebra has black and white stripes. It runs very fast."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "zebra",
-      "options": [
-        "zebra",
-        "tiger",
-        "lion",
-        "goat"
-      ],
-      "text": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "audioText": "Z is for zebra. The zebra has black and white stripes. It runs very fast."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "zebra",
-      "options": [
-        "zebra",
-        "tiger",
-        "lion",
-        "goat"
-      ],
-      "text": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "audioText": "Z is for zebra. The zebra has black and white stripes. It runs very fast."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "zebra",
-      "options": [
-        "zebra",
-        "tiger",
-        "lion",
-        "goat"
-      ],
-      "text": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "passage": "Z is for zebra. The zebra has black and white stripes. It runs very fast.",
-      "audioText": "Z is for zebra. The zebra has black and white stripes. It runs very fast."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Y is for yacht. The yacht sails on water. It is a beautiful boat. Z is for zebra. The zebra has black and white stripes. It runs very fast."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

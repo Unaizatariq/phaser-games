@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 4,
   "topic": "Rapid Typing Challenge",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Keyboard",
-    "PowerPoint",
-    "Internet"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Quickly type: Keyboard",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Quickly type: Keyboard",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Quickly type: PowerPoint",
       "answer": "PowerPoint",
-      "expected": "PowerPoint",
-      "options": [],
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Quickly type: PowerPoint",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Quickly type: Internet",
       "answer": "Internet",
-      "expected": "Internet",
-      "options": [],
+      "options": [
+        "Internet",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Quickly type: Internet",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🌐",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Internet": "🌐",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Quickly type: Programming",
       "answer": "Programming",
-      "expected": "Programming",
-      "options": [],
+      "options": [
+        "Programming",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Quickly type: Programming",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Programming": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Quickly type: Technology",
       "answer": "Technology",
-      "expected": "Technology",
-      "options": [],
+      "options": [
+        "Technology",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Quickly type: Technology",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Technology": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

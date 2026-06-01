@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 2,
-  "topic": "D for Dog / E for Elephant / F for Fish",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "dog",
-    "elephant",
-    "fish"
-  ],
+  "topic": "B for Ball",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "dog",
+      "prompt": "B is for ball.",
+      "answer": "ball",
       "options": [
-        "dog",
-        "cat",
-        "fish",
-        "lion"
+        "ball",
+        "apple",
+        "kite",
+        "fish"
       ],
-      "text": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "audioText": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside."
+      "audioText": "B is for ball.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ball": "⚽",
+        "apple": "🍎",
+        "kite": "🪁",
+        "fish": "🐟"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "dog",
+      "prompt": "The ball is round and colorful.",
+      "answer": "ball",
       "options": [
-        "dog",
-        "cat",
-        "fish",
-        "lion"
+        "ball",
+        "apple",
+        "kite",
+        "fish"
       ],
-      "text": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "audioText": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside."
+      "audioText": "The ball is round and colorful.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ball": "⚽",
+        "apple": "🍎",
+        "kite": "🪁",
+        "fish": "🐟"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "dog",
+      "prompt": "Bilal plays with the ball.",
+      "answer": "ball",
       "options": [
-        "dog",
-        "cat",
-        "fish",
-        "lion"
+        "ball",
+        "apple",
+        "kite",
+        "fish"
       ],
-      "text": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "audioText": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside."
+      "audioText": "Bilal plays with the ball.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ball": "⚽",
+        "apple": "🍎",
+        "kite": "🪁",
+        "fish": "🐟"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "dog",
+      "prompt": "What is the story mainly about?",
+      "answer": "ball",
       "options": [
-        "dog",
-        "cat",
-        "fish",
-        "lion"
+        "ball",
+        "apple",
+        "kite",
+        "fish"
       ],
-      "text": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "audioText": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about B for Ball, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ball": "⚽",
+        "apple": "🍎",
+        "kite": "🪁",
+        "fish": "🐟"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "dog",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "dog",
-        "cat",
-        "fish",
-        "lion"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside.",
-      "audioText": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "elephant",
-      "options": [
-        "elephant",
-        "fish",
-        "goat",
-        "hen"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "💧",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "audioText": "E is for elephant. The elephant is very big and strong. It has a long trunk."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "elephant",
-      "options": [
-        "elephant",
-        "fish",
-        "goat",
-        "hen"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "audioText": "E is for elephant. The elephant is very big and strong. It has a long trunk."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "elephant",
-      "options": [
-        "elephant",
-        "fish",
-        "goat",
-        "hen"
-      ],
-      "text": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "audioText": "E is for elephant. The elephant is very big and strong. It has a long trunk."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "elephant",
-      "options": [
-        "elephant",
-        "fish",
-        "goat",
-        "hen"
-      ],
-      "text": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "audioText": "E is for elephant. The elephant is very big and strong. It has a long trunk."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "elephant",
-      "options": [
-        "elephant",
-        "fish",
-        "goat",
-        "hen"
-      ],
-      "text": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "passage": "E is for elephant. The elephant is very big and strong. It has a long trunk.",
-      "audioText": "E is for elephant. The elephant is very big and strong. It has a long trunk."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "fish",
-      "options": [
-        "fish",
-        "dog",
-        "cat",
-        "kite"
-      ],
-      "text": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "audioText": "F is for fish. The fish swims in water. It has shiny fins and a tail."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "fish",
-      "options": [
-        "fish",
-        "dog",
-        "cat",
-        "kite"
-      ],
-      "text": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "audioText": "F is for fish. The fish swims in water. It has shiny fins and a tail."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "fish",
-      "options": [
-        "fish",
-        "dog",
-        "cat",
-        "kite"
-      ],
-      "text": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "audioText": "F is for fish. The fish swims in water. It has shiny fins and a tail."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "fish",
-      "options": [
-        "fish",
-        "dog",
-        "cat",
-        "kite"
-      ],
-      "text": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "audioText": "F is for fish. The fish swims in water. It has shiny fins and a tail."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "fish",
-      "options": [
-        "fish",
-        "dog",
-        "cat",
-        "kite"
-      ],
-      "text": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "passage": "F is for fish. The fish swims in water. It has shiny fins and a tail.",
-      "audioText": "F is for fish. The fish swims in water. It has shiny fins and a tail."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "D is for dog. The dog barks loudly. Daniyal plays with his dog outside. E is for elephant. The elephant is very big and strong. It has a long trunk. F is for fish. The fish swims in water. It has shiny fins and a tail."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

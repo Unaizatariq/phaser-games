@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Birds",
-  "teach": "Birds have wings and feathers.",
-  "examples": [
-    "Birds have wings and feathers.",
-    "Most birds can fly.",
-    "Birds build nests on trees."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Birds have wings and feathers.",
       "answer": "Birds",
       "options": [
         "Birds",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "readingText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "audioText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      "audioText": "Birds have wings and feathers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds have wings and ____.",
-      "answer": "feathers",
+      "prompt": "Most birds can fly.",
+      "answer": "Birds",
       "options": [
-        "feathers",
-        "Living Things",
-        "move",
-        "things"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "readingText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "audioText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      "audioText": "Most birds can fly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Most birds can ____.",
-      "answer": "fly",
+      "prompt": "Birds build nests on trees.",
+      "answer": "Birds",
       "options": [
-        "fly",
-        "Living Things",
-        "move",
-        "things"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "readingText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "audioText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      "audioText": "Birds build nests on trees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds build nests on ____.",
-      "answer": "trees",
+      "prompt": "They lay eggs.",
+      "answer": "Birds",
       "options": [
-        "trees",
-        "Living Things",
-        "move",
-        "things"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "readingText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "audioText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      "audioText": "They lay eggs.",
+      "art": "📚",
+      "questionText": "According to the story about Birds, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They lay ____.",
-      "answer": "eggs",
+      "prompt": "What is the story mainly about?",
+      "answer": "Birds",
       "options": [
-        "eggs",
-        "Living Things",
-        "move",
-        "things"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "readingText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs.",
-      "audioText": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Birds, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Birds have wings and feathers. Most birds can fly. Birds build nests on trees. They lay eggs."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

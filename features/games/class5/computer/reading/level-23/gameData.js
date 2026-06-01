@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 23,
-  "topic": "Importance of Technology",
-  "teach": "Technology makes life easier and faster.",
-  "examples": [
-    "Technology makes life easier and faster.",
-    "Students use technology for education.",
-    "Communication has improved because of technology."
-  ],
+  "topic": "Input and Output Devices",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Technology",
+      "prompt": "Input devices help users enter data into computers.",
+      "answer": "Input",
       "options": [
-        "Importance of Technology",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Input devices help users enter data into computers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes life easier and ____.",
-      "answer": "faster",
+      "prompt": "Keyboard, mouse, and scanner are input devices.",
+      "answer": "Input",
       "options": [
-        "faster",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Keyboard, mouse, and scanner are input devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use technology for ____.",
-      "answer": "education",
+      "prompt": "Monitor and printer are output devices.",
+      "answer": "Input",
       "options": [
-        "education",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Monitor and printer are output devices.",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Communication has improved because of ____.",
-      "answer": "technology",
+      "prompt": "These devices help people interact with computers.",
+      "answer": "Input",
       "options": [
-        "technology",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "These devices help people interact with computers.",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps ____ in daily life.",
-      "answer": "people",
+      "prompt": "What is the story mainly about?",
+      "answer": "Input",
       "options": [
-        "people",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

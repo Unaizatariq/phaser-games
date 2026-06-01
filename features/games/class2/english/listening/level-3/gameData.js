@@ -1,56 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 3,
   "topic": "Sentence Making",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "I am happy",
-    "She plays football",
-    "They are friends"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Choose the correct sentence.",
-      "answer": "I am happy",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "I am happy",
-        "Happy I am",
-        "Am happy I",
-        "I happy Iam"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Choose the correct sentence.",
-      "gameplayType": "listen-tap"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the complete sentence.",
-      "answer": "She plays football",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "She plays football",
-        "Football she plays",
-        "Plays football"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Tap the complete sentence.",
-      "gameplayType": "drag-drop"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the correct sentence.",
-      "answer": "They are friends",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "They are friends",
-        "Friends are they",
-        "They friends"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Catch the correct sentence.",
-      "gameplayType": "basket-catch"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
+      "options": [
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
+      ],
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
+    },
+    {
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

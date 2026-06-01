@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Healthy Food",
-  "teach": "Fruits are healthy.",
-  "examples": [
-    "Fruits are healthy.",
-    "Milk makes us strong."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Food",
+      "prompt": "Fruits are healthy. Milk makes us strong.",
+      "answer": "Healthy",
       "options": [
-        "Healthy Food",
-        "My Body",
-        "Animals",
-        "Birds"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits are healthy. Milk makes us strong.",
-      "readingText": "Fruits are healthy. Milk makes us strong.",
-      "audioText": "Fruits are healthy. Milk makes us strong."
+      "audioText": "Fruits are healthy. Milk makes us strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "Fruits are healthy.",
+        "Milk makes us strong."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ are healthy.",
-      "answer": "Fruits",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "Fruits",
-        "My Body",
-        "eyes",
-        "hands"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits are healthy. Milk makes us strong.",
-      "readingText": "Fruits are healthy. Milk makes us strong.",
-      "audioText": "Fruits are healthy. Milk makes us strong."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Milk ____ us strong.",
-      "answer": "makes",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "makes",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Fruits are healthy. Milk makes us strong.",
-      "readingText": "Fruits are healthy. Milk makes us strong.",
-      "audioText": "Fruits are healthy. Milk makes us strong."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "💡",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Fruits",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "Fruits",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Fruits are healthy. Milk makes us strong.",
-      "readingText": "Fruits are healthy. Milk makes us strong.",
-      "audioText": "Fruits are healthy. Milk makes us strong."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🌎",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "makes",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "makes",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Fruits are healthy. Milk makes us strong.",
-      "readingText": "Fruits are healthy. Milk makes us strong.",
-      "audioText": "Fruits are healthy. Milk makes us strong."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌱",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fruits are healthy. Milk makes us strong."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

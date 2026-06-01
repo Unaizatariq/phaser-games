@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 3,
   "topic": "پ سے پتنگ",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "پتنگ"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "پ سے پتنگ۔",
       "answer": "پتنگ",
       "options": [
-        "پتنگ",
-        "بلی",
-        "کتا",
-        "مرغی"
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "مرغی",
+          "tts": "مرغی"
+        }
       ],
-      "text": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "audioText": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+      "audioText": "پ سے پتنگ۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "پ سے پتنگ۔",
+      "narrationTTS": "پ سے پتنگ۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
+      "prompt": "پتنگ آسمان میں اونچی اڑتی ہے۔",
       "answer": "پتنگ",
       "options": [
-        "پتنگ",
-        "بلی",
-        "کتا",
-        "مرغی"
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "مرغی",
+          "tts": "مرغی"
+        }
       ],
-      "text": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "audioText": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+      "audioText": "پتنگ آسمان میں اونچی اڑتی ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "پتنگ آسمان میں اونچی اڑتی ہے۔",
+      "narrationTTS": "پتنگ آسمان میں اونچی اڑتی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
       "answer": "پتنگ",
       "options": [
-        "پتنگ",
-        "بلی",
-        "کتا",
-        "مرغی"
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        },
+        {
+          "text": "مرغی",
+          "tts": "مرغی"
+        }
       ],
-      "text": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "audioText": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+      "audioText": "بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
+      "narrationTTS": "بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "پتنگ",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "پتنگ",
-        "بلی",
-        "کتا",
-        "مرغی"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        }
       ],
-      "text": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "audioText": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "پتنگ",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "پتنگ",
-        "بلی",
-        "کتا",
-        "مرغی"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔",
-      "audioText": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "پ سے پتنگ۔ پتنگ آسمان میں اونچی اڑتی ہے۔ بچے پتنگ دیکھ کر خوش ہوتے ہیں۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

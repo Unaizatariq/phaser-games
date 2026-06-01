@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 3,
-  "topic": "G for Goat / H for Hen / I for Ice Cream",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "goat",
-    "hen",
-    "ice cream"
-  ],
+  "topic": "C for Cat",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "goat",
+      "prompt": "C is for cat.",
+      "answer": "cat",
       "options": [
+        "cat",
+        "dog",
         "goat",
-        "hen",
-        "lion",
-        "rabbit"
+        "hen"
       ],
-      "text": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "audioText": "G is for goat. The goat eats green grass. It lives on a farm."
+      "audioText": "C is for cat.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "goat",
+      "prompt": "The cat is soft and small.",
+      "answer": "cat",
       "options": [
+        "cat",
+        "dog",
         "goat",
-        "hen",
-        "lion",
-        "rabbit"
+        "hen"
       ],
-      "text": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "audioText": "G is for goat. The goat eats green grass. It lives on a farm."
+      "audioText": "The cat is soft and small.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "goat",
+      "prompt": "It drinks milk every morning.",
+      "answer": "cat",
       "options": [
+        "cat",
+        "dog",
         "goat",
-        "hen",
-        "lion",
-        "rabbit"
+        "hen"
       ],
-      "text": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "audioText": "G is for goat. The goat eats green grass. It lives on a farm."
+      "audioText": "It drinks milk every morning.",
+      "art": "📚",
+      "questionText": "According to the story about C for Cat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "goat",
+      "prompt": "What is the story mainly about?",
+      "answer": "cat",
       "options": [
+        "cat",
+        "dog",
         "goat",
-        "hen",
-        "lion",
-        "rabbit"
+        "hen"
       ],
-      "text": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "audioText": "G is for goat. The goat eats green grass. It lives on a farm."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about C for Cat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "goat",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "goat",
-        "hen",
-        "lion",
-        "rabbit"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "passage": "G is for goat. The goat eats green grass. It lives on a farm.",
-      "audioText": "G is for goat. The goat eats green grass. It lives on a farm."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "hen",
-      "options": [
-        "hen",
-        "goat",
-        "parrot",
-        "zebra"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🐄",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "audioText": "H is for hen. The hen lays eggs every day. It walks around happily."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "hen",
-      "options": [
-        "hen",
-        "goat",
-        "parrot",
-        "zebra"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "audioText": "H is for hen. The hen lays eggs every day. It walks around happily."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "hen",
-      "options": [
-        "hen",
-        "goat",
-        "parrot",
-        "zebra"
-      ],
-      "text": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "audioText": "H is for hen. The hen lays eggs every day. It walks around happily."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "hen",
-      "options": [
-        "hen",
-        "goat",
-        "parrot",
-        "zebra"
-      ],
-      "text": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "audioText": "H is for hen. The hen lays eggs every day. It walks around happily."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "hen",
-      "options": [
-        "hen",
-        "goat",
-        "parrot",
-        "zebra"
-      ],
-      "text": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "passage": "H is for hen. The hen lays eggs every day. It walks around happily.",
-      "audioText": "H is for hen. The hen lays eggs every day. It walks around happily."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "ice cream",
-      "options": [
-        "ice cream",
-        "juice",
-        "orange",
-        "mango"
-      ],
-      "text": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "audioText": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "ice cream",
-      "options": [
-        "ice cream",
-        "juice",
-        "orange",
-        "mango"
-      ],
-      "text": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "audioText": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "ice cream",
-      "options": [
-        "ice cream",
-        "juice",
-        "orange",
-        "mango"
-      ],
-      "text": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "audioText": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "ice cream",
-      "options": [
-        "ice cream",
-        "juice",
-        "orange",
-        "mango"
-      ],
-      "text": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "audioText": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "ice cream",
-      "options": [
-        "ice cream",
-        "juice",
-        "orange",
-        "mango"
-      ],
-      "text": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "passage": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor.",
-      "audioText": "I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "G is for goat. The goat eats green grass. It lives on a farm. H is for hen. The hen lays eggs every day. It walks around happily. I is for ice cream. Ice cream is cold and sweet. I like chocolate flavor."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

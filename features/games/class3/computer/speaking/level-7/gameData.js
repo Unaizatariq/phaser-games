@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 7,
-  "topic": "Drawing Simple Pictures",
-  "teach": "Drawing Simple Pictures is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Drawing Simple Pictures",
-    "example",
-    "practice"
-  ],
+  "topic": "Keyboard Keys",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Drawing Simple Pictures",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Which key gives space between words?",
+      "answer": "Spacebar",
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key gives space between words?",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Which key deletes letters?",
+      "answer": "Backspace",
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key deletes letters?",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Which key moves to next line?",
+      "answer": "Enter",
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key moves to next line?",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Which keys are used for typing letters?",
+      "answer": "Alphabet Keys",
+      "options": [
+        "Alphabet Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which keys are used for typing letters?",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Alphabet Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Which keys type numbers?",
+      "answer": "Number Keys",
+      "options": [
+        "Number Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which keys type numbers?",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Number Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

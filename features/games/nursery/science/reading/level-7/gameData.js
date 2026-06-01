@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 7,
   "topic": "Moon",
-  "teach": "The moon shines at night.",
-  "examples": [
-    "The moon shines at night.",
-    "The moon looks beautiful."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The moon shines at night. The moon looks beautiful.",
       "answer": "Moon",
       "options": [
         "Moon",
-        "Eyes",
-        "Ears",
-        "Nose"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. The moon looks beautiful.",
-      "readingText": "The moon shines at night. The moon looks beautiful.",
-      "audioText": "The moon shines at night. The moon looks beautiful."
+      "audioText": "The moon shines at night. The moon looks beautiful.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "The moon shines at night.",
+        "The moon looks beautiful."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Moon": "🌙",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon shines at ____.",
-      "answer": "night",
+      "prompt": "What is the story mainly about?",
+      "answer": "Moon",
       "options": [
-        "night",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Moon",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. The moon looks beautiful.",
-      "readingText": "The moon shines at night. The moon looks beautiful.",
-      "audioText": "The moon shines at night. The moon looks beautiful."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Moon, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Moon": "🌙",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon looks ____.",
-      "answer": "beautiful",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "beautiful",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "The moon shines at night. The moon looks beautiful.",
-      "readingText": "The moon shines at night. The moon looks beautiful.",
-      "audioText": "The moon shines at night. The moon looks beautiful."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🌎",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "night",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "night",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "The moon shines at night. The moon looks beautiful.",
-      "readingText": "The moon shines at night. The moon looks beautiful.",
-      "audioText": "The moon shines at night. The moon looks beautiful."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🌱",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "beautiful",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "beautiful",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "The moon shines at night. The moon looks beautiful.",
-      "readingText": "The moon shines at night. The moon looks beautiful.",
-      "audioText": "The moon shines at night. The moon looks beautiful."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌿",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The moon shines at night. The moon looks beautiful."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

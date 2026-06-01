@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Keyboard Typing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Apple",
-    "Ball",
-    "School"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type the word: Apple",
       "answer": "Apple",
-      "expected": "Apple",
-      "options": [],
+      "options": [
+        "Apple",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type the word: Apple",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Apple": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the word: Ball",
       "answer": "Ball",
-      "expected": "Ball",
-      "options": [],
+      "options": [
+        "Ball",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type the word: Ball",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ball": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the word: School",
       "answer": "School",
-      "expected": "School",
-      "options": [],
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
       "audioText": "Type the word: School",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🏫",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the word: Teacher",
       "answer": "Teacher",
-      "expected": "Teacher",
-      "options": [],
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type the word: Teacher",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the word: Book",
       "answer": "Book",
-      "expected": "Book",
-      "options": [],
+      "options": [
+        "Book",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type the word: Book",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Book": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

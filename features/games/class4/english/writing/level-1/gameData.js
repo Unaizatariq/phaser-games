@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Tenses Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "I go to school.",
-    "I went to school.",
-    "I will go to school."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Write sentence in present tense",
       "answer": "I go to school.",
-      "expected": "I go to school.",
-      "options": [],
+      "options": [
+        "I go to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write sentence in present tense",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I go to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write sentence in past tense",
       "answer": "I went to school.",
-      "expected": "I went to school.",
-      "options": [],
+      "options": [
+        "I went to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write sentence in past tense",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "I went to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write sentence in future tense",
       "answer": "I will go to school.",
-      "expected": "I will go to school.",
-      "options": [],
+      "options": [
+        "I will go to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write sentence in future tense",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "I will go to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write present continuous sentence",
       "answer": "I am reading a book.",
-      "expected": "I am reading a book.",
-      "options": [],
+      "options": [
+        "I am reading a book.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write present continuous sentence",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I am reading a book.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write past continuous sentence",
       "answer": "I was reading a book.",
-      "expected": "I was reading a book.",
-      "options": [],
+      "options": [
+        "I was reading a book.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write past continuous sentence",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "I was reading a book.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

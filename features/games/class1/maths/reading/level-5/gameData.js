@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Subtraction",
-  "teach": "Subtraction means taking away.",
-  "examples": [
-    "Subtraction means taking away.",
-    "5 balloons take away 2 balloons leaves 3 balloons.",
-    "Subtraction decreases numbers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Subtraction means taking away.",
       "answer": "Subtraction",
       "options": [
         "Subtraction",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "readingText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "audioText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      "audioText": "Subtraction means taking away.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction means taking ____.",
-      "answer": "away",
+      "prompt": "5 balloons take away 2 balloons leaves 3 balloons.",
+      "answer": "Subtraction",
       "options": [
-        "away",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "readingText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "audioText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      "audioText": "5 balloons take away 2 balloons leaves 3 balloons.",
+      "art": "➖",
+      "questionText": "According to the story about Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 5 ____ take away 2 balloons leaves 3 balloons.",
-      "answer": "balloons",
+      "prompt": "Subtraction decreases numbers.",
+      "answer": "Subtraction",
       "options": [
-        "balloons",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "readingText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "audioText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      "audioText": "Subtraction decreases numbers.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction decreases ____.",
-      "answer": "numbers",
+      "prompt": "Subtraction helps us solve problems.",
+      "answer": "Subtraction",
       "options": [
-        "numbers",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "readingText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "audioText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      "audioText": "Subtraction helps us solve problems.",
+      "art": "➖",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction helps us solve ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Subtraction",
       "options": [
-        "problems",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Subtraction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "readingText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems.",
-      "audioText": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+      "audioText": "What is the story mainly about?",
+      "art": "➖",
+      "questionText": "According to the story about Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Subtraction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Subtraction means taking away. 5 balloons take away 2 balloons leaves 3 balloons. Subtraction decreases numbers. Subtraction helps us solve problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

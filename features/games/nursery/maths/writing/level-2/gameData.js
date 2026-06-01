@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 2,
   "topic": "Shape Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "Circle",
-    "Triangle",
-    "Square"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace Circle",
       "answer": "Circle",
-      "expected": "Circle",
-      "options": [],
+      "options": [
+        "Circle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace Circle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Circle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Triangle",
       "answer": "Triangle",
-      "expected": "Triangle",
-      "options": [],
+      "options": [
+        "Triangle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace Triangle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Triangle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Square",
       "answer": "Square",
-      "expected": "Square",
-      "options": [],
+      "options": [
+        "Square",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace Square",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Square": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Rectangle",
       "answer": "Rectangle",
-      "expected": "Rectangle",
-      "options": [],
+      "options": [
+        "Rectangle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace Rectangle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Rectangle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Star",
       "answer": "Star",
-      "expected": "Star",
-      "options": [],
+      "options": [
+        "Star",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace Star",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Star": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

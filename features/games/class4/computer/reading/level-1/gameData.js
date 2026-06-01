@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 1,
   "topic": "Introduction to Computers",
-  "teach": "Computers are electronic devices used for many purposes.",
-  "examples": [
-    "Computers are electronic devices used for many purposes.",
-    "They help people work faster and more accurately.",
-    "Computers are used in schools, hospitals, banks, and homes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Introduction to Computers",
+      "prompt": "Computers are electronic devices used for many purposes.",
+      "answer": "Introduction",
       "options": [
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software",
-        "Input and Output Devices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "readingText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "audioText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      "audioText": "Computers are electronic devices used for many purposes.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are electronic devices used for many ____.",
-      "answer": "purposes",
+      "prompt": "They help people work faster and more accurately.",
+      "answer": "Introduction",
       "options": [
-        "purposes",
-        "Introduction to Computers",
-        "accurately",
-        "homes"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "readingText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "audioText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      "audioText": "They help people work faster and more accurately.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They help people work faster and more ____.",
-      "answer": "accurately",
+      "prompt": "Computers are used in schools, hospitals, banks, and homes.",
+      "answer": "Introduction",
       "options": [
-        "accurately",
-        "Introduction to Computers",
-        "purposes",
-        "homes"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "readingText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "audioText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      "audioText": "Computers are used in schools, hospitals, banks, and homes.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are used in schools, hospitals, banks, and ____.",
-      "answer": "homes",
+      "prompt": "Modern life depends heavily on computers.",
+      "answer": "Introduction",
       "options": [
-        "homes",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "readingText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "audioText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      "audioText": "Modern life depends heavily on computers.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Modern life depends heavily on ____.",
-      "answer": "computers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "readingText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers.",
-      "audioText": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are electronic devices used for many purposes. They help people work faster and more accurately. Computers are used in schools, hospitals, banks, and homes. Modern life depends heavily on computers."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Animals Around Us",
-  "teach": "Animals live around us.",
-  "examples": [
-    "Animals live around us.",
-    "Some animals are big.",
-    "Some animals are small."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Animals Around Us",
-      "options": [
-        "Animals Around Us",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
-      ],
-      "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "readingText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "audioText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals live ____ us.",
-      "answer": "around",
-      "options": [
-        "around",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "readingText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "audioText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some animals are ____.",
-      "answer": "big",
-      "options": [
-        "big",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "readingText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "audioText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some animals are ____.",
-      "answer": "small",
-      "options": [
-        "small",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "readingText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "audioText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ are useful for us.",
+      "prompt": "Animals live around us.",
       "answer": "Animals",
       "options": [
         "Animals",
-        "My Body",
-        "things",
-        "ears"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "readingText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us.",
-      "audioText": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
+      "audioText": "Animals live around us.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Some animals are big.",
+      "answer": "Animals",
+      "options": [
+        "Animals",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Some animals are big.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Some animals are small.",
+      "answer": "Animals",
+      "options": [
+        "Animals",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Some animals are small.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Animals are useful for us.",
+      "answer": "Animals",
+      "options": [
+        "Animals",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Animals are useful for us.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
+      "options": [
+        "Animals",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals live around us. Some animals are big. Some animals are small. Animals are useful for us."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

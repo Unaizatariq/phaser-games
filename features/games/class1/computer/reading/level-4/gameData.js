@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 4,
   "topic": "Keyboard",
-  "teach": "The keyboard has many keys.",
-  "examples": [
-    "The keyboard has many keys.",
-    "We use it to type letters and numbers.",
-    "Each key has a special use."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The keyboard has many keys.",
       "answer": "Keyboard",
       "options": [
         "Keyboard",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "readingText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "audioText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      "audioText": "The keyboard has many keys.",
+      "art": "⌨️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The keyboard has many ____.",
-      "answer": "keys",
+      "prompt": "We use it to type letters and numbers.",
+      "answer": "Keyboard",
       "options": [
-        "keys",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "readingText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "audioText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      "audioText": "We use it to type letters and numbers.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use it to type letters and ____.",
-      "answer": "numbers",
+      "prompt": "Each key has a special use.",
+      "answer": "Keyboard",
       "options": [
-        "numbers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "readingText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "audioText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      "audioText": "Each key has a special use.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Each key has a ____ use.",
-      "answer": "special",
+      "prompt": "The keyboard helps us write.",
+      "answer": "Keyboard",
       "options": [
-        "special",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "readingText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "audioText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      "audioText": "The keyboard helps us write.",
+      "art": "⌨️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The keyboard helps us ____.",
-      "answer": "write",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keyboard",
       "options": [
-        "write",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "readingText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write.",
-      "audioText": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+      "audioText": "What is the story mainly about?",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The keyboard has many keys. We use it to type letters and numbers. Each key has a special use. The keyboard helps us write."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

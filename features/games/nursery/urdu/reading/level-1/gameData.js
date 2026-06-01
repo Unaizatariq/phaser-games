@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 1,
   "topic": "ا سے سیب",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "سیب"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "ا سے سیب۔",
       "answer": "سیب",
       "options": [
-        "سیب",
-        "گیند",
-        "بلی",
-        "کتا"
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        }
       ],
-      "text": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "audioText": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+      "audioText": "ا سے سیب۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "ا سے سیب۔",
+      "narrationTTS": "ا سے سیب۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
+      "prompt": "سیب سرخ اور میٹھا ہوتا ہے۔",
       "answer": "سیب",
       "options": [
-        "سیب",
-        "گیند",
-        "بلی",
-        "کتا"
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        }
       ],
-      "text": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "audioText": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+      "audioText": "سیب سرخ اور میٹھا ہوتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "سیب سرخ اور میٹھا ہوتا ہے۔",
+      "narrationTTS": "سیب سرخ اور میٹھا ہوتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "علی روز سیب کھاتا ہے۔",
       "answer": "سیب",
       "options": [
-        "سیب",
-        "گیند",
-        "بلی",
-        "کتا"
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "کتا",
+          "tts": "کتا"
+        }
       ],
-      "text": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "audioText": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+      "audioText": "علی روز سیب کھاتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "علی روز سیب کھاتا ہے۔",
+      "narrationTTS": "علی روز سیب کھاتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "سیب",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "سیب",
-        "گیند",
-        "بلی",
-        "کتا"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "سیب",
+          "tts": "سیب"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        }
       ],
-      "text": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "audioText": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "سیب",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "سیب",
-        "گیند",
-        "بلی",
-        "کتا"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔",
-      "audioText": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "ا سے سیب۔ سیب سرخ اور میٹھا ہوتا ہے۔ علی روز سیب کھاتا ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

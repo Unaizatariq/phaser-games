@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 2,
   "topic": "Shape Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "Circle",
-    "Triangle",
-    "Square"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace Circle",
       "answer": "Circle",
-      "expected": "Circle",
-      "options": [],
+      "options": [
+        "Circle",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace Circle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Circle": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Triangle",
       "answer": "Triangle",
-      "expected": "Triangle",
-      "options": [],
+      "options": [
+        "Triangle",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace Triangle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Triangle": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Square",
       "answer": "Square",
-      "expected": "Square",
-      "options": [],
+      "options": [
+        "Square",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace Square",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Square": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Star",
       "answer": "Star",
-      "expected": "Star",
-      "options": [],
+      "options": [
+        "Star",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace Star",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Star": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace Rectangle",
       "answer": "Rectangle",
-      "expected": "Rectangle",
-      "options": [],
+      "options": [
+        "Rectangle",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace Rectangle",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Rectangle": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

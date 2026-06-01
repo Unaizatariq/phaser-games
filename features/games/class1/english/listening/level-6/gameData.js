@@ -1,77 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 6,
-  "topic": "There and Their",
-  "teach": "There tells a place. Their shows something belongs to more than one person.",
-  "examples": [
-    "there = place",
-    "their = belonging"
-  ],
+  "topic": "honesty",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "there",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "there",
-        "their",
-        "they",
-        "then"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "The books are over blank."
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "their",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "there",
-        "their",
-        "where",
-        "here"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "This is blank classroom."
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "there",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "there",
-        "their",
-        "our",
-        "his"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Which word shows place?"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "their",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "there",
-        "their",
-        "where",
-        "when"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Which word shows belonging?"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Their bags are blue.",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "Their bags are blue.",
-        "There bags are blue.",
-        "They bags are blue.",
-        "Here bags are blue."
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Choose the correct sentence."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

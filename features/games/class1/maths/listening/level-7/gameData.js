@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 7,
-  "topic": "Time",
-  "teach": "A clock tells time. The short hand shows hours and the long hand shows minutes.",
-  "examples": [
-    "hour hand",
-    "minute hand",
-    "o’clock"
-  ],
+  "topic": "multiplication",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "time",
+      "prompt": "Solve: 8 + 1 = ?",
+      "answer": "9",
       "options": [
-        "time",
-        "weight",
-        "color",
-        "taste"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "A clock tells us"
+      "audioText": "Solve: 8 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 8,
+        "b": 1,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "hour",
+      "prompt": "Solve: 1 + 2 = ?",
+      "answer": "3",
       "options": [
-        "hour",
-        "minute",
-        "day",
-        "month"
+        "3",
+        "4",
+        "2",
+        "5"
       ],
-      "audioText": "The short hand shows"
+      "audioText": "Solve: 1 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 1,
+        "b": 2,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢",
+        "5": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "minute",
+      "prompt": "Solve: 2 + 3 = ?",
+      "answer": "5",
       "options": [
-        "minute",
-        "hour",
-        "year",
-        "shape"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "The long hand shows"
+      "audioText": "Solve: 2 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 2,
+        "b": 3,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "o’clock",
+      "prompt": "Solve: 3 + 4 = ?",
+      "answer": "7",
       "options": [
-        "half",
-        "o’clock",
-        "money",
-        "meter"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "When minute hand points to 12, we say"
+      "audioText": "Solve: 3 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "morning",
+      "prompt": "Solve: 4 + 5 = ?",
+      "answer": "9",
       "options": [
-        "morning",
-        "midnight",
-        "late night",
-        "sleep time"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "School usually starts in the"
+      "audioText": "Solve: 4 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 4,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

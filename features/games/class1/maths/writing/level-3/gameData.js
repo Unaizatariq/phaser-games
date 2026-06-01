@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 3,
   "topic": "Number Words",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "five",
-    "ten",
-    "fifteen"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type number word for 5",
       "answer": "five",
-      "expected": "five",
-      "options": [],
+      "options": [
+        "five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type number word for 5",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type number word for 10",
       "answer": "ten",
-      "expected": "ten",
-      "options": [],
+      "options": [
+        "ten",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type number word for 10",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "ten": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type number word for 15",
       "answer": "fifteen",
-      "expected": "fifteen",
-      "options": [],
+      "options": [
+        "fifteen",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type number word for 15",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "fifteen": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type number word for 20",
       "answer": "twenty",
-      "expected": "twenty",
-      "options": [],
+      "options": [
+        "twenty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type number word for 20",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "twenty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type number word for 50",
       "answer": "fifty",
-      "expected": "fifty",
-      "options": [],
+      "options": [
+        "fifty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type number word for 50",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

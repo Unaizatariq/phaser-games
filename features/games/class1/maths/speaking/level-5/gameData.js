@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 5,
-  "topic": "Addition",
-  "teach": "Addition means putting numbers together to find the total.",
-  "examples": [
-    "plus",
-    "sum",
-    "total"
-  ],
+  "topic": "Addition and Subtraction",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is 7 + 3?",
-      "answer": "10",
-      "options": [],
-      "audioText": "Say the answer: What is 7 + 3?"
+      "prompt": "What is 5 + 3?",
+      "answer": "Eight",
+      "options": [
+        "Eight",
+        "8",
+        "9",
+        "7"
+      ],
+      "audioText": "What is 5 + 3?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 3,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "Eight": "🔹",
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is 12 + 5?",
-      "answer": "17",
-      "options": [],
-      "audioText": "Say the answer: What is 12 + 5?"
+      "prompt": "What is 9 - 4?",
+      "answer": "Five",
+      "options": [
+        "Five",
+        "5",
+        "6",
+        "4"
+      ],
+      "audioText": "What is 9 - 4?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 9,
+        "b": 4,
+        "op": "-",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Addition means",
-      "answer": "putting together",
-      "options": [],
-      "audioText": "Say the answer: Addition means"
+      "prompt": "What is 10 + 5?",
+      "answer": "Fifteen",
+      "options": [
+        "Fifteen",
+        "15",
+        "16",
+        "14"
+      ],
+      "audioText": "What is 10 + 5?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 10,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "Fifteen": "🔹",
+        "15": "🔢",
+        "16": "🔢",
+        "14": "🔢"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: 20 + 10 =",
-      "answer": "30",
-      "options": [],
-      "audioText": "Say the answer: 20 + 10 ="
+      "prompt": "What is 20 - 10?",
+      "answer": "Ten",
+      "options": [
+        "Ten",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 20 - 10?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 20,
+        "op": "-",
+        "b": 10,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Ten": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Sara has 4 pencils and gets 2 more. How many?",
-      "answer": "6",
-      "options": [],
-      "audioText": "Say the answer: Sara has 4 pencils and gets 2 more. How many?"
+      "prompt": "What is 7 + 2?",
+      "answer": "Nine",
+      "options": [
+        "Nine",
+        "9",
+        "10",
+        "8"
+      ],
+      "audioText": "What is 7 + 2?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 7,
+        "b": 2,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "Nine": "🔹",
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

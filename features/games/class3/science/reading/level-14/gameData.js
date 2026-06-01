@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 14,
   "topic": "Keeping Healthy",
-  "teach": "Exercise keeps our body healthy.",
-  "examples": [
-    "Exercise keeps our body healthy.",
-    "We should eat healthy food.",
-    "Sleep is important for health."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Keeping Healthy",
+      "prompt": "Exercise keeps our body healthy.",
+      "answer": "Keeping",
       "options": [
-        "Keeping Healthy",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "readingText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "audioText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      "audioText": "Exercise keeps our body healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Healthy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise keeps our ____ healthy.",
-      "answer": "body",
+      "prompt": "We should eat healthy food.",
+      "answer": "Keeping",
       "options": [
-        "body",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "readingText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "audioText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      "audioText": "We should eat healthy food.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Healthy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should eat healthy ____.",
-      "answer": "food",
+      "prompt": "Sleep is important for health.",
+      "answer": "Keeping",
       "options": [
-        "food",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "readingText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "audioText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      "audioText": "Sleep is important for health.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Healthy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sleep is important for ____.",
-      "answer": "health",
+      "prompt": "Clean habits prevent diseases.",
+      "answer": "Keeping",
       "options": [
-        "health",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "readingText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "audioText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      "audioText": "Clean habits prevent diseases.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Healthy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean habits prevent ____.",
-      "answer": "diseases",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keeping",
       "options": [
-        "diseases",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "readingText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases.",
-      "audioText": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Healthy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise keeps our body healthy. We should eat healthy food. Sleep is important for health. Clean habits prevent diseases."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

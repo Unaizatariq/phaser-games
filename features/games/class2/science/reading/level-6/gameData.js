@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Healthy Food",
-  "teach": "Healthy food keeps us strong.",
-  "examples": [
-    "Healthy food keeps us strong.",
-    "Milk, eggs, fruits, and vegetables are healthy.",
-    "Healthy food gives us energy."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Food",
+      "prompt": "Healthy food keeps us strong.",
+      "answer": "Healthy",
       "options": [
-        "Healthy Food",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "readingText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "audioText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      "audioText": "Healthy food keeps us strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food ____ us strong.",
-      "answer": "keeps",
+      "prompt": "Milk, eggs, fruits, and vegetables are healthy.",
+      "answer": "Healthy",
       "options": [
-        "keeps",
-        "Living Things",
-        "move",
-        "things"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "readingText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "audioText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      "audioText": "Milk, eggs, fruits, and vegetables are healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Milk, eggs, fruits, and ____ are healthy.",
-      "answer": "vegetables",
+      "prompt": "Healthy food gives us energy.",
+      "answer": "Healthy",
       "options": [
-        "vegetables",
-        "Living Things",
-        "move",
-        "things"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "readingText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "audioText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      "audioText": "Healthy food gives us energy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food gives us ____.",
-      "answer": "energy",
+      "prompt": "We should avoid too much junk food.",
+      "answer": "Healthy",
       "options": [
-        "energy",
-        "Living Things",
-        "move",
-        "things"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "readingText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "audioText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      "audioText": "We should avoid too much junk food.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should avoid too much junk ____.",
-      "answer": "food",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "food",
-        "Living Things",
-        "move",
-        "things"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "readingText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food.",
-      "audioText": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Healthy food keeps us strong. Milk, eggs, fruits, and vegetables are healthy. Healthy food gives us energy. We should avoid too much junk food."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

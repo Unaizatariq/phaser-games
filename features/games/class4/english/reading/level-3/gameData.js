@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 3,
   "topic": "Teamwork",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "teamwork"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Teamwork means working together to achieve a common goal.",
       "answer": "teamwork",
       "options": [
         "teamwork",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "sleeping",
         "shouting"
       ],
-      "text": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "audioText": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+      "audioText": "Teamwork means working together to achieve a common goal.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "A good team helps and supports one another.",
       "answer": "teamwork",
       "options": [
         "teamwork",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "sleeping",
         "shouting"
       ],
-      "text": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "audioText": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+      "audioText": "A good team helps and supports one another.",
+      "art": "📚",
+      "questionText": "According to the story about Teamwork, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "In sports, students work together to win matches.",
       "answer": "teamwork",
       "options": [
         "teamwork",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "sleeping",
         "shouting"
       ],
-      "text": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "audioText": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+      "audioText": "In sports, students work together to win matches.",
+      "art": "📚",
+      "questionText": "According to the story about Teamwork, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Teamwork teaches cooperation, patience, and respect.",
       "answer": "teamwork",
       "options": [
         "teamwork",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "sleeping",
         "shouting"
       ],
-      "text": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "audioText": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+      "audioText": "Teamwork teaches cooperation, patience, and respect.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Great success often comes from strong teamwork.",
       "answer": "teamwork",
       "options": [
         "teamwork",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "sleeping",
         "shouting"
       ],
-      "text": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork.",
-      "audioText": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+      "audioText": "Great success often comes from strong teamwork.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "teamwork",
+      "options": [
+        "teamwork",
+        "fighting",
+        "sleeping",
+        "shouting"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Teamwork, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teamwork": "🔹",
+        "fighting": "🔹",
+        "sleeping": "🔹",
+        "shouting": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Teamwork means working together to achieve a common goal. A good team helps and supports one another. In sports, students work together to win matches. Teamwork teaches cooperation, patience, and respect. Great success often comes from strong teamwork."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

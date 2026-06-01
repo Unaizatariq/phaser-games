@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 13,
   "topic": "Typing Practice",
-  "teach": "Typing means writing using a keyboard.",
-  "examples": [
-    "Typing means writing using a keyboard.",
-    "Good typing needs practice.",
-    "Typing helps us complete work quickly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Typing Practice",
+      "prompt": "Typing means writing using a keyboard.",
+      "answer": "Typing",
       "options": [
-        "Typing Practice",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "readingText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "audioText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      "audioText": "Typing means writing using a keyboard.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Typing means writing using a ____.",
-      "answer": "keyboard",
+      "prompt": "Good typing needs practice.",
+      "answer": "Typing",
       "options": [
-        "keyboard",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "readingText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "audioText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      "audioText": "Good typing needs practice.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good typing needs ____.",
-      "answer": "practice",
+      "prompt": "Typing helps us complete work quickly.",
+      "answer": "Typing",
       "options": [
-        "practice",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "readingText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "audioText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      "audioText": "Typing helps us complete work quickly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Typing helps us complete ____ quickly.",
-      "answer": "work",
+      "prompt": "Students can learn typing skills easily.",
+      "answer": "Typing",
       "options": [
-        "work",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "readingText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "audioText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      "audioText": "Students can learn typing skills easily.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students can learn typing skills ____.",
-      "answer": "easily",
+      "prompt": "What is the story mainly about?",
+      "answer": "Typing",
       "options": [
-        "easily",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "readingText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily.",
-      "audioText": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Typing Practice, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Typing means writing using a keyboard. Good typing needs practice. Typing helps us complete work quickly. Students can learn typing skills easily."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 1,
   "topic": "Human Body",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "heart",
-    "lungs",
-    "stomach"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type the organ that pumps blood",
       "answer": "heart",
-      "expected": "heart",
-      "options": [],
+      "options": [
+        "heart",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the organ that pumps blood",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "heart": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the organ used for breathing",
       "answer": "lungs",
-      "expected": "lungs",
-      "options": [],
+      "options": [
+        "lungs",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the organ used for breathing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "lungs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the organ used for digestion",
       "answer": "stomach",
-      "expected": "stomach",
-      "options": [],
+      "options": [
+        "stomach",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the organ used for digestion",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "stomach": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the organ used for thinking",
       "answer": "brain",
-      "expected": "brain",
-      "options": [],
+      "options": [
+        "brain",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the organ used for thinking",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "brain": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the organ used for seeing",
       "answer": "eyes",
-      "expected": "eyes",
-      "options": [],
+      "options": [
+        "eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the organ used for seeing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

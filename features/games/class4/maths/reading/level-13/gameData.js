@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 13,
   "topic": "Money",
-  "teach": "Money is used for buying and selling.",
-  "examples": [
-    "Money is used for buying and selling.",
-    "Math helps calculate prices and change.",
-    "People save money for future needs."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Money is used for buying and selling.",
       "answer": "Money",
       "options": [
         "Money",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "readingText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "audioText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      "audioText": "Money is used for buying and selling.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used for buying and ____.",
-      "answer": "selling",
+      "prompt": "Math helps calculate prices and change.",
+      "answer": "Money",
       "options": [
-        "selling",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "readingText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "audioText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      "audioText": "Math helps calculate prices and change.",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps calculate prices and ____.",
-      "answer": "change",
+      "prompt": "People save money for future needs.",
+      "answer": "Money",
       "options": [
-        "change",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "readingText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "audioText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      "audioText": "People save money for future needs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People save money for future ____.",
-      "answer": "needs",
+      "prompt": "Banks help keep money safe.",
+      "answer": "Money",
       "options": [
-        "needs",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "readingText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "audioText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      "audioText": "Banks help keep money safe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Banks help keep money ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "safe",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "readingText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe.",
-      "audioText": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used for buying and selling. Math helps calculate prices and change. People save money for future needs. Banks help keep money safe."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

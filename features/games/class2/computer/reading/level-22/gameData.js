@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 22,
-  "topic": "Smart Machines",
-  "teach": "Computers are smart machines.",
-  "examples": [
-    "Computers are smart machines.",
-    "They follow instructions quickly.",
-    "Smart machines save time and effort."
-  ],
+  "topic": "Main Parts of a Computer",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Smart Machines",
+      "prompt": "A computer has many important parts.",
+      "answer": "Main",
       "options": [
-        "Smart Machines",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Main",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      "audioText": "A computer has many important parts.",
+      "art": "📚",
+      "questionText": "According to the story about Main Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Main": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are smart ____.",
-      "answer": "machines",
+      "prompt": "The monitor shows pictures and words.",
+      "answer": "Main",
       "options": [
-        "machines",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Main",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      "audioText": "The monitor shows pictures and words.",
+      "art": "📚",
+      "questionText": "According to the story about Main Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Main": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They follow ____ quickly.",
-      "answer": "instructions",
+      "prompt": "The keyboard is used for typing.",
+      "answer": "Main",
       "options": [
-        "instructions",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Main",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      "audioText": "The keyboard is used for typing.",
+      "art": "📚",
+      "questionText": "According to the story about Main Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Main": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart machines save time and ____.",
-      "answer": "effort",
+      "prompt": "The mouse helps us click and select items.",
+      "answer": "Main",
       "options": [
-        "effort",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Main",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      "audioText": "The mouse helps us click and select items.",
+      "art": "📚",
+      "questionText": "According to the story about Main Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Main": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use smart machines every ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Main",
       "options": [
-        "day",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Main",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Main": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time and effort. People use smart machines every day."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

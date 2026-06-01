@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Multiplication",
-  "teach": "Multiplication is repeated addition.",
-  "examples": [
-    "Multiplication is repeated addition.",
-    "Tables help solve multiplication quickly.",
-    "We multiply numbers to find totals."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Multiplication is repeated addition.",
       "answer": "Multiplication",
       "options": [
         "Multiplication",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "readingText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "audioText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      "audioText": "Multiplication is repeated addition.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication is repeated ____.",
-      "answer": "addition",
+      "prompt": "Tables help solve multiplication quickly.",
+      "answer": "Multiplication",
       "options": [
-        "addition",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "readingText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "audioText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      "audioText": "Tables help solve multiplication quickly.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We multiply numbers to find ____.",
-      "answer": "totals",
+      "prompt": "We multiply numbers to find totals.",
+      "answer": "Multiplication",
       "options": [
-        "totals",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "readingText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "audioText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      "audioText": "We multiply numbers to find totals.",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiplication saves time in ____.",
-      "answer": "calculations",
+      "prompt": "Multiplication saves time in calculations.",
+      "answer": "Multiplication",
       "options": [
-        "calculations",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "readingText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "audioText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      "audioText": "Multiplication saves time in calculations.",
+      "art": "✖️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "addition",
+      "prompt": "What is the story mainly about?",
+      "answer": "Multiplication",
       "options": [
-        "addition",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Multiplication",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "readingText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations.",
-      "audioText": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+      "audioText": "What is the story mainly about?",
+      "art": "✖️",
+      "questionText": "According to the story about Multiplication, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Multiplication": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Multiplication is repeated addition. Tables help solve multiplication quickly. We multiply numbers to find totals. Multiplication saves time in calculations."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 4,
   "topic": "زمانہ لکھائی",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "میں کتاب پڑھتا ہوں۔",
-    "میں نے کتاب پڑھی۔",
-    "میں کتاب پڑھوں گا۔"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "حال کا ایک جملہ لکھیں۔",
       "answer": "میں کتاب پڑھتا ہوں۔",
-      "expected": "میں کتاب پڑھتا ہوں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں کتاب پڑھتا ہوں۔",
+          "tts": "میں کتاب پڑھتا ہوں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حال کا ایک جملہ لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "میں کتاب پڑھتا ہوں۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "ماضی کا ایک جملہ لکھیں۔",
       "answer": "میں نے کتاب پڑھی۔",
-      "expected": "میں نے کتاب پڑھی۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں نے کتاب پڑھی۔",
+          "tts": "میں نے کتاب پڑھی۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ماضی کا ایک جملہ لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "میں نے کتاب پڑھی۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "مستقبل کا ایک جملہ لکھیں۔",
       "answer": "میں کتاب پڑھوں گا۔",
-      "expected": "میں کتاب پڑھوں گا۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں کتاب پڑھوں گا۔",
+          "tts": "میں کتاب پڑھوں گا۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "مستقبل کا ایک جملہ لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "میں کتاب پڑھوں گا۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "حال جاری کا جملہ لکھیں۔",
       "answer": "میں کتاب پڑھتا ہوں۔",
-      "expected": "میں کتاب پڑھتا ہوں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں کتاب پڑھتا ہوں۔",
+          "tts": "میں کتاب پڑھتا ہوں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حال جاری کا جملہ لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "میں کتاب پڑھتا ہوں۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "ماضی جاری کا جملہ لکھیں۔",
       "answer": "میں نے کتاب پڑھی۔",
-      "expected": "میں نے کتاب پڑھی۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں نے کتاب پڑھی۔",
+          "tts": "میں نے کتاب پڑھی۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ماضی جاری کا جملہ لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "میں نے کتاب پڑھی۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

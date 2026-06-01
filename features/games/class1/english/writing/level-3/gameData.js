@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Sentence Typing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "I am happy.",
-    "Ali goes to school.",
-    "The cat is sleeping."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type sentence: I am happy.",
       "answer": "I am happy.",
-      "expected": "I am happy.",
-      "options": [],
+      "options": [
+        "I am happy.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type sentence: I am happy.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I am happy.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sentence: Ali goes to school.",
       "answer": "Ali goes to school.",
-      "expected": "Ali goes to school.",
-      "options": [],
+      "options": [
+        "Ali goes to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type sentence: Ali goes to school.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ali goes to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sentence: The cat is sleeping.",
       "answer": "The cat is sleeping.",
-      "expected": "The cat is sleeping.",
-      "options": [],
+      "options": [
+        "The cat is sleeping.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type sentence: The cat is sleeping.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "The cat is sleeping.": "🐱",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sentence: I like apples.",
       "answer": "I like apples.",
-      "expected": "I like apples.",
-      "options": [],
+      "options": [
+        "I like apples.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type sentence: I like apples.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I like apples.": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sentence: We play football.",
       "answer": "We play football.",
-      "expected": "We play football.",
-      "options": [],
+      "options": [
+        "We play football.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type sentence: We play football.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "We play football.": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

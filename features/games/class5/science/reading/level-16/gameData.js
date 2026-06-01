@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 16,
   "topic": "Weather and Climate",
-  "teach": "Weather changes every day.",
-  "examples": [
-    "Weather changes every day.",
-    "Climate is the usual weather of a region.",
-    "Hot places have warm climates."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Weather and Climate",
+      "prompt": "Weather changes every day.",
+      "answer": "Weather",
       "options": [
-        "Weather and Climate",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "readingText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "audioText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      "audioText": "Weather changes every day.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather changes every ____.",
-      "answer": "day",
+      "prompt": "Climate is the usual weather of a region.",
+      "answer": "Weather",
       "options": [
-        "day",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "readingText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "audioText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      "audioText": "Climate is the usual weather of a region.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Climate is the usual weather of a ____.",
-      "answer": "region",
+      "prompt": "Hot places have warm climates.",
+      "answer": "Weather",
       "options": [
-        "region",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "readingText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "audioText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      "audioText": "Hot places have warm climates.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hot places have warm ____.",
-      "answer": "climates",
+      "prompt": "Cold places have cool climates.",
+      "answer": "Weather",
       "options": [
-        "climates",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "readingText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "audioText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      "audioText": "Cold places have cool climates.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "day",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "readingText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates.",
-      "audioText": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Weather changes every day. Climate is the usual weather of a region. Hot places have warm climates. Cold places have cool climates."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

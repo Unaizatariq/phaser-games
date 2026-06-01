@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Animals and Ecosystems",
-  "teach": "Animals live in different ecosystems.",
-  "examples": [
-    "Animals live in different ecosystems.",
-    "Forests, deserts, and oceans are ecosystems.",
-    "Animals depend on plants and other animals."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Animals and Ecosystems",
+      "prompt": "Animals live in different ecosystems.",
+      "answer": "Animals",
       "options": [
-        "Animals and Ecosystems",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "readingText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "audioText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      "audioText": "Animals live in different ecosystems.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals live in different ____.",
-      "answer": "ecosystems",
+      "prompt": "Forests, deserts, and oceans are ecosystems.",
+      "answer": "Animals",
       "options": [
-        "ecosystems",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "readingText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "audioText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      "audioText": "Forests, deserts, and oceans are ecosystems.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Ecosystems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals depend on plants and other ____.",
-      "answer": "animals",
+      "prompt": "Animals depend on plants and other animals.",
+      "answer": "Animals",
       "options": [
-        "animals",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "readingText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "audioText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      "audioText": "Animals depend on plants and other animals.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Every ecosystem must stay ____.",
-      "answer": "balanced",
+      "prompt": "Every ecosystem must stay balanced.",
+      "answer": "Animals",
       "options": [
-        "balanced",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "readingText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "audioText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      "audioText": "Every ecosystem must stay balanced.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Ecosystems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "ecosystems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "ecosystems",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "readingText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced.",
-      "audioText": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Ecosystems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals live in different ecosystems. Forests, deserts, and oceans are ecosystems. Animals depend on plants and other animals. Every ecosystem must stay balanced."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

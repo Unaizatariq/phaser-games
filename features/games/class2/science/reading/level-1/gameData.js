@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "Living Things",
-  "teach": "Living things can grow and move.",
-  "examples": [
-    "Living things can grow and move.",
-    "Humans, animals, and plants are living things.",
-    "Living things need food and water."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Living Things",
+      "prompt": "Living things can grow and move.",
+      "answer": "Living",
       "options": [
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us",
-        "Animals Around Us"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "readingText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "audioText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      "audioText": "Living things can grow and move.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Living things can grow and ____.",
-      "answer": "move",
+      "prompt": "Humans, animals, and plants are living things.",
+      "answer": "Living",
       "options": [
-        "move",
-        "Living Things",
-        "things",
-        "water"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "readingText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "audioText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      "audioText": "Humans, animals, and plants are living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Humans, animals, and plants are living ____.",
-      "answer": "things",
+      "prompt": "Living things need food and water.",
+      "answer": "Living",
       "options": [
-        "things",
-        "Living Things",
-        "move",
-        "water"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "readingText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "audioText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      "audioText": "Living things need food and water.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Living things need food and ____.",
-      "answer": "water",
+      "prompt": "Living things can breathe.",
+      "answer": "Living",
       "options": [
-        "water",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "readingText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "audioText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      "audioText": "Living things can breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Living things can ____.",
-      "answer": "breathe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Living",
       "options": [
-        "breathe",
-        "Living Things",
-        "move",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "readingText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe.",
-      "audioText": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Living things can grow and move. Humans, animals, and plants are living things. Living things need food and water. Living things can breathe."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

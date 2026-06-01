@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 17,
   "topic": "Weather",
-  "teach": "Weather changes every day.",
-  "examples": [
-    "Weather changes every day.",
-    "Sometimes it is sunny.",
-    "Sometimes it rains."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Weather changes every day.",
       "answer": "Weather",
       "options": [
         "Weather",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      "audioText": "Weather changes every day.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather changes every ____.",
-      "answer": "day",
+      "prompt": "Sometimes it is sunny.",
+      "answer": "Weather",
       "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      "audioText": "Sometimes it is sunny.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it is ____.",
-      "answer": "sunny",
+      "prompt": "Sometimes it rains.",
+      "answer": "Weather",
       "options": [
-        "sunny",
-        "My Body",
-        "things",
-        "ears"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      "audioText": "Sometimes it rains.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it ____.",
-      "answer": "rains",
+      "prompt": "Clouds move in the sky.",
+      "answer": "Weather",
       "options": [
-        "rains",
-        "My Body",
-        "things",
-        "ears"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      "audioText": "Clouds move in the sky.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clouds move in the ____.",
-      "answer": "sky",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "sky",
-        "My Body",
-        "things",
-        "ears"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains. Clouds move in the sky."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

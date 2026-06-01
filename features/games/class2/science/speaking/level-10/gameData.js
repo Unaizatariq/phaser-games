@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 10,
-  "topic": "Common Materials Wood Plastic Metal Glass",
-  "teach": "Common Materials Wood Plastic Metal Glass is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Common Materials Wood Plastic Metal Glass",
-    "example",
-    "practice"
-  ],
+  "topic": "Five Senses",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Common Materials Wood Plastic Metal Glass",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Say the sense used for hearing.",
+      "answer": "Hearing",
+      "options": [
+        "Hearing",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the sense used for hearing.",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Hearing": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Say the body part used for smelling.",
+      "answer": "Nose",
+      "options": [
+        "Nose",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part used for smelling.",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Nose": "👃",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Say the sense used for tasting.",
+      "answer": "Taste",
+      "options": [
+        "Taste",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the sense used for tasting.",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Taste": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "👁️",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "☀️",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

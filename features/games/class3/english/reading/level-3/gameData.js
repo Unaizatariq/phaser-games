@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 3,
   "topic": "My Favorite Teacher",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "Miss Sara"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My favorite teacher is Miss Sara.",
       "answer": "Miss Sara",
       "options": [
         "Miss Sara",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "Mr Ali",
         "Mr Khan"
       ],
-      "text": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "audioText": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+      "audioText": "My favorite teacher is Miss Sara.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "She teaches us English in a very simple and interesting way.",
       "answer": "Miss Sara",
       "options": [
         "Miss Sara",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "Mr Ali",
         "Mr Khan"
       ],
-      "text": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "audioText": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+      "audioText": "She teaches us English in a very simple and interesting way.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "She tells beautiful stories and helps students understand difficult words.",
       "answer": "Miss Sara",
       "options": [
         "Miss Sara",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "Mr Ali",
         "Mr Khan"
       ],
-      "text": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "audioText": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+      "audioText": "She tells beautiful stories and helps students understand difficult words.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "She is kind, patient, and friendly with everyone.",
       "answer": "Miss Sara",
       "options": [
         "Miss Sara",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "Mr Ali",
         "Mr Khan"
       ],
-      "text": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "audioText": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+      "audioText": "She is kind, patient, and friendly with everyone.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "I enjoy attending her class every day.",
       "answer": "Miss Sara",
       "options": [
         "Miss Sara",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "Mr Ali",
         "Mr Khan"
       ],
-      "text": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day.",
-      "audioText": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+      "audioText": "I enjoy attending her class every day.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Miss Sara",
+      "options": [
+        "Miss Sara",
+        "Miss Hina",
+        "Mr Ali",
+        "Mr Khan"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Miss Sara": "🔹",
+        "Miss Hina": "🔹",
+        "Mr Ali": "🔹",
+        "Mr Khan": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My favorite teacher is Miss Sara. She teaches us English in a very simple and interesting way. She tells beautiful stories and helps students understand difficult words. She is kind, patient, and friendly with everyone. I enjoy attending her class every day."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

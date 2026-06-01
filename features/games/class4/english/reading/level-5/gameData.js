@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
   "topic": "The Farmer",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "farmer"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "A farmer works hard in the fields to grow crops and vegetables.",
       "answer": "farmer",
       "options": [
         "farmer",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "driver",
         "teacher"
       ],
-      "text": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "audioText": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+      "audioText": "A farmer works hard in the fields to grow crops and vegetables.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "farmer": "🔹",
+        "doctor": "🔹",
+        "driver": "🔹",
+        "teacher": "👩‍🏫"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Farmers wake up early in the morning and spend long hours working under the sun.",
       "answer": "farmer",
       "options": [
         "farmer",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "driver",
         "teacher"
       ],
-      "text": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "audioText": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+      "audioText": "Farmers wake up early in the morning and spend long hours working under the sun.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "farmer": "🔹",
+        "doctor": "🔹",
+        "driver": "🔹",
+        "teacher": "👩‍🏫"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "They grow wheat, rice, fruits, and other foods for people.",
       "answer": "farmer",
       "options": [
         "farmer",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "driver",
         "teacher"
       ],
-      "text": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "audioText": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+      "audioText": "They grow wheat, rice, fruits, and other foods for people.",
+      "art": "📚",
+      "questionText": "According to the story about The Farmer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "farmer": "🔹",
+        "doctor": "🔹",
+        "driver": "🔹",
+        "teacher": "👩‍🏫"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Farmers play an important role in our lives because they provide food for the country.",
       "answer": "farmer",
       "options": [
         "farmer",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "driver",
         "teacher"
       ],
-      "text": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "audioText": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+      "audioText": "Farmers play an important role in our lives because they provide food for the country.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "farmer": "🔹",
+        "doctor": "🔹",
+        "driver": "🔹",
+        "teacher": "👩‍🏫"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "farmer",
       "options": [
         "farmer",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "driver",
         "teacher"
       ],
-      "text": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country.",
-      "audioText": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about The Farmer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "farmer": "🔹",
+        "doctor": "🔹",
+        "driver": "🔹",
+        "teacher": "👩‍🏫"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A farmer works hard in the fields to grow crops and vegetables. Farmers wake up early in the morning and spend long hours working under the sun. They grow wheat, rice, fruits, and other foods for people. Farmers play an important role in our lives because they provide food for the country."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

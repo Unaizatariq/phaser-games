@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 4,
-  "topic": "Parts of Computer",
-  "teach": "Main parts of a computer include monitor, system unit, keyboard and mouse.",
-  "examples": [
-    "monitor",
-    "system unit",
-    "keyboard"
-  ],
+  "topic": "Computer Vocabulary Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Which part shows pictures?",
-      "answer": "monitor",
-      "options": [],
-      "audioText": "Which part shows pictures?"
+      "prompt": "Type the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Computer",
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Which part is used to type?",
-      "answer": "keyboard",
-      "options": [],
-      "audioText": "Which part is used to type?"
+      "prompt": "Type the word: Monitor",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: Monitor",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Which part moves the pointer?",
-      "answer": "mouse",
-      "options": [],
-      "audioText": "Which part moves the pointer?"
+      "prompt": "Type the word: Mouse",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Mouse",
+      "art": "🖱️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: System unit is an important part of a",
-      "answer": "computer",
-      "options": [],
-      "audioText": "Write the answer: System unit is an important part of a"
+      "prompt": "Type the word: Keyboard",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Type the word: Keyboard",
+      "art": "⌨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Computer has many",
-      "answer": "parts",
-      "options": [],
-      "audioText": "Write the answer: Computer has many"
+      "prompt": "Type the word: CPU",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: CPU",
+      "art": "🧠",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

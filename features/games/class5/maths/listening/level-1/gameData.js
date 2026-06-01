@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 1,
   "topic": "Factors and Multiples",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "3",
-    "15",
-    "2 and 5"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which number is a factor of 12?",
+      "prompt": "Solve: 2 + 1 = ?",
       "answer": "3",
       "options": [
         "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "audioText": "Solve: 2 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢",
+        "5": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 3 + 2 = ?",
+      "answer": "5",
+      "options": [
         "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "audioText": "Solve: 3 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 3,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 4 + 3 = ?",
+      "answer": "7",
+      "options": [
         "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "audioText": "Solve: 4 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 4,
+        "b": 3,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 5 + 4 = ?",
+      "answer": "9",
+      "options": [
+        "9",
+        "10",
+        "8",
         "11"
       ],
-      "audioText": "Which number is a factor of 12?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 5 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the multiple of 5.",
-      "answer": "15",
+      "prompt": "Solve: 6 + 5 = ?",
+      "answer": "11",
       "options": [
-        "15",
-        "14",
-        "13",
-        "12"
+        "11",
+        "12",
+        "10",
+        "13"
       ],
-      "audioText": "Choose the multiple of 5.",
-      "gameplayType": "drag-drop"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Tap the factor pair of 10.",
-      "answer": "2 and 5",
-      "options": [
-        "2 and 5",
-        "3 and 4",
-        "1 and 7",
-        "6 and 2"
-      ],
-      "audioText": "Tap the factor pair of 10.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 6 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 6,
+        "b": 5,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

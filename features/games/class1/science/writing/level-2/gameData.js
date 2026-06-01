@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 2,
   "topic": "Living Things",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "plant",
-    "rose",
-    "cat"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one living thing",
       "answer": "plant",
-      "expected": "plant",
-      "options": [],
+      "options": [
+        "plant",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one living thing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "plant": "🌱",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one plant name",
       "answer": "rose",
-      "expected": "rose",
-      "options": [],
+      "options": [
+        "rose",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one plant name",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "rose": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one animal name",
       "answer": "cat",
-      "expected": "cat",
-      "options": [],
+      "options": [
+        "cat",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one animal name",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "cat": "🐱",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one bird name",
       "answer": "sparrow",
-      "expected": "sparrow",
-      "options": [],
+      "options": [
+        "sparrow",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one bird name",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "sparrow": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one water animal",
       "answer": "fish",
-      "expected": "fish",
-      "options": [],
+      "options": [
+        "fish",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one water animal",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "fish": "🐟",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

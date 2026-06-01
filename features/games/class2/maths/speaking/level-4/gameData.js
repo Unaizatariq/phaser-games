@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 4,
-  "topic": "Subtraction",
-  "teach": "Subtraction builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Subtraction",
-    "example",
-    "solve"
-  ],
+  "topic": "Place Value",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: 14 - 6 =",
-      "answer": "8",
-      "options": [],
-      "audioText": "Say the answer: 14 - 6 ="
+      "prompt": "What is the tens digit in 54?",
+      "answer": "Five",
+      "options": [
+        "Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the tens digit in 54?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Sara had 10 apples and gave 3. Left?",
-      "answer": "7",
-      "options": [],
-      "audioText": "Say the answer: Sara had 10 apples and gave 3. Left?"
+      "prompt": "What is the ones digit in 89?",
+      "answer": "Nine",
+      "options": [
+        "Nine",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the ones digit in 89?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Nine": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Subtraction means",
-      "answer": "taking away",
-      "options": [],
-      "audioText": "Say the answer: Subtraction means"
+      "prompt": "What is the place value of 3 in 34?",
+      "answer": "Thirty",
+      "options": [
+        "Thirty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the place value of 3 in 34?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Thirty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Complete: 20 - __ = 15",
-      "answer": "5",
-      "options": [],
-      "audioText": "Say the answer: Complete: 20 - __ = 15"
+      "prompt": "What is the tens digit in 72?",
+      "answer": "Seven",
+      "options": [
+        "Seven",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the tens digit in 72?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Seven": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Which is smaller? 9-4 or 10-2",
-      "answer": "9-4",
-      "options": [],
-      "audioText": "Say the answer: Which is smaller? 9-4 or 10-2"
+      "prompt": "What is the place value of 5 in 58?",
+      "answer": "Fifty",
+      "options": [
+        "Fifty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the place value of 5 in 58?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

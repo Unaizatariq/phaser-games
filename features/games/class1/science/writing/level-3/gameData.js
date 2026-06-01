@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 3,
   "topic": "Weather Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "rainy",
-    "sunny",
-    "cloudy"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type rainy weather",
       "answer": "rainy",
-      "expected": "rainy",
-      "options": [],
+      "options": [
+        "rainy",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type rainy weather",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "rainy": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sunny weather",
       "answer": "sunny",
-      "expected": "sunny",
-      "options": [],
+      "options": [
+        "sunny",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type sunny weather",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "sunny": "☀️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type cloudy weather",
       "answer": "cloudy",
-      "expected": "cloudy",
-      "options": [],
+      "options": [
+        "cloudy",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type cloudy weather",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "cloudy": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type windy weather",
       "answer": "windy",
-      "expected": "windy",
-      "options": [],
+      "options": [
+        "windy",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type windy weather",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "windy": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type cold weather",
       "answer": "cold",
-      "expected": "cold",
-      "options": [],
+      "options": [
+        "cold",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type cold weather",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "cold": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

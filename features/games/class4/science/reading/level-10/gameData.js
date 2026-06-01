@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 10,
   "topic": "Water Cycle",
-  "teach": "The water cycle is a natural process.",
-  "examples": [
-    "The water cycle is a natural process.",
-    "The sun heats water and makes vapor.",
-    "Clouds form in the sky."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Water Cycle",
+      "prompt": "The water cycle is a natural process.",
+      "answer": "Water",
       "options": [
-        "Water Cycle",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "readingText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "audioText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      "audioText": "The water cycle is a natural process.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The water cycle is a natural ____.",
-      "answer": "process",
+      "prompt": "The sun heats water and makes vapor.",
+      "answer": "Water",
       "options": [
-        "process",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "readingText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "audioText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      "audioText": "The sun heats water and makes vapor.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun heats water and makes ____.",
-      "answer": "vapor",
+      "prompt": "Clouds form in the sky.",
+      "answer": "Water",
       "options": [
-        "vapor",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "readingText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "audioText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      "audioText": "Clouds form in the sky.",
+      "art": "💧",
+      "questionText": "According to the story about Water Cycle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clouds form in the ____.",
-      "answer": "sky",
+      "prompt": "Rain falls back to Earth.",
+      "answer": "Water",
       "options": [
-        "sky",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "readingText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "audioText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      "audioText": "Rain falls back to Earth.",
+      "art": "💧",
+      "questionText": "According to the story about Water Cycle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Rain falls back to ____.",
-      "answer": "Earth",
+      "prompt": "What is the story mainly about?",
+      "answer": "Water",
       "options": [
-        "Earth",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "readingText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth.",
-      "audioText": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+      "audioText": "What is the story mainly about?",
+      "art": "💧",
+      "questionText": "According to the story about Water Cycle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The water cycle is a natural process. The sun heats water and makes vapor. Clouds form in the sky. Rain falls back to Earth."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

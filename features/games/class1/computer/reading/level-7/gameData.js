@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 7,
   "topic": "Uses of Computers",
-  "teach": "Computers are useful machines.",
-  "examples": [
-    "Computers are useful machines.",
-    "We use computers for study and games.",
-    "People use computers in offices and schools."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Uses of Computers",
+      "prompt": "Computers are useful machines.",
+      "answer": "Uses",
       "options": [
-        "Uses of Computers",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "readingText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "audioText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      "audioText": "Computers are useful machines.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are useful ____.",
-      "answer": "machines",
+      "prompt": "We use computers for study and games.",
+      "answer": "Uses",
       "options": [
-        "machines",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "readingText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "audioText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      "audioText": "We use computers for study and games.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use computers for study and ____.",
-      "answer": "games",
+      "prompt": "People use computers in offices and schools.",
+      "answer": "Uses",
       "options": [
-        "games",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "readingText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "audioText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      "audioText": "People use computers in offices and schools.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use computers in offices and ____.",
-      "answer": "schools",
+      "prompt": "Computers help us learn new things.",
+      "answer": "Uses",
       "options": [
-        "schools",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "readingText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "audioText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      "audioText": "Computers help us learn new things.",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers help us learn new ____.",
-      "answer": "things",
+      "prompt": "What is the story mainly about?",
+      "answer": "Uses",
       "options": [
-        "things",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Uses",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "readingText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things.",
-      "audioText": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Uses of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Uses": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are useful machines. We use computers for study and games. People use computers in offices and schools. Computers help us learn new things."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

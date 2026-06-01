@@ -1,52 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 3,
   "topic": "Advanced Grammar",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "She has completed her homework",
-    "They were playing football",
-    "I went to school yesterday"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Choose the correct sentence.",
-      "answer": "She has completed her homework",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "She has completed her homework",
-        "She have completed"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Choose the correct sentence.",
-      "gameplayType": "listen-tap"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the grammatically correct sentence.",
-      "answer": "They were playing football",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "They were playing football",
-        "They was playing football"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Tap the grammatically correct sentence.",
-      "gameplayType": "drag-drop"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the correct grammar sentence.",
-      "answer": "I went to school yesterday",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "I went to school yesterday",
-        "I goed to school yesterday"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Catch the correct grammar sentence.",
-      "gameplayType": "basket-catch"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
+      "options": [
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
+      ],
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
+    },
+    {
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

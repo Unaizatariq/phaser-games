@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "More and Less",
-  "teach": "Five apples are more.",
-  "examples": [
-    "Five apples are more.",
-    "One apple is less.",
-    "We can compare things."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "More and Less",
+      "prompt": "Five apples are more.",
+      "answer": "More",
       "options": [
-        "More and Less",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
+        "More",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "readingText": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "audioText": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      "audioText": "Five apples are more.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "More": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Five apples are ____.",
-      "answer": "more",
+      "prompt": "One apple is less.",
+      "answer": "More",
       "options": [
-        "more",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "More",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "readingText": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "audioText": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      "audioText": "One apple is less.",
+      "art": "📚",
+      "questionText": "According to the story about More and Less, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "More": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: One apple is ____.",
-      "answer": "less",
+      "prompt": "We can compare things.",
+      "answer": "More",
       "options": [
-        "less",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "More",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "readingText": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "audioText": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      "audioText": "We can compare things.",
+      "art": "📚",
+      "questionText": "According to the story about More and Less, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "More": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can compare ____.",
-      "answer": "things",
+      "prompt": "Math helps us compare.",
+      "answer": "More",
       "options": [
-        "things",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "More",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "readingText": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "audioText": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      "audioText": "Math helps us compare.",
+      "art": "📚",
+      "questionText": "According to the story about More and Less, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "More": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us ____.",
-      "answer": "compare",
+      "prompt": "What is the story mainly about?",
+      "answer": "More",
       "options": [
-        "compare",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "More",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "readingText": "Five apples are more. One apple is less. We can compare things. Math helps us compare.",
-      "audioText": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about More and Less, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "More": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Five apples are more. One apple is less. We can compare things. Math helps us compare."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

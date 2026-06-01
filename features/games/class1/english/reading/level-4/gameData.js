@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 4,
   "topic": "My Pet Cat",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "cat"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I have a small pet cat.",
       "answer": "cat",
       "options": [
         "cat",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "goat",
         "parrot"
       ],
-      "text": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "audioText": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+      "audioText": "I have a small pet cat.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Its fur is soft and white.",
       "answer": "cat",
       "options": [
         "cat",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "goat",
         "parrot"
       ],
-      "text": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "audioText": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+      "audioText": "Its fur is soft and white.",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Cat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "The cat drinks milk every day.",
       "answer": "cat",
       "options": [
         "cat",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "goat",
         "parrot"
       ],
-      "text": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "audioText": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+      "audioText": "The cat drinks milk every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "It likes to play with a ball.",
       "answer": "cat",
       "options": [
         "cat",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "goat",
         "parrot"
       ],
-      "text": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "audioText": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+      "audioText": "It likes to play with a ball.",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Cat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "I love my pet cat very much.",
       "answer": "cat",
       "options": [
         "cat",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "goat",
         "parrot"
       ],
-      "text": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much.",
-      "audioText": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+      "audioText": "I love my pet cat very much.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "goat",
+        "parrot"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Cat, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "goat": "🐐",
+        "parrot": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I have a small pet cat. Its fur is soft and white. The cat drinks milk every day. It likes to play with a ball. I love my pet cat very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

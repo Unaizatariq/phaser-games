@@ -1,87 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 21,
-  "topic": "Liters measure liquids.",
-  "teach": "Capacity is important in daily life.",
-  "examples": [
-    "Capacity is important in daily life."
-  ],
+  "topic": "Large Numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Liters measure liquids.",
+      "prompt": "Large numbers help us count bigger quantities.",
+      "answer": "Large",
       "options": [
-        "Liters measure liquids.",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is important in daily life.",
-      "readingText": "Capacity is important in daily life.",
-      "audioText": "Capacity is important in daily life."
+      "audioText": "Large numbers help us count bigger quantities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is important in daily life.",
-      "answer": "Capacity",
+      "prompt": "We can read and write numbers up to 10,000.",
+      "answer": "Large",
       "options": [
-        "Capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is important in daily life.",
-      "readingText": "Capacity is important in daily life.",
-      "audioText": "Capacity is important in daily life."
+      "audioText": "We can read and write numbers up to 10,000.",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "Each digit has a place value.",
+      "answer": "Large",
       "options": [
-        "Capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is important in daily life.",
-      "readingText": "Capacity is important in daily life.",
-      "audioText": "Capacity is important in daily life."
+      "audioText": "Each digit has a place value.",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "Large numbers are used in daily life.",
+      "answer": "Large",
       "options": [
-        "Capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is important in daily life.",
-      "readingText": "Capacity is important in daily life.",
-      "audioText": "Capacity is important in daily life."
+      "audioText": "Large numbers are used in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "What is the story mainly about?",
+      "answer": "Large",
       "options": [
-        "Capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is important in daily life.",
-      "readingText": "Capacity is important in daily life.",
-      "audioText": "Capacity is important in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Capacity is important in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

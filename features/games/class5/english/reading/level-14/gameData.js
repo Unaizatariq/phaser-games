@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 14,
   "topic": "Importance of Education",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "education"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Education is very important for a successful life.",
       "answer": "education",
       "options": [
         "education",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "weather",
         "transport"
       ],
-      "text": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "audioText": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+      "audioText": "Education is very important for a successful life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "It helps people gain knowledge, skills, and confidence.",
       "answer": "education",
       "options": [
         "education",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "weather",
         "transport"
       ],
-      "text": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "audioText": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+      "audioText": "It helps people gain knowledge, skills, and confidence.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Education, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Educated people can make better decisions and contribute to society.",
       "answer": "education",
       "options": [
         "education",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "weather",
         "transport"
       ],
-      "text": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "audioText": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+      "audioText": "Educated people can make better decisions and contribute to society.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Education, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Schools teach students about science, languages, mathematics, and values.",
       "answer": "education",
       "options": [
         "education",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "weather",
         "transport"
       ],
-      "text": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "audioText": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+      "audioText": "Schools teach students about science, languages, mathematics, and values.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Education, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Every child deserves the chance to get a good education.",
       "answer": "education",
       "options": [
         "education",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "weather",
         "transport"
       ],
-      "text": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education.",
-      "audioText": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+      "audioText": "Every child deserves the chance to get a good education.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "education",
+      "options": [
+        "education",
+        "pollution",
+        "weather",
+        "transport"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Education, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "education": "🐱",
+        "pollution": "🔹",
+        "weather": "☀️",
+        "transport": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Education is very important for a successful life. It helps people gain knowledge, skills, and confidence. Educated people can make better decisions and contribute to society. Schools teach students about science, languages, mathematics, and values. Every child deserves the chance to get a good education."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

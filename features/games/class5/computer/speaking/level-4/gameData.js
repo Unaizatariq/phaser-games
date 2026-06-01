@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 4,
   "topic": "Fast Computer Challenge",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Backspace",
-    "Mouse",
-    "MS Excel"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which key deletes text?",
       "answer": "Backspace",
-      "expected": "Backspace",
-      "options": [],
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which key deletes text?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device controls pointer?",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Which device controls pointer?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖱️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which software creates charts?",
       "answer": "MS Excel",
-      "expected": "MS Excel",
-      "options": [],
+      "options": [
+        "MS Excel",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which software creates charts?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "MS Excel": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device prints papers?",
       "answer": "Printer",
-      "expected": "Printer",
-      "options": [],
+      "options": [
+        "Printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device prints papers?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which software creates presentations?",
       "answer": "PowerPoint",
-      "expected": "PowerPoint",
-      "options": [],
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which software creates presentations?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 13,
   "topic": "Air",
-  "teach": "We need air to breathe.",
-  "examples": [
-    "We need air to breathe.",
-    "Clean air keeps us healthy.",
-    "Trees help clean the air."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "We need air to breathe.",
       "answer": "Air",
       "options": [
         "Air",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "readingText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "audioText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      "audioText": "We need air to breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We need air to ____.",
-      "answer": "breathe",
+      "prompt": "Clean air keeps us healthy.",
+      "answer": "Air",
       "options": [
-        "breathe",
-        "My Body",
-        "things",
-        "ears"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "readingText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "audioText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      "audioText": "Clean air keeps us healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean air ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "Trees help clean the air.",
+      "answer": "Air",
       "options": [
-        "keeps",
-        "My Body",
-        "things",
-        "ears"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "readingText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "audioText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      "audioText": "Trees help clean the air.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fresh air feels ____.",
-      "answer": "nice",
+      "prompt": "Fresh air feels nice.",
+      "answer": "Air",
       "options": [
-        "nice",
-        "My Body",
-        "things",
-        "ears"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "readingText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "audioText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      "audioText": "Fresh air feels nice.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "breathe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Air",
       "options": [
-        "breathe",
-        "My Body",
-        "things",
-        "ears"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "readingText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice.",
-      "audioText": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Air, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We need air to breathe. Clean air keeps us healthy. Trees help clean the air. Fresh air feels nice."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

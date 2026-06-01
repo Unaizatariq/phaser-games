@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Colors and Numbers",
-  "teach": "One red ball.",
-  "examples": [
-    "One red ball.",
-    "Two blue stars.",
-    "Three green apples."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Colors and Numbers",
+      "prompt": "One red ball.",
+      "answer": "Colors",
       "options": [
-        "Colors and Numbers",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
+        "Colors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "readingText": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "audioText": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      "audioText": "One red ball.",
+      "art": "📚",
+      "questionText": "According to the story about Colors and Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Colors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: One red ____.",
-      "answer": "ball",
+      "prompt": "Two blue stars.",
+      "answer": "Colors",
       "options": [
-        "ball",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Colors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "readingText": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "audioText": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      "audioText": "Two blue stars.",
+      "art": "📚",
+      "questionText": "According to the story about Colors and Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Colors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Two blue ____.",
-      "answer": "stars",
+      "prompt": "Three green apples.",
+      "answer": "Colors",
       "options": [
-        "stars",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Colors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "readingText": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "audioText": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      "audioText": "Three green apples.",
+      "art": "📚",
+      "questionText": "According to the story about Colors and Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Colors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Three green ____.",
-      "answer": "apples",
+      "prompt": "Numbers help us count.",
+      "answer": "Colors",
       "options": [
-        "apples",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Colors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "readingText": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "audioText": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      "audioText": "Numbers help us count.",
+      "art": "📚",
+      "questionText": "According to the story about Colors and Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Colors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers help us ____.",
-      "answer": "count",
+      "prompt": "What is the story mainly about?",
+      "answer": "Colors",
       "options": [
-        "count",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Colors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "readingText": "One red ball. Two blue stars. Three green apples. Numbers help us count.",
-      "audioText": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Colors and Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Colors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "One red ball. Two blue stars. Three green apples. Numbers help us count."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

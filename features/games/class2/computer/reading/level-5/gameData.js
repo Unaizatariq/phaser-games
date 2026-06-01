@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 5,
   "topic": "Keyboard Keys",
-  "teach": "A keyboard has different types of keys.",
-  "examples": [
-    "A keyboard has different types of keys.",
-    "Alphabet keys help us type letters.",
-    "Number keys help us type numbers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Keyboard Keys",
+      "prompt": "A keyboard has different types of keys.",
+      "answer": "Keyboard",
       "options": [
-        "Keyboard Keys",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "readingText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "audioText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      "audioText": "A keyboard has different types of keys.",
+      "art": "⌨️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A keyboard has different types of ____.",
-      "answer": "keys",
+      "prompt": "Alphabet keys help us type letters.",
+      "answer": "Keyboard",
       "options": [
-        "keys",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "readingText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "audioText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      "audioText": "Alphabet keys help us type letters.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Keys, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Alphabet keys help us type ____.",
-      "answer": "letters",
+      "prompt": "Number keys help us type numbers.",
+      "answer": "Keyboard",
       "options": [
-        "letters",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "readingText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "audioText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      "audioText": "Number keys help us type numbers.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Keys, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Number keys help us type ____.",
-      "answer": "numbers",
+      "prompt": "Spacebar gives space between words.",
+      "answer": "Keyboard",
       "options": [
-        "numbers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "readingText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "audioText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      "audioText": "Spacebar gives space between words.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Keys, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Spacebar gives space between ____.",
-      "answer": "words",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keyboard",
       "options": [
-        "words",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "readingText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words.",
-      "audioText": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+      "audioText": "What is the story mainly about?",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Keys, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A keyboard has different types of keys. Alphabet keys help us type letters. Number keys help us type numbers. Spacebar gives space between words."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

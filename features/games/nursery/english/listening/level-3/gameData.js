@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 3,
   "topic": "Fruits",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Banana",
-    "Apple",
-    "Mango"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Drag the banana into the basket.",
-      "answer": "Banana",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "Banana",
-        "Car",
-        "Ball",
-        "Cat"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Drag the banana into the basket.",
-      "gameplayType": "listen-tap"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the apple.",
-      "answer": "Apple",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Apple",
-        "Bus",
-        "Fish",
-        "Chair"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Choose the apple.",
-      "gameplayType": "drag-drop"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the mango.",
-      "answer": "Mango",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "Orange",
-        "Mango",
-        "Pen",
-        "Book"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Catch the mango.",
-      "gameplayType": "basket-catch"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
+      "options": [
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
+      ],
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
+    },
+    {
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

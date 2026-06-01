@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 2,
   "topic": "Small Letter Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "a",
-    "f",
-    "m"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace small letter a",
       "answer": "a",
-      "expected": "a",
-      "options": [],
+      "options": [
+        "a",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace small letter a",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "a": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace small letter f",
       "answer": "f",
-      "expected": "f",
-      "options": [],
+      "options": [
+        "f",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace small letter f",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "f": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace small letter m",
       "answer": "m",
-      "expected": "m",
-      "options": [],
+      "options": [
+        "m",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace small letter m",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "m": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace small letter r",
       "answer": "r",
-      "expected": "r",
-      "options": [],
+      "options": [
+        "r",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace small letter r",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "r": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace small letter z",
       "answer": "z",
-      "expected": "z",
-      "options": [],
+      "options": [
+        "z",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace small letter z",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "z": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

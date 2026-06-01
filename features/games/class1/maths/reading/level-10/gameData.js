@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Time",
-  "teach": "A clock tells time.",
-  "examples": [
-    "A clock tells time.",
-    "Morning comes before afternoon.",
-    "We go to school in the morning."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "A clock tells time.",
       "answer": "Time",
       "options": [
         "Time",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "readingText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "audioText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      "audioText": "A clock tells time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Morning comes before ____.",
-      "answer": "afternoon",
+      "prompt": "Morning comes before afternoon.",
+      "answer": "Time",
       "options": [
-        "afternoon",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "readingText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "audioText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      "audioText": "Morning comes before afternoon.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We go to school in the ____.",
-      "answer": "morning",
+      "prompt": "We go to school in the morning.",
+      "answer": "Time",
       "options": [
-        "morning",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "readingText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "audioText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      "audioText": "We go to school in the morning.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time helps us plan our ____.",
-      "answer": "day",
+      "prompt": "Time helps us plan our day.",
+      "answer": "Time",
       "options": [
-        "day",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "readingText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "audioText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      "audioText": "Time helps us plan our day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "time",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "time",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "readingText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day.",
-      "audioText": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A clock tells time. Morning comes before afternoon. We go to school in the morning. Time helps us plan our day."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

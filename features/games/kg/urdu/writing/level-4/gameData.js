@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 4,
   "topic": "ٹریس پھر لکھیں",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "آم",
-    "بلی",
-    "کتاب"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "لفظ \"آم\" پہلے ٹریس کریں، پھر خود لکھیں۔",
       "answer": "آم",
-      "expected": "آم",
-      "options": [],
+      "options": [
+        {
+          "text": "آم",
+          "tts": "آم"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"آم\" پہلے ٹریس کریں، پھر خود لکھیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "آم": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "لفظ \"بلی\" پہلے ٹریس کریں، پھر خود لکھیں۔",
       "answer": "بلی",
-      "expected": "بلی",
-      "options": [],
+      "options": [
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"بلی\" پہلے ٹریس کریں، پھر خود لکھیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "بلی": "🐱",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "لفظ \"کتاب\" پہلے ٹریس کریں، پھر خود لکھیں۔",
       "answer": "کتاب",
-      "expected": "کتاب",
-      "options": [],
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"کتاب\" پہلے ٹریس کریں، پھر خود لکھیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "لفظ \"قلم\" پہلے ٹریس کریں، پھر خود لکھیں۔",
       "answer": "قلم",
-      "expected": "قلم",
-      "options": [],
+      "options": [
+        {
+          "text": "قلم",
+          "tts": "قلم"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"قلم\" پہلے ٹریس کریں، پھر خود لکھیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "قلم": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "لفظ \"پانی\" پہلے ٹریس کریں، پھر خود لکھیں۔",
       "answer": "پانی",
-      "expected": "پانی",
-      "options": [],
+      "options": [
+        {
+          "text": "پانی",
+          "tts": "pani"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "لفظ \"پانی\" پہلے ٹریس کریں، پھر خود لکھیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "💧",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پانی": "💧",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

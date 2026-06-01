@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 3,
   "topic": "Solar System",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Earth",
-    "Sun",
-    "Moon"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type the planet we live on",
       "answer": "Earth",
-      "expected": "Earth",
-      "options": [],
+      "options": [
+        "Earth",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the planet we live on",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Earth": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the star in our solar system",
       "answer": "Sun",
-      "expected": "Sun",
-      "options": [],
+      "options": [
+        "Sun",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the star in our solar system",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Sun": "☀️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type Earth's natural satellite",
       "answer": "Moon",
-      "expected": "Moon",
-      "options": [],
+      "options": [
+        "Moon",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type Earth's natural satellite",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Moon": "🌙",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the closest planet to Sun",
       "answer": "Mercury",
-      "expected": "Mercury",
-      "options": [],
+      "options": [
+        "Mercury",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the closest planet to Sun",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "Mercury": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the largest planet",
       "answer": "Jupiter",
-      "expected": "Jupiter",
-      "options": [],
+      "options": [
+        "Jupiter",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the largest planet",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "Jupiter": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Short Paragraph Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "My school is clean and beautiful. I learn many things there.",
-    "My best friend is kind. We study and play together.",
-    "Pakistan is my country. I love Pakistan very much."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Write 2 lines about My School",
       "answer": "My school is clean and beautiful. I learn many things there.",
-      "expected": "My school is clean and beautiful. I learn many things there.",
-      "options": [],
+      "options": [
+        "My school is clean and beautiful. I learn many things there.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write 2 lines about My School",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "My school is clean and beautiful. I learn many things there.": "👂",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write 2 lines about My Best Friend",
       "answer": "My best friend is kind. We study and play together.",
-      "expected": "My best friend is kind. We study and play together.",
-      "options": [],
+      "options": [
+        "My best friend is kind. We study and play together.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write 2 lines about My Best Friend",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "My best friend is kind. We study and play together.": "🧒",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write 2 lines about Pakistan",
       "answer": "Pakistan is my country. I love Pakistan very much.",
-      "expected": "Pakistan is my country. I love Pakistan very much.",
-      "options": [],
+      "options": [
+        "Pakistan is my country. I love Pakistan very much.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write 2 lines about Pakistan",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Pakistan is my country. I love Pakistan very much.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write 2 lines about My Family",
       "answer": "My family is loving. We help each other.",
-      "expected": "My family is loving. We help each other.",
-      "options": [],
+      "options": [
+        "My family is loving. We help each other.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write 2 lines about My Family",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "My family is loving. We help each other.": "👨‍👩‍👧",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write 2 lines about My Teacher",
       "answer": "My teacher is kind. She teaches us well.",
-      "expected": "My teacher is kind. She teaches us well.",
-      "options": [],
+      "options": [
+        "My teacher is kind. She teaches us well.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write 2 lines about My Teacher",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "My teacher is kind. She teaches us well.": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

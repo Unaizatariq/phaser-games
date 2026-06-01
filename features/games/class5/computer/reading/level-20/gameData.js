@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 20,
   "topic": "Importance of Technology",
-  "teach": "Technology makes life easier and faster.",
-  "examples": [
-    "Technology makes life easier and faster.",
-    "Students use technology for education.",
-    "Communication has improved because of technology."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Technology",
+      "prompt": "Technology makes life easier and faster.",
+      "answer": "Importance",
       "options": [
-        "Importance of Technology",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Technology makes life easier and faster.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes life easier and ____.",
-      "answer": "faster",
+      "prompt": "Students use technology for education.",
+      "answer": "Importance",
       "options": [
-        "faster",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Students use technology for education.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use technology for ____.",
-      "answer": "education",
+      "prompt": "Communication has improved because of technology.",
+      "answer": "Importance",
       "options": [
-        "education",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Communication has improved because of technology.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Communication has improved because of ____.",
-      "answer": "technology",
+      "prompt": "Technology helps people in daily life.",
+      "answer": "Importance",
       "options": [
-        "technology",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "Technology helps people in daily life.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps ____ in daily life.",
-      "answer": "people",
+      "prompt": "What is the story mainly about?",
+      "answer": "Importance",
       "options": [
-        "people",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "readingText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life.",
-      "audioText": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology makes life easier and faster. Students use technology for education. Communication has improved because of technology. Technology helps people in daily life."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

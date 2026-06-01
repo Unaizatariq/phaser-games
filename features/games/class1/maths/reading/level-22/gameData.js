@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 22,
-  "topic": "Counting Objects",
-  "teach": "We can count fruits and toys.",
-  "examples": [
-    "We can count fruits and toys.",
-    "Counting helps us understand numbers.",
-    "Math is useful at school and home."
-  ],
+  "topic": "Numbers 1 to 100",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Counting Objects",
+      "prompt": "We can count from 1 to 100.",
+      "answer": "Numbers",
       "options": [
-        "Counting Objects",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
-      ],
-      "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "readingText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "audioText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can count fruits and ____.",
-      "answer": "toys",
-      "options": [
-        "toys",
-        "Counting Numbers",
-        "things",
-        "books"
-      ],
-      "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "readingText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "audioText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Counting helps us understand ____.",
-      "answer": "numbers",
-      "options": [
-        "numbers",
-        "Counting Numbers",
-        "things",
-        "books"
-      ],
-      "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "readingText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "audioText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is useful at school and ____.",
-      "answer": "home",
-      "options": [
+        "Numbers",
+        "school",
         "home",
-        "Counting Numbers",
-        "things",
-        "books"
+        "book"
       ],
-      "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "readingText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "audioText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
+      "audioText": "We can count from 1 to 100.",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Counting is fun and ____.",
-      "answer": "easy",
+      "prompt": "Numbers help us learn math.",
+      "answer": "Numbers",
       "options": [
-        "easy",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "readingText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy.",
-      "audioText": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
+      "audioText": "Numbers help us learn math.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Each number has a value.",
+      "answer": "Numbers",
+      "options": [
+        "Numbers",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Each number has a value.",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Learning numbers is important.",
+      "answer": "Numbers",
+      "options": [
+        "Numbers",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Learning numbers is important.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Numbers",
+      "options": [
+        "Numbers",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can count fruits and toys. Counting helps us understand numbers. Math is useful at school and home. Counting is fun and easy."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

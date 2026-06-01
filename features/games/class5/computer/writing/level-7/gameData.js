@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 7,
-  "topic": "MS Excel Charts",
-  "teach": "MS Excel Charts teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "MS Word and Excel",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "What is the topic about?"
+      "prompt": "Type software used for documents",
+      "answer": "MS Word",
+      "options": [
+        "MS Word",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software used for documents",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "MS Word": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Write the answer: Computers help us"
+      "prompt": "Type software using formulas",
+      "answer": "MS Excel",
+      "options": [
+        "MS Excel",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software using formulas",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "MS Excel": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Write the answer: We should use computers"
+      "prompt": "Type formula adding numbers",
+      "answer": "SUM",
+      "options": [
+        "SUM",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type formula adding numbers",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "SUM": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Write the answer: A keyboard is used to"
+      "prompt": "Type formula finding average",
+      "answer": "AVERAGE",
+      "options": [
+        "AVERAGE",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type formula finding average",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "AVERAGE": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Write the answer: Good digital habit means"
+      "prompt": "Type software creating presentations",
+      "answer": "PowerPoint",
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software creating presentations",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

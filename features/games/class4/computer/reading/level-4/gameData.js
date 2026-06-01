@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 4,
   "topic": "Input and Output Devices",
-  "teach": "Input devices help users enter data.",
-  "examples": [
-    "Input devices help users enter data.",
-    "Keyboard, mouse, and scanner are input devices.",
-    "Monitors and printers are output devices."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Input and Output Devices",
+      "prompt": "Input devices help users enter data.",
+      "answer": "Input",
       "options": [
-        "Input and Output Devices",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "readingText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "audioText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      "audioText": "Input devices help users enter data.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Input devices help users enter ____.",
-      "answer": "data",
+      "prompt": "Keyboard, mouse, and scanner are input devices.",
+      "answer": "Input",
       "options": [
-        "data",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "readingText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "audioText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      "audioText": "Keyboard, mouse, and scanner are input devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Keyboard, mouse, and scanner are input ____.",
-      "answer": "devices",
+      "prompt": "Monitors and printers are output devices.",
+      "answer": "Input",
       "options": [
-        "devices",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "readingText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "audioText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      "audioText": "Monitors and printers are output devices.",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Output devices show the results of computer ____.",
-      "answer": "work",
+      "prompt": "Output devices show the results of computer work.",
+      "answer": "Input",
       "options": [
-        "work",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "readingText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "audioText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      "audioText": "Output devices show the results of computer work.",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "data",
+      "prompt": "What is the story mainly about?",
+      "answer": "Input",
       "options": [
-        "data",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "readingText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work.",
-      "audioText": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Input and Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Input devices help users enter data. Keyboard, mouse, and scanner are input devices. Monitors and printers are output devices. Output devices show the results of computer work."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

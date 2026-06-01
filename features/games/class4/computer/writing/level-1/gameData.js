@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 1,
   "topic": "Input and Output Devices",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "keyboard",
-    "monitor",
-    "printer"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one input device",
       "answer": "keyboard",
-      "expected": "keyboard",
-      "options": [],
+      "options": [
+        "keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Type one input device",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one output device",
       "answer": "monitor",
-      "expected": "monitor",
-      "options": [],
+      "options": [
+        "monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one output device",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type device used for printing",
       "answer": "printer",
-      "expected": "printer",
-      "options": [],
+      "options": [
+        "printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type device used for printing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🖨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type device used for scanning",
       "answer": "scanner",
-      "expected": "scanner",
-      "options": [],
+      "options": [
+        "scanner",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type device used for scanning",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "scanner": "📠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type device used for sound",
       "answer": "Type device used for sound",
-      "expected": "Type device used for sound",
-      "options": [],
+      "options": [
+        "Type device used for sound",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type device used for sound",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Type device used for sound": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

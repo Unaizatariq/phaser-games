@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 2,
   "topic": "Measurement Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "meter",
-    "kilogram",
-    "liter"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type unit for length",
       "answer": "meter",
-      "expected": "meter",
-      "options": [],
+      "options": [
+        "meter",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type unit for length",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "meter": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type unit for weight",
       "answer": "kilogram",
-      "expected": "kilogram",
-      "options": [],
+      "options": [
+        "kilogram",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type unit for weight",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "kilogram": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type unit for liquid",
       "answer": "liter",
-      "expected": "liter",
-      "options": [],
+      "options": [
+        "liter",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type unit for liquid",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "liter": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type measuring tool for time",
       "answer": "clock",
-      "expected": "clock",
-      "options": [],
+      "options": [
+        "clock",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type measuring tool for time",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "clock": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type measuring tool for length",
       "answer": "ruler",
-      "expected": "ruler",
-      "options": [],
+      "options": [
+        "ruler",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type measuring tool for length",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "ruler": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

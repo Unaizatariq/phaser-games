@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 7,
-  "topic": "Basic Patterns",
-  "teach": "Basic Patterns builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Basic Patterns",
-    "example",
-    "solve"
-  ],
+  "topic": "Number Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the main skill in Basic Patterns?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "What is the main skill in Basic Patterns?"
+      "prompt": "Trace number 11",
+      "answer": "11",
+      "options": [
+        "11",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 11",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct strategy."
+      "prompt": "Trace number 18",
+      "answer": "18",
+      "options": [
+        "18",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 18",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "18": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Write the answer: A good answer in maths should be"
+      "prompt": "Trace number 25",
+      "answer": "25",
+      "options": [
+        "25",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 25",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "25": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Write the answer: Word problems need us to find"
+      "prompt": "Trace number 35",
+      "answer": "35",
+      "options": [
+        "35",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 35",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "35": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Write the answer: After solving, we should"
+      "prompt": "Trace number 50",
+      "answer": "50",
+      "options": [
+        "50",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Trace number 50",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "50": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Big and Small",
-  "teach": "The elephant is big.",
-  "examples": [
-    "The elephant is big.",
-    "The ant is small.",
-    "Big things take more space."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Big and Small",
+      "prompt": "The elephant is big.",
+      "answer": "Big",
       "options": [
-        "Big and Small",
-        "Counting 1 to 5",
-        "Shapes",
-        "Colors and Numbers"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "readingText": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "audioText": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      "audioText": "The elephant is big.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The elephant is ____.",
-      "answer": "big",
+      "prompt": "The ant is small.",
+      "answer": "Big",
       "options": [
-        "big",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "readingText": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "audioText": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      "audioText": "The ant is small.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The ant is ____.",
-      "answer": "small",
+      "prompt": "Big things take more space.",
+      "answer": "Big",
       "options": [
-        "small",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "readingText": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "audioText": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      "audioText": "Big things take more space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Big things take more ____.",
-      "answer": "space",
+      "prompt": "Small things take less space.",
+      "answer": "Big",
       "options": [
-        "space",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "readingText": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "audioText": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      "audioText": "Small things take less space.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "big",
+      "prompt": "What is the story mainly about?",
+      "answer": "Big",
       "options": [
-        "big",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "readingText": "The elephant is big. The ant is small. Big things take more space. Small things take less space.",
-      "audioText": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The elephant is big. The ant is small. Big things take more space. Small things take less space."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

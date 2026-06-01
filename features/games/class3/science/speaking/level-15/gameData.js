@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 15,
-  "topic": "Keeping Environment Clean",
-  "teach": "Keeping Environment Clean is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Keeping Environment Clean",
-    "example",
-    "practice"
-  ],
+  "topic": "States of Matter",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Keeping Environment Clean",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Say the state of matter: Solid",
+      "answer": "Solid",
+      "options": [
+        "Solid",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the state of matter: Solid",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Solid": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Say the state of matter: Liquid",
+      "answer": "Liquid",
+      "options": [
+        "Liquid",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the state of matter: Liquid",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Liquid": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Say the state of matter: Gas",
+      "answer": "Gas",
+      "options": [
+        "Gas",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the state of matter: Gas",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Gas": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💡",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌎",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

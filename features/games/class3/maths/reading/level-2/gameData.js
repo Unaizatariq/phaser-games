@@ -1,89 +1,160 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Place Value and Expanded Form",
-  "teach": "Place value tells the value of each digit.",
-  "examples": [
-    "Place value tells the value of each digit.",
-    "Expanded form breaks numbers into parts.",
-    "4,562 can be written as 4000 + 500 + 60 + 2."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Place Value and Expanded Form",
+      "prompt": "Place value tells the value of each digit.",
+      "answer": "Place",
       "options": [
-        "Place Value and Expanded Form",
-        "Large Numbers",
-        "Addition and Subtraction",
-        "Multiplication"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "readingText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "audioText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      "audioText": "Place value tells the value of each digit.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value tells the value of each ____.",
-      "answer": "digit",
+      "prompt": "Expanded form breaks numbers into parts.",
+      "answer": "Place",
       "options": [
-        "digit",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "readingText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "audioText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      "audioText": "Expanded form breaks numbers into parts.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Expanded form breaks numbers into ____.",
-      "answer": "parts",
+      "prompt": "4,562 can be written as 4000 + 500 + 60 + 2.",
+      "answer": "Place",
       "options": [
-        "parts",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "readingText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "audioText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      "audioText": "4,562 can be written as 4000 + 500 + 60 + 2.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": {
+        "a": 4000,
+        "op": "+",
+        "b": 500,
+        "item": "🍎"
+      },
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 4,562 can be written as 4000 + ____ + 60 + 2.",
-      "answer": "500",
+      "prompt": "Place value improves number understanding.",
+      "answer": "Place",
       "options": [
-        "500",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "readingText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "audioText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      "audioText": "Place value improves number understanding.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value improves number ____.",
-      "answer": "understanding",
+      "prompt": "What is the story mainly about?",
+      "answer": "Place",
       "options": [
-        "understanding",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "readingText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding.",
-      "audioText": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Place value tells the value of each digit. Expanded form breaks numbers into parts. 4,562 can be written as 4000 + 500 + 60 + 2. Place value improves number understanding."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 11,
   "topic": "Fruits and Vegetables",
-  "teach": "Fruits and vegetables are healthy.",
-  "examples": [
-    "Fruits and vegetables are healthy.",
-    "Apples and bananas are fruits.",
-    "Carrots and potatoes are vegetables."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fruits and Vegetables",
+      "prompt": "Fruits and vegetables are healthy.",
+      "answer": "Fruits",
       "options": [
-        "Fruits and Vegetables",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Fruits",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "readingText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "audioText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      "audioText": "Fruits and vegetables are healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fruits": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fruits and ____ are healthy.",
-      "answer": "vegetables",
+      "prompt": "Apples and bananas are fruits.",
+      "answer": "Fruits",
       "options": [
-        "vegetables",
-        "My Body",
-        "things",
-        "ears"
+        "Fruits",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "readingText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "audioText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      "audioText": "Apples and bananas are fruits.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fruits": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Apples and bananas are ____.",
-      "answer": "fruits",
+      "prompt": "Carrots and potatoes are vegetables.",
+      "answer": "Fruits",
       "options": [
-        "fruits",
-        "My Body",
-        "things",
-        "ears"
+        "Fruits",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "readingText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "audioText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      "audioText": "Carrots and potatoes are vegetables.",
+      "art": "📚",
+      "questionText": "According to the story about Fruits and Vegetables, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fruits": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They help us ____ strong.",
-      "answer": "grow",
+      "prompt": "They help us grow strong.",
+      "answer": "Fruits",
       "options": [
-        "grow",
-        "My Body",
-        "things",
-        "ears"
+        "Fruits",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "readingText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "audioText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      "audioText": "They help us grow strong.",
+      "art": "📚",
+      "questionText": "According to the story about Fruits and Vegetables, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fruits": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "vegetables",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fruits",
       "options": [
-        "vegetables",
-        "My Body",
-        "things",
-        "ears"
+        "Fruits",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "readingText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong.",
-      "audioText": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Fruits and Vegetables, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fruits": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fruits and vegetables are healthy. Apples and bananas are fruits. Carrots and potatoes are vegetables. They help us grow strong."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

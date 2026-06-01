@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 15,
   "topic": "Computer Rules",
-  "teach": "Sit properly while using a computer.",
-  "examples": [
-    "Sit properly while using a computer.",
-    "Do not eat near computers.",
-    "Use clean hands on the keyboard."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Rules",
+      "prompt": "Sit properly while using a computer.",
+      "answer": "Computer",
       "options": [
-        "Computer Rules",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "readingText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "audioText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      "audioText": "Sit properly while using a computer.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sit properly while using a ____.",
-      "answer": "computer",
+      "prompt": "Do not eat near computers.",
+      "answer": "Computer",
       "options": [
-        "computer",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "readingText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "audioText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      "audioText": "Do not eat near computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Do not eat near ____.",
-      "answer": "computers",
+      "prompt": "Use clean hands on the keyboard.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "readingText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "audioText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      "audioText": "Use clean hands on the keyboard.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Use clean hands on the ____.",
-      "answer": "keyboard",
+      "prompt": "Follow teacher instructions in the lab.",
+      "answer": "Computer",
       "options": [
-        "keyboard",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "readingText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "audioText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      "audioText": "Follow teacher instructions in the lab.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Follow teacher instructions in the ____.",
-      "answer": "lab",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "lab",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "readingText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab.",
-      "audioText": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sit properly while using a computer. Do not eat near computers. Use clean hands on the keyboard. Follow teacher instructions in the lab."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

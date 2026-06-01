@@ -1,87 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 21,
-  "topic": "Liters measure liquid capacity.",
-  "teach": "Volume and capacity are useful in daily life.",
-  "examples": [
-    "Volume and capacity are useful in daily life."
-  ],
+  "topic": "Whole Numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Liters measure liquid capacity.",
+      "prompt": "Whole numbers are counting numbers including zero.",
+      "answer": "Whole",
       "options": [
-        "Liters measure liquid capacity.",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume and capacity are useful in daily life.",
-      "readingText": "Volume and capacity are useful in daily life.",
-      "audioText": "Volume and capacity are useful in daily life."
+      "audioText": "Whole numbers are counting numbers including zero.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume and ____ are useful in daily life.",
-      "answer": "capacity",
+      "prompt": "They help us count and measure quantities.",
+      "answer": "Whole",
       "options": [
-        "capacity",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume and capacity are useful in daily life.",
-      "readingText": "Volume and capacity are useful in daily life.",
-      "audioText": "Volume and capacity are useful in daily life."
+      "audioText": "They help us count and measure quantities.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "capacity",
+      "prompt": "Large whole numbers are used in daily life.",
+      "answer": "Whole",
       "options": [
-        "capacity",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume and capacity are useful in daily life.",
-      "readingText": "Volume and capacity are useful in daily life.",
-      "audioText": "Volume and capacity are useful in daily life."
+      "audioText": "Large whole numbers are used in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "capacity",
+      "prompt": "Place value helps us understand large numbers.",
+      "answer": "Whole",
       "options": [
-        "capacity",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume and capacity are useful in daily life.",
-      "readingText": "Volume and capacity are useful in daily life.",
-      "audioText": "Volume and capacity are useful in daily life."
+      "audioText": "Place value helps us understand large numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "capacity",
+      "prompt": "What is the story mainly about?",
+      "answer": "Whole",
       "options": [
-        "capacity",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume and capacity are useful in daily life.",
-      "readingText": "Volume and capacity are useful in daily life.",
-      "audioText": "Volume and capacity are useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Volume and capacity are useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

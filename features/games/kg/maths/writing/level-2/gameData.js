@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 2,
   "topic": "Missing Numbers",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "2",
-    "5",
-    "8"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace missing number: 1 _ 3",
       "answer": "2",
-      "expected": "2",
-      "options": [],
+      "options": [
+        "2",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace missing number: 1 _ 3",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 0,
+        "op": "count",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "2": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing number: 4 _ 6",
       "answer": "5",
-      "expected": "5",
-      "options": [],
+      "options": [
+        "5",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace missing number: 4 _ 6",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 0,
+        "op": "count",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing number: 7 _ 9",
       "answer": "8",
-      "expected": "8",
-      "options": [],
+      "options": [
+        "8",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace missing number: 7 _ 9",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 8,
+        "b": 0,
+        "op": "count",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing number: 10 _ 12",
       "answer": "11",
-      "expected": "11",
-      "options": [],
+      "options": [
+        "11",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace missing number: 10 _ 12",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing number: 15 _ 17",
       "answer": "16",
-      "expected": "16",
-      "options": [],
+      "options": [
+        "16",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace missing number: 15 _ 17",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "16": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

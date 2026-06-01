@@ -1,87 +1,200 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 2,
   "topic": "میرے ارد گرد رنگ",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "نیلا"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "آسمان نیلا ہے۔",
       "answer": "نیلا",
       "options": [
-        "نیلا",
-        "کالا",
-        "بھورا",
-        "جامنی"
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "کالا",
+          "tts": "کالا"
+        },
+        {
+          "text": "بھورا",
+          "tts": "بھورا"
+        },
+        {
+          "text": "جامنی",
+          "tts": "جامنی"
+        }
       ],
-      "text": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "audioText": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+      "audioText": "آسمان نیلا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "آسمان نیلا ہے۔",
+      "narrationTTS": "آسمان نیلا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
-      "answer": "نیلا",
+      "prompt": "گھاس سبز ہے۔",
+      "answer": "سبز",
       "options": [
-        "نیلا",
-        "کالا",
-        "بھورا",
-        "جامنی"
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "کالا",
+          "tts": "کالا"
+        },
+        {
+          "text": "بھورا",
+          "tts": "بھورا"
+        }
       ],
-      "text": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "audioText": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+      "audioText": "گھاس سبز ہے۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "گھاس سبز ہے۔",
+      "narrationTTS": "گھاس سبز ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
-      "answer": "نیلا",
+      "prompt": "سورج پیلا اور روشن ہے۔",
+      "answer": "روشن",
       "options": [
-        "نیلا",
-        "کالا",
-        "بھورا",
-        "جامنی"
+        {
+          "text": "روشن",
+          "tts": "روشن"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "کالا",
+          "tts": "کالا"
+        },
+        {
+          "text": "بھورا",
+          "tts": "بھورا"
+        }
       ],
-      "text": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "audioText": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+      "audioText": "سورج پیلا اور روشن ہے۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "سورج پیلا اور روشن ہے۔",
+      "narrationTTS": "سورج پیلا اور روشن ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "نیلا",
+      "prompt": "مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
+      "answer": "آتے",
       "options": [
-        "نیلا",
-        "کالا",
-        "بھورا",
-        "جامنی"
+        {
+          "text": "آتے",
+          "tts": "آتے"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "کالا",
+          "tts": "کالا"
+        },
+        {
+          "text": "بھورا",
+          "tts": "بھورا"
+        }
       ],
-      "text": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "audioText": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+      "audioText": "مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
+      "narrationTTS": "مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "نیلا",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "نیلا",
-        "کالا",
-        "بھورا",
-        "جامنی"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "کالا",
+          "tts": "کالا"
+        },
+        {
+          "text": "بھورا",
+          "tts": "بھورا"
+        }
       ],
-      "text": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔",
-      "audioText": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "آسمان نیلا ہے۔ گھاس سبز ہے۔ سورج پیلا اور روشن ہے۔ مجھے اپنے ارد گرد خوبصورت رنگ نظر آتے ہیں۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

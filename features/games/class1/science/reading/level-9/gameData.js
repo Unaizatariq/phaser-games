@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "Flowers",
-  "teach": "Flowers are colorful.",
-  "examples": [
-    "Flowers are colorful.",
-    "Flowers smell nice.",
-    "Bees sit on flowers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Flowers are colorful.",
       "answer": "Flowers",
       "options": [
         "Flowers",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "readingText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "audioText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      "audioText": "Flowers are colorful.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Flowers": "🌸",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers are ____.",
-      "answer": "colorful",
+      "prompt": "Flowers smell nice.",
+      "answer": "Flowers",
       "options": [
-        "colorful",
-        "My Body",
-        "things",
-        "ears"
+        "Flowers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "readingText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "audioText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      "audioText": "Flowers smell nice.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Flowers": "🌸",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers smell ____.",
-      "answer": "nice",
+      "prompt": "Bees sit on flowers.",
+      "answer": "Flowers",
       "options": [
-        "nice",
-        "My Body",
-        "things",
-        "ears"
+        "Flowers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "readingText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "audioText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      "audioText": "Bees sit on flowers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Flowers": "🌸",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "colorful",
+      "prompt": "People like flowers.",
+      "answer": "Flowers",
       "options": [
-        "colorful",
-        "My Body",
-        "things",
-        "ears"
+        "Flowers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "readingText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "audioText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      "audioText": "People like flowers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Flowers": "🌸",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nice",
+      "prompt": "What is the story mainly about?",
+      "answer": "Flowers",
       "options": [
-        "nice",
-        "My Body",
-        "things",
-        "ears"
+        "Flowers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "readingText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers.",
-      "audioText": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Flowers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Flowers": "🌸",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Flowers are colorful. Flowers smell nice. Bees sit on flowers. People like flowers."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

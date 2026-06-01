@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 21,
-  "topic": "Educational apps help students practice skills.",
-  "teach": "Technology makes learning more interactive.",
-  "examples": [
-    "Technology makes learning more interactive."
-  ],
+  "topic": "Introduction to Computers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Educational apps help students practice skills.",
+      "prompt": "Computers are electronic devices used for many purposes.",
+      "answer": "Introduction",
       "options": [
-        "Educational apps help students practice skills.",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes learning more interactive.",
-      "readingText": "Technology makes learning more interactive.",
-      "audioText": "Technology makes learning more interactive."
+      "audioText": "Computers are electronic devices used for many purposes.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes learning more ____.",
-      "answer": "interactive",
+      "prompt": "They help people work faster and more accurately.",
+      "answer": "Introduction",
       "options": [
-        "interactive",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes learning more interactive.",
-      "readingText": "Technology makes learning more interactive.",
-      "audioText": "Technology makes learning more interactive."
+      "audioText": "They help people work faster and more accurately.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interactive",
+      "prompt": "Computers are used in schools, hospitals, banks, and homes.",
+      "answer": "Introduction",
       "options": [
-        "interactive",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes learning more interactive.",
-      "readingText": "Technology makes learning more interactive.",
-      "audioText": "Technology makes learning more interactive."
+      "audioText": "Computers are used in schools, hospitals, banks, and homes.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interactive",
+      "prompt": "Modern life depends heavily on computers.",
+      "answer": "Introduction",
       "options": [
-        "interactive",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes learning more interactive.",
-      "readingText": "Technology makes learning more interactive.",
-      "audioText": "Technology makes learning more interactive."
+      "audioText": "Modern life depends heavily on computers.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interactive",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "interactive",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes learning more interactive.",
-      "readingText": "Technology makes learning more interactive.",
-      "audioText": "Technology makes learning more interactive."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology makes learning more interactive."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

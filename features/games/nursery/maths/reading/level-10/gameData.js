@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Matching Numbers",
-  "teach": "1 matches one object.",
-  "examples": [
-    "1 matches one object.",
-    "2 matches two objects.",
-    "Numbers help us learn counting."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Matching Numbers",
+      "prompt": "1 matches one object.",
+      "answer": "Matching",
       "options": [
-        "Matching Numbers",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
+        "Matching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "readingText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "audioText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      "audioText": "1 matches one object.",
+      "art": "📚",
+      "questionText": "According to the story about Matching Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 1 matches one ____.",
-      "answer": "object",
+      "prompt": "2 matches two objects.",
+      "answer": "Matching",
       "options": [
-        "object",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Matching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "readingText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "audioText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      "audioText": "2 matches two objects.",
+      "art": "📚",
+      "questionText": "According to the story about Matching Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2 matches two ____.",
-      "answer": "objects",
+      "prompt": "Numbers help us learn counting.",
+      "answer": "Matching",
       "options": [
-        "objects",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Matching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "readingText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "audioText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      "audioText": "Numbers help us learn counting.",
+      "art": "📚",
+      "questionText": "According to the story about Matching Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers help us learn ____.",
-      "answer": "counting",
+      "prompt": "Matching improves learning.",
+      "answer": "Matching",
       "options": [
-        "counting",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Matching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "readingText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "audioText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      "audioText": "Matching improves learning.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Matching ____ learning.",
-      "answer": "improves",
+      "prompt": "What is the story mainly about?",
+      "answer": "Matching",
       "options": [
-        "improves",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Matching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "readingText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning.",
-      "audioText": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Matching Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "1 matches one object. 2 matches two objects. Numbers help us learn counting. Matching improves learning."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

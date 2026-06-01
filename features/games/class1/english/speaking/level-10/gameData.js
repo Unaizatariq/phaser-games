@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 10,
-  "topic": "Picture Description",
-  "teach": "Picture description means looking carefully and telling what we see: people, place, action and details.",
-  "examples": [
-    "look",
-    "notice",
-    "describe"
-  ],
+  "topic": "Vocabulary Speaking",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What should we do first?",
-      "answer": "look carefully",
-      "options": [],
-      "audioText": "Say the answer: What should we do first?"
+      "prompt": "Say the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Computer",
+      "art": "💻",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Computer": "💻",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Which sentence describes a park picture?",
-      "answer": "Children are playing in the park.",
-      "options": [],
-      "audioText": "Say the answer: Which sentence describes a park picture?"
+      "prompt": "Say the word: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Say the word: School",
+      "art": "🏫",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good description tells about",
-      "answer": "what we see",
-      "options": [],
-      "audioText": "Say the answer: A good description tells about"
+      "prompt": "Say the word: Elephant",
+      "answer": "Elephant",
+      "options": [
+        "Elephant",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Elephant",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Elephant": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose a describing sentence.",
-      "answer": "The girl is holding a red balloon.",
-      "options": [],
-      "audioText": "Say the answer: Choose a describing sentence."
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "👧",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We can mention",
-      "answer": "people, place and action",
-      "options": [],
-      "audioText": "Say the answer: We can mention"
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🧼",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

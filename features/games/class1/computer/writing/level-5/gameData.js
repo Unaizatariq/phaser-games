@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 5,
-  "topic": "Computer Handling",
-  "teach": "We must handle computers carefully. Keep food and water away and sit properly.",
-  "examples": [
-    "clean hands",
-    "no water",
-    "sit straight"
-  ],
+  "topic": "Computer Vocabulary Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: We should keep water away from",
-      "answer": "computer",
-      "options": [],
-      "audioText": "Write the answer: We should keep water away from"
+      "prompt": "Type the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Computer",
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should use computer with",
-      "answer": "clean hands",
-      "options": [],
-      "audioText": "Write the answer: We should use computer with"
+      "prompt": "Type the word: Monitor",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: Monitor",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should sit",
-      "answer": "properly",
-      "options": [],
-      "audioText": "Write the answer: We should sit"
+      "prompt": "Type the word: Mouse",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Mouse",
+      "art": "🖱️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Do not pull computer",
-      "answer": "wires",
-      "options": [],
-      "audioText": "Write the answer: Do not pull computer"
+      "prompt": "Type the word: Keyboard",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Type the word: Keyboard",
+      "art": "⌨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good computer habit keeps us",
-      "answer": "safe",
-      "options": [],
-      "audioText": "Write the answer: Good computer habit keeps us"
+      "prompt": "Type the word: CPU",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: CPU",
+      "art": "🧠",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

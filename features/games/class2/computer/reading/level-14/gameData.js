@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 14,
   "topic": "Storage Devices",
-  "teach": "Computers store information in storage devices.",
-  "examples": [
-    "Computers store information in storage devices.",
-    "Hard disks and USB drives store data.",
-    "Pictures and files can be saved."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Storage Devices",
+      "prompt": "Computers store information in storage devices.",
+      "answer": "Storage",
       "options": [
-        "Storage Devices",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "readingText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "audioText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      "audioText": "Computers store information in storage devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers store information in storage ____.",
-      "answer": "devices",
+      "prompt": "Hard disks and USB drives store data.",
+      "answer": "Storage",
       "options": [
-        "devices",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "readingText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "audioText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      "audioText": "Hard disks and USB drives store data.",
+      "art": "📚",
+      "questionText": "According to the story about Storage Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hard disks and USB drives store ____.",
-      "answer": "data",
+      "prompt": "Pictures and files can be saved.",
+      "answer": "Storage",
       "options": [
-        "data",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "readingText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "audioText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      "audioText": "Pictures and files can be saved.",
+      "art": "📚",
+      "questionText": "According to the story about Storage Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Pictures and files can be ____.",
-      "answer": "saved",
+      "prompt": "Storage keeps information safe.",
+      "answer": "Storage",
       "options": [
-        "saved",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "readingText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "audioText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      "audioText": "Storage keeps information safe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Storage keeps information ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Storage",
       "options": [
-        "safe",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "readingText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe.",
-      "audioText": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Storage Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers store information in storage devices. Hard disks and USB drives store data. Pictures and files can be saved. Storage keeps information safe."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

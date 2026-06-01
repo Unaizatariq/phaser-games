@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 13,
   "topic": "Our Body",
-  "teach": "Our body has many parts.",
-  "examples": [
-    "Our body has many parts.",
-    "Eyes help us see.",
-    "Ears help us hear."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Our Body",
+      "prompt": "Our body has many parts.",
+      "answer": "Our",
       "options": [
-        "Our Body",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "readingText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "audioText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      "audioText": "Our body has many parts.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our body has many ____.",
-      "answer": "parts",
+      "prompt": "Eyes help us see.",
+      "answer": "Our",
       "options": [
-        "parts",
-        "Living Things",
-        "move",
-        "things"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "readingText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "audioText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      "audioText": "Eyes help us see.",
+      "art": "📚",
+      "questionText": "According to the story about Our Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Eyes help us ____.",
-      "answer": "see",
+      "prompt": "Ears help us hear.",
+      "answer": "Our",
       "options": [
-        "see",
-        "Living Things",
-        "move",
-        "things"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "readingText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "audioText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      "audioText": "Ears help us hear.",
+      "art": "📚",
+      "questionText": "According to the story about Our Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ears help us ____.",
-      "answer": "hear",
+      "prompt": "Hands and legs help us move.",
+      "answer": "Our",
       "options": [
-        "hear",
-        "Living Things",
-        "move",
-        "things"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "readingText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "audioText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      "audioText": "Hands and legs help us move.",
+      "art": "📚",
+      "questionText": "According to the story about Our Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hands and legs help us ____.",
-      "answer": "move",
+      "prompt": "What is the story mainly about?",
+      "answer": "Our",
       "options": [
-        "move",
-        "Living Things",
-        "things",
-        "water"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "readingText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move.",
-      "audioText": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Our Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our body has many parts. Eyes help us see. Ears help us hear. Hands and legs help us move."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

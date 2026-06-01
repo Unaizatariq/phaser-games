@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Shapes",
-  "teach": "A circle is round.",
-  "examples": [
-    "A circle is round.",
-    "A square has four sides.",
-    "A triangle has three sides."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "A circle is round.",
       "answer": "Shapes",
       "options": [
         "Shapes",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Colors and Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "readingText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "audioText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      "audioText": "A circle is round.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A circle is ____.",
-      "answer": "round",
+      "prompt": "A square has four sides.",
+      "answer": "Shapes",
       "options": [
-        "round",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "readingText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "audioText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      "audioText": "A square has four sides.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A square has four ____.",
-      "answer": "sides",
+      "prompt": "A triangle has three sides.",
+      "answer": "Shapes",
       "options": [
-        "sides",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "readingText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "audioText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      "audioText": "A triangle has three sides.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes are ____.",
-      "answer": "everywhere",
+      "prompt": "Shapes are everywhere.",
+      "answer": "Shapes",
       "options": [
-        "everywhere",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "readingText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "audioText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      "audioText": "Shapes are everywhere.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "round",
+      "prompt": "What is the story mainly about?",
+      "answer": "Shapes",
       "options": [
-        "round",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "readingText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere.",
-      "audioText": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+      "audioText": "What is the story mainly about?",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A circle is round. A square has four sides. A triangle has three sides. Shapes are everywhere."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

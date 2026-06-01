@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "listening",
   "level": 6,
-  "topic": "Drawing Lines and Shapes",
-  "teach": "Drawing Lines and Shapes builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Drawing Lines and Shapes",
-    "example",
-    "solve"
-  ],
+  "topic": "printer",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "solving carefully",
+      "audioText": "A computer mouse is a small device. It helps us click, select, and move items on the computer screen.",
+      "prompt": "Which device helps us click on items on the computer screen?",
+      "answer": "mouse",
       "options": [
-        "solving carefully",
-        "guessing",
-        "drawing only",
-        "singing"
+        "mouse",
+        "monitor",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "What is the main skill in Drawing Lines and Shapes?"
+      "art": "🖱️",
+      "optionArts": {
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the question first",
+      "audioText": "A keyboard has many keys. We use it to type letters, numbers, and words.",
+      "prompt": "Which device is used for typing letters and numbers?",
+      "answer": "keyboard",
       "options": [
-        "read the question first",
-        "skip numbers",
-        "ignore signs",
-        "close eyes"
+        "keyboard",
+        "mouse",
+        "monitor",
+        "speaker"
       ],
-      "audioText": "Choose the correct strategy."
+      "art": "⌨️",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "speaker": "🔊"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "accurate",
+      "audioText": "A monitor is the screen of a computer. It shows pictures, words, and videos.",
+      "prompt": "Which computer part shows pictures and words?",
+      "answer": "monitor",
       "options": [
-        "accurate",
-        "random",
-        "unreadable",
-        "empty"
+        "monitor",
+        "mouse",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "A good answer in maths should be"
+      "art": "🖥️",
+      "optionArts": {
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "what is asked",
+      "audioText": "A printer makes a paper copy of work from the computer.",
+      "prompt": "Which device prints work on paper?",
+      "answer": "printer",
       "options": [
-        "what is asked",
-        "only names",
-        "only colors",
-        "only pictures"
+        "printer",
+        "monitor",
+        "mouse",
+        "CPU"
       ],
-      "audioText": "Word problems need us to find"
+      "art": "🖨️",
+      "optionArts": {
+        "printer": "🖨️",
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "CPU": "🧠"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "check the answer",
+      "audioText": "Speakers are output devices. They help us hear sound from the computer.",
+      "prompt": "Which device helps us hear sound?",
+      "answer": "speaker",
       "options": [
-        "check the answer",
-        "erase all",
-        "change topic",
-        "stop reading"
+        "speaker",
+        "keyboard",
+        "mouse",
+        "scanner"
       ],
-      "audioText": "After solving, we should"
+      "art": "🔊",
+      "optionArts": {
+        "speaker": "🔊",
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "scanner": "📠"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

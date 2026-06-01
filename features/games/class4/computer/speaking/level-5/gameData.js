@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 5,
-  "topic": "Windows Basics",
-  "teach": "Windows Basics teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Input and Output Devices",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "Say the answer: What is the topic about?"
+      "prompt": "Name one input device.",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Name one input device.",
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Say the answer: Computers help us"
+      "prompt": "Name one output device.",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Name one output device.",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Say the answer: We should use computers"
+      "prompt": "Which device prints documents?",
+      "answer": "Printer",
+      "options": [
+        "Printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device prints documents?",
+      "art": "🖨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Say the answer: A keyboard is used to"
+      "prompt": "Which device scans pictures?",
+      "answer": "Scanner",
+      "options": [
+        "Scanner",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device scans pictures?",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Scanner": "📠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Say the answer: Good digital habit means"
+      "prompt": "Which device gives sound?",
+      "answer": "Speaker",
+      "options": [
+        "Speaker",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which device gives sound?",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Speaker": "🔊",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

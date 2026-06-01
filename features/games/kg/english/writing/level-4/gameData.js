@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 4,
   "topic": "Pattern Writing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "standing lines",
-    "sleeping lines",
-    "zigzag pattern"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace standing lines",
       "answer": "standing lines",
-      "expected": "standing lines",
-      "options": [],
+      "options": [
+        "standing lines",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace standing lines",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "standing lines": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace sleeping lines",
       "answer": "sleeping lines",
-      "expected": "sleeping lines",
-      "options": [],
+      "options": [
+        "sleeping lines",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace sleeping lines",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "sleeping lines": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace zigzag pattern",
       "answer": "zigzag pattern",
-      "expected": "zigzag pattern",
-      "options": [],
+      "options": [
+        "zigzag pattern",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace zigzag pattern",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "zigzag pattern": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace curves",
       "answer": "curves",
-      "expected": "curves",
-      "options": [],
+      "options": [
+        "curves",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace curves",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "curves": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace dotted paths",
       "answer": "dotted paths",
-      "expected": "dotted paths",
-      "options": [],
+      "options": [
+        "dotted paths",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace dotted paths",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "dotted paths": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

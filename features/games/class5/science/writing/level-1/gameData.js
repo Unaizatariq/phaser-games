@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 1,
   "topic": "Microorganisms",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "bacteria",
-    "mushroom",
-    "E. coli"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one microorganism",
       "answer": "bacteria",
-      "expected": "bacteria",
-      "options": [],
+      "options": [
+        "bacteria",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one microorganism",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "bacteria": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one fungus",
       "answer": "mushroom",
-      "expected": "mushroom",
-      "options": [],
+      "options": [
+        "mushroom",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one fungus",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "mushroom": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one bacteria",
       "answer": "E. coli",
-      "expected": "E. coli",
-      "options": [],
+      "options": [
+        "E. coli",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one bacteria",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "E. coli": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one virus",
       "answer": "flu virus",
-      "expected": "flu virus",
-      "options": [],
+      "options": [
+        "flu virus",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one virus",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "flu virus": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one useful microorganism",
       "answer": "yeast",
-      "expected": "yeast",
-      "options": [],
+      "options": [
+        "yeast",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one useful microorganism",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "yeast": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

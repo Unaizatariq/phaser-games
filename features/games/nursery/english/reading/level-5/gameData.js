@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
-  "topic": "M for Mango / N for Nest / O for Orange",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "mango",
-    "nest",
-    "orange"
-  ],
+  "topic": "E for Elephant",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "mango",
+      "prompt": "E is for elephant.",
+      "answer": "elephant",
       "options": [
-        "mango",
-        "orange",
-        "apple",
-        "juice"
+        "elephant",
+        "fish",
+        "goat",
+        "hen"
       ],
-      "text": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "audioText": "M is for mango. Mango is yellow and sweet. It is my favorite fruit."
+      "audioText": "E is for elephant.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "elephant": "🔹",
+        "fish": "🐟",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "mango",
+      "prompt": "The elephant is very big and strong.",
+      "answer": "elephant",
       "options": [
-        "mango",
-        "orange",
-        "apple",
-        "juice"
+        "elephant",
+        "fish",
+        "goat",
+        "hen"
       ],
-      "text": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "audioText": "M is for mango. Mango is yellow and sweet. It is my favorite fruit."
+      "audioText": "The elephant is very big and strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "elephant": "🔹",
+        "fish": "🐟",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "mango",
+      "prompt": "It has a long trunk.",
+      "answer": "elephant",
       "options": [
-        "mango",
-        "orange",
-        "apple",
-        "juice"
+        "elephant",
+        "fish",
+        "goat",
+        "hen"
       ],
-      "text": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "audioText": "M is for mango. Mango is yellow and sweet. It is my favorite fruit."
+      "audioText": "It has a long trunk.",
+      "art": "📚",
+      "questionText": "According to the story about E for Elephant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "elephant": "🔹",
+        "fish": "🐟",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "mango",
+      "prompt": "What is the story mainly about?",
+      "answer": "elephant",
       "options": [
-        "mango",
-        "orange",
-        "apple",
-        "juice"
+        "elephant",
+        "fish",
+        "goat",
+        "hen"
       ],
-      "text": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "audioText": "M is for mango. Mango is yellow and sweet. It is my favorite fruit."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about E for Elephant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "elephant": "🔹",
+        "fish": "🐟",
+        "goat": "🐐",
+        "hen": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "mango",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "mango",
-        "orange",
-        "apple",
-        "juice"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit.",
-      "audioText": "M is for mango. Mango is yellow and sweet. It is my favorite fruit."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "nest",
-      "options": [
-        "nest",
-        "mango",
-        "umbrella",
-        "watch"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "📝",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "audioText": "N is for nest. Birds live in nests. The nest is on the tree."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "nest",
-      "options": [
-        "nest",
-        "mango",
-        "umbrella",
-        "watch"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "audioText": "N is for nest. Birds live in nests. The nest is on the tree."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "nest",
-      "options": [
-        "nest",
-        "mango",
-        "umbrella",
-        "watch"
-      ],
-      "text": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "audioText": "N is for nest. Birds live in nests. The nest is on the tree."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "nest",
-      "options": [
-        "nest",
-        "mango",
-        "umbrella",
-        "watch"
-      ],
-      "text": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "audioText": "N is for nest. Birds live in nests. The nest is on the tree."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "nest",
-      "options": [
-        "nest",
-        "mango",
-        "umbrella",
-        "watch"
-      ],
-      "text": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "passage": "N is for nest. Birds live in nests. The nest is on the tree.",
-      "audioText": "N is for nest. Birds live in nests. The nest is on the tree."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "orange",
-      "options": [
-        "orange",
-        "mango",
-        "apple",
-        "fish"
-      ],
-      "text": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "audioText": "O is for orange. The orange is juicy and tasty. It is full of vitamins."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "orange",
-      "options": [
-        "orange",
-        "mango",
-        "apple",
-        "fish"
-      ],
-      "text": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "audioText": "O is for orange. The orange is juicy and tasty. It is full of vitamins."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "orange",
-      "options": [
-        "orange",
-        "mango",
-        "apple",
-        "fish"
-      ],
-      "text": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "audioText": "O is for orange. The orange is juicy and tasty. It is full of vitamins."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "orange",
-      "options": [
-        "orange",
-        "mango",
-        "apple",
-        "fish"
-      ],
-      "text": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "audioText": "O is for orange. The orange is juicy and tasty. It is full of vitamins."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "orange",
-      "options": [
-        "orange",
-        "mango",
-        "apple",
-        "fish"
-      ],
-      "text": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "passage": "O is for orange. The orange is juicy and tasty. It is full of vitamins.",
-      "audioText": "O is for orange. The orange is juicy and tasty. It is full of vitamins."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "M is for mango. Mango is yellow and sweet. It is my favorite fruit. N is for nest. Birds live in nests. The nest is on the tree. O is for orange. The orange is juicy and tasty. It is full of vitamins."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

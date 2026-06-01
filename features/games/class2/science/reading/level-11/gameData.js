@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 11,
   "topic": "Weather",
-  "teach": "Weather changes every day.",
-  "examples": [
-    "Weather changes every day.",
-    "Sometimes it is sunny.",
-    "Sometimes it rains or becomes cloudy."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Weather changes every day.",
       "answer": "Weather",
       "options": [
         "Weather",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      "audioText": "Weather changes every day.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather changes every ____.",
-      "answer": "day",
+      "prompt": "Sometimes it is sunny.",
+      "answer": "Weather",
       "options": [
-        "day",
-        "Living Things",
-        "move",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      "audioText": "Sometimes it is sunny.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it is ____.",
-      "answer": "sunny",
+      "prompt": "Sometimes it rains or becomes cloudy.",
+      "answer": "Weather",
       "options": [
-        "sunny",
-        "Living Things",
-        "move",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      "audioText": "Sometimes it rains or becomes cloudy.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it rains or becomes ____.",
-      "answer": "cloudy",
+      "prompt": "Weather affects our clothes and activities.",
+      "answer": "Weather",
       "options": [
-        "cloudy",
-        "Living Things",
-        "move",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      "audioText": "Weather affects our clothes and activities.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather affects our clothes and ____.",
-      "answer": "activities",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "activities",
-        "Living Things",
-        "move",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "readingText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities.",
-      "audioText": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Weather changes every day. Sometimes it is sunny. Sometimes it rains or becomes cloudy. Weather affects our clothes and activities."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

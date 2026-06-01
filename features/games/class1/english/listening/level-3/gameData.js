@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 3,
   "topic": "Opposites",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Cold",
-    "Big",
-    "Sad"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Choose the opposite of hot.",
-      "answer": "Cold",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "Cold",
-        "Big",
-        "Tall",
-        "Fast"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Choose the opposite of hot.",
-      "gameplayType": "listen-tap"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the opposite of small.",
-      "answer": "Big",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Big",
-        "Thin",
-        "Slow",
-        "Heavy"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Tap the opposite of small.",
-      "gameplayType": "drag-drop"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the opposite of happy.",
-      "answer": "Sad",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "Sad",
-        "Bright",
-        "Smart",
-        "Clean"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Catch the opposite of happy.",
-      "gameplayType": "basket-catch"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
+      "options": [
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
+      ],
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
+    },
+    {
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Plants and Photosynthesis",
-  "teach": "Plants make their own food.",
-  "examples": [
-    "Plants make their own food.",
-    "Leaves use sunlight, water, and air.",
-    "This process is called photosynthesis."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Plants and Photosynthesis",
+      "prompt": "Plants make their own food.",
+      "answer": "Plants",
       "options": [
-        "Plants and Photosynthesis",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Animals and Adaptation"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "readingText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "audioText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      "audioText": "Plants make their own food.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants make their own ____.",
-      "answer": "food",
+      "prompt": "Leaves use sunlight, water, and air.",
+      "answer": "Plants",
       "options": [
-        "food",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "readingText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "audioText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      "audioText": "Leaves use sunlight, water, and air.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Leaves use sunlight, water, and ____.",
-      "answer": "air",
+      "prompt": "This process is called photosynthesis.",
+      "answer": "Plants",
       "options": [
-        "air",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "readingText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "audioText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      "audioText": "This process is called photosynthesis.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: This process is called ____.",
-      "answer": "photosynthesis",
+      "prompt": "Photosynthesis helps plants grow.",
+      "answer": "Plants",
       "options": [
-        "photosynthesis",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "readingText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "audioText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      "audioText": "Photosynthesis helps plants grow.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Photosynthesis helps plants ____.",
-      "answer": "grow",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "grow",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "readingText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow.",
-      "audioText": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants make their own food. Leaves use sunlight, water, and air. This process is called photosynthesis. Photosynthesis helps plants grow."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

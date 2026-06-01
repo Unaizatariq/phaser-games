@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 32,
-  "topic": "Big and Small Things",
-  "teach": "Elephants are big animals.",
-  "examples": [
-    "Elephants are big animals.",
-    "Ants are very small.",
-    "Big things take more space."
-  ],
+  "topic": "Healthy Food",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Big and Small Things",
+      "prompt": "Healthy food keeps us strong.",
+      "answer": "Healthy",
       "options": [
-        "Big and Small Things",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Healthy food keeps us strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Elephants are big ____.",
-      "answer": "animals",
+      "prompt": "Milk and eggs are healthy.",
+      "answer": "Healthy",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Milk and eggs are healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ants are very ____.",
-      "answer": "small",
+      "prompt": "Fruits and vegetables are good for health.",
+      "answer": "Healthy",
       "options": [
-        "small",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Fruits and vegetables are good for health.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Big things take more ____.",
-      "answer": "space",
+      "prompt": "We should eat healthy food every day.",
+      "answer": "Healthy",
       "options": [
-        "space",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "We should eat healthy food every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "animals",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

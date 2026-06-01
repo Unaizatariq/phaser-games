@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 29,
   "topic": "Keeping Environment Clean",
-  "teach": "We should keep our environment clean.",
-  "examples": [
-    "We should keep our environment clean.",
-    "We should throw garbage in dustbins.",
-    "Trees make the environment fresh."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Keeping Environment Clean",
+      "prompt": "We should keep our environment clean.",
+      "answer": "Keeping",
       "options": [
-        "Keeping Environment Clean",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "readingText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "audioText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      "audioText": "We should keep our environment clean.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Environment Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep our environment ____.",
-      "answer": "clean",
+      "prompt": "We should throw garbage in dustbins.",
+      "answer": "Keeping",
       "options": [
-        "clean",
-        "My Body",
-        "things",
-        "ears"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "readingText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "audioText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      "audioText": "We should throw garbage in dustbins.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Environment Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should throw garbage in ____.",
-      "answer": "dustbins",
+      "prompt": "Trees make the environment fresh.",
+      "answer": "Keeping",
       "options": [
-        "dustbins",
-        "My Body",
-        "things",
-        "ears"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "readingText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "audioText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      "audioText": "Trees make the environment fresh.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Environment Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trees make the environment ____.",
-      "answer": "fresh",
+      "prompt": "Clean places are healthy.",
+      "answer": "Keeping",
       "options": [
-        "fresh",
-        "My Body",
-        "things",
-        "ears"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "readingText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "audioText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      "audioText": "Clean places are healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Environment Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean ____ are healthy.",
-      "answer": "places",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keeping",
       "options": [
-        "places",
-        "My Body",
-        "things",
-        "ears"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "readingText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy.",
-      "audioText": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Environment Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We should keep our environment clean. We should throw garbage in dustbins. Trees make the environment fresh. Clean places are healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 9,
-  "topic": "Weather",
-  "teach": "Weather tells how the day feels: hot, cold, rainy or windy.",
-  "examples": [
-    "hot",
-    "cold",
-    "rainy"
-  ],
+  "topic": "energy",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "hot",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "hot",
-        "cold",
-        "rainy",
-        "dark"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "When the sun is strong, weather may be"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "rainy",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "rainy",
-        "hot",
-        "windless",
-        "dry"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "When water falls from clouds, it is"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "air",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "air",
-        "soil",
-        "books",
-        "tables"
-      ],
-      "audioText": "Windy weather has moving"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "warm clothes",
-      "options": [
-        "warm clothes",
-        "ice cream only",
-        "swimsuit",
-        "paper hat"
-      ],
-      "audioText": "In cold weather we wear"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "day",
-      "options": [
-        "day",
-        "keyboard",
         "animal",
-        "fruit"
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Weather can change from day to"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
+      "options": [
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
+      ],
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

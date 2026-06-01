@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 3,
   "topic": "Time and Calendar",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "7",
-    "April",
-    "12"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "How many days are in a week?",
+      "prompt": "Solve: 4 + 1 = ?",
+      "answer": "5",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "audioText": "Solve: 4 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 5 + 2 = ?",
       "answer": "7",
       "options": [
         "7",
-        "5",
-        "10",
-        "12"
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "How many days are in a week?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 5 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the month after March.",
-      "answer": "April",
+      "prompt": "Solve: 6 + 3 = ?",
+      "answer": "9",
       "options": [
-        "April",
-        "May",
-        "June",
-        "January"
-      ],
-      "audioText": "Choose the month after March.",
-      "gameplayType": "drag-drop"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Tap the number of months in a year.",
-      "answer": "12",
-      "options": [
-        "12",
+        "9",
         "10",
         "8",
+        "11"
+      ],
+      "audioText": "Solve: 6 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "b": 3,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 4 = ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "audioText": "Solve: 7 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 8 + 5 = ?",
+      "answer": "13",
+      "options": [
+        "13",
+        "14",
+        "12",
         "15"
       ],
-      "audioText": "Tap the number of months in a year.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 8 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 8,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "13": "🔢",
+        "14": "🔢",
+        "12": "🔢",
+        "15": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

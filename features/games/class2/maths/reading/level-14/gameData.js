@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 14,
   "topic": "Data Handling",
-  "teach": "Data means information.",
-  "examples": [
-    "Data means information.",
-    "We can collect and organize data.",
-    "Charts and tables help show data clearly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Data Handling",
+      "prompt": "Data means information.",
+      "answer": "Data",
       "options": [
-        "Data Handling",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "readingText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "audioText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      "audioText": "Data means information.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Data means ____.",
-      "answer": "information",
+      "prompt": "We can collect and organize data.",
+      "answer": "Data",
       "options": [
-        "information",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "readingText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "audioText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      "audioText": "We can collect and organize data.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can collect and organize ____.",
-      "answer": "data",
+      "prompt": "Charts and tables help show data clearly.",
+      "answer": "Data",
       "options": [
-        "data",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "readingText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "audioText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      "audioText": "Charts and tables help show data clearly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Charts and tables help show data ____.",
-      "answer": "clearly",
+      "prompt": "Data helps us understand information.",
+      "answer": "Data",
       "options": [
-        "clearly",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "readingText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "audioText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      "audioText": "Data helps us understand information.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "information",
+      "prompt": "What is the story mainly about?",
+      "answer": "Data",
       "options": [
-        "information",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "readingText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information.",
-      "audioText": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Data Handling, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Data means information. We can collect and organize data. Charts and tables help show data clearly. Data helps us understand information."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

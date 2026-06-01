@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 10,
   "topic": "Cleanliness",
-  "teach": "We should wash our hands.",
-  "examples": [
-    "We should wash our hands.",
-    "Clean places are healthy."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "We should wash our hands. Clean places are healthy.",
       "answer": "Cleanliness",
       "options": [
         "Cleanliness",
-        "My Body",
-        "Animals",
-        "Birds"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should wash our hands. Clean places are healthy.",
-      "readingText": "We should wash our hands. Clean places are healthy.",
-      "audioText": "We should wash our hands. Clean places are healthy."
+      "audioText": "We should wash our hands. Clean places are healthy.",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "sentenceOrder": [
+        "We should wash our hands.",
+        "Clean places are healthy."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should wash our ____.",
-      "answer": "hands",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cleanliness",
       "options": [
-        "hands",
-        "My Body",
-        "eyes",
-        "walk"
+        "Cleanliness",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should wash our hands. Clean places are healthy.",
-      "readingText": "We should wash our hands. Clean places are healthy.",
-      "audioText": "We should wash our hands. Clean places are healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "🧼",
+      "questionText": "According to the story about Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cleanliness": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean ____ are healthy.",
-      "answer": "places",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "places",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "We should wash our hands. Clean places are healthy.",
-      "readingText": "We should wash our hands. Clean places are healthy.",
-      "audioText": "We should wash our hands. Clean places are healthy."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🐄",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hands",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "hands",
-        "My Body",
-        "eyes",
-        "walk"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "We should wash our hands. Clean places are healthy.",
-      "readingText": "We should wash our hands. Clean places are healthy.",
-      "audioText": "We should wash our hands. Clean places are healthy."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "👁️",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "places",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "places",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "We should wash our hands. Clean places are healthy.",
-      "readingText": "We should wash our hands. Clean places are healthy.",
-      "audioText": "We should wash our hands. Clean places are healthy."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "☀️",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We should wash our hands. Clean places are healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

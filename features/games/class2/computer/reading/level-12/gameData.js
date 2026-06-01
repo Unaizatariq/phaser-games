@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 12,
   "topic": "Watching Videos",
-  "teach": "Computers can show educational videos.",
-  "examples": [
-    "Computers can show educational videos.",
-    "Students watch lessons and cartoons.",
-    "Videos help us understand topics better."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Watching Videos",
+      "prompt": "Computers can show educational videos.",
+      "answer": "Watching",
       "options": [
-        "Watching Videos",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Watching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "readingText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "audioText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      "audioText": "Computers can show educational videos.",
+      "art": "📚",
+      "questionText": "According to the story about Watching Videos, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Watching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers can show educational ____.",
-      "answer": "videos",
+      "prompt": "Students watch lessons and cartoons.",
+      "answer": "Watching",
       "options": [
-        "videos",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Watching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "readingText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "audioText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      "audioText": "Students watch lessons and cartoons.",
+      "art": "📚",
+      "questionText": "According to the story about Watching Videos, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Watching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students watch lessons and ____.",
-      "answer": "cartoons",
+      "prompt": "Videos help us understand topics better.",
+      "answer": "Watching",
       "options": [
-        "cartoons",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Watching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "readingText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "audioText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      "audioText": "Videos help us understand topics better.",
+      "art": "📚",
+      "questionText": "According to the story about Watching Videos, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Watching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Videos help us understand topics ____.",
-      "answer": "better",
+      "prompt": "Learning with videos is interesting.",
+      "answer": "Watching",
       "options": [
-        "better",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Watching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "readingText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "audioText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      "audioText": "Learning with videos is interesting.",
+      "art": "📚",
+      "questionText": "According to the story about Watching Videos, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Watching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning with videos is ____.",
-      "answer": "interesting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Watching",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Watching",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "readingText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting.",
-      "audioText": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Watching Videos, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Watching": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers can show educational videos. Students watch lessons and cartoons. Videos help us understand topics better. Learning with videos is interesting."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

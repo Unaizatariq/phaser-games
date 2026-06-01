@@ -1,60 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 1,
   "topic": "Vocabulary Speaking",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Computer",
-    "School",
-    "Elephant"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say the word: Computer",
       "answer": "Computer",
-      "expected": "Computer",
-      "options": [],
+      "options": [
+        "Computer",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Say the word: Computer",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "💻",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Computer": "💻",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: School",
       "answer": "School",
-      "expected": "School",
-      "options": [],
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
       "audioText": "Say the word: School",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🏫",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: Elephant",
       "answer": "Elephant",
-      "expected": "Elephant",
-      "options": [],
+      "options": [
+        "Elephant",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Say the word: Elephant",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Elephant": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "🧼",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
+    },
+    {
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "⭐",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

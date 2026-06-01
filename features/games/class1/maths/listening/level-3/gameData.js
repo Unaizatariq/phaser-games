@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 3,
   "topic": "Time",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "3:00",
-    "8:00 AM",
-    "6:00 PM"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which clock shows 3 o'clock?",
-      "answer": "3:00",
+      "prompt": "Solve: 4 + 1 = ?",
+      "answer": "5",
       "options": [
-        "3:00",
-        "5:00",
-        "1:00",
-        "7:00"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "Which clock shows 3 o'clock?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 4 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the morning time.",
-      "answer": "8:00 AM",
+      "prompt": "Solve: 5 + 2 = ?",
+      "answer": "7",
       "options": [
-        "8:00 AM",
-        "10:00 PM",
-        "12:00 AM",
-        "9:00 PM"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Tap the morning time.",
-      "gameplayType": "drag-drop"
+      "audioText": "Solve: 5 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the evening time.",
-      "answer": "6:00 PM",
+      "prompt": "Solve: 6 + 3 = ?",
+      "answer": "9",
       "options": [
-        "6:00 PM",
-        "8:00 AM",
-        "10:00 AM",
-        "1:00 PM"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "Catch the evening time.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 6 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "b": 3,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 4 = ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "audioText": "Solve: 7 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 4,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 8 + 5 = ?",
+      "answer": "13",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "15"
+      ],
+      "audioText": "Solve: 8 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 8,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "13": "🔢",
+        "14": "🔢",
+        "12": "🔢",
+        "15": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

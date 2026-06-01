@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 7,
-  "topic": "Tracing Lines and Shapes",
-  "teach": "Tracing Lines and Shapes builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Tracing Lines and Shapes",
-    "example",
-    "solve"
-  ],
+  "topic": "water",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "solving carefully",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "solving carefully",
-        "guessing",
-        "drawing only",
-        "singing"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "What is the main skill in Tracing Lines and Shapes?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the question first",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "read the question first",
-        "skip numbers",
-        "ignore signs",
-        "close eyes"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Choose the correct strategy."
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "accurate",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "accurate",
-        "random",
-        "unreadable",
-        "empty"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "A good answer in maths should be"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "what is asked",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "what is asked",
-        "only names",
-        "only colors",
-        "only pictures"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Word problems need us to find"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "check the answer",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "check the answer",
-        "erase all",
-        "change topic",
-        "stop reading"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "After solving, we should"
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

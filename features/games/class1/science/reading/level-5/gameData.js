@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Pet Animals",
-  "teach": "Cats and dogs are pet animals.",
-  "examples": [
-    "Cats and dogs are pet animals.",
-    "Pet animals live with people.",
-    "Dogs guard our homes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Pet Animals",
+      "prompt": "Cats and dogs are pet animals.",
+      "answer": "Pet",
       "options": [
-        "Pet Animals",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "readingText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "audioText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      "audioText": "Cats and dogs are pet animals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cats and dogs are pet ____.",
-      "answer": "animals",
+      "prompt": "Pet animals live with people.",
+      "answer": "Pet",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "readingText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "audioText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      "audioText": "Pet animals live with people.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Pet animals live with ____.",
-      "answer": "people",
+      "prompt": "Dogs guard our homes.",
+      "answer": "Pet",
       "options": [
-        "people",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "readingText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "audioText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      "audioText": "Dogs guard our homes.",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Dogs guard our ____.",
-      "answer": "homes",
+      "prompt": "Cats drink milk.",
+      "answer": "Pet",
       "options": [
-        "homes",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "readingText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "audioText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      "audioText": "Cats drink milk.",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cats drink ____.",
-      "answer": "milk",
+      "prompt": "What is the story mainly about?",
+      "answer": "Pet",
       "options": [
-        "milk",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "readingText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk.",
-      "audioText": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cats and dogs are pet animals. Pet animals live with people. Dogs guard our homes. Cats drink milk."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

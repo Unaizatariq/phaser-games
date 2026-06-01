@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 3,
   "topic": "Advanced Computer Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "saving data",
-    "temporary memory",
-    "Windows"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type meaning of storage",
       "answer": "saving data",
-      "expected": "saving data",
-      "options": [],
+      "options": [
+        "saving data",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type meaning of storage",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "saving data": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type use of RAM",
       "answer": "temporary memory",
-      "expected": "temporary memory",
-      "options": [],
+      "options": [
+        "temporary memory",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type use of RAM",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "temporary memory": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type operating system name",
       "answer": "Windows",
-      "expected": "Windows",
-      "options": [],
+      "options": [
+        "Windows",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type operating system name",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Windows": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type internet connection method",
       "answer": "Wi-Fi",
-      "expected": "Wi-Fi",
-      "options": [],
+      "options": [
+        "Wi-Fi",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type internet connection method",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Wi-Fi": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type block programming software",
       "answer": "Scratch",
-      "expected": "Scratch",
-      "options": [],
+      "options": [
+        "Scratch",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type block programming software",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Scratch": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

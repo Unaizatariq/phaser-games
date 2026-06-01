@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 7,
   "topic": "The CPU",
-  "teach": "CPU stands for Central Processing Unit.",
-  "examples": [
-    "CPU stands for Central Processing Unit.",
-    "It is called the brain of the computer.",
-    "The CPU controls all computer activities."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The CPU",
+      "prompt": "CPU stands for Central Processing Unit.",
+      "answer": "The",
       "options": [
-        "The CPU",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "readingText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "audioText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      "audioText": "CPU stands for Central Processing Unit.",
+      "art": "📚",
+      "questionText": "According to the story about The CPU, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: CPU stands for Central Processing ____.",
-      "answer": "Unit",
+      "prompt": "It is called the brain of the computer.",
+      "answer": "The",
       "options": [
-        "Unit",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "readingText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "audioText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      "audioText": "It is called the brain of the computer.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It is called the brain of the ____.",
-      "answer": "computer",
+      "prompt": "The CPU controls all computer activities.",
+      "answer": "The",
       "options": [
-        "computer",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "readingText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "audioText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      "audioText": "The CPU controls all computer activities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The CPU controls all computer ____.",
-      "answer": "activities",
+      "prompt": "Every computer needs a CPU.",
+      "answer": "The",
       "options": [
-        "activities",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "readingText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "audioText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      "audioText": "Every computer needs a CPU.",
+      "art": "📚",
+      "questionText": "According to the story about The CPU, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Every computer needs a ____.",
-      "answer": "CPU",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "CPU",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "readingText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU.",
-      "audioText": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "CPU stands for Central Processing Unit. It is called the brain of the computer. The CPU controls all computer activities. Every computer needs a CPU."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,153 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "My Body",
-  "teach": "I have two eyes.",
-  "examples": [
-    "I have two eyes.",
-    "I have two hands.",
-    "My legs help me walk."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "My Body",
+      "prompt": "I have two eyes.",
+      "answer": "My",
       "options": [
-        "My Body",
-        "Animals",
-        "Birds",
-        "Plants"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "I have two eyes. I have two hands. My legs help me walk.",
-      "readingText": "I have two eyes. I have two hands. My legs help me walk.",
-      "audioText": "I have two eyes. I have two hands. My legs help me walk."
+      "audioText": "I have two eyes.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: I have two ____.",
-      "answer": "eyes",
+      "prompt": "I have two hands.",
+      "answer": "My",
       "options": [
-        "eyes",
-        "My Body",
-        "hands",
-        "walk"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "I have two eyes. I have two hands. My legs help me walk.",
-      "readingText": "I have two eyes. I have two hands. My legs help me walk.",
-      "audioText": "I have two eyes. I have two hands. My legs help me walk."
+      "audioText": "I have two hands.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: I have two ____.",
-      "answer": "hands",
+      "prompt": "My legs help me walk.",
+      "answer": "My",
       "options": [
-        "hands",
-        "My Body",
-        "eyes",
-        "walk"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "I have two eyes. I have two hands. My legs help me walk.",
-      "readingText": "I have two eyes. I have two hands. My legs help me walk.",
-      "audioText": "I have two eyes. I have two hands. My legs help me walk."
+      "audioText": "My legs help me walk.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: My legs help me ____.",
-      "answer": "walk",
+      "prompt": "What is the story mainly about?",
+      "answer": "My",
       "options": [
-        "walk",
-        "My Body",
-        "eyes",
-        "hands"
+        "My",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "I have two eyes. I have two hands. My legs help me walk.",
-      "readingText": "I have two eyes. I have two hands. My legs help me walk.",
-      "audioText": "I have two eyes. I have two hands. My legs help me walk."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "My": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "eyes",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "eyes",
-        "My Body",
-        "hands",
-        "walk"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "I have two eyes. I have two hands. My legs help me walk.",
-      "readingText": "I have two eyes. I have two hands. My legs help me walk.",
-      "audioText": "I have two eyes. I have two hands. My legs help me walk."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "💧",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I have two eyes. I have two hands. My legs help me walk."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 13,
   "topic": "Patterns",
-  "teach": "Patterns repeat in a certain order.",
-  "examples": [
-    "Patterns repeat in a certain order.",
-    "Number patterns help us predict the next number.",
-    "Patterns improve thinking skills."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Patterns repeat in a certain order.",
       "answer": "Patterns",
       "options": [
         "Patterns",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "readingText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "audioText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      "audioText": "Patterns repeat in a certain order.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns repeat in a certain ____.",
-      "answer": "order",
+      "prompt": "Number patterns help us predict the next number.",
+      "answer": "Patterns",
       "options": [
-        "order",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "readingText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "audioText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      "audioText": "Number patterns help us predict the next number.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Number patterns help us predict the next ____.",
-      "answer": "number",
+      "prompt": "Patterns improve thinking skills.",
+      "answer": "Patterns",
       "options": [
-        "number",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "readingText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "audioText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      "audioText": "Patterns improve thinking skills.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns improve thinking ____.",
-      "answer": "skills",
+      "prompt": "Patterns are used in math and nature.",
+      "answer": "Patterns",
       "options": [
-        "skills",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "readingText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "audioText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      "audioText": "Patterns are used in math and nature.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns are used in math and ____.",
-      "answer": "nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Patterns",
       "options": [
-        "nature",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "readingText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature.",
-      "audioText": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Patterns, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Patterns repeat in a certain order. Number patterns help us predict the next number. Patterns improve thinking skills. Patterns are used in math and nature."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

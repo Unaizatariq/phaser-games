@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 2,
   "topic": "مختصر پیراگراف",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-    "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-    "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "صفائی پر مختصر پیراگراف لکھیں۔",
       "answer": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "expected": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
+          "tts": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "صفائی پر مختصر پیراگراف لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "کھیلوں پر مختصر پیراگراف لکھیں۔",
       "answer": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "expected": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
+          "tts": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "کھیلوں پر مختصر پیراگراف لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "سائنس پر مختصر پیراگراف لکھیں۔",
       "answer": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "expected": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
+          "tts": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "سائنس پر مختصر پیراگراف لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "قدرت پر مختصر پیراگراف لکھیں۔",
       "answer": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "expected": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
+          "tts": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "قدرت پر مختصر پیراگراف لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "تعلیم پر مختصر پیراگراف لکھیں۔",
       "answer": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "expected": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔",
+          "tts": "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "تعلیم پر مختصر پیراگراف لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "یہ ایک اہم موضوع ہے۔ ہمیں اس پر عمل کرنا چاہیے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

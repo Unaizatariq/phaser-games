@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 13,
   "topic": "Email and Communication",
-  "teach": "Email helps people send messages online.",
-  "examples": [
-    "Email helps people send messages online.",
-    "Messages travel quickly through the internet.",
-    "People use email for school and office work."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Email and Communication",
+      "prompt": "Email helps people send messages online.",
+      "answer": "Email",
       "options": [
-        "Email and Communication",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "readingText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "audioText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      "audioText": "Email helps people send messages online.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Email helps people send messages ____.",
-      "answer": "online",
+      "prompt": "Messages travel quickly through the internet.",
+      "answer": "Email",
       "options": [
-        "online",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "readingText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "audioText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      "audioText": "Messages travel quickly through the internet.",
+      "art": "📚",
+      "questionText": "According to the story about Email and Communication, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Messages travel quickly through the ____.",
-      "answer": "internet",
+      "prompt": "People use email for school and office work.",
+      "answer": "Email",
       "options": [
-        "internet",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "readingText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "audioText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      "audioText": "People use email for school and office work.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use email for school and office ____.",
-      "answer": "work",
+      "prompt": "Online communication saves time.",
+      "answer": "Email",
       "options": [
-        "work",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "readingText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "audioText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      "audioText": "Online communication saves time.",
+      "art": "📚",
+      "questionText": "According to the story about Email and Communication, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Online communication saves ____.",
-      "answer": "time",
+      "prompt": "What is the story mainly about?",
+      "answer": "Email",
       "options": [
-        "time",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "readingText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time.",
-      "audioText": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Email and Communication, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Email helps people send messages online. Messages travel quickly through the internet. People use email for school and office work. Online communication saves time."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

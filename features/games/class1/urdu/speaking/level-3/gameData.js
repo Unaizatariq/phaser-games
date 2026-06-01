@@ -1,52 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 3,
-  "topic": "ملتے جلتے حروف",
-  "teach": "کچھ حروف شکل میں ملتے جلتے ہوتے ہیں مگر نقطوں سے الگ پہچانے جاتے ہیں۔",
-  "examples": [
-    "ب ت ث",
-    "ج چ ح خ"
-  ],
+  "topic": "تصویر دیکھ کر لفظ بولیں",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "جواب بولیں: ب، ت، ث میں فرق کس سے ہے؟",
-      "answer": "نقطوں سے",
-      "options": [],
-      "audioText": "جواب بولیں: ب، ت، ث میں فرق کس سے ہے؟"
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
+      "options": [
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
+      ],
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "art": "👧",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
-      "prompt": "جواب بولیں: ج اور چ میں فرق ہے",
-      "answer": "نقطوں کا",
-      "options": [],
-      "audioText": "جواب بولیں: ج اور چ میں فرق ہے"
+      "prompt": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "answer": "کتاب",
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "گیند",
+          "tts": "گیند"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        }
+      ],
+      "audioText": "سارہ اسکول میں کتاب پڑھتی ہے۔",
+      "art": "🧼",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "گیند": "⚽",
+        "پتنگ": "🪁",
+        "پھول": "🌸"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
-      "prompt": "جواب بولیں: ملتے جلتے حروف کو غور سے",
-      "answer": "دیکھنا چاہیے",
-      "options": [],
-      "audioText": "جواب بولیں: ملتے جلتے حروف کو غور سے"
+      "prompt": "احمد کے گھر میں کون رہتے ہیں؟",
+      "answer": "امی، ابو اور بہن",
+      "options": [
+        {
+          "text": "امی، ابو اور بہن",
+          "tts": "امی، ابو اور بہن"
+        },
+        {
+          "text": "استاد اور دوست",
+          "tts": "استاد اور دوست"
+        },
+        {
+          "text": "بلی اور کتا",
+          "tts": "بلی اور کتا"
+        },
+        {
+          "text": "مالی اور ڈاکٹر",
+          "tts": "مالی اور ڈاکٹر"
+        }
+      ],
+      "audioText": "احمد کے گھر میں امی، ابو اور بہن رہتے ہیں۔",
+      "art": "⭐",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "امی، ابو اور بہن": "👨",
+        "استاد اور دوست": "🧒",
+        "بلی اور کتا": "🐱",
+        "مالی اور ڈاکٹر": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
-      "prompt": "جواب بولیں: خ میں نقطہ کہاں ہوتا ہے؟",
-      "answer": "اوپر",
-      "options": [],
-      "audioText": "جواب بولیں: خ میں نقطہ کہاں ہوتا ہے؟"
+      "prompt": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "answer": "سرخ پھول",
+      "options": [
+        {
+          "text": "سرخ پھول",
+          "tts": "سرخ پھول"
+        },
+        {
+          "text": "نیلی گاڑی",
+          "tts": "نیلی گاڑی"
+        },
+        {
+          "text": "کالی بلی",
+          "tts": "کالی بلی"
+        },
+        {
+          "text": "پیلا بستہ",
+          "tts": "پیلا بستہ"
+        }
+      ],
+      "audioText": "بچہ باغ میں سرخ پھول دیکھتا ہے۔",
+      "art": "💧",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "سرخ پھول": "🌸",
+        "نیلی گاڑی": "🔹",
+        "کالی بلی": "🐱",
+        "پیلا بستہ": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
-      "prompt": "جواب بولیں: ح پر کتنے نقطے ہیں؟",
-      "answer": "کوئی نہیں",
-      "options": [],
-      "audioText": "جواب بولیں: ح پر کتنے نقطے ہیں؟"
+      "prompt": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "answer": "حروف",
+      "options": [
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
+      ],
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "🐄",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "حروف": "🔹",
+        "کھلونے": "🔹",
+        "پھل": "🔹",
+        "کپڑے": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

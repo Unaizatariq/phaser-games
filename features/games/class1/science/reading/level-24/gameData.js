@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 24,
   "topic": "Our School",
-  "teach": "Our school is a place to learn.",
-  "examples": [
-    "Our school is a place to learn.",
-    "Teachers teach us many things.",
-    "We study and play in school."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Our School",
+      "prompt": "Our school is a place to learn.",
+      "answer": "Our",
       "options": [
-        "Our School",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
-      ],
-      "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "readingText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "audioText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our school is a ____ to learn.",
-      "answer": "place",
-      "options": [
-        "place",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "readingText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "audioText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers teach us many ____.",
-      "answer": "things",
-      "options": [
-        "things",
-        "My Body",
-        "ears",
-        "play"
-      ],
-      "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "readingText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "audioText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We study and play in ____.",
-      "answer": "school",
-      "options": [
+        "Our",
         "school",
-        "My Body",
-        "things",
-        "ears"
+        "home",
+        "book"
       ],
-      "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "readingText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "audioText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
+      "audioText": "Our school is a place to learn.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should respect our ____.",
-      "answer": "teachers",
+      "prompt": "Teachers teach us many things.",
+      "answer": "Our",
       "options": [
-        "teachers",
-        "My Body",
-        "things",
-        "ears"
+        "Our",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "readingText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers.",
-      "audioText": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
+      "audioText": "Teachers teach us many things.",
+      "art": "📚",
+      "questionText": "According to the story about Our School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "We study and play in school.",
+      "answer": "Our",
+      "options": [
+        "Our",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "We study and play in school.",
+      "art": "📚",
+      "questionText": "According to the story about Our School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "We should respect our teachers.",
+      "answer": "Our",
+      "options": [
+        "Our",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "We should respect our teachers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Our",
+      "options": [
+        "Our",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Our School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Our": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our school is a place to learn. Teachers teach us many things. We study and play in school. We should respect our teachers."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

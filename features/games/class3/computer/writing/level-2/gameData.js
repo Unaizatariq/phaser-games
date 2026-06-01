@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 2,
   "topic": "MS Paint Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "pencil tool",
-    "fill tool",
-    "eraser"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type tool used for drawing",
       "answer": "pencil tool",
-      "expected": "pencil tool",
-      "options": [],
+      "options": [
+        "pencil tool",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type tool used for drawing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "pencil tool": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type tool used for coloring",
       "answer": "fill tool",
-      "expected": "fill tool",
-      "options": [],
+      "options": [
+        "fill tool",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type tool used for coloring",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "fill tool": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type tool used for erasing",
       "answer": "eraser",
-      "expected": "eraser",
-      "options": [],
+      "options": [
+        "eraser",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type tool used for erasing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "eraser": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type tool used for shapes",
       "answer": "shape tool",
-      "expected": "shape tool",
-      "options": [],
+      "options": [
+        "shape tool",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type tool used for shapes",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "shape tool": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type tool used for brush painting",
       "answer": "brush tool",
-      "expected": "brush tool",
-      "options": [],
+      "options": [
+        "brush tool",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type tool used for brush painting",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "brush tool": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

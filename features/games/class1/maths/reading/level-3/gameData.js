@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Before, After, and Between",
-  "teach": "3 comes after 2.",
-  "examples": [
-    "3 comes after 2.",
-    "5 comes before 6.",
-    "4 comes between 3 and 5."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Before, After, and Between",
+      "prompt": "3 comes after 2.",
+      "answer": "Before,",
       "options": [
-        "Before, After, and Between",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Addition"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "readingText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "audioText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      "audioText": "3 comes after 2.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 3 comes ____ 2.",
-      "answer": "after",
+      "prompt": "5 comes before 6.",
+      "answer": "Before,",
       "options": [
-        "after",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "readingText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "audioText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      "audioText": "5 comes before 6.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 5 comes ____ 6.",
-      "answer": "before",
+      "prompt": "4 comes between 3 and 5.",
+      "answer": "Before,",
       "options": [
-        "before",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "readingText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "audioText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      "audioText": "4 comes between 3 and 5.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 4 comes ____ 3 and 5.",
-      "answer": "between",
+      "prompt": "Numbers follow an order.",
+      "answer": "Before,",
       "options": [
-        "between",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "readingText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "audioText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      "audioText": "Numbers follow an order.",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers follow an ____.",
-      "answer": "order",
+      "prompt": "What is the story mainly about?",
+      "answer": "Before,",
       "options": [
-        "order",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Before,",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "readingText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order.",
-      "audioText": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Before, After, and Between, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Before,": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "3 comes after 2. 5 comes before 6. 4 comes between 3 and 5. Numbers follow an order."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

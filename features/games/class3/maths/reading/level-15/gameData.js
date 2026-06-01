@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 15,
   "topic": "Word Problems",
-  "teach": "Word problems use math in real-life situations.",
-  "examples": [
-    "Word problems use math in real-life situations.",
-    "Careful reading helps solve problems.",
-    "Addition, subtraction, multiplication, and division are used."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Word Problems",
+      "prompt": "Word problems use math in real-life situations.",
+      "answer": "Word",
       "options": [
-        "Word Problems",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "readingText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "audioText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      "audioText": "Word problems use math in real-life situations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word problems use math in real-life ____.",
-      "answer": "situations",
+      "prompt": "Careful reading helps solve problems.",
+      "answer": "Word",
       "options": [
-        "situations",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "readingText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "audioText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      "audioText": "Careful reading helps solve problems.",
+      "art": "📚",
+      "questionText": "According to the story about Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Careful reading helps solve ____.",
-      "answer": "problems",
+      "prompt": "Addition, subtraction, multiplication, and division are used.",
+      "answer": "Word",
       "options": [
-        "problems",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "readingText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "audioText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      "audioText": "Addition, subtraction, multiplication, and division are used.",
+      "art": "📚",
+      "questionText": "According to the story about Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition, subtraction, multiplication, and ____ are used.",
-      "answer": "division",
+      "prompt": "Practice improves problem-solving skills.",
+      "answer": "Word",
       "options": [
-        "division",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "readingText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "audioText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      "audioText": "Practice improves problem-solving skills.",
+      "art": "📚",
+      "questionText": "According to the story about Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "skills",
+      "prompt": "What is the story mainly about?",
+      "answer": "Word",
       "options": [
-        "skills",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "readingText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills.",
-      "audioText": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Word problems use math in real-life situations. Careful reading helps solve problems. Addition, subtraction, multiplication, and division are used. Practice improves problem-solving skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

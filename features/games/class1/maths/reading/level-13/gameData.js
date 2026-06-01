@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 13,
   "topic": "Big and Small",
-  "teach": "An elephant is big.",
-  "examples": [
-    "An elephant is big.",
-    "An ant is small.",
-    "Some things are large."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Big and Small",
+      "prompt": "An elephant is big.",
+      "answer": "Big",
       "options": [
-        "Big and Small",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "readingText": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "audioText": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      "audioText": "An elephant is big.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: An elephant is ____.",
-      "answer": "big",
+      "prompt": "An ant is small.",
+      "answer": "Big",
       "options": [
-        "big",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "readingText": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "audioText": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      "audioText": "An ant is small.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: An ant is ____.",
-      "answer": "small",
+      "prompt": "Some things are large.",
+      "answer": "Big",
       "options": [
-        "small",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "readingText": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "audioText": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      "audioText": "Some things are large.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some things are ____.",
-      "answer": "large",
+      "prompt": "Some things are tiny.",
+      "answer": "Big",
       "options": [
-        "large",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "readingText": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "audioText": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      "audioText": "Some things are tiny.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some things are ____.",
-      "answer": "tiny",
+      "prompt": "What is the story mainly about?",
+      "answer": "Big",
       "options": [
-        "tiny",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "readingText": "An elephant is big. An ant is small. Some things are large. Some things are tiny.",
-      "audioText": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "An elephant is big. An ant is small. Some things are large. Some things are tiny."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 13,
-  "topic": "Reading Comprehension",
-  "teach": "Reading Comprehension helps children read, speak and write clear English sentences.",
-  "examples": [
-    "read",
-    "understand",
-    "use in sentence"
-  ],
+  "topic": "Advanced Grammar",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: Reading Comprehension is part of",
-      "answer": "English grammar",
-      "options": [],
-      "audioText": "Write the answer: Reading Comprehension is part of"
+      "prompt": "Correct grammar mistakes",
+      "answer": "I am going to school.",
+      "options": [
+        "I am going to school.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Correct grammar mistakes",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I am going to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good sentences should be",
-      "answer": "clear",
-      "options": [],
-      "audioText": "Write the answer: Good sentences should be"
+      "prompt": "Type correct punctuation",
+      "answer": "What is your name?",
+      "options": [
+        "What is your name?",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type correct punctuation",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "What is your name?": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We learn grammar to",
-      "answer": "write better",
-      "options": [],
-      "audioText": "Write the answer: We learn grammar to"
+      "prompt": "Fix spelling mistakes",
+      "answer": "beautiful",
+      "options": [
+        "beautiful",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Fix spelling mistakes",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "beautiful": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the best learning step.",
-      "answer": "read examples",
-      "options": [],
-      "audioText": "Write the answer: Choose the best learning step."
+      "prompt": "Write proper sentence",
+      "answer": "I like to read books.",
+      "options": [
+        "I like to read books.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write proper sentence",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I like to read books.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A correct answer should match the",
-      "answer": "sentence meaning",
-      "options": [],
-      "audioText": "Write the answer: A correct answer should match the"
+      "prompt": "Correct paragraph grammar",
+      "answer": "I go to school every day. I study and play with my friends.",
+      "options": [
+        "I go to school every day. I study and play with my friends.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Correct paragraph grammar",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "I go to school every day. I study and play with my friends.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

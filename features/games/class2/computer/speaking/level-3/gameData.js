@@ -1,90 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 3,
   "topic": "Image Identification",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Scanner",
-    "Printer",
-    "Speaker"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Identify this computer device.",
       "answer": "Scanner",
-      "expected": "Scanner",
-      "options": [],
+      "options": [
+        "Scanner",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Identify this computer device.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "scanner.png",
-      "requiredAsset": "scanner.png"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Scanner": "📠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Identify this computer device.",
       "answer": "Printer",
-      "expected": "Printer",
-      "options": [],
+      "options": [
+        "Printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Identify this computer device.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "printer.png",
-      "requiredAsset": "printer.png"
+      "art": "🖨️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Identify this computer device.",
       "answer": "Speaker",
-      "expected": "Speaker",
-      "options": [],
+      "options": [
+        "Speaker",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Identify this computer device.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "speaker.png",
-      "requiredAsset": "speaker.png"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Speaker": "🔊",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Identify this computer device.",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Identify this computer device.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "mouse.png",
-      "requiredAsset": "mouse.png"
+      "art": "🖱️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Identify this computer device.",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Identify this computer device.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "keyboard.png",
-      "requiredAsset": "keyboard.png"
+      "art": "⌨️",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

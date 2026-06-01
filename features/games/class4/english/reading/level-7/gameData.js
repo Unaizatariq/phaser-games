@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "Means of Transport",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "transport"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "People use different means of transport to travel from one place to another.",
       "answer": "transport",
       "options": [
         "transport",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "music",
         "weather"
       ],
-      "text": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "audioText": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+      "audioText": "People use different means of transport to travel from one place to another.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "transport": "🔹",
+        "food": "🔹",
+        "music": "🔹",
+        "weather": "☀️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Cars, buses, trains, and airplanes are common types of transport.",
       "answer": "transport",
       "options": [
         "transport",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "music",
         "weather"
       ],
-      "text": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "audioText": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+      "audioText": "Cars, buses, trains, and airplanes are common types of transport.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "transport": "🔹",
+        "food": "🔹",
+        "music": "🔹",
+        "weather": "☀️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Transport saves time and makes travel easier.",
       "answer": "transport",
       "options": [
         "transport",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "music",
         "weather"
       ],
-      "text": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "audioText": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+      "audioText": "Transport saves time and makes travel easier.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "transport": "🔹",
+        "food": "🔹",
+        "music": "🔹",
+        "weather": "☀️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "However, too many vehicles can cause traffic and pollution in cities.",
       "answer": "transport",
       "options": [
         "transport",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "music",
         "weather"
       ],
-      "text": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "audioText": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+      "audioText": "However, too many vehicles can cause traffic and pollution in cities.",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "transport": "🔹",
+        "food": "🔹",
+        "music": "🔹",
+        "weather": "☀️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "transport",
       "options": [
         "transport",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "music",
         "weather"
       ],
-      "text": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities.",
-      "audioText": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Means of Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "transport": "🔹",
+        "food": "🔹",
+        "music": "🔹",
+        "weather": "☀️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "People use different means of transport to travel from one place to another. Cars, buses, trains, and airplanes are common types of transport. Transport saves time and makes travel easier. However, too many vehicles can cause traffic and pollution in cities."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

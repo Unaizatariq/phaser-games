@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 16,
   "topic": "Pollution",
-  "teach": "Pollution harms the environment.",
-  "examples": [
-    "Pollution harms the environment.",
-    "Smoke causes air pollution.",
-    "Garbage pollutes land and water."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Pollution harms the environment.",
       "answer": "Pollution",
       "options": [
         "Pollution",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "readingText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "audioText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      "audioText": "Pollution harms the environment.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Pollution harms the ____.",
-      "answer": "environment",
+      "prompt": "Smoke causes air pollution.",
+      "answer": "Pollution",
       "options": [
-        "environment",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "readingText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "audioText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      "audioText": "Smoke causes air pollution.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Garbage pollutes land and ____.",
-      "answer": "water",
+      "prompt": "Garbage pollutes land and water.",
+      "answer": "Pollution",
       "options": [
-        "water",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "readingText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "audioText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      "audioText": "Garbage pollutes land and water.",
+      "art": "📚",
+      "questionText": "According to the story about Pollution, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep our surroundings ____.",
-      "answer": "clean",
+      "prompt": "We should keep our surroundings clean.",
+      "answer": "Pollution",
       "options": [
-        "clean",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "readingText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "audioText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      "audioText": "We should keep our surroundings clean.",
+      "art": "📚",
+      "questionText": "According to the story about Pollution, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "environment",
+      "prompt": "What is the story mainly about?",
+      "answer": "Pollution",
       "options": [
-        "environment",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "readingText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean.",
-      "audioText": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Pollution, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Pollution harms the environment. Smoke causes air pollution. Garbage pollutes land and water. We should keep our surroundings clean."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

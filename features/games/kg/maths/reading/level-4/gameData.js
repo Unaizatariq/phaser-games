@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Shapes Around Us",
-  "teach": "Circles, squares, and triangles are shapes.",
-  "examples": [
-    "Circles, squares, and triangles are shapes.",
-    "Shapes are everywhere around us.",
-    "Wheels are circles."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Shapes Around Us",
+      "prompt": "Circles, squares, and triangles are shapes.",
+      "answer": "Shapes",
       "options": [
-        "Shapes Around Us",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "readingText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "audioText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      "audioText": "Circles, squares, and triangles are shapes.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Circles, squares, and triangles are ____.",
-      "answer": "shapes",
+      "prompt": "Shapes are everywhere around us.",
+      "answer": "Shapes",
       "options": [
-        "shapes",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "readingText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "audioText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      "audioText": "Shapes are everywhere around us.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes are everywhere ____ us.",
-      "answer": "around",
+      "prompt": "Wheels are circles.",
+      "answer": "Shapes",
       "options": [
-        "around",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "readingText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "audioText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      "audioText": "Wheels are circles.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes Around Us, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Wheels are ____.",
-      "answer": "circles",
+      "prompt": "Windows can be squares.",
+      "answer": "Shapes",
       "options": [
-        "circles",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "readingText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "audioText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      "audioText": "Windows can be squares.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes Around Us, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Windows can be ____.",
-      "answer": "squares",
+      "prompt": "What is the story mainly about?",
+      "answer": "Shapes",
       "options": [
-        "squares",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "readingText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares.",
-      "audioText": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+      "audioText": "What is the story mainly about?",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes Around Us, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Circles, squares, and triangles are shapes. Shapes are everywhere around us. Wheels are circles. Windows can be squares."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

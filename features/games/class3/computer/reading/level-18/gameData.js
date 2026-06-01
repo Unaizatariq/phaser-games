@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 18,
   "topic": "Learning with Computers",
-  "teach": "Computers help students learn effectively.",
-  "examples": [
-    "Computers help students learn effectively.",
-    "Teachers use presentations and videos.",
-    "Educational software improves learning."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Learning with Computers",
+      "prompt": "Computers help students learn effectively.",
+      "answer": "Learning",
       "options": [
-        "Learning with Computers",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "readingText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "audioText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      "audioText": "Computers help students learn effectively.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers help students learn ____.",
-      "answer": "effectively",
+      "prompt": "Teachers use presentations and videos.",
+      "answer": "Learning",
       "options": [
-        "effectively",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "readingText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "audioText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      "audioText": "Teachers use presentations and videos.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers use presentations and ____.",
-      "answer": "videos",
+      "prompt": "Educational software improves learning.",
+      "answer": "Learning",
       "options": [
-        "videos",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "readingText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "audioText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      "audioText": "Educational software improves learning.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Educational software ____ learning.",
-      "answer": "improves",
+      "prompt": "Technology makes education more interesting.",
+      "answer": "Learning",
       "options": [
-        "improves",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "readingText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "audioText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      "audioText": "Technology makes education more interesting.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes education more ____.",
-      "answer": "interesting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Learning",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "readingText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting.",
-      "audioText": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers help students learn effectively. Teachers use presentations and videos. Educational software improves learning. Technology makes education more interesting."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 9,
   "topic": "Drawing and Painting",
-  "teach": "Computers can be used for drawing.",
-  "examples": [
-    "Computers can be used for drawing.",
-    "Paint programs help children create art.",
-    "We can color pictures on the computer."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Drawing and Painting",
+      "prompt": "Computers can be used for drawing.",
+      "answer": "Drawing",
       "options": [
-        "Drawing and Painting",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "readingText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "audioText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      "audioText": "Computers can be used for drawing.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers can be used for ____.",
-      "answer": "drawing",
+      "prompt": "Paint programs help children create art.",
+      "answer": "Drawing",
       "options": [
-        "drawing",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "readingText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "audioText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      "audioText": "Paint programs help children create art.",
+      "art": "📚",
+      "questionText": "According to the story about Drawing and Painting, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Paint programs help children create ____.",
-      "answer": "art",
+      "prompt": "We can color pictures on the computer.",
+      "answer": "Drawing",
       "options": [
-        "art",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "readingText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "audioText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      "audioText": "We can color pictures on the computer.",
+      "art": "📚",
+      "questionText": "According to the story about Drawing and Painting, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can color pictures on the ____.",
-      "answer": "computer",
+      "prompt": "Drawing on computers is enjoyable.",
+      "answer": "Drawing",
       "options": [
-        "computer",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "readingText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "audioText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      "audioText": "Drawing on computers is enjoyable.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Drawing on computers is ____.",
-      "answer": "enjoyable",
+      "prompt": "What is the story mainly about?",
+      "answer": "Drawing",
       "options": [
-        "enjoyable",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Drawing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "readingText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable.",
-      "audioText": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Drawing and Painting, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Drawing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers can be used for drawing. Paint programs help children create art. We can color pictures on the computer. Drawing on computers is enjoyable."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

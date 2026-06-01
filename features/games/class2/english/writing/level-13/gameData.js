@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 13,
-  "topic": "Picture Description",
-  "teach": "Picture Description is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Picture Description",
-    "example",
-    "practice"
-  ],
+  "topic": "Nouns and Verbs",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Picture Description",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type a noun: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Type a noun: School",
+      "art": "🏫",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type a verb: Run",
+      "answer": "Run",
+      "options": [
+        "Run",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type a verb: Run",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Run": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type a noun: Teacher",
+      "answer": "Teacher",
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type a noun: Teacher",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type a verb: Jump",
+      "answer": "Jump",
+      "options": [
+        "Jump",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type a verb: Jump",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Jump": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type a noun: Garden",
+      "answer": "Garden",
+      "options": [
+        "Garden",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type a noun: Garden",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Garden": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 1,
   "topic": "Factors and Multiples",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "3",
-    "10",
-    "1, 2, 5, 10"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type a factor of 12",
       "answer": "3",
-      "expected": "3",
-      "options": [],
+      "options": [
+        "3",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type a factor of 12",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a multiple of 5",
       "answer": "10",
-      "expected": "10",
-      "options": [],
+      "options": [
+        "10",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type a multiple of 5",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type factors of 10",
       "answer": "1, 2, 5, 10",
-      "expected": "1, 2, 5, 10",
-      "options": [],
+      "options": [
+        "1, 2, 5, 10",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type factors of 10",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "1, 2, 5, 10": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a multiple of 8",
       "answer": "16",
-      "expected": "16",
-      "options": [],
+      "options": [
+        "16",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type a multiple of 8",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "16": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a factor of 20",
       "answer": "4",
-      "expected": "4",
-      "options": [],
+      "options": [
+        "4",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type a factor of 20",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "4": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

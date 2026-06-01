@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 14,
-  "topic": "Communicable Diseases Prevention",
-  "teach": "Communicable Diseases Prevention is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Communicable Diseases Prevention",
-    "example",
-    "practice"
-  ],
+  "topic": "Human Body",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Communicable Diseases Prevention",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type the organ that pumps blood",
+      "answer": "heart",
+      "options": [
+        "heart",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the organ that pumps blood",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "heart": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type the organ used for breathing",
+      "answer": "lungs",
+      "options": [
+        "lungs",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the organ used for breathing",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "lungs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type the organ used for digestion",
+      "answer": "stomach",
+      "options": [
+        "stomach",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the organ used for digestion",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "stomach": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type the organ used for thinking",
+      "answer": "brain",
+      "options": [
+        "brain",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the organ used for thinking",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "brain": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type the organ used for seeing",
+      "answer": "eyes",
+      "options": [
+        "eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the organ used for seeing",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

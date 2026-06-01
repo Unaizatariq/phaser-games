@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 6,
   "topic": "Using a Mouse",
-  "teach": "The mouse controls the pointer on the screen.",
-  "examples": [
-    "The mouse controls the pointer on the screen.",
-    "We can click, double-click, and drag with a mouse.",
-    "The mouse makes computer work faster."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Using a Mouse",
+      "prompt": "The mouse controls the pointer on the screen.",
+      "answer": "Using",
       "options": [
-        "Using a Mouse",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Using",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "readingText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "audioText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      "audioText": "The mouse controls the pointer on the screen.",
+      "art": "📚",
+      "questionText": "According to the story about Using a Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Using": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse controls the pointer on the ____.",
-      "answer": "screen",
+      "prompt": "We can click, double-click, and drag with a mouse.",
+      "answer": "Using",
       "options": [
-        "screen",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Using",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "readingText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "audioText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      "audioText": "We can click, double-click, and drag with a mouse.",
+      "art": "📚",
+      "questionText": "According to the story about Using a Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Using": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can click, double-click, and drag with a ____.",
-      "answer": "mouse",
+      "prompt": "The mouse makes computer work faster.",
+      "answer": "Using",
       "options": [
-        "mouse",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Using",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "readingText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "audioText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      "audioText": "The mouse makes computer work faster.",
+      "art": "📚",
+      "questionText": "According to the story about Using a Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Using": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse makes computer work ____.",
-      "answer": "faster",
+      "prompt": "It is easy and fun to use.",
+      "answer": "Using",
       "options": [
-        "faster",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Using",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "readingText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "audioText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      "audioText": "It is easy and fun to use.",
+      "art": "📚",
+      "questionText": "According to the story about Using a Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Using": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It is ____ and fun to use.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Using",
       "options": [
-        "easy",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Using",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "readingText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use.",
-      "audioText": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Using a Mouse, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Using": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The mouse controls the pointer on the screen. We can click, double-click, and drag with a mouse. The mouse makes computer work faster. It is easy and fun to use."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

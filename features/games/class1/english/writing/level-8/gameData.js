@@ -1,52 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 8,
-  "topic": "Singular and Plural",
-  "teach": "Singular means one. Plural means more than one. We often add s or es.",
-  "examples": [
-    "one cat/two cats",
-    "one box/two boxes"
-  ],
+  "topic": "Keyboard Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: One apple is",
-      "answer": "singular",
-      "options": [],
-      "audioText": "Write the answer: One apple is"
+      "prompt": "Type the word: Apple",
+      "answer": "Apple",
+      "options": [
+        "Apple",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Apple",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Apple": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Two apples are",
-      "answer": "plural",
-      "options": [],
-      "audioText": "Write the answer: Two apples are"
+      "prompt": "Type the word: Ball",
+      "answer": "Ball",
+      "options": [
+        "Ball",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Ball",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ball": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Plural of cat is",
-      "answer": "cats",
-      "options": [],
-      "audioText": "Write the answer: Plural of cat is"
+      "prompt": "Type the word: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Type the word: School",
+      "art": "🏫",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Plural of box is",
-      "answer": "boxes",
-      "options": [],
-      "audioText": "Write the answer: Plural of box is"
+      "prompt": "Type the word: Teacher",
+      "answer": "Teacher",
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Teacher",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Plural means",
-      "answer": "more than one",
-      "options": [],
-      "audioText": "Write the answer: Plural means"
+      "prompt": "Type the word: Book",
+      "answer": "Book",
+      "options": [
+        "Book",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Book",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Book": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
   "topic": "My Country",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "Pakistan"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Pakistan is my country and I am proud of it.",
       "answer": "Pakistan",
       "options": [
         "Pakistan",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "China",
         "Nepal"
       ],
-      "text": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "audioText": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+      "audioText": "Pakistan is my country and I am proud of it.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pakistan": "🔹",
+        "India": "🔹",
+        "China": "🔹",
+        "Nepal": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "It has beautiful mountains, rivers, deserts, and green fields.",
       "answer": "Pakistan",
       "options": [
         "Pakistan",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "China",
         "Nepal"
       ],
-      "text": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "audioText": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+      "audioText": "It has beautiful mountains, rivers, deserts, and green fields.",
+      "art": "📚",
+      "questionText": "According to the story about My Country, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pakistan": "🔹",
+        "India": "🔹",
+        "China": "🔹",
+        "Nepal": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "People from different cultures and languages live together in peace.",
       "answer": "Pakistan",
       "options": [
         "Pakistan",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "China",
         "Nepal"
       ],
-      "text": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "audioText": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+      "audioText": "People from different cultures and languages live together in peace.",
+      "art": "📚",
+      "questionText": "According to the story about My Country, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pakistan": "🔹",
+        "India": "🔹",
+        "China": "🔹",
+        "Nepal": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "We should respect our country and work hard for its progress.",
       "answer": "Pakistan",
       "options": [
         "Pakistan",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "China",
         "Nepal"
       ],
-      "text": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "audioText": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+      "audioText": "We should respect our country and work hard for its progress.",
+      "art": "📚",
+      "questionText": "According to the story about My Country, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pakistan": "🔹",
+        "India": "🔹",
+        "China": "🔹",
+        "Nepal": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "Pakistan",
       "options": [
         "Pakistan",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "China",
         "Nepal"
       ],
-      "text": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress.",
-      "audioText": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Country, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pakistan": "🔹",
+        "India": "🔹",
+        "China": "🔹",
+        "Nepal": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Pakistan is my country and I am proud of it. It has beautiful mountains, rivers, deserts, and green fields. People from different cultures and languages live together in peace. We should respect our country and work hard for its progress."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

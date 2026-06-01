@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 11,
   "topic": "Time",
-  "teach": "Clocks help us know time.",
-  "examples": [
-    "Clocks help us know time.",
-    "There are 60 minutes in one hour.",
-    "Morning, afternoon, and evening show parts of the day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Clocks help us know time.",
       "answer": "Time",
       "options": [
         "Time",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "readingText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "audioText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      "audioText": "Clocks help us know time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are 60 minutes in one ____.",
-      "answer": "hour",
+      "prompt": "There are 60 minutes in one hour.",
+      "answer": "Time",
       "options": [
-        "hour",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "readingText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "audioText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      "audioText": "There are 60 minutes in one hour.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Morning, afternoon, and evening show parts of the ____.",
-      "answer": "day",
+      "prompt": "Morning, afternoon, and evening show parts of the day.",
+      "answer": "Time",
       "options": [
-        "day",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "readingText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "audioText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      "audioText": "Morning, afternoon, and evening show parts of the day.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time helps us plan ____.",
-      "answer": "activities",
+      "prompt": "Time helps us plan activities.",
+      "answer": "Time",
       "options": [
-        "activities",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "readingText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "audioText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      "audioText": "Time helps us plan activities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "time",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "time",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "readingText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities.",
-      "audioText": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Clocks help us know time. There are 60 minutes in one hour. Morning, afternoon, and evening show parts of the day. Time helps us plan activities."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

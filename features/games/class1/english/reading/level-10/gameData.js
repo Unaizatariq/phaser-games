@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 10,
   "topic": "My Classroom",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "classroom"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My classroom is bright and colorful.",
       "answer": "classroom",
       "options": [
         "classroom",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "kitchen",
         "shop"
       ],
-      "text": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "audioText": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+      "audioText": "My classroom is bright and colorful.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "classroom": "🔹",
+        "playground": "🔹",
+        "kitchen": "🔹",
+        "shop": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "There are desks, chairs, and a whiteboard in the room.",
       "answer": "classroom",
       "options": [
         "classroom",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "kitchen",
         "shop"
       ],
-      "text": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "audioText": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+      "audioText": "There are desks, chairs, and a whiteboard in the room.",
+      "art": "📚",
+      "questionText": "According to the story about My Classroom, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "classroom": "🔹",
+        "playground": "🔹",
+        "kitchen": "🔹",
+        "shop": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My teacher writes lessons on the board.",
       "answer": "classroom",
       "options": [
         "classroom",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "kitchen",
         "shop"
       ],
-      "text": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "audioText": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+      "audioText": "My teacher writes lessons on the board.",
+      "art": "📚",
+      "questionText": "According to the story about My Classroom, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "classroom": "🔹",
+        "playground": "🔹",
+        "kitchen": "🔹",
+        "shop": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "We study and learn together happily.",
       "answer": "classroom",
       "options": [
         "classroom",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "kitchen",
         "shop"
       ],
-      "text": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "audioText": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+      "audioText": "We study and learn together happily.",
+      "art": "📚",
+      "questionText": "According to the story about My Classroom, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "classroom": "🔹",
+        "playground": "🔹",
+        "kitchen": "🔹",
+        "shop": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "classroom",
       "options": [
         "classroom",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "kitchen",
         "shop"
       ],
-      "text": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily.",
-      "audioText": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Classroom, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "classroom": "🔹",
+        "playground": "🔹",
+        "kitchen": "🔹",
+        "shop": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My classroom is bright and colorful. There are desks, chairs, and a whiteboard in the room. My teacher writes lessons on the board. We study and learn together happily."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

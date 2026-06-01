@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 15,
   "topic": "Simple Machines",
-  "teach": "Simple machines make work easier.",
-  "examples": [
-    "Simple machines make work easier.",
-    "Levers and pulleys are simple machines.",
-    "Machines save time and effort."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Simple Machines",
+      "prompt": "Simple machines make work easier.",
+      "answer": "Simple",
       "options": [
-        "Simple Machines",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "readingText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "audioText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      "audioText": "Simple machines make work easier.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Simple machines make work ____.",
-      "answer": "easier",
+      "prompt": "Levers and pulleys are simple machines.",
+      "answer": "Simple",
       "options": [
-        "easier",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "readingText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "audioText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      "audioText": "Levers and pulleys are simple machines.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Levers and pulleys are simple ____.",
-      "answer": "machines",
+      "prompt": "Machines save time and effort.",
+      "answer": "Simple",
       "options": [
-        "machines",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "readingText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "audioText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      "audioText": "Machines save time and effort.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Machines save time and ____.",
-      "answer": "effort",
+      "prompt": "People use machines every day.",
+      "answer": "Simple",
       "options": [
-        "effort",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "readingText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "audioText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      "audioText": "People use machines every day.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use machines every ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Simple",
       "options": [
-        "day",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "readingText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day.",
-      "audioText": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Simple Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Simple machines make work easier. Levers and pulleys are simple machines. Machines save time and effort. People use machines every day."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

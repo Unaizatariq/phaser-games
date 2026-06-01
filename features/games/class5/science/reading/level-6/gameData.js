@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Food Chains and Food Webs",
-  "teach": "A food chain shows how energy moves in nature.",
-  "examples": [
-    "A food chain shows how energy moves in nature.",
-    "Plants are producers because they make food.",
-    "Herbivores eat plants."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Food Chains and Food Webs",
+      "prompt": "A food chain shows how energy moves in nature.",
+      "answer": "Food",
       "options": [
-        "Food Chains and Food Webs",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "readingText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "audioText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      "audioText": "A food chain shows how energy moves in nature.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A food chain shows how energy moves in ____.",
-      "answer": "nature",
+      "prompt": "Plants are producers because they make food.",
+      "answer": "Food",
       "options": [
-        "nature",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "readingText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "audioText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      "audioText": "Plants are producers because they make food.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants are producers because they make ____.",
-      "answer": "food",
+      "prompt": "Herbivores eat plants.",
+      "answer": "Food",
       "options": [
-        "food",
-        "Human Body Systems",
-        "together",
-        "breathe"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "readingText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "audioText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      "audioText": "Herbivores eat plants.",
+      "art": "📚",
+      "questionText": "According to the story about Food Chains and Food Webs, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Herbivores eat ____.",
-      "answer": "plants",
+      "prompt": "Carnivores eat other animals.",
+      "answer": "Food",
       "options": [
-        "plants",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "readingText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "audioText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      "audioText": "Carnivores eat other animals.",
+      "art": "📚",
+      "questionText": "According to the story about Food Chains and Food Webs, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Carnivores eat other ____.",
-      "answer": "animals",
+      "prompt": "What is the story mainly about?",
+      "answer": "Food",
       "options": [
-        "animals",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "readingText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals.",
-      "audioText": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Food Chains and Food Webs, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A food chain shows how energy moves in nature. Plants are producers because they make food. Herbivores eat plants. Carnivores eat other animals."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

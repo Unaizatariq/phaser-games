@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Plants and Their Functions",
-  "teach": "Plants are important for life on Earth.",
-  "examples": [
-    "Plants are important for life on Earth.",
-    "Roots absorb water from the soil.",
-    "Leaves prepare food through photosynthesis."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Plants and Their Functions",
+      "prompt": "Plants are important for life on Earth.",
+      "answer": "Plants",
       "options": [
-        "Plants and Their Functions",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Reproduction in Plants"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "readingText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "audioText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      "audioText": "Plants are important for life on Earth.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants are important for life on ____.",
-      "answer": "Earth",
+      "prompt": "Roots absorb water from the soil.",
+      "answer": "Plants",
       "options": [
-        "Earth",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "readingText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "audioText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      "audioText": "Roots absorb water from the soil.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Roots absorb water from the ____.",
-      "answer": "soil",
+      "prompt": "Leaves prepare food through photosynthesis.",
+      "answer": "Plants",
       "options": [
-        "soil",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "readingText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "audioText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      "audioText": "Leaves prepare food through photosynthesis.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Leaves prepare food through ____.",
-      "answer": "photosynthesis",
+      "prompt": "Flowers help plants produce seeds.",
+      "answer": "Plants",
       "options": [
-        "photosynthesis",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "readingText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "audioText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      "audioText": "Flowers help plants produce seeds.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers help plants produce ____.",
-      "answer": "seeds",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "seeds",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "readingText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds.",
-      "audioText": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Their Functions, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants are important for life on Earth. Roots absorb water from the soil. Leaves prepare food through photosynthesis. Flowers help plants produce seeds."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

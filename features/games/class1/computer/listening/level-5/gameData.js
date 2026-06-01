@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "listening",
   "level": 5,
-  "topic": "Computer Handling",
-  "teach": "We must handle computers carefully. Keep food and water away and sit properly.",
-  "examples": [
-    "clean hands",
-    "no water",
-    "sit straight"
-  ],
+  "topic": "CPU",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "computer",
+      "audioText": "A computer mouse is a small device. It helps us click, select, and move items on the computer screen.",
+      "prompt": "Which device helps us click on items on the computer screen?",
+      "answer": "mouse",
       "options": [
-        "computer",
-        "plant",
-        "soil",
-        "cup"
+        "mouse",
+        "monitor",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "We should keep water away from"
+      "art": "🖱️",
+      "optionArts": {
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "clean hands",
+      "audioText": "A keyboard has many keys. We use it to type letters, numbers, and words.",
+      "prompt": "Which device is used for typing letters and numbers?",
+      "answer": "keyboard",
       "options": [
-        "clean hands",
-        "wet hands",
-        "dirty hands",
-        "sticky hands"
+        "keyboard",
+        "mouse",
+        "monitor",
+        "speaker"
       ],
-      "audioText": "We should use computer with"
+      "art": "⌨️",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "speaker": "🔊"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "properly",
+      "audioText": "A monitor is the screen of a computer. It shows pictures, words, and videos.",
+      "prompt": "Which computer part shows pictures and words?",
+      "answer": "monitor",
       "options": [
-        "properly",
-        "on keyboard",
-        "under table",
-        "far away"
+        "monitor",
+        "mouse",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "We should sit"
+      "art": "🖥️",
+      "optionArts": {
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "wires",
+      "audioText": "A printer makes a paper copy of work from the computer.",
+      "prompt": "Which device prints work on paper?",
+      "answer": "printer",
       "options": [
-        "wires",
-        "books",
-        "pencils",
-        "bags"
+        "printer",
+        "monitor",
+        "mouse",
+        "CPU"
       ],
-      "audioText": "Do not pull computer"
+      "art": "🖨️",
+      "optionArts": {
+        "printer": "🖨️",
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "CPU": "🧠"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "safe",
+      "audioText": "Speakers are output devices. They help us hear sound from the computer.",
+      "prompt": "Which device helps us hear sound?",
+      "answer": "speaker",
       "options": [
-        "safe",
-        "careless",
-        "wet",
-        "broken"
+        "speaker",
+        "keyboard",
+        "mouse",
+        "scanner"
       ],
-      "audioText": "Good computer habit keeps us"
+      "art": "🔊",
+      "optionArts": {
+        "speaker": "🔊",
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "scanner": "📠"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

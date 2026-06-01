@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Plants",
-  "teach": "Plants are green and beautiful.",
-  "examples": [
-    "Plants are green and beautiful.",
-    "Plants need water and sunlight.",
-    "Flowers grow on plants."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Plants are green and beautiful.",
       "answer": "Plants",
       "options": [
         "Plants",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      "audioText": "Plants are green and beautiful.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants are green and ____.",
-      "answer": "beautiful",
+      "prompt": "Plants need water and sunlight.",
+      "answer": "Plants",
       "options": [
-        "beautiful",
-        "My Body",
-        "things",
-        "ears"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      "audioText": "Plants need water and sunlight.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants need water and ____.",
-      "answer": "sunlight",
+      "prompt": "Flowers grow on plants.",
+      "answer": "Plants",
       "options": [
-        "sunlight",
-        "My Body",
-        "things",
-        "ears"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      "audioText": "Flowers grow on plants.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants make the air ____.",
-      "answer": "fresh",
+      "prompt": "Plants make the air fresh.",
+      "answer": "Plants",
       "options": [
-        "fresh",
-        "My Body",
-        "things",
-        "ears"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      "audioText": "Plants make the air fresh.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "beautiful",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "beautiful",
-        "My Body",
-        "things",
-        "ears"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "readingText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh.",
-      "audioText": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants are green and beautiful. Plants need water and sunlight. Flowers grow on plants. Plants make the air fresh."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

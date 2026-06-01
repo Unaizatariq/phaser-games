@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Percentages",
-  "teach": "Percentages show parts out of one hundred.",
-  "examples": [
-    "Percentages show parts out of one hundred.",
-    "50 percent means fifty out of one hundred.",
-    "Percentages are used in shopping and statistics."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Percentages show parts out of one hundred.",
       "answer": "Percentages",
       "options": [
         "Percentages",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "readingText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "audioText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      "audioText": "Percentages show parts out of one hundred.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Percentages": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Percentages show parts out of one ____.",
-      "answer": "hundred",
+      "prompt": "50 percent means fifty out of one hundred.",
+      "answer": "Percentages",
       "options": [
-        "hundred",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Percentages",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "readingText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "audioText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      "audioText": "50 percent means fifty out of one hundred.",
+      "art": "📚",
+      "questionText": "According to the story about Percentages, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Percentages": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Percentages are used in shopping and ____.",
-      "answer": "statistics",
+      "prompt": "Percentages are used in shopping and statistics.",
+      "answer": "Percentages",
       "options": [
-        "statistics",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Percentages",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "readingText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "audioText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      "audioText": "Percentages are used in shopping and statistics.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Percentages": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They help compare quantities ____.",
-      "answer": "easily",
+      "prompt": "They help compare quantities easily.",
+      "answer": "Percentages",
       "options": [
-        "easily",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Percentages",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "readingText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "audioText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      "audioText": "They help compare quantities easily.",
+      "art": "📚",
+      "questionText": "According to the story about Percentages, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Percentages": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hundred",
+      "prompt": "What is the story mainly about?",
+      "answer": "Percentages",
       "options": [
-        "hundred",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Percentages",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "readingText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily.",
-      "audioText": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Percentages, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Percentages": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Percentages show parts out of one hundred. 50 percent means fifty out of one hundred. Percentages are used in shopping and statistics. They help compare quantities easily."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

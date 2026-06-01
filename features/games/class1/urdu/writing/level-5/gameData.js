@@ -1,52 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 5,
-  "topic": "سادہ جملے",
-  "teach": "سادہ جملہ مکمل بات بتاتا ہے۔ جیسے: علی پڑھتا ہے۔",
-  "examples": [
-    "علی پڑھتا ہے",
-    "بلی سوتی ہے"
-  ],
+  "topic": "لفظ ٹائپنگ",
   "questions": [
     {
-      "type": "input",
-      "prompt": "کون سا جملہ مکمل ہے؟",
-      "answer": "علی پڑھتا ہے",
-      "options": [],
-      "audioText": "کون سا جملہ مکمل ہے؟"
+      "prompt": "لفظ ٹائپ کریں: کتاب",
+      "answer": "کتاب",
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ ٹائپ کریں: کتاب",
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جملہ کیا بتاتا ہے؟",
-      "answer": "مکمل بات",
-      "options": [],
-      "audioText": "جملہ کیا بتاتا ہے؟"
+      "prompt": "لفظ ٹائپ کریں: اسکول",
+      "answer": "اسکول",
+      "options": [
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        }
+      ],
+      "audioText": "لفظ ٹائپ کریں: اسکول",
+      "art": "🏫",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "اسکول": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "پارک": "🌳",
+        "دوست": "🧒"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "بلی سوتی ہے میں کون سوتی ہے؟",
-      "answer": "بلی",
-      "options": [],
-      "audioText": "بلی سوتی ہے میں کون سوتی ہے؟"
+      "prompt": "لفظ ٹائپ کریں: استاد",
+      "answer": "استاد",
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ ٹائپ کریں: استاد",
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "سادہ جملے کے آخر میں کیا آتا ہے؟",
-      "answer": "وقفہ",
-      "options": [],
-      "audioText": "سادہ جملے کے آخر میں کیا آتا ہے؟"
+      "prompt": "لفظ ٹائپ کریں: قلم",
+      "answer": "قلم",
+      "options": [
+        {
+          "text": "قلم",
+          "tts": "قلم"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ ٹائپ کریں: قلم",
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "قلم": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "کون سا سادہ جملہ ہے؟",
-      "answer": "میں سکول جاتا ہوں",
-      "options": [],
-      "audioText": "کون سا سادہ جملہ ہے؟"
+      "prompt": "لفظ ٹائپ کریں: گھر",
+      "answer": "گھر",
+      "options": [
+        {
+          "text": "گھر",
+          "tts": "ghar"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "لفظ ٹائپ کریں: گھر",
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "گھر": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

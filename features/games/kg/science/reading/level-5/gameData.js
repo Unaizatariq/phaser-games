@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Weather",
-  "teach": "Sometimes it is sunny.",
-  "examples": [
-    "Sometimes it is sunny.",
-    "Sometimes it rains."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Sometimes it is sunny. Sometimes it rains.",
       "answer": "Weather",
       "options": [
         "Weather",
-        "My Body",
-        "Animals",
-        "Birds"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sometimes it is sunny. Sometimes it rains.",
-      "readingText": "Sometimes it is sunny. Sometimes it rains.",
-      "audioText": "Sometimes it is sunny. Sometimes it rains."
+      "audioText": "Sometimes it is sunny. Sometimes it rains.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "sentenceOrder": [
+        "Sometimes it is sunny.",
+        "Sometimes it rains."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it is ____.",
-      "answer": "sunny",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "sunny",
-        "My Body",
-        "eyes",
-        "hands"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sometimes it is sunny. Sometimes it rains.",
-      "readingText": "Sometimes it is sunny. Sometimes it rains.",
-      "audioText": "Sometimes it is sunny. Sometimes it rains."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sometimes it ____.",
-      "answer": "rains",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "rains",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Sometimes it is sunny. Sometimes it rains.",
-      "readingText": "Sometimes it is sunny. Sometimes it rains.",
-      "audioText": "Sometimes it is sunny. Sometimes it rains."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🧊",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "sunny",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "sunny",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Sometimes it is sunny. Sometimes it rains.",
-      "readingText": "Sometimes it is sunny. Sometimes it rains.",
-      "audioText": "Sometimes it is sunny. Sometimes it rains."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💡",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "rains",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "rains",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Sometimes it is sunny. Sometimes it rains.",
-      "readingText": "Sometimes it is sunny. Sometimes it rains.",
-      "audioText": "Sometimes it is sunny. Sometimes it rains."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌎",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sometimes it is sunny. Sometimes it rains."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

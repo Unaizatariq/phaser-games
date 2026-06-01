@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Animals",
-  "teach": "Cats and dogs are animals.",
-  "examples": [
-    "Cats and dogs are animals.",
-    "Animals are our friends."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Cats and dogs are animals. Animals are our friends.",
       "answer": "Animals",
       "options": [
         "Animals",
-        "My Body",
-        "Birds",
-        "Plants"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are animals. Animals are our friends.",
-      "readingText": "Cats and dogs are animals. Animals are our friends.",
-      "audioText": "Cats and dogs are animals. Animals are our friends."
+      "audioText": "Cats and dogs are animals. Animals are our friends.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "Cats and dogs are animals.",
+        "Animals are our friends."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals are our ____.",
-      "answer": "friends",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "friends",
-        "My Body",
-        "eyes",
-        "hands"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cats and dogs are animals. Animals are our friends.",
-      "readingText": "Cats and dogs are animals. Animals are our friends.",
-      "audioText": "Cats and dogs are animals. Animals are our friends."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "animals",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "animals",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Cats and dogs are animals. Animals are our friends.",
-      "readingText": "Cats and dogs are animals. Animals are our friends.",
-      "audioText": "Cats and dogs are animals. Animals are our friends."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "☀️",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "friends",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "friends",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Cats and dogs are animals. Animals are our friends.",
-      "readingText": "Cats and dogs are animals. Animals are our friends.",
-      "audioText": "Cats and dogs are animals. Animals are our friends."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💧",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "animals",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "animals",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Cats and dogs are animals. Animals are our friends.",
-      "readingText": "Cats and dogs are animals. Animals are our friends.",
-      "audioText": "Cats and dogs are animals. Animals are our friends."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🍎",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cats and dogs are animals. Animals are our friends."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

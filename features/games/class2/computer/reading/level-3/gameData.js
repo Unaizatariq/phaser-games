@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 3,
   "topic": "Input Devices",
-  "teach": "Input devices help us enter information.",
-  "examples": [
-    "Input devices help us enter information.",
-    "Keyboard and mouse are input devices.",
-    "We use them to give instructions to computers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Input Devices",
+      "prompt": "Input devices help us enter information.",
+      "answer": "Input",
       "options": [
-        "Input Devices",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Output Devices"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "readingText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "audioText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      "audioText": "Input devices help us enter information.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Input devices help us enter ____.",
-      "answer": "information",
+      "prompt": "Keyboard and mouse are input devices.",
+      "answer": "Input",
       "options": [
-        "information",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "readingText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "audioText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      "audioText": "Keyboard and mouse are input devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Keyboard and mouse are input ____.",
-      "answer": "devices",
+      "prompt": "We use them to give instructions to computers.",
+      "answer": "Input",
       "options": [
-        "devices",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "readingText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "audioText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      "audioText": "We use them to give instructions to computers.",
+      "art": "📚",
+      "questionText": "According to the story about Input Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use them to give instructions to ____.",
-      "answer": "computers",
+      "prompt": "Input devices make computer work easy.",
+      "answer": "Input",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "readingText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "audioText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      "audioText": "Input devices make computer work easy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Input devices make computer work ____.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Input",
       "options": [
-        "easy",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Input",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "readingText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy.",
-      "audioText": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Input Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Input": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Input devices help us enter information. Keyboard and mouse are input devices. We use them to give instructions to computers. Input devices make computer work easy."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Division",
-  "teach": "Division means sharing equally.",
-  "examples": [
-    "Division means sharing equally.",
-    "It is the opposite of multiplication.",
-    "Division helps split things fairly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Division means sharing equally.",
       "answer": "Division",
       "options": [
         "Division",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "readingText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "audioText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      "audioText": "Division means sharing equally.",
+      "art": "➗",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division means sharing ____.",
-      "answer": "equally",
+      "prompt": "It is the opposite of multiplication.",
+      "answer": "Division",
       "options": [
-        "equally",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "readingText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "audioText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      "audioText": "It is the opposite of multiplication.",
+      "art": "➗",
+      "questionText": "According to the story about Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It is the opposite of ____.",
-      "answer": "multiplication",
+      "prompt": "Division helps split things fairly.",
+      "answer": "Division",
       "options": [
-        "multiplication",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "readingText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "audioText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      "audioText": "Division helps split things fairly.",
+      "art": "➗",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division helps split things ____.",
-      "answer": "fairly",
+      "prompt": "Remainders sometimes appear in division.",
+      "answer": "Division",
       "options": [
-        "fairly",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "readingText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "audioText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      "audioText": "Remainders sometimes appear in division.",
+      "art": "➗",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "equally",
+      "prompt": "What is the story mainly about?",
+      "answer": "Division",
       "options": [
-        "equally",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "readingText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division.",
-      "audioText": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+      "audioText": "What is the story mainly about?",
+      "art": "➗",
+      "questionText": "According to the story about Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Division means sharing equally. It is the opposite of multiplication. Division helps split things fairly. Remainders sometimes appear in division."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

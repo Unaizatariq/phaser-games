@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Water and Its Uses",
-  "teach": "Water is important for all living things.",
-  "examples": [
-    "Water is important for all living things.",
-    "We use water for drinking, cooking, and cleaning.",
-    "Farmers use water for crops."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Water and Its Uses",
+      "prompt": "Water is important for all living things.",
+      "answer": "Water",
       "options": [
-        "Water and Its Uses",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "readingText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "audioText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      "audioText": "Water is important for all living things.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water is important for all living ____.",
-      "answer": "things",
+      "prompt": "We use water for drinking, cooking, and cleaning.",
+      "answer": "Water",
       "options": [
-        "things",
-        "Living and Non-Living Things",
-        "breathe",
-        "Parts of a Plant"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "readingText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "audioText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      "audioText": "We use water for drinking, cooking, and cleaning.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use water for drinking, cooking, and ____.",
-      "answer": "cleaning",
+      "prompt": "Farmers use water for crops.",
+      "answer": "Water",
       "options": [
-        "cleaning",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "readingText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "audioText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      "audioText": "Farmers use water for crops.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Farmers use water for ____.",
-      "answer": "crops",
+      "prompt": "We should save clean water.",
+      "answer": "Water",
       "options": [
-        "crops",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "readingText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "audioText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      "audioText": "We should save clean water.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should save clean ____.",
-      "answer": "water",
+      "prompt": "What is the story mainly about?",
+      "answer": "Water",
       "options": [
-        "water",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "readingText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water.",
-      "audioText": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+      "audioText": "What is the story mainly about?",
+      "art": "💧",
+      "questionText": "According to the story about Water and Its Uses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Water is important for all living things. We use water for drinking, cooking, and cleaning. Farmers use water for crops. We should save clean water."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

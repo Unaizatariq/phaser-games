@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 8,
-  "topic": "Weather Sunny Rainy Cloudy",
-  "teach": "Weather Sunny Rainy Cloudy teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "matter",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "technology",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "technology",
-        "weather",
-        "fruit",
-        "animal"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "What is the topic about?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "work and learn",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "work and learn",
-        "grow plants",
-        "make rain",
-        "sleep"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Computers help us"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "safely",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "safely",
-        "carelessly",
-        "with wet hands",
-        "without rules"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "We should use computers"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "type",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "type",
-        "drink",
-        "fly",
-        "wash"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "A keyboard is used to"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "responsible use",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "responsible use",
-        "sharing passwords",
-        "clicking everything",
-        "breaking devices"
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
       ],
-      "audioText": "Good digital habit means"
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

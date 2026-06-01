@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Missing Alphabet Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "B",
-    "E",
-    "H"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace missing letter after A",
       "answer": "B",
-      "expected": "B",
-      "options": [],
+      "options": [
+        "B",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace missing letter after A",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "B": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing letter after D",
       "answer": "E",
-      "expected": "E",
-      "options": [],
+      "options": [
+        "E",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace missing letter after D",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "E": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing letter after G",
       "answer": "H",
-      "expected": "H",
-      "options": [],
+      "options": [
+        "H",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace missing letter after G",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "H": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing letter after M",
       "answer": "N",
-      "expected": "N",
-      "options": [],
+      "options": [
+        "N",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace missing letter after M",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "N": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace missing letter after T",
       "answer": "U",
-      "expected": "U",
-      "options": [],
+      "options": [
+        "U",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace missing letter after T",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "U": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

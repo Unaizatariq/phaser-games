@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 10,
   "topic": "Playing Games",
-  "teach": "Children play games on computers.",
-  "examples": [
-    "Children play games on computers.",
-    "Some games help us learn.",
-    "We should play games for a short time."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Playing Games",
+      "prompt": "Children play games on computers.",
+      "answer": "Playing",
       "options": [
-        "Playing Games",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "readingText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "audioText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      "audioText": "Children play games on computers.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children play games on ____.",
-      "answer": "computers",
+      "prompt": "Some games help us learn.",
+      "answer": "Playing",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "readingText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "audioText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      "audioText": "Some games help us learn.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some ____ help us learn.",
-      "answer": "games",
+      "prompt": "We should play games for a short time.",
+      "answer": "Playing",
       "options": [
-        "games",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "readingText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "audioText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      "audioText": "We should play games for a short time.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should play games for a short ____.",
-      "answer": "time",
+      "prompt": "Too much gaming is not healthy.",
+      "answer": "Playing",
       "options": [
-        "time",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "readingText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "audioText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      "audioText": "Too much gaming is not healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Playing Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Too much gaming is ____ healthy.",
-      "answer": "not",
+      "prompt": "What is the story mainly about?",
+      "answer": "Playing",
       "options": [
-        "not",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Playing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "readingText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy.",
-      "audioText": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Playing Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Playing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Children play games on computers. Some games help us learn. We should play games for a short time. Too much gaming is not healthy."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 19,
   "topic": "Smart Machines",
-  "teach": "Computers are smart machines.",
-  "examples": [
-    "Computers are smart machines.",
-    "They follow instructions quickly.",
-    "Smart machines save time."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Smart Machines",
+      "prompt": "Computers are smart machines.",
+      "answer": "Smart",
       "options": [
-        "Smart Machines",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      "audioText": "Computers are smart machines.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are smart ____.",
-      "answer": "machines",
+      "prompt": "They follow instructions quickly.",
+      "answer": "Smart",
       "options": [
-        "machines",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      "audioText": "They follow instructions quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Smart Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They follow ____ quickly.",
-      "answer": "instructions",
+      "prompt": "Smart machines save time.",
+      "answer": "Smart",
       "options": [
-        "instructions",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      "audioText": "Smart machines save time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart machines save ____.",
-      "answer": "time",
+      "prompt": "People use smart machines daily.",
+      "answer": "Smart",
       "options": [
-        "time",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      "audioText": "People use smart machines daily.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "machines",
+      "prompt": "What is the story mainly about?",
+      "answer": "Smart",
       "options": [
-        "machines",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "readingText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily.",
-      "audioText": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Smart Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are smart machines. They follow instructions quickly. Smart machines save time. People use smart machines daily."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

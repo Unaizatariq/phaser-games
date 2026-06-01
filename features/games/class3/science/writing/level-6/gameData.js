@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 6,
-  "topic": "Personal Hygiene",
-  "teach": "Personal Hygiene is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Personal Hygiene",
-    "example",
-    "practice"
-  ],
+  "topic": "States of Matter",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Personal Hygiene",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type one solid object",
+      "answer": "book",
+      "options": [
+        "book",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one solid object",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "book": "📘",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type one liquid object",
+      "answer": "water",
+      "options": [
+        "water",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one liquid object",
+      "art": "💧",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "water": "💧",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type one gas",
+      "answer": "air",
+      "options": [
+        "air",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one gas",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "air": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type the state of ice",
+      "answer": "solid",
+      "options": [
+        "solid",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the state of ice",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "solid": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type the state of steam",
+      "answer": "gas",
+      "options": [
+        "gas",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the state of steam",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "gas": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 16,
   "topic": "Safety Rules",
-  "teach": "We should follow safety rules.",
-  "examples": [
-    "We should follow safety rules.",
-    "We should cross the road carefully.",
-    "We should not touch fire."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Safety Rules",
+      "prompt": "We should follow safety rules.",
+      "answer": "Safety",
       "options": [
-        "Safety Rules",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "readingText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "audioText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      "audioText": "We should follow safety rules.",
+      "art": "🔒",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should follow safety ____.",
-      "answer": "rules",
+      "prompt": "We should cross the road carefully.",
+      "answer": "Safety",
       "options": [
-        "rules",
-        "Living Things",
-        "move",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "readingText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "audioText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      "audioText": "We should cross the road carefully.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should cross the ____ carefully.",
-      "answer": "road",
+      "prompt": "We should not touch fire.",
+      "answer": "Safety",
       "options": [
-        "road",
-        "Living Things",
-        "move",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "readingText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "audioText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      "audioText": "We should not touch fire.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should not touch ____.",
-      "answer": "fire",
+      "prompt": "Safety keeps us protected.",
+      "answer": "Safety",
       "options": [
-        "fire",
-        "Living Things",
-        "move",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "readingText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "audioText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      "audioText": "Safety keeps us protected.",
+      "art": "🔒",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safety keeps us ____.",
-      "answer": "protected",
+      "prompt": "What is the story mainly about?",
+      "answer": "Safety",
       "options": [
-        "protected",
-        "Living Things",
-        "move",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "readingText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected.",
-      "audioText": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+      "audioText": "What is the story mainly about?",
+      "art": "🔒",
+      "questionText": "According to the story about Safety Rules, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We should follow safety rules. We should cross the road carefully. We should not touch fire. Safety keeps us protected."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

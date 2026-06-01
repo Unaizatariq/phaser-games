@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 2,
-  "topic": "Personal Hygiene",
-  "teach": "Personal Hygiene is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Personal Hygiene",
-    "example",
-    "practice"
-  ],
+  "topic": "Practice",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Personal Hygiene",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Living things need food, water, and air. Plants, animals, and people are living things.",
+      "answer": "animal",
+      "options": [
+        "animal",
+        "chair",
+        "car",
+        "table"
+      ],
+      "audioText": "Living things need food, water, and air. Plants, animals, and people are living things.",
+      "art": "🐄",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "car": "🚗",
+        "table": "▭"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Non-living things do not grow and do not need food or water. A chair is non-living.",
+      "answer": "chair",
+      "options": [
+        "chair",
+        "cat",
+        "plant",
+        "bird"
+      ],
+      "audioText": "Non-living things do not grow and do not need food or water. A chair is non-living.",
+      "art": "👁️",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "chair": "🪑",
+        "cat": "🐱",
+        "plant": "🌱",
+        "bird": "🐦"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
+      "options": [
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
+      ],
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "☀️",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "💧",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🍎",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

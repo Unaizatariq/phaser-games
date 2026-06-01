@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 11,
-  "topic": "Position Words",
-  "teach": "The ball is on the table.",
-  "examples": [
-    "The ball is on the table.",
-    "The cat is under the chair.",
-    "Position words show location."
-  ],
+  "topic": "Counting 1 to 20",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Position Words",
+      "prompt": "We can count from 1 to 20.",
+      "answer": "Counting",
       "options": [
-        "Position Words",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "readingText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "audioText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      "audioText": "We can count from 1 to 20.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The ball is on the ____.",
-      "answer": "table",
+      "prompt": "Counting helps us in daily life.",
+      "answer": "Counting",
       "options": [
-        "table",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "readingText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "audioText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      "audioText": "Counting helps us in daily life.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The cat is under the ____.",
-      "answer": "chair",
+      "prompt": "Numbers are important.",
+      "answer": "Counting",
       "options": [
-        "chair",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "readingText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "audioText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      "audioText": "Numbers are important.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Position words show ____.",
-      "answer": "location",
+      "prompt": "Practice improves counting skills.",
+      "answer": "Counting",
       "options": [
-        "location",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "readingText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "audioText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      "audioText": "Practice improves counting skills.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use them every ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
       "options": [
-        "day",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "readingText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day.",
-      "audioText": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 20, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The ball is on the table. The cat is under the chair. Position words show location. We use them every day."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

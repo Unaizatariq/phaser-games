@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 13,
-  "topic": "Picture Description",
-  "teach": "Picture Description is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Picture Description",
-    "example",
-    "practice"
-  ],
+  "topic": "park",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Picture Description",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "Picture Description",
-        "Random topic",
-        "Wrong topic",
-        "Another lesson"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "What is today’s topic?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the example",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "read the example",
-        "skip the lesson",
-        "guess only",
-        "close the book"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "To learn this topic, first we should"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "related to the topic",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "related to the topic",
-        "random",
-        "empty",
-        "copied wrong"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "A good answer should be"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "remember better",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "remember better",
-        "forget",
-        "sleep",
-        "stop learning"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Practice helps us"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "try again",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "try again",
-        "give up",
-        "ignore",
-        "rush"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Choose the correct learning habit."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

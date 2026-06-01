@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "listening",
   "level": 4,
-  "topic": "Parts of Computer",
-  "teach": "Main parts of a computer include monitor, system unit, keyboard and mouse.",
-  "examples": [
-    "monitor",
-    "system unit",
-    "keyboard"
-  ],
+  "topic": "monitor",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
+      "audioText": "A computer mouse is a small device. It helps us click, select, and move items on the computer screen.",
+      "prompt": "Which device helps us click on items on the computer screen?",
+      "answer": "mouse",
+      "options": [
+        "mouse",
+        "monitor",
+        "keyboard",
+        "printer"
+      ],
+      "art": "🖱️",
+      "optionArts": {
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
+    },
+    {
+      "audioText": "A keyboard has many keys. We use it to type letters, numbers, and words.",
+      "prompt": "Which device is used for typing letters and numbers?",
+      "answer": "keyboard",
+      "options": [
+        "keyboard",
+        "mouse",
+        "monitor",
+        "speaker"
+      ],
+      "art": "⌨️",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "speaker": "🔊"
+      }
+    },
+    {
+      "audioText": "A monitor is the screen of a computer. It shows pictures, words, and videos.",
+      "prompt": "Which computer part shows pictures and words?",
       "answer": "monitor",
       "options": [
         "monitor",
         "mouse",
-        "chair",
-        "table"
-      ],
-      "audioText": "Which part shows pictures?"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "keyboard",
-      "options": [
         "keyboard",
+        "printer"
+      ],
+      "art": "🖥️",
+      "optionArts": {
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
+    },
+    {
+      "audioText": "A printer makes a paper copy of work from the computer.",
+      "prompt": "Which device prints work on paper?",
+      "answer": "printer",
+      "options": [
+        "printer",
         "monitor",
-        "speaker",
-        "desk"
-      ],
-      "audioText": "Which part is used to type?"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "mouse",
-      "options": [
         "mouse",
-        "CPU",
-        "book",
-        "bag"
+        "CPU"
       ],
-      "audioText": "Which part moves the pointer?"
+      "art": "🖨️",
+      "optionArts": {
+        "printer": "🖨️",
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "CPU": "🧠"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "computer",
+      "audioText": "Speakers are output devices. They help us hear sound from the computer.",
+      "prompt": "Which device helps us hear sound?",
+      "answer": "speaker",
       "options": [
-        "computer",
-        "plant",
-        "animal",
-        "clock"
+        "speaker",
+        "keyboard",
+        "mouse",
+        "scanner"
       ],
-      "audioText": "System unit is an important part of a"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "parts",
-      "options": [
-        "parts",
-        "leaves",
-        "fruits",
-        "weather"
-      ],
-      "audioText": "Computer has many"
+      "art": "🔊",
+      "optionArts": {
+        "speaker": "🔊",
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "scanner": "📠"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

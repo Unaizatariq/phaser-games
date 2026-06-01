@@ -1,66 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 5,
   "topic": "Speak After Seeing Image",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Mango",
-    "Ball",
-    "Dog"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Speak the fruit name.",
       "answer": "Mango",
-      "expected": "Mango",
-      "options": [],
+      "options": [
+        "Mango",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Speak the fruit name.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "mango.png",
-      "requiredAsset": "mango.png"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Mango": "🥭",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Speak the object name.",
       "answer": "Ball",
-      "expected": "Ball",
-      "options": [],
+      "options": [
+        "Ball",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Speak the object name.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "ball.png",
-      "requiredAsset": "ball.png"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ball": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Speak the animal name.",
       "answer": "Dog",
-      "expected": "Dog",
-      "options": [],
+      "options": [
+        "Dog",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Speak the animal name.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "dog.png",
-      "requiredAsset": "dog.png"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Dog": "🐶",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
+    },
+    {
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "📖",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
+    },
+    {
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "📝",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

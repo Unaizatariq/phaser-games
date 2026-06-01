@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 8,
   "topic": "Keyboard Skills",
-  "teach": "Typing is an important computer skill.",
-  "examples": [
-    "Typing is an important computer skill.",
-    "The keyboard has alphabet and number keys.",
-    "Practice improves typing speed."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Keyboard Skills",
+      "prompt": "Typing is an important computer skill.",
+      "answer": "Keyboard",
       "options": [
-        "Keyboard Skills",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "readingText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "audioText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      "audioText": "Typing is an important computer skill.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Typing is an important computer ____.",
-      "answer": "skill",
+      "prompt": "The keyboard has alphabet and number keys.",
+      "answer": "Keyboard",
       "options": [
-        "skill",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "readingText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "audioText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      "audioText": "The keyboard has alphabet and number keys.",
+      "art": "⌨️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The keyboard has alphabet and number ____.",
-      "answer": "keys",
+      "prompt": "Practice improves typing speed.",
+      "answer": "Keyboard",
       "options": [
-        "keys",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "readingText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "audioText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      "audioText": "Practice improves typing speed.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves typing ____.",
-      "answer": "speed",
+      "prompt": "Good typing helps complete work faster.",
+      "answer": "Keyboard",
       "options": [
-        "speed",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "readingText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "audioText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      "audioText": "Good typing helps complete work faster.",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good typing helps complete work ____.",
-      "answer": "faster",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keyboard",
       "options": [
-        "faster",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Keyboard",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "readingText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster.",
-      "audioText": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+      "audioText": "What is the story mainly about?",
+      "art": "⌨️",
+      "questionText": "According to the story about Keyboard Skills, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Typing is an important computer skill. The keyboard has alphabet and number keys. Practice improves typing speed. Good typing helps complete work faster."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Light and Reflection",
-  "teach": "Light helps us see objects.",
-  "examples": [
-    "Light helps us see objects.",
-    "Mirrors reflect light.",
-    "Reflection forms images in mirrors."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Light and Reflection",
+      "prompt": "Light helps us see objects.",
+      "answer": "Light",
       "options": [
-        "Light and Reflection",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "readingText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "audioText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      "audioText": "Light helps us see objects.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Light helps us see ____.",
-      "answer": "objects",
+      "prompt": "Mirrors reflect light.",
+      "answer": "Light",
       "options": [
-        "objects",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "readingText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "audioText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      "audioText": "Mirrors reflect light.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mirrors reflect ____.",
-      "answer": "light",
+      "prompt": "Reflection forms images in mirrors.",
+      "answer": "Light",
       "options": [
-        "light",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "readingText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "audioText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      "audioText": "Reflection forms images in mirrors.",
+      "art": "📚",
+      "questionText": "According to the story about Light and Reflection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Reflection forms images in ____.",
-      "answer": "mirrors",
+      "prompt": "Shiny surfaces reflect more light.",
+      "answer": "Light",
       "options": [
-        "mirrors",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "readingText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "audioText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      "audioText": "Shiny surfaces reflect more light.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "objects",
+      "prompt": "What is the story mainly about?",
+      "answer": "Light",
       "options": [
-        "objects",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "readingText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light.",
-      "audioText": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Light and Reflection, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Light helps us see objects. Mirrors reflect light. Reflection forms images in mirrors. Shiny surfaces reflect more light."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

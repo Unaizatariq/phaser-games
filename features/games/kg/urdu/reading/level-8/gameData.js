@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 8,
   "topic": "موسم",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "موسم"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "کبھی موسم دھوپ والا ہوتا ہے۔",
       "answer": "موسم",
       "options": [
-        "موسم",
-        "استاد",
-        "کھلونا",
-        "جانور"
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "کھلونا",
+          "tts": "کھلونا"
+        },
+        {
+          "text": "جانور",
+          "tts": "جانور"
+        }
       ],
-      "text": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "کبھی موسم دھوپ والا ہوتا ہے۔",
+      "narrationTTS": "کبھی موسم دھوپ والا ہوتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
-      "answer": "موسم",
+      "prompt": "کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔",
+      "answer": "جاتے",
       "options": [
-        "موسم",
-        "استاد",
-        "کھلونا",
-        "جانور"
+        {
+          "text": "جاتے",
+          "tts": "جاتے"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "کھلونا",
+          "tts": "کھلونا"
+        }
       ],
-      "text": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+      "audioText": "کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔",
+      "narrationTTS": "کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "موسم ہر روز بدل سکتا ہے۔",
       "answer": "موسم",
       "options": [
-        "موسم",
-        "استاد",
-        "کھلونا",
-        "جانور"
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "کھلونا",
+          "tts": "کھلونا"
+        },
+        {
+          "text": "جانور",
+          "tts": "جانور"
+        }
       ],
-      "text": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+      "audioText": "موسم ہر روز بدل سکتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "موسم ہر روز بدل سکتا ہے۔",
+      "narrationTTS": "موسم ہر روز بدل سکتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "موسم",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "موسم",
-        "استاد",
-        "کھلونا",
-        "جانور"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "کھلونا",
+          "tts": "کھلونا"
+        }
       ],
-      "text": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "موسم",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "موسم",
-        "استاد",
-        "کھلونا",
-        "جانور"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔",
-      "audioText": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "کبھی موسم دھوپ والا ہوتا ہے۔ کبھی بارش ہوتی ہے اور بادل آ جاتے ہیں۔ موسم ہر روز بدل سکتا ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

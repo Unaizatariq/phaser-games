@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Prime and Composite Numbers",
-  "teach": "Prime numbers have only two factors.",
-  "examples": [
-    "Prime numbers have only two factors.",
-    "Composite numbers have more than two factors.",
-    "2, 3, and 5 are prime numbers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Prime and Composite Numbers",
+      "prompt": "Prime numbers have only two factors.",
+      "answer": "Prime",
       "options": [
-        "Prime and Composite Numbers",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Fractions"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "readingText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "audioText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      "audioText": "Prime numbers have only two factors.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Prime numbers have only two ____.",
-      "answer": "factors",
+      "prompt": "Composite numbers have more than two factors.",
+      "answer": "Prime",
       "options": [
-        "factors",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "readingText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "audioText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      "audioText": "Composite numbers have more than two factors.",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2, 3, and 5 are prime ____.",
-      "answer": "numbers",
+      "prompt": "2, 3, and 5 are prime numbers.",
+      "answer": "Prime",
       "options": [
-        "numbers",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "readingText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "audioText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      "audioText": "2, 3, and 5 are prime numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "factors",
+      "prompt": "4, 6, and 8 are composite numbers.",
+      "answer": "Prime",
       "options": [
-        "factors",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "readingText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "audioText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      "audioText": "4, 6, and 8 are composite numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "factors",
+      "prompt": "What is the story mainly about?",
+      "answer": "Prime",
       "options": [
-        "factors",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "readingText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers.",
-      "audioText": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Prime numbers have only two factors. Composite numbers have more than two factors. 2, 3, and 5 are prime numbers. 4, 6, and 8 are composite numbers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

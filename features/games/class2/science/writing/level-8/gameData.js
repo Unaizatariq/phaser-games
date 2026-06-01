@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 8,
-  "topic": "Weather Sunny Rainy Cloudy",
-  "teach": "Weather Sunny Rainy Cloudy teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Five Senses",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "What is the topic about?"
+      "prompt": "Type the sense used for hearing",
+      "answer": "hearing",
+      "options": [
+        "hearing",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for hearing",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "hearing": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Write the answer: Computers help us"
+      "prompt": "Type the sense used for tasting",
+      "answer": "taste",
+      "options": [
+        "taste",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for tasting",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "taste": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Write the answer: We should use computers"
+      "prompt": "Type the sense used for touching",
+      "answer": "touch",
+      "options": [
+        "touch",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for touching",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "touch": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Write the answer: A keyboard is used to"
+      "prompt": "Type the sense used for seeing",
+      "answer": "sight",
+      "options": [
+        "sight",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for seeing",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "sight": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Write the answer: Good digital habit means"
+      "prompt": "Type the sense used for smelling",
+      "answer": "smell",
+      "options": [
+        "smell",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for smelling",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "smell": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 20,
   "topic": "Importance of Trees",
-  "teach": "Trees give us oxygen.",
-  "examples": [
-    "Trees give us oxygen.",
-    "They provide shade and fruits.",
-    "Birds make nests in trees."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Trees",
+      "prompt": "Trees give us oxygen.",
+      "answer": "Importance",
       "options": [
-        "Importance of Trees",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "Trees give us oxygen.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Trees, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trees give us ____.",
-      "answer": "oxygen",
+      "prompt": "They provide shade and fruits.",
+      "answer": "Importance",
       "options": [
-        "oxygen",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "They provide shade and fruits.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Trees, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They provide shade and ____.",
-      "answer": "fruits",
+      "prompt": "Birds make nests in trees.",
+      "answer": "Importance",
       "options": [
-        "fruits",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "Birds make nests in trees.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Trees, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds make nests in ____.",
-      "answer": "trees",
+      "prompt": "We should plant more trees.",
+      "answer": "Importance",
       "options": [
-        "trees",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "We should plant more trees.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Trees, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "oxygen",
+      "prompt": "What is the story mainly about?",
+      "answer": "Importance",
       "options": [
-        "oxygen",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Trees, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

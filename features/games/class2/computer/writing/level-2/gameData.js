@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 2,
   "topic": "Computer Actions",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Double Click",
-    "Drag and Drop",
-    "Right Click"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type action: Double Click",
       "answer": "Double Click",
-      "expected": "Double Click",
-      "options": [],
+      "options": [
+        "Double Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type action: Double Click",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Double Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type action: Drag and Drop",
       "answer": "Drag and Drop",
-      "expected": "Drag and Drop",
-      "options": [],
+      "options": [
+        "Drag and Drop",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type action: Drag and Drop",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Drag and Drop": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type action: Right Click",
       "answer": "Right Click",
-      "expected": "Right Click",
-      "options": [],
+      "options": [
+        "Right Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type action: Right Click",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Right Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type action: Scroll",
       "answer": "Scroll",
-      "expected": "Scroll",
-      "options": [],
+      "options": [
+        "Scroll",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type action: Scroll",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Scroll": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type action: Single Click",
       "answer": "Single Click",
-      "expected": "Single Click",
-      "options": [],
+      "options": [
+        "Single Click",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type action: Single Click",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Single Click": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

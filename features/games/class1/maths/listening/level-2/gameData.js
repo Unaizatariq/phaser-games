@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 2,
   "topic": "Subtraction",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "3",
-    "4",
-    "2"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is 5 - 2?",
-      "answer": "3",
-      "options": [
-        "3",
-        "2",
-        "4",
-        "1"
-      ],
-      "audioText": "What is 5 - 2?",
-      "gameplayType": "listen-tap"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer for 7 - 3.",
+      "prompt": "Solve: 3 + 1 = ?",
       "answer": "4",
       "options": [
         "4",
         "5",
-        "6",
-        "2"
+        "3",
+        "6"
       ],
-      "audioText": "Choose the answer for 7 - 3.",
-      "gameplayType": "drag-drop"
+      "audioText": "Solve: 3 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "4": "🔢",
+        "5": "🔢",
+        "3": "🔢",
+        "6": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the correct subtraction answer.",
-      "answer": "2",
+      "prompt": "Solve: 4 + 2 = ?",
+      "answer": "6",
       "options": [
-        "2",
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "audioText": "Solve: 4 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 4,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 5 + 3 = ?",
+      "answer": "8",
+      "options": [
         "8",
         "9",
-        "7"
+        "7",
+        "10"
       ],
-      "audioText": "Tap the correct subtraction answer.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 5 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 5,
+        "b": 3,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 6 + 4 = ?",
+      "answer": "10",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "12"
+      ],
+      "audioText": "Solve: 6 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 6,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "11": "🔢",
+        "9": "🔢",
+        "12": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 5 = ?",
+      "answer": "12",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "audioText": "Solve: 7 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 7,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "13": "🔢",
+        "11": "🔢",
+        "14": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

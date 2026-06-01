@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Whole Numbers and Place Value",
-  "teach": "Whole numbers are used for counting and calculations.",
-  "examples": [
-    "Whole numbers are used for counting and calculations.",
-    "Place value tells the value of each digit in a number.",
-    "Large numbers can be read and written using place value."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Whole Numbers and Place Value",
+      "prompt": "Whole numbers are used for counting and calculations.",
+      "answer": "Whole",
       "options": [
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers",
-        "Fractions"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "readingText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "audioText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      "audioText": "Whole numbers are used for counting and calculations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Whole numbers are used for counting and ____.",
-      "answer": "calculations",
+      "prompt": "Place value tells the value of each digit in a number.",
+      "answer": "Whole",
       "options": [
-        "calculations",
-        "Whole Numbers and Place Value",
-        "number",
-        "value"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "readingText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "audioText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      "audioText": "Place value tells the value of each digit in a number.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value tells the value of each digit in a ____.",
-      "answer": "number",
+      "prompt": "Large numbers can be read and written using place value.",
+      "answer": "Whole",
       "options": [
-        "number",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "value"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "readingText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "audioText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      "audioText": "Large numbers can be read and written using place value.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large numbers can be read and written using place ____.",
-      "answer": "value",
+      "prompt": "Place value helps compare and arrange numbers.",
+      "answer": "Whole",
       "options": [
-        "value",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "readingText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "audioText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      "audioText": "Place value helps compare and arrange numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value helps compare and arrange ____.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Whole",
       "options": [
-        "numbers",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "readingText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers.",
-      "audioText": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Whole numbers are used for counting and calculations. Place value tells the value of each digit in a number. Large numbers can be read and written using place value. Place value helps compare and arrange numbers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

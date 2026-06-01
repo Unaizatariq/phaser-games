@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 14,
   "topic": "Cyber Safety",
-  "teach": "People should stay safe online.",
-  "examples": [
-    "People should stay safe online.",
-    "Personal information should not be shared with strangers.",
-    "Students should use trusted websites."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Cyber Safety",
+      "prompt": "People should stay safe online.",
+      "answer": "Cyber",
       "options": [
-        "Cyber Safety",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "readingText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "audioText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      "audioText": "People should stay safe online.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People should stay safe ____.",
-      "answer": "online",
+      "prompt": "Personal information should not be shared with strangers.",
+      "answer": "Cyber",
       "options": [
-        "online",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "readingText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "audioText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      "audioText": "Personal information should not be shared with strangers.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Personal information should not be shared with ____.",
-      "answer": "strangers",
+      "prompt": "Students should use trusted websites.",
+      "answer": "Cyber",
       "options": [
-        "strangers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "readingText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "audioText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      "audioText": "Students should use trusted websites.",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students should use trusted ____.",
-      "answer": "websites",
+      "prompt": "Cyber safety protects users from online dangers.",
+      "answer": "Cyber",
       "options": [
-        "websites",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "readingText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "audioText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      "audioText": "Cyber safety protects users from online dangers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cyber safety protects users from online ____.",
-      "answer": "dangers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cyber",
       "options": [
-        "dangers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Cyber",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "readingText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers.",
-      "audioText": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Cyber Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cyber": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "People should stay safe online. Personal information should not be shared with strangers. Students should use trusted websites. Cyber safety protects users from online dangers."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

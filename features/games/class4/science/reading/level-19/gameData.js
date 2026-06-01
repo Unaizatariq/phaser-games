@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 19,
   "topic": "Recycling and Waste Management",
-  "teach": "Recycling reduces waste.",
-  "examples": [
-    "Recycling reduces waste.",
-    "Paper, glass, and plastic can be recycled.",
-    "Waste should be thrown in bins."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Recycling and Waste Management",
+      "prompt": "Recycling reduces waste.",
+      "answer": "Recycling",
       "options": [
-        "Recycling and Waste Management",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Recycling",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "Recycling reduces waste.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Recycling": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Recycling reduces ____.",
-      "answer": "waste",
+      "prompt": "Paper, glass, and plastic can be recycled.",
+      "answer": "Recycling",
       "options": [
-        "waste",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Recycling",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "Paper, glass, and plastic can be recycled.",
+      "art": "📚",
+      "questionText": "According to the story about Recycling and Waste Management, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Recycling": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Paper, glass, and plastic can be ____.",
-      "answer": "recycled",
+      "prompt": "Waste should be thrown in bins.",
+      "answer": "Recycling",
       "options": [
-        "recycled",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Recycling",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "Waste should be thrown in bins.",
+      "art": "📚",
+      "questionText": "According to the story about Recycling and Waste Management, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Recycling": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Waste should be thrown in ____.",
-      "answer": "bins",
+      "prompt": "Clean surroundings keep us healthy.",
+      "answer": "Recycling",
       "options": [
-        "bins",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Recycling",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "Clean surroundings keep us healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Recycling and Waste Management, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Recycling": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean surroundings ____ us healthy.",
-      "answer": "keep",
+      "prompt": "What is the story mainly about?",
+      "answer": "Recycling",
       "options": [
-        "keep",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Recycling",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Recycling and Waste Management, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Recycling": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Place Value",
-  "teach": "Place value shows the value of digits in a number.",
-  "examples": [
-    "Place value shows the value of digits in a number.",
-    "Hundreds, tens, and ones are place values.",
-    "In 345, 3 means three hundreds."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Place Value",
+      "prompt": "Place value shows the value of digits in a number.",
+      "answer": "Place",
       "options": [
-        "Place Value",
-        "Numbers up to 1000",
-        "Addition",
-        "Subtraction"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "readingText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "audioText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      "audioText": "Place value shows the value of digits in a number.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value shows the value of digits in a ____.",
-      "answer": "number",
+      "prompt": "Hundreds, tens, and ones are place values.",
+      "answer": "Place",
       "options": [
-        "number",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "readingText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "audioText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      "audioText": "Hundreds, tens, and ones are place values.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hundreds, tens, and ones are place ____.",
-      "answer": "values",
+      "prompt": "In 345, 3 means three hundreds.",
+      "answer": "Place",
       "options": [
-        "values",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "readingText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "audioText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      "audioText": "In 345, 3 means three hundreds.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: In 345, 3 means three ____.",
-      "answer": "hundreds",
+      "prompt": "Place value helps us understand numbers.",
+      "answer": "Place",
       "options": [
-        "hundreds",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "readingText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "audioText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      "audioText": "Place value helps us understand numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Place value helps us understand ____.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Place",
       "options": [
-        "numbers",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "readingText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers.",
-      "audioText": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Place value shows the value of digits in a number. Hundreds, tens, and ones are place values. In 345, 3 means three hundreds. Place value helps us understand numbers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

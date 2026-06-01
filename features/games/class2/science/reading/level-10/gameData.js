@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 10,
   "topic": "The Moon and Stars",
-  "teach": "The moon shines at night.",
-  "examples": [
-    "The moon shines at night.",
-    "Stars twinkle in the sky.",
-    "The moon looks different every night."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Moon and Stars",
+      "prompt": "The moon shines at night.",
+      "answer": "The",
       "options": [
-        "The Moon and Stars",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "readingText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "audioText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      "audioText": "The moon shines at night.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon shines at ____.",
-      "answer": "night",
+      "prompt": "Stars twinkle in the sky.",
+      "answer": "The",
       "options": [
-        "night",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "readingText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "audioText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      "audioText": "Stars twinkle in the sky.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Stars twinkle in the ____.",
-      "answer": "sky",
+      "prompt": "The moon looks different every night.",
+      "answer": "The",
       "options": [
-        "sky",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "readingText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "audioText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      "audioText": "The moon looks different every night.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can see stars on clear ____.",
-      "answer": "nights",
+      "prompt": "We can see stars on clear nights.",
+      "answer": "The",
       "options": [
-        "nights",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "readingText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "audioText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      "audioText": "We can see stars on clear nights.",
+      "art": "📚",
+      "questionText": "According to the story about The Moon and Stars, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "night",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "night",
-        "Living Things",
-        "move",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "readingText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights.",
-      "audioText": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The moon shines at night. Stars twinkle in the sky. The moon looks different every night. We can see stars on clear nights."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

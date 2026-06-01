@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 23,
-  "topic": "Fun with Mathematics",
-  "teach": "Mathematics is useful in daily life.",
-  "examples": [
-    "Mathematics is useful in daily life.",
-    "Math improves thinking and problem-solving.",
-    "We use math at school, shops, and homes."
-  ],
+  "topic": "Addition and Subtraction",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Mathematics",
+      "prompt": "Addition combines numbers together.",
+      "answer": "Addition",
       "options": [
-        "Fun with Mathematics",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Addition combines numbers together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is useful in daily life.",
-      "answer": "Mathematics",
+      "prompt": "Subtraction means taking away.",
+      "answer": "Addition",
       "options": [
-        "Mathematics",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Subtraction means taking away.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math improves thinking and problem-solving.",
-      "answer": "problemsolving",
+      "prompt": "Borrowing and carrying help solve problems.",
+      "answer": "Addition",
       "options": [
-        "problemsolving",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Borrowing and carrying help solve problems.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math at school, shops, and ____.",
-      "answer": "homes",
+      "prompt": "These operations are useful in daily life.",
+      "answer": "Addition",
       "options": [
-        "homes",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "These operations are useful in daily life.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math can be fun and ____.",
-      "answer": "exciting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "exciting",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

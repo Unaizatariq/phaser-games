@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 6,
-  "topic": "MS Excel Data Formulas",
-  "teach": "MS Excel Data Formulas builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "MS Excel Data Formulas",
-    "example",
-    "solve"
-  ],
+  "topic": "MS Word and Excel",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the main skill in MS Excel Data Formulas?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "What is the main skill in MS Excel Data Formulas?"
+      "prompt": "Type software used for documents",
+      "answer": "MS Word",
+      "options": [
+        "MS Word",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software used for documents",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "MS Word": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct strategy."
+      "prompt": "Type software using formulas",
+      "answer": "MS Excel",
+      "options": [
+        "MS Excel",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software using formulas",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "MS Excel": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Write the answer: A good answer in maths should be"
+      "prompt": "Type formula adding numbers",
+      "answer": "SUM",
+      "options": [
+        "SUM",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type formula adding numbers",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "SUM": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Write the answer: Word problems need us to find"
+      "prompt": "Type formula finding average",
+      "answer": "AVERAGE",
+      "options": [
+        "AVERAGE",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type formula finding average",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "AVERAGE": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Write the answer: After solving, we should"
+      "prompt": "Type software creating presentations",
+      "answer": "PowerPoint",
+      "options": [
+        "PowerPoint",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type software creating presentations",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "PowerPoint": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

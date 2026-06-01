@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 6,
-  "topic": "P for Parrot / Q for Queen / R for Rabbit",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "parrot",
-    "queen",
-    "rabbit"
-  ],
+  "topic": "F for Fish",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "parrot",
+      "prompt": "F is for fish.",
+      "answer": "fish",
       "options": [
-        "parrot",
-        "queen",
-        "rabbit",
-        "sun"
+        "fish",
+        "dog",
+        "cat",
+        "kite"
       ],
-      "text": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "audioText": "P is for parrot. The parrot is green. It can copy sounds and words."
+      "audioText": "F is for fish.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "fish": "🐟",
+        "dog": "🐶",
+        "cat": "🐱",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "parrot",
+      "prompt": "The fish swims in water.",
+      "answer": "fish",
       "options": [
-        "parrot",
-        "queen",
-        "rabbit",
-        "sun"
+        "fish",
+        "dog",
+        "cat",
+        "kite"
       ],
-      "text": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "audioText": "P is for parrot. The parrot is green. It can copy sounds and words."
+      "audioText": "The fish swims in water.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "fish": "🐟",
+        "dog": "🐶",
+        "cat": "🐱",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "parrot",
+      "prompt": "It has shiny fins and a tail.",
+      "answer": "fish",
       "options": [
-        "parrot",
-        "queen",
-        "rabbit",
-        "sun"
+        "fish",
+        "dog",
+        "cat",
+        "kite"
       ],
-      "text": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "audioText": "P is for parrot. The parrot is green. It can copy sounds and words."
+      "audioText": "It has shiny fins and a tail.",
+      "art": "📚",
+      "questionText": "According to the story about F for Fish, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "fish": "🐟",
+        "dog": "🐶",
+        "cat": "🐱",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "parrot",
+      "prompt": "What is the story mainly about?",
+      "answer": "fish",
       "options": [
-        "parrot",
-        "queen",
-        "rabbit",
-        "sun"
+        "fish",
+        "dog",
+        "cat",
+        "kite"
       ],
-      "text": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "audioText": "P is for parrot. The parrot is green. It can copy sounds and words."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about F for Fish, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "fish": "🐟",
+        "dog": "🐶",
+        "cat": "🐱",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "parrot",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "parrot",
-        "queen",
-        "rabbit",
-        "sun"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "passage": "P is for parrot. The parrot is green. It can copy sounds and words.",
-      "audioText": "P is for parrot. The parrot is green. It can copy sounds and words."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "queen",
-      "options": [
-        "queen",
-        "parrot",
-        "zebra",
-        "yacht"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🏠",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "audioText": "Q is for queen. The queen wears a crown. She lives in a palace."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "queen",
-      "options": [
-        "queen",
-        "parrot",
-        "zebra",
-        "yacht"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "audioText": "Q is for queen. The queen wears a crown. She lives in a palace."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "queen",
-      "options": [
-        "queen",
-        "parrot",
-        "zebra",
-        "yacht"
-      ],
-      "text": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "audioText": "Q is for queen. The queen wears a crown. She lives in a palace."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "queen",
-      "options": [
-        "queen",
-        "parrot",
-        "zebra",
-        "yacht"
-      ],
-      "text": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "audioText": "Q is for queen. The queen wears a crown. She lives in a palace."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "queen",
-      "options": [
-        "queen",
-        "parrot",
-        "zebra",
-        "yacht"
-      ],
-      "text": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "passage": "Q is for queen. The queen wears a crown. She lives in a palace.",
-      "audioText": "Q is for queen. The queen wears a crown. She lives in a palace."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "rabbit",
-      "options": [
-        "rabbit",
-        "lion",
-        "tiger",
-        "goat"
-      ],
-      "text": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "audioText": "R is for rabbit. The rabbit is white and fluffy. It likes carrots."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "rabbit",
-      "options": [
-        "rabbit",
-        "lion",
-        "tiger",
-        "goat"
-      ],
-      "text": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "audioText": "R is for rabbit. The rabbit is white and fluffy. It likes carrots."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "rabbit",
-      "options": [
-        "rabbit",
-        "lion",
-        "tiger",
-        "goat"
-      ],
-      "text": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "audioText": "R is for rabbit. The rabbit is white and fluffy. It likes carrots."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "rabbit",
-      "options": [
-        "rabbit",
-        "lion",
-        "tiger",
-        "goat"
-      ],
-      "text": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "audioText": "R is for rabbit. The rabbit is white and fluffy. It likes carrots."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "rabbit",
-      "options": [
-        "rabbit",
-        "lion",
-        "tiger",
-        "goat"
-      ],
-      "text": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "passage": "R is for rabbit. The rabbit is white and fluffy. It likes carrots.",
-      "audioText": "R is for rabbit. The rabbit is white and fluffy. It likes carrots."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "P is for parrot. The parrot is green. It can copy sounds and words. Q is for queen. The queen wears a crown. She lives in a palace. R is for rabbit. The rabbit is white and fluffy. It likes carrots."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

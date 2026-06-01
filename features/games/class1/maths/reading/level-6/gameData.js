@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Shapes",
-  "teach": "A circle is round.",
-  "examples": [
-    "A circle is round.",
-    "A square has four equal sides.",
-    "A triangle has three sides."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "A circle is round.",
       "answer": "Shapes",
       "options": [
         "Shapes",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "readingText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "audioText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      "audioText": "A circle is round.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A circle is ____.",
-      "answer": "round",
+      "prompt": "A square has four equal sides.",
+      "answer": "Shapes",
       "options": [
-        "round",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "readingText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "audioText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      "audioText": "A square has four equal sides.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A square has four equal ____.",
-      "answer": "sides",
+      "prompt": "A triangle has three sides.",
+      "answer": "Shapes",
       "options": [
-        "sides",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "readingText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "audioText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      "audioText": "A triangle has three sides.",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes are everywhere ____ us.",
-      "answer": "around",
+      "prompt": "Shapes are everywhere around us.",
+      "answer": "Shapes",
       "options": [
-        "around",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "readingText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "audioText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      "audioText": "Shapes are everywhere around us.",
+      "art": "🔷",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "round",
+      "prompt": "What is the story mainly about?",
+      "answer": "Shapes",
       "options": [
-        "round",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Shapes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "readingText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us.",
-      "audioText": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+      "audioText": "What is the story mainly about?",
+      "art": "🔷",
+      "questionText": "According to the story about Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Shapes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A circle is round. A square has four equal sides. A triangle has three sides. Shapes are everywhere around us."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

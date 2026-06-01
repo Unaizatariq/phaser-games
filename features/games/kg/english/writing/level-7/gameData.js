@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 7,
-  "topic": "Tracing Lines and Shapes",
-  "teach": "Tracing Lines and Shapes builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Tracing Lines and Shapes",
-    "example",
-    "solve"
-  ],
+  "topic": "Capital Letter Tracing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the main skill in Tracing Lines and Shapes?",
-      "answer": "solving carefully",
-      "options": [],
-      "audioText": "What is the main skill in Tracing Lines and Shapes?"
+      "prompt": "Trace capital letter A",
+      "answer": "A",
+      "options": [
+        "A",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter A",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "A": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct strategy.",
-      "answer": "read the question first",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct strategy."
+      "prompt": "Trace capital letter F",
+      "answer": "F",
+      "options": [
+        "F",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter F",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "F": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer in maths should be",
-      "answer": "accurate",
-      "options": [],
-      "audioText": "Write the answer: A good answer in maths should be"
+      "prompt": "Trace capital letter K",
+      "answer": "K",
+      "options": [
+        "K",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter K",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "K": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Word problems need us to find",
-      "answer": "what is asked",
-      "options": [],
-      "audioText": "Write the answer: Word problems need us to find"
+      "prompt": "Trace capital letter P",
+      "answer": "P",
+      "options": [
+        "P",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter P",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "P": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: After solving, we should",
-      "answer": "check the answer",
-      "options": [],
-      "audioText": "Write the answer: After solving, we should"
+      "prompt": "Trace capital letter Z",
+      "answer": "Z",
+      "options": [
+        "Z",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter Z",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Z": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

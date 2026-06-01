@@ -1,53 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 13,
-  "topic": "خوشخطی",
-  "teach": "خوشخطی اس سبق کا اہم موضوع ہے۔ پہلے اسے سمجھیں، پھر مثالوں سے مشق کریں۔",
-  "examples": [
-    "خوشخطی",
-    "مثال",
-    "مشق"
-  ],
+  "topic": "خالی جگہ پُر کریں",
   "questions": [
     {
-      "type": "input",
-      "prompt": "خوشخطی کا تعلق کس سبق سے ہے؟",
-      "answer": "خوشخطی",
-      "options": [],
-      "audioText": "خوشخطی کا تعلق کس سبق سے ہے؟"
+      "prompt": "جملہ مکمل کریں: بچہ ___ پڑھتا ہے۔",
+      "answer": "کتاب",
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "جملہ مکمل کریں: بچہ ___ پڑھتا ہے۔",
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جواب لکھیں: خوشخطی کو غور سے پڑھ کر درست جواب منتخب کریں۔",
-      "answer": "درست",
-      "options": [],
-      "audioText": "جواب لکھیں: خوشخطی کو غور سے پڑھ کر درست جواب منتخب کریں۔"
+      "prompt": "جملہ مکمل کریں: سورج ___ نکلتا ہے۔",
+      "answer": "صبح",
+      "options": [
+        {
+          "text": "صبح",
+          "tts": "صبح"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "جملہ مکمل کریں: سورج ___ نکلتا ہے۔",
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "صبح": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "خوشخطی میں بچے کیا سیکھتے ہیں؟",
-      "answer": "تصور",
-      "options": [],
-      "audioText": "خوشخطی میں بچے کیا سیکھتے ہیں؟"
+      "prompt": "جملہ مکمل کریں: پرندہ ___ اڑتا ہے۔",
+      "answer": "آسمان میں",
+      "options": [
+        {
+          "text": "آسمان میں",
+          "tts": "آسمان میں"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "جملہ مکمل کریں: پرندہ ___ اڑتا ہے۔",
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "آسمان میں": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "خوشخطی کی مشق کیوں ضروری ہے؟",
-      "answer": "سیکھنے کے لیے",
-      "options": [],
-      "audioText": "خوشخطی کی مشق کیوں ضروری ہے؟"
+      "prompt": "جملہ مکمل کریں: پانی ___ ہے۔",
+      "answer": "ٹھنڈا",
+      "options": [
+        {
+          "text": "ٹھنڈا",
+          "tts": "ٹھنڈا"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "جملہ مکمل کریں: پانی ___ ہے۔",
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "ٹھنڈا": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
-      "prompt": "جواب لکھیں: خوشخطی کو جملے میں استعمال کریں۔",
-      "answer": "خوشخطی",
-      "options": [],
-      "audioText": "جواب لکھیں: خوشخطی کو جملے میں استعمال کریں۔"
+      "prompt": "جملہ مکمل کریں: کتاب ___ ہے۔",
+      "answer": "اچھی",
+      "options": [
+        {
+          "text": "اچھی",
+          "tts": "اچھی"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
+      "audioText": "جملہ مکمل کریں: کتاب ___ ہے۔",
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "اچھی": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

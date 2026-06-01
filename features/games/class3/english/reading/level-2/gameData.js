@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 2,
   "topic": "Importance of Cleanliness",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "cleanliness"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Cleanliness is very important for a healthy life.",
       "answer": "cleanliness",
       "options": [
         "cleanliness",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "noise",
         "traffic"
       ],
-      "text": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "audioText": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+      "audioText": "Cleanliness is very important for a healthy life.",
+      "art": "🧼",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "We should keep our homes, classrooms, and streets clean.",
       "answer": "cleanliness",
       "options": [
         "cleanliness",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "noise",
         "traffic"
       ],
-      "text": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "audioText": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+      "audioText": "We should keep our homes, classrooms, and streets clean.",
+      "art": "🧼",
+      "questionText": "According to the story about Importance of Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Dirty places can spread diseases and make people sick.",
       "answer": "cleanliness",
       "options": [
         "cleanliness",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "noise",
         "traffic"
       ],
-      "text": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "audioText": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+      "audioText": "Dirty places can spread diseases and make people sick.",
+      "art": "🧼",
+      "questionText": "According to the story about Importance of Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "We must throw garbage in dustbins and wash our hands before eating.",
       "answer": "cleanliness",
       "options": [
         "cleanliness",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "noise",
         "traffic"
       ],
-      "text": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "audioText": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+      "audioText": "We must throw garbage in dustbins and wash our hands before eating.",
+      "art": "🧼",
+      "questionText": "According to the story about Importance of Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Clean surroundings make everyone happy and healthy.",
       "answer": "cleanliness",
       "options": [
         "cleanliness",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "noise",
         "traffic"
       ],
-      "text": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy.",
-      "audioText": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+      "audioText": "Clean surroundings make everyone happy and healthy.",
+      "art": "🧼",
+      "questionText": "According to the story about Importance of Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "cleanliness",
+      "options": [
+        "cleanliness",
+        "pollution",
+        "noise",
+        "traffic"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🧼",
+      "questionText": "According to the story about Importance of Cleanliness, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "cleanliness": "🔹",
+        "pollution": "🔹",
+        "noise": "🔹",
+        "traffic": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cleanliness is very important for a healthy life. We should keep our homes, classrooms, and streets clean. Dirty places can spread diseases and make people sick. We must throw garbage in dustbins and wash our hands before eating. Clean surroundings make everyone happy and healthy."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

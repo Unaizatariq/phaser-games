@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 6,
   "topic": "صحت مند غذا",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "صحت مند"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔",
       "answer": "صحت مند",
       "options": [
-        "صحت مند",
-        "گندا",
-        "سست",
-        "خالی"
+        {
+          "text": "صحت مند",
+          "tts": "sehat mand"
+        },
+        {
+          "text": "گندا",
+          "tts": "ganda"
+        },
+        {
+          "text": "سست",
+          "tts": "sust"
+        },
+        {
+          "text": "خالی",
+          "tts": "خالی"
+        }
       ],
-      "text": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔",
+      "narrationTTS": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
-      "answer": "صحت مند",
+      "prompt": "دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔",
+      "answer": "بناتے",
       "options": [
-        "صحت مند",
-        "گندا",
-        "سست",
-        "خالی"
+        {
+          "text": "بناتے",
+          "tts": "بناتے"
+        },
+        {
+          "text": "صحت مند",
+          "tts": "sehat mand"
+        },
+        {
+          "text": "گندا",
+          "tts": "ganda"
+        },
+        {
+          "text": "سست",
+          "tts": "sust"
+        }
       ],
-      "text": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+      "audioText": "دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔",
+      "narrationTTS": "دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "صحت مند غذا ہمیں توانائی دیتی ہے۔",
       "answer": "صحت مند",
       "options": [
-        "صحت مند",
-        "گندا",
-        "سست",
-        "خالی"
+        {
+          "text": "صحت مند",
+          "tts": "sehat mand"
+        },
+        {
+          "text": "گندا",
+          "tts": "ganda"
+        },
+        {
+          "text": "سست",
+          "tts": "sust"
+        },
+        {
+          "text": "خالی",
+          "tts": "خالی"
+        }
       ],
-      "text": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+      "audioText": "صحت مند غذا ہمیں توانائی دیتی ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "صحت مند غذا ہمیں توانائی دیتی ہے۔",
+      "narrationTTS": "صحت مند غذا ہمیں توانائی دیتی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "صحت مند",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "صحت مند",
-        "گندا",
-        "سست",
-        "خالی"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "صحت مند",
+          "tts": "sehat mand"
+        },
+        {
+          "text": "گندا",
+          "tts": "ganda"
+        },
+        {
+          "text": "سست",
+          "tts": "sust"
+        }
       ],
-      "text": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "صحت مند",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "صحت مند",
-        "گندا",
-        "سست",
-        "خالی"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔",
-      "audioText": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "پھل اور سبزیاں ہمیں صحت مند رکھتے ہیں۔ دودھ اور انڈے ہمیں مضبوط بناتے ہیں۔ صحت مند غذا ہمیں توانائی دیتی ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

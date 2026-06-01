@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Sun",
-  "teach": "The sun is bright.",
-  "examples": [
-    "The sun is bright.",
-    "The sun gives light."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The sun is bright. The sun gives light.",
       "answer": "Sun",
       "options": [
         "Sun",
-        "Eyes",
-        "Ears",
-        "Nose"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is bright. The sun gives light.",
-      "readingText": "The sun is bright. The sun gives light.",
-      "audioText": "The sun is bright. The sun gives light."
+      "audioText": "The sun is bright. The sun gives light.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "The sun is bright.",
+        "The sun gives light."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sun": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is ____.",
-      "answer": "bright",
+      "prompt": "What is the story mainly about?",
+      "answer": "Sun",
       "options": [
-        "bright",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Sun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is bright. The sun gives light.",
-      "readingText": "The sun is bright. The sun gives light.",
-      "audioText": "The sun is bright. The sun gives light."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Sun, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sun": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun gives ____.",
-      "answer": "light",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "light",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "The sun is bright. The sun gives light.",
-      "readingText": "The sun is bright. The sun gives light.",
-      "audioText": "The sun is bright. The sun gives light."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "💡",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "bright",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "bright",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "The sun is bright. The sun gives light.",
-      "readingText": "The sun is bright. The sun gives light.",
-      "audioText": "The sun is bright. The sun gives light."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🌎",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "light",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "light",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "The sun is bright. The sun gives light.",
-      "readingText": "The sun is bright. The sun gives light.",
-      "audioText": "The sun is bright. The sun gives light."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🌱",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sun is bright. The sun gives light."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

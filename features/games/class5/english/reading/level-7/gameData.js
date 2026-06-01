@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "Renewable Energy",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "renewable energy"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Renewable energy comes from natural sources like sunlight, wind, and water.",
       "answer": "renewable energy",
       "options": [
         "renewable energy",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "traffic noise",
         "dirty water"
       ],
-      "text": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Solar panels use sunlight to produce electricity.",
       "answer": "renewable energy",
       "options": [
         "renewable energy",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "traffic noise",
         "dirty water"
       ],
-      "text": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+      "audioText": "Solar panels use sunlight to produce electricity.",
+      "art": "📚",
+      "questionText": "According to the story about Renewable Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Wind turbines generate power from moving air.",
       "answer": "renewable energy",
       "options": [
         "renewable energy",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "traffic noise",
         "dirty water"
       ],
-      "text": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+      "audioText": "Wind turbines generate power from moving air.",
+      "art": "📚",
+      "questionText": "According to the story about Renewable Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Renewable energy is safer for the environment because it reduces pollution.",
       "answer": "renewable energy",
       "options": [
         "renewable energy",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "traffic noise",
         "dirty water"
       ],
-      "text": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+      "audioText": "Renewable energy is safer for the environment because it reduces pollution.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Many countries are using renewable energy to protect nature.",
       "answer": "renewable energy",
       "options": [
         "renewable energy",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "traffic noise",
         "dirty water"
       ],
-      "text": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature.",
-      "audioText": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+      "audioText": "Many countries are using renewable energy to protect nature.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "renewable energy",
+      "options": [
+        "renewable energy",
+        "plastic waste",
+        "traffic noise",
+        "dirty water"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Renewable Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "renewable energy": "🔹",
+        "plastic waste": "🔹",
+        "traffic noise": "🔹",
+        "dirty water": "💧"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Renewable energy comes from natural sources like sunlight, wind, and water. Solar panels use sunlight to produce electricity. Wind turbines generate power from moving air. Renewable energy is safer for the environment because it reduces pollution. Many countries are using renewable energy to protect nature."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

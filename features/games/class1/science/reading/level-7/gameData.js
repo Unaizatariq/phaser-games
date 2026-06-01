@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 7,
   "topic": "Birds",
-  "teach": "Birds can fly in the sky.",
-  "examples": [
-    "Birds can fly in the sky.",
-    "Birds make nests on trees.",
-    "Some birds sing sweet songs."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Birds can fly in the sky.",
       "answer": "Birds",
       "options": [
         "Birds",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "readingText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "audioText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      "audioText": "Birds can fly in the sky.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds can fly in the ____.",
-      "answer": "sky",
+      "prompt": "Birds make nests on trees.",
+      "answer": "Birds",
       "options": [
-        "sky",
-        "My Body",
-        "things",
-        "ears"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "readingText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "audioText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      "audioText": "Birds make nests on trees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds make nests on ____.",
-      "answer": "trees",
+      "prompt": "Some birds sing sweet songs.",
+      "answer": "Birds",
       "options": [
-        "trees",
-        "My Body",
-        "things",
-        "ears"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "readingText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "audioText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      "audioText": "Some birds sing sweet songs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some birds sing sweet ____.",
-      "answer": "songs",
+      "prompt": "Birds have wings and feathers.",
+      "answer": "Birds",
       "options": [
-        "songs",
-        "My Body",
-        "things",
-        "ears"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "readingText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "audioText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      "audioText": "Birds have wings and feathers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds have wings and ____.",
-      "answer": "feathers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Birds",
       "options": [
-        "feathers",
-        "My Body",
-        "things",
-        "ears"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "readingText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers.",
-      "audioText": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Birds, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Birds can fly in the sky. Birds make nests on trees. Some birds sing sweet songs. Birds have wings and feathers."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

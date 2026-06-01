@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 6,
   "topic": "My Hobby",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "drawing"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My hobby is drawing pictures.",
       "answer": "drawing",
       "options": [
         "drawing",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "running",
         "cooking"
       ],
-      "text": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "audioText": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+      "audioText": "My hobby is drawing pictures.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I like using colorful pencils and paints to make beautiful drawings.",
       "answer": "drawing",
       "options": [
         "drawing",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "running",
         "cooking"
       ],
-      "text": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "audioText": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+      "audioText": "I like using colorful pencils and paints to make beautiful drawings.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "I draw flowers, houses, animals, and cartoons in my free time.",
       "answer": "drawing",
       "options": [
         "drawing",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "running",
         "cooking"
       ],
-      "text": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "audioText": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+      "audioText": "I draw flowers, houses, animals, and cartoons in my free time.",
+      "art": "📚",
+      "questionText": "According to the story about My Hobby, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Drawing makes me feel relaxed and happy.",
       "answer": "drawing",
       "options": [
         "drawing",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "running",
         "cooking"
       ],
-      "text": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "audioText": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+      "audioText": "Drawing makes me feel relaxed and happy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "My teacher always appreciates my artwork.",
       "answer": "drawing",
       "options": [
         "drawing",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "running",
         "cooking"
       ],
-      "text": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork.",
-      "audioText": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+      "audioText": "My teacher always appreciates my artwork.",
+      "art": "📚",
+      "questionText": "According to the story about My Hobby, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "drawing",
+      "options": [
+        "drawing",
+        "singing",
+        "running",
+        "cooking"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Hobby, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "drawing": "🔹",
+        "singing": "🔹",
+        "running": "🔹",
+        "cooking": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My hobby is drawing pictures. I like using colorful pencils and paints to make beautiful drawings. I draw flowers, houses, animals, and cartoons in my free time. Drawing makes me feel relaxed and happy. My teacher always appreciates my artwork."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

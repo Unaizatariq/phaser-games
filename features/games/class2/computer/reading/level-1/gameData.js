@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 1,
   "topic": "Introduction to Computers",
-  "teach": "A computer is an electronic machine.",
-  "examples": [
-    "A computer is an electronic machine.",
-    "It helps us work, learn, and play.",
-    "Computers can solve problems quickly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Introduction to Computers",
+      "prompt": "A computer is an electronic machine.",
+      "answer": "Introduction",
       "options": [
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices",
-        "Output Devices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "readingText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "audioText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      "audioText": "A computer is an electronic machine.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer is an electronic ____.",
-      "answer": "machine",
+      "prompt": "It helps us work, learn, and play.",
+      "answer": "Introduction",
       "options": [
-        "machine",
-        "Introduction to Computers",
-        "play",
-        "problems"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "readingText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "audioText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      "audioText": "It helps us work, learn, and play.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It helps us work, learn, and ____.",
-      "answer": "play",
+      "prompt": "Computers can solve problems quickly.",
+      "answer": "Introduction",
       "options": [
-        "play",
-        "Introduction to Computers",
-        "machine",
-        "problems"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "readingText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "audioText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      "audioText": "Computers can solve problems quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers can solve ____ quickly.",
-      "answer": "problems",
+      "prompt": "People use computers in schools and offices.",
+      "answer": "Introduction",
       "options": [
-        "problems",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "readingText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "audioText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      "audioText": "People use computers in schools and offices.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use computers in schools and ____.",
-      "answer": "offices",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "offices",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "readingText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices.",
-      "audioText": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer is an electronic machine. It helps us work, learn, and play. Computers can solve problems quickly. People use computers in schools and offices."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Geometry",
-  "teach": "Geometry studies shapes and space.",
-  "examples": [
-    "Geometry studies shapes and space.",
-    "Shapes have sides, corners, and angles.",
-    "Triangles, circles, and rectangles are common shapes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Geometry studies shapes and space.",
       "answer": "Geometry",
       "options": [
         "Geometry",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "readingText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "audioText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      "audioText": "Geometry studies shapes and space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry studies shapes and ____.",
-      "answer": "space",
+      "prompt": "Shapes have sides, corners, and angles.",
+      "answer": "Geometry",
       "options": [
-        "space",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "readingText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "audioText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      "audioText": "Shapes have sides, corners, and angles.",
+      "art": "📚",
+      "questionText": "According to the story about Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes have sides, corners, and ____.",
-      "answer": "angles",
+      "prompt": "Triangles, circles, and rectangles are common shapes.",
+      "answer": "Geometry",
       "options": [
-        "angles",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "readingText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "audioText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      "audioText": "Triangles, circles, and rectangles are common shapes.",
+      "art": "📚",
+      "questionText": "According to the story about Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Triangles, circles, and rectangles are common ____.",
-      "answer": "shapes",
+      "prompt": "Geometry is used in construction and design.",
+      "answer": "Geometry",
       "options": [
-        "shapes",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "readingText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "audioText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      "audioText": "Geometry is used in construction and design.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry is used in construction and ____.",
-      "answer": "design",
+      "prompt": "What is the story mainly about?",
+      "answer": "Geometry",
       "options": [
-        "design",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "readingText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design.",
-      "audioText": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Geometry studies shapes and space. Shapes have sides, corners, and angles. Triangles, circles, and rectangles are common shapes. Geometry is used in construction and design."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

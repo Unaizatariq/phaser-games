@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 9,
-  "topic": "Punctuation",
-  "teach": "Punctuation marks help us read. A full stop ends a statement. A question mark ends a question.",
-  "examples": [
-    "full stop",
-    "question mark",
-    "comma"
-  ],
+  "topic": "story",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "question mark",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "question mark",
-        "full stop",
-        "comma",
-        "dash"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Which mark ends a question?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "full stop",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "full stop",
-        "question mark",
-        "comma",
-        "star"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Which mark ends a telling sentence?"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "What is your name?",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "What is your name?",
-        "What is your name.",
-        "What is your name,",
-        "What is your name"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Choose the correct sentence."
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "I like apples.",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "I like apples.",
-        "I like apples?",
-        "I like apples,",
-        "I like apples"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Choose the correct sentence."
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "clear",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "clear",
-        "heavy",
-        "sweet",
-        "round"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Punctuation helps make sentences"
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

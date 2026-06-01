@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Addition and Subtraction",
-  "teach": "Addition combines numbers together.",
-  "examples": [
-    "Addition combines numbers together.",
-    "Subtraction means taking away.",
-    "Borrowing and carrying help solve problems."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Addition and Subtraction",
+      "prompt": "Addition combines numbers together.",
+      "answer": "Addition",
       "options": [
-        "Addition and Subtraction",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Multiplication"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      "audioText": "Addition combines numbers together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition combines numbers ____.",
-      "answer": "together",
+      "prompt": "Subtraction means taking away.",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      "audioText": "Subtraction means taking away.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction means taking ____.",
-      "answer": "away",
+      "prompt": "Borrowing and carrying help solve problems.",
+      "answer": "Addition",
       "options": [
-        "away",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      "audioText": "Borrowing and carrying help solve problems.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Borrowing and carrying help solve ____.",
-      "answer": "problems",
+      "prompt": "These operations are useful in daily life.",
+      "answer": "Addition",
       "options": [
-        "problems",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      "audioText": "These operations are useful in daily life.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: These ____ are useful in daily life.",
-      "answer": "operations",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "operations",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Addition combines numbers together. Subtraction means taking away. Borrowing and carrying help solve problems. These operations are useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

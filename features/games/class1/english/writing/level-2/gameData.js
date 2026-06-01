@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 2,
   "topic": "Missing Letters",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Apple",
-    "Book",
-    "Teacher"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type missing letter: A_PLE",
       "answer": "Apple",
-      "expected": "Apple",
-      "options": [],
+      "options": [
+        "Apple",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type missing letter: A_PLE",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Apple": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type missing letter: BO_K",
       "answer": "Book",
-      "expected": "Book",
-      "options": [],
+      "options": [
+        "Book",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type missing letter: BO_K",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Book": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type missing letter: TE_CHER",
       "answer": "Teacher",
-      "expected": "Teacher",
-      "options": [],
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type missing letter: TE_CHER",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type missing letter: S_HOOL",
       "answer": "School",
-      "expected": "School",
-      "options": [],
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
       "audioText": "Type missing letter: S_HOOL",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🏫",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type missing letter: C_T",
       "answer": "Cat",
-      "expected": "Cat",
-      "options": [],
+      "options": [
+        "Cat",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type missing letter: C_T",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Cat": "🐱",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

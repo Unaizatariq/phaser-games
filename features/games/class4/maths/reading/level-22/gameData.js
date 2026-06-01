@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 22,
-  "topic": "Problem Solving",
-  "teach": "Math problems improve thinking skills.",
-  "examples": [
-    "Math problems improve thinking skills.",
-    "Word problems use real-life situations.",
-    "Careful reading helps solve problems."
-  ],
+  "topic": "Factors and Multiples",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Problem Solving",
+      "prompt": "Factors divide a number exactly.",
+      "answer": "Factors",
       "options": [
-        "Problem Solving",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Factors divide a number exactly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math problems improve thinking ____.",
-      "answer": "skills",
+      "prompt": "Multiples are formed by multiplying numbers.",
+      "answer": "Factors",
       "options": [
-        "skills",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Multiples are formed by multiplying numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Factors and Multiples, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word problems use real-life ____.",
-      "answer": "situations",
+      "prompt": "Every number has factors and multiples.",
+      "answer": "Factors",
       "options": [
-        "situations",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Every number has factors and multiples.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Careful reading helps solve ____.",
-      "answer": "problems",
+      "prompt": "Factors and multiples help solve math problems.",
+      "answer": "Factors",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Factors and multiples help solve math problems.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "ability",
+      "prompt": "What is the story mainly about?",
+      "answer": "Factors",
       "options": [
-        "ability",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Factors and Multiples, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

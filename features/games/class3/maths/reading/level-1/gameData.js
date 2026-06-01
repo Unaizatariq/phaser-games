@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Large Numbers",
-  "teach": "Large numbers help us count bigger quantities.",
-  "examples": [
-    "Large numbers help us count bigger quantities.",
-    "We can read and write numbers up to 10,000.",
-    "Each digit has a place value."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Large Numbers",
+      "prompt": "Large numbers help us count bigger quantities.",
+      "answer": "Large",
       "options": [
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction",
-        "Multiplication"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "readingText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "audioText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      "audioText": "Large numbers help us count bigger quantities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large numbers help us count bigger ____.",
-      "answer": "quantities",
+      "prompt": "We can read and write numbers up to 10,000.",
+      "answer": "Large",
       "options": [
-        "quantities",
-        "Large Numbers",
-        "10000",
-        "value"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "readingText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "audioText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      "audioText": "We can read and write numbers up to 10,000.",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can read and write numbers up to 10,000.",
-      "answer": "10000",
+      "prompt": "Each digit has a place value.",
+      "answer": "Large",
       "options": [
-        "10000",
-        "Large Numbers",
-        "quantities",
-        "value"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "readingText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "audioText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      "audioText": "Each digit has a place value.",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Each digit has a place ____.",
-      "answer": "value",
+      "prompt": "Large numbers are used in daily life.",
+      "answer": "Large",
       "options": [
-        "value",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "readingText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "audioText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      "audioText": "Large numbers are used in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large ____ are used in daily life.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Large",
       "options": [
-        "numbers",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Large",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "readingText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life.",
-      "audioText": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Large Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Large": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Large numbers help us count bigger quantities. We can read and write numbers up to 10,000. Each digit has a place value. Large numbers are used in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

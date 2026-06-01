@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 2,
   "topic": "نقطوں والے حروف",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "ب",
-    "پ",
-    "ت"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "حرف \"ب\" میں نقطہ درست جگہ پر لگائیں۔",
       "answer": "ب",
-      "expected": "ب",
-      "options": [],
+      "options": [
+        {
+          "text": "ب",
+          "tts": "ب"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حرف \"ب\" میں نقطہ درست جگہ پر لگائیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "ب": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "حرف \"پ\" میں نقطہ درست جگہ پر لگائیں۔",
       "answer": "پ",
-      "expected": "پ",
-      "options": [],
+      "options": [
+        {
+          "text": "پ",
+          "tts": "پ"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حرف \"پ\" میں نقطہ درست جگہ پر لگائیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "پ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "حرف \"ت\" میں نقطہ درست جگہ پر لگائیں۔",
       "answer": "ت",
-      "expected": "ت",
-      "options": [],
+      "options": [
+        {
+          "text": "ت",
+          "tts": "ت"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حرف \"ت\" میں نقطہ درست جگہ پر لگائیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "ت": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "حرف \"ث\" میں نقطہ درست جگہ پر لگائیں۔",
       "answer": "ث",
-      "expected": "ث",
-      "options": [],
+      "options": [
+        {
+          "text": "ث",
+          "tts": "ث"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حرف \"ث\" میں نقطہ درست جگہ پر لگائیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "ث": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "tracing",
       "prompt": "حرف \"ج\" میں نقطہ درست جگہ پر لگائیں۔",
       "answer": "ج",
-      "expected": "ج",
-      "options": [],
+      "options": [
+        {
+          "text": "ج",
+          "tts": "ج"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "حرف \"ج\" میں نقطہ درست جگہ پر لگائیں۔",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "ج": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

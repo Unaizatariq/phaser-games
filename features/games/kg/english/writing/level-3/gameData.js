@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Word Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "Apple",
-    "Ball",
-    "Cat"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace word: Apple",
       "answer": "Apple",
-      "expected": "Apple",
-      "options": [],
+      "options": [
+        "Apple",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace word: Apple",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Apple": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace word: Ball",
       "answer": "Ball",
-      "expected": "Ball",
-      "options": [],
+      "options": [
+        "Ball",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace word: Ball",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ball": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace word: Cat",
       "answer": "Cat",
-      "expected": "Cat",
-      "options": [],
+      "options": [
+        "Cat",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace word: Cat",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Cat": "🐱",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace word: Mango",
       "answer": "Mango",
-      "expected": "Mango",
-      "options": [],
+      "options": [
+        "Mango",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Trace word: Mango",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Mango": "🥭",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace word: School",
       "answer": "School",
-      "expected": "School",
-      "options": [],
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
       "audioText": "Trace word: School",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "🏫",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

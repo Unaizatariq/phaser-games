@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 20,
   "topic": "Importance of Mathematics",
-  "teach": "Mathematics is useful in everyday life.",
-  "examples": [
-    "Mathematics is useful in everyday life.",
-    "People use math in shopping and business.",
-    "Math improves logical thinking."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Mathematics",
+      "prompt": "Mathematics is useful in everyday life.",
+      "answer": "Importance",
       "options": [
-        "Importance of Mathematics",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "Mathematics is useful in everyday life.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mathematics is useful in ____ life.",
-      "answer": "everyday",
+      "prompt": "People use math in shopping and business.",
+      "answer": "Importance",
       "options": [
-        "everyday",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "People use math in shopping and business.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use math in shopping and ____.",
-      "answer": "business",
+      "prompt": "Math improves logical thinking.",
+      "answer": "Importance",
       "options": [
-        "business",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "Math improves logical thinking.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math improves logical ____.",
-      "answer": "thinking",
+      "prompt": "Learning math helps solve practical problems.",
+      "answer": "Importance",
       "options": [
-        "thinking",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "Learning math helps solve practical problems.",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math helps solve practical ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Importance",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Importance",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Importance of Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Importance": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

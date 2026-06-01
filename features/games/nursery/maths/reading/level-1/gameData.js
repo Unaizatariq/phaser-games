@@ -1,89 +1,183 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Counting 1 to 5",
-  "teach": "One apple.",
-  "examples": [
-    "One apple.",
-    "Two balls.",
-    "Three cats."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Counting 1 to 5",
+      "prompt": "One apple.",
+      "answer": "Counting",
       "options": [
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes",
-        "Colors and Numbers"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "readingText": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "audioText": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      "audioText": "One apple.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: One ____.",
-      "answer": "apple",
+      "prompt": "Two balls.",
+      "answer": "Counting",
       "options": [
-        "apple",
-        "Counting 1 to 5",
-        "balls",
-        "cats"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "readingText": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "audioText": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      "audioText": "Two balls.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Two ____.",
-      "answer": "balls",
+      "prompt": "Three cats.",
+      "answer": "Counting",
       "options": [
-        "balls",
-        "Counting 1 to 5",
-        "apple",
-        "cats"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "readingText": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "audioText": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      "audioText": "Three cats.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Three ____.",
-      "answer": "cats",
+      "prompt": "Four stars.",
+      "answer": "Counting",
       "options": [
-        "cats",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "readingText": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "audioText": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      "audioText": "Four stars.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Four ____.",
-      "answer": "stars",
+      "prompt": "Five flowers.",
+      "answer": "Counting",
       "options": [
-        "stars",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "readingText": "One apple. Two balls. Three cats. Four stars. Five flowers.",
-      "audioText": "One apple. Two balls. Three cats. Four stars. Five flowers."
+      "audioText": "Five flowers.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
+      "options": [
+        "Counting",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting 1 to 5, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "One apple. Two balls. Three cats. Four stars. Five flowers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

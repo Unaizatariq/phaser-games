@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 2,
   "topic": "Generations of Computers",
-  "teach": "Computers have changed over many years.",
-  "examples": [
-    "Computers have changed over many years.",
-    "Early computers were large and slow.",
-    "Modern computers are smaller and more powerful."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Generations of Computers",
+      "prompt": "Computers have changed over many years.",
+      "answer": "Generations",
       "options": [
-        "Generations of Computers",
-        "Introduction to Computers",
-        "Hardware and Software",
-        "Input and Output Devices"
+        "Generations",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "readingText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "audioText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      "audioText": "Computers have changed over many years.",
+      "art": "📚",
+      "questionText": "According to the story about Generations of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Generations": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers have changed over many ____.",
-      "answer": "years",
+      "prompt": "Early computers were large and slow.",
+      "answer": "Generations",
       "options": [
-        "years",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Generations",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "readingText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "audioText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      "audioText": "Early computers were large and slow.",
+      "art": "📚",
+      "questionText": "According to the story about Generations of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Generations": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Early computers were large and ____.",
-      "answer": "slow",
+      "prompt": "Modern computers are smaller and more powerful.",
+      "answer": "Generations",
       "options": [
-        "slow",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Generations",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "readingText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "audioText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      "audioText": "Modern computers are smaller and more powerful.",
+      "art": "📚",
+      "questionText": "According to the story about Generations of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Generations": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Modern computers are smaller and more ____.",
-      "answer": "powerful",
+      "prompt": "Each generation improved technology.",
+      "answer": "Generations",
       "options": [
-        "powerful",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Generations",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "readingText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "audioText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      "audioText": "Each generation improved technology.",
+      "art": "📚",
+      "questionText": "According to the story about Generations of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Generations": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Each generation improved ____.",
-      "answer": "technology",
+      "prompt": "What is the story mainly about?",
+      "answer": "Generations",
       "options": [
-        "technology",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Generations",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "readingText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology.",
-      "audioText": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Generations of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Generations": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers have changed over many years. Early computers were large and slow. Modern computers are smaller and more powerful. Each generation improved technology."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

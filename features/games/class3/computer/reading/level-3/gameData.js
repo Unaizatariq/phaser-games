@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 3,
   "topic": "Parts of a Computer",
-  "teach": "A computer has different important parts.",
-  "examples": [
-    "A computer has different important parts.",
-    "The monitor displays information.",
-    "The keyboard is used for typing."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Parts of a Computer",
+      "prompt": "A computer has different important parts.",
+      "answer": "Parts",
       "options": [
-        "Parts of a Computer",
-        "Introduction to Computers",
-        "History of Computers",
-        "Input and Output Devices"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "readingText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "audioText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      "audioText": "A computer has different important parts.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer has different important ____.",
-      "answer": "parts",
+      "prompt": "The monitor displays information.",
+      "answer": "Parts",
       "options": [
-        "parts",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "readingText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "audioText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      "audioText": "The monitor displays information.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The monitor displays ____.",
-      "answer": "information",
+      "prompt": "The keyboard is used for typing.",
+      "answer": "Parts",
       "options": [
-        "information",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "readingText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "audioText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      "audioText": "The keyboard is used for typing.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The keyboard is used for ____.",
-      "answer": "typing",
+      "prompt": "The mouse helps us control the pointer.",
+      "answer": "Parts",
       "options": [
-        "typing",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "readingText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "audioText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      "audioText": "The mouse helps us control the pointer.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The mouse helps us control the ____.",
-      "answer": "pointer",
+      "prompt": "What is the story mainly about?",
+      "answer": "Parts",
       "options": [
-        "pointer",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "readingText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer.",
-      "audioText": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer has different important parts. The monitor displays information. The keyboard is used for typing. The mouse helps us control the pointer."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

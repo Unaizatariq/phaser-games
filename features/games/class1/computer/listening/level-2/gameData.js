@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "listening",
   "level": 2,
   "topic": "Parts of Computer",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Monitor",
-    "Keyboard",
-    "Mouse"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which part shows pictures on screen?",
-      "answer": "Monitor",
+      "audioText": "A computer mouse is a small device. It helps us click, select, and move items on the computer screen.",
+      "prompt": "Which device helps us click on items on the computer screen?",
+      "answer": "mouse",
       "options": [
-        "Monitor",
-        "Mouse",
-        "Keyboard",
+        "mouse",
+        "monitor",
+        "keyboard",
+        "printer"
+      ],
+      "art": "🖱️",
+      "optionArts": {
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
+    },
+    {
+      "audioText": "A keyboard has many keys. We use it to type letters, numbers, and words.",
+      "prompt": "Which device is used for typing letters and numbers?",
+      "answer": "keyboard",
+      "options": [
+        "keyboard",
+        "mouse",
+        "monitor",
+        "speaker"
+      ],
+      "art": "⌨️",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "speaker": "🔊"
+      }
+    },
+    {
+      "audioText": "A monitor is the screen of a computer. It shows pictures, words, and videos.",
+      "prompt": "Which computer part shows pictures and words?",
+      "answer": "monitor",
+      "options": [
+        "monitor",
+        "mouse",
+        "keyboard",
+        "printer"
+      ],
+      "art": "🖥️",
+      "optionArts": {
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
+    },
+    {
+      "audioText": "A printer makes a paper copy of work from the computer.",
+      "prompt": "Which device prints work on paper?",
+      "answer": "printer",
+      "options": [
+        "printer",
+        "monitor",
+        "mouse",
         "CPU"
       ],
-      "audioText": "Which part shows pictures on screen?",
-      "gameplayType": "listen-tap"
+      "art": "🖨️",
+      "optionArts": {
+        "printer": "🖨️",
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "CPU": "🧠"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Which part is used for typing?",
-      "answer": "Keyboard",
+      "audioText": "Speakers are output devices. They help us hear sound from the computer.",
+      "prompt": "Which device helps us hear sound?",
+      "answer": "speaker",
       "options": [
-        "Keyboard",
-        "Monitor",
-        "Speaker",
-        "Printer"
+        "speaker",
+        "keyboard",
+        "mouse",
+        "scanner"
       ],
-      "audioText": "Which part is used for typing?",
-      "gameplayType": "drag-drop"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Catch the mouse device.",
-      "answer": "Mouse",
-      "options": [
-        "Mouse",
-        "Book",
-        "Pen",
-        "Bottle"
-      ],
-      "audioText": "Catch the mouse device.",
-      "gameplayType": "basket-catch"
+      "art": "🔊",
+      "optionArts": {
+        "speaker": "🔊",
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "scanner": "📠"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

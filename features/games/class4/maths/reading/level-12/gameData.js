@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 12,
   "topic": "Time",
-  "teach": "Time helps organize daily activities.",
-  "examples": [
-    "Time helps organize daily activities.",
-    "There are 60 minutes in one hour.",
-    "Calendars show days, weeks, and months."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Time helps organize daily activities.",
       "answer": "Time",
       "options": [
         "Time",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "readingText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "audioText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      "audioText": "Time helps organize daily activities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time helps organize daily ____.",
-      "answer": "activities",
+      "prompt": "There are 60 minutes in one hour.",
+      "answer": "Time",
       "options": [
-        "activities",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "readingText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "audioText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      "audioText": "There are 60 minutes in one hour.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are 60 minutes in one ____.",
-      "answer": "hour",
+      "prompt": "Calendars show days, weeks, and months.",
+      "answer": "Time",
       "options": [
-        "hour",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "readingText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "audioText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      "audioText": "Calendars show days, weeks, and months.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Calendars show days, weeks, and ____.",
-      "answer": "months",
+      "prompt": "Time management is important.",
+      "answer": "Time",
       "options": [
-        "months",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "readingText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "audioText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      "audioText": "Time management is important.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time ____ is important.",
-      "answer": "management",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "management",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "readingText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important.",
-      "audioText": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Time helps organize daily activities. There are 60 minutes in one hour. Calendars show days, weeks, and months. Time management is important."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

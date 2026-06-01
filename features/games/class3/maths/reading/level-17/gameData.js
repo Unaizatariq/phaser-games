@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 17,
   "topic": "Lines and Angles",
-  "teach": "Straight lines go in one direction.",
-  "examples": [
-    "Straight lines go in one direction.",
-    "Angles form when two lines meet.",
-    "Some angles are small and some are large."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Lines and Angles",
+      "prompt": "Straight lines go in one direction.",
+      "answer": "Lines",
       "options": [
-        "Lines and Angles",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "readingText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "audioText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      "audioText": "Straight lines go in one direction.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Straight lines go in one ____.",
-      "answer": "direction",
+      "prompt": "Angles form when two lines meet.",
+      "answer": "Lines",
       "options": [
-        "direction",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "readingText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "audioText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      "audioText": "Angles form when two lines meet.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Angles form when two lines ____.",
-      "answer": "meet",
+      "prompt": "Some angles are small and some are large.",
+      "answer": "Lines",
       "options": [
-        "meet",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "readingText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "audioText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      "audioText": "Some angles are small and some are large.",
+      "art": "📚",
+      "questionText": "According to the story about Lines and Angles, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some angles are small and some are ____.",
-      "answer": "large",
+      "prompt": "Geometry uses lines and angles.",
+      "answer": "Lines",
       "options": [
-        "large",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "readingText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "audioText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      "audioText": "Geometry uses lines and angles.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry uses lines and ____.",
-      "answer": "angles",
+      "prompt": "What is the story mainly about?",
+      "answer": "Lines",
       "options": [
-        "angles",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Lines",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "readingText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles.",
-      "audioText": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Lines and Angles, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Lines": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Straight lines go in one direction. Angles form when two lines meet. Some angles are small and some are large. Geometry uses lines and angles."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

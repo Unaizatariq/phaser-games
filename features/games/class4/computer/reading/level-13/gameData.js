@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 13,
   "topic": "Computer Safety",
-  "teach": "Computers should be handled carefully.",
-  "examples": [
-    "Computers should be handled carefully.",
-    "Strong passwords protect important information.",
-    "Viruses can damage computers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Safety",
+      "prompt": "Computers should be handled carefully.",
+      "answer": "Computer",
       "options": [
-        "Computer Safety",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "readingText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "audioText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      "audioText": "Computers should be handled carefully.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers should be ____ carefully.",
-      "answer": "handled",
+      "prompt": "Strong passwords protect important information.",
+      "answer": "Computer",
       "options": [
-        "handled",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "readingText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "audioText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      "audioText": "Strong passwords protect important information.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Strong passwords protect important ____.",
-      "answer": "information",
+      "prompt": "Viruses can damage computers.",
+      "answer": "Computer",
       "options": [
-        "information",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "readingText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "audioText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      "audioText": "Viruses can damage computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Viruses can damage ____.",
-      "answer": "computers",
+      "prompt": "Antivirus software helps keep computers safe.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "readingText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "audioText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      "audioText": "Antivirus software helps keep computers safe.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Antivirus software helps keep computers ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "safe",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "readingText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe.",
-      "audioText": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Safety, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers should be handled carefully. Strong passwords protect important information. Viruses can damage computers. Antivirus software helps keep computers safe."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

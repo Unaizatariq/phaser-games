@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 14,
   "topic": "Electricity",
-  "teach": "Electricity powers many devices.",
-  "examples": [
-    "Electricity powers many devices.",
-    "Fans and lights need electricity.",
-    "Batteries store electricity."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Electricity powers many devices.",
       "answer": "Electricity",
       "options": [
         "Electricity",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "readingText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "audioText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      "audioText": "Electricity powers many devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Electricity powers many ____.",
-      "answer": "devices",
+      "prompt": "Fans and lights need electricity.",
+      "answer": "Electricity",
       "options": [
-        "devices",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "readingText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "audioText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      "audioText": "Fans and lights need electricity.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "devices",
+      "prompt": "Batteries store electricity.",
+      "answer": "Electricity",
       "options": [
-        "devices",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "readingText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "audioText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      "audioText": "Batteries store electricity.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "electricity",
+      "prompt": "We should use electricity carefully.",
+      "answer": "Electricity",
       "options": [
-        "electricity",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "readingText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "audioText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      "audioText": "We should use electricity carefully.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "electricity",
+      "prompt": "What is the story mainly about?",
+      "answer": "Electricity",
       "options": [
-        "electricity",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Electricity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "readingText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully.",
-      "audioText": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Electricity, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Electricity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Electricity powers many devices. Fans and lights need electricity. Batteries store electricity. We should use electricity carefully."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

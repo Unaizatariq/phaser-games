@@ -1,229 +1,154 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
-  "topic": "V for Van / W for Watch / X for Xylophone",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "van",
-    "watch",
-    "xylophone"
-  ],
+  "topic": "H for Hen",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "van",
+      "prompt": "H is for hen.",
+      "answer": "hen",
       "options": [
-        "van",
-        "watch",
-        "yacht",
-        "xylophone"
+        "hen",
+        "goat",
+        "parrot",
+        "zebra"
       ],
-      "text": "V is for van. The van carries people and goods. It moves on the road.",
-      "passage": "V is for van. The van carries people and goods. It moves on the road.",
-      "audioText": "V is for van. The van carries people and goods. It moves on the road."
+      "audioText": "H is for hen.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hen": "🔹",
+        "goat": "🐐",
+        "parrot": "🔹",
+        "zebra": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "van",
+      "prompt": "The hen lays eggs every day.",
+      "answer": "hen",
       "options": [
-        "van",
-        "watch",
-        "yacht",
-        "xylophone"
+        "hen",
+        "goat",
+        "parrot",
+        "zebra"
       ],
-      "text": "V is for van. The van carries people and goods. It moves on the road.",
-      "passage": "V is for van. The van carries people and goods. It moves on the road.",
-      "audioText": "V is for van. The van carries people and goods. It moves on the road."
+      "audioText": "The hen lays eggs every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hen": "🔹",
+        "goat": "🐐",
+        "parrot": "🔹",
+        "zebra": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "van",
+      "prompt": "It walks around happily.",
+      "answer": "hen",
       "options": [
-        "van",
-        "watch",
-        "yacht",
-        "xylophone"
+        "hen",
+        "goat",
+        "parrot",
+        "zebra"
       ],
-      "text": "V is for van. The van carries people and goods. It moves on the road.",
-      "passage": "V is for van. The van carries people and goods. It moves on the road.",
-      "audioText": "V is for van. The van carries people and goods. It moves on the road."
+      "audioText": "It walks around happily.",
+      "art": "📚",
+      "questionText": "According to the story about H for Hen, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hen": "🔹",
+        "goat": "🐐",
+        "parrot": "🔹",
+        "zebra": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "van",
+      "prompt": "What is the story mainly about?",
+      "answer": "hen",
       "options": [
-        "van",
-        "watch",
-        "yacht",
-        "xylophone"
+        "hen",
+        "goat",
+        "parrot",
+        "zebra"
       ],
-      "text": "V is for van. The van carries people and goods. It moves on the road.",
-      "passage": "V is for van. The van carries people and goods. It moves on the road.",
-      "audioText": "V is for van. The van carries people and goods. It moves on the road."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about H for Hen, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hen": "🔹",
+        "goat": "🐐",
+        "parrot": "🔹",
+        "zebra": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "van",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "van",
-        "watch",
-        "yacht",
-        "xylophone"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "V is for van. The van carries people and goods. It moves on the road.",
-      "passage": "V is for van. The van carries people and goods. It moves on the road.",
-      "audioText": "V is for van. The van carries people and goods. It moves on the road."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "watch",
-      "options": [
-        "watch",
-        "van",
-        "sun",
-        "nest"
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🌳",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
       ],
-      "text": "W is for watch. The watch shows time. My father wears a watch.",
-      "passage": "W is for watch. The watch shows time. My father wears a watch.",
-      "audioText": "W is for watch. The watch shows time. My father wears a watch."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "watch",
-      "options": [
-        "watch",
-        "van",
-        "sun",
-        "nest"
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
       ],
-      "text": "W is for watch. The watch shows time. My father wears a watch.",
-      "passage": "W is for watch. The watch shows time. My father wears a watch.",
-      "audioText": "W is for watch. The watch shows time. My father wears a watch."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "watch",
-      "options": [
-        "watch",
-        "van",
-        "sun",
-        "nest"
-      ],
-      "text": "W is for watch. The watch shows time. My father wears a watch.",
-      "passage": "W is for watch. The watch shows time. My father wears a watch.",
-      "audioText": "W is for watch. The watch shows time. My father wears a watch."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "watch",
-      "options": [
-        "watch",
-        "van",
-        "sun",
-        "nest"
-      ],
-      "text": "W is for watch. The watch shows time. My father wears a watch.",
-      "passage": "W is for watch. The watch shows time. My father wears a watch.",
-      "audioText": "W is for watch. The watch shows time. My father wears a watch."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "watch",
-      "options": [
-        "watch",
-        "van",
-        "sun",
-        "nest"
-      ],
-      "text": "W is for watch. The watch shows time. My father wears a watch.",
-      "passage": "W is for watch. The watch shows time. My father wears a watch.",
-      "audioText": "W is for watch. The watch shows time. My father wears a watch."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
-      "answer": "xylophone",
-      "options": [
-        "xylophone",
-        "yacht",
-        "zebra",
-        "watch"
-      ],
-      "text": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "audioText": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
-      "answer": "xylophone",
-      "options": [
-        "xylophone",
-        "yacht",
-        "zebra",
-        "watch"
-      ],
-      "text": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "audioText": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
-      "answer": "xylophone",
-      "options": [
-        "xylophone",
-        "yacht",
-        "zebra",
-        "watch"
-      ],
-      "text": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "audioText": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
-    },
-    {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
-      "answer": "xylophone",
-      "options": [
-        "xylophone",
-        "yacht",
-        "zebra",
-        "watch"
-      ],
-      "text": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "audioText": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "xylophone",
-      "options": [
-        "xylophone",
-        "yacht",
-        "zebra",
-        "watch"
-      ],
-      "text": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "passage": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it.",
-      "audioText": "X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "V is for van. The van carries people and goods. It moves on the road. W is for watch. The watch shows time. My father wears a watch. X is for xylophone. The xylophone makes musical sounds. Children enjoy playing it."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

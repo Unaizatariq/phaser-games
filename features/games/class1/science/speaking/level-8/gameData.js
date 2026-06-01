@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 8,
-  "topic": "Keeping Surroundings Clean",
-  "teach": "Clean surroundings keep us healthy. We throw trash in bins and keep places neat.",
-  "examples": [
-    "dustbin",
-    "clean room",
-    "healthy"
-  ],
+  "topic": "Speak Body Parts",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: Where should we throw trash?",
-      "answer": "dustbin",
-      "options": [],
-      "audioText": "Say the answer: Where should we throw trash?"
+      "prompt": "Say the body part: Eyes",
+      "answer": "Eyes",
+      "options": [
+        "Eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Eyes",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Clean surroundings help us stay",
-      "answer": "healthy",
-      "options": [],
-      "audioText": "Say the answer: Clean surroundings help us stay"
+      "prompt": "Say the body part: Hands",
+      "answer": "Hands",
+      "options": [
+        "Hands",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Hands",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Hands": "✋",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We should not litter in",
-      "answer": "parks",
-      "options": [],
-      "audioText": "Say the answer: We should not litter in"
+      "prompt": "Say the body part: Legs",
+      "answer": "Legs",
+      "options": [
+        "Legs",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Legs",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Legs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Sweeping removes",
-      "answer": "dust",
-      "options": [],
-      "audioText": "Say the answer: Sweeping removes"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🌿",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A clean classroom is good for",
-      "answer": "learning",
-      "options": [],
-      "audioText": "Say the answer: A clean classroom is good for"
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🐄",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

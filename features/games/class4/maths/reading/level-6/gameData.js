@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Addition and Subtraction",
-  "teach": "Addition combines numbers together.",
-  "examples": [
-    "Addition combines numbers together.",
-    "Subtraction means taking away.",
-    "Large numbers can be added and subtracted."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Addition and Subtraction",
+      "prompt": "Addition combines numbers together.",
+      "answer": "Addition",
       "options": [
-        "Addition and Subtraction",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      "audioText": "Addition combines numbers together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition combines numbers ____.",
-      "answer": "together",
+      "prompt": "Subtraction means taking away.",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      "audioText": "Subtraction means taking away.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction means taking ____.",
-      "answer": "away",
+      "prompt": "Large numbers can be added and subtracted.",
+      "answer": "Addition",
       "options": [
-        "away",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      "audioText": "Large numbers can be added and subtracted.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large numbers can be added and ____.",
-      "answer": "subtracted",
+      "prompt": "Math operations help solve real-life problems.",
+      "answer": "Addition",
       "options": [
-        "subtracted",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      "audioText": "Math operations help solve real-life problems.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math operations help solve real-life ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "readingText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems.",
-      "audioText": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Addition combines numbers together. Subtraction means taking away. Large numbers can be added and subtracted. Math operations help solve real-life problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

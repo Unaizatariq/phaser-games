@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 4,
-  "topic": "Subtraction",
-  "teach": "Subtraction builds number thinking through examples, counting, solving and real-life problems.",
-  "examples": [
-    "Subtraction",
-    "example",
-    "solve"
-  ],
+  "topic": "shapes",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
+      "prompt": "Solve: 5 + 1 = ?",
+      "answer": "6",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "audioText": "Solve: 5 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 6 + 2 = ?",
       "answer": "8",
       "options": [
-        "6",
-        "7",
         "8",
-        "9"
-      ],
-      "audioText": "14 - 6 ="
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "7",
-      "options": [
-        "6",
+        "9",
         "7",
-        "8",
         "10"
       ],
-      "audioText": "Sara had 10 apples and gave 3. Left?"
+      "audioText": "Solve: 6 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 6,
+        "b": 2,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "taking away",
+      "prompt": "Solve: 7 + 3 = ?",
+      "answer": "10",
       "options": [
-        "adding",
-        "taking away",
-        "joining",
-        "doubling"
+        "10",
+        "11",
+        "9",
+        "12"
       ],
-      "audioText": "Subtraction means"
+      "audioText": "Solve: 7 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 7,
+        "b": 3,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "11": "🔢",
+        "9": "🔢",
+        "12": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "5",
+      "prompt": "Solve: 8 + 4 = ?",
+      "answer": "12",
       "options": [
-        "3",
-        "4",
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "audioText": "Solve: 8 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 8,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "13": "🔢",
+        "11": "🔢",
+        "14": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 1 + 5 = ?",
+      "answer": "6",
+      "options": [
+        "6",
+        "7",
         "5",
-        "6"
+        "8"
       ],
-      "audioText": "Complete: 20 - __ = 15"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "9-4",
-      "options": [
-        "9-4",
-        "10-2",
-        "same",
-        "none"
-      ],
-      "audioText": "Which is smaller? 9-4 or 10-2"
+      "audioText": "Solve: 1 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 1,
+        "b": 5,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

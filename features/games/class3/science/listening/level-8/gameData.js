@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 8,
-  "topic": "Exercise and Sleep",
-  "teach": "Exercise and Sleep is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Exercise and Sleep",
-    "example",
-    "practice"
-  ],
+  "topic": "matter",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Exercise and Sleep",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "Exercise and Sleep",
-        "Random topic",
-        "Wrong topic",
-        "Another lesson"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "What is today’s topic?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the example",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "read the example",
-        "skip the lesson",
-        "guess only",
-        "close the book"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "To learn this topic, first we should"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "related to the topic",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "related to the topic",
-        "random",
-        "empty",
-        "copied wrong"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "A good answer should be"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "remember better",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "remember better",
-        "forget",
-        "sleep",
-        "stop learning"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "Practice helps us"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "try again",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "try again",
-        "give up",
-        "ignore",
-        "rush"
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
       ],
-      "audioText": "Choose the correct learning habit."
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

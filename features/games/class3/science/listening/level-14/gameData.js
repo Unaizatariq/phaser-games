@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 14,
-  "topic": "Pollution Trash Littering",
-  "teach": "Pollution Trash Littering helps children observe the world, ask questions and understand how living and non-living things work.",
-  "examples": [
-    "observe",
-    "learn",
-    "explain"
-  ],
+  "topic": "body parts",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "science",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "science",
-        "computer",
-        "money",
-        "grammar"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Pollution Trash Littering belongs to which subject?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "the world around us",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "the world around us",
-        "only stories",
-        "only games",
-        "only colors"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Science helps us understand"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "observe carefully",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "observe carefully",
-        "guess randomly",
-        "ignore examples",
-        "hide answers"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "A good learner should"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "understand concepts",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "understand concepts",
-        "confuse answers",
-        "skip learning",
-        "make noise"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "We use examples to"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "ask and learn",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "ask and learn",
-        "throw trash",
-        "waste water",
-        "break things"
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
       ],
-      "audioText": "Choose the best habit."
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

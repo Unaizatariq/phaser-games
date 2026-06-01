@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 2,
   "topic": "Cyber Safety",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "use strong password",
-    "do not share personal information",
-    "teacher"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type safe password rule",
       "answer": "use strong password",
-      "expected": "use strong password",
-      "options": [],
+      "options": [
+        "use strong password",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type safe password rule",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "use strong password": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one internet safety rule",
       "answer": "do not share personal information",
-      "expected": "do not share personal information",
-      "options": [],
+      "options": [
+        "do not share personal information",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one internet safety rule",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "do not share personal information": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type who to ask before downloading",
       "answer": "teacher",
-      "expected": "teacher",
-      "options": [],
+      "options": [
+        "teacher",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type who to ask before downloading",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type what should not be shared online",
       "answer": "password",
-      "expected": "password",
-      "options": [],
+      "options": [
+        "password",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type what should not be shared online",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "password": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type why passwords are important",
       "answer": "security",
-      "expected": "security",
-      "options": [],
+      "options": [
+        "security",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type why passwords are important",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "security": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

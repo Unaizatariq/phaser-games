@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 16,
   "topic": "Fun Learning",
-  "teach": "Computers make learning fun.",
-  "examples": [
-    "Computers make learning fun.",
-    "Children can learn alphabets and numbers.",
-    "Educational games help students learn."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun Learning",
+      "prompt": "Computers make learning fun.",
+      "answer": "Fun",
       "options": [
-        "Fun Learning",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "readingText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "audioText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      "audioText": "Computers make learning fun.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers ____ learning fun.",
-      "answer": "make",
+      "prompt": "Children can learn alphabets and numbers.",
+      "answer": "Fun",
       "options": [
-        "make",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "readingText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "audioText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      "audioText": "Children can learn alphabets and numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Fun Learning, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children can learn alphabets and ____.",
-      "answer": "numbers",
+      "prompt": "Educational games help students learn.",
+      "answer": "Fun",
       "options": [
-        "numbers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "readingText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "audioText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      "audioText": "Educational games help students learn.",
+      "art": "📚",
+      "questionText": "According to the story about Fun Learning, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Educational games help ____ learn.",
-      "answer": "students",
+      "prompt": "Computers are helpful for study.",
+      "answer": "Fun",
       "options": [
-        "students",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "readingText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "audioText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      "audioText": "Computers are helpful for study.",
+      "art": "📚",
+      "questionText": "According to the story about Fun Learning, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are helpful for ____.",
-      "answer": "study",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fun",
       "options": [
-        "study",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "readingText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study.",
-      "audioText": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Fun Learning, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers make learning fun. Children can learn alphabets and numbers. Educational games help students learn. Computers are helpful for study."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

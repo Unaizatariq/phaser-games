@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 19,
   "topic": "Day and Night",
-  "teach": "Day starts when the sun rises.",
-  "examples": [
-    "Day starts when the sun rises.",
-    "Night begins after sunset.",
-    "We work and play during the day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Day and Night",
+      "prompt": "Day starts when the sun rises.",
+      "answer": "Day",
       "options": [
-        "Day and Night",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "Day starts when the sun rises.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Day starts when the sun ____.",
-      "answer": "rises",
+      "prompt": "Night begins after sunset.",
+      "answer": "Day",
       "options": [
-        "rises",
-        "Living Things",
-        "move",
-        "things"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "Night begins after sunset.",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Night begins after ____.",
-      "answer": "sunset",
+      "prompt": "We work and play during the day.",
+      "answer": "Day",
       "options": [
-        "sunset",
-        "Living Things",
-        "move",
-        "things"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "We work and play during the day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We work and play during the ____.",
-      "answer": "day",
+      "prompt": "We sleep at night.",
+      "answer": "Day",
       "options": [
-        "day",
-        "Living Things",
-        "move",
-        "things"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "We sleep at night.",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We sleep at ____.",
-      "answer": "night",
+      "prompt": "What is the story mainly about?",
+      "answer": "Day",
       "options": [
-        "night",
-        "Living Things",
-        "move",
-        "things"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "readingText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night.",
-      "audioText": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Day starts when the sun rises. Night begins after sunset. We work and play during the day. We sleep at night."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

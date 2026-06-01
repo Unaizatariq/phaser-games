@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 23,
-  "topic": "Importance of Mathematics",
-  "teach": "Mathematics is useful in everyday life.",
-  "examples": [
-    "Mathematics is useful in everyday life.",
-    "People use math in shopping and business.",
-    "Math improves logical thinking."
-  ],
+  "topic": "Prime and Composite Numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Mathematics",
+      "prompt": "Prime numbers have only two factors.",
+      "answer": "Prime",
       "options": [
-        "Importance of Mathematics",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "Prime numbers have only two factors.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mathematics is useful in ____ life.",
-      "answer": "everyday",
+      "prompt": "Composite numbers have more than two factors.",
+      "answer": "Prime",
       "options": [
-        "everyday",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "Composite numbers have more than two factors.",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use math in shopping and ____.",
-      "answer": "business",
+      "prompt": "2, 3, and 5 are prime numbers.",
+      "answer": "Prime",
       "options": [
-        "business",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "2, 3, and 5 are prime numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math improves logical ____.",
-      "answer": "thinking",
+      "prompt": "4, 6, and 8 are composite numbers.",
+      "answer": "Prime",
       "options": [
-        "thinking",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "4, 6, and 8 are composite numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math helps solve practical ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Prime",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "readingText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems.",
-      "audioText": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Mathematics is useful in everyday life. People use math in shopping and business. Math improves logical thinking. Learning math helps solve practical problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

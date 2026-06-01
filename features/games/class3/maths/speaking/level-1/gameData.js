@@ -1,84 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 1,
   "topic": "Fractions",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "One Half",
-    "One Fourth",
-    "Three Fourths"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say the fraction 1/2",
       "answer": "One Half",
-      "expected": "One Half",
-      "options": [],
+      "options": [
+        "One Half",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the fraction 1/2",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Half": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the fraction 1/4",
       "answer": "One Fourth",
-      "expected": "One Fourth",
-      "options": [],
+      "options": [
+        "One Fourth",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the fraction 1/4",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Fourth": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the fraction 3/4",
       "answer": "Three Fourths",
-      "expected": "Three Fourths",
-      "options": [],
+      "options": [
+        "Three Fourths",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the fraction 3/4",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Three Fourths": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which fraction is bigger: 1/2 or 1/4?",
       "answer": "One Half",
-      "expected": "One Half",
-      "options": [],
+      "options": [
+        "One Half",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Which fraction is bigger: 1/2 or 1/4?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Half": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is half of 10?",
       "answer": "Five",
-      "expected": "Five",
-      "options": [],
-      "audioText": "What is half of 10?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Five",
-        "5"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is half of 10?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

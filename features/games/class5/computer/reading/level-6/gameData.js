@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 6,
   "topic": "Word Processing",
-  "teach": "Word processing software creates documents.",
-  "examples": [
-    "Word processing software creates documents.",
-    "Students use it for assignments and reports.",
-    "Text can be edited and formatted easily."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Word Processing",
+      "prompt": "Word processing software creates documents.",
+      "answer": "Word",
       "options": [
-        "Word Processing",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "readingText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "audioText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      "audioText": "Word processing software creates documents.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word processing software creates ____.",
-      "answer": "documents",
+      "prompt": "Students use it for assignments and reports.",
+      "answer": "Word",
       "options": [
-        "documents",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "readingText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "audioText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      "audioText": "Students use it for assignments and reports.",
+      "art": "📚",
+      "questionText": "According to the story about Word Processing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use it for assignments and ____.",
-      "answer": "reports",
+      "prompt": "Text can be edited and formatted easily.",
+      "answer": "Word",
       "options": [
-        "reports",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "readingText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "audioText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      "audioText": "Text can be edited and formatted easily.",
+      "art": "📚",
+      "questionText": "According to the story about Word Processing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Text can be edited and formatted ____.",
-      "answer": "easily",
+      "prompt": "Microsoft Word is a common word processor.",
+      "answer": "Word",
       "options": [
-        "easily",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "readingText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "audioText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      "audioText": "Microsoft Word is a common word processor.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Microsoft Word is a common word ____.",
-      "answer": "processor",
+      "prompt": "What is the story mainly about?",
+      "answer": "Word",
       "options": [
-        "processor",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "readingText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor.",
-      "audioText": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Word Processing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Word processing software creates documents. Students use it for assignments and reports. Text can be edited and formatted easily. Microsoft Word is a common word processor."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

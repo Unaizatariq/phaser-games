@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 7,
   "topic": "Operating a Computer",
-  "teach": "A computer should be started carefully.",
-  "examples": [
-    "A computer should be started carefully.",
-    "We use the power button to turn it on.",
-    "Programs help us perform different tasks."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Operating a Computer",
+      "prompt": "A computer should be started carefully.",
+      "answer": "Operating",
       "options": [
-        "Operating a Computer",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "readingText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "audioText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      "audioText": "A computer should be started carefully.",
+      "art": "📚",
+      "questionText": "According to the story about Operating a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer should be ____ carefully.",
-      "answer": "started",
+      "prompt": "We use the power button to turn it on.",
+      "answer": "Operating",
       "options": [
-        "started",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "readingText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "audioText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      "audioText": "We use the power button to turn it on.",
+      "art": "📚",
+      "questionText": "According to the story about Operating a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use the power button to ____ it on.",
-      "answer": "turn",
+      "prompt": "Programs help us perform different tasks.",
+      "answer": "Operating",
       "options": [
-        "turn",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "readingText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "audioText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      "audioText": "Programs help us perform different tasks.",
+      "art": "📚",
+      "questionText": "According to the story about Operating a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Programs help us perform different ____.",
-      "answer": "tasks",
+      "prompt": "Computers should be shut down properly.",
+      "answer": "Operating",
       "options": [
-        "tasks",
-        "Introduction to Computers",
-        "machines",
-        "offices"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "readingText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "audioText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      "audioText": "Computers should be shut down properly.",
+      "art": "📚",
+      "questionText": "According to the story about Operating a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers should be shut down ____.",
-      "answer": "properly",
+      "prompt": "What is the story mainly about?",
+      "answer": "Operating",
       "options": [
-        "properly",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "readingText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly.",
-      "audioText": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Operating a Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer should be started carefully. We use the power button to turn it on. Programs help us perform different tasks. Computers should be shut down properly."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

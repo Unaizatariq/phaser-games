@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 9,
-  "topic": "Punctuation",
-  "teach": "Punctuation marks help us read. A full stop ends a statement. A question mark ends a question.",
-  "examples": [
-    "full stop",
-    "question mark",
-    "comma"
-  ],
+  "topic": "Keyboard Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Which mark ends a question?",
-      "answer": "question mark",
-      "options": [],
-      "audioText": "Which mark ends a question?"
+      "prompt": "Type the word: Apple",
+      "answer": "Apple",
+      "options": [
+        "Apple",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Apple",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Apple": "🍎",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Which mark ends a telling sentence?",
-      "answer": "full stop",
-      "options": [],
-      "audioText": "Which mark ends a telling sentence?"
+      "prompt": "Type the word: Ball",
+      "answer": "Ball",
+      "options": [
+        "Ball",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Ball",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Ball": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct sentence.",
-      "answer": "What is your name?",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct sentence."
+      "prompt": "Type the word: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Type the word: School",
+      "art": "🏫",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct sentence.",
-      "answer": "I like apples.",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct sentence."
+      "prompt": "Type the word: Teacher",
+      "answer": "Teacher",
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Teacher",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Punctuation helps make sentences",
-      "answer": "clear",
-      "options": [],
-      "audioText": "Write the answer: Punctuation helps make sentences"
+      "prompt": "Type the word: Book",
+      "answer": "Book",
+      "options": [
+        "Book",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type the word: Book",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Book": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

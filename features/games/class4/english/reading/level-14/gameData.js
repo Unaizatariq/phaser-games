@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 14,
   "topic": "Healthy Food",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "balanced meals"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Healthy food keeps our body strong and protects us from diseases.",
       "answer": "balanced meals",
       "options": [
         "balanced meals",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "only sweets",
         "no water"
       ],
-      "text": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "audioText": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+      "audioText": "Healthy food keeps our body strong and protects us from diseases.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Fruits and vegetables provide vitamins and minerals.",
       "answer": "balanced meals",
       "options": [
         "balanced meals",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "only sweets",
         "no water"
       ],
-      "text": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "audioText": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+      "audioText": "Fruits and vegetables provide vitamins and minerals.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Milk, eggs, and meat help our body grow.",
       "answer": "balanced meals",
       "options": [
         "balanced meals",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "only sweets",
         "no water"
       ],
-      "text": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "audioText": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+      "audioText": "Milk, eggs, and meat help our body grow.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Junk food may taste good, but eating too much can harm our health.",
       "answer": "balanced meals",
       "options": [
         "balanced meals",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "only sweets",
         "no water"
       ],
-      "text": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "audioText": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+      "audioText": "Junk food may taste good, but eating too much can harm our health.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Balanced meals are important for everyone.",
       "answer": "balanced meals",
       "options": [
         "balanced meals",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "only sweets",
         "no water"
       ],
-      "text": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone.",
-      "audioText": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+      "audioText": "Balanced meals are important for everyone.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "balanced meals",
+      "options": [
+        "balanced meals",
+        "only chips",
+        "only sweets",
+        "no water"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Food, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "balanced meals": "🔹",
+        "only chips": "🔹",
+        "only sweets": "🔹",
+        "no water": "💧"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Healthy food keeps our body strong and protects us from diseases. Fruits and vegetables provide vitamins and minerals. Milk, eggs, and meat help our body grow. Junk food may taste good, but eating too much can harm our health. Balanced meals are important for everyone."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 7,
   "topic": "Tall and Short",
-  "teach": "The giraffe is tall.",
-  "examples": [
-    "The giraffe is tall.",
-    "The rabbit is short.",
-    "Some things are tall."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Tall and Short",
+      "prompt": "The giraffe is tall.",
+      "answer": "Tall",
       "options": [
-        "Tall and Short",
-        "Counting 1 to 5",
-        "Big and Small",
-        "Shapes"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "readingText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "audioText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      "audioText": "The giraffe is tall.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The giraffe is ____.",
-      "answer": "tall",
+      "prompt": "The rabbit is short.",
+      "answer": "Tall",
       "options": [
-        "tall",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "readingText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "audioText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      "audioText": "The rabbit is short.",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The rabbit is ____.",
-      "answer": "short",
+      "prompt": "Some things are tall.",
+      "answer": "Tall",
       "options": [
-        "short",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "readingText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "audioText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      "audioText": "Some things are tall.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "tall",
+      "prompt": "Some things are short.",
+      "answer": "Tall",
       "options": [
-        "tall",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "readingText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "audioText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      "audioText": "Some things are short.",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "short",
+      "prompt": "What is the story mainly about?",
+      "answer": "Tall",
       "options": [
-        "short",
-        "Counting 1 to 5",
-        "apple",
-        "balls"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "readingText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short.",
-      "audioText": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The giraffe is tall. The rabbit is short. Some things are tall. Some things are short."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

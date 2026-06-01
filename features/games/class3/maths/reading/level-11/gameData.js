@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 11,
   "topic": "Time",
-  "teach": "Time helps us plan activities.",
-  "examples": [
-    "Time helps us plan activities.",
-    "Clocks and calendars measure time.",
-    "There are 24 hours in one day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Time helps us plan activities.",
       "answer": "Time",
       "options": [
         "Time",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "readingText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "audioText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      "audioText": "Time helps us plan activities.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Time helps us plan ____.",
-      "answer": "activities",
+      "prompt": "Clocks and calendars measure time.",
+      "answer": "Time",
       "options": [
-        "activities",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "readingText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "audioText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      "audioText": "Clocks and calendars measure time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are 24 hours in one ____.",
-      "answer": "day",
+      "prompt": "There are 24 hours in one day.",
+      "answer": "Time",
       "options": [
-        "day",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "readingText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "audioText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      "audioText": "There are 24 hours in one day.",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "activities",
+      "prompt": "Minutes and seconds are smaller units of time.",
+      "answer": "Time",
       "options": [
-        "activities",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "readingText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "audioText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      "audioText": "Minutes and seconds are smaller units of time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "time",
+      "prompt": "What is the story mainly about?",
+      "answer": "Time",
       "options": [
-        "time",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Time",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "readingText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time.",
-      "audioText": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Time, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Time": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Time helps us plan activities. Clocks and calendars measure time. There are 24 hours in one day. Minutes and seconds are smaller units of time."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

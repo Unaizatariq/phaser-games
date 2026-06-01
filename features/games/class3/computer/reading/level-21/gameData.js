@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 21,
-  "topic": "Educational software improves learning.",
-  "teach": "Technology makes education more interesting.",
-  "examples": [
-    "Technology makes education more interesting."
-  ],
+  "topic": "Introduction to Computers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Educational software improves learning.",
+      "prompt": "Computers are electronic machines.",
+      "answer": "Introduction",
       "options": [
-        "Educational software improves learning.",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes education more interesting.",
-      "readingText": "Technology makes education more interesting.",
-      "audioText": "Technology makes education more interesting."
+      "audioText": "Computers are electronic machines.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes education more ____.",
-      "answer": "interesting",
+      "prompt": "They help people perform many tasks quickly.",
+      "answer": "Introduction",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes education more interesting.",
-      "readingText": "Technology makes education more interesting.",
-      "audioText": "Technology makes education more interesting."
+      "audioText": "They help people perform many tasks quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interesting",
+      "prompt": "Computers are used in homes, schools, and offices.",
+      "answer": "Introduction",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes education more interesting.",
-      "readingText": "Technology makes education more interesting.",
-      "audioText": "Technology makes education more interesting."
+      "audioText": "Computers are used in homes, schools, and offices.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interesting",
+      "prompt": "They save time and effort.",
+      "answer": "Introduction",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes education more interesting.",
-      "readingText": "Technology makes education more interesting.",
-      "audioText": "Technology makes education more interesting."
+      "audioText": "They save time and effort.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "interesting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology makes education more interesting.",
-      "readingText": "Technology makes education more interesting.",
-      "audioText": "Technology makes education more interesting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology makes education more interesting."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

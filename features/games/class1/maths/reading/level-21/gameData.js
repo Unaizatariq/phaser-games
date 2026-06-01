@@ -1,87 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 21,
-  "topic": "Word problems are part of daily life.",
-  "teach": "Practice improves problem-solving skills.",
-  "examples": [
-    "Practice improves problem-solving skills."
-  ],
+  "topic": "Counting Numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Word problems are part of daily life.",
+      "prompt": "Numbers help us count things.",
+      "answer": "Counting",
       "options": [
-        "Word problems are part of daily life.",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Practice improves problem-solving skills.",
-      "readingText": "Practice improves problem-solving skills.",
-      "audioText": "Practice improves problem-solving skills."
+      "audioText": "Numbers help us count things.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "skills",
+      "prompt": "We can count toys, pencils, and books.",
+      "answer": "Counting",
       "options": [
-        "skills",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Practice improves problem-solving skills.",
-      "readingText": "Practice improves problem-solving skills.",
-      "audioText": "Practice improves problem-solving skills."
+      "audioText": "We can count toys, pencils, and books.",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "skills",
+      "prompt": "Counting is useful every day.",
+      "answer": "Counting",
       "options": [
-        "skills",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Practice improves problem-solving skills.",
-      "readingText": "Practice improves problem-solving skills.",
-      "audioText": "Practice improves problem-solving skills."
+      "audioText": "Counting is useful every day.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "skills",
+      "prompt": "Practice makes counting easy.",
+      "answer": "Counting",
       "options": [
-        "skills",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Practice improves problem-solving skills.",
-      "readingText": "Practice improves problem-solving skills.",
-      "audioText": "Practice improves problem-solving skills."
+      "audioText": "Practice makes counting easy.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "skills",
+      "prompt": "What is the story mainly about?",
+      "answer": "Counting",
       "options": [
-        "skills",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Counting",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Practice improves problem-solving skills.",
-      "readingText": "Practice improves problem-solving skills.",
-      "audioText": "Practice improves problem-solving skills."
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Counting Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Counting": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Practice improves problem-solving skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

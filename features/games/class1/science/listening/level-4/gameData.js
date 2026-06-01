@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 4,
-  "topic": "Common Animals",
-  "teach": "Pets live with us. Farm animals live on farms and help people.",
-  "examples": [
-    "cat",
-    "cow",
-    "goat"
-  ],
+  "topic": "body parts",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "cat",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "cat",
-        "lion",
-        "cow",
-        "horse cart"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Which animal is a pet?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "cow",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "cow",
-        "dog",
-        "cat",
-        "fish"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Which animal gives milk?"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "farm animal",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "farm animal",
-        "computer",
-        "weather",
-        "shape"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "A goat is a common"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "dog",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "dog",
-        "cow",
-        "hen",
-        "goat"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "Which animal barks?"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "farm",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "farm",
+        "water",
+        "printer",
         "keyboard",
-        "cloud",
-        "clock"
+        "candy"
       ],
-      "audioText": "Farm animals usually live on a"
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

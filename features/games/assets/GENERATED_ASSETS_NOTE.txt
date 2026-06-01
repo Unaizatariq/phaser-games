@@ -1,0 +1,1 @@
+Old inconsistent subject/mascot assets were removed/ignored. Games now use responsive generated vector-style HTML/CSS graphics and the provided bg-game + feedback audio files.

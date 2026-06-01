@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 5,
   "topic": "Food Chain",
-  "teach": "A food chain shows how living things get food.",
-  "examples": [
-    "A food chain shows how living things get food.",
-    "Plants are producers.",
-    "Animals that eat plants are consumers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Food Chain",
+      "prompt": "A food chain shows how living things get food.",
+      "answer": "Food",
       "options": [
-        "Food Chain",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "readingText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "audioText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      "audioText": "A food chain shows how living things get food.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A ____ chain shows how living things get food.",
-      "answer": "food",
+      "prompt": "Plants are producers.",
+      "answer": "Food",
       "options": [
-        "food",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "readingText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "audioText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      "audioText": "Plants are producers.",
+      "art": "📚",
+      "questionText": "According to the story about Food Chain, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants are ____.",
-      "answer": "producers",
+      "prompt": "Animals that eat plants are consumers.",
+      "answer": "Food",
       "options": [
-        "producers",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "readingText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "audioText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      "audioText": "Animals that eat plants are consumers.",
+      "art": "📚",
+      "questionText": "According to the story about Food Chain, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals that eat plants are ____.",
-      "answer": "consumers",
+      "prompt": "Every living thing depends on another.",
+      "answer": "Food",
       "options": [
-        "consumers",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "readingText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "audioText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      "audioText": "Every living thing depends on another.",
+      "art": "📚",
+      "questionText": "According to the story about Food Chain, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Every living thing depends on ____.",
-      "answer": "another",
+      "prompt": "What is the story mainly about?",
+      "answer": "Food",
       "options": [
-        "another",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Food",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "readingText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another.",
-      "audioText": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Food Chain, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Food": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A food chain shows how living things get food. Plants are producers. Animals that eat plants are consumers. Every living thing depends on another."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

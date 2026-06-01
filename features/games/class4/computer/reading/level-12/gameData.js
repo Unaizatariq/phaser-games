@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 12,
   "topic": "Computer Networks",
-  "teach": "A computer network connects multiple computers.",
-  "examples": [
-    "A computer network connects multiple computers.",
-    "Networks allow sharing information and resources.",
-    "Schools and offices use computer networks."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Networks",
+      "prompt": "A computer network connects multiple computers.",
+      "answer": "Computer",
       "options": [
-        "Computer Networks",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "readingText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "audioText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      "audioText": "A computer network connects multiple computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer network connects multiple ____.",
-      "answer": "computers",
+      "prompt": "Networks allow sharing information and resources.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "readingText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "audioText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      "audioText": "Networks allow sharing information and resources.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Networks, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Networks allow sharing information and ____.",
-      "answer": "resources",
+      "prompt": "Schools and offices use computer networks.",
+      "answer": "Computer",
       "options": [
-        "resources",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "readingText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "audioText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      "audioText": "Schools and offices use computer networks.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Schools and offices use computer ____.",
-      "answer": "networks",
+      "prompt": "The internet is the largest network.",
+      "answer": "Computer",
       "options": [
-        "networks",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "readingText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "audioText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      "audioText": "The internet is the largest network.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Networks, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet is the largest ____.",
-      "answer": "network",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "network",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "readingText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network.",
-      "audioText": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Networks, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer network connects multiple computers. Networks allow sharing information and resources. Schools and offices use computer networks. The internet is the largest network."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

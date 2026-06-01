@@ -1,88 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 3,
   "topic": "Rapid Maths",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "One Fifty",
-    "One Twenty Five",
-    "One Hundred"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "What is 120 + 30?",
       "answer": "One Fifty",
-      "expected": "One Fifty",
-      "options": [],
+      "options": [
+        "One Fifty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What is 120 + 30?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 120,
+        "op": "+",
+        "b": 30,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 200 - 75?",
       "answer": "One Twenty Five",
-      "expected": "One Twenty Five",
-      "options": [],
+      "options": [
+        "One Twenty Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What is 200 - 75?",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 200,
+        "op": "-",
+        "b": 75,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Twenty Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 25 × 4?",
       "answer": "One Hundred",
-      "expected": "One Hundred",
-      "options": [],
+      "options": [
+        "One Hundred",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What is 25 × 4?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Hundred": "🔴",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 144 ÷ 12?",
       "answer": "Twelve",
-      "expected": "Twelve",
-      "options": [],
-      "audioText": "What is 144 ÷ 12?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Twelve",
-        "12"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 144 ÷ 12?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Twelve": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is 100 % 25?",
       "answer": "Zero",
-      "expected": "Zero",
-      "options": [],
-      "audioText": "What is 100 % 25?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Zero",
-        "0"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is 100 % 25?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

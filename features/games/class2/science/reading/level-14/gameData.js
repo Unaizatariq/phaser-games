@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 14,
   "topic": "Five Senses",
-  "teach": "We have five senses.",
-  "examples": [
-    "We have five senses.",
-    "Eyes help us see.",
-    "Nose helps us smell."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Five Senses",
+      "prompt": "We have five senses.",
+      "answer": "Five",
       "options": [
-        "Five Senses",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Five",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "readingText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "audioText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      "audioText": "We have five senses.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Five": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We have five ____.",
-      "answer": "senses",
+      "prompt": "Eyes help us see.",
+      "answer": "Five",
       "options": [
-        "senses",
-        "Living Things",
-        "move",
-        "things"
+        "Five",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "readingText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "audioText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      "audioText": "Eyes help us see.",
+      "art": "📚",
+      "questionText": "According to the story about Five Senses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Five": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Eyes help us ____.",
-      "answer": "see",
+      "prompt": "Nose helps us smell.",
+      "answer": "Five",
       "options": [
-        "see",
-        "Living Things",
-        "move",
-        "things"
+        "Five",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "readingText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "audioText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      "audioText": "Nose helps us smell.",
+      "art": "📚",
+      "questionText": "According to the story about Five Senses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Five": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Nose helps us ____.",
-      "answer": "smell",
+      "prompt": "Tongue helps us taste.",
+      "answer": "Five",
       "options": [
-        "smell",
-        "Living Things",
-        "move",
-        "things"
+        "Five",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "readingText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "audioText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      "audioText": "Tongue helps us taste.",
+      "art": "📚",
+      "questionText": "According to the story about Five Senses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Five": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tongue helps us ____.",
-      "answer": "taste",
+      "prompt": "What is the story mainly about?",
+      "answer": "Five",
       "options": [
-        "taste",
-        "Living Things",
-        "move",
-        "things"
+        "Five",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "readingText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste.",
-      "audioText": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Five Senses, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Five": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We have five senses. Eyes help us see. Nose helps us smell. Tongue helps us taste."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 6,
-  "topic": "Using a Mouse",
-  "teach": "A mouse helps us move the pointer, click and select things on the screen.",
-  "examples": [
-    "pointer",
-    "click",
-    "select"
-  ],
+  "topic": "Computer Vocabulary Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: Mouse moves the",
-      "answer": "pointer",
-      "options": [],
-      "audioText": "Write the answer: Mouse moves the"
+      "prompt": "Type the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Computer",
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Pressing mouse button is called",
-      "answer": "click",
-      "options": [],
-      "audioText": "Write the answer: Pressing mouse button is called"
+      "prompt": "Type the word: Monitor",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: Monitor",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A mouse is held with",
-      "answer": "hand",
-      "options": [],
-      "audioText": "Write the answer: A mouse is held with"
+      "prompt": "Type the word: Mouse",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Mouse",
+      "art": "🖱️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Single click means pressing",
-      "answer": "once",
-      "options": [],
-      "audioText": "Write the answer: Single click means pressing"
+      "prompt": "Type the word: Keyboard",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Type the word: Keyboard",
+      "art": "⌨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Mouse helps us select things on",
-      "answer": "screen",
-      "options": [],
-      "audioText": "Write the answer: Mouse helps us select things on"
+      "prompt": "Type the word: CPU",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: CPU",
+      "art": "🧠",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

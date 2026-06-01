@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
   "topic": "Animals Around Us",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "animals"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Dogs, cats, and cows are animals.",
       "answer": "animals",
       "options": [
         "animals",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "fruits",
         "books"
       ],
-      "text": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "audioText": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+      "audioText": "Dogs, cats, and cows are animals.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "animals": "🐄",
+        "colors": "🔹",
+        "fruits": "🔹",
+        "books": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Some animals live on farms.",
       "answer": "animals",
       "options": [
         "animals",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "fruits",
         "books"
       ],
-      "text": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "audioText": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+      "audioText": "Some animals live on farms.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "animals": "🐄",
+        "colors": "🔹",
+        "fruits": "🔹",
+        "books": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Some animals live in our homes.",
       "answer": "animals",
       "options": [
         "animals",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "fruits",
         "books"
       ],
-      "text": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "audioText": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+      "audioText": "Some animals live in our homes.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "animals": "🐄",
+        "colors": "🔹",
+        "fruits": "🔹",
+        "books": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Animals are useful and friendly.",
       "answer": "animals",
       "options": [
         "animals",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "fruits",
         "books"
       ],
-      "text": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "audioText": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+      "audioText": "Animals are useful and friendly.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "animals": "🐄",
+        "colors": "🔹",
+        "fruits": "🔹",
+        "books": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "animals",
       "options": [
         "animals",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "fruits",
         "books"
       ],
-      "text": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly.",
-      "audioText": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "animals": "🐄",
+        "colors": "🔹",
+        "fruits": "🔹",
+        "books": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Dogs, cats, and cows are animals. Some animals live on farms. Some animals live in our homes. Animals are useful and friendly."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

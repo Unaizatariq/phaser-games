@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
   "topic": "Weather",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "weather"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Sometimes the weather is sunny and warm.",
       "answer": "weather",
       "options": [
         "weather",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "toy",
         "animal"
       ],
-      "text": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "audioText": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+      "audioText": "Sometimes the weather is sunny and warm.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "weather": "☀️",
+        "teacher": "👩‍🏫",
+        "toy": "🔹",
+        "animal": "🐄"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Sometimes it rains and clouds cover the sky.",
       "answer": "weather",
       "options": [
         "weather",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "toy",
         "animal"
       ],
-      "text": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "audioText": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+      "audioText": "Sometimes it rains and clouds cover the sky.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "weather": "☀️",
+        "teacher": "👩‍🏫",
+        "toy": "🔹",
+        "animal": "🐄"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Weather changes every day.",
       "answer": "weather",
       "options": [
         "weather",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "toy",
         "animal"
       ],
-      "text": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "audioText": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+      "audioText": "Weather changes every day.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "weather": "☀️",
+        "teacher": "👩‍🏫",
+        "toy": "🔹",
+        "animal": "🐄"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "What is the story mainly about?",
       "answer": "weather",
       "options": [
         "weather",
@@ -61,27 +97,58 @@ window.GAME_DATA = {
         "toy",
         "animal"
       ],
-      "text": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "audioText": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "weather": "☀️",
+        "teacher": "👩‍🏫",
+        "toy": "🔹",
+        "animal": "🐄"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
-      "answer": "weather",
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
       "options": [
-        "weather",
-        "teacher",
-        "toy",
-        "animal"
+        "family",
+        "animals",
+        "toys",
+        "cars"
       ],
-      "text": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day.",
-      "audioText": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🌳",
+      "questionText": "Who lives together?",
+      "sentenceOrder": [
+        "My family has my mother, father, sister, and me.",
+        "We live together."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sometimes the weather is sunny and warm. Sometimes it rains and clouds cover the sky. Weather changes every day."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

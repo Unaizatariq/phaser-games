@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 4,
   "topic": "Fractions",
-  "teach": "Fractions represent parts of a whole.",
-  "examples": [
-    "Fractions represent parts of a whole.",
-    "Equivalent fractions have the same value.",
-    "Fractions can be added and subtracted."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Fractions represent parts of a whole.",
       "answer": "Fractions",
       "options": [
         "Fractions",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "readingText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "audioText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      "audioText": "Fractions represent parts of a whole.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions represent parts of a ____.",
-      "answer": "whole",
+      "prompt": "Equivalent fractions have the same value.",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "readingText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "audioText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      "audioText": "Equivalent fractions have the same value.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Equivalent fractions have the same ____.",
-      "answer": "value",
+      "prompt": "Fractions can be added and subtracted.",
+      "answer": "Fractions",
       "options": [
-        "value",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "readingText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "audioText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      "audioText": "Fractions can be added and subtracted.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions can be added and ____.",
-      "answer": "subtracted",
+      "prompt": "Fractions are useful in daily life.",
+      "answer": "Fractions",
       "options": [
-        "subtracted",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "readingText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "audioText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      "audioText": "Fractions are useful in daily life.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "whole",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "readingText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life.",
-      "audioText": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fractions represent parts of a whole. Equivalent fractions have the same value. Fractions can be added and subtracted. Fractions are useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

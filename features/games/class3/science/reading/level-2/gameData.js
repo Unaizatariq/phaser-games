@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Parts of a Plant",
-  "teach": "Plants have roots, stems, leaves, and flowers.",
-  "examples": [
-    "Plants have roots, stems, leaves, and flowers.",
-    "Roots absorb water from the soil.",
-    "Leaves make food for the plant."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Parts of a Plant",
+      "prompt": "Plants have roots, stems, leaves, and flowers.",
+      "answer": "Parts",
       "options": [
-        "Parts of a Plant",
-        "Living and Non-Living Things",
-        "Animals and Their Habitats",
-        "Food and Nutrition"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "readingText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "audioText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      "audioText": "Plants have roots, stems, leaves, and flowers.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants have roots, stems, leaves, and ____.",
-      "answer": "flowers",
+      "prompt": "Roots absorb water from the soil.",
+      "answer": "Parts",
       "options": [
-        "flowers",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "readingText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "audioText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      "audioText": "Roots absorb water from the soil.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Roots absorb water from the ____.",
-      "answer": "soil",
+      "prompt": "Leaves make food for the plant.",
+      "answer": "Parts",
       "options": [
-        "soil",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "readingText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "audioText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      "audioText": "Leaves make food for the plant.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Leaves make food for the ____.",
-      "answer": "plant",
+      "prompt": "Flowers make fruits and seeds.",
+      "answer": "Parts",
       "options": [
-        "plant",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "readingText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "audioText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      "audioText": "Flowers make fruits and seeds.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers make fruits and ____.",
-      "answer": "seeds",
+      "prompt": "What is the story mainly about?",
+      "answer": "Parts",
       "options": [
-        "seeds",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "readingText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds.",
-      "audioText": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants have roots, stems, leaves, and flowers. Roots absorb water from the soil. Leaves make food for the plant. Flowers make fruits and seeds."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

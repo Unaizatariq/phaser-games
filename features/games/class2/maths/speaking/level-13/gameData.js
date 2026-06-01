@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 13,
-  "topic": "Word Problems",
-  "teach": "Word Problems teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Place Value",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "Say the answer: What is the topic about?"
+      "prompt": "What is the tens digit in 54?",
+      "answer": "Five",
+      "options": [
+        "Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the tens digit in 54?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Say the answer: Computers help us"
+      "prompt": "What is the ones digit in 89?",
+      "answer": "Nine",
+      "options": [
+        "Nine",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the ones digit in 89?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Nine": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Say the answer: We should use computers"
+      "prompt": "What is the place value of 3 in 34?",
+      "answer": "Thirty",
+      "options": [
+        "Thirty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the place value of 3 in 34?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Thirty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Say the answer: A keyboard is used to"
+      "prompt": "What is the tens digit in 72?",
+      "answer": "Seven",
+      "options": [
+        "Seven",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the tens digit in 72?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Seven": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Say the answer: Good digital habit means"
+      "prompt": "What is the place value of 5 in 58?",
+      "answer": "Fifty",
+      "options": [
+        "Fifty",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "What is the place value of 5 in 58?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifty": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

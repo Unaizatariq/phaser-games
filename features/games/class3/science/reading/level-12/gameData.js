@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 12,
   "topic": "Force and Movement",
-  "teach": "Force helps objects move.",
-  "examples": [
-    "Force helps objects move.",
-    "We push or pull objects.",
-    "Bicycles move when we pedal them."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Force and Movement",
+      "prompt": "Force helps objects move.",
+      "answer": "Force",
       "options": [
-        "Force and Movement",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "readingText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "audioText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      "audioText": "Force helps objects move.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Force helps objects ____.",
-      "answer": "move",
+      "prompt": "We push or pull objects.",
+      "answer": "Force",
       "options": [
-        "move",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "readingText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "audioText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      "audioText": "We push or pull objects.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Movement, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We push or pull ____.",
-      "answer": "objects",
+      "prompt": "Bicycles move when we pedal them.",
+      "answer": "Force",
       "options": [
-        "objects",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "readingText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "audioText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      "audioText": "Bicycles move when we pedal them.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Movement, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bicycles move when we ____ them.",
-      "answer": "pedal",
+      "prompt": "Balls roll when we kick them.",
+      "answer": "Force",
       "options": [
-        "pedal",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "readingText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "audioText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      "audioText": "Balls roll when we kick them.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Movement, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Balls roll when we ____ them.",
-      "answer": "kick",
+      "prompt": "What is the story mainly about?",
+      "answer": "Force",
       "options": [
-        "kick",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "readingText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them.",
-      "audioText": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Force and Movement, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Force helps objects move. We push or pull objects. Bicycles move when we pedal them. Balls roll when we kick them."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

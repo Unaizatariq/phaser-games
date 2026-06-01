@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 17,
   "topic": "Internet",
-  "teach": "The internet connects computers.",
-  "examples": [
-    "The internet connects computers.",
-    "People use the internet to learn new things.",
-    "Children should use the internet with adults."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The internet connects computers.",
       "answer": "Internet",
       "options": [
         "Internet",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "readingText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "audioText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      "audioText": "The internet connects computers.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet connects ____.",
-      "answer": "computers",
+      "prompt": "People use the internet to learn new things.",
+      "answer": "Internet",
       "options": [
-        "computers",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "readingText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "audioText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      "audioText": "People use the internet to learn new things.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use the internet to learn new ____.",
-      "answer": "things",
+      "prompt": "Children should use the internet with adults.",
+      "answer": "Internet",
       "options": [
-        "things",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "readingText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "audioText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      "audioText": "Children should use the internet with adults.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children should use the internet with ____.",
-      "answer": "adults",
+      "prompt": "The internet gives information quickly.",
+      "answer": "Internet",
       "options": [
-        "adults",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "readingText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "audioText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      "audioText": "The internet gives information quickly.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet gives ____ quickly.",
-      "answer": "information",
+      "prompt": "What is the story mainly about?",
+      "answer": "Internet",
       "options": [
-        "information",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "readingText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly.",
-      "audioText": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+      "audioText": "What is the story mainly about?",
+      "art": "🌐",
+      "questionText": "According to the story about Internet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The internet connects computers. People use the internet to learn new things. Children should use the internet with adults. The internet gives information quickly."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

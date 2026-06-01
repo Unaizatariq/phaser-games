@@ -1,66 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 3,
   "topic": "Image Identification",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Bacteria",
-    "Mars",
-    "Magnet"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "What is this microorganism?",
       "answer": "Bacteria",
-      "expected": "Bacteria",
-      "options": [],
+      "options": [
+        "Bacteria",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "What is this microorganism?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "bacteria.png",
-      "requiredAsset": "bacteria.png"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Bacteria": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Identify this planet.",
       "answer": "Mars",
-      "expected": "Mars",
-      "options": [],
+      "options": [
+        "Mars",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Identify this planet.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "mars.png",
-      "requiredAsset": "mars.png"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Mars": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What is this science object?",
       "answer": "Magnet",
-      "expected": "Magnet",
-      "options": [],
+      "options": [
+        "Magnet",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "What is this science object?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "magnet.png",
-      "requiredAsset": "magnet.png"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Magnet": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
+    },
+    {
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🍎",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
+    },
+    {
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🧊",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

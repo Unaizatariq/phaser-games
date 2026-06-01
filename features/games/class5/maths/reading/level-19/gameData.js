@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 19,
   "topic": "Problem Solving",
-  "teach": "Problem solving uses mathematical thinking.",
-  "examples": [
-    "Problem solving uses mathematical thinking.",
-    "Word problems apply math to daily situations.",
-    "Careful reading helps solve problems correctly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Problem Solving",
+      "prompt": "Problem solving uses mathematical thinking.",
+      "answer": "Problem",
       "options": [
-        "Problem Solving",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "readingText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "audioText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      "audioText": "Problem solving uses mathematical thinking.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Problem solving uses mathematical ____.",
-      "answer": "thinking",
+      "prompt": "Word problems apply math to daily situations.",
+      "answer": "Problem",
       "options": [
-        "thinking",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "readingText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "audioText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      "audioText": "Word problems apply math to daily situations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word problems apply math to daily ____.",
-      "answer": "situations",
+      "prompt": "Careful reading helps solve problems correctly.",
+      "answer": "Problem",
       "options": [
-        "situations",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "readingText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "audioText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      "audioText": "Careful reading helps solve problems correctly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Careful reading helps solve problems ____.",
-      "answer": "correctly",
+      "prompt": "Practice improves problem-solving skills.",
+      "answer": "Problem",
       "options": [
-        "correctly",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "readingText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "audioText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      "audioText": "Practice improves problem-solving skills.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "skills",
+      "prompt": "What is the story mainly about?",
+      "answer": "Problem",
       "options": [
-        "skills",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "readingText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills.",
-      "audioText": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Problem Solving, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Problem solving uses mathematical thinking. Word problems apply math to daily situations. Careful reading helps solve problems correctly. Practice improves problem-solving skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

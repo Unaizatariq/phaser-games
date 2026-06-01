@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 12,
   "topic": "Honesty",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "honesty"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Honesty means always telling the truth and being fair to others.",
       "answer": "honesty",
       "options": [
         "honesty",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "audioText": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+      "audioText": "Honesty means always telling the truth and being fair to others.",
+      "art": "⭐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Honest people are trusted and respected by everyone.",
       "answer": "honesty",
       "options": [
         "honesty",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "audioText": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+      "audioText": "Honest people are trusted and respected by everyone.",
+      "art": "⭐",
+      "questionText": "According to the story about Honesty, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Even when mistakes happen, honest people admit them instead of hiding the truth.",
       "answer": "honesty",
       "options": [
         "honesty",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "audioText": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+      "audioText": "Even when mistakes happen, honest people admit them instead of hiding the truth.",
+      "art": "⭐",
+      "questionText": "According to the story about Honesty, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Honesty helps build strong friendships and good character.",
       "answer": "honesty",
       "options": [
         "honesty",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "audioText": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+      "audioText": "Honesty helps build strong friendships and good character.",
+      "art": "⭐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "It is one of the best qualities a person can have.",
       "answer": "honesty",
       "options": [
         "honesty",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "anger",
         "fear"
       ],
-      "text": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have.",
-      "audioText": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+      "audioText": "It is one of the best qualities a person can have.",
+      "art": "⭐",
+      "questionText": "According to the story about Honesty, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "honesty",
+      "options": [
+        "honesty",
+        "dishonesty",
+        "anger",
+        "fear"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "⭐",
+      "questionText": "According to the story about Honesty, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "honesty": "🔹",
+        "dishonesty": "🔹",
+        "anger": "🔹",
+        "fear": "👂"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Honesty means always telling the truth and being fair to others. Honest people are trusted and respected by everyone. Even when mistakes happen, honest people admit them instead of hiding the truth. Honesty helps build strong friendships and good character. It is one of the best qualities a person can have."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

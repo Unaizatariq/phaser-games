@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "Weather and Seasons",
-  "teach": "Weather changes every day.",
-  "examples": [
-    "Weather changes every day.",
-    "Some days are sunny and warm.",
-    "Rainy days bring clouds and rain."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Weather and Seasons",
+      "prompt": "Weather changes every day.",
+      "answer": "Weather",
       "options": [
-        "Weather and Seasons",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "readingText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "audioText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      "audioText": "Weather changes every day.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather changes every ____.",
-      "answer": "day",
+      "prompt": "Some days are sunny and warm.",
+      "answer": "Weather",
       "options": [
-        "day",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "readingText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "audioText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      "audioText": "Some days are sunny and warm.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some days are sunny and ____.",
-      "answer": "warm",
+      "prompt": "Rainy days bring clouds and rain.",
+      "answer": "Weather",
       "options": [
-        "warm",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "readingText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "audioText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      "audioText": "Rainy days bring clouds and rain.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Rainy days bring clouds and ____.",
-      "answer": "rain",
+      "prompt": "Different seasons affect our activities.",
+      "answer": "Weather",
       "options": [
-        "rain",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "readingText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "audioText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      "audioText": "Different seasons affect our activities.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Different seasons affect our ____.",
-      "answer": "activities",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "activities",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "readingText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities.",
-      "audioText": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Seasons, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Weather changes every day. Some days are sunny and warm. Rainy days bring clouds and rain. Different seasons affect our activities."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

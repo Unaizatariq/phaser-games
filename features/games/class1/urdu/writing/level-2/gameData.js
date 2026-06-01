@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 2,
   "topic": "جملہ مکمل کریں",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "اسکول",
-    "کرکٹ",
-    "سو"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "جملہ مکمل کریں: میں ___ جاتا ہوں۔",
       "answer": "اسکول",
-      "expected": "اسکول",
-      "options": [],
+      "options": [
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        }
+      ],
       "audioText": "جملہ مکمل کریں: میں ___ جاتا ہوں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🏫",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "اسکول": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "پارک": "🌳",
+        "دوست": "🧒"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ مکمل کریں: علی ___ کھیلتا ہے۔",
       "answer": "کرکٹ",
-      "expected": "کرکٹ",
-      "options": [],
+      "options": [
+        {
+          "text": "کرکٹ",
+          "tts": "cricket"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ مکمل کریں: علی ___ کھیلتا ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "کرکٹ": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ مکمل کریں: بلی ___ رہی ہے۔",
       "answer": "سو",
-      "expected": "سو",
-      "options": [],
+      "options": [
+        {
+          "text": "سو",
+          "tts": "سو"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ مکمل کریں: بلی ___ رہی ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "سو": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ مکمل کریں: یہ ___ ہے۔",
       "answer": "کتاب",
-      "expected": "کتاب",
-      "options": [],
+      "options": [
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ مکمل کریں: یہ ___ ہے۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "کتاب": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "جملہ مکمل کریں: ہم ___ ہیں۔",
       "answer": "خوش",
-      "expected": "خوش",
-      "options": [],
+      "options": [
+        {
+          "text": "خوش",
+          "tts": "خوش"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ مکمل کریں: ہم ___ ہیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "خوش": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

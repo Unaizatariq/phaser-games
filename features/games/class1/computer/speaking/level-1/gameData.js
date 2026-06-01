@@ -1,84 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 1,
   "topic": "Computer Vocabulary",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Computer",
-    "Monitor",
-    "Mouse"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say the word: Computer",
       "answer": "Computer",
-      "expected": "Computer",
-      "options": [],
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Say the word: Computer",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: Monitor",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Say the word: Monitor",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: Mouse",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Say the word: Mouse",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖱️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: Keyboard",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Say the word: Keyboard",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "⌨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the word: CPU",
       "answer": "CPU",
-      "expected": "CPU",
-      "options": [],
-      "audioText": "Say the word: CPU",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "CPU",
-        "C P U"
-      ]
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Say the word: CPU",
+      "art": "🧠",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 10,
-  "topic": "Subject and Predicate",
-  "teach": "Subject and Predicate is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Subject and Predicate",
-    "example",
-    "practice"
-  ],
+  "topic": "Vocabulary Speaking",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is today’s topic?",
-      "answer": "Subject and Predicate",
-      "options": [],
-      "audioText": "Say the answer: What is today’s topic?"
+      "prompt": "Say the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Computer",
+      "art": "💻",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Computer": "💻",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Say the answer: To learn this topic, first we should"
+      "prompt": "Say the word: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Say the word: School",
+      "art": "🏫",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Say the answer: A good answer should be"
+      "prompt": "Say the word: Elephant",
+      "answer": "Elephant",
+      "options": [
+        "Elephant",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Elephant",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Elephant": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Say the answer: Practice helps us"
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "👧",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Say the answer: Choose the correct learning habit."
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🧼",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

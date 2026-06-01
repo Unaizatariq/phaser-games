@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 4,
-  "topic": "Number Spelling 71 to 100",
-  "teach": "Number spellings help us read and write numbers in words.",
-  "examples": [
-    "seventy-one",
-    "eighty-five",
-    "one hundred"
-  ],
+  "topic": "shapes",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "seventy-one",
+      "prompt": "Solve: 5 + 1 = ?",
+      "answer": "6",
       "options": [
-        "seventy-one",
-        "seventeen",
-        "seven one",
-        "sixty-one"
+        "6",
+        "7",
+        "5",
+        "8"
       ],
-      "audioText": "Which spelling is 71?"
+      "audioText": "Solve: 5 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 1,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "85",
+      "prompt": "Solve: 6 + 2 = ?",
+      "answer": "8",
       "options": [
-        "75",
-        "80",
-        "85",
-        "95"
+        "8",
+        "9",
+        "7",
+        "10"
       ],
-      "audioText": "Which number is eighty-five?"
+      "audioText": "Solve: 6 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 6,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "one hundred",
+      "prompt": "Solve: 7 + 3 = ?",
+      "answer": "10",
       "options": [
-        "one hundred",
-        "ten hundred",
-        "hundred one",
-        "ninety"
+        "10",
+        "11",
+        "9",
+        "12"
       ],
-      "audioText": "Which spelling is 100?"
+      "audioText": "Solve: 7 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 7,
+        "b": 3,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "11": "🔢",
+        "9": "🔢",
+        "12": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "ninety",
+      "prompt": "Solve: 8 + 4 = ?",
+      "answer": "12",
       "options": [
-        "nineteen",
-        "ninety",
-        "nine",
-        "ninty"
+        "12",
+        "13",
+        "11",
+        "14"
       ],
-      "audioText": "90 is written as"
+      "audioText": "Solve: 8 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 8,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "13": "🔢",
+        "11": "🔢",
+        "14": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "78",
+      "prompt": "Solve: 1 + 5 = ?",
+      "answer": "6",
       "options": [
-        "68",
-        "77",
-        "78",
-        "87"
+        "6",
+        "7",
+        "5",
+        "8"
       ],
-      "audioText": "Seventy-eight is"
+      "audioText": "Solve: 1 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 1,
+        "b": 5,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "7": "🔢",
+        "5": "🔢",
+        "8": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

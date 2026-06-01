@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 11,
   "topic": "Light and Shadows",
-  "teach": "Light travels in straight lines.",
-  "examples": [
-    "Light travels in straight lines.",
-    "Opaque objects block light and form shadows.",
-    "Transparent objects let light pass through."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Light and Shadows",
+      "prompt": "Light travels in straight lines.",
+      "answer": "Light",
       "options": [
-        "Light and Shadows",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "readingText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "audioText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      "audioText": "Light travels in straight lines.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Light travels in straight ____.",
-      "answer": "lines",
+      "prompt": "Opaque objects block light and form shadows.",
+      "answer": "Light",
       "options": [
-        "lines",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "readingText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "audioText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      "audioText": "Opaque objects block light and form shadows.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Opaque objects block light and form ____.",
-      "answer": "shadows",
+      "prompt": "Transparent objects let light pass through.",
+      "answer": "Light",
       "options": [
-        "shadows",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "readingText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "audioText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      "audioText": "Transparent objects let light pass through.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Transparent objects let light pass ____.",
-      "answer": "through",
+      "prompt": "Shadows change size during the day.",
+      "answer": "Light",
       "options": [
-        "through",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "readingText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "audioText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      "audioText": "Shadows change size during the day.",
+      "art": "📚",
+      "questionText": "According to the story about Light and Shadows, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shadows change size during the ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Light",
       "options": [
-        "day",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "readingText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day.",
-      "audioText": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Light and Shadows, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Light travels in straight lines. Opaque objects block light and form shadows. Transparent objects let light pass through. Shadows change size during the day."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

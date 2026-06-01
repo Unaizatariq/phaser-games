@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 16,
   "topic": "Robotics",
-  "teach": "Robots are machines controlled by computers.",
-  "examples": [
-    "Robots are machines controlled by computers.",
-    "Robots can perform difficult tasks.",
-    "Factories and hospitals use robots."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Robots are machines controlled by computers.",
       "answer": "Robotics",
       "options": [
         "Robotics",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "readingText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "audioText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      "audioText": "Robots are machines controlled by computers.",
+      "art": "📚",
+      "questionText": "According to the story about Robotics, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robotics": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots are machines controlled by ____.",
-      "answer": "computers",
+      "prompt": "Robots can perform difficult tasks.",
+      "answer": "Robotics",
       "options": [
-        "computers",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Robotics",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "readingText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "audioText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      "audioText": "Robots can perform difficult tasks.",
+      "art": "📚",
+      "questionText": "According to the story about Robotics, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robotics": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots can perform difficult ____.",
-      "answer": "tasks",
+      "prompt": "Factories and hospitals use robots.",
+      "answer": "Robotics",
       "options": [
-        "tasks",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Robotics",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "readingText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "audioText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      "audioText": "Factories and hospitals use robots.",
+      "art": "📚",
+      "questionText": "According to the story about Robotics, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robotics": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Factories and hospitals use ____.",
-      "answer": "robots",
+      "prompt": "Robots save time and effort.",
+      "answer": "Robotics",
       "options": [
-        "robots",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Robotics",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "readingText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "audioText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      "audioText": "Robots save time and effort.",
+      "art": "📚",
+      "questionText": "According to the story about Robotics, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robotics": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Robots save time and ____.",
-      "answer": "effort",
+      "prompt": "What is the story mainly about?",
+      "answer": "Robotics",
       "options": [
-        "effort",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Robotics",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "readingText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort.",
-      "audioText": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Robotics, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Robotics": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Robots are machines controlled by computers. Robots can perform difficult tasks. Factories and hospitals use robots. Robots save time and effort."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

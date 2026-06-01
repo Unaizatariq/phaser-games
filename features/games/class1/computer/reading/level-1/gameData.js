@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 1,
   "topic": "What is a Computer?",
-  "teach": "A computer is a smart machine.",
-  "examples": [
-    "A computer is a smart machine.",
-    "It helps us do many tasks.",
-    "People use computers at school and home."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "What is a Computer?",
+      "prompt": "A computer is a smart machine.",
+      "answer": "What",
       "options": [
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor",
-        "Keyboard"
-      ],
-      "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "readingText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "audioText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer is a smart ____.",
-      "answer": "machine",
-      "options": [
-        "machine",
-        "What is a Computer?",
-        "tasks",
-        "home"
-      ],
-      "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "readingText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "audioText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It helps us do many ____.",
-      "answer": "tasks",
-      "options": [
-        "tasks",
-        "What is a Computer?",
-        "machine",
-        "home"
-      ],
-      "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "readingText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "audioText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use computers at school and ____.",
-      "answer": "home",
-      "options": [
+        "What",
+        "school",
         "home",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "book"
       ],
-      "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "readingText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "audioText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
+      "audioText": "A computer is a smart machine.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers make work ____.",
-      "answer": "easier",
+      "prompt": "It helps us do many tasks.",
+      "answer": "What",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "readingText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier.",
-      "audioText": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
+      "audioText": "It helps us do many tasks.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "People use computers at school and home.",
+      "answer": "What",
+      "options": [
+        "What",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "People use computers at school and home.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "Computers make work easier.",
+      "answer": "What",
+      "options": [
+        "What",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "Computers make work easier.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "What",
+      "options": [
+        "What",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer is a smart machine. It helps us do many tasks. People use computers at school and home. Computers make work easier."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

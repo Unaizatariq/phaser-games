@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 2,
   "topic": "Plants Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "leaf",
-    "water",
-    "leaf"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one part of a plant",
       "answer": "leaf",
-      "expected": "leaf",
-      "options": [],
+      "options": [
+        "leaf",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one part of a plant",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "leaf": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type what plants need to grow",
       "answer": "water",
-      "expected": "water",
-      "options": [],
+      "options": [
+        "water",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type what plants need to grow",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "💧",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "water": "💧",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the green part of plant",
       "answer": "leaf",
-      "expected": "leaf",
-      "options": [],
+      "options": [
+        "leaf",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the green part of plant",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "leaf": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the underground part of plant",
       "answer": "root",
-      "expected": "root",
-      "options": [],
+      "options": [
+        "root",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the underground part of plant",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "root": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type what gives sunlight",
       "answer": "sun",
-      "expected": "sun",
-      "options": [],
+      "options": [
+        "sun",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type what gives sunlight",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "sun": "☀️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

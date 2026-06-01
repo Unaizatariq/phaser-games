@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 20,
   "topic": "Responsible Use of Technology",
-  "teach": "Technology should be used wisely.",
-  "examples": [
-    "Technology should be used wisely.",
-    "Too much screen time can affect health.",
-    "Students should balance study and play."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Responsible Use of Technology",
+      "prompt": "Technology should be used wisely.",
+      "answer": "Responsible",
       "options": [
-        "Responsible Use of Technology",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Responsible",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Technology should be used wisely.",
+      "art": "📚",
+      "questionText": "According to the story about Responsible Use of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Responsible": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology should be used ____.",
-      "answer": "wisely",
+      "prompt": "Too much screen time can affect health.",
+      "answer": "Responsible",
       "options": [
-        "wisely",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Responsible",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Too much screen time can affect health.",
+      "art": "📚",
+      "questionText": "According to the story about Responsible Use of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Responsible": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Too much screen time can affect ____.",
-      "answer": "health",
+      "prompt": "Students should balance study and play.",
+      "answer": "Responsible",
       "options": [
-        "health",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Responsible",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Students should balance study and play.",
+      "art": "📚",
+      "questionText": "According to the story about Responsible Use of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Responsible": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students should balance study and ____.",
-      "answer": "play",
+      "prompt": "Responsible use of technology is important.",
+      "answer": "Responsible",
       "options": [
-        "play",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Responsible",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "Responsible use of technology is important.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Responsible": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Responsible use of ____ is important.",
-      "answer": "technology",
+      "prompt": "What is the story mainly about?",
+      "answer": "Responsible",
       "options": [
-        "technology",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Responsible",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "readingText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important.",
-      "audioText": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Responsible Use of Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Responsible": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology should be used wisely. Too much screen time can affect health. Students should balance study and play. Responsible use of technology is important."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

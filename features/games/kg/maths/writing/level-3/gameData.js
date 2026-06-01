@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 3,
   "topic": "Basic Operators",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "3",
-    "3",
-    "6"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace 2 + 1 =",
       "answer": "3",
-      "expected": "3",
-      "options": [],
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
       "audioText": "Trace 2 + 1 =",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢",
+        "5": "🔢"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace 5 - 2 =",
       "answer": "3",
-      "expected": "3",
-      "options": [],
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
       "audioText": "Trace 5 - 2 =",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 2,
+        "op": "-",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢",
+        "5": "🔢"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace 3 × 2 =",
       "answer": "6",
-      "expected": "6",
-      "options": [],
+      "options": [
+        "6",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace 3 × 2 =",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "b": 0,
+        "op": "count",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "6": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace 8 ÷ 2 =",
       "answer": "4",
-      "expected": "4",
-      "options": [],
+      "options": [
+        "4",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace 8 ÷ 2 =",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "b": 0,
+        "op": "count",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "4": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace 4 + 4 =",
       "answer": "8",
-      "expected": "8",
-      "options": [],
+      "options": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
       "audioText": "Trace 4 + 4 =",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 4,
+        "b": 4,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "8": "🔢",
+        "9": "🔢",
+        "7": "🔢",
+        "10": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

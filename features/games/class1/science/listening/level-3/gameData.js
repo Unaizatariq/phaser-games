@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 3,
   "topic": "Weather",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Rainy",
-    "Sunny",
-    "Cloudy"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which weather is rainy?",
-      "answer": "Rainy",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "Rainy",
-        "Sunny",
-        "Cloudy",
-        "Windy"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Which weather is rainy?",
-      "gameplayType": "listen-tap"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the hot weather.",
-      "answer": "Sunny",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "Sunny",
-        "Snowy",
-        "Rainy",
-        "Cold"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Choose the hot weather.",
-      "gameplayType": "drag-drop"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Catch the cloudy weather icon.",
-      "answer": "Cloudy",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "Cloudy",
-        "Hot",
-        "Dry",
-        "Storm"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Catch the cloudy weather icon.",
-      "gameplayType": "basket-catch"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
+      "options": [
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
+      ],
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

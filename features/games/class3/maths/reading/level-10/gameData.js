@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Measurement",
-  "teach": "Measurement tells length, weight, and capacity.",
-  "examples": [
-    "Measurement tells length, weight, and capacity.",
-    "Meters measure length.",
-    "Kilograms measure weight."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Measurement tells length, weight, and capacity.",
       "answer": "Measurement",
       "options": [
         "Measurement",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "readingText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "audioText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      "audioText": "Measurement tells length, weight, and capacity.",
+      "art": "📏",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Measurement tells length, weight, and ____.",
-      "answer": "capacity",
+      "prompt": "Meters measure length.",
+      "answer": "Measurement",
       "options": [
-        "capacity",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "readingText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "audioText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      "audioText": "Meters measure length.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Meters measure ____.",
-      "answer": "length",
+      "prompt": "Kilograms measure weight.",
+      "answer": "Measurement",
       "options": [
-        "length",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "readingText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "audioText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      "audioText": "Kilograms measure weight.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Kilograms measure ____.",
-      "answer": "weight",
+      "prompt": "Liters measure liquids.",
+      "answer": "Measurement",
       "options": [
-        "weight",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "readingText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "audioText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      "audioText": "Liters measure liquids.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liters measure ____.",
-      "answer": "liquids",
+      "prompt": "What is the story mainly about?",
+      "answer": "Measurement",
       "options": [
-        "liquids",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "readingText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids.",
-      "audioText": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+      "audioText": "What is the story mainly about?",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Measurement tells length, weight, and capacity. Meters measure length. Kilograms measure weight. Liters measure liquids."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

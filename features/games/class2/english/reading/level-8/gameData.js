@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 8,
   "topic": "My Teacher",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "kind"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My teacher is kind and hardworking.",
       "answer": "kind",
       "options": [
         "kind",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "lazy",
         "careless"
       ],
-      "text": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "audioText": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+      "audioText": "My teacher is kind and hardworking.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "kind": "🔹",
+        "angry": "🔹",
+        "lazy": "🔹",
+        "careless": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "She teaches us English and tells interesting stories in class.",
       "answer": "kind",
       "options": [
         "kind",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "lazy",
         "careless"
       ],
-      "text": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "audioText": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+      "audioText": "She teaches us English and tells interesting stories in class.",
+      "art": "📚",
+      "questionText": "According to the story about My Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "kind": "🔹",
+        "angry": "🔹",
+        "lazy": "🔹",
+        "careless": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "She helps students whenever they have problems.",
       "answer": "kind",
       "options": [
         "kind",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "lazy",
         "careless"
       ],
-      "text": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "audioText": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+      "audioText": "She helps students whenever they have problems.",
+      "art": "📚",
+      "questionText": "According to the story about My Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "kind": "🔹",
+        "angry": "🔹",
+        "lazy": "🔹",
+        "careless": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I respect and love my teacher very much.",
       "answer": "kind",
       "options": [
         "kind",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "lazy",
         "careless"
       ],
-      "text": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "audioText": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+      "audioText": "I respect and love my teacher very much.",
+      "art": "📚",
+      "questionText": "According to the story about My Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "kind": "🔹",
+        "angry": "🔹",
+        "lazy": "🔹",
+        "careless": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "kind",
       "options": [
         "kind",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "lazy",
         "careless"
       ],
-      "text": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much.",
-      "audioText": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Teacher, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "kind": "🔹",
+        "angry": "🔹",
+        "lazy": "🔹",
+        "careless": "🚗"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My teacher is kind and hardworking. She teaches us English and tells interesting stories in class. She helps students whenever they have problems. I respect and love my teacher very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

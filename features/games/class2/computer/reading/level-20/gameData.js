@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 20,
   "topic": "Learning with Computers",
-  "teach": "Computers help students study better.",
-  "examples": [
-    "Computers help students study better.",
-    "Teachers use computers in classrooms.",
-    "Students learn new skills with computers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Learning with Computers",
+      "prompt": "Computers help students study better.",
+      "answer": "Learning",
       "options": [
-        "Learning with Computers",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "readingText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "audioText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      "audioText": "Computers help students study better.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers help students study ____.",
-      "answer": "better",
+      "prompt": "Teachers use computers in classrooms.",
+      "answer": "Learning",
       "options": [
-        "better",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "readingText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "audioText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      "audioText": "Teachers use computers in classrooms.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers use computers in ____.",
-      "answer": "classrooms",
+      "prompt": "Students learn new skills with computers.",
+      "answer": "Learning",
       "options": [
-        "classrooms",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "readingText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "audioText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      "audioText": "Students learn new skills with computers.",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students learn new skills with ____.",
-      "answer": "computers",
+      "prompt": "Learning becomes easy and fun.",
+      "answer": "Learning",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "readingText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "audioText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      "audioText": "Learning becomes easy and fun.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning becomes ____ and fun.",
-      "answer": "easy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Learning",
       "options": [
-        "easy",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Learning",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "readingText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun.",
-      "audioText": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Learning with Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Learning": "👂",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers help students study better. Teachers use computers in classrooms. Students learn new skills with computers. Learning becomes easy and fun."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

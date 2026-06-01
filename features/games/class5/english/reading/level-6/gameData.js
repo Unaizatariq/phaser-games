@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 6,
   "topic": "Global Warming",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "global warming"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases.",
       "answer": "global warming",
       "options": [
         "global warming",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "honesty",
         "daily routine"
       ],
-      "text": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "global warming": "🔹",
+        "water cycle": "💧",
+        "honesty": "🔹",
+        "daily routine": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Factories, cars, and cutting down trees contribute to global warming.",
       "answer": "global warming",
       "options": [
         "global warming",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "honesty",
         "daily routine"
       ],
-      "text": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+      "audioText": "Factories, cars, and cutting down trees contribute to global warming.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "global warming": "🔹",
+        "water cycle": "💧",
+        "honesty": "🔹",
+        "daily routine": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "As temperatures rise, glaciers melt and weather changes become more dangerous.",
       "answer": "global warming",
       "options": [
         "global warming",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "honesty",
         "daily routine"
       ],
-      "text": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+      "audioText": "As temperatures rise, glaciers melt and weather changes become more dangerous.",
+      "art": "📚",
+      "questionText": "According to the story about Global Warming, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "global warming": "🔹",
+        "water cycle": "💧",
+        "honesty": "🔹",
+        "daily routine": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "People should save energy and plant more trees to protect the planet.",
       "answer": "global warming",
       "options": [
         "global warming",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "honesty",
         "daily routine"
       ],
-      "text": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+      "audioText": "People should save energy and plant more trees to protect the planet.",
+      "art": "📚",
+      "questionText": "According to the story about Global Warming, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "global warming": "🔹",
+        "water cycle": "💧",
+        "honesty": "🔹",
+        "daily routine": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "global warming",
       "options": [
         "global warming",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "honesty",
         "daily routine"
       ],
-      "text": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet.",
-      "audioText": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Global Warming, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "global warming": "🔹",
+        "water cycle": "💧",
+        "honesty": "🔹",
+        "daily routine": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Global warming is the increase in Earth’s temperature due to pollution and harmful gases. Factories, cars, and cutting down trees contribute to global warming. As temperatures rise, glaciers melt and weather changes become more dangerous. People should save energy and plant more trees to protect the planet."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

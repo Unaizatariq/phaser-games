@@ -1,55 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "listening",
   "level": 3,
   "topic": "Cyber Safety",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "No",
-    "Use strong passwords",
-    "Ask parents before downloading"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Should we share passwords online?",
-      "answer": "No",
+      "audioText": "A computer mouse is a small device. It helps us click, select, and move items on the computer screen.",
+      "prompt": "Which device helps us click on items on the computer screen?",
+      "answer": "mouse",
       "options": [
-        "No",
-        "Yes",
-        "Always",
-        "Sometimes"
+        "mouse",
+        "monitor",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "Should we share passwords online?",
-      "gameplayType": "listen-tap"
+      "art": "🖱️",
+      "optionArts": {
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the safe online behavior.",
-      "answer": "Use strong passwords",
+      "audioText": "A keyboard has many keys. We use it to type letters, numbers, and words.",
+      "prompt": "Which device is used for typing letters and numbers?",
+      "answer": "keyboard",
       "options": [
-        "Use strong passwords",
-        "Share private data",
-        "Open"
+        "keyboard",
+        "mouse",
+        "monitor",
+        "speaker"
       ],
-      "audioText": "Choose the safe online behavior.",
-      "gameplayType": "drag-drop"
+      "art": "⌨️",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "monitor": "🖥️",
+        "speaker": "🔊"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the safe internet habit.",
-      "answer": "Ask parents before downloading",
+      "audioText": "A monitor is the screen of a computer. It shows pictures, words, and videos.",
+      "prompt": "Which computer part shows pictures and words?",
+      "answer": "monitor",
       "options": [
-        "Ask parents before downloading",
-        "Download everything"
+        "monitor",
+        "mouse",
+        "keyboard",
+        "printer"
       ],
-      "audioText": "Tap the safe internet habit.",
-      "gameplayType": "basket-catch"
+      "art": "🖥️",
+      "optionArts": {
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "printer": "🖨️"
+      }
+    },
+    {
+      "audioText": "A printer makes a paper copy of work from the computer.",
+      "prompt": "Which device prints work on paper?",
+      "answer": "printer",
+      "options": [
+        "printer",
+        "monitor",
+        "mouse",
+        "CPU"
+      ],
+      "art": "🖨️",
+      "optionArts": {
+        "printer": "🖨️",
+        "monitor": "🖥️",
+        "mouse": "🖱️",
+        "CPU": "🧠"
+      }
+    },
+    {
+      "audioText": "Speakers are output devices. They help us hear sound from the computer.",
+      "prompt": "Which device helps us hear sound?",
+      "answer": "speaker",
+      "options": [
+        "speaker",
+        "keyboard",
+        "mouse",
+        "scanner"
+      ],
+      "art": "🔊",
+      "optionArts": {
+        "speaker": "🔊",
+        "keyboard": "⌨️",
+        "mouse": "🖱️",
+        "scanner": "📠"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

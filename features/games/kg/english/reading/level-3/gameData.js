@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 3,
   "topic": "My Family",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "family"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I live with my family.",
       "answer": "family",
       "options": [
         "family",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "zoo",
         "park"
       ],
-      "text": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "audioText": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+      "audioText": "I live with my family.",
+      "art": "🏠",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "zoo": "🔹",
+        "park": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "My father works hard every day.",
       "answer": "family",
       "options": [
         "family",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "zoo",
         "park"
       ],
-      "text": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "audioText": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+      "audioText": "My father works hard every day.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "zoo": "🔹",
+        "park": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My mother takes care of me.",
       "answer": "family",
       "options": [
         "family",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "zoo",
         "park"
       ],
-      "text": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "audioText": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+      "audioText": "My mother takes care of me.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "zoo": "🔹",
+        "park": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "We eat and play together happily.",
       "answer": "family",
       "options": [
         "family",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "zoo",
         "park"
       ],
-      "text": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "audioText": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+      "audioText": "We eat and play together happily.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "zoo": "🔹",
+        "park": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "family",
       "options": [
         "family",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "zoo",
         "park"
       ],
-      "text": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily.",
-      "audioText": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+      "audioText": "What is the story mainly about?",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "zoo": "🔹",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I live with my family. My father works hard every day. My mother takes care of me. We eat and play together happily."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

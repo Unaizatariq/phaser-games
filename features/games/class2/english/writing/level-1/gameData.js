@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Nouns and Verbs",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "School",
-    "Run",
-    "Teacher"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type a noun: School",
       "answer": "School",
-      "expected": "School",
-      "options": [],
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
       "audioText": "Type a noun: School",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🏫",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a verb: Run",
       "answer": "Run",
-      "expected": "Run",
-      "options": [],
+      "options": [
+        "Run",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type a verb: Run",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "Run": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a noun: Teacher",
       "answer": "Teacher",
-      "expected": "Teacher",
-      "options": [],
+      "options": [
+        "Teacher",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type a noun: Teacher",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Teacher": "👩‍🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a verb: Jump",
       "answer": "Jump",
-      "expected": "Jump",
-      "options": [],
+      "options": [
+        "Jump",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type a verb: Jump",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "Jump": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a noun: Garden",
       "answer": "Garden",
-      "expected": "Garden",
-      "options": [],
+      "options": [
+        "Garden",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type a noun: Garden",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Garden": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

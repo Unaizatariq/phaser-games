@@ -1,96 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 1,
   "topic": "Factors and Multiples",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Three",
-    "Fifteen",
-    "Two and Five"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say a factor of 12.",
       "answer": "Three",
-      "expected": "Three",
-      "options": [],
-      "audioText": "Say a factor of 12.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Three",
-        "3"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say a factor of 12.",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Three": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say a multiple of 5.",
       "answer": "Fifteen",
-      "expected": "Fifteen",
-      "options": [],
-      "audioText": "Say a multiple of 5.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Fifteen",
-        "15"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say a multiple of 5.",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Fifteen": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What are the factors of 10?",
       "answer": "Two and Five",
-      "expected": "Two and Five",
-      "options": [],
+      "options": [
+        "Two and Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "What are the factors of 10?",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Two and Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say a multiple of 8.",
       "answer": "Sixteen",
-      "expected": "Sixteen",
-      "options": [],
-      "audioText": "Say a multiple of 8.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Sixteen",
-        "16"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say a multiple of 8.",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Sixteen": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say a factor of 20.",
       "answer": "Four",
-      "expected": "Four",
-      "options": [],
-      "audioText": "Say a factor of 20.",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "Four",
-        "4"
-      ]
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Say a factor of 20.",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Four": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

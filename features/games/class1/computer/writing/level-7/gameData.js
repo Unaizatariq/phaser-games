@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 7,
-  "topic": "Simple Drawing Tools",
-  "teach": "Drawing tools help us make lines, shapes and colors on a computer.",
-  "examples": [
-    "pencil tool",
-    "shapes",
-    "colors"
-  ],
+  "topic": "Computer Vocabulary Typing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Which tool draws lines?",
-      "answer": "pencil tool",
-      "options": [],
-      "audioText": "Which tool draws lines?"
+      "prompt": "Type the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Computer",
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We use fill color to add",
-      "answer": "color",
-      "options": [],
-      "audioText": "Write the answer: We use fill color to add"
+      "prompt": "Type the word: Monitor",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: Monitor",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Circle and square are",
-      "answer": "shapes",
-      "options": [],
-      "audioText": "Write the answer: Circle and square are"
+      "prompt": "Type the word: Mouse",
+      "answer": "Mouse",
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
+      "audioText": "Type the word: Mouse",
+      "art": "🖱️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Drawing tools are used for",
-      "answer": "art",
-      "options": [],
-      "audioText": "Write the answer: Drawing tools are used for"
+      "prompt": "Type the word: Keyboard",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Type the word: Keyboard",
+      "art": "⌨️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We can draw simple pictures on a",
-      "answer": "computer",
-      "options": [],
-      "audioText": "Write the answer: We can draw simple pictures on a"
+      "prompt": "Type the word: CPU",
+      "answer": "CPU",
+      "options": [
+        "CPU",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type the word: CPU",
+      "art": "🧠",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

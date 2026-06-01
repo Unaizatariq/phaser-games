@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 8,
-  "topic": "Conjunctions",
-  "teach": "Conjunctions helps children read, speak and write clear English sentences.",
-  "examples": [
-    "read",
-    "understand",
-    "use in sentence"
-  ],
+  "topic": "Grammar Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: Conjunctions is part of",
-      "answer": "English grammar",
-      "options": [],
-      "audioText": "Write the answer: Conjunctions is part of"
+      "prompt": "Type synonym of Happy",
+      "answer": "glad",
+      "options": [
+        "glad",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type synonym of Happy",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "glad": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good sentences should be",
-      "answer": "clear",
-      "options": [],
-      "audioText": "Write the answer: Good sentences should be"
+      "prompt": "Type opposite of Big",
+      "answer": "small",
+      "options": [
+        "small",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type opposite of Big",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "small": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We learn grammar to",
-      "answer": "write better",
-      "options": [],
-      "audioText": "Write the answer: We learn grammar to"
+      "prompt": "Type a preposition",
+      "answer": "in",
+      "options": [
+        "in",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type a preposition",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "in": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the best learning step.",
-      "answer": "read examples",
-      "options": [],
-      "audioText": "Write the answer: Choose the best learning step."
+      "prompt": "Type an adjective",
+      "answer": "beautiful",
+      "options": [
+        "beautiful",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type an adjective",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "beautiful": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A correct answer should match the",
-      "answer": "sentence meaning",
-      "options": [],
-      "audioText": "Write the answer: A correct answer should match the"
+      "prompt": "Type an adverb",
+      "answer": "quickly",
+      "options": [
+        "quickly",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Type an adverb",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "quickly": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

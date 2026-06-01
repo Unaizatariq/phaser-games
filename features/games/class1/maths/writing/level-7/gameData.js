@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 7,
-  "topic": "Time",
-  "teach": "A clock tells time. The short hand shows hours and the long hand shows minutes.",
-  "examples": [
-    "hour hand",
-    "minute hand",
-    "o’clock"
-  ],
+  "topic": "Addition Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Write the answer: A clock tells us",
-      "answer": "time",
-      "options": [],
-      "audioText": "Write the answer: A clock tells us"
+      "prompt": "Type answer: 2 + 3 =",
+      "answer": "5",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "audioText": "Type answer: 2 + 3 =",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 3,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: The short hand shows",
-      "answer": "hour",
-      "options": [],
-      "audioText": "Write the answer: The short hand shows"
+      "prompt": "Type answer: 5 + 4 =",
+      "answer": "9",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "audioText": "Type answer: 5 + 4 =",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 5,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: The long hand shows",
-      "answer": "minute",
-      "options": [],
-      "audioText": "Write the answer: The long hand shows"
+      "prompt": "Type answer: 10 + 5 =",
+      "answer": "15",
+      "options": [
+        "15",
+        "16",
+        "14",
+        "17"
+      ],
+      "audioText": "Type answer: 10 + 5 =",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 10,
+        "b": 5,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "15": "🔢",
+        "16": "🔢",
+        "14": "🔢",
+        "17": "🔢"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: When minute hand points to 12, we say",
-      "answer": "o’clock",
-      "options": [],
-      "audioText": "Write the answer: When minute hand points to 12, we say"
+      "prompt": "Type answer: 7 + 8 =",
+      "answer": "15",
+      "options": [
+        "15",
+        "16",
+        "14",
+        "17"
+      ],
+      "audioText": "Type answer: 7 + 8 =",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 7,
+        "b": 8,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "15": "🔢",
+        "16": "🔢",
+        "14": "🔢",
+        "17": "🔢"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: School usually starts in the",
-      "answer": "morning",
-      "options": [],
-      "audioText": "Write the answer: School usually starts in the"
+      "prompt": "Type answer: 15 + 5 =",
+      "answer": "20",
+      "options": [
+        "20",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 15 + 5 =",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 15,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "20": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

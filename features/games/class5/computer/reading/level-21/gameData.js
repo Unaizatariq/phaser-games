@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 21,
-  "topic": "Technology should be used for learning and good purposes.",
-  "teach": "Responsible online behavior is important.",
-  "examples": [
-    "Responsible online behavior is important."
-  ],
+  "topic": "Computer Systems",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology should be used for learning and good purposes.",
+      "prompt": "A computer system consists of hardware and software.",
+      "answer": "Computer",
       "options": [
-        "Technology should be used for learning and good purposes.",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Responsible online behavior is important.",
-      "readingText": "Responsible online behavior is important.",
-      "audioText": "Responsible online behavior is important."
+      "audioText": "A computer system consists of hardware and software.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Responsible online ____ is important.",
-      "answer": "behavior",
+      "prompt": "Hardware includes physical computer parts.",
+      "answer": "Computer",
       "options": [
-        "behavior",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Responsible online behavior is important.",
-      "readingText": "Responsible online behavior is important.",
-      "audioText": "Responsible online behavior is important."
+      "audioText": "Hardware includes physical computer parts.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "behavior",
+      "prompt": "Software includes programs and applications.",
+      "answer": "Computer",
       "options": [
-        "behavior",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Responsible online behavior is important.",
-      "readingText": "Responsible online behavior is important.",
-      "audioText": "Responsible online behavior is important."
+      "audioText": "Software includes programs and applications.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "behavior",
+      "prompt": "Both work together to perform tasks.",
+      "answer": "Computer",
       "options": [
-        "behavior",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Responsible online behavior is important.",
-      "readingText": "Responsible online behavior is important.",
-      "audioText": "Responsible online behavior is important."
+      "audioText": "Both work together to perform tasks.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "behavior",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "behavior",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Responsible online behavior is important.",
-      "readingText": "Responsible online behavior is important.",
-      "audioText": "Responsible online behavior is important."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Responsible online behavior is important."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,87 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 21,
-  "topic": "Bottles and buckets have different capacities.",
-  "teach": "Capacity is useful in daily life.",
-  "examples": [
-    "Capacity is useful in daily life."
-  ],
+  "topic": "Numbers up to 1000",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Bottles and buckets have different capacities.",
+      "prompt": "Numbers help us count large quantities.",
+      "answer": "Numbers",
       "options": [
-        "Bottles and buckets have different capacities.",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is useful in daily life.",
-      "readingText": "Capacity is useful in daily life.",
-      "audioText": "Capacity is useful in daily life."
+      "audioText": "Numbers help us count large quantities.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is useful in daily life.",
-      "answer": "Capacity",
+      "prompt": "We can read and write numbers up to 1000.",
+      "answer": "Numbers",
       "options": [
-        "Capacity",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is useful in daily life.",
-      "readingText": "Capacity is useful in daily life.",
-      "audioText": "Capacity is useful in daily life."
+      "audioText": "We can read and write numbers up to 1000.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "Each digit has a place value.",
+      "answer": "Numbers",
       "options": [
-        "Capacity",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is useful in daily life.",
-      "readingText": "Capacity is useful in daily life.",
-      "audioText": "Capacity is useful in daily life."
+      "audioText": "Each digit has a place value.",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers up to 1000, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "Numbers are useful in daily life.",
+      "answer": "Numbers",
       "options": [
-        "Capacity",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is useful in daily life.",
-      "readingText": "Capacity is useful in daily life.",
-      "audioText": "Capacity is useful in daily life."
+      "audioText": "Numbers are useful in daily life.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "Capacity",
+      "prompt": "What is the story mainly about?",
+      "answer": "Numbers",
       "options": [
-        "Capacity",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity is useful in daily life.",
-      "readingText": "Capacity is useful in daily life.",
-      "audioText": "Capacity is useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers up to 1000, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Capacity is useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

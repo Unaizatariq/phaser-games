@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 2,
   "topic": "Colors Around Me",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "blue"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "The sky is blue and clear.",
       "answer": "blue",
       "options": [
         "blue",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "brown",
         "purple"
       ],
-      "text": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "audioText": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+      "audioText": "The sky is blue and clear.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "blue": "🔵",
+        "black": "⚫",
+        "brown": "🔹",
+        "purple": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Grass is green and fresh.",
       "answer": "blue",
       "options": [
         "blue",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "brown",
         "purple"
       ],
-      "text": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "audioText": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+      "audioText": "Grass is green and fresh.",
+      "art": "📚",
+      "questionText": "According to the story about Colors Around Me, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "blue": "🔵",
+        "black": "⚫",
+        "brown": "🔹",
+        "purple": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "The sun is yellow and bright.",
       "answer": "blue",
       "options": [
         "blue",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "brown",
         "purple"
       ],
-      "text": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "audioText": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+      "audioText": "The sun is yellow and bright.",
+      "art": "📚",
+      "questionText": "According to the story about Colors Around Me, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "blue": "🔵",
+        "black": "⚫",
+        "brown": "🔹",
+        "purple": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I see many beautiful colors around me.",
       "answer": "blue",
       "options": [
         "blue",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "brown",
         "purple"
       ],
-      "text": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "audioText": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+      "audioText": "I see many beautiful colors around me.",
+      "art": "📚",
+      "questionText": "According to the story about Colors Around Me, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "blue": "🔵",
+        "black": "⚫",
+        "brown": "🔹",
+        "purple": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "blue",
       "options": [
         "blue",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "brown",
         "purple"
       ],
-      "text": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me.",
-      "audioText": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Colors Around Me, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "blue": "🔵",
+        "black": "⚫",
+        "brown": "🔹",
+        "purple": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sky is blue and clear. Grass is green and fresh. The sun is yellow and bright. I see many beautiful colors around me."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

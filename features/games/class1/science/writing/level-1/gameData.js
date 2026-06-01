@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 1,
   "topic": "Body Parts Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "eyes",
-    "ears",
-    "legs"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type the body part used for seeing",
       "answer": "eyes",
-      "expected": "eyes",
-      "options": [],
+      "options": [
+        "eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the body part used for seeing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the body part used for hearing",
       "answer": "ears",
-      "expected": "ears",
-      "options": [],
+      "options": [
+        "ears",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the body part used for hearing",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "ears": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the body part used for walking",
       "answer": "legs",
-      "expected": "legs",
-      "options": [],
+      "options": [
+        "legs",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the body part used for walking",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "legs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the body part used for smelling",
       "answer": "nose",
-      "expected": "nose",
-      "options": [],
+      "options": [
+        "nose",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the body part used for smelling",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "nose": "👃",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the body part used for eating",
       "answer": "mouth",
-      "expected": "mouth",
-      "options": [],
+      "options": [
+        "mouth",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the body part used for eating",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "mouth": "👄",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

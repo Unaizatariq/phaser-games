@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 7,
-  "topic": "Immediate Environment",
-  "teach": "Our immediate environment includes places around us like home, school and park.",
-  "examples": [
-    "home",
-    "school",
-    "park"
-  ],
+  "topic": "health",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "school",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "school",
-        "shoe",
-        "cloud",
-        "fish"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Where do we study?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "home",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "home",
-        "park",
-        "road",
-        "shop only"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Where do families live?"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "play safely",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "play safely",
-        "sleep in class",
-        "cook books",
-        "type names"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "A park is a place to"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "environment",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "environment",
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
         "keyboard",
-        "clock",
-        "sum"
+        "candy"
       ],
-      "audioText": "Home, school and park are part of our"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "clean",
-      "options": [
-        "clean",
-        "dirty",
-        "broken",
-        "noisy"
-      ],
-      "audioText": "We should keep our places"
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 13,
-  "topic": "Word Problems",
-  "teach": "Word Problems teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "subtraction",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "technology",
+      "prompt": "Solve: 6 + 1 = ?",
+      "answer": "7",
       "options": [
-        "technology",
-        "weather",
-        "fruit",
-        "animal"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "What is the topic about?"
+      "audioText": "Solve: 6 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 6,
+        "b": 1,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "work and learn",
+      "prompt": "Solve: 7 + 2 = ?",
+      "answer": "9",
       "options": [
-        "work and learn",
-        "grow plants",
-        "make rain",
-        "sleep"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "Computers help us"
+      "audioText": "Solve: 7 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 7,
+        "b": 2,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "safely",
+      "prompt": "Solve: 8 + 3 = ?",
+      "answer": "11",
       "options": [
-        "safely",
-        "carelessly",
-        "with wet hands",
-        "without rules"
+        "11",
+        "12",
+        "10",
+        "13"
       ],
-      "audioText": "We should use computers"
+      "audioText": "Solve: 8 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 8,
+        "b": 3,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "type",
+      "prompt": "Solve: 1 + 4 = ?",
+      "answer": "5",
       "options": [
-        "type",
-        "drink",
-        "fly",
-        "wash"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "A keyboard is used to"
+      "audioText": "Solve: 1 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 1,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "responsible use",
+      "prompt": "Solve: 2 + 5 = ?",
+      "answer": "7",
       "options": [
-        "responsible use",
-        "sharing passwords",
-        "clicking everything",
-        "breaking devices"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Good digital habit means"
+      "audioText": "Solve: 2 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 2,
+        "b": 5,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

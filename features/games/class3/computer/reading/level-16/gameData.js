@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 16,
   "topic": "Technology Around Us",
-  "teach": "Technology is part of daily life.",
-  "examples": [
-    "Technology is part of daily life.",
-    "Mobile phones and computers are common technologies.",
-    "Technology makes communication easier."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology Around Us",
+      "prompt": "Technology is part of daily life.",
+      "answer": "Technology",
       "options": [
-        "Technology Around Us",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "readingText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "audioText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      "audioText": "Technology is part of daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology is ____ of daily life.",
-      "answer": "part",
+      "prompt": "Mobile phones and computers are common technologies.",
+      "answer": "Technology",
       "options": [
-        "part",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "readingText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "audioText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      "audioText": "Mobile phones and computers are common technologies.",
+      "art": "📚",
+      "questionText": "According to the story about Technology Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mobile phones and computers are common ____.",
-      "answer": "technologies",
+      "prompt": "Technology makes communication easier.",
+      "answer": "Technology",
       "options": [
-        "technologies",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "readingText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "audioText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      "audioText": "Technology makes communication easier.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology makes communication ____.",
-      "answer": "easier",
+      "prompt": "People use technology at home and work.",
+      "answer": "Technology",
       "options": [
-        "easier",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "readingText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "audioText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      "audioText": "People use technology at home and work.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use technology at home and ____.",
-      "answer": "work",
+      "prompt": "What is the story mainly about?",
+      "answer": "Technology",
       "options": [
-        "work",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "readingText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work.",
-      "audioText": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Technology Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology is part of daily life. Mobile phones and computers are common technologies. Technology makes communication easier. People use technology at home and work."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

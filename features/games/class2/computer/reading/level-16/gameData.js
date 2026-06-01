@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 16,
   "topic": "Computer Care",
-  "teach": "Computers should be kept clean.",
-  "examples": [
-    "Computers should be kept clean.",
-    "Do not eat near computers.",
-    "Use computers carefully and gently."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Care",
+      "prompt": "Computers should be kept clean.",
+      "answer": "Computer",
       "options": [
-        "Computer Care",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "readingText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "audioText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      "audioText": "Computers should be kept clean.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers should be kept ____.",
-      "answer": "clean",
+      "prompt": "Do not eat near computers.",
+      "answer": "Computer",
       "options": [
-        "clean",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "readingText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "audioText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      "audioText": "Do not eat near computers.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Do not eat near ____.",
-      "answer": "computers",
+      "prompt": "Use computers carefully and gently.",
+      "answer": "Computer",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "readingText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "audioText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      "audioText": "Use computers carefully and gently.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Use computers carefully and ____.",
-      "answer": "gently",
+      "prompt": "Good care keeps computers safe.",
+      "answer": "Computer",
       "options": [
-        "gently",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "readingText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "audioText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      "audioText": "Good care keeps computers safe.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good care keeps computers ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "safe",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "readingText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe.",
-      "audioText": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Care, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers should be kept clean. Do not eat near computers. Use computers carefully and gently. Good care keeps computers safe."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

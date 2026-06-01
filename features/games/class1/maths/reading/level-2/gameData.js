@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Numbers 1 to 100",
-  "teach": "We can count from 1 to 100.",
-  "examples": [
-    "We can count from 1 to 100.",
-    "Numbers help us learn math.",
-    "Each number has a value."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Numbers 1 to 100",
+      "prompt": "We can count from 1 to 100.",
+      "answer": "Numbers",
       "options": [
-        "Numbers 1 to 100",
-        "Counting Numbers",
-        "Before, After, and Between",
-        "Addition"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "readingText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "audioText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      "audioText": "We can count from 1 to 100.",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can count from 1 to ____.",
-      "answer": "100",
+      "prompt": "Numbers help us learn math.",
+      "answer": "Numbers",
       "options": [
-        "100",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "readingText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "audioText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      "audioText": "Numbers help us learn math.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers help us learn ____.",
-      "answer": "math",
+      "prompt": "Each number has a value.",
+      "answer": "Numbers",
       "options": [
-        "math",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "readingText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "audioText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      "audioText": "Each number has a value.",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Each number has a ____.",
-      "answer": "value",
+      "prompt": "Learning numbers is important.",
+      "answer": "Numbers",
       "options": [
-        "value",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "readingText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "audioText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      "audioText": "Learning numbers is important.",
+      "art": "🔢",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning ____ is important.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Numbers",
       "options": [
-        "numbers",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Numbers",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "readingText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important.",
-      "audioText": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+      "audioText": "What is the story mainly about?",
+      "art": "🔢",
+      "questionText": "According to the story about Numbers 1 to 100, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Numbers": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We can count from 1 to 100. Numbers help us learn math. Each number has a value. Learning numbers is important."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

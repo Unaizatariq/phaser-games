@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 2,
   "topic": "Importance of Water",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "water"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Water is one of the most important resources on Earth.",
       "answer": "water",
       "options": [
         "water",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "oil",
         "smoke"
       ],
-      "text": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "audioText": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+      "audioText": "Water is one of the most important resources on Earth.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Humans, animals, and plants all need water to survive.",
       "answer": "water",
       "options": [
         "water",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "oil",
         "smoke"
       ],
-      "text": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "audioText": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+      "audioText": "Humans, animals, and plants all need water to survive.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "We use water for drinking, cooking, washing, and farming.",
       "answer": "water",
       "options": [
         "water",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "oil",
         "smoke"
       ],
-      "text": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "audioText": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+      "audioText": "We use water for drinking, cooking, washing, and farming.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Clean water keeps us healthy and active.",
       "answer": "water",
       "options": [
         "water",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "oil",
         "smoke"
       ],
-      "text": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "audioText": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+      "audioText": "Clean water keeps us healthy and active.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "We should save water and avoid wasting it.",
       "answer": "water",
       "options": [
         "water",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "oil",
         "smoke"
       ],
-      "text": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it.",
-      "audioText": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+      "audioText": "We should save water and avoid wasting it.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "water",
+      "options": [
+        "water",
+        "sand",
+        "oil",
+        "smoke"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "💧",
+      "questionText": "According to the story about Importance of Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "sand": "🔹",
+        "oil": "🔹",
+        "smoke": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Water is one of the most important resources on Earth. Humans, animals, and plants all need water to survive. We use water for drinking, cooking, washing, and farming. Clean water keeps us healthy and active. We should save water and avoid wasting it."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

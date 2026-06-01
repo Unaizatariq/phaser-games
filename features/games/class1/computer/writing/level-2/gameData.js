@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 2,
   "topic": "Missing Letters",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Computer",
-    "Monitor",
-    "Keyboard"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Complete word: C_MP_TER",
       "answer": "Computer",
-      "expected": "Computer",
-      "options": [],
+      "options": [
+        "Computer",
+        "mouse",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Complete word: C_MP_TER",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "💻",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Complete word: MON_TOR",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Complete word: MON_TOR",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Complete word: KEYBO_RD",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Complete word: KEYBO_RD",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "⌨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Complete word: MO_SE",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Complete word: MO_SE",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🖱️",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Complete word: PR_NTER",
       "answer": "Printer",
-      "expected": "Printer",
-      "options": [],
+      "options": [
+        "Printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Complete word: PR_NTER",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "🖨️",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

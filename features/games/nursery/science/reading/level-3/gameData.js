@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Nose",
-  "teach": "This is a nose.",
-  "examples": [
-    "This is a nose.",
-    "We smell with nose."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "This is a nose. We smell with nose.",
       "answer": "Nose",
       "options": [
         "Nose",
-        "Eyes",
-        "Ears",
-        "Hands"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "This is a nose. We smell with nose.",
-      "readingText": "This is a nose. We smell with nose.",
-      "audioText": "This is a nose. We smell with nose."
+      "audioText": "This is a nose. We smell with nose.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "This is a nose.",
+        "We smell with nose."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nose": "👃",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nose",
+      "prompt": "What is the story mainly about?",
+      "answer": "Nose",
       "options": [
-        "nose",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Nose",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "This is a nose. We smell with nose.",
-      "readingText": "This is a nose. We smell with nose.",
-      "audioText": "This is a nose. We smell with nose."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Nose, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nose": "👃",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nose",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "nose",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "This is a nose. We smell with nose.",
-      "readingText": "This is a nose. We smell with nose.",
-      "audioText": "This is a nose. We smell with nose."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "💧",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nose",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
+        "eye",
+        "ear",
         "nose",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "hand"
       ],
-      "passage": "This is a nose. We smell with nose.",
-      "readingText": "This is a nose. We smell with nose.",
-      "audioText": "This is a nose. We smell with nose."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🍎",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nose",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "nose",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "This is a nose. We smell with nose.",
-      "readingText": "This is a nose. We smell with nose.",
-      "audioText": "This is a nose. We smell with nose."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🧊",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "This is a nose. We smell with nose."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 17,
   "topic": "Data Handling and Graphs",
-  "teach": "Data is collected information.",
-  "examples": [
-    "Data is collected information.",
-    "Tables and graphs organize data clearly.",
-    "Bar graphs compare information visually."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Data Handling and Graphs",
+      "prompt": "Data is collected information.",
+      "answer": "Data",
       "options": [
-        "Data Handling and Graphs",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "readingText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "audioText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      "audioText": "Data is collected information.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Data is collected ____.",
-      "answer": "information",
+      "prompt": "Tables and graphs organize data clearly.",
+      "answer": "Data",
       "options": [
-        "information",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "readingText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "audioText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      "audioText": "Tables and graphs organize data clearly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tables and graphs organize data ____.",
-      "answer": "clearly",
+      "prompt": "Bar graphs compare information visually.",
+      "answer": "Data",
       "options": [
-        "clearly",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "readingText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "audioText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      "audioText": "Bar graphs compare information visually.",
+      "art": "📚",
+      "questionText": "According to the story about Data Handling and Graphs, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bar graphs compare information ____.",
-      "answer": "visually",
+      "prompt": "Data analysis helps make decisions.",
+      "answer": "Data",
       "options": [
-        "visually",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "readingText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "audioText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      "audioText": "Data analysis helps make decisions.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Data analysis helps make ____.",
-      "answer": "decisions",
+      "prompt": "What is the story mainly about?",
+      "answer": "Data",
       "options": [
-        "decisions",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "readingText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions.",
-      "audioText": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Data Handling and Graphs, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Data is collected information. Tables and graphs organize data clearly. Bar graphs compare information visually. Data analysis helps make decisions."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

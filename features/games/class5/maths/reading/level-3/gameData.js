@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 3,
   "topic": "Prime and Composite Numbers",
-  "teach": "Prime numbers have exactly two factors.",
-  "examples": [
-    "Prime numbers have exactly two factors.",
-    "Composite numbers have more than two factors.",
-    "2 is the smallest prime number."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Prime and Composite Numbers",
+      "prompt": "Prime numbers have exactly two factors.",
+      "answer": "Prime",
       "options": [
-        "Prime and Composite Numbers",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Fractions"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "readingText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "audioText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      "audioText": "Prime numbers have exactly two factors.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Prime numbers have exactly two ____.",
-      "answer": "factors",
+      "prompt": "Composite numbers have more than two factors.",
+      "answer": "Prime",
       "options": [
-        "factors",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "readingText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "audioText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      "audioText": "Composite numbers have more than two factors.",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 2 is the smallest prime ____.",
-      "answer": "number",
+      "prompt": "2 is the smallest prime number.",
+      "answer": "Prime",
       "options": [
-        "number",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "value"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "readingText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "audioText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      "audioText": "2 is the smallest prime number.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Prime numbers are important in ____.",
-      "answer": "mathematics",
+      "prompt": "Prime numbers are important in mathematics.",
+      "answer": "Prime",
       "options": [
-        "mathematics",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "readingText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "audioText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      "audioText": "Prime numbers are important in mathematics.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "factors",
+      "prompt": "What is the story mainly about?",
+      "answer": "Prime",
       "options": [
-        "factors",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Prime",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "readingText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics.",
-      "audioText": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Prime and Composite Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Prime": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Prime numbers have exactly two factors. Composite numbers have more than two factors. 2 is the smallest prime number. Prime numbers are important in mathematics."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

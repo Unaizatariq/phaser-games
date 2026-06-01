@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 19,
   "topic": "Technology in Daily Life",
-  "teach": "Technology helps people in many ways.",
-  "examples": [
-    "Technology helps people in many ways.",
-    "Computers and mobile phones make communication easy.",
-    "Machines save time and effort."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology in Daily Life",
+      "prompt": "Technology helps people in many ways.",
+      "answer": "Technology",
       "options": [
-        "Technology in Daily Life",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Technology helps people in many ways.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps people in many ____.",
-      "answer": "ways",
+      "prompt": "Computers and mobile phones make communication easy.",
+      "answer": "Technology",
       "options": [
-        "ways",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Computers and mobile phones make communication easy.",
+      "art": "📚",
+      "questionText": "According to the story about Technology in Daily Life, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers and mobile phones make communication ____.",
-      "answer": "easy",
+      "prompt": "Machines save time and effort.",
+      "answer": "Technology",
       "options": [
-        "easy",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Machines save time and effort.",
+      "art": "📚",
+      "questionText": "According to the story about Technology in Daily Life, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Machines save time and ____.",
-      "answer": "effort",
+      "prompt": "Technology should be used wisely.",
+      "answer": "Technology",
       "options": [
-        "effort",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "Technology should be used wisely.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology should be used ____.",
-      "answer": "wisely",
+      "prompt": "What is the story mainly about?",
+      "answer": "Technology",
       "options": [
-        "wisely",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "readingText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely.",
-      "audioText": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Technology in Daily Life, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology helps people in many ways. Computers and mobile phones make communication easy. Machines save time and effort. Technology should be used wisely."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

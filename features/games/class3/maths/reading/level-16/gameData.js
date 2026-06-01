@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 16,
   "topic": "Even and Odd Numbers",
-  "teach": "Even numbers divide equally by 2.",
-  "examples": [
-    "Even numbers divide equally by 2.",
-    "Odd numbers cannot divide equally by 2.",
-    "8 is an even number."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Even and Odd Numbers",
+      "prompt": "Even numbers divide equally by 2.",
+      "answer": "Even",
       "options": [
-        "Even and Odd Numbers",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Even",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "readingText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "audioText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      "audioText": "Even numbers divide equally by 2.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Even": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Even numbers divide ____ by 2.",
-      "answer": "equally",
+      "prompt": "Odd numbers cannot divide equally by 2.",
+      "answer": "Even",
       "options": [
-        "equally",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Even",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "readingText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "audioText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      "audioText": "Odd numbers cannot divide equally by 2.",
+      "art": "📚",
+      "questionText": "According to the story about Even and Odd Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Even": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 8 is an even ____.",
-      "answer": "number",
+      "prompt": "8 is an even number.",
+      "answer": "Even",
       "options": [
-        "number",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Even",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "readingText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "audioText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      "audioText": "8 is an even number.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Even": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "equally",
+      "prompt": "7 is an odd number.",
+      "answer": "Even",
       "options": [
-        "equally",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Even",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "readingText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "audioText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      "audioText": "7 is an odd number.",
+      "art": "📚",
+      "questionText": "According to the story about Even and Odd Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Even": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "equally",
+      "prompt": "What is the story mainly about?",
+      "answer": "Even",
       "options": [
-        "equally",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Even",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "readingText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number.",
-      "audioText": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Even and Odd Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Even": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Even numbers divide equally by 2. Odd numbers cannot divide equally by 2. 8 is an even number. 7 is an odd number."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

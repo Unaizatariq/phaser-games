@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Tree",
-  "teach": "The tree is green.",
-  "examples": [
-    "The tree is green.",
-    "Birds sit on trees.",
-    "The flower is pretty."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "The tree is green.",
       "answer": "Tree",
       "options": [
         "Tree",
-        "Eyes",
-        "Ears",
-        "Nose"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "readingText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "audioText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      "audioText": "The tree is green.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tree": "🌳",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The tree is ____.",
-      "answer": "green",
+      "prompt": "Birds sit on trees.",
+      "answer": "Tree",
       "options": [
-        "green",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Tree",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "readingText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "audioText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      "audioText": "Birds sit on trees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tree": "🌳",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds sit on ____.",
-      "answer": "trees",
+      "prompt": "The flower is pretty.",
+      "answer": "Tree",
       "options": [
-        "trees",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Tree",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "readingText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "audioText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      "audioText": "The flower is pretty.",
+      "art": "📚",
+      "questionText": "According to the story about Tree, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tree": "🌳",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The flower is ____.",
-      "answer": "pretty",
+      "prompt": "Flowers smell nice.",
+      "answer": "Tree",
       "options": [
-        "pretty",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Tree",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "readingText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "audioText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      "audioText": "Flowers smell nice.",
+      "art": "📚",
+      "questionText": "According to the story about Tree, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tree": "🌳",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers smell ____.",
-      "answer": "nice",
+      "prompt": "What is the story mainly about?",
+      "answer": "Tree",
       "options": [
-        "nice",
-        "Eyes",
-        "eyes",
-        "Ears"
+        "Tree",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "readingText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice.",
-      "audioText": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Tree, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tree": "🌳",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The tree is green. Birds sit on trees. The flower is pretty. Flowers smell nice."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 3,
   "topic": "Programming Logic",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Forward",
-    "Left",
-    "Right"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which command moves turtle forward?",
       "answer": "Forward",
-      "expected": "Forward",
-      "options": [],
+      "options": [
+        "Forward",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which command moves turtle forward?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Forward": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which command turns turtle left?",
       "answer": "Left",
-      "expected": "Left",
-      "options": [],
+      "options": [
+        "Left",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which command turns turtle left?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Left": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which command turns turtle right?",
       "answer": "Right",
-      "expected": "Right",
-      "options": [],
+      "options": [
+        "Right",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which command turns turtle right?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Right": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Programming follows what kind of steps?",
       "answer": "Step by Step",
-      "expected": "Step by Step",
-      "options": [],
+      "options": [
+        "Step by Step",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Programming follows what kind of steps?",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Step by Step": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What do we call solving problems using logic?",
       "answer": "Programming",
-      "expected": "Programming",
-      "options": [],
+      "options": [
+        "Programming",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "What do we call solving problems using logic?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Programming": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

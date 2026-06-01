@@ -1,89 +1,160 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 22,
-  "topic": "Symmetry",
-  "teach": "Symmetry means both sides look the same.",
-  "examples": [
-    "Symmetry means both sides look the same.",
-    "Butterflies show symmetry.",
-    "Shapes can have lines of symmetry."
-  ],
+  "topic": "Place Value and Expanded Form",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Symmetry",
+      "prompt": "Place value tells the value of each digit.",
+      "answer": "Place",
       "options": [
-        "Symmetry",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      "audioText": "Place value tells the value of each digit.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry means both sides look the ____.",
-      "answer": "same",
+      "prompt": "Expanded form breaks numbers into parts.",
+      "answer": "Place",
       "options": [
-        "same",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      "audioText": "Expanded form breaks numbers into parts.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry appears in art and ____.",
-      "answer": "nature",
+      "prompt": "4,562 can be written as 4000 + 500 + 60 + 2.",
+      "answer": "Place",
       "options": [
-        "nature",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      "audioText": "4,562 can be written as 4000 + 500 + 60 + 2.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": {
+        "a": 4000,
+        "op": "+",
+        "b": 500,
+        "item": "🍎"
+      },
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "same",
+      "prompt": "Place value improves number understanding.",
+      "answer": "Place",
       "options": [
-        "same",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      "audioText": "Place value improves number understanding.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "symmetry",
+      "prompt": "What is the story mainly about?",
+      "answer": "Place",
       "options": [
-        "symmetry",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Place Value and Expanded Form, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Symmetry means both sides look the same. Butterflies show symmetry. Shapes can have lines of symmetry. Symmetry appears in art and nature."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

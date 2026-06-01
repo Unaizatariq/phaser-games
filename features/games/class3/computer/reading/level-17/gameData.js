@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 17,
   "topic": "Smart Machines",
-  "teach": "Computers are smart machines.",
-  "examples": [
-    "Computers are smart machines.",
-    "They process information quickly.",
-    "Smart machines help people save time."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Smart Machines",
+      "prompt": "Computers are smart machines.",
+      "answer": "Smart",
       "options": [
-        "Smart Machines",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "readingText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "audioText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      "audioText": "Computers are smart machines.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are smart ____.",
-      "answer": "machines",
+      "prompt": "They process information quickly.",
+      "answer": "Smart",
       "options": [
-        "machines",
-        "Introduction to Computers",
-        "tasks",
-        "offices"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "readingText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "audioText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      "audioText": "They process information quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Smart Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They process ____ quickly.",
-      "answer": "information",
+      "prompt": "Smart machines help people save time.",
+      "answer": "Smart",
       "options": [
-        "information",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "readingText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "audioText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      "audioText": "Smart machines help people save time.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart machines help people save ____.",
-      "answer": "time",
+      "prompt": "Many modern machines use computers.",
+      "answer": "Smart",
       "options": [
-        "time",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "readingText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "audioText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      "audioText": "Many modern machines use computers.",
+      "art": "📚",
+      "questionText": "According to the story about Smart Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Many modern machines use ____.",
-      "answer": "computers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Smart",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Smart",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "readingText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers.",
-      "audioText": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Smart Machines, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Smart": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are smart machines. They process information quickly. Smart machines help people save time. Many modern machines use computers."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

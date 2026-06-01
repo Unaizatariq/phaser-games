@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 4,
   "topic": "سادہ جملے بولیں",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "میں اسکول جاتا ہوں۔",
-    "مجھے کتاب پسند ہے۔",
-    "بلی سو رہی ہے۔"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "جملہ بولیں :میں اسکول جاتا ہوں۔",
       "answer": "میں اسکول جاتا ہوں۔",
-      "expected": "میں اسکول جاتا ہوں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں اسکول جاتا ہوں۔",
+          "tts": "میں اسکول جاتا ہوں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ بولیں :میں اسکول جاتا ہوں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "میں اسکول جاتا ہوں۔": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "جملہ بولیں :مجھے کتاب پسند ہے۔",
       "answer": "مجھے کتاب پسند ہے۔",
-      "expected": "مجھے کتاب پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "مجھے کتاب پسند ہے۔",
+          "tts": "مجھے کتاب پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ بولیں :مجھے کتاب پسند ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "مجھے کتاب پسند ہے۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "جملہ بولیں :بلی سو رہی ہے۔",
       "answer": "بلی سو رہی ہے۔",
-      "expected": "بلی سو رہی ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "بلی سو رہی ہے۔",
+          "tts": "بلی سو رہی ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ بولیں :بلی سو رہی ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "بلی سو رہی ہے۔": "🐱",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "جملہ بولیں :علی کھیل رہا ہے۔",
       "answer": "علی کھیل رہا ہے۔",
-      "expected": "علی کھیل رہا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "علی کھیل رہا ہے۔",
+          "tts": "علی کھیل رہا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ بولیں :علی کھیل رہا ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "علی کھیل رہا ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "جملہ بولیں :آج موسم اچھا ہے۔",
       "answer": "آج موسم اچھا ہے۔",
-      "expected": "آج موسم اچھا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "آج موسم اچھا ہے۔",
+          "tts": "آج موسم اچھا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "جملہ بولیں :آج موسم اچھا ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "آج موسم اچھا ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

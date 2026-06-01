@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Animals Around Us",
-  "teach": "Animals live in forests, farms, and homes.",
-  "examples": [
-    "Animals live in forests, farms, and homes.",
-    "Some animals are wild.",
-    "Some animals are pets."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Animals Around Us",
+      "prompt": "Animals live in forests, farms, and homes.",
+      "answer": "Animals",
       "options": [
-        "Animals Around Us",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "readingText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "audioText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      "audioText": "Animals live in forests, farms, and homes.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals live in forests, farms, and ____.",
-      "answer": "homes",
+      "prompt": "Some animals are wild.",
+      "answer": "Animals",
       "options": [
-        "homes",
-        "Living Things",
-        "move",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "readingText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "audioText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      "audioText": "Some animals are wild.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some animals are ____.",
-      "answer": "wild",
+      "prompt": "Some animals are pets.",
+      "answer": "Animals",
       "options": [
-        "wild",
-        "Living Things",
-        "move",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "readingText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "audioText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      "audioText": "Some animals are pets.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some animals are ____.",
-      "answer": "pets",
+      "prompt": "Animals need food and water.",
+      "answer": "Animals",
       "options": [
-        "pets",
-        "Living Things",
-        "move",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "readingText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "audioText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      "audioText": "Animals need food and water.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals need food and ____.",
-      "answer": "water",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "water",
-        "Living Things",
-        "move",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "readingText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water.",
-      "audioText": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals live in forests, farms, and homes. Some animals are wild. Some animals are pets. Animals need food and water."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

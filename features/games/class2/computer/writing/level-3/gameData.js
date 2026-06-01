@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 3,
   "topic": "Fill in the Blanks",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "input",
-    "typing",
-    "output"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Fill blank: Mouse is a ___ device.",
       "answer": "input",
-      "expected": "input",
-      "options": [],
+      "options": [
+        "input",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Fill blank: Mouse is a ___ device.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "input": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Fill blank: Keyboard is used for ___.",
       "answer": "typing",
-      "expected": "typing",
-      "options": [],
+      "options": [
+        "typing",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Fill blank: Keyboard is used for ___.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "typing": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Fill blank: Monitor shows ___.",
       "answer": "output",
-      "expected": "output",
-      "options": [],
+      "options": [
+        "output",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Fill blank: Monitor shows ___.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "output": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Fill blank: CPU is the ___ of computer.",
       "answer": "brain",
-      "expected": "brain",
-      "options": [],
+      "options": [
+        "brain",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Fill blank: CPU is the ___ of computer.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "brain": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Fill blank: Printer prints on ___.",
       "answer": "paper",
-      "expected": "paper",
-      "options": [],
+      "options": [
+        "paper",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Fill blank: Printer prints on ___.",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "paper": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

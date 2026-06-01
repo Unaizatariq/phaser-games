@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 7,
   "topic": "Spreadsheets",
-  "teach": "Spreadsheets organize information in tables.",
-  "examples": [
-    "Spreadsheets organize information in tables.",
-    "Rows and columns store data neatly.",
-    "Spreadsheets perform calculations automatically."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Spreadsheets organize information in tables.",
       "answer": "Spreadsheets",
       "options": [
         "Spreadsheets",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "readingText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "audioText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      "audioText": "Spreadsheets organize information in tables.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Spreadsheets organize information in ____.",
-      "answer": "tables",
+      "prompt": "Rows and columns store data neatly.",
+      "answer": "Spreadsheets",
       "options": [
-        "tables",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "readingText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "audioText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      "audioText": "Rows and columns store data neatly.",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Rows and columns store data ____.",
-      "answer": "neatly",
+      "prompt": "Spreadsheets perform calculations automatically.",
+      "answer": "Spreadsheets",
       "options": [
-        "neatly",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "readingText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "audioText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      "audioText": "Spreadsheets perform calculations automatically.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Spreadsheets perform calculations ____.",
-      "answer": "automatically",
+      "prompt": "Microsoft Excel is spreadsheet software.",
+      "answer": "Spreadsheets",
       "options": [
-        "automatically",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "readingText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "audioText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      "audioText": "Microsoft Excel is spreadsheet software.",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Microsoft Excel is spreadsheet ____.",
-      "answer": "software",
+      "prompt": "What is the story mainly about?",
+      "answer": "Spreadsheets",
       "options": [
-        "software",
-        "Computer Systems",
-        "parts",
-        "applications"
+        "Spreadsheets",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "readingText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software.",
-      "audioText": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Spreadsheets, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Spreadsheets": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Spreadsheets organize information in tables. Rows and columns store data neatly. Spreadsheets perform calculations automatically. Microsoft Excel is spreadsheet software."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

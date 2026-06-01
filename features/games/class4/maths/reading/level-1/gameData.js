@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 1,
   "topic": "Whole Numbers",
-  "teach": "Whole numbers are counting numbers including zero.",
-  "examples": [
-    "Whole numbers are counting numbers including zero.",
-    "They help us count and measure quantities.",
-    "Large whole numbers are used in daily life."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Whole Numbers",
+      "prompt": "Whole numbers are counting numbers including zero.",
+      "answer": "Whole",
       "options": [
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers",
-        "Fractions"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "readingText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "audioText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      "audioText": "Whole numbers are counting numbers including zero.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Whole numbers are counting numbers including ____.",
-      "answer": "zero",
+      "prompt": "They help us count and measure quantities.",
+      "answer": "Whole",
       "options": [
-        "zero",
-        "Whole Numbers",
-        "quantities",
-        "numbers"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "readingText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "audioText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      "audioText": "They help us count and measure quantities.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They help us count and measure ____.",
-      "answer": "quantities",
+      "prompt": "Large whole numbers are used in daily life.",
+      "answer": "Whole",
       "options": [
-        "quantities",
-        "Whole Numbers",
-        "zero",
-        "numbers"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "readingText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "audioText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      "audioText": "Large whole numbers are used in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large whole ____ are used in daily life.",
-      "answer": "numbers",
+      "prompt": "Place value helps us understand large numbers.",
+      "answer": "Whole",
       "options": [
-        "numbers",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "readingText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "audioText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      "audioText": "Place value helps us understand large numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "zero",
+      "prompt": "What is the story mainly about?",
+      "answer": "Whole",
       "options": [
-        "zero",
-        "Whole Numbers",
-        "quantities",
-        "numbers"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "readingText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers.",
-      "audioText": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Whole numbers are counting numbers including zero. They help us count and measure quantities. Large whole numbers are used in daily life. Place value helps us understand large numbers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

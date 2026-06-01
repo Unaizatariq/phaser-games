@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 18,
   "topic": "Symmetry and Transformations",
-  "teach": "Symmetry means balanced shapes.",
-  "examples": [
-    "Symmetry means balanced shapes.",
-    "Shapes can have lines of symmetry.",
-    "Transformations include flips and turns."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Symmetry and Transformations",
+      "prompt": "Symmetry means balanced shapes.",
+      "answer": "Symmetry",
       "options": [
-        "Symmetry and Transformations",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      "audioText": "Symmetry means balanced shapes.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry means balanced ____.",
-      "answer": "shapes",
+      "prompt": "Shapes can have lines of symmetry.",
+      "answer": "Symmetry",
       "options": [
-        "shapes",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      "audioText": "Shapes can have lines of symmetry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes can have lines of ____.",
-      "answer": "symmetry",
+      "prompt": "Transformations include flips and turns.",
+      "answer": "Symmetry",
       "options": [
-        "symmetry",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      "audioText": "Transformations include flips and turns.",
+      "art": "📚",
+      "questionText": "According to the story about Symmetry and Transformations, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Transformations include flips and ____.",
-      "answer": "turns",
+      "prompt": "Symmetry appears in art and nature.",
+      "answer": "Symmetry",
       "options": [
-        "turns",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      "audioText": "Symmetry appears in art and nature.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry appears in art and ____.",
-      "answer": "nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Symmetry",
       "options": [
-        "nature",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "readingText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature.",
-      "audioText": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Symmetry and Transformations, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Symmetry means balanced shapes. Shapes can have lines of symmetry. Transformations include flips and turns. Symmetry appears in art and nature."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

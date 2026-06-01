@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 19,
   "topic": "Future Technology",
-  "teach": "Technology continues to improve every year.",
-  "examples": [
-    "Technology continues to improve every year.",
-    "Smart devices are becoming more advanced.",
-    "Future computers may become even faster."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Future Technology",
+      "prompt": "Technology continues to improve every year.",
+      "answer": "Future",
       "options": [
-        "Future Technology",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "readingText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "audioText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      "audioText": "Technology continues to improve every year.",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology continues to improve every ____.",
-      "answer": "year",
+      "prompt": "Smart devices are becoming more advanced.",
+      "answer": "Future",
       "options": [
-        "year",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "readingText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "audioText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      "audioText": "Smart devices are becoming more advanced.",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Smart devices are becoming more ____.",
-      "answer": "advanced",
+      "prompt": "Future computers may become even faster.",
+      "answer": "Future",
       "options": [
-        "advanced",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "readingText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "audioText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      "audioText": "Future computers may become even faster.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Future computers may become even ____.",
-      "answer": "faster",
+      "prompt": "Technology will shape the future of society.",
+      "answer": "Future",
       "options": [
-        "faster",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "readingText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "audioText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      "audioText": "Technology will shape the future of society.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology will shape the future of ____.",
-      "answer": "society",
+      "prompt": "What is the story mainly about?",
+      "answer": "Future",
       "options": [
-        "society",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Future",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "readingText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society.",
-      "audioText": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Future Technology, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Future": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology continues to improve every year. Smart devices are becoming more advanced. Future computers may become even faster. Technology will shape the future of society."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

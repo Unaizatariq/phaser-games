@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 30,
   "topic": "Exercise and Health",
-  "teach": "Exercise keeps our body fit.",
-  "examples": [
-    "Exercise keeps our body fit.",
-    "Running and jumping are good exercises.",
-    "Healthy habits keep us active."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Exercise and Health",
+      "prompt": "Exercise keeps our body fit.",
+      "answer": "Exercise",
       "options": [
-        "Exercise and Health",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Exercise",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      "audioText": "Exercise keeps our body fit.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Exercise": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise keeps our body ____.",
-      "answer": "fit",
+      "prompt": "Running and jumping are good exercises.",
+      "answer": "Exercise",
       "options": [
-        "fit",
-        "My Body",
-        "things",
-        "ears"
+        "Exercise",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      "audioText": "Running and jumping are good exercises.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Exercise": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Running and jumping are good ____.",
-      "answer": "exercises",
+      "prompt": "Healthy habits keep us active.",
+      "answer": "Exercise",
       "options": [
-        "exercises",
-        "My Body",
-        "things",
-        "ears"
+        "Exercise",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      "audioText": "Healthy habits keep us active.",
+      "art": "📚",
+      "questionText": "According to the story about Exercise and Health, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Exercise": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy habits keep us ____.",
-      "answer": "active",
+      "prompt": "Exercise makes us strong.",
+      "answer": "Exercise",
       "options": [
-        "active",
-        "My Body",
-        "things",
-        "ears"
+        "Exercise",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      "audioText": "Exercise makes us strong.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Exercise": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise ____ us strong.",
-      "answer": "makes",
+      "prompt": "What is the story mainly about?",
+      "answer": "Exercise",
       "options": [
-        "makes",
-        "My Body",
-        "things",
-        "ears"
+        "Exercise",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "readingText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong.",
-      "audioText": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Exercise and Health, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Exercise": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise keeps our body fit. Running and jumping are good exercises. Healthy habits keep us active. Exercise makes us strong."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

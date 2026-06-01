@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 2,
   "topic": "My School",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "school"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My school is big and clean.",
       "answer": "school",
       "options": [
         "school",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "market",
         "zoo"
       ],
-      "text": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "audioText": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+      "audioText": "My school is big and clean.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I go to school every morning with my bag.",
       "answer": "school",
       "options": [
         "school",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "market",
         "zoo"
       ],
-      "text": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "audioText": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+      "audioText": "I go to school every morning with my bag.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My teacher teaches me reading and writing.",
       "answer": "school",
       "options": [
         "school",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "market",
         "zoo"
       ],
-      "text": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "audioText": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+      "audioText": "My teacher teaches me reading and writing.",
+      "art": "🏫",
+      "questionText": "According to the story about My School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I play with my friends during break time.",
       "answer": "school",
       "options": [
         "school",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "market",
         "zoo"
       ],
-      "text": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "audioText": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+      "audioText": "I play with my friends during break time.",
+      "art": "🏫",
+      "questionText": "According to the story about My School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "I like my school very much.",
       "answer": "school",
       "options": [
         "school",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "market",
         "zoo"
       ],
-      "text": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much.",
-      "audioText": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+      "audioText": "I like my school very much.",
+      "art": "🏫",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "school",
+      "options": [
+        "school",
+        "hospital",
+        "market",
+        "zoo"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🏫",
+      "questionText": "According to the story about My School, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "school": "🏫",
+        "hospital": "🔹",
+        "market": "🔹",
+        "zoo": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My school is big and clean. I go to school every morning with my bag. My teacher teaches me reading and writing. I play with my friends during break time. I like my school very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

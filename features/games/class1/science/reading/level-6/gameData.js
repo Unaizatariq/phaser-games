@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 6,
   "topic": "Wild Animals",
-  "teach": "Lions and tigers are wild animals.",
-  "examples": [
-    "Lions and tigers are wild animals.",
-    "Wild animals live in jungles.",
-    "They are strong and dangerous."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Wild Animals",
+      "prompt": "Lions and tigers are wild animals.",
+      "answer": "Wild",
       "options": [
-        "Wild Animals",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Wild",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "readingText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "audioText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      "audioText": "Lions and tigers are wild animals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Wild": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Lions and tigers are wild ____.",
-      "answer": "animals",
+      "prompt": "Wild animals live in jungles.",
+      "answer": "Wild",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Wild",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "readingText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "audioText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      "audioText": "Wild animals live in jungles.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Wild": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Wild animals live in ____.",
-      "answer": "jungles",
+      "prompt": "They are strong and dangerous.",
+      "answer": "Wild",
       "options": [
-        "jungles",
-        "My Body",
-        "things",
-        "ears"
+        "Wild",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "readingText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "audioText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      "audioText": "They are strong and dangerous.",
+      "art": "📚",
+      "questionText": "According to the story about Wild Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Wild": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They are strong and ____.",
-      "answer": "dangerous",
+      "prompt": "We can see them in zoos.",
+      "answer": "Wild",
       "options": [
-        "dangerous",
-        "My Body",
-        "things",
-        "ears"
+        "Wild",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "readingText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "audioText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      "audioText": "We can see them in zoos.",
+      "art": "📚",
+      "questionText": "According to the story about Wild Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Wild": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can see them in ____.",
-      "answer": "zoos",
+      "prompt": "What is the story mainly about?",
+      "answer": "Wild",
       "options": [
-        "zoos",
-        "My Body",
-        "things",
-        "ears"
+        "Wild",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "readingText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos.",
-      "audioText": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Wild Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Wild": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Lions and tigers are wild animals. Wild animals live in jungles. They are strong and dangerous. We can see them in zoos."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

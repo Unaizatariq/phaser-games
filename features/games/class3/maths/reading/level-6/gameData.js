@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Fractions",
-  "teach": "Fractions show equal parts of a whole.",
-  "examples": [
-    "Fractions show equal parts of a whole.",
-    "One-half means one out of two equal parts.",
-    "One-fourth means one out of four parts."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Fractions show equal parts of a whole.",
       "answer": "Fractions",
       "options": [
         "Fractions",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "readingText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "audioText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      "audioText": "Fractions show equal parts of a whole.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions show equal parts of a ____.",
-      "answer": "whole",
+      "prompt": "One-half means one out of two equal parts.",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "readingText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "audioText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      "audioText": "One-half means one out of two equal parts.",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: One-half means one out of two equal ____.",
-      "answer": "parts",
+      "prompt": "One-fourth means one out of four parts.",
+      "answer": "Fractions",
       "options": [
-        "parts",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "readingText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "audioText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      "audioText": "One-fourth means one out of four parts.",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions are used in cooking and ____.",
-      "answer": "sharing",
+      "prompt": "Fractions are used in cooking and sharing.",
+      "answer": "Fractions",
       "options": [
-        "sharing",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "readingText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "audioText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      "audioText": "Fractions are used in cooking and sharing.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "whole",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "readingText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing.",
-      "audioText": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+      "audioText": "What is the story mainly about?",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fractions show equal parts of a whole. One-half means one out of two equal parts. One-fourth means one out of four parts. Fractions are used in cooking and sharing."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

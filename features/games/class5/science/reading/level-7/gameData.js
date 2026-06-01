@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 7,
   "topic": "Matter and Its Properties",
-  "teach": "Matter is anything that has mass and takes space.",
-  "examples": [
-    "Matter is anything that has mass and takes space.",
-    "Solids have a fixed shape.",
-    "Liquids flow and take the shape of containers."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Matter and Its Properties",
+      "prompt": "Matter is anything that has mass and takes space.",
+      "answer": "Matter",
       "options": [
-        "Matter and Its Properties",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Matter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "readingText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "audioText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      "audioText": "Matter is anything that has mass and takes space.",
+      "art": "🧊",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Matter is anything that has mass and takes ____.",
-      "answer": "space",
+      "prompt": "Solids have a fixed shape.",
+      "answer": "Matter",
       "options": [
-        "space",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Matter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "readingText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "audioText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      "audioText": "Solids have a fixed shape.",
+      "art": "🧊",
+      "questionText": "According to the story about Matter and Its Properties, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Solids have a fixed ____.",
-      "answer": "shape",
+      "prompt": "Liquids flow and take the shape of containers.",
+      "answer": "Matter",
       "options": [
-        "shape",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Matter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "readingText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "audioText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      "audioText": "Liquids flow and take the shape of containers.",
+      "art": "🧊",
+      "questionText": "According to the story about Matter and Its Properties, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liquids flow and take the shape of ____.",
-      "answer": "containers",
+      "prompt": "Gases spread freely in the air.",
+      "answer": "Matter",
       "options": [
-        "containers",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Matter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "readingText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "audioText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      "audioText": "Gases spread freely in the air.",
+      "art": "🧊",
+      "questionText": "According to the story about Matter and Its Properties, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Gases spread freely in the ____.",
-      "answer": "air",
+      "prompt": "What is the story mainly about?",
+      "answer": "Matter",
       "options": [
-        "air",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Matter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "readingText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air.",
-      "audioText": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+      "audioText": "What is the story mainly about?",
+      "art": "🧊",
+      "questionText": "According to the story about Matter and Its Properties, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Matter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Matter is anything that has mass and takes space. Solids have a fixed shape. Liquids flow and take the shape of containers. Gases spread freely in the air."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

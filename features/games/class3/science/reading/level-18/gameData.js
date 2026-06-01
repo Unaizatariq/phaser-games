@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 18,
   "topic": "Safety and First Aid",
-  "teach": "Safety rules protect us from harm.",
-  "examples": [
-    "Safety rules protect us from harm.",
-    "We should be careful while crossing roads.",
-    "First aid helps injured people."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Safety and First Aid",
+      "prompt": "Safety rules protect us from harm.",
+      "answer": "Safety",
       "options": [
-        "Safety and First Aid",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "readingText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "audioText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      "audioText": "Safety rules protect us from harm.",
+      "art": "🔒",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safety rules protect us from ____.",
-      "answer": "harm",
+      "prompt": "We should be careful while crossing roads.",
+      "answer": "Safety",
       "options": [
-        "harm",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "readingText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "audioText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      "audioText": "We should be careful while crossing roads.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should be careful while crossing ____.",
-      "answer": "roads",
+      "prompt": "First aid helps injured people.",
+      "answer": "Safety",
       "options": [
-        "roads",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "readingText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "audioText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      "audioText": "First aid helps injured people.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: First aid helps injured ____.",
-      "answer": "people",
+      "prompt": "Adults should help in emergencies.",
+      "answer": "Safety",
       "options": [
-        "people",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "readingText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "audioText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      "audioText": "Adults should help in emergencies.",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Adults should help in ____.",
-      "answer": "emergencies",
+      "prompt": "What is the story mainly about?",
+      "answer": "Safety",
       "options": [
-        "emergencies",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Safety",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "readingText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies.",
-      "audioText": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+      "audioText": "What is the story mainly about?",
+      "art": "🔒",
+      "questionText": "According to the story about Safety and First Aid, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Safety": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Safety rules protect us from harm. We should be careful while crossing roads. First aid helps injured people. Adults should help in emergencies."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

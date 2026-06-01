@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 10,
-  "topic": "Subject and Predicate",
-  "teach": "Subject and Predicate is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Subject and Predicate",
-    "example",
-    "practice"
-  ],
+  "topic": "Tenses Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Subject and Predicate",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Write sentence in present tense",
+      "answer": "I go to school.",
+      "options": [
+        "I go to school.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write sentence in present tense",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "I go to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Write sentence in past tense",
+      "answer": "I went to school.",
+      "options": [
+        "I went to school.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write sentence in past tense",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "I went to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Write sentence in future tense",
+      "answer": "I will go to school.",
+      "options": [
+        "I will go to school.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write sentence in future tense",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "I will go to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Write present continuous sentence",
+      "answer": "I am reading a book.",
+      "options": [
+        "I am reading a book.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write present continuous sentence",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I am reading a book.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Write past continuous sentence",
+      "answer": "I was reading a book.",
+      "options": [
+        "I was reading a book.",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Write past continuous sentence",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "I was reading a book.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 6,
   "topic": "Division",
-  "teach": "Division means sharing equally.",
-  "examples": [
-    "Division means sharing equally.",
-    "12 divided by 3 equals 4.",
-    "Division helps us split things fairly."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Division means sharing equally.",
       "answer": "Division",
       "options": [
         "Division",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "readingText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "audioText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      "audioText": "Division means sharing equally.",
+      "art": "➗",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division means sharing ____.",
-      "answer": "equally",
+      "prompt": "12 divided by 3 equals 4.",
+      "answer": "Division",
       "options": [
-        "equally",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "readingText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "audioText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      "audioText": "12 divided by 3 equals 4.",
+      "art": "➗",
+      "questionText": "According to the story about Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 12 divided by 3 ____ 4.",
-      "answer": "equals",
+      "prompt": "Division helps us split things fairly.",
+      "answer": "Division",
       "options": [
-        "equals",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "readingText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "audioText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      "audioText": "Division helps us split things fairly.",
+      "art": "➗",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Division helps us split things ____.",
-      "answer": "fairly",
+      "prompt": "It is the opposite of multiplication.",
+      "answer": "Division",
       "options": [
-        "fairly",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "readingText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "audioText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      "audioText": "It is the opposite of multiplication.",
+      "art": "➗",
+      "questionText": "According to the story about Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It is the opposite of ____.",
-      "answer": "multiplication",
+      "prompt": "What is the story mainly about?",
+      "answer": "Division",
       "options": [
-        "multiplication",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Division",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "readingText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication.",
-      "audioText": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+      "audioText": "What is the story mainly about?",
+      "art": "➗",
+      "questionText": "According to the story about Division, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Division": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Division means sharing equally. 12 divided by 3 equals 4. Division helps us split things fairly. It is the opposite of multiplication."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

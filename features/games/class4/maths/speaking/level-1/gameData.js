@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "speaking",
   "level": 1,
   "topic": "Decimals",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Zero Point Five",
-    "Zero Point Nine",
-    "Zero Point Eight"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Say the decimal 0.5",
       "answer": "Zero Point Five",
-      "expected": "Zero Point Five",
-      "options": [],
+      "options": [
+        "Zero Point Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the decimal 0.5",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the decimal 0.9",
       "answer": "Zero Point Nine",
-      "expected": "Zero Point Nine",
-      "options": [],
+      "options": [
+        "Zero Point Nine",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the decimal 0.9",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Nine": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which decimal is greater: 0.2 or 0.8?",
       "answer": "Zero Point Eight",
-      "expected": "Zero Point Eight",
-      "options": [],
+      "options": [
+        "Zero Point Eight",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Which decimal is greater: 0.2 or 0.8?",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Zero Point Eight": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the decimal 1.5",
       "answer": "One Point Five",
-      "expected": "One Point Five",
-      "options": [],
+      "options": [
+        "One Point Five",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the decimal 1.5",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "One Point Five": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Say the decimal 2.0",
       "answer": "Two Point Zero",
-      "expected": "Two Point Zero",
-      "options": [],
+      "options": [
+        "Two Point Zero",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Say the decimal 2.0",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "Two Point Zero": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

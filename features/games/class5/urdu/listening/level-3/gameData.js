@@ -1,58 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "listening",
   "level": 3,
   "topic": "اعلیٰ جملے",
-  "teach": "غور سے سنیں اور درست جواب منتخب کریں۔",
-  "examples": [
-    "مجھے اپنی کتاب پسند ہے۔",
-    "وہ محنت سے پڑھتا ہے۔",
-    "ہم اپنے ملک سے محبت کرتے ہیں۔"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "درست جملہ منتخب کریں۔",
-      "answer": "مجھے اپنی کتاب پسند ہے۔",
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
       "options": [
-        "مجھے اپنی کتاب پسند ہے۔",
-        "مجھے اپنی کتاب پسند ہیں۔",
-        "مجھے اپنی کتاب پسند ہو۔",
-        "مجھے اپنی کتاب پسند تھے۔"
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
       ],
-      "audioText": "درست جملہ منتخب کریں۔",
-      "gameplayType": "listen-tap"
+      "art": "🧒",
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "درست جملہ منتخب کریں۔",
-      "answer": "وہ محنت سے پڑھتا ہے۔",
+      "prompt": "مریم نے کتاب کہاں رکھی؟",
+      "answer": "بیگ",
       "options": [
-        "وہ محنت سے پڑھتا ہے۔",
-        "وہ محنت سے پڑھتے ہے۔",
-        "وہ محنت سے پڑھتا ہیں۔",
-        "وہ محنت سے پڑھ رہی ہوں۔"
+        {
+          "text": "بیگ",
+          "tts": "بیگ"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "گلاس",
+          "tts": "گلاس"
+        },
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        }
       ],
-      "audioText": "درست جملہ منتخب کریں۔",
-      "gameplayType": "drag-drop"
+      "art": "🎒",
+      "audioText": "مریم نے اپنی کتاب بیگ میں رکھی۔",
+      "questionText": "مریم نے کتاب کہاں رکھی؟",
+      "optionArts": {
+        "بیگ": "🔹",
+        "پارک": "🌳",
+        "گلاس": "🔹",
+        "درخت": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "درست جملہ منتخب کریں۔",
-      "answer": "ہم اپنے ملک سے محبت کرتے ہیں۔",
+      "prompt": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "answer": "سرخ",
       "options": [
-        "ہم اپنے ملک سے محبت کرتے ہیں۔",
-        "ہم اپنے ملک سے محبت کرتا ہے۔",
-        "ہم اپنے ملک سے محبت کرتی ہوں۔",
-        "ہم اپنے ملک سے محبت کرتے ہے۔"
+        {
+          "text": "سرخ",
+          "tts": "سرخ"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "پیلا",
+          "tts": "پیلا"
+        }
       ],
-      "audioText": "درست جملہ منتخب کریں۔",
-      "gameplayType": "basket-catch"
+      "art": "🔴",
+      "audioText": "احمد نے سرخ گیند اٹھائی۔",
+      "questionText": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "optionArts": {
+        "سرخ": "🔴",
+        "نیلا": "🔵",
+        "سبز": "🟢",
+        "پیلا": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
+    },
+    {
+      "prompt": "بچہ کس سے سبق پڑھتا ہے؟",
+      "answer": "استاد",
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        }
+      ],
+      "art": "👩‍🏫",
+      "audioText": "بچہ اسکول میں استاد سے سبق پڑھتا ہے۔",
+      "questionText": "بچہ کس سے سبق پڑھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "دوست": "🧒",
+        "بھائی": "👦",
+        "والد": "👨"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
+    },
+    {
+      "prompt": "سارہ نے باغ میں کیا دیکھا؟",
+      "answer": "پھول",
+      "options": [
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        },
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "کرسی",
+          "tts": "کرسی"
+        },
+        {
+          "text": "ماؤس",
+          "tts": "ماؤس"
+        }
+      ],
+      "art": "🌸",
+      "audioText": "سارہ نے باغ میں خوبصورت پھول دیکھا۔",
+      "questionText": "سارہ نے باغ میں کیا دیکھا؟",
+      "optionArts": {
+        "پھول": "🌸",
+        "کتاب": "📘",
+        "کرسی": "🔹",
+        "ماؤس": "🖱️"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "listening"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 5,
   "topic": "Storage Devices",
-  "teach": "Storage devices save information and files.",
-  "examples": [
-    "Storage devices save information and files.",
-    "Hard disks can store large amounts of data.",
-    "USB drives are portable storage devices."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Storage Devices",
+      "prompt": "Storage devices save information and files.",
+      "answer": "Storage",
       "options": [
-        "Storage Devices",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "readingText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "audioText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      "audioText": "Storage devices save information and files.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Storage devices save information and ____.",
-      "answer": "files",
+      "prompt": "Hard disks can store large amounts of data.",
+      "answer": "Storage",
       "options": [
-        "files",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "readingText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "audioText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      "audioText": "Hard disks can store large amounts of data.",
+      "art": "📚",
+      "questionText": "According to the story about Storage Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hard disks can store large amounts of ____.",
-      "answer": "data",
+      "prompt": "USB drives are portable storage devices.",
+      "answer": "Storage",
       "options": [
-        "data",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "readingText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "audioText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      "audioText": "USB drives are portable storage devices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: USB drives are portable storage ____.",
-      "answer": "devices",
+      "prompt": "Cloud storage stores files online.",
+      "answer": "Storage",
       "options": [
-        "devices",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "readingText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "audioText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      "audioText": "Cloud storage stores files online.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cloud storage stores files ____.",
-      "answer": "online",
+      "prompt": "What is the story mainly about?",
+      "answer": "Storage",
       "options": [
-        "online",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Storage",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "readingText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online.",
-      "audioText": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Storage Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Storage": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Storage devices save information and files. Hard disks can store large amounts of data. USB drives are portable storage devices. Cloud storage stores files online."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,90 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 5,
   "topic": "پہلے حرف کی آواز",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "الف",
-    "بے",
-    "کاف"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "آم کا پہلا حرف بولیں۔",
       "answer": "الف",
-      "expected": "الف",
-      "options": [],
+      "options": [
+        {
+          "text": "الف",
+          "tts": "الف"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آم کا پہلا حرف بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "mango.png",
-      "requiredAsset": "mango.png"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "الف": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "بلی کا پہلا حرف بولیں۔",
       "answer": "بے",
-      "expected": "بے",
-      "options": [],
+      "options": [
+        {
+          "text": "بے",
+          "tts": "بے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "بلی کا پہلا حرف بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "cat.png",
-      "requiredAsset": "cat.png"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "بے": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "کتاب کا پہلا حرف بولیں۔",
       "answer": "کاف",
-      "expected": "کاف",
-      "options": [],
+      "options": [
+        {
+          "text": "کاف",
+          "tts": "کاف"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "کتاب کا پہلا حرف بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "book.png",
-      "requiredAsset": "book.png"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "کاف": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "گھر کا پہلا حرف بولیں۔",
       "answer": "گاف",
-      "expected": "گاف",
-      "options": [],
+      "options": [
+        {
+          "text": "گاف",
+          "tts": "گاف"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "گھر کا پہلا حرف بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "house.png",
-      "requiredAsset": "house.png"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "گاف": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "پھول کا پہلا حرف بولیں۔",
       "answer": "پے",
-      "expected": "پے",
-      "options": [],
+      "options": [
+        {
+          "text": "پے",
+          "tts": "پے"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "پھول کا پہلا حرف بولیں۔",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "image": "flower.png",
-      "requiredAsset": "flower.png"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پے": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

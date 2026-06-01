@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 15,
   "topic": "Keeping Clean",
-  "teach": "Cleanliness keeps us healthy.",
-  "examples": [
-    "Cleanliness keeps us healthy.",
-    "We should wash our hands regularly.",
-    "We should brush our teeth daily."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Keeping Clean",
+      "prompt": "Cleanliness keeps us healthy.",
+      "answer": "Keeping",
       "options": [
-        "Keeping Clean",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      "audioText": "Cleanliness keeps us healthy.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cleanliness ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "We should wash our hands regularly.",
+      "answer": "Keeping",
       "options": [
-        "keeps",
-        "Living Things",
-        "move",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      "audioText": "We should wash our hands regularly.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should wash our hands ____.",
-      "answer": "regularly",
+      "prompt": "We should brush our teeth daily.",
+      "answer": "Keeping",
       "options": [
-        "regularly",
-        "Living Things",
-        "move",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      "audioText": "We should brush our teeth daily.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should brush our ____ daily.",
-      "answer": "teeth",
+      "prompt": "Clean clothes make us feel fresh.",
+      "answer": "Keeping",
       "options": [
-        "teeth",
-        "Living Things",
-        "move",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      "audioText": "Clean clothes make us feel fresh.",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean clothes make us feel ____.",
-      "answer": "fresh",
+      "prompt": "What is the story mainly about?",
+      "answer": "Keeping",
       "options": [
-        "fresh",
-        "Living Things",
-        "move",
-        "things"
+        "Keeping",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "readingText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh.",
-      "audioText": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Keeping Clean, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Keeping": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cleanliness keeps us healthy. We should wash our hands regularly. We should brush our teeth daily. Clean clothes make us feel fresh."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Perimeter",
-  "teach": "Perimeter is the distance around a shape.",
-  "examples": [
-    "Perimeter is the distance around a shape.",
-    "We add all sides to find perimeter.",
-    "Perimeter is measured in units."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Perimeter is the distance around a shape.",
       "answer": "Perimeter",
       "options": [
         "Perimeter",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "readingText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "audioText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      "audioText": "Perimeter is the distance around a shape.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Perimeter is the distance around a ____.",
-      "answer": "shape",
+      "prompt": "We add all sides to find perimeter.",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "readingText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "audioText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      "audioText": "We add all sides to find perimeter.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Perimeter is measured in ____.",
-      "answer": "units",
+      "prompt": "Perimeter is measured in units.",
+      "answer": "Perimeter",
       "options": [
-        "units",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "readingText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "audioText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      "audioText": "Perimeter is measured in units.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It helps measure ____.",
-      "answer": "boundaries",
+      "prompt": "It helps measure boundaries.",
+      "answer": "Perimeter",
       "options": [
-        "boundaries",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "readingText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "audioText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      "audioText": "It helps measure boundaries.",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "shape",
+      "prompt": "What is the story mainly about?",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "readingText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries.",
-      "audioText": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Perimeter is the distance around a shape. We add all sides to find perimeter. Perimeter is measured in units. It helps measure boundaries."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

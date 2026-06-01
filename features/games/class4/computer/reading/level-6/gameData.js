@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 6,
   "topic": "Operating Systems",
-  "teach": "An operating system controls computer functions.",
-  "examples": [
-    "An operating system controls computer functions.",
-    "Windows and Linux are examples of operating systems.",
-    "The operating system helps run programs."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Operating Systems",
+      "prompt": "An operating system controls computer functions.",
+      "answer": "Operating",
       "options": [
-        "Operating Systems",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "readingText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "audioText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      "audioText": "An operating system controls computer functions.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: An operating system controls computer ____.",
-      "answer": "functions",
+      "prompt": "Windows and Linux are examples of operating systems.",
+      "answer": "Operating",
       "options": [
-        "functions",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "readingText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "audioText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      "audioText": "Windows and Linux are examples of operating systems.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Windows and Linux are examples of operating ____.",
-      "answer": "systems",
+      "prompt": "The operating system helps run programs.",
+      "answer": "Operating",
       "options": [
-        "systems",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "readingText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "audioText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      "audioText": "The operating system helps run programs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The operating system helps run ____.",
-      "answer": "programs",
+      "prompt": "It also manages files and devices.",
+      "answer": "Operating",
       "options": [
-        "programs",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "readingText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "audioText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      "audioText": "It also manages files and devices.",
+      "art": "📚",
+      "questionText": "According to the story about Operating Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It also manages files and ____.",
-      "answer": "devices",
+      "prompt": "What is the story mainly about?",
+      "answer": "Operating",
       "options": [
-        "devices",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Operating",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "readingText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices.",
-      "audioText": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Operating Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Operating": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "An operating system controls computer functions. Windows and Linux are examples of operating systems. The operating system helps run programs. It also manages files and devices."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

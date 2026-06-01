@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 5,
   "topic": "Patterns",
-  "teach": "Patterns repeat in order.",
-  "examples": [
-    "Patterns repeat in order.",
-    "Red, blue, red, blue is a pattern.",
-    "Patterns help us think."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Patterns repeat in order.",
       "answer": "Patterns",
       "options": [
         "Patterns",
-        "Counting 1 to 20",
-        "Addition",
-        "Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "readingText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "audioText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      "audioText": "Patterns repeat in order.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns repeat in ____.",
-      "answer": "order",
+      "prompt": "Red, blue, red, blue is a pattern.",
+      "answer": "Patterns",
       "options": [
-        "order",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "readingText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "audioText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      "audioText": "Red, blue, red, blue is a pattern.",
+      "art": "📚",
+      "questionText": "According to the story about Patterns, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Red, blue, red, blue is a ____.",
-      "answer": "pattern",
+      "prompt": "Patterns help us think.",
+      "answer": "Patterns",
       "options": [
-        "pattern",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "readingText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "audioText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      "audioText": "Patterns help us think.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns help us ____.",
-      "answer": "think",
+      "prompt": "Patterns are fun to learn.",
+      "answer": "Patterns",
       "options": [
-        "think",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "readingText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "audioText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      "audioText": "Patterns are fun to learn.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "order",
+      "prompt": "What is the story mainly about?",
+      "answer": "Patterns",
       "options": [
-        "order",
-        "Counting 1 to 20",
-        "count",
-        "Counting"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "readingText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn.",
-      "audioText": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Patterns, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Patterns repeat in order. Red, blue, red, blue is a pattern. Patterns help us think. Patterns are fun to learn."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

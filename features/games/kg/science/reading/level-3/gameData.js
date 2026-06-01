@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Birds",
-  "teach": "Birds can fly.",
-  "examples": [
-    "Birds can fly.",
-    "Birds make nests on trees."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Birds can fly. Birds make nests on trees.",
       "answer": "Birds",
       "options": [
         "Birds",
-        "My Body",
-        "Animals",
-        "Plants"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly. Birds make nests on trees.",
-      "readingText": "Birds can fly. Birds make nests on trees.",
-      "audioText": "Birds can fly. Birds make nests on trees."
+      "audioText": "Birds can fly. Birds make nests on trees.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "Birds can fly.",
+        "Birds make nests on trees."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds can ____.",
-      "answer": "fly",
+      "prompt": "What is the story mainly about?",
+      "answer": "Birds",
       "options": [
-        "fly",
-        "My Body",
-        "eyes",
-        "hands"
+        "Birds",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Birds can fly. Birds make nests on trees.",
-      "readingText": "Birds can fly. Birds make nests on trees.",
-      "audioText": "Birds can fly. Birds make nests on trees."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Birds, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Birds": "🐦",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds make nests on ____.",
-      "answer": "trees",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "trees",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Birds can fly. Birds make nests on trees.",
-      "readingText": "Birds can fly. Birds make nests on trees.",
-      "audioText": "Birds can fly. Birds make nests on trees."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "💧",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "fly",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "fly",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Birds can fly. Birds make nests on trees.",
-      "readingText": "Birds can fly. Birds make nests on trees.",
-      "audioText": "Birds can fly. Birds make nests on trees."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🍎",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "trees",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "trees",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Birds can fly. Birds make nests on trees.",
-      "readingText": "Birds can fly. Birds make nests on trees.",
-      "audioText": "Birds can fly. Birds make nests on trees."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🧊",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Birds can fly. Birds make nests on trees."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 11,
   "topic": "Email Communication",
-  "teach": "Email allows people to send messages online.",
-  "examples": [
-    "Email allows people to send messages online.",
-    "Emails are fast and convenient.",
-    "People can attach files to emails."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Email Communication",
+      "prompt": "Email allows people to send messages online.",
+      "answer": "Email",
       "options": [
-        "Email Communication",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "readingText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "audioText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      "audioText": "Email allows people to send messages online.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Email allows people to send messages ____.",
-      "answer": "online",
+      "prompt": "Emails are fast and convenient.",
+      "answer": "Email",
       "options": [
-        "online",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "readingText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "audioText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      "audioText": "Emails are fast and convenient.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Emails are fast and ____.",
-      "answer": "convenient",
+      "prompt": "People can attach files to emails.",
+      "answer": "Email",
       "options": [
-        "convenient",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "readingText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "audioText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      "audioText": "People can attach files to emails.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People can attach files to ____.",
-      "answer": "emails",
+      "prompt": "Email is widely used in schools and offices.",
+      "answer": "Email",
       "options": [
-        "emails",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "readingText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "audioText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      "audioText": "Email is widely used in schools and offices.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Email is widely used in schools and ____.",
-      "answer": "offices",
+      "prompt": "What is the story mainly about?",
+      "answer": "Email",
       "options": [
-        "offices",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "readingText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices.",
-      "audioText": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Email Communication, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Email allows people to send messages online. Emails are fast and convenient. People can attach files to emails. Email is widely used in schools and offices."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

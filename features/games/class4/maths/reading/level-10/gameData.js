@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Perimeter and Area",
-  "teach": "Perimeter is the distance around a shape.",
-  "examples": [
-    "Perimeter is the distance around a shape.",
-    "Area measures the surface inside a shape.",
-    "We use formulas to calculate area and perimeter."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Perimeter and Area",
+      "prompt": "Perimeter is the distance around a shape.",
+      "answer": "Perimeter",
       "options": [
-        "Perimeter and Area",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "readingText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "audioText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      "audioText": "Perimeter is the distance around a shape.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Perimeter is the distance around a ____.",
-      "answer": "shape",
+      "prompt": "Area measures the surface inside a shape.",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "readingText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "audioText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      "audioText": "Area measures the surface inside a shape.",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter and Area, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use formulas to calculate area and ____.",
-      "answer": "perimeter",
+      "prompt": "We use formulas to calculate area and perimeter.",
+      "answer": "Perimeter",
       "options": [
-        "perimeter",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "readingText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "audioText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      "audioText": "We use formulas to calculate area and perimeter.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: These ____ are useful in daily life.",
-      "answer": "measurements",
+      "prompt": "These measurements are useful in daily life.",
+      "answer": "Perimeter",
       "options": [
-        "measurements",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "readingText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "audioText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      "audioText": "These measurements are useful in daily life.",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter and Area, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "shape",
+      "prompt": "What is the story mainly about?",
+      "answer": "Perimeter",
       "options": [
-        "shape",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Perimeter",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "readingText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life.",
-      "audioText": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Perimeter and Area, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Perimeter": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Perimeter is the distance around a shape. Area measures the surface inside a shape. We use formulas to calculate area and perimeter. These measurements are useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

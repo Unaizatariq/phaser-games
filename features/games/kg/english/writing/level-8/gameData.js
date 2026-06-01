@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 8,
-  "topic": "Pencil Grip Practice",
-  "teach": "Pencil Grip Practice is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Pencil Grip Practice",
-    "example",
-    "practice"
-  ],
+  "topic": "Capital Letter Tracing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Pencil Grip Practice",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Trace capital letter A",
+      "answer": "A",
+      "options": [
+        "A",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter A",
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "A": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Trace capital letter F",
+      "answer": "F",
+      "options": [
+        "F",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter F",
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "F": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Trace capital letter K",
+      "answer": "K",
+      "options": [
+        "K",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter K",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "K": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Trace capital letter P",
+      "answer": "P",
+      "options": [
+        "P",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter P",
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "P": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Trace capital letter Z",
+      "answer": "Z",
+      "options": [
+        "Z",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Trace capital letter Z",
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "Z": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 1,
   "topic": "Keyboard Keys",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Spacebar",
-    "Backspace",
-    "Enter"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which key gives space between words?",
       "answer": "Spacebar",
-      "expected": "Spacebar",
-      "options": [],
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which key gives space between words?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which key deletes letters?",
       "answer": "Backspace",
-      "expected": "Backspace",
-      "options": [],
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which key deletes letters?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which key moves to next line?",
       "answer": "Enter",
-      "expected": "Enter",
-      "options": [],
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which key moves to next line?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which keys are used for typing letters?",
       "answer": "Alphabet Keys",
-      "expected": "Alphabet Keys",
-      "options": [],
+      "options": [
+        "Alphabet Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which keys are used for typing letters?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Alphabet Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which keys type numbers?",
       "answer": "Number Keys",
-      "expected": "Number Keys",
-      "options": [],
+      "options": [
+        "Number Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which keys type numbers?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Number Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

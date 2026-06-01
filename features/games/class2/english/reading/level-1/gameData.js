@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 1,
   "topic": "The Park",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "park"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Last Sunday, Ali went to the park with his family.",
       "answer": "park",
       "options": [
         "park",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "school",
         "zoo"
       ],
-      "text": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "audioText": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+      "audioText": "Last Sunday, Ali went to the park with his family.",
+      "art": "🌳",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "He played on the swings and slides with his friends.",
       "answer": "park",
       "options": [
         "park",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "school",
         "zoo"
       ],
-      "text": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "audioText": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+      "audioText": "He played on the swings and slides with his friends.",
+      "art": "🌳",
+      "questionText": "According to the story about The Park, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "The grass was green and soft.",
       "answer": "park",
       "options": [
         "park",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "school",
         "zoo"
       ],
-      "text": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "audioText": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+      "audioText": "The grass was green and soft.",
+      "art": "🌳",
+      "questionText": "According to the story about The Park, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Birds were flying in the sky.",
       "answer": "park",
       "options": [
         "park",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "school",
         "zoo"
       ],
-      "text": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "audioText": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+      "audioText": "Birds were flying in the sky.",
+      "art": "🌳",
+      "questionText": "According to the story about The Park, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "Ali enjoyed the sunny day very much.",
       "answer": "park",
       "options": [
         "park",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "school",
         "zoo"
       ],
-      "text": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much.",
-      "audioText": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+      "audioText": "Ali enjoyed the sunny day very much.",
+      "art": "🌳",
+      "questionText": "According to the story about The Park, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "park",
+      "options": [
+        "park",
+        "market",
+        "school",
+        "zoo"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🌳",
+      "questionText": "According to the story about The Park, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "park": "🌳",
+        "market": "🔹",
+        "school": "🏫",
+        "zoo": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Last Sunday, Ali went to the park with his family. He played on the swings and slides with his friends. The grass was green and soft. Birds were flying in the sky. Ali enjoyed the sunny day very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

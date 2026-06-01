@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 12,
   "topic": "Money",
-  "teach": "Money is used to buy things.",
-  "examples": [
-    "Money is used to buy things.",
-    "Coins and notes have different values.",
-    "People save and spend money."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Money is used to buy things.",
       "answer": "Money",
       "options": [
         "Money",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "readingText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "audioText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      "audioText": "Money is used to buy things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Money is used to buy ____.",
-      "answer": "things",
+      "prompt": "Coins and notes have different values.",
+      "answer": "Money",
       "options": [
-        "things",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "readingText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "audioText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      "audioText": "Coins and notes have different values.",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Coins and notes have different ____.",
-      "answer": "values",
+      "prompt": "People save and spend money.",
+      "answer": "Money",
       "options": [
-        "values",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "readingText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "audioText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      "audioText": "People save and spend money.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "things",
+      "prompt": "Math helps us count money.",
+      "answer": "Money",
       "options": [
-        "things",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "readingText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "audioText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      "audioText": "Math helps us count money.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "values",
+      "prompt": "What is the story mainly about?",
+      "answer": "Money",
       "options": [
-        "values",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Money",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "readingText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money.",
-      "audioText": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Money, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Money": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Money is used to buy things. Coins and notes have different values. People save and spend money. Math helps us count money."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

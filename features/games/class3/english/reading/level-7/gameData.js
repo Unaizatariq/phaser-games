@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "Helping Parents",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "parents"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Children should help their parents at home.",
       "answer": "parents",
       "options": [
         "parents",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "drivers",
         "shopkeepers"
       ],
-      "text": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "audioText": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+      "audioText": "Children should help their parents at home.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "parents": "🔹",
+        "strangers": "🔹",
+        "drivers": "🔹",
+        "shopkeepers": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I help my mother by cleaning my room and arranging my books.",
       "answer": "parents",
       "options": [
         "parents",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "drivers",
         "shopkeepers"
       ],
-      "text": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "audioText": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+      "audioText": "I help my mother by cleaning my room and arranging my books.",
+      "art": "📚",
+      "questionText": "According to the story about Helping Parents, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "parents": "🔹",
+        "strangers": "🔹",
+        "drivers": "🔹",
+        "shopkeepers": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Sometimes, I help my father water the plants in our garden.",
       "answer": "parents",
       "options": [
         "parents",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "drivers",
         "shopkeepers"
       ],
-      "text": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "audioText": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+      "audioText": "Sometimes, I help my father water the plants in our garden.",
+      "art": "📚",
+      "questionText": "According to the story about Helping Parents, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "parents": "🔹",
+        "strangers": "🔹",
+        "drivers": "🔹",
+        "shopkeepers": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Helping parents teaches us responsibility and good manners.",
       "answer": "parents",
       "options": [
         "parents",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "drivers",
         "shopkeepers"
       ],
-      "text": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "audioText": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+      "audioText": "Helping parents teaches us responsibility and good manners.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "parents": "🔹",
+        "strangers": "🔹",
+        "drivers": "🔹",
+        "shopkeepers": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "parents",
       "options": [
         "parents",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "drivers",
         "shopkeepers"
       ],
-      "text": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners.",
-      "audioText": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Helping Parents, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "parents": "🔹",
+        "strangers": "🔹",
+        "drivers": "🔹",
+        "shopkeepers": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Children should help their parents at home. I help my mother by cleaning my room and arranging my books. Sometimes, I help my father water the plants in our garden. Helping parents teaches us responsibility and good manners."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

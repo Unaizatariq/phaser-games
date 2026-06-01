@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 2,
   "topic": "دو لائنیں لکھیں",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-    "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-    "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "اپنے اسکول کے بارے میں دو لائنیں لکھیں۔",
       "answer": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "expected": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
+          "tts": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے اسکول کے بارے میں دو لائنیں لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "اپنے دوست کے بارے میں دو لائنیں لکھیں۔",
       "answer": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "expected": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
+          "tts": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے دوست کے بارے میں دو لائنیں لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "پاکستان کے بارے میں دو لائنیں لکھیں۔",
       "answer": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "expected": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
+          "tts": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "پاکستان کے بارے میں دو لائنیں لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "اپنے خاندان کے بارے میں دو لائنیں لکھیں۔",
       "answer": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "expected": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
+          "tts": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے خاندان کے بارے میں دو لائنیں لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "اپنے استاد کے بارے میں دو لائنیں لکھیں۔",
       "answer": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "expected": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔",
+          "tts": "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے استاد کے بارے میں دو لائنیں لکھیں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "یہ بہت اچھا موضوع ہے۔ مجھے یہ پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 15,
   "topic": "Introduction to Coding",
-  "teach": "Coding gives instructions to computers.",
-  "examples": [
-    "Coding gives instructions to computers.",
-    "Programs are written using programming languages.",
-    "Coding helps develop problem-solving skills."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Introduction to Coding",
+      "prompt": "Coding gives instructions to computers.",
+      "answer": "Introduction",
       "options": [
-        "Introduction to Coding",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "readingText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "audioText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      "audioText": "Coding gives instructions to computers.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Coding gives instructions to ____.",
-      "answer": "computers",
+      "prompt": "Programs are written using programming languages.",
+      "answer": "Introduction",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "readingText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "audioText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      "audioText": "Programs are written using programming languages.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Programs are written using programming ____.",
-      "answer": "languages",
+      "prompt": "Coding helps develop problem-solving skills.",
+      "answer": "Introduction",
       "options": [
-        "languages",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "readingText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "audioText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      "audioText": "Coding helps develop problem-solving skills.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Coding helps develop problem-solving ____.",
-      "answer": "skills",
+      "prompt": "Children can learn simple coding activities.",
+      "answer": "Introduction",
       "options": [
-        "skills",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "readingText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "audioText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      "audioText": "Children can learn simple coding activities.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children can learn simple coding ____.",
-      "answer": "activities",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "activities",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "readingText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities.",
-      "audioText": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Coding gives instructions to computers. Programs are written using programming languages. Coding helps develop problem-solving skills. Children can learn simple coding activities."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

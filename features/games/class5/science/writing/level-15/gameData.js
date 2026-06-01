@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 15,
-  "topic": "Technology in Everyday Life",
-  "teach": "Technology in Everyday Life is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Technology in Everyday Life",
-    "example",
-    "practice"
-  ],
+  "topic": "Microorganisms",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Technology in Everyday Life",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type one microorganism",
+      "answer": "bacteria",
+      "options": [
+        "bacteria",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one microorganism",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "bacteria": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type one fungus",
+      "answer": "mushroom",
+      "options": [
+        "mushroom",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one fungus",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "mushroom": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type one bacteria",
+      "answer": "E. coli",
+      "options": [
+        "E. coli",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one bacteria",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "E. coli": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type one virus",
+      "answer": "flu virus",
+      "options": [
+        "flu virus",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one virus",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "flu virus": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type one useful microorganism",
+      "answer": "yeast",
+      "options": [
+        "yeast",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one useful microorganism",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "yeast": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

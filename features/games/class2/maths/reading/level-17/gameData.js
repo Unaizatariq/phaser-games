@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 17,
   "topic": "Ordinal Numbers",
-  "teach": "Ordinal numbers show position.",
-  "examples": [
-    "Ordinal numbers show position.",
-    "First, second, and third are ordinal numbers.",
-    "They are used in races and lists."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Ordinal Numbers",
+      "prompt": "Ordinal numbers show position.",
+      "answer": "Ordinal",
       "options": [
-        "Ordinal Numbers",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "readingText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "audioText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      "audioText": "Ordinal numbers show position.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ordinal numbers show ____.",
-      "answer": "position",
+      "prompt": "First, second, and third are ordinal numbers.",
+      "answer": "Ordinal",
       "options": [
-        "position",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "readingText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "audioText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      "audioText": "First, second, and third are ordinal numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: First, second, and third are ordinal ____.",
-      "answer": "numbers",
+      "prompt": "They are used in races and lists.",
+      "answer": "Ordinal",
       "options": [
-        "numbers",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "readingText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "audioText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      "audioText": "They are used in races and lists.",
+      "art": "📚",
+      "questionText": "According to the story about Ordinal Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They are used in races and ____.",
-      "answer": "lists",
+      "prompt": "Ordinal numbers are different from counting numbers.",
+      "answer": "Ordinal",
       "options": [
-        "lists",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "readingText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "audioText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      "audioText": "Ordinal numbers are different from counting numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "position",
+      "prompt": "What is the story mainly about?",
+      "answer": "Ordinal",
       "options": [
-        "position",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "readingText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers.",
-      "audioText": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Ordinal Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Ordinal numbers show position. First, second, and third are ordinal numbers. They are used in races and lists. Ordinal numbers are different from counting numbers."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

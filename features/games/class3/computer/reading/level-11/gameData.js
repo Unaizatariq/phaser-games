@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 11,
   "topic": "Educational Games",
-  "teach": "Educational games help students learn new things.",
-  "examples": [
-    "Educational games help students learn new things.",
-    "Some games improve math and language skills.",
-    "Games make learning interesting."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Educational Games",
+      "prompt": "Educational games help students learn new things.",
+      "answer": "Educational",
       "options": [
-        "Educational Games",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Educational",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "readingText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "audioText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      "audioText": "Educational games help students learn new things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Educational": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Educational games help students learn new ____.",
-      "answer": "things",
+      "prompt": "Some games improve math and language skills.",
+      "answer": "Educational",
       "options": [
-        "things",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Educational",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "readingText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "audioText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      "audioText": "Some games improve math and language skills.",
+      "art": "📚",
+      "questionText": "According to the story about Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Educational": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some games improve math and language ____.",
-      "answer": "skills",
+      "prompt": "Games make learning interesting.",
+      "answer": "Educational",
       "options": [
-        "skills",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Educational",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "readingText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "audioText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      "audioText": "Games make learning interesting.",
+      "art": "📚",
+      "questionText": "According to the story about Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Educational": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Games make learning ____.",
-      "answer": "interesting",
+      "prompt": "Children should use games wisely.",
+      "answer": "Educational",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Educational",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "readingText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "audioText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      "audioText": "Children should use games wisely.",
+      "art": "📚",
+      "questionText": "According to the story about Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Educational": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children should use games ____.",
-      "answer": "wisely",
+      "prompt": "What is the story mainly about?",
+      "answer": "Educational",
       "options": [
-        "wisely",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Educational",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "readingText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely.",
-      "audioText": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Educational Games, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Educational": "🐱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Educational games help students learn new things. Some games improve math and language skills. Games make learning interesting. Children should use games wisely."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

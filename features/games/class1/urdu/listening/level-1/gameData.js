@@ -1,58 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "listening",
   "level": 1,
   "topic": "حروف اور الفاظ کی پہچان",
-  "teach": "غور سے سنیں اور درست جواب منتخب کریں۔",
-  "examples": [
-    "ب",
-    "ق",
-    "آ"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "لفظ بلی کس حرف سے شروع ہوتا ہے؟",
-      "answer": "ب",
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
       "options": [
-        "ب",
-        "پ",
-        "ت",
-        "ج"
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
       ],
-      "audioText": "لفظ بلی کس حرف سے شروع ہوتا ہے؟",
-      "gameplayType": "listen-tap"
+      "art": "🧒",
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "لفظ قلم کس حرف سے شروع ہوتا ہے؟",
-      "answer": "ق",
+      "prompt": "مریم نے کتاب کہاں رکھی؟",
+      "answer": "بیگ",
       "options": [
-        "ق",
-        "ک",
-        "گ",
-        "م"
+        {
+          "text": "بیگ",
+          "tts": "بیگ"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "گلاس",
+          "tts": "گلاس"
+        },
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        }
       ],
-      "audioText": "لفظ قلم کس حرف سے شروع ہوتا ہے؟",
-      "gameplayType": "drag-drop"
+      "art": "🎒",
+      "audioText": "مریم نے اپنی کتاب بیگ میں رکھی۔",
+      "questionText": "مریم نے کتاب کہاں رکھی؟",
+      "optionArts": {
+        "بیگ": "🔹",
+        "پارک": "🌳",
+        "گلاس": "🔹",
+        "درخت": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "لفظ آم کس حرف سے شروع ہوتا ہے؟",
-      "answer": "آ",
+      "prompt": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "answer": "سرخ",
       "options": [
-        "آ",
-        "ا",
-        "ب",
-        "ت"
+        {
+          "text": "سرخ",
+          "tts": "سرخ"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "پیلا",
+          "tts": "پیلا"
+        }
       ],
-      "audioText": "لفظ آم کس حرف سے شروع ہوتا ہے؟",
-      "gameplayType": "basket-catch"
+      "art": "🔴",
+      "audioText": "احمد نے سرخ گیند اٹھائی۔",
+      "questionText": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "optionArts": {
+        "سرخ": "🔴",
+        "نیلا": "🔵",
+        "سبز": "🟢",
+        "پیلا": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
+    },
+    {
+      "prompt": "بچہ کس سے سبق پڑھتا ہے؟",
+      "answer": "استاد",
+      "options": [
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        }
+      ],
+      "art": "👩‍🏫",
+      "audioText": "بچہ اسکول میں استاد سے سبق پڑھتا ہے۔",
+      "questionText": "بچہ کس سے سبق پڑھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "دوست": "🧒",
+        "بھائی": "👦",
+        "والد": "👨"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
+    },
+    {
+      "prompt": "سارہ نے باغ میں کیا دیکھا؟",
+      "answer": "پھول",
+      "options": [
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        },
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "کرسی",
+          "tts": "کرسی"
+        },
+        {
+          "text": "ماؤس",
+          "tts": "ماؤس"
+        }
+      ],
+      "art": "🌸",
+      "audioText": "سارہ نے باغ میں خوبصورت پھول دیکھا۔",
+      "questionText": "سارہ نے باغ میں کیا دیکھا؟",
+      "optionArts": {
+        "پھول": "🌸",
+        "کتاب": "📘",
+        "کرسی": "🔹",
+        "ماؤس": "🖱️"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "listening"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

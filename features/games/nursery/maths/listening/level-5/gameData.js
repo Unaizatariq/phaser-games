@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 5,
-  "topic": "Count and Write",
-  "teach": "Count and Write is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Count and Write",
-    "example",
-    "practice"
-  ],
+  "topic": "numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Count and Write",
+      "prompt": "Solve: 6 + 1 = ?",
+      "answer": "7",
       "options": [
-        "Count and Write",
-        "Random topic",
-        "Wrong topic",
-        "Another lesson"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "What is today’s topic?"
+      "audioText": "Solve: 6 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 6,
+        "b": 1,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "read the example",
+      "prompt": "Solve: 7 + 2 = ?",
+      "answer": "9",
       "options": [
-        "read the example",
-        "skip the lesson",
-        "guess only",
-        "close the book"
+        "9",
+        "10",
+        "8",
+        "11"
       ],
-      "audioText": "To learn this topic, first we should"
+      "audioText": "Solve: 7 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 7,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "related to the topic",
+      "prompt": "Solve: 8 + 3 = ?",
+      "answer": "11",
       "options": [
-        "related to the topic",
-        "random",
-        "empty",
-        "copied wrong"
+        "11",
+        "12",
+        "10",
+        "13"
       ],
-      "audioText": "A good answer should be"
+      "audioText": "Solve: 8 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 8,
+        "b": 3,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "remember better",
+      "prompt": "Solve: 1 + 4 = ?",
+      "answer": "5",
       "options": [
-        "remember better",
-        "forget",
-        "sleep",
-        "stop learning"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "Practice helps us"
+      "audioText": "Solve: 1 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 1,
+        "b": 4,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "try again",
+      "prompt": "Solve: 2 + 5 = ?",
+      "answer": "7",
       "options": [
-        "try again",
-        "give up",
-        "ignore",
-        "rush"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Choose the correct learning habit."
+      "audioText": "Solve: 2 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 2,
+        "b": 5,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

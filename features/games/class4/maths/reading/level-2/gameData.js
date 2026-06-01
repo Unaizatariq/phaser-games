@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 2,
   "topic": "Factors and Multiples",
-  "teach": "Factors divide a number exactly.",
-  "examples": [
-    "Factors divide a number exactly.",
-    "Multiples are formed by multiplying numbers.",
-    "Every number has factors and multiples."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Factors and Multiples",
+      "prompt": "Factors divide a number exactly.",
+      "answer": "Factors",
       "options": [
-        "Factors and Multiples",
-        "Whole Numbers",
-        "Prime and Composite Numbers",
-        "Fractions"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "readingText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "audioText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      "audioText": "Factors divide a number exactly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Factors divide a number ____.",
-      "answer": "exactly",
+      "prompt": "Multiples are formed by multiplying numbers.",
+      "answer": "Factors",
       "options": [
-        "exactly",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "readingText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "audioText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      "audioText": "Multiples are formed by multiplying numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Factors and Multiples, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Multiples are formed by multiplying ____.",
-      "answer": "numbers",
+      "prompt": "Every number has factors and multiples.",
+      "answer": "Factors",
       "options": [
-        "numbers",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "readingText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "audioText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      "audioText": "Every number has factors and multiples.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Every number has factors and ____.",
-      "answer": "multiples",
+      "prompt": "Factors and multiples help solve math problems.",
+      "answer": "Factors",
       "options": [
-        "multiples",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "readingText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "audioText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      "audioText": "Factors and multiples help solve math problems.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Factors and multiples help solve math ____.",
-      "answer": "problems",
+      "prompt": "What is the story mainly about?",
+      "answer": "Factors",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Factors",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "readingText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems.",
-      "audioText": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Factors and Multiples, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Factors": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Factors divide a number exactly. Multiples are formed by multiplying numbers. Every number has factors and multiples. Factors and multiples help solve math problems."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

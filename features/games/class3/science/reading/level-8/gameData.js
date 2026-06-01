@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "The Solar System",
-  "teach": "The sun is at the center of the solar system.",
-  "examples": [
-    "The sun is at the center of the solar system.",
-    "Earth is the planet where we live.",
-    "The moon moves around the Earth."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Solar System",
+      "prompt": "The sun is at the center of the solar system.",
+      "answer": "The",
       "options": [
-        "The Solar System",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "readingText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "audioText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      "audioText": "The sun is at the center of the solar system.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is at the center of the solar ____.",
-      "answer": "system",
+      "prompt": "Earth is the planet where we live.",
+      "answer": "The",
       "options": [
-        "system",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "readingText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "audioText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      "audioText": "Earth is the planet where we live.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earth is the planet where we ____.",
-      "answer": "live",
+      "prompt": "The moon moves around the Earth.",
+      "answer": "The",
       "options": [
-        "live",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "readingText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "audioText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      "audioText": "The moon moves around the Earth.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon moves around the ____.",
-      "answer": "Earth",
+      "prompt": "There are many planets in space.",
+      "answer": "The",
       "options": [
-        "Earth",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "readingText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "audioText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      "audioText": "There are many planets in space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: There are many planets in ____.",
-      "answer": "space",
+      "prompt": "What is the story mainly about?",
+      "answer": "The",
       "options": [
-        "space",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "The",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "readingText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space.",
-      "audioText": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "The": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sun is at the center of the solar system. Earth is the planet where we live. The moon moves around the Earth. There are many planets in space."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

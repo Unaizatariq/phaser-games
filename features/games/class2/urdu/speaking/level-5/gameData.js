@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 5,
   "topic": "درست جملہ بنائیں",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "علی اسکول گیا۔",
-    "بلی دودھ پیتی ہے۔",
-    "بچے کھیل رہے ہیں۔"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "الفاظ :علی ،اسکول ،گیا۔",
       "answer": "علی اسکول گیا۔",
-      "expected": "علی اسکول گیا۔",
-      "options": [],
+      "options": [
+        {
+          "text": "علی اسکول گیا۔",
+          "tts": "علی اسکول گیا۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الفاظ :علی ،اسکول ،گیا۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "علی اسکول گیا۔": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "الفاظ :بلی ،دودھ ،پیتی ہے۔",
       "answer": "بلی دودھ پیتی ہے۔",
-      "expected": "بلی دودھ پیتی ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "بلی دودھ پیتی ہے۔",
+          "tts": "بلی دودھ پیتی ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الفاظ :بلی ،دودھ ،پیتی ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "بلی دودھ پیتی ہے۔": "🐱",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "الفاظ :بچے ،کھیل ،رہے ہیں۔",
       "answer": "بچے کھیل رہے ہیں۔",
-      "expected": "بچے کھیل رہے ہیں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "بچے کھیل رہے ہیں۔",
+          "tts": "بچے کھیل رہے ہیں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الفاظ :بچے ،کھیل ،رہے ہیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "بچے کھیل رہے ہیں۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "الفاظ :سارہ ،کتاب ،پڑھتی ہے۔",
       "answer": "سارہ کتاب پڑھتی ہے۔",
-      "expected": "سارہ کتاب پڑھتی ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "سارہ کتاب پڑھتی ہے۔",
+          "tts": "سارہ کتاب پڑھتی ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الفاظ :سارہ ،کتاب ،پڑھتی ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "سارہ کتاب پڑھتی ہے۔": "📘",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "الفاظ :پرندہ ،اڑ ،رہا ہے۔",
       "answer": "پرندہ اڑ رہا ہے۔",
-      "expected": "پرندہ اڑ رہا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "پرندہ اڑ رہا ہے۔",
+          "tts": "پرندہ اڑ رہا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "الفاظ :پرندہ ،اڑ ،رہا ہے۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "پرندہ اڑ رہا ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

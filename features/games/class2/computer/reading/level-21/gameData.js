@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 21,
-  "topic": "Technology makes communication easy.",
-  "teach": "People use technology everywhere.",
-  "examples": [
-    "People use technology everywhere."
-  ],
+  "topic": "Introduction to Computers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology makes communication easy.",
+      "prompt": "A computer is an electronic machine.",
+      "answer": "Introduction",
       "options": [
-        "Technology makes communication easy.",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People use technology everywhere.",
-      "readingText": "People use technology everywhere.",
-      "audioText": "People use technology everywhere."
+      "audioText": "A computer is an electronic machine.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use technology ____.",
-      "answer": "everywhere",
+      "prompt": "It helps us work, learn, and play.",
+      "answer": "Introduction",
       "options": [
-        "everywhere",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People use technology everywhere.",
-      "readingText": "People use technology everywhere.",
-      "audioText": "People use technology everywhere."
+      "audioText": "It helps us work, learn, and play.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "everywhere",
+      "prompt": "Computers can solve problems quickly.",
+      "answer": "Introduction",
       "options": [
-        "everywhere",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People use technology everywhere.",
-      "readingText": "People use technology everywhere.",
-      "audioText": "People use technology everywhere."
+      "audioText": "Computers can solve problems quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "everywhere",
+      "prompt": "People use computers in schools and offices.",
+      "answer": "Introduction",
       "options": [
-        "everywhere",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People use technology everywhere.",
-      "readingText": "People use technology everywhere.",
-      "audioText": "People use technology everywhere."
+      "audioText": "People use computers in schools and offices.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "everywhere",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "everywhere",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "People use technology everywhere.",
-      "readingText": "People use technology everywhere.",
-      "audioText": "People use technology everywhere."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "People use technology everywhere."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

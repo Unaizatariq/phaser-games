@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 3,
   "topic": "Materials",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "chair",
-    "spoon",
-    "bottle"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one object made of wood",
       "answer": "chair",
-      "expected": "chair",
-      "options": [],
+      "options": [
+        "chair",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one object made of wood",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "chair": "🪑",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one metal object",
       "answer": "spoon",
-      "expected": "spoon",
-      "options": [],
+      "options": [
+        "spoon",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one metal object",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "spoon": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one plastic object",
       "answer": "bottle",
-      "expected": "bottle",
-      "options": [],
+      "options": [
+        "bottle",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one plastic object",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "bottle": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one soft material",
       "answer": "cotton",
-      "expected": "cotton",
-      "options": [],
+      "options": [
+        "cotton",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one soft material",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "cotton": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one hard material",
       "answer": "stone",
-      "expected": "stone",
-      "options": [],
+      "options": [
+        "stone",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one hard material",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "stone": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

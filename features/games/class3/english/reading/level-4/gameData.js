@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 4,
   "topic": "Trees Are Important",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "oxygen"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Trees are very useful for humans and animals.",
       "answer": "oxygen",
       "options": [
         "oxygen",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "smoke",
         "noise"
       ],
-      "text": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "audioText": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+      "audioText": "Trees are very useful for humans and animals.",
+      "art": "📚",
+      "questionText": "According to the story about Trees Are Important, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "They give us oxygen to breathe and provide shade in hot weather.",
       "answer": "oxygen",
       "options": [
         "oxygen",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "smoke",
         "noise"
       ],
-      "text": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "audioText": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+      "audioText": "They give us oxygen to breathe and provide shade in hot weather.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Trees also give fruits, wood, and medicines.",
       "answer": "oxygen",
       "options": [
         "oxygen",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "smoke",
         "noise"
       ],
-      "text": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "audioText": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+      "audioText": "Trees also give fruits, wood, and medicines.",
+      "art": "📚",
+      "questionText": "According to the story about Trees Are Important, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Birds build nests on trees and animals rest under them.",
       "answer": "oxygen",
       "options": [
         "oxygen",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "smoke",
         "noise"
       ],
-      "text": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "audioText": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+      "audioText": "Birds build nests on trees and animals rest under them.",
+      "art": "📚",
+      "questionText": "According to the story about Trees Are Important, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "We should plant more trees to keep the environment clean.",
       "answer": "oxygen",
       "options": [
         "oxygen",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "smoke",
         "noise"
       ],
-      "text": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean.",
-      "audioText": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+      "audioText": "We should plant more trees to keep the environment clean.",
+      "art": "📚",
+      "questionText": "According to the story about Trees Are Important, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "oxygen",
+      "options": [
+        "oxygen",
+        "plastic",
+        "smoke",
+        "noise"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Trees Are Important, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "oxygen": "🔹",
+        "plastic": "🔹",
+        "smoke": "🔹",
+        "noise": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Trees are very useful for humans and animals. They give us oxygen to breathe and provide shade in hot weather. Trees also give fruits, wood, and medicines. Birds build nests on trees and animals rest under them. We should plant more trees to keep the environment clean."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

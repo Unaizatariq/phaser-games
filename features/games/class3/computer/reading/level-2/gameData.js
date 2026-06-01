@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 2,
   "topic": "History of Computers",
-  "teach": "Early computers were very large machines.",
-  "examples": [
-    "Early computers were very large machines.",
-    "Modern computers are smaller and faster.",
-    "Computers have improved over time."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "History of Computers",
+      "prompt": "Early computers were very large machines.",
+      "answer": "History",
       "options": [
-        "History of Computers",
-        "Introduction to Computers",
-        "Parts of a Computer",
-        "Input and Output Devices"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "readingText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "audioText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      "audioText": "Early computers were very large machines.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Early computers were very large ____.",
-      "answer": "machines",
+      "prompt": "Modern computers are smaller and faster.",
+      "answer": "History",
       "options": [
-        "machines",
-        "Introduction to Computers",
-        "tasks",
-        "offices"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "readingText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "audioText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      "audioText": "Modern computers are smaller and faster.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Modern computers are smaller and ____.",
-      "answer": "faster",
+      "prompt": "Computers have improved over time.",
+      "answer": "History",
       "options": [
-        "faster",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "readingText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "audioText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      "audioText": "Computers have improved over time.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers have improved over ____.",
-      "answer": "time",
+      "prompt": "Technology continues to develop every year.",
+      "answer": "History",
       "options": [
-        "time",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "readingText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "audioText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      "audioText": "Technology continues to develop every year.",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology continues to develop every ____.",
-      "answer": "year",
+      "prompt": "What is the story mainly about?",
+      "answer": "History",
       "options": [
-        "year",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "History",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "readingText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year.",
-      "audioText": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about History of Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "History": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Early computers were very large machines. Modern computers are smaller and faster. Computers have improved over time. Technology continues to develop every year."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

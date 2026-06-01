@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 11,
   "topic": "States of Matter",
-  "teach": "Matter has three states.",
-  "examples": [
-    "Matter has three states.",
-    "Ice is a solid.",
-    "Water is a liquid."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "States of Matter",
+      "prompt": "Matter has three states.",
+      "answer": "States",
       "options": [
-        "States of Matter",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "readingText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "audioText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      "audioText": "Matter has three states.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Matter has three ____.",
-      "answer": "states",
+      "prompt": "Ice is a solid.",
+      "answer": "States",
       "options": [
-        "states",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "readingText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "audioText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      "audioText": "Ice is a solid.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ice is a ____.",
-      "answer": "solid",
+      "prompt": "Water is a liquid.",
+      "answer": "States",
       "options": [
-        "solid",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "readingText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "audioText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      "audioText": "Water is a liquid.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water is a ____.",
-      "answer": "liquid",
+      "prompt": "Steam is a gas.",
+      "answer": "States",
       "options": [
-        "liquid",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "readingText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "audioText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      "audioText": "Steam is a gas.",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Steam is a ____.",
-      "answer": "gas",
+      "prompt": "What is the story mainly about?",
+      "answer": "States",
       "options": [
-        "gas",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "States",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "readingText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas.",
-      "audioText": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about States of Matter, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "States": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Matter has three states. Ice is a solid. Water is a liquid. Steam is a gas."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

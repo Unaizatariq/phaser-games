@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 15,
   "topic": "Natural Disasters",
-  "teach": "Earthquakes and floods are natural disasters.",
-  "examples": [
-    "Earthquakes and floods are natural disasters.",
-    "Strong winds can cause storms.",
-    "Natural disasters can damage homes and roads."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Natural Disasters",
+      "prompt": "Earthquakes and floods are natural disasters.",
+      "answer": "Natural",
       "options": [
-        "Natural Disasters",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "readingText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "audioText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      "audioText": "Earthquakes and floods are natural disasters.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earthquakes and floods are natural ____.",
-      "answer": "disasters",
+      "prompt": "Strong winds can cause storms.",
+      "answer": "Natural",
       "options": [
-        "disasters",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "readingText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "audioText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      "audioText": "Strong winds can cause storms.",
+      "art": "📚",
+      "questionText": "According to the story about Natural Disasters, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Strong winds can cause ____.",
-      "answer": "storms",
+      "prompt": "Natural disasters can damage homes and roads.",
+      "answer": "Natural",
       "options": [
-        "storms",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "readingText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "audioText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      "audioText": "Natural disasters can damage homes and roads.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Natural disasters can damage homes and ____.",
-      "answer": "roads",
+      "prompt": "People should stay safe during disasters.",
+      "answer": "Natural",
       "options": [
-        "roads",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "readingText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "audioText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      "audioText": "People should stay safe during disasters.",
+      "art": "📚",
+      "questionText": "According to the story about Natural Disasters, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "disasters",
+      "prompt": "What is the story mainly about?",
+      "answer": "Natural",
       "options": [
-        "disasters",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "readingText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters.",
-      "audioText": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Natural Disasters, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Earthquakes and floods are natural disasters. Strong winds can cause storms. Natural disasters can damage homes and roads. People should stay safe during disasters."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

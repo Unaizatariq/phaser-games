@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 27,
   "topic": "Soft and Hard Things",
-  "teach": "Cotton is soft.",
-  "examples": [
-    "Cotton is soft.",
-    "Stone is hard.",
-    "Pillows feel soft."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Soft and Hard Things",
+      "prompt": "Cotton is soft.",
+      "answer": "Soft",
       "options": [
-        "Soft and Hard Things",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Soft",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "readingText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "audioText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      "audioText": "Cotton is soft.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Soft": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cotton is ____.",
-      "answer": "soft",
+      "prompt": "Stone is hard.",
+      "answer": "Soft",
       "options": [
-        "soft",
-        "My Body",
-        "things",
-        "ears"
+        "Soft",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "readingText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "audioText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      "audioText": "Stone is hard.",
+      "art": "📚",
+      "questionText": "According to the story about Soft and Hard Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Soft": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Stone is ____.",
-      "answer": "hard",
+      "prompt": "Pillows feel soft.",
+      "answer": "Soft",
       "options": [
-        "hard",
-        "My Body",
-        "things",
-        "ears"
+        "Soft",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "readingText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "audioText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      "audioText": "Pillows feel soft.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Soft": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "soft",
+      "prompt": "Tables are hard.",
+      "answer": "Soft",
       "options": [
-        "soft",
-        "My Body",
-        "things",
-        "ears"
+        "Soft",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "readingText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "audioText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      "audioText": "Tables are hard.",
+      "art": "📚",
+      "questionText": "According to the story about Soft and Hard Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Soft": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hard",
+      "prompt": "What is the story mainly about?",
+      "answer": "Soft",
       "options": [
-        "hard",
-        "My Body",
-        "things",
-        "ears"
+        "Soft",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "readingText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard.",
-      "audioText": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Soft and Hard Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Soft": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cotton is soft. Stone is hard. Pillows feel soft. Tables are hard."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

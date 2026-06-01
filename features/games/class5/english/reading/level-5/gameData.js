@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
   "topic": "Hard Work Leads to Success",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "hard work"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Hard work is the key to success.",
       "answer": "hard work",
       "options": [
         "hard work",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "sleeping",
         "playing only"
       ],
-      "text": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "audioText": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+      "audioText": "Hard work is the key to success.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "People who work hard can achieve their goals and dreams.",
       "answer": "hard work",
       "options": [
         "hard work",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "sleeping",
         "playing only"
       ],
-      "text": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "audioText": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+      "audioText": "People who work hard can achieve their goals and dreams.",
+      "art": "📚",
+      "questionText": "According to the story about Hard Work Leads to Success, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Successful students study regularly and never give up easily.",
       "answer": "hard work",
       "options": [
         "hard work",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "sleeping",
         "playing only"
       ],
-      "text": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "audioText": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+      "audioText": "Successful students study regularly and never give up easily.",
+      "art": "📚",
+      "questionText": "According to the story about Hard Work Leads to Success, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Hard work teaches discipline, patience, and responsibility.",
       "answer": "hard work",
       "options": [
         "hard work",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "sleeping",
         "playing only"
       ],
-      "text": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "audioText": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+      "audioText": "Hard work teaches discipline, patience, and responsibility.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "With effort and determination, anything is possible.",
       "answer": "hard work",
       "options": [
         "hard work",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "sleeping",
         "playing only"
       ],
-      "text": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible.",
-      "audioText": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+      "audioText": "With effort and determination, anything is possible.",
+      "art": "📚",
+      "questionText": "According to the story about Hard Work Leads to Success, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "hard work",
+      "options": [
+        "hard work",
+        "luck only",
+        "sleeping",
+        "playing only"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Hard Work Leads to Success, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "hard work": "🔹",
+        "luck only": "🔹",
+        "sleeping": "🔹",
+        "playing only": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Hard work is the key to success. People who work hard can achieve their goals and dreams. Successful students study regularly and never give up easily. Hard work teaches discipline, patience, and responsibility. With effort and determination, anything is possible."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

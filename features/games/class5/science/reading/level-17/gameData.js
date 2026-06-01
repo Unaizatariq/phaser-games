@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 17,
   "topic": "Pollution and Conservation",
-  "teach": "Pollution harms the environment.",
-  "examples": [
-    "Pollution harms the environment.",
-    "Air pollution comes from smoke and gases.",
-    "Water pollution makes rivers dirty."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Pollution and Conservation",
+      "prompt": "Pollution harms the environment.",
+      "answer": "Pollution",
       "options": [
-        "Pollution and Conservation",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "readingText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "audioText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      "audioText": "Pollution harms the environment.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Pollution harms the ____.",
-      "answer": "environment",
+      "prompt": "Air pollution comes from smoke and gases.",
+      "answer": "Pollution",
       "options": [
-        "environment",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "readingText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "audioText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      "audioText": "Air pollution comes from smoke and gases.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Air pollution comes from smoke and ____.",
-      "answer": "gases",
+      "prompt": "Water pollution makes rivers dirty.",
+      "answer": "Pollution",
       "options": [
-        "gases",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "readingText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "audioText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      "audioText": "Water pollution makes rivers dirty.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water pollution makes rivers ____.",
-      "answer": "dirty",
+      "prompt": "We should conserve nature and reduce pollution.",
+      "answer": "Pollution",
       "options": [
-        "dirty",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "readingText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "audioText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      "audioText": "We should conserve nature and reduce pollution.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should conserve nature and reduce ____.",
-      "answer": "pollution",
+      "prompt": "What is the story mainly about?",
+      "answer": "Pollution",
       "options": [
-        "pollution",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Pollution",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "readingText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution.",
-      "audioText": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Pollution and Conservation, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pollution": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Pollution harms the environment. Air pollution comes from smoke and gases. Water pollution makes rivers dirty. We should conserve nature and reduce pollution."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

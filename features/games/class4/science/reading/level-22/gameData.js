@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 22,
-  "topic": "Recycling and Waste Management",
-  "teach": "Recycling reduces waste.",
-  "examples": [
-    "Recycling reduces waste.",
-    "Paper, glass, and plastic can be recycled.",
-    "Waste should be thrown in bins."
-  ],
+  "topic": "Human Body Systems",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Recycling and Waste Management",
+      "prompt": "Our body has different systems.",
+      "answer": "Human",
       "options": [
-        "Recycling and Waste Management",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "Our body has different systems.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Recycling reduces ____.",
-      "answer": "waste",
+      "prompt": "The digestive system helps digest food.",
+      "answer": "Human",
       "options": [
-        "waste",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "The digestive system helps digest food.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Paper, glass, and plastic can be ____.",
-      "answer": "recycled",
+      "prompt": "The respiratory system helps us breathe.",
+      "answer": "Human",
       "options": [
-        "recycled",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "The respiratory system helps us breathe.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Waste should be thrown in ____.",
-      "answer": "bins",
+      "prompt": "The circulatory system moves blood in the body.",
+      "answer": "Human",
       "options": [
-        "bins",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "The circulatory system moves blood in the body.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Clean surroundings ____ us healthy.",
-      "answer": "keep",
+      "prompt": "What is the story mainly about?",
+      "answer": "Human",
       "options": [
-        "keep",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "readingText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy.",
-      "audioText": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Recycling reduces waste. Paper, glass, and plastic can be recycled. Waste should be thrown in bins. Clean surroundings keep us healthy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 16,
   "topic": "Patterns and Sequences",
-  "teach": "Patterns follow a rule or order.",
-  "examples": [
-    "Patterns follow a rule or order.",
-    "Sequences help predict numbers.",
-    "Patterns improve logical thinking."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Patterns and Sequences",
+      "prompt": "Patterns follow a rule or order.",
+      "answer": "Patterns",
       "options": [
-        "Patterns and Sequences",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "readingText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "audioText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      "audioText": "Patterns follow a rule or order.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns follow a rule or ____.",
-      "answer": "order",
+      "prompt": "Sequences help predict numbers.",
+      "answer": "Patterns",
       "options": [
-        "order",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "readingText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "audioText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      "audioText": "Sequences help predict numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Patterns and Sequences, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sequences help predict ____.",
-      "answer": "numbers",
+      "prompt": "Patterns improve logical thinking.",
+      "answer": "Patterns",
       "options": [
-        "numbers",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "readingText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "audioText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      "audioText": "Patterns improve logical thinking.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns improve logical ____.",
-      "answer": "thinking",
+      "prompt": "Patterns are used in mathematics and science.",
+      "answer": "Patterns",
       "options": [
-        "thinking",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "readingText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "audioText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      "audioText": "Patterns are used in mathematics and science.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Patterns are used in mathematics and ____.",
-      "answer": "science",
+      "prompt": "What is the story mainly about?",
+      "answer": "Patterns",
       "options": [
-        "science",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Patterns",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "readingText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science.",
-      "audioText": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Patterns and Sequences, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Patterns": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Patterns follow a rule or order. Sequences help predict numbers. Patterns improve logical thinking. Patterns are used in mathematics and science."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

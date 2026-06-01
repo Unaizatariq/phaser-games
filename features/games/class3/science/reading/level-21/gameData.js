@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 21,
-  "topic": "First aid helps injured people.",
-  "teach": "Adults should help in emergencies.",
-  "examples": [
-    "Adults should help in emergencies."
-  ],
+  "topic": "Living and Non-Living Things",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "First aid helps injured people.",
+      "prompt": "Living things can grow, move, and breathe.",
+      "answer": "Living",
       "options": [
-        "First aid helps injured people.",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help in emergencies.",
-      "readingText": "Adults should help in emergencies.",
-      "audioText": "Adults should help in emergencies."
+      "audioText": "Living things can grow, move, and breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Adults should help in ____.",
-      "answer": "emergencies",
+      "prompt": "Humans, animals, and plants are living things.",
+      "answer": "Living",
       "options": [
-        "emergencies",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help in emergencies.",
-      "readingText": "Adults should help in emergencies.",
-      "audioText": "Adults should help in emergencies."
+      "audioText": "Humans, animals, and plants are living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "Non-living things do not grow or breathe.",
+      "answer": "Living",
       "options": [
-        "emergencies",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help in emergencies.",
-      "readingText": "Adults should help in emergencies.",
-      "audioText": "Adults should help in emergencies."
+      "audioText": "Non-living things do not grow or breathe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "Tables, chairs, and toys are non-living things.",
+      "answer": "Living",
       "options": [
-        "emergencies",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help in emergencies.",
-      "readingText": "Adults should help in emergencies.",
-      "audioText": "Adults should help in emergencies."
+      "audioText": "Tables, chairs, and toys are non-living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "What is the story mainly about?",
+      "answer": "Living",
       "options": [
-        "emergencies",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help in emergencies.",
-      "readingText": "Adults should help in emergencies.",
-      "audioText": "Adults should help in emergencies."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Living and Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Adults should help in emergencies."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

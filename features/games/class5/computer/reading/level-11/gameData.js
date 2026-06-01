@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 11,
   "topic": "Email Communication",
-  "teach": "Emails allow people to send messages electronically.",
-  "examples": [
-    "Emails allow people to send messages electronically.",
-    "Emails travel quickly across the world.",
-    "People can attach files and pictures to emails."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Email Communication",
+      "prompt": "Emails allow people to send messages electronically.",
+      "answer": "Email",
       "options": [
-        "Email Communication",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "readingText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "audioText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      "audioText": "Emails allow people to send messages electronically.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Emails allow people to send messages ____.",
-      "answer": "electronically",
+      "prompt": "Emails travel quickly across the world.",
+      "answer": "Email",
       "options": [
-        "electronically",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "readingText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "audioText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      "audioText": "Emails travel quickly across the world.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Emails travel quickly across the ____.",
-      "answer": "world",
+      "prompt": "People can attach files and pictures to emails.",
+      "answer": "Email",
       "options": [
-        "world",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "readingText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "audioText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      "audioText": "People can attach files and pictures to emails.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People can attach files and pictures to ____.",
-      "answer": "emails",
+      "prompt": "Email is useful in schools and businesses.",
+      "answer": "Email",
       "options": [
-        "emails",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "readingText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "audioText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      "audioText": "Email is useful in schools and businesses.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Email is useful in schools and ____.",
-      "answer": "businesses",
+      "prompt": "What is the story mainly about?",
+      "answer": "Email",
       "options": [
-        "businesses",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Email",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "readingText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses.",
-      "audioText": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Email Communication, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Email": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Emails allow people to send messages electronically. Emails travel quickly across the world. People can attach files and pictures to emails. Email is useful in schools and businesses."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

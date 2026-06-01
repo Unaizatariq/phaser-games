@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 10,
   "topic": "Light and Shadow",
-  "teach": "Light helps us see things.",
-  "examples": [
-    "Light helps us see things.",
-    "The sun is a natural source of light.",
-    "A shadow forms when light is blocked."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Light and Shadow",
+      "prompt": "Light helps us see things.",
+      "answer": "Light",
       "options": [
-        "Light and Shadow",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "readingText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "audioText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      "audioText": "Light helps us see things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Light helps us see ____.",
-      "answer": "things",
+      "prompt": "The sun is a natural source of light.",
+      "answer": "Light",
       "options": [
-        "things",
-        "Living and Non-Living Things",
-        "breathe",
-        "Parts of a Plant"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "readingText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "audioText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      "audioText": "The sun is a natural source of light.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is a natural source of ____.",
-      "answer": "light",
+      "prompt": "A shadow forms when light is blocked.",
+      "answer": "Light",
       "options": [
-        "light",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "readingText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "audioText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      "audioText": "A shadow forms when light is blocked.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A shadow forms when light is ____.",
-      "answer": "blocked",
+      "prompt": "Shadows change shape during the day.",
+      "answer": "Light",
       "options": [
-        "blocked",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "readingText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "audioText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      "audioText": "Shadows change shape during the day.",
+      "art": "📚",
+      "questionText": "According to the story about Light and Shadow, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shadows change shape during the ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Light",
       "options": [
-        "day",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Light",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "readingText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day.",
-      "audioText": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Light and Shadow, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Light": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Light helps us see things. The sun is a natural source of light. A shadow forms when light is blocked. Shadows change shape during the day."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

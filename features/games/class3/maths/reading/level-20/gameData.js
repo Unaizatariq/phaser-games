@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 20,
   "topic": "Fun with Mathematics",
-  "teach": "Mathematics is useful in daily life.",
-  "examples": [
-    "Mathematics is useful in daily life.",
-    "Math improves thinking and problem-solving.",
-    "We use math at school, shops, and homes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Mathematics",
+      "prompt": "Mathematics is useful in daily life.",
+      "answer": "Fun",
       "options": [
-        "Fun with Mathematics",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Mathematics is useful in daily life.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: ____ is useful in daily life.",
-      "answer": "Mathematics",
+      "prompt": "Math improves thinking and problem-solving.",
+      "answer": "Fun",
       "options": [
-        "Mathematics",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Math improves thinking and problem-solving.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math improves thinking and problem-solving.",
-      "answer": "problemsolving",
+      "prompt": "We use math at school, shops, and homes.",
+      "answer": "Fun",
       "options": [
-        "problemsolving",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "We use math at school, shops, and homes.",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math at school, shops, and ____.",
-      "answer": "homes",
+      "prompt": "Learning math can be fun and exciting.",
+      "answer": "Fun",
       "options": [
-        "homes",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "Learning math can be fun and exciting.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math can be fun and ____.",
-      "answer": "exciting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fun",
       "options": [
-        "exciting",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Fun",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "readingText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting.",
-      "audioText": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Fun with Mathematics, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fun": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Mathematics is useful in daily life. Math improves thinking and problem-solving. We use math at school, shops, and homes. Learning math can be fun and exciting."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

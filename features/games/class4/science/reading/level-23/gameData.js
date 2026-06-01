@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 23,
-  "topic": "Importance of Trees",
-  "teach": "Trees give us oxygen.",
-  "examples": [
-    "Trees give us oxygen.",
-    "They provide shade and fruits.",
-    "Birds make nests in trees."
-  ],
+  "topic": "Plants and Photosynthesis",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Importance of Trees",
+      "prompt": "Plants make their own food.",
+      "answer": "Plants",
       "options": [
-        "Importance of Trees",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "Plants make their own food.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Trees give us ____.",
-      "answer": "oxygen",
+      "prompt": "Leaves use sunlight, water, and air.",
+      "answer": "Plants",
       "options": [
-        "oxygen",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "Leaves use sunlight, water, and air.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They provide shade and ____.",
-      "answer": "fruits",
+      "prompt": "This process is called photosynthesis.",
+      "answer": "Plants",
       "options": [
-        "fruits",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "This process is called photosynthesis.",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds make nests in ____.",
-      "answer": "trees",
+      "prompt": "Photosynthesis helps plants grow.",
+      "answer": "Plants",
       "options": [
-        "trees",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "Photosynthesis helps plants grow.",
+      "art": "🌿",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "oxygen",
+      "prompt": "What is the story mainly about?",
+      "answer": "Plants",
       "options": [
-        "oxygen",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Plants",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "readingText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees.",
-      "audioText": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+      "audioText": "What is the story mainly about?",
+      "art": "🌿",
+      "questionText": "According to the story about Plants and Photosynthesis, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Plants": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Trees give us oxygen. They provide shade and fruits. Birds make nests in trees. We should plant more trees."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

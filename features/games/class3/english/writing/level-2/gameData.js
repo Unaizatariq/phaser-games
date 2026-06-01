@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 2,
   "topic": "Rearrange Sentence",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Ali goes to school.",
-    "They are playing football.",
-    "Sara is reading a book."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Rearrange: school / goes / Ali / to",
       "answer": "Ali goes to school.",
-      "expected": "Ali goes to school.",
-      "options": [],
+      "options": [
+        "Ali goes to school.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Rearrange: school / goes / Ali / to",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Ali goes to school.": "🏫",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: football / playing / are / they",
       "answer": "They are playing football.",
-      "expected": "They are playing football.",
-      "options": [],
+      "options": [
+        "They are playing football.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Rearrange: football / playing / are / they",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "They are playing football.": "⚽",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: reading / book / Sara / is",
       "answer": "Sara is reading a book.",
-      "expected": "Sara is reading a book.",
-      "options": [],
+      "options": [
+        "Sara is reading a book.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Rearrange: reading / book / Sara / is",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Sara is reading a book.": "📘",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: happy / I / am",
       "answer": "I am happy.",
-      "expected": "I am happy.",
-      "options": [],
+      "options": [
+        "I am happy.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Rearrange: happy / I / am",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "I am happy.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: cat / sleeping / the / is",
       "answer": "The cat is sleeping.",
-      "expected": "The cat is sleeping.",
-      "options": [],
+      "options": [
+        "The cat is sleeping.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Rearrange: cat / sleeping / the / is",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "The cat is sleeping.": "🐱",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

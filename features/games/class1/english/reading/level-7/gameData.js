@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "Rainy Day",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "umbrella"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "One day, dark clouds covered the sky.",
       "answer": "umbrella",
       "options": [
         "umbrella",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "fan",
         "kite"
       ],
-      "text": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "audioText": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+      "audioText": "One day, dark clouds covered the sky.",
+      "art": "📚",
+      "questionText": "According to the story about Rainy Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "umbrella": "🔹",
+        "sunglasses": "☀️",
+        "fan": "🔹",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Rain started falling everywhere.",
       "answer": "umbrella",
       "options": [
         "umbrella",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "fan",
         "kite"
       ],
-      "text": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "audioText": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+      "audioText": "Rain started falling everywhere.",
+      "art": "📚",
+      "questionText": "According to the story about Rainy Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "umbrella": "🔹",
+        "sunglasses": "☀️",
+        "fan": "🔹",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "I wore my raincoat and carried an umbrella.",
       "answer": "umbrella",
       "options": [
         "umbrella",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "fan",
         "kite"
       ],
-      "text": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "audioText": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+      "audioText": "I wore my raincoat and carried an umbrella.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "umbrella": "🔹",
+        "sunglasses": "☀️",
+        "fan": "🔹",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I enjoyed jumping in small puddles with my friends.",
       "answer": "umbrella",
       "options": [
         "umbrella",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "fan",
         "kite"
       ],
-      "text": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "audioText": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+      "audioText": "I enjoyed jumping in small puddles with my friends.",
+      "art": "📚",
+      "questionText": "According to the story about Rainy Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "umbrella": "🔹",
+        "sunglasses": "☀️",
+        "fan": "🔹",
+        "kite": "🪁"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "umbrella",
       "options": [
         "umbrella",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "fan",
         "kite"
       ],
-      "text": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends.",
-      "audioText": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Rainy Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "umbrella": "🔹",
+        "sunglasses": "☀️",
+        "fan": "🔹",
+        "kite": "🪁"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "One day, dark clouds covered the sky. Rain started falling everywhere. I wore my raincoat and carried an umbrella. I enjoyed jumping in small puddles with my friends."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

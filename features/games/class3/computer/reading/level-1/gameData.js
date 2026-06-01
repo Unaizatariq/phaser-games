@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 1,
   "topic": "Introduction to Computers",
-  "teach": "Computers are electronic machines.",
-  "examples": [
-    "Computers are electronic machines.",
-    "They help people perform many tasks quickly.",
-    "Computers are used in homes, schools, and offices."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Introduction to Computers",
+      "prompt": "Computers are electronic machines.",
+      "answer": "Introduction",
       "options": [
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer",
-        "Input and Output Devices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "readingText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "audioText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      "audioText": "Computers are electronic machines.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are electronic ____.",
-      "answer": "machines",
+      "prompt": "They help people perform many tasks quickly.",
+      "answer": "Introduction",
       "options": [
-        "machines",
-        "Introduction to Computers",
-        "tasks",
-        "offices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "readingText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "audioText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      "audioText": "They help people perform many tasks quickly.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They help people perform many ____ quickly.",
-      "answer": "tasks",
+      "prompt": "Computers are used in homes, schools, and offices.",
+      "answer": "Introduction",
       "options": [
-        "tasks",
-        "Introduction to Computers",
-        "machines",
-        "offices"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "readingText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "audioText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      "audioText": "Computers are used in homes, schools, and offices.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers are used in homes, schools, and ____.",
-      "answer": "offices",
+      "prompt": "They save time and effort.",
+      "answer": "Introduction",
       "options": [
-        "offices",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "readingText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "audioText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      "audioText": "They save time and effort.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They save time and ____.",
-      "answer": "effort",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "effort",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "readingText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort.",
-      "audioText": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Computers, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers are electronic machines. They help people perform many tasks quickly. Computers are used in homes, schools, and offices. They save time and effort."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

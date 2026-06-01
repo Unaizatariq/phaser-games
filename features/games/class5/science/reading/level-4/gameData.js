@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 4,
   "topic": "Reproduction in Plants",
-  "teach": "Plants reproduce through seeds.",
-  "examples": [
-    "Plants reproduce through seeds.",
-    "Flowers produce seeds after pollination.",
-    "Seeds grow into new plants."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Reproduction in Plants",
+      "prompt": "Plants reproduce through seeds.",
+      "answer": "Reproduction",
       "options": [
-        "Reproduction in Plants",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Reproduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "readingText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "audioText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      "audioText": "Plants reproduce through seeds.",
+      "art": "📚",
+      "questionText": "According to the story about Reproduction in Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Reproduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants reproduce through ____.",
-      "answer": "seeds",
+      "prompt": "Flowers produce seeds after pollination.",
+      "answer": "Reproduction",
       "options": [
-        "seeds",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Reproduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "readingText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "audioText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      "audioText": "Flowers produce seeds after pollination.",
+      "art": "📚",
+      "questionText": "According to the story about Reproduction in Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Reproduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Flowers produce seeds after ____.",
-      "answer": "pollination",
+      "prompt": "Seeds grow into new plants.",
+      "answer": "Reproduction",
       "options": [
-        "pollination",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Reproduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "readingText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "audioText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      "audioText": "Seeds grow into new plants.",
+      "art": "📚",
+      "questionText": "According to the story about Reproduction in Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Reproduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Seeds grow into new ____.",
-      "answer": "plants",
+      "prompt": "Water and sunlight help seeds grow.",
+      "answer": "Reproduction",
       "options": [
-        "plants",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Reproduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "readingText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "audioText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      "audioText": "Water and sunlight help seeds grow.",
+      "art": "📚",
+      "questionText": "According to the story about Reproduction in Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Reproduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water and sunlight help seeds ____.",
-      "answer": "grow",
+      "prompt": "What is the story mainly about?",
+      "answer": "Reproduction",
       "options": [
-        "grow",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Reproduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "readingText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow.",
-      "audioText": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Reproduction in Plants, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Reproduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Plants reproduce through seeds. Flowers produce seeds after pollination. Seeds grow into new plants. Water and sunlight help seeds grow."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

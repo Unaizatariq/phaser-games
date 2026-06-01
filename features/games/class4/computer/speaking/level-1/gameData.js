@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 1,
   "topic": "Input and Output Devices",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Keyboard",
-    "Monitor",
-    "Printer"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Name one input device.",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Name one input device.",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Name one output device.",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Name one output device.",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device prints documents?",
       "answer": "Printer",
-      "expected": "Printer",
-      "options": [],
+      "options": [
+        "Printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device prints documents?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device scans pictures?",
       "answer": "Scanner",
-      "expected": "Scanner",
-      "options": [],
+      "options": [
+        "Scanner",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device scans pictures?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Scanner": "📠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device gives sound?",
       "answer": "Speaker",
-      "expected": "Speaker",
-      "options": [],
+      "options": [
+        "Speaker",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device gives sound?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Speaker": "🔊",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 16,
   "topic": "Symmetry",
-  "teach": "Symmetry means equal balance on both sides.",
-  "examples": [
-    "Symmetry means equal balance on both sides.",
-    "Shapes can have one or more lines of symmetry.",
-    "Butterflies and flowers show symmetry."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Symmetry means equal balance on both sides.",
       "answer": "Symmetry",
       "options": [
         "Symmetry",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "readingText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "audioText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      "audioText": "Symmetry means equal balance on both sides.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry means equal balance on both ____.",
-      "answer": "sides",
+      "prompt": "Shapes can have one or more lines of symmetry.",
+      "answer": "Symmetry",
       "options": [
-        "sides",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "readingText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "audioText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      "audioText": "Shapes can have one or more lines of symmetry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry is used in art and ____.",
-      "answer": "design",
+      "prompt": "Butterflies and flowers show symmetry.",
+      "answer": "Symmetry",
       "options": [
-        "design",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "readingText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "audioText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      "audioText": "Butterflies and flowers show symmetry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "sides",
+      "prompt": "Symmetry is used in art and design.",
+      "answer": "Symmetry",
       "options": [
-        "sides",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "readingText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "audioText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      "audioText": "Symmetry is used in art and design.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "symmetry",
+      "prompt": "What is the story mainly about?",
+      "answer": "Symmetry",
       "options": [
-        "symmetry",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Symmetry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "readingText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design.",
-      "audioText": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Symmetry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Symmetry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Symmetry means equal balance on both sides. Shapes can have one or more lines of symmetry. Butterflies and flowers show symmetry. Symmetry is used in art and design."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

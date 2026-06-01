@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "speaking",
   "level": 9,
-  "topic": "Weather",
-  "teach": "Weather tells how the day feels: hot, cold, rainy or windy.",
-  "examples": [
-    "hot",
-    "cold",
-    "rainy"
-  ],
+  "topic": "Speak Body Parts",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: When the sun is strong, weather may be",
-      "answer": "hot",
-      "options": [],
-      "audioText": "Say the answer: When the sun is strong, weather may be"
+      "prompt": "Say the body part: Eyes",
+      "answer": "Eyes",
+      "options": [
+        "Eyes",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Eyes",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Eyes": "👁️",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: When water falls from clouds, it is",
-      "answer": "rainy",
-      "options": [],
-      "audioText": "Say the answer: When water falls from clouds, it is"
+      "prompt": "Say the body part: Hands",
+      "answer": "Hands",
+      "options": [
+        "Hands",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Hands",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Hands": "✋",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Windy weather has moving",
-      "answer": "air",
-      "options": [],
-      "audioText": "Say the answer: Windy weather has moving"
+      "prompt": "Say the body part: Legs",
+      "answer": "Legs",
+      "options": [
+        "Legs",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Say the body part: Legs",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "Legs": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: In cold weather we wear",
-      "answer": "warm clothes",
-      "options": [],
-      "audioText": "Say the answer: In cold weather we wear"
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
+      "options": [
+        "eye",
+        "ear",
+        "nose",
+        "hand"
+      ],
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🐄",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Weather can change from day to",
-      "answer": "day",
-      "options": [],
-      "audioText": "Say the answer: Weather can change from day to"
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
+      "options": [
+        "ear",
+        "eye",
+        "foot",
+        "nose"
+      ],
+      "audioText": "Our ears help us hear sounds.",
+      "art": "👁️",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

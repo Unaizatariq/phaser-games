@@ -1,78 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "listening",
   "level": 4,
-  "topic": "ملتے جلتے حروف",
-  "teach": "ملتے جلتے حروف اس سبق کا اہم موضوع ہے۔ پہلے اسے سمجھیں، پھر مثالوں سے مشق کریں۔",
-  "examples": [
-    "ملتے جلتے حروف",
-    "مثال",
-    "مشق"
-  ],
+  "topic": "دوست",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "ملتے جلتے حروف",
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
       "options": [
-        "ملتے جلتے حروف",
-        "غلط جواب",
-        "دوسرا موضوع",
-        "نمبر"
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
       ],
-      "audioText": "ملتے جلتے حروف کا تعلق کس سبق سے ہے؟"
+      "art": "🧒",
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "درست",
+      "prompt": "مریم نے کتاب کہاں رکھی؟",
+      "answer": "بیگ",
       "options": [
-        "درست",
-        "غلط",
-        "نامکمل",
-        "بے معنی"
+        {
+          "text": "بیگ",
+          "tts": "بیگ"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "گلاس",
+          "tts": "گلاس"
+        },
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        }
       ],
-      "audioText": "ملتے جلتے حروف کو غور سے پڑھ کر درست جواب منتخب کریں۔"
+      "art": "🎒",
+      "audioText": "مریم نے اپنی کتاب بیگ میں رکھی۔",
+      "questionText": "مریم نے کتاب کہاں رکھی؟",
+      "optionArts": {
+        "بیگ": "🔹",
+        "پارک": "🌳",
+        "گلاس": "🔹",
+        "درخت": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "تصور",
+      "prompt": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "answer": "سرخ",
       "options": [
-        "تصور",
-        "کھیل صرف",
-        "رنگ صرف",
-        "آواز نہیں"
+        {
+          "text": "سرخ",
+          "tts": "سرخ"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "پیلا",
+          "tts": "پیلا"
+        }
       ],
-      "audioText": "ملتے جلتے حروف میں بچے کیا سیکھتے ہیں؟"
+      "art": "🔴",
+      "audioText": "احمد نے سرخ گیند اٹھائی۔",
+      "questionText": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "optionArts": {
+        "سرخ": "🔴",
+        "نیلا": "🔵",
+        "سبز": "🟢",
+        "پیلا": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "سیکھنے کے لیے",
+      "prompt": "بچہ کس سے سبق پڑھتا ہے؟",
+      "answer": "استاد",
       "options": [
-        "سیکھنے کے لیے",
-        "سونے کے لیے",
-        "چلنے کے لیے",
-        "کھانے کے لیے"
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        }
       ],
-      "audioText": "ملتے جلتے حروف کی مشق کیوں ضروری ہے؟"
+      "art": "👩‍🏫",
+      "audioText": "بچہ اسکول میں استاد سے سبق پڑھتا ہے۔",
+      "questionText": "بچہ کس سے سبق پڑھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "دوست": "🧒",
+        "بھائی": "👦",
+        "والد": "👨"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "ملتے جلتے حروف",
+      "prompt": "سارہ نے باغ میں کیا دیکھا؟",
+      "answer": "پھول",
       "options": [
-        "ملتے جلتے حروف",
-        "غلط",
-        "خالی",
-        "نہیں"
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        },
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "کرسی",
+          "tts": "کرسی"
+        },
+        {
+          "text": "ماؤس",
+          "tts": "ماؤس"
+        }
       ],
-      "audioText": "ملتے جلتے حروف کو جملے میں استعمال کریں۔"
+      "art": "🌸",
+      "audioText": "سارہ نے باغ میں خوبصورت پھول دیکھا۔",
+      "questionText": "سارہ نے باغ میں کیا دیکھا؟",
+      "optionArts": {
+        "پھول": "🌸",
+        "کتاب": "📘",
+        "کرسی": "🔹",
+        "ماؤس": "🖱️"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "listening"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

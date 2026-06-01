@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 18,
   "topic": "Homes of Animals",
-  "teach": "Animals live in different homes.",
-  "examples": [
-    "Animals live in different homes.",
-    "Birds live in nests.",
-    "Lions live in dens."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Homes of Animals",
+      "prompt": "Animals live in different homes.",
+      "answer": "Homes",
       "options": [
-        "Homes of Animals",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "Homes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "readingText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "audioText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      "audioText": "Animals live in different homes.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Homes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals live in different ____.",
-      "answer": "homes",
+      "prompt": "Birds live in nests.",
+      "answer": "Homes",
       "options": [
-        "homes",
-        "Living Things",
-        "move",
-        "things"
+        "Homes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "readingText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "audioText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      "audioText": "Birds live in nests.",
+      "art": "📚",
+      "questionText": "According to the story about Homes of Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Homes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds live in ____.",
-      "answer": "nests",
+      "prompt": "Lions live in dens.",
+      "answer": "Homes",
       "options": [
-        "nests",
-        "Living Things",
-        "move",
-        "things"
+        "Homes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "readingText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "audioText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      "audioText": "Lions live in dens.",
+      "art": "📚",
+      "questionText": "According to the story about Homes of Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Homes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Lions live in ____.",
-      "answer": "dens",
+      "prompt": "Dogs live in kennels.",
+      "answer": "Homes",
       "options": [
-        "dens",
-        "Living Things",
-        "move",
-        "things"
+        "Homes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "readingText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "audioText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      "audioText": "Dogs live in kennels.",
+      "art": "📚",
+      "questionText": "According to the story about Homes of Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Homes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Dogs live in ____.",
-      "answer": "kennels",
+      "prompt": "What is the story mainly about?",
+      "answer": "Homes",
       "options": [
-        "kennels",
-        "Living Things",
-        "move",
-        "things"
+        "Homes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "readingText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels.",
-      "audioText": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Homes of Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Homes": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals live in different homes. Birds live in nests. Lions live in dens. Dogs live in kennels."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

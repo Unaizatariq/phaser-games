@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 23,
-  "topic": "Fun with Math",
-  "teach": "Math is part of everyday life.",
-  "examples": [
-    "Math is part of everyday life.",
-    "We use math for shopping and counting.",
-    "Math develops thinking skills."
-  ],
+  "topic": "Addition",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Fun with Math",
+      "prompt": "Addition means combining numbers together.",
+      "answer": "Addition",
       "options": [
-        "Fun with Math",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Addition means combining numbers together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math is part of ____ life.",
-      "answer": "everyday",
+      "prompt": "We use addition to find totals.",
+      "answer": "Addition",
       "options": [
-        "everyday",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "We use addition to find totals.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use math for shopping and ____.",
-      "answer": "counting",
+      "prompt": "Addition can be done vertically or horizontally.",
+      "answer": "Addition",
       "options": [
-        "counting",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Addition can be done vertically or horizontally.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math develops thinking ____.",
-      "answer": "skills",
+      "prompt": "Practice improves addition skills.",
+      "answer": "Addition",
       "options": [
-        "skills",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "Practice improves addition skills.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Learning math can be fun and ____.",
-      "answer": "exciting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "exciting",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "readingText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting.",
-      "audioText": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math is part of everyday life. We use math for shopping and counting. Math develops thinking skills. Learning math can be fun and exciting."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

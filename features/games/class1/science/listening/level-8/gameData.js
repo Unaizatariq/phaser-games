@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 8,
-  "topic": "Keeping Surroundings Clean",
-  "teach": "Clean surroundings keep us healthy. We throw trash in bins and keep places neat.",
-  "examples": [
-    "dustbin",
-    "clean room",
-    "healthy"
-  ],
+  "topic": "matter",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "dustbin",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "dustbin",
-        "floor",
-        "road",
-        "desk"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Where should we throw trash?"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "healthy",
+      "audioText": "We use our eyes to see things around us.",
+      "prompt": "Which body part helps us see?",
+      "answer": "eye",
       "options": [
-        "healthy",
-        "sick",
-        "dirty",
-        "lost"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Clean surroundings help us stay"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "parks",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "parks",
-        "bins",
-        "books",
-        "bags"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "We should not litter in"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "dust",
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
       "options": [
-        "dust",
-        "light",
-        "time",
-        "money"
+        "sun",
+        "moon",
+        "chair",
+        "bag"
       ],
-      "audioText": "Sweeping removes"
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "learning",
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
       "options": [
-        "learning",
-        "littering",
-        "noise",
-        "waste"
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
       ],
-      "audioText": "A clean classroom is good for"
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

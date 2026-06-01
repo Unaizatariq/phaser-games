@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 5,
-  "topic": "Simple Drawing Tools",
-  "teach": "Simple Drawing Tools is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Simple Drawing Tools",
-    "example",
-    "practice"
-  ],
+  "topic": "Keyboard Practice",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Simple Drawing Tools",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type alphabet keys",
+      "answer": "alphabet keys",
+      "options": [
+        "alphabet keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type alphabet keys",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "alphabet keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type number keys",
+      "answer": "number keys",
+      "options": [
+        "number keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type number keys",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "number keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type Enter key",
+      "answer": "Enter",
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Enter key",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type Spacebar key",
+      "answer": "Spacebar",
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Spacebar key",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type Backspace key",
+      "answer": "Backspace",
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Backspace key",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

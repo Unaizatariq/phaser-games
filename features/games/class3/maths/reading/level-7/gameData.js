@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 7,
   "topic": "Decimals",
-  "teach": "Decimals show parts of numbers.",
-  "examples": [
-    "Decimals show parts of numbers.",
-    "A decimal point separates whole numbers and parts.",
-    "0.5 means half."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Decimals show parts of numbers.",
       "answer": "Decimals",
       "options": [
         "Decimals",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "readingText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "audioText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      "audioText": "Decimals show parts of numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Decimals show parts of ____.",
-      "answer": "numbers",
+      "prompt": "A decimal point separates whole numbers and parts.",
+      "answer": "Decimals",
       "options": [
-        "numbers",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "readingText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "audioText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      "audioText": "A decimal point separates whole numbers and parts.",
+      "art": "📚",
+      "questionText": "According to the story about Decimals, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A decimal point separates whole numbers and ____.",
-      "answer": "parts",
+      "prompt": "0.5 means half.",
+      "answer": "Decimals",
       "options": [
-        "parts",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "readingText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "audioText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      "audioText": "0.5 means half.",
+      "art": "📚",
+      "questionText": "According to the story about Decimals, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 0.5 means ____.",
-      "answer": "half",
+      "prompt": "Decimals are used in money and measurement.",
+      "answer": "Decimals",
       "options": [
-        "half",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "readingText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "audioText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      "audioText": "Decimals are used in money and measurement.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Decimals are used in money and ____.",
-      "answer": "measurement",
+      "prompt": "What is the story mainly about?",
+      "answer": "Decimals",
       "options": [
-        "measurement",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Decimals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "readingText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement.",
-      "audioText": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Decimals, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Decimals": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Decimals show parts of numbers. A decimal point separates whole numbers and parts. 0.5 means half. Decimals are used in money and measurement."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

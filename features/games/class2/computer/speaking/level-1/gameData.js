@@ -1,84 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 1,
   "topic": "Parts of Computer",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "Keyboard",
-    "Mouse",
-    "Monitor"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Which device is used for typing?",
       "answer": "Keyboard",
-      "expected": "Keyboard",
-      "options": [],
+      "options": [
+        "Keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
       "audioText": "Which device is used for typing?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device moves the pointer?",
       "answer": "Mouse",
-      "expected": "Mouse",
-      "options": [],
+      "options": [
+        "Mouse",
+        "computer",
+        "keyboard",
+        "monitor"
+      ],
       "audioText": "Which device moves the pointer?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖱️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Mouse": "🖱️",
+        "computer": "💻",
+        "keyboard": "⌨️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device shows pictures?",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device shows pictures?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖥️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which part is called the brain of computer?",
       "answer": "CPU",
-      "expected": "CPU",
-      "options": [],
-      "audioText": "Which part is called the brain of computer?",
-      "evaluation": "pronunciation",
-      "micMode": "word",
-      "acceptedAnswers": [
+      "options": [
         "CPU",
-        "C P U"
-      ]
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which part is called the brain of computer?",
+      "art": "🧠",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "CPU": "🧠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Which device gives output?",
       "answer": "Monitor",
-      "expected": "Monitor",
-      "options": [],
+      "options": [
+        "Monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Which device gives output?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "🖥️",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,52 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "speaking",
   "level": 8,
-  "topic": "Singular and Plural",
-  "teach": "Singular means one. Plural means more than one. We often add s or es.",
-  "examples": [
-    "one cat/two cats",
-    "one box/two boxes"
-  ],
+  "topic": "Vocabulary Speaking",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: One apple is",
-      "answer": "singular",
-      "options": [],
-      "audioText": "Say the answer: One apple is"
+      "prompt": "Say the word: Computer",
+      "answer": "Computer",
+      "options": [
+        "Computer",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Computer",
+      "art": "💻",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "Computer": "💻",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Two apples are",
-      "answer": "plural",
-      "options": [],
-      "audioText": "Say the answer: Two apples are"
+      "prompt": "Say the word: School",
+      "answer": "School",
+      "options": [
+        "School",
+        "family",
+        "park",
+        "book"
+      ],
+      "audioText": "Say the word: School",
+      "art": "🏫",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "School": "🏫",
+        "family": "👨‍👩‍👧",
+        "park": "🌳",
+        "book": "📘"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Plural of cat is",
-      "answer": "cats",
-      "options": [],
-      "audioText": "Say the answer: Plural of cat is"
+      "prompt": "Say the word: Elephant",
+      "answer": "Elephant",
+      "options": [
+        "Elephant",
+        "family",
+        "school",
+        "park"
+      ],
+      "audioText": "Say the word: Elephant",
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "Elephant": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Plural of box is",
-      "answer": "boxes",
-      "options": [],
-      "audioText": "Say the answer: Plural of box is"
+      "prompt": "I go to school in the morning. My teacher helps me learn.",
+      "answer": "school",
+      "options": [
+        "school",
+        "market",
+        "zoo",
+        "hospital"
+      ],
+      "audioText": "I go to school in the morning. My teacher helps me learn.",
+      "art": "🏫",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "school": "🏫",
+        "market": "🔹",
+        "zoo": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Plural means",
-      "answer": "more than one",
-      "options": [],
-      "audioText": "Say the answer: Plural means"
+      "prompt": "My family has my mother, father, sister, and me. We live together.",
+      "answer": "family",
+      "options": [
+        "family",
+        "animals",
+        "toys",
+        "cars"
+      ],
+      "audioText": "My family has my mother, father, sister, and me. We live together.",
+      "art": "🌳",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "animals": "🐄",
+        "toys": "🔹",
+        "cars": "🚗"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

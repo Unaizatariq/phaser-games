@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 9,
-  "topic": "Kturtle Commands",
-  "teach": "Kturtle Commands is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Kturtle Commands",
-    "example",
-    "practice"
-  ],
+  "topic": "Input and Output Devices",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Kturtle Commands",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type one input device",
+      "answer": "keyboard",
+      "options": [
+        "keyboard",
+        "computer",
+        "mouse",
+        "monitor"
+      ],
+      "audioText": "Type one input device",
+      "art": "⌨️",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "keyboard": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "monitor": "🖥️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type one output device",
+      "answer": "monitor",
+      "options": [
+        "monitor",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type one output device",
+      "art": "🖥️",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "monitor": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type device used for printing",
+      "answer": "printer",
+      "options": [
+        "printer",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type device used for printing",
+      "art": "🖨️",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "printer": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type device used for scanning",
+      "answer": "scanner",
+      "options": [
+        "scanner",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type device used for scanning",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "scanner": "📠",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type device used for sound",
+      "answer": "Type device used for sound",
+      "options": [
+        "Type device used for sound",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type device used for sound",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Type device used for sound": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

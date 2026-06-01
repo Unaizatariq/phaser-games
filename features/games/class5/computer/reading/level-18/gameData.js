@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 18,
   "topic": "Digital Citizenship",
-  "teach": "Digital citizens use technology responsibly.",
-  "examples": [
-    "Digital citizens use technology responsibly.",
-    "People should respect others online.",
-    "Technology should be used for learning and good purposes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Digital Citizenship",
+      "prompt": "Digital citizens use technology responsibly.",
+      "answer": "Digital",
       "options": [
-        "Digital Citizenship",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Digital",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "readingText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "audioText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      "audioText": "Digital citizens use technology responsibly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Digital": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Digital citizens use technology ____.",
-      "answer": "responsibly",
+      "prompt": "People should respect others online.",
+      "answer": "Digital",
       "options": [
-        "responsibly",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Digital",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "readingText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "audioText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      "audioText": "People should respect others online.",
+      "art": "📚",
+      "questionText": "According to the story about Digital Citizenship, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Digital": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People should respect others ____.",
-      "answer": "online",
+      "prompt": "Technology should be used for learning and good purposes.",
+      "answer": "Digital",
       "options": [
-        "online",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Digital",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "readingText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "audioText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      "audioText": "Technology should be used for learning and good purposes.",
+      "art": "📚",
+      "questionText": "According to the story about Digital Citizenship, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Digital": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology should be used for learning and good ____.",
-      "answer": "purposes",
+      "prompt": "Responsible online behavior is important.",
+      "answer": "Digital",
       "options": [
-        "purposes",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Digital",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "readingText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "audioText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      "audioText": "Responsible online behavior is important.",
+      "art": "📚",
+      "questionText": "According to the story about Digital Citizenship, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Digital": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Responsible online ____ is important.",
-      "answer": "behavior",
+      "prompt": "What is the story mainly about?",
+      "answer": "Digital",
       "options": [
-        "behavior",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Digital",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "readingText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important.",
-      "audioText": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Digital Citizenship, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Digital": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Digital citizens use technology responsibly. People should respect others online. Technology should be used for learning and good purposes. Responsible online behavior is important."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

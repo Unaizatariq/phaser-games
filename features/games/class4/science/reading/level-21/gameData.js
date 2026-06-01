@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 21,
-  "topic": "Bandages cover small cuts.",
-  "teach": "Adults should help during emergencies.",
-  "examples": [
-    "Adults should help during emergencies."
-  ],
+  "topic": "Cells and Living Things",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Bandages cover small cuts.",
+      "prompt": "All living things are made of cells.",
+      "answer": "Cells",
       "options": [
-        "Bandages cover small cuts.",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help during emergencies.",
-      "readingText": "Adults should help during emergencies.",
-      "audioText": "Adults should help during emergencies."
+      "audioText": "All living things are made of cells.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Adults should help during ____.",
-      "answer": "emergencies",
+      "prompt": "Cells are very tiny building blocks of life.",
+      "answer": "Cells",
       "options": [
-        "emergencies",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help during emergencies.",
-      "readingText": "Adults should help during emergencies.",
-      "audioText": "Adults should help during emergencies."
+      "audioText": "Cells are very tiny building blocks of life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "Plants and animals are made of many cells.",
+      "answer": "Cells",
       "options": [
-        "emergencies",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help during emergencies.",
-      "readingText": "Adults should help during emergencies.",
-      "audioText": "Adults should help during emergencies."
+      "audioText": "Plants and animals are made of many cells.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "Cells help living things grow and survive.",
+      "answer": "Cells",
       "options": [
-        "emergencies",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help during emergencies.",
-      "readingText": "Adults should help during emergencies.",
-      "audioText": "Adults should help during emergencies."
+      "audioText": "Cells help living things grow and survive.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "emergencies",
+      "prompt": "What is the story mainly about?",
+      "answer": "Cells",
       "options": [
-        "emergencies",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Cells",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Adults should help during emergencies.",
-      "readingText": "Adults should help during emergencies.",
-      "audioText": "Adults should help during emergencies."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Cells and Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Cells": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Adults should help during emergencies."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

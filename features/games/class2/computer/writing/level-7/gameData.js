@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 7,
-  "topic": "Computer Lab Safety",
-  "teach": "Computer Lab Safety teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Keyboard Practice",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "What is the topic about?"
+      "prompt": "Type alphabet keys",
+      "answer": "alphabet keys",
+      "options": [
+        "alphabet keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type alphabet keys",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "alphabet keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Write the answer: Computers help us"
+      "prompt": "Type number keys",
+      "answer": "number keys",
+      "options": [
+        "number keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type number keys",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "number keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Write the answer: We should use computers"
+      "prompt": "Type Enter key",
+      "answer": "Enter",
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Enter key",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Write the answer: A keyboard is used to"
+      "prompt": "Type Spacebar key",
+      "answer": "Spacebar",
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Spacebar key",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Write the answer: Good digital habit means"
+      "prompt": "Type Backspace key",
+      "answer": "Backspace",
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Type Backspace key",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

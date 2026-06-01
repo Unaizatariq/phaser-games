@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 18,
   "topic": "Renewable and Non-Renewable Resources",
-  "teach": "Some resources can be used again and again.",
-  "examples": [
-    "Some resources can be used again and again.",
-    "Sunlight and wind are renewable resources.",
-    "Coal and oil are non-renewable resources."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Renewable and Non-Renewable Resources",
+      "prompt": "Some resources can be used again and again.",
+      "answer": "Renewable",
       "options": [
-        "Renewable and Non-Renewable Resources",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Renewable",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "readingText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "audioText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      "audioText": "Some resources can be used again and again.",
+      "art": "📚",
+      "questionText": "According to the story about Renewable and Non-Renewable Resources, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Renewable": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some resources can be used ____ and again.",
-      "answer": "again",
+      "prompt": "Sunlight and wind are renewable resources.",
+      "answer": "Renewable",
       "options": [
-        "again",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Renewable",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "readingText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "audioText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      "audioText": "Sunlight and wind are renewable resources.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Renewable": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sunlight and wind are renewable ____.",
-      "answer": "resources",
+      "prompt": "Coal and oil are non-renewable resources.",
+      "answer": "Renewable",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Renewable",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "readingText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "audioText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      "audioText": "Coal and oil are non-renewable resources.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Renewable": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "again",
+      "prompt": "We should save natural resources.",
+      "answer": "Renewable",
       "options": [
-        "again",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Renewable",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "readingText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "audioText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      "audioText": "We should save natural resources.",
+      "art": "📚",
+      "questionText": "According to the story about Renewable and Non-Renewable Resources, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Renewable": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "resources",
+      "prompt": "What is the story mainly about?",
+      "answer": "Renewable",
       "options": [
-        "resources",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Renewable",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "readingText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources.",
-      "audioText": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Renewable and Non-Renewable Resources, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Renewable": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Some resources can be used again and again. Sunlight and wind are renewable resources. Coal and oil are non-renewable resources. We should save natural resources."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

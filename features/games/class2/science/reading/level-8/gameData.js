@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Air",
-  "teach": "We breathe air every second.",
-  "examples": [
-    "We breathe air every second.",
-    "Fresh air keeps us healthy.",
-    "Trees help clean the air."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "We breathe air every second.",
       "answer": "Air",
       "options": [
         "Air",
-        "Living Things",
-        "Non-Living Things",
-        "Plants Around Us"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "readingText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "audioText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      "audioText": "We breathe air every second.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We breathe air every ____.",
-      "answer": "second",
+      "prompt": "Fresh air keeps us healthy.",
+      "answer": "Air",
       "options": [
-        "second",
-        "Living Things",
-        "move",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "readingText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "audioText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      "audioText": "Fresh air keeps us healthy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fresh air ____ us healthy.",
-      "answer": "keeps",
+      "prompt": "Trees help clean the air.",
+      "answer": "Air",
       "options": [
-        "keeps",
-        "Living Things",
-        "move",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "readingText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "audioText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      "audioText": "Trees help clean the air.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Dirty air can make us ____.",
-      "answer": "sick",
+      "prompt": "Dirty air can make us sick.",
+      "answer": "Air",
       "options": [
-        "sick",
-        "Living Things",
-        "move",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "readingText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "audioText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      "audioText": "Dirty air can make us sick.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "second",
+      "prompt": "What is the story mainly about?",
+      "answer": "Air",
       "options": [
-        "second",
-        "Living Things",
-        "move",
-        "things"
+        "Air",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "readingText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick.",
-      "audioText": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Air, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Air": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We breathe air every second. Fresh air keeps us healthy. Trees help clean the air. Dirty air can make us sick."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Comparing Numbers",
-  "teach": "10 is greater than 5.",
-  "examples": [
-    "10 is greater than 5.",
-    "3 is smaller than 8.",
-    "Numbers can be compared."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Comparing Numbers",
+      "prompt": "10 is greater than 5.",
+      "answer": "Comparing",
       "options": [
-        "Comparing Numbers",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "readingText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "audioText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      "audioText": "10 is greater than 5.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: 10 is greater ____ 5.",
-      "answer": "than",
+      "prompt": "3 is smaller than 8.",
+      "answer": "Comparing",
       "options": [
-        "than",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "readingText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "audioText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      "audioText": "3 is smaller than 8.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Numbers can be ____.",
-      "answer": "compared",
+      "prompt": "Numbers can be compared.",
+      "answer": "Comparing",
       "options": [
-        "compared",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "readingText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "audioText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      "audioText": "Numbers can be compared.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us compare ____.",
-      "answer": "quantities",
+      "prompt": "Math helps us compare quantities.",
+      "answer": "Comparing",
       "options": [
-        "quantities",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "readingText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "audioText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      "audioText": "Math helps us compare quantities.",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "than",
+      "prompt": "What is the story mainly about?",
+      "answer": "Comparing",
       "options": [
-        "than",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Comparing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "readingText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities.",
-      "audioText": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Comparing Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Comparing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "10 is greater than 5. 3 is smaller than 8. Numbers can be compared. Math helps us compare quantities."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

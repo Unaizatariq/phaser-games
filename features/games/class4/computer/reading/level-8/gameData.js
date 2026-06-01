@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 8,
   "topic": "Presentation Software",
-  "teach": "Presentation software helps create slides.",
-  "examples": [
-    "Presentation software helps create slides.",
-    "Slides can include text, pictures, and charts.",
-    "Teachers use presentations in classrooms."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Presentation Software",
+      "prompt": "Presentation software helps create slides.",
+      "answer": "Presentation",
       "options": [
-        "Presentation Software",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "readingText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "audioText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      "audioText": "Presentation software helps create slides.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Presentation software helps create ____.",
-      "answer": "slides",
+      "prompt": "Slides can include text, pictures, and charts.",
+      "answer": "Presentation",
       "options": [
-        "slides",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "readingText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "audioText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      "audioText": "Slides can include text, pictures, and charts.",
+      "art": "📚",
+      "questionText": "According to the story about Presentation Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Slides can include text, pictures, and ____.",
-      "answer": "charts",
+      "prompt": "Teachers use presentations in classrooms.",
+      "answer": "Presentation",
       "options": [
-        "charts",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "readingText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "audioText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      "audioText": "Teachers use presentations in classrooms.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Teachers use presentations in ____.",
-      "answer": "classrooms",
+      "prompt": "Presentations make learning interesting.",
+      "answer": "Presentation",
       "options": [
-        "classrooms",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "readingText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "audioText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      "audioText": "Presentations make learning interesting.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Presentations make learning ____.",
-      "answer": "interesting",
+      "prompt": "What is the story mainly about?",
+      "answer": "Presentation",
       "options": [
-        "interesting",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Presentation",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "readingText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting.",
-      "audioText": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Presentation Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Presentation": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Presentation software helps create slides. Slides can include text, pictures, and charts. Teachers use presentations in classrooms. Presentations make learning interesting."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

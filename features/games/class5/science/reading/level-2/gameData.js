@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Nutrition and Balanced Diet",
-  "teach": "A balanced diet keeps us healthy and active.",
-  "examples": [
-    "A balanced diet keeps us healthy and active.",
-    "Fruits and vegetables provide vitamins.",
-    "Proteins help our body grow strong."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Nutrition and Balanced Diet",
+      "prompt": "A balanced diet keeps us healthy and active.",
+      "answer": "Nutrition",
       "options": [
-        "Nutrition and Balanced Diet",
-        "Human Body Systems",
-        "Plants and Their Functions",
-        "Reproduction in Plants"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "readingText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "audioText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      "audioText": "A balanced diet keeps us healthy and active.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A balanced diet keeps us healthy and ____.",
-      "answer": "active",
+      "prompt": "Fruits and vegetables provide vitamins.",
+      "answer": "Nutrition",
       "options": [
-        "active",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "readingText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "audioText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      "audioText": "Fruits and vegetables provide vitamins.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fruits and vegetables provide ____.",
-      "answer": "vitamins",
+      "prompt": "Proteins help our body grow strong.",
+      "answer": "Nutrition",
       "options": [
-        "vitamins",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "readingText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "audioText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      "audioText": "Proteins help our body grow strong.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Proteins help our body ____ strong.",
-      "answer": "grow",
+      "prompt": "We should avoid eating too much junk food.",
+      "answer": "Nutrition",
       "options": [
-        "grow",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "readingText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "audioText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      "audioText": "We should avoid eating too much junk food.",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should avoid eating too much junk ____.",
-      "answer": "food",
+      "prompt": "What is the story mainly about?",
+      "answer": "Nutrition",
       "options": [
-        "food",
-        "Human Body Systems",
-        "together",
-        "breathe"
+        "Nutrition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "readingText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food.",
-      "audioText": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Nutrition and Balanced Diet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Nutrition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A balanced diet keeps us healthy and active. Fruits and vegetables provide vitamins. Proteins help our body grow strong. We should avoid eating too much junk food."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,77 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "listening",
   "level": 4,
-  "topic": "حروف کی ترتیب",
-  "teach": "حروف کی ترتیب یاد کرنے سے پڑھنا اور لکھنا آسان ہوتا ہے۔",
-  "examples": [
-    "الف ب پ ت",
-    "ٹ ث ج چ"
-  ],
+  "topic": "دوست",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "ب",
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
       "options": [
-        "ب",
-        "پ",
-        "ت",
-        "ج"
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
       ],
-      "audioText": "الف کے بعد کون سا حرف آتا ہے؟"
+      "art": "🧒",
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "پ",
+      "prompt": "مریم نے کتاب کہاں رکھی؟",
+      "answer": "بیگ",
       "options": [
-        "پ",
-        "الف",
-        "ت",
-        "ث"
+        {
+          "text": "بیگ",
+          "tts": "بیگ"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "گلاس",
+          "tts": "گلاس"
+        },
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        }
       ],
-      "audioText": "ب کے بعد کون سا حرف آتا ہے؟"
+      "art": "🎒",
+      "audioText": "مریم نے اپنی کتاب بیگ میں رکھی۔",
+      "questionText": "مریم نے کتاب کہاں رکھی؟",
+      "optionArts": {
+        "بیگ": "🔹",
+        "پارک": "🌳",
+        "گلاس": "🔹",
+        "درخت": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "ب",
+      "prompt": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "answer": "سرخ",
       "options": [
-        "ب",
-        "ت",
-        "الف",
-        "ج"
+        {
+          "text": "سرخ",
+          "tts": "سرخ"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "پیلا",
+          "tts": "پیلا"
+        }
       ],
-      "audioText": "پ سے پہلے کون سا حرف آتا ہے؟"
+      "art": "🔴",
+      "audioText": "احمد نے سرخ گیند اٹھائی۔",
+      "questionText": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "optionArts": {
+        "سرخ": "🔴",
+        "نیلا": "🔵",
+        "سبز": "🟢",
+        "پیلا": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "پڑھنا اور لکھنا",
+      "prompt": "بچہ کس سے سبق پڑھتا ہے؟",
+      "answer": "استاد",
       "options": [
-        "پڑھنا اور لکھنا",
-        "دوڑنا",
-        "کھانا",
-        "سونا"
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        }
       ],
-      "audioText": "حروف کی ترتیب سے کیا آسان ہوتا ہے؟"
+      "art": "👩‍🏫",
+      "audioText": "بچہ اسکول میں استاد سے سبق پڑھتا ہے۔",
+      "questionText": "بچہ کس سے سبق پڑھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "دوست": "🧒",
+        "بھائی": "👦",
+        "والد": "👨"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "پ",
+      "prompt": "سارہ نے باغ میں کیا دیکھا؟",
+      "answer": "پھول",
       "options": [
-        "الف",
-        "ب",
-        "پ",
-        "ت"
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        },
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "کرسی",
+          "tts": "کرسی"
+        },
+        {
+          "text": "ماؤس",
+          "tts": "ماؤس"
+        }
       ],
-      "audioText": "الف، ب، پ میں آخری حرف کون سا ہے؟"
+      "art": "🌸",
+      "audioText": "سارہ نے باغ میں خوبصورت پھول دیکھا۔",
+      "questionText": "سارہ نے باغ میں کیا دیکھا؟",
+      "optionArts": {
+        "پھول": "🌸",
+        "کتاب": "📘",
+        "کرسی": "🔹",
+        "ماؤس": "🖱️"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "listening"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

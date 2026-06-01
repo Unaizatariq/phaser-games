@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Human Body Systems",
-  "teach": "Our body has different systems.",
-  "examples": [
-    "Our body has different systems.",
-    "The digestive system helps digest food.",
-    "The respiratory system helps us breathe."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Human Body Systems",
+      "prompt": "Our body has different systems.",
+      "answer": "Human",
       "options": [
-        "Human Body Systems",
-        "Cells and Living Things",
-        "Plants and Photosynthesis",
-        "Animals and Adaptation"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "readingText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "audioText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      "audioText": "Our body has different systems.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our body has different ____.",
-      "answer": "systems",
+      "prompt": "The digestive system helps digest food.",
+      "answer": "Human",
       "options": [
-        "systems",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "readingText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "audioText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      "audioText": "The digestive system helps digest food.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The digestive system helps digest ____.",
-      "answer": "food",
+      "prompt": "The respiratory system helps us breathe.",
+      "answer": "Human",
       "options": [
-        "food",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "readingText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "audioText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      "audioText": "The respiratory system helps us breathe.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The respiratory system helps us ____.",
-      "answer": "breathe",
+      "prompt": "The circulatory system moves blood in the body.",
+      "answer": "Human",
       "options": [
-        "breathe",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "readingText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "audioText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      "audioText": "The circulatory system moves blood in the body.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The circulatory system moves blood in the ____.",
-      "answer": "body",
+      "prompt": "What is the story mainly about?",
+      "answer": "Human",
       "options": [
-        "body",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "readingText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body.",
-      "audioText": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our body has different systems. The digestive system helps digest food. The respiratory system helps us breathe. The circulatory system moves blood in the body."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

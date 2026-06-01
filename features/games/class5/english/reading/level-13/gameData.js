@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 13,
   "topic": "Pollution and Environment",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "pollution"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Pollution is one of the biggest problems in the world today.",
       "answer": "pollution",
       "options": [
         "pollution",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "technology",
         "education"
       ],
-      "text": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "audioText": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+      "audioText": "Pollution is one of the biggest problems in the world today.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Smoke from factories and vehicles pollutes the air we breathe.",
       "answer": "pollution",
       "options": [
         "pollution",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "technology",
         "education"
       ],
-      "text": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "audioText": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+      "audioText": "Smoke from factories and vehicles pollutes the air we breathe.",
+      "art": "📚",
+      "questionText": "According to the story about Pollution and Environment, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Plastic and garbage pollute rivers and oceans.",
       "answer": "pollution",
       "options": [
         "pollution",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "technology",
         "education"
       ],
-      "text": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "audioText": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+      "audioText": "Plastic and garbage pollute rivers and oceans.",
+      "art": "📚",
+      "questionText": "According to the story about Pollution and Environment, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Pollution harms humans, animals, and plants.",
       "answer": "pollution",
       "options": [
         "pollution",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "technology",
         "education"
       ],
-      "text": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "audioText": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+      "audioText": "Pollution harms humans, animals, and plants.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "We should recycle waste, plant trees, and keep our environment clean.",
       "answer": "pollution",
       "options": [
         "pollution",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "technology",
         "education"
       ],
-      "text": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean.",
-      "audioText": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+      "audioText": "We should recycle waste, plant trees, and keep our environment clean.",
+      "art": "📚",
+      "questionText": "According to the story about Pollution and Environment, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "pollution",
+      "options": [
+        "pollution",
+        "honesty",
+        "technology",
+        "education"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Pollution and Environment, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "pollution": "🔹",
+        "honesty": "🔹",
+        "technology": "🔹",
+        "education": "🐱"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Pollution is one of the biggest problems in the world today. Smoke from factories and vehicles pollutes the air we breathe. Plastic and garbage pollute rivers and oceans. Pollution harms humans, animals, and plants. We should recycle waste, plant trees, and keep our environment clean."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

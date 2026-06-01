@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 12,
   "topic": "Sound and Hearing",
-  "teach": "Sound is produced by vibrations.",
-  "examples": [
-    "Sound is produced by vibrations.",
-    "Sound travels through air.",
-    "Our ears help us hear sounds."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Sound and Hearing",
+      "prompt": "Sound is produced by vibrations.",
+      "answer": "Sound",
       "options": [
-        "Sound and Hearing",
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "readingText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "audioText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      "audioText": "Sound is produced by vibrations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sound is produced by ____.",
-      "answer": "vibrations",
+      "prompt": "Sound travels through air.",
+      "answer": "Sound",
       "options": [
-        "vibrations",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "readingText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "audioText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      "audioText": "Sound travels through air.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sound travels through ____.",
-      "answer": "air",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "Sound",
       "options": [
-        "air",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "readingText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "audioText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Our ears help us hear ____.",
-      "answer": "sounds",
+      "prompt": "Very loud sounds can damage hearing.",
+      "answer": "Sound",
       "options": [
-        "sounds",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "readingText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "audioText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      "audioText": "Very loud sounds can damage hearing.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Very loud sounds can damage ____.",
-      "answer": "hearing",
+      "prompt": "What is the story mainly about?",
+      "answer": "Sound",
       "options": [
-        "hearing",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "readingText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing.",
-      "audioText": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Sound and Hearing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sound is produced by vibrations. Sound travels through air. Our ears help us hear sounds. Very loud sounds can damage hearing."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

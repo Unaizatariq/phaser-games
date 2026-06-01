@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 12,
   "topic": "Natural Resources",
-  "teach": "Natural resources come from nature.",
-  "examples": [
-    "Natural resources come from nature.",
-    "Water, air, and soil are natural resources.",
-    "People use resources every day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Natural Resources",
+      "prompt": "Natural resources come from nature.",
+      "answer": "Natural",
       "options": [
-        "Natural Resources",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "readingText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "audioText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      "audioText": "Natural resources come from nature.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Natural resources come from ____.",
-      "answer": "nature",
+      "prompt": "Water, air, and soil are natural resources.",
+      "answer": "Natural",
       "options": [
-        "nature",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "readingText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "audioText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      "audioText": "Water, air, and soil are natural resources.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Water, air, and soil are natural ____.",
-      "answer": "resources",
+      "prompt": "People use resources every day.",
+      "answer": "Natural",
       "options": [
-        "resources",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "readingText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "audioText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      "audioText": "People use resources every day.",
+      "art": "📚",
+      "questionText": "According to the story about Natural Resources, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: People use resources every ____.",
-      "answer": "day",
+      "prompt": "We should not waste natural resources.",
+      "answer": "Natural",
       "options": [
-        "day",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "readingText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "audioText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      "audioText": "We should not waste natural resources.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Natural",
       "options": [
-        "nature",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Natural",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "readingText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources.",
-      "audioText": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Natural Resources, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Natural": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Natural resources come from nature. Water, air, and soil are natural resources. People use resources every day. We should not waste natural resources."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

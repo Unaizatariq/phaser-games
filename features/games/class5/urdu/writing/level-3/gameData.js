@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "writing",
   "level": 3,
   "topic": "کہانی مکمل کریں",
-  "teach": "نقطوں پر ٹریس کریں یا جواب ٹائپ کریں۔",
-  "examples": [
-    "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-    "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-    "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "ایمان داری پر کہانی مکمل کریں۔",
       "answer": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "expected": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
+          "tts": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "ایمان داری پر کہانی مکمل کریں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "دوستی پر کہانی مکمل کریں۔",
       "answer": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "expected": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
+          "tts": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "دوستی پر کہانی مکمل کریں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "محنت پر کہانی مکمل کریں۔",
       "answer": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "expected": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
+          "tts": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "محنت پر کہانی مکمل کریں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "مدد کرنے پر کہانی مکمل کریں۔",
       "answer": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "expected": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
+          "tts": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "مدد کرنے پر کہانی مکمل کریں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "input",
       "prompt": "کامیابی پر کہانی مکمل کریں۔",
       "answer": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "expected": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔",
+          "tts": "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "کامیابی پر کہانی مکمل کریں۔",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "ایک دن ایک بچے نے اچھا کام کیا اور سب خوش ہوئے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

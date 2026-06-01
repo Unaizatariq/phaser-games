@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 10,
   "topic": "Internet and Web Browsing",
-  "teach": "The internet connects millions of computers worldwide.",
-  "examples": [
-    "The internet connects millions of computers worldwide.",
-    "Web browsers help users visit websites.",
-    "Students use the internet for research and learning."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Internet and Web Browsing",
+      "prompt": "The internet connects millions of computers worldwide.",
+      "answer": "Internet",
       "options": [
-        "Internet and Web Browsing",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "readingText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "audioText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      "audioText": "The internet connects millions of computers worldwide.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The internet connects millions of computers ____.",
-      "answer": "worldwide",
+      "prompt": "Web browsers help users visit websites.",
+      "answer": "Internet",
       "options": [
-        "worldwide",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "readingText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "audioText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      "audioText": "Web browsers help users visit websites.",
+      "art": "🌐",
+      "questionText": "According to the story about Internet and Web Browsing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Web browsers help users visit ____.",
-      "answer": "websites",
+      "prompt": "Students use the internet for research and learning.",
+      "answer": "Internet",
       "options": [
-        "websites",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "readingText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "audioText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      "audioText": "Students use the internet for research and learning.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use the internet for ____ and learning.",
-      "answer": "research",
+      "prompt": "Safe browsing protects users online.",
+      "answer": "Internet",
       "options": [
-        "research",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "readingText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "audioText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      "audioText": "Safe browsing protects users online.",
+      "art": "🌐",
+      "questionText": "According to the story about Internet and Web Browsing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Safe browsing protects users ____.",
-      "answer": "online",
+      "prompt": "What is the story mainly about?",
+      "answer": "Internet",
       "options": [
-        "online",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Internet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "readingText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online.",
-      "audioText": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+      "audioText": "What is the story mainly about?",
+      "art": "🌐",
+      "questionText": "According to the story about Internet and Web Browsing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Internet": "🌐",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The internet connects millions of computers worldwide. Web browsers help users visit websites. Students use the internet for research and learning. Safe browsing protects users online."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 1,
   "topic": "روانی سے بولیں",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
-    "کراچی پاکستان کا بڑا شہر ہے۔",
-    "مجھے کرکٹ کھیلنا پسند ہے۔"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "اپنے اسکول کے بارے میں بولیں۔",
       "answer": "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
-      "expected": "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا اسکول بہت بڑا اور خوبصورت ہے۔",
+          "tts": "میرا اسکول بہت بڑا اور خوبصورت ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے اسکول کے بارے میں بولیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "میرا اسکول بہت بڑا اور خوبصورت ہے۔": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "اپنے شہر کے بارے میں بولیں۔",
       "answer": "کراچی پاکستان کا بڑا شہر ہے۔",
-      "expected": "کراچی پاکستان کا بڑا شہر ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "کراچی پاکستان کا بڑا شہر ہے۔",
+          "tts": "کراچی پاکستان کا بڑا شہر ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے شہر کے بارے میں بولیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "کراچی پاکستان کا بڑا شہر ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "اپنے پسندیدہ کھیل کے بارے میں بولیں۔",
       "answer": "مجھے کرکٹ کھیلنا پسند ہے۔",
-      "expected": "مجھے کرکٹ کھیلنا پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "مجھے کرکٹ کھیلنا پسند ہے۔",
+          "tts": "مجھے کرکٹ کھیلنا پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے پسندیدہ کھیل کے بارے میں بولیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "مجھے کرکٹ کھیلنا پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "اپنے دوست کے بارے میں بولیں۔",
       "answer": "میرا دوست بہت مددگار ہے۔",
-      "expected": "میرا دوست بہت مددگار ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا دوست بہت مددگار ہے۔",
+          "tts": "میرا دوست بہت مددگار ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے دوست کے بارے میں بولیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "میرا دوست بہت مددگار ہے۔": "🧒",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "اپنے خاندان کے بارے میں بولیں۔",
       "answer": "میرا خاندان بہت پیارا ہے۔",
-      "expected": "میرا خاندان بہت پیارا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا خاندان بہت پیارا ہے۔",
+          "tts": "میرا خاندان بہت پیارا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "اپنے خاندان کے بارے میں بولیں۔",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "میرا خاندان بہت پیارا ہے۔": "👨‍👩‍👧",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

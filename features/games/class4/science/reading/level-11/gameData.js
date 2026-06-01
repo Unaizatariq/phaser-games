@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 11,
   "topic": "Weather and Climate",
-  "teach": "Weather changes daily.",
-  "examples": [
-    "Weather changes daily.",
-    "Climate is the usual weather of a place.",
-    "Some places are hot and dry."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Weather and Climate",
+      "prompt": "Weather changes daily.",
+      "answer": "Weather",
       "options": [
-        "Weather and Climate",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "readingText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "audioText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      "audioText": "Weather changes daily.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Weather ____ daily.",
-      "answer": "changes",
+      "prompt": "Climate is the usual weather of a place.",
+      "answer": "Weather",
       "options": [
-        "changes",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "readingText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "audioText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      "audioText": "Climate is the usual weather of a place.",
+      "art": "☀️",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Climate is the usual weather of a ____.",
-      "answer": "place",
+      "prompt": "Some places are hot and dry.",
+      "answer": "Weather",
       "options": [
-        "place",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "readingText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "audioText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      "audioText": "Some places are hot and dry.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some places are hot and ____.",
-      "answer": "dry",
+      "prompt": "Some places are cold and snowy.",
+      "answer": "Weather",
       "options": [
-        "dry",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "readingText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "audioText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      "audioText": "Some places are cold and snowy.",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some places are cold and ____.",
-      "answer": "snowy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Weather",
       "options": [
-        "snowy",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Weather",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "readingText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy.",
-      "audioText": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+      "audioText": "What is the story mainly about?",
+      "art": "☀️",
+      "questionText": "According to the story about Weather and Climate, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Weather": "☀️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Weather changes daily. Climate is the usual weather of a place. Some places are hot and dry. Some places are cold and snowy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

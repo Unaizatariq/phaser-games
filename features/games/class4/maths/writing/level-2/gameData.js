@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 2,
   "topic": "Geometry Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "3",
-    "4",
-    "circle"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type sides of triangle",
       "answer": "3",
-      "expected": "3",
-      "options": [],
+      "options": [
+        "3",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type sides of triangle",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type sides of square",
       "answer": "4",
-      "expected": "4",
-      "options": [],
+      "options": [
+        "4",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type sides of square",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "4": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type shape with no corners",
       "answer": "circle",
-      "expected": "circle",
-      "options": [],
+      "options": [
+        "circle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type shape with no corners",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "circle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type shape with 4 equal sides",
       "answer": "square",
-      "expected": "square",
-      "options": [],
+      "options": [
+        "square",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type shape with 4 equal sides",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "square": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type shape with 3 sides",
       "answer": "triangle",
-      "expected": "triangle",
-      "options": [],
+      "options": [
+        "triangle",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type shape with 3 sides",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "triangle": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 9,
-  "topic": "Seasons",
-  "teach": "Seasons is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Seasons",
-    "example",
-    "practice"
-  ],
+  "topic": "Five Senses",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Seasons",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type the sense used for hearing",
+      "answer": "hearing",
+      "options": [
+        "hearing",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for hearing",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "hearing": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type the sense used for tasting",
+      "answer": "taste",
+      "options": [
+        "taste",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for tasting",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "taste": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type the sense used for touching",
+      "answer": "touch",
+      "options": [
+        "touch",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for touching",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "touch": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type the sense used for seeing",
+      "answer": "sight",
+      "options": [
+        "sight",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for seeing",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "sight": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type the sense used for smelling",
+      "answer": "smell",
+      "options": [
+        "smell",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type the sense used for smelling",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "smell": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

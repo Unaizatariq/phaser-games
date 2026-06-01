@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 6,
-  "topic": "First Letter of Picture",
-  "teach": "First Letter of Picture helps children recognize letters, sounds and simple words.",
-  "examples": [
-    "A for Apple",
-    "B for Ball",
-    "C for Cat"
-  ],
+  "topic": "honesty",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "A",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Which letter starts Apple?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Ball",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Apple",
-        "Ball",
-        "Cat",
-        "Dog"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Which word starts with B?"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Cat",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "Cat",
-        "Apple",
-        "Ball",
-        "Egg"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "C makes the sound at the start of"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "words",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "words",
-        "water",
-        "shoes",
-        "clouds"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "Letters help us make"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "A B C",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "A B C",
-        "C B A",
-        "B A C",
-        "A C B"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Choose the correct letter order."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

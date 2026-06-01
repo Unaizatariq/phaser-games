@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 12,
   "topic": "Water",
-  "teach": "Water is very important.",
-  "examples": [
-    "Water is very important.",
-    "We drink clean water every day.",
-    "Plants and animals also need water."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Water is very important.",
       "answer": "Water",
       "options": [
         "Water",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "readingText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "audioText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+      "audioText": "Water is very important.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We drink clean water every ____.",
-      "answer": "day",
-      "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
-      ],
-      "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "readingText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "audioText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
+      "prompt": "We drink clean water every day.",
       "answer": "Water",
       "options": [
         "Water",
-        "My Body",
-        "things",
-        "ears"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "readingText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "audioText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+      "audioText": "We drink clean water every day.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "day",
+      "prompt": "Plants and animals also need water.",
+      "answer": "Water",
       "options": [
-        "day",
-        "My Body",
-        "things",
-        "ears"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "readingText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "audioText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+      "audioText": "Plants and animals also need water.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "water",
+      "prompt": "We should not waste water.",
+      "answer": "Water",
       "options": [
-        "water",
-        "My Body",
-        "things",
-        "ears"
+        "Water",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "readingText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water.",
-      "audioText": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+      "audioText": "We should not waste water.",
+      "art": "💧",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Water",
+      "options": [
+        "Water",
+        "school",
+        "home",
+        "book"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "💧",
+      "questionText": "According to the story about Water, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Water": "💧",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Water is very important. We drink clean water every day. Plants and animals also need water. We should not waste water."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

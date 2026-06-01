@@ -1,58 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "listening",
   "level": 1,
   "topic": "Body Parts",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "Legs",
-    "Eyes",
-    "Hand"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Touch the body part used for walking.",
-      "answer": "Legs",
+      "audioText": "Plants are living things. They need water, air, and sunlight to grow.",
+      "prompt": "What do plants need to grow?",
+      "answer": "water",
       "options": [
-        "Legs",
-        "Eyes",
-        "Hands",
-        "Nose"
+        "water",
+        "chair",
+        "printer",
+        "book"
       ],
-      "audioText": "Touch the body part used for walking.",
-      "gameplayType": "listen-tap"
+      "art": "🌱",
+      "optionArts": {
+        "water": "💧",
+        "chair": "🪑",
+        "printer": "🖨️",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
+      "audioText": "We use our eyes to see things around us.",
       "prompt": "Which body part helps us see?",
-      "answer": "Eyes",
+      "answer": "eye",
       "options": [
-        "Eyes",
-        "Feet",
-        "Ears",
-        "Arms"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "audioText": "Which body part helps us see?",
-      "gameplayType": "drag-drop"
+      "art": "👁️",
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Drag the hand into the basket.",
-      "answer": "Hand",
+      "audioText": "Animals are living things because they grow and need food.",
+      "prompt": "Which one is a living thing?",
+      "answer": "animal",
       "options": [
-        "Hand",
-        "Chair",
-        "Ball",
-        "Tree"
+        "animal",
+        "chair",
+        "table",
+        "car"
       ],
-      "audioText": "Drag the hand into the basket.",
-      "gameplayType": "basket-catch"
+      "art": "🐄",
+      "optionArts": {
+        "animal": "🐄",
+        "chair": "🪑",
+        "table": "▭",
+        "car": "🚗"
+      }
+    },
+    {
+      "audioText": "The sun gives us light and heat during the day.",
+      "prompt": "What gives us light and heat in the day?",
+      "answer": "sun",
+      "options": [
+        "sun",
+        "moon",
+        "chair",
+        "bag"
+      ],
+      "art": "☀️",
+      "optionArts": {
+        "sun": "☀️",
+        "moon": "🌙",
+        "chair": "🪑",
+        "bag": "🎒"
+      }
+    },
+    {
+      "audioText": "Clean water is important for people, animals, and plants.",
+      "prompt": "What is important for people, animals, and plants?",
+      "answer": "water",
+      "options": [
+        "water",
+        "printer",
+        "keyboard",
+        "candy"
+      ],
+      "art": "💧",
+      "optionArts": {
+        "water": "💧",
+        "printer": "🖨️",
+        "keyboard": "⌨️",
+        "candy": "🍬"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

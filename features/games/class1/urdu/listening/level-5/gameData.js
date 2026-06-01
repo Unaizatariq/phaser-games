@@ -1,77 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "listening",
   "level": 5,
-  "topic": "سادہ جملے",
-  "teach": "سادہ جملہ مکمل بات بتاتا ہے۔ جیسے: علی پڑھتا ہے۔",
-  "examples": [
-    "علی پڑھتا ہے",
-    "بلی سوتی ہے"
-  ],
+  "topic": "صفائی",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "علی پڑھتا ہے",
+      "prompt": "علی کس کے ساتھ پارک گیا؟",
+      "answer": "دوست",
       "options": [
-        "علی پڑھتا ہے",
-        "علی",
-        "پڑھتا",
-        "ہے"
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        }
       ],
-      "audioText": "کون سا جملہ مکمل ہے؟"
+      "art": "🧒",
+      "audioText": "علی اپنے دوست کے ساتھ پارک گیا۔",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "دوست": "🧒",
+        "استاد": "👩‍🏫",
+        "والد": "👨",
+        "بھائی": "👦"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "مکمل بات",
+      "prompt": "مریم نے کتاب کہاں رکھی؟",
+      "answer": "بیگ",
       "options": [
-        "مکمل بات",
-        "صرف حرف",
-        "صرف نقطہ",
-        "صرف رنگ"
+        {
+          "text": "بیگ",
+          "tts": "بیگ"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        },
+        {
+          "text": "گلاس",
+          "tts": "گلاس"
+        },
+        {
+          "text": "درخت",
+          "tts": "درخت"
+        }
       ],
-      "audioText": "جملہ کیا بتاتا ہے؟"
+      "art": "🎒",
+      "audioText": "مریم نے اپنی کتاب بیگ میں رکھی۔",
+      "questionText": "مریم نے کتاب کہاں رکھی؟",
+      "optionArts": {
+        "بیگ": "🔹",
+        "پارک": "🌳",
+        "گلاس": "🔹",
+        "درخت": "🔹"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "بلی",
+      "prompt": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "answer": "سرخ",
       "options": [
-        "بلی",
-        "علی",
-        "کتاب",
-        "گھر"
+        {
+          "text": "سرخ",
+          "tts": "سرخ"
+        },
+        {
+          "text": "نیلا",
+          "tts": "نیلا"
+        },
+        {
+          "text": "سبز",
+          "tts": "سبز"
+        },
+        {
+          "text": "پیلا",
+          "tts": "پیلا"
+        }
       ],
-      "audioText": "بلی سوتی ہے میں کون سوتی ہے؟"
+      "art": "🔴",
+      "audioText": "احمد نے سرخ گیند اٹھائی۔",
+      "questionText": "احمد نے کس رنگ کی گیند اٹھائی؟",
+      "optionArts": {
+        "سرخ": "🔴",
+        "نیلا": "🔵",
+        "سبز": "🟢",
+        "پیلا": "🟡"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "وقفہ",
+      "prompt": "بچہ کس سے سبق پڑھتا ہے؟",
+      "answer": "استاد",
       "options": [
-        "وقفہ",
-        "نمبر",
-        "رنگ",
-        "تصویر"
+        {
+          "text": "استاد",
+          "tts": "ustaad"
+        },
+        {
+          "text": "دوست",
+          "tts": "dost"
+        },
+        {
+          "text": "بھائی",
+          "tts": "بھائی"
+        },
+        {
+          "text": "والد",
+          "tts": "والد"
+        }
       ],
-      "audioText": "سادہ جملے کے آخر میں کیا آتا ہے؟"
+      "art": "👩‍🏫",
+      "audioText": "بچہ اسکول میں استاد سے سبق پڑھتا ہے۔",
+      "questionText": "بچہ کس سے سبق پڑھتا ہے؟",
+      "optionArts": {
+        "استاد": "👩‍🏫",
+        "دوست": "🧒",
+        "بھائی": "👦",
+        "والد": "👨"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "mcq",
-      "prompt": "جواب سن کر منتخب کریں۔",
-      "answer": "میں سکول جاتا ہوں",
+      "prompt": "سارہ نے باغ میں کیا دیکھا؟",
+      "answer": "پھول",
       "options": [
-        "میں سکول جاتا ہوں",
-        "سکول",
-        "جاتا",
-        "ہوں"
+        {
+          "text": "پھول",
+          "tts": "پھول"
+        },
+        {
+          "text": "کتاب",
+          "tts": "kitaab"
+        },
+        {
+          "text": "کرسی",
+          "tts": "کرسی"
+        },
+        {
+          "text": "ماؤس",
+          "tts": "ماؤس"
+        }
       ],
-      "audioText": "کون سا سادہ جملہ ہے؟"
+      "art": "🌸",
+      "audioText": "سارہ نے باغ میں خوبصورت پھول دیکھا۔",
+      "questionText": "سارہ نے باغ میں کیا دیکھا؟",
+      "optionArts": {
+        "پھول": "🌸",
+        "کتاب": "📘",
+        "کرسی": "🔹",
+        "ماؤس": "🖱️"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "listening"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

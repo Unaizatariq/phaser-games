@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 18,
   "topic": "Capacity",
-  "teach": "Capacity shows how much a container can hold.",
-  "examples": [
-    "Capacity shows how much a container can hold.",
-    "Liters measure liquids.",
-    "Bottles and buckets have different capacities."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Capacity shows how much a container can hold.",
       "answer": "Capacity",
       "options": [
         "Capacity",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      "audioText": "Capacity shows how much a container can hold.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Capacity shows how much a container can ____.",
-      "answer": "hold",
+      "prompt": "Liters measure liquids.",
+      "answer": "Capacity",
       "options": [
-        "hold",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Capacity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      "audioText": "Liters measure liquids.",
+      "art": "📚",
+      "questionText": "According to the story about Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liters measure ____.",
-      "answer": "liquids",
+      "prompt": "Bottles and buckets have different capacities.",
+      "answer": "Capacity",
       "options": [
-        "liquids",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Capacity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      "audioText": "Bottles and buckets have different capacities.",
+      "art": "📚",
+      "questionText": "According to the story about Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bottles and buckets have different ____.",
-      "answer": "capacities",
+      "prompt": "Capacity is useful in daily life.",
+      "answer": "Capacity",
       "options": [
-        "capacities",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Capacity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      "audioText": "Capacity is useful in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "hold",
+      "prompt": "What is the story mainly about?",
+      "answer": "Capacity",
       "options": [
-        "hold",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Capacity",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "readingText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life.",
-      "audioText": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Capacity": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Capacity shows how much a container can hold. Liters measure liquids. Bottles and buckets have different capacities. Capacity is useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

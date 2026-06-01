@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 3,
   "topic": "Animals and Their Habitats",
-  "teach": "Animals live in different habitats.",
-  "examples": [
-    "Animals live in different habitats.",
-    "Fish live in water.",
-    "Birds live in nests."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Animals and Their Habitats",
+      "prompt": "Animals live in different habitats.",
+      "answer": "Animals",
       "options": [
-        "Animals and Their Habitats",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Food and Nutrition"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "readingText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "audioText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      "audioText": "Animals live in different habitats.",
+      "art": "🐄",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Animals live in different ____.",
-      "answer": "habitats",
+      "prompt": "Fish live in water.",
+      "answer": "Animals",
       "options": [
-        "habitats",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "readingText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "audioText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      "audioText": "Fish live in water.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Their Habitats, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fish live in ____.",
-      "answer": "water",
+      "prompt": "Birds live in nests.",
+      "answer": "Animals",
       "options": [
-        "water",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "readingText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "audioText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      "audioText": "Birds live in nests.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Their Habitats, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Birds live in ____.",
-      "answer": "nests",
+      "prompt": "Lions live in forests.",
+      "answer": "Animals",
       "options": [
-        "nests",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "readingText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "audioText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      "audioText": "Lions live in forests.",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Their Habitats, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Lions live in ____.",
-      "answer": "forests",
+      "prompt": "What is the story mainly about?",
+      "answer": "Animals",
       "options": [
-        "forests",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Animals",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "readingText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests.",
-      "audioText": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+      "audioText": "What is the story mainly about?",
+      "art": "🐄",
+      "questionText": "According to the story about Animals and Their Habitats, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Animals": "🐄",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Animals live in different habitats. Fish live in water. Birds live in nests. Lions live in forests."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

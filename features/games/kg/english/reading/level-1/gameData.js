@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 1,
   "topic": "My Body",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "eyes"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I have two eyes to see.",
       "answer": "eyes",
       "options": [
         "eyes",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "tail",
         "horns"
       ],
-      "text": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+      "audioText": "I have two eyes to see.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eyes": "👁️",
+        "wings": "🔹",
+        "tail": "🔹",
+        "horns": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "I have two ears to hear sounds.",
       "answer": "eyes",
       "options": [
         "eyes",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "tail",
         "horns"
       ],
-      "text": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+      "audioText": "I have two ears to hear sounds.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eyes": "👁️",
+        "wings": "🔹",
+        "tail": "🔹",
+        "horns": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My hands help me write and play.",
       "answer": "eyes",
       "options": [
         "eyes",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "tail",
         "horns"
       ],
-      "text": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+      "audioText": "My hands help me write and play.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eyes": "👁️",
+        "wings": "🔹",
+        "tail": "🔹",
+        "horns": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "My legs help me walk and run.",
       "answer": "eyes",
       "options": [
         "eyes",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "tail",
         "horns"
       ],
-      "text": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+      "audioText": "My legs help me walk and run.",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eyes": "👁️",
+        "wings": "🔹",
+        "tail": "🔹",
+        "horns": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "eyes",
       "options": [
         "eyes",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "tail",
         "horns"
       ],
-      "text": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run.",
-      "audioText": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Body, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eyes": "👁️",
+        "wings": "🔹",
+        "tail": "🔹",
+        "horns": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I have two eyes to see. I have two ears to hear sounds. My hands help me write and play. My legs help me walk and run."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

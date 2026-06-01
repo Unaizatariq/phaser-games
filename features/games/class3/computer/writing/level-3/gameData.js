@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 3,
   "topic": "Rearrange Words",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Computer is a smart machine.",
-    "Keyboard is used for typing.",
-    "Monitor is an output device."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Rearrange: is / smart / computer / machine / a",
       "answer": "Computer is a smart machine.",
-      "expected": "Computer is a smart machine.",
-      "options": [],
+      "options": [
+        "Computer is a smart machine.",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Rearrange: is / smart / computer / machine / a",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Computer is a smart machine.": "💻",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: typing / used / keyboard / for / is",
       "answer": "Keyboard is used for typing.",
-      "expected": "Keyboard is used for typing.",
-      "options": [],
+      "options": [
+        "Keyboard is used for typing.",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Rearrange: typing / used / keyboard / for / is",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Keyboard is used for typing.": "⌨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: monitor / output / an / device / is",
       "answer": "Monitor is an output device.",
-      "expected": "Monitor is an output device.",
-      "options": [],
+      "options": [
+        "Monitor is an output device.",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Rearrange: monitor / output / an / device / is",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Monitor is an output device.": "🖥️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: mouse / pointer / controls / the",
       "answer": "Mouse controls the pointer.",
-      "expected": "Mouse controls the pointer.",
-      "options": [],
+      "options": [
+        "Mouse controls the pointer.",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Rearrange: mouse / pointer / controls / the",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Mouse controls the pointer.": "🖱️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Rearrange: printer / paper / on / prints",
       "answer": "Printer prints on paper.",
-      "expected": "Printer prints on paper.",
-      "options": [],
+      "options": [
+        "Printer prints on paper.",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Rearrange: printer / paper / on / prints",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Printer prints on paper.": "🖨️",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

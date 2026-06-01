@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 3,
   "topic": "Creative Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "A brave boy called for help during a fire and saved his neighbors.",
-    "A child told the truth after making a mistake and everyone trusted him.",
-    "A team worked together and won the match."
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Write short story about courage",
       "answer": "A brave boy called for help during a fire and saved his neighbors.",
-      "expected": "A brave boy called for help during a fire and saved his neighbors.",
-      "options": [],
+      "options": [
+        "A brave boy called for help during a fire and saved his neighbors.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write short story about courage",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "A brave boy called for help during a fire and saved his neighbors.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write story about honesty",
       "answer": "A child told the truth after making a mistake and everyone trusted him.",
-      "expected": "A child told the truth after making a mistake and everyone trusted him.",
-      "options": [],
+      "options": [
+        "A child told the truth after making a mistake and everyone trusted him.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write story about honesty",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "A child told the truth after making a mistake and everyone trusted him.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write story about teamwork",
       "answer": "A team worked together and won the match.",
-      "expected": "A team worked together and won the match.",
-      "options": [],
+      "options": [
+        "A team worked together and won the match.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write story about teamwork",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "A team worked together and won the match.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write story about dreams",
       "answer": "A girl studied hard to follow her dream of becoming a doctor.",
-      "expected": "A girl studied hard to follow her dream of becoming a doctor.",
-      "options": [],
+      "options": [
+        "A girl studied hard to follow her dream of becoming a doctor.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write story about dreams",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "A girl studied hard to follow her dream of becoming a doctor.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Write story about success",
       "answer": "A student worked hard, stayed patient, and achieved success.",
-      "expected": "A student worked hard, stayed patient, and achieved success.",
-      "options": [],
+      "options": [
+        "A student worked hard, stayed patient, and achieved success.",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Write story about success",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "A student worked hard, stayed patient, and achieved success.": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

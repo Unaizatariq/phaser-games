@@ -1,80 +1,175 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "speaking",
   "level": 5,
   "topic": "مکمل جواب بولیں",
-  "teach": "سنیں، پھر مائیکروفون میں واضح جواب بولیں۔",
-  "examples": [
-    "میرا نام علی ہے۔",
-    "میں اسکول میں پڑھتا ہوں۔",
-    "مجھے آم پسند ہے۔"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "آپ کا نام کیا ہے؟",
       "answer": "میرا نام علی ہے۔",
-      "expected": "میرا نام علی ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا نام علی ہے۔",
+          "tts": "میرا نام علی ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آپ کا نام کیا ہے؟",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "علی کس کے ساتھ پارک گیا؟",
+      "optionArts": {
+        "میرا نام علی ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "آپ کہاں پڑھتے ہیں؟",
       "answer": "میں اسکول میں پڑھتا ہوں۔",
-      "expected": "میں اسکول میں پڑھتا ہوں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں اسکول میں پڑھتا ہوں۔",
+          "tts": "میں اسکول میں پڑھتا ہوں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آپ کہاں پڑھتے ہیں؟",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "سارہ اسکول میں کیا پڑھتی ہے؟",
+      "optionArts": {
+        "میں اسکول میں پڑھتا ہوں۔": "🏫",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "آپ کو کون سا پھل پسند ہے؟",
       "answer": "مجھے آم پسند ہے۔",
-      "expected": "مجھے آم پسند ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "مجھے آم پسند ہے۔",
+          "tts": "مجھے آم پسند ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آپ کو کون سا پھل پسند ہے؟",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "احمد کے گھر میں کون رہتے ہیں؟",
+      "optionArts": {
+        "مجھے آم پسند ہے۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "آپ کا پسندیدہ رنگ کون سا ہے؟",
       "answer": "میرا پسندیدہ رنگ نیلا ہے۔",
-      "expected": "میرا پسندیدہ رنگ نیلا ہے۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میرا پسندیدہ رنگ نیلا ہے۔",
+          "tts": "میرا پسندیدہ رنگ نیلا ہے۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آپ کا پسندیدہ رنگ کون سا ہے؟",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "بچہ باغ میں کیا دیکھتا ہے؟",
+      "optionArts": {
+        "میرا پسندیدہ رنگ نیلا ہے۔": "🔵",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     },
     {
-      "type": "speech",
       "prompt": "آپ صبح کیا کرتے ہیں؟",
       "answer": "میں صبح ناشتہ کرتا ہوں۔",
-      "expected": "میں صبح ناشتہ کرتا ہوں۔",
-      "options": [],
+      "options": [
+        {
+          "text": "میں صبح ناشتہ کرتا ہوں۔",
+          "tts": "میں صبح ناشتہ کرتا ہوں۔"
+        },
+        {
+          "text": "خاندان",
+          "tts": "خاندان"
+        },
+        {
+          "text": "اسکول",
+          "tts": "school"
+        },
+        {
+          "text": "پارک",
+          "tts": "park"
+        }
+      ],
       "audioText": "آپ صبح کیا کرتے ہیں؟",
-      "evaluation": "semantic",
-      "micMode": "extended"
+      "art": "📚",
+      "questionText": "استاد بچوں کو کیا پڑھاتے ہیں؟",
+      "optionArts": {
+        "میں صبح ناشتہ کرتا ہوں۔": "🔹",
+        "خاندان": "👨‍👩‍👧",
+        "اسکول": "🏫",
+        "پارک": "🌳"
+      },
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein."
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": false,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

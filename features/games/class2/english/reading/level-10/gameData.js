@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 10,
   "topic": "A Birthday Party",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "birthday party"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Last week, I attended my friend Ahmed’s birthday party.",
       "answer": "birthday party",
       "options": [
         "birthday party",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "picnic",
         "sports day"
       ],
-      "text": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "audioText": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+      "audioText": "Last week, I attended my friend Ahmed’s birthday party.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "birthday party": "🔹",
+        "exam": "🔹",
+        "picnic": "🔹",
+        "sports day": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "The room was decorated with colorful balloons and lights.",
       "answer": "birthday party",
       "options": [
         "birthday party",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "picnic",
         "sports day"
       ],
-      "text": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "audioText": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+      "audioText": "The room was decorated with colorful balloons and lights.",
+      "art": "📚",
+      "questionText": "According to the story about A Birthday Party, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "birthday party": "🔹",
+        "exam": "🔹",
+        "picnic": "🔹",
+        "sports day": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "We played games, ate cake, and sang songs together.",
       "answer": "birthday party",
       "options": [
         "birthday party",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "picnic",
         "sports day"
       ],
-      "text": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "audioText": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+      "audioText": "We played games, ate cake, and sang songs together.",
+      "art": "📚",
+      "questionText": "According to the story about A Birthday Party, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "birthday party": "🔹",
+        "exam": "🔹",
+        "picnic": "🔹",
+        "sports day": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "It was a joyful day.",
       "answer": "birthday party",
       "options": [
         "birthday party",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "picnic",
         "sports day"
       ],
-      "text": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "audioText": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+      "audioText": "It was a joyful day.",
+      "art": "📚",
+      "questionText": "According to the story about A Birthday Party, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "birthday party": "🔹",
+        "exam": "🔹",
+        "picnic": "🔹",
+        "sports day": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "birthday party",
       "options": [
         "birthday party",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "picnic",
         "sports day"
       ],
-      "text": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day.",
-      "audioText": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about A Birthday Party, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "birthday party": "🔹",
+        "exam": "🔹",
+        "picnic": "🔹",
+        "sports day": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Last week, I attended my friend Ahmed’s birthday party. The room was decorated with colorful balloons and lights. We played games, ate cake, and sang songs together. It was a joyful day."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

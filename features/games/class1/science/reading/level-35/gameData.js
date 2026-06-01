@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 35,
-  "topic": "Healthy habits keep us active.",
-  "teach": "Exercise makes us strong.",
-  "examples": [
-    "Exercise makes us strong."
-  ],
+  "topic": "Pet Animals",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy habits keep us active.",
+      "prompt": "Cats and dogs are pet animals.",
+      "answer": "Pet",
       "options": [
-        "Healthy habits keep us active.",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise makes us strong.",
-      "readingText": "Exercise makes us strong.",
-      "audioText": "Exercise makes us strong."
+      "audioText": "Cats and dogs are pet animals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise ____ us strong.",
-      "answer": "makes",
+      "prompt": "Pet animals live with people.",
+      "answer": "Pet",
       "options": [
-        "makes",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise makes us strong.",
-      "readingText": "Exercise makes us strong.",
-      "audioText": "Exercise makes us strong."
+      "audioText": "Pet animals live with people.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "makes",
+      "prompt": "Dogs guard our homes.",
+      "answer": "Pet",
       "options": [
-        "makes",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise makes us strong.",
-      "readingText": "Exercise makes us strong.",
-      "audioText": "Exercise makes us strong."
+      "audioText": "Dogs guard our homes.",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "makes",
+      "prompt": "Cats drink milk.",
+      "answer": "Pet",
       "options": [
-        "makes",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise makes us strong.",
-      "readingText": "Exercise makes us strong.",
-      "audioText": "Exercise makes us strong."
+      "audioText": "Cats drink milk.",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "makes",
+      "prompt": "What is the story mainly about?",
+      "answer": "Pet",
       "options": [
-        "makes",
-        "My Body",
-        "things",
-        "ears"
+        "Pet",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Exercise makes us strong.",
-      "readingText": "Exercise makes us strong.",
-      "audioText": "Exercise makes us strong."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Pet Animals, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Pet": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Exercise makes us strong."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

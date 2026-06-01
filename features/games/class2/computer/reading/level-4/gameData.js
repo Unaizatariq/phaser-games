@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 4,
   "topic": "Output Devices",
-  "teach": "Output devices show results from computers.",
-  "examples": [
-    "Output devices show results from computers.",
-    "The monitor is an output device.",
-    "Speakers play sound and music."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Output Devices",
+      "prompt": "Output devices show results from computers.",
+      "answer": "Output",
       "options": [
-        "Output Devices",
-        "Introduction to Computers",
-        "Main Parts of a Computer",
-        "Input Devices"
+        "Output",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "readingText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "audioText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      "audioText": "Output devices show results from computers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Output": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Output devices show results from ____.",
-      "answer": "computers",
+      "prompt": "The monitor is an output device.",
+      "answer": "Output",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Output",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "readingText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "audioText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      "audioText": "The monitor is an output device.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Output": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The monitor is an output ____.",
-      "answer": "device",
+      "prompt": "Speakers play sound and music.",
+      "answer": "Output",
       "options": [
-        "device",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Output",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "readingText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "audioText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      "audioText": "Speakers play sound and music.",
+      "art": "📚",
+      "questionText": "According to the story about Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Output": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Speakers play sound and ____.",
-      "answer": "music",
+      "prompt": "Printers print words and pictures on paper.",
+      "answer": "Output",
       "options": [
-        "music",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Output",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "readingText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "audioText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      "audioText": "Printers print words and pictures on paper.",
+      "art": "📚",
+      "questionText": "According to the story about Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Output": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Printers print words and pictures on ____.",
-      "answer": "paper",
+      "prompt": "What is the story mainly about?",
+      "answer": "Output",
       "options": [
-        "paper",
-        "Introduction to Computers",
-        "machine",
-        "play"
+        "Output",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "readingText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper.",
-      "audioText": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Output Devices, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Output": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Output devices show results from computers. The monitor is an output device. Speakers play sound and music. Printers print words and pictures on paper."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

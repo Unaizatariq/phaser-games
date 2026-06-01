@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "writing",
   "level": 1,
   "topic": "Computer Uses",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "learning",
-    "patient records",
-    "money records"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one use of computer in school",
       "answer": "learning",
-      "expected": "learning",
-      "options": [],
+      "options": [
+        "learning",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one use of computer in school",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "learning": "👂",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one use of computer in hospital",
       "answer": "patient records",
-      "expected": "patient records",
-      "options": [],
+      "options": [
+        "patient records",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one use of computer in hospital",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "patient records": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one use of computer in bank",
       "answer": "money records",
-      "expected": "money records",
-      "options": [],
+      "options": [
+        "money records",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one use of computer in bank",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "money records": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one use of computer in office",
       "answer": "documents",
-      "expected": "documents",
-      "options": [],
+      "options": [
+        "documents",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one use of computer in office",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "documents": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one use of computer in shops",
       "answer": "billing",
-      "expected": "billing",
-      "options": [],
+      "options": [
+        "billing",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Type one use of computer in shops",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "billing": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

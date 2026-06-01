@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 7,
   "topic": "Addition and Subtraction",
-  "teach": "Addition combines quantities together.",
-  "examples": [
-    "Addition combines quantities together.",
-    "Subtraction finds differences between numbers.",
-    "Large numbers can be added and subtracted."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Addition and Subtraction",
+      "prompt": "Addition combines quantities together.",
+      "answer": "Addition",
       "options": [
-        "Addition and Subtraction",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "readingText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "audioText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      "audioText": "Addition combines quantities together.",
+      "art": "➕",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Addition combines quantities ____.",
-      "answer": "together",
+      "prompt": "Subtraction finds differences between numbers.",
+      "answer": "Addition",
       "options": [
-        "together",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "readingText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "audioText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      "audioText": "Subtraction finds differences between numbers.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Subtraction finds differences between ____.",
-      "answer": "numbers",
+      "prompt": "Large numbers can be added and subtracted.",
+      "answer": "Addition",
       "options": [
-        "numbers",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "readingText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "audioText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      "audioText": "Large numbers can be added and subtracted.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Large numbers can be added and ____.",
-      "answer": "subtracted",
+      "prompt": "These operations are used in daily life.",
+      "answer": "Addition",
       "options": [
-        "subtracted",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "readingText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "audioText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      "audioText": "These operations are used in daily life.",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: These ____ are used in daily life.",
-      "answer": "operations",
+      "prompt": "What is the story mainly about?",
+      "answer": "Addition",
       "options": [
-        "operations",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Addition",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "readingText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life.",
-      "audioText": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "➕",
+      "questionText": "According to the story about Addition and Subtraction, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Addition": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Addition combines quantities together. Subtraction finds differences between numbers. Large numbers can be added and subtracted. These operations are used in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

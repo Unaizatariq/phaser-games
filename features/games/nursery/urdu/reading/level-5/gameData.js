@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 5,
   "topic": "ٹ سے ٹماٹر",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "ٹماٹر"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "ٹ سے ٹماٹر۔",
       "answer": "ٹماٹر",
       "options": [
-        "ٹماٹر",
-        "پتنگ",
-        "بلی",
-        "مچھلی"
+        {
+          "text": "ٹماٹر",
+          "tts": "ٹماٹر"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "audioText": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+      "audioText": "ٹ سے ٹماٹر۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "ٹ سے ٹماٹر۔",
+      "narrationTTS": "ٹ سے ٹماٹر۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
+      "prompt": "ٹماٹر لال ہوتا ہے۔",
       "answer": "ٹماٹر",
       "options": [
-        "ٹماٹر",
-        "پتنگ",
-        "بلی",
-        "مچھلی"
+        {
+          "text": "ٹماٹر",
+          "tts": "ٹماٹر"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "audioText": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+      "audioText": "ٹماٹر لال ہوتا ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "ٹماٹر لال ہوتا ہے۔",
+      "narrationTTS": "ٹماٹر لال ہوتا ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "امی ٹماٹر کھانے میں ڈالتی ہیں۔",
       "answer": "ٹماٹر",
       "options": [
-        "ٹماٹر",
-        "پتنگ",
-        "بلی",
-        "مچھلی"
+        {
+          "text": "ٹماٹر",
+          "tts": "ٹماٹر"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        },
+        {
+          "text": "مچھلی",
+          "tts": "مچھلی"
+        }
       ],
-      "text": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "audioText": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+      "audioText": "امی ٹماٹر کھانے میں ڈالتی ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "امی ٹماٹر کھانے میں ڈالتی ہیں۔",
+      "narrationTTS": "امی ٹماٹر کھانے میں ڈالتی ہیں۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "ٹماٹر",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "ٹماٹر",
-        "پتنگ",
-        "بلی",
-        "مچھلی"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "ٹماٹر",
+          "tts": "ٹماٹر"
+        },
+        {
+          "text": "پتنگ",
+          "tts": "پتنگ"
+        },
+        {
+          "text": "بلی",
+          "tts": "بلی"
+        }
       ],
-      "text": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "audioText": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "ٹماٹر",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "ٹماٹر",
-        "پتنگ",
-        "بلی",
-        "مچھلی"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔",
-      "audioText": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "ٹ سے ٹماٹر۔ ٹماٹر لال ہوتا ہے۔ امی ٹماٹر کھانے میں ڈالتی ہیں۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

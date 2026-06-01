@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 1,
   "topic": "Multiplication Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "10",
-    "12",
-    "25"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type answer: 2 × 5 =",
       "answer": "10",
-      "expected": "10",
-      "options": [],
+      "options": [
+        "10",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type answer: 2 × 5 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 10,
+        "b": 0,
+        "op": "count",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type answer: 3 × 4 =",
       "answer": "12",
-      "expected": "12",
-      "options": [],
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type answer: 3 × 4 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type answer: 5 × 5 =",
       "answer": "25",
-      "expected": "25",
-      "options": [],
+      "options": [
+        "25",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type answer: 5 × 5 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "25": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type answer: 6 × 2 =",
       "answer": "12",
-      "expected": "12",
-      "options": [],
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type answer: 6 × 2 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type answer: 7 × 3 =",
       "answer": "21",
-      "expected": "21",
-      "options": [],
+      "options": [
+        "21",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Type answer: 7 × 3 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "21": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

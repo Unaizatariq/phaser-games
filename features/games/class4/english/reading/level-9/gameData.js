@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 9,
   "topic": "The Internet",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "internet"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "The internet is a modern technology that connects people around the world.",
       "answer": "internet",
       "options": [
         "internet",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "mountain",
         "farm"
       ],
-      "text": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "audioText": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+      "audioText": "The internet is a modern technology that connects people around the world.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "internet": "🌐",
+        "river": "🔹",
+        "mountain": "🔹",
+        "farm": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "Students use the internet to study and learn new things.",
       "answer": "internet",
       "options": [
         "internet",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "mountain",
         "farm"
       ],
-      "text": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "audioText": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+      "audioText": "Students use the internet to study and learn new things.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "internet": "🌐",
+        "river": "🔹",
+        "mountain": "🔹",
+        "farm": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "People can send messages, watch videos, and search for information online.",
       "answer": "internet",
       "options": [
         "internet",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "mountain",
         "farm"
       ],
-      "text": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "audioText": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+      "audioText": "People can send messages, watch videos, and search for information online.",
+      "art": "🌐",
+      "questionText": "According to the story about The Internet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "internet": "🌐",
+        "river": "🔹",
+        "mountain": "🔹",
+        "farm": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "However, children should use the internet carefully and wisely.",
       "answer": "internet",
       "options": [
         "internet",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "mountain",
         "farm"
       ],
-      "text": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "audioText": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+      "audioText": "However, children should use the internet carefully and wisely.",
+      "art": "🌐",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "internet": "🌐",
+        "river": "🔹",
+        "mountain": "🔹",
+        "farm": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "internet",
       "options": [
         "internet",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "mountain",
         "farm"
       ],
-      "text": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely.",
-      "audioText": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+      "audioText": "What is the story mainly about?",
+      "art": "🌐",
+      "questionText": "According to the story about The Internet, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "internet": "🌐",
+        "river": "🔹",
+        "mountain": "🔹",
+        "farm": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The internet is a modern technology that connects people around the world. Students use the internet to study and learn new things. People can send messages, watch videos, and search for information online. However, children should use the internet carefully and wisely."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

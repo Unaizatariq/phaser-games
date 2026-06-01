@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Geometry",
-  "teach": "Geometry studies shapes, sizes, and space.",
-  "examples": [
-    "Geometry studies shapes, sizes, and space.",
-    "Triangles, circles, and polygons are geometric shapes.",
-    "Geometry is useful in construction and design."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Geometry studies shapes, sizes, and space.",
       "answer": "Geometry",
       "options": [
         "Geometry",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "readingText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "audioText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      "audioText": "Geometry studies shapes, sizes, and space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry studies shapes, sizes, and ____.",
-      "answer": "space",
+      "prompt": "Triangles, circles, and polygons are geometric shapes.",
+      "answer": "Geometry",
       "options": [
-        "space",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "readingText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "audioText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      "audioText": "Triangles, circles, and polygons are geometric shapes.",
+      "art": "📚",
+      "questionText": "According to the story about Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Triangles, circles, and polygons are geometric ____.",
-      "answer": "shapes",
+      "prompt": "Geometry is useful in construction and design.",
+      "answer": "Geometry",
       "options": [
-        "shapes",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "readingText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "audioText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      "audioText": "Geometry is useful in construction and design.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry is useful in construction and ____.",
-      "answer": "design",
+      "prompt": "Angles and measurements are important in geometry.",
+      "answer": "Geometry",
       "options": [
-        "design",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "readingText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "audioText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      "audioText": "Angles and measurements are important in geometry.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "space",
+      "prompt": "What is the story mainly about?",
+      "answer": "Geometry",
       "options": [
-        "space",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "readingText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry.",
-      "audioText": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Geometry, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Geometry studies shapes, sizes, and space. Triangles, circles, and polygons are geometric shapes. Geometry is useful in construction and design. Angles and measurements are important in geometry."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

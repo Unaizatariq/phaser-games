@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 2,
   "topic": "Advanced Operators",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "150",
-    "250",
-    "144"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Solve: 125 + 25 =",
       "answer": "150",
-      "expected": "150",
-      "options": [],
+      "options": [
+        "150",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Solve: 125 + 25 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 125,
+        "op": "+",
+        "b": 25,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "150": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Solve: 500 - 250 =",
       "answer": "250",
-      "expected": "250",
-      "options": [],
+      "options": [
+        "250",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Solve: 500 - 250 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 500,
+        "op": "-",
+        "b": 250,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "250": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Solve: 12 × 12 =",
       "answer": "144",
-      "expected": "144",
-      "options": [],
+      "options": [
+        "144",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Solve: 12 × 12 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "144": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Solve: 144 ÷ 12 =",
       "answer": "12",
-      "expected": "12",
-      "options": [],
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Solve: 144 ÷ 12 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
       "prompt": "Solve: 50 % 10 =",
       "answer": "5",
-      "expected": "5",
-      "options": [],
+      "options": [
+        "5",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Solve: 50 % 10 =",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

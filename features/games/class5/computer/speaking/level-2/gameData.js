@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 2,
   "topic": "Cyber Safety",
-  "teach": "Listen carefully, then speak the answer clearly into the microphone.",
-  "examples": [
-    "No",
-    "Strong Password",
-    "No"
-  ],
   "questions": [
     {
-      "type": "speech",
       "prompt": "Should we share passwords online?",
       "answer": "No",
-      "expected": "No",
-      "options": [],
+      "options": [
+        "No",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Should we share passwords online?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "No": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "What type of password should we use?",
       "answer": "Strong Password",
-      "expected": "Strong Password",
-      "options": [],
+      "options": [
+        "Strong Password",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "What type of password should we use?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Strong Password": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Should we open unknown links?",
       "answer": "No",
-      "expected": "No",
-      "options": [],
+      "options": [
+        "No",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Should we open unknown links?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "No": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Who should we ask before downloading files?",
       "answer": "Parents",
-      "expected": "Parents",
-      "options": [],
+      "options": [
+        "Parents",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Who should we ask before downloading files?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Parents": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
       "prompt": "Should we share personal information online?",
       "answer": "No",
-      "expected": "No",
-      "options": [],
+      "options": [
+        "No",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
       "audioText": "Should we share personal information online?",
-      "evaluation": "pronunciation",
-      "micMode": "word"
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "No": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "speaking",
-  "gameplayStyle": {
-    "microphoneAutoActivates": true,
-    "rapidAnswer": true,
-    "semanticEvaluation": true,
-    "grammarSupport": true,
-    "clearStartStopMicState": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

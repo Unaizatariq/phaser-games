@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 18,
   "topic": "Volume and Capacity",
-  "teach": "Volume measures space inside an object.",
-  "examples": [
-    "Volume measures space inside an object.",
-    "Capacity tells how much a container can hold.",
-    "Liters measure liquid capacity."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Volume and Capacity",
+      "prompt": "Volume measures space inside an object.",
+      "answer": "Volume",
       "options": [
-        "Volume and Capacity",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "readingText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "audioText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      "audioText": "Volume measures space inside an object.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Volume measures space inside an ____.",
-      "answer": "object",
+      "prompt": "Capacity tells how much a container can hold.",
+      "answer": "Volume",
       "options": [
-        "object",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "readingText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "audioText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      "audioText": "Capacity tells how much a container can hold.",
+      "art": "📚",
+      "questionText": "According to the story about Volume and Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Capacity tells how much a container can ____.",
-      "answer": "hold",
+      "prompt": "Liters measure liquid capacity.",
+      "answer": "Volume",
       "options": [
-        "hold",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "readingText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "audioText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      "audioText": "Liters measure liquid capacity.",
+      "art": "📚",
+      "questionText": "According to the story about Volume and Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Liters measure liquid ____.",
-      "answer": "capacity",
+      "prompt": "Volume and capacity are useful in daily life.",
+      "answer": "Volume",
       "options": [
-        "capacity",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "readingText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "audioText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      "audioText": "Volume and capacity are useful in daily life.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "object",
+      "prompt": "What is the story mainly about?",
+      "answer": "Volume",
       "options": [
-        "object",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Volume",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "readingText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life.",
-      "audioText": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Volume and Capacity, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Volume": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Volume measures space inside an object. Capacity tells how much a container can hold. Liters measure liquid capacity. Volume and capacity are useful in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

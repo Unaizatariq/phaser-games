@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 3,
   "topic": "Earth and Space",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "Earth rotation",
-    "Mercury",
-    "communication satellite"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type what causes day and night",
       "answer": "Earth rotation",
-      "expected": "Earth rotation",
-      "options": [],
+      "options": [
+        "Earth rotation",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type what causes day and night",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "Earth rotation": "👂",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one planet closest to Sun",
       "answer": "Mercury",
-      "expected": "Mercury",
-      "options": [],
+      "options": [
+        "Mercury",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one planet closest to Sun",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "Mercury": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one artificial satellite",
       "answer": "communication satellite",
-      "expected": "communication satellite",
-      "options": [],
+      "options": [
+        "communication satellite",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one artificial satellite",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "communication satellite": "🐱",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one natural satellite",
       "answer": "Moon",
-      "expected": "Moon",
-      "options": [],
+      "options": [
+        "Moon",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one natural satellite",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "Moon": "🌙",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one use of satellites",
       "answer": "communication",
-      "expected": "communication",
-      "options": [],
+      "options": [
+        "communication",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one use of satellites",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "communication": "🐱",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

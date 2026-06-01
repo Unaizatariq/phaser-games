@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 10,
   "topic": "Measurement",
-  "teach": "Measurement tells us length, weight, and height.",
-  "examples": [
-    "Measurement tells us length, weight, and height.",
-    "A ruler measures length.",
-    "Kilograms measure weight."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Measurement tells us length, weight, and height.",
       "answer": "Measurement",
       "options": [
         "Measurement",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "readingText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "audioText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      "audioText": "Measurement tells us length, weight, and height.",
+      "art": "📏",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Measurement tells us length, weight, and ____.",
-      "answer": "height",
+      "prompt": "A ruler measures length.",
+      "answer": "Measurement",
       "options": [
-        "height",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "readingText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "audioText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      "audioText": "A ruler measures length.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A ruler measures ____.",
-      "answer": "length",
+      "prompt": "Kilograms measure weight.",
+      "answer": "Measurement",
       "options": [
-        "length",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "readingText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "audioText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      "audioText": "Kilograms measure weight.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Kilograms measure ____.",
-      "answer": "weight",
+      "prompt": "Measurement is important in everyday life.",
+      "answer": "Measurement",
       "options": [
-        "weight",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "readingText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "audioText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      "audioText": "Measurement is important in everyday life.",
+      "art": "📏",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Measurement is important in ____ life.",
-      "answer": "everyday",
+      "prompt": "What is the story mainly about?",
+      "answer": "Measurement",
       "options": [
-        "everyday",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "readingText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life.",
-      "audioText": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+      "audioText": "What is the story mainly about?",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Measurement tells us length, weight, and height. A ruler measures length. Kilograms measure weight. Measurement is important in everyday life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

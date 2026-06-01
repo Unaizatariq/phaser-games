@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Fractions",
-  "teach": "Fractions show equal parts of a whole.",
-  "examples": [
-    "Fractions show equal parts of a whole.",
-    "Half means one out of two equal parts.",
-    "A quarter means one out of four equal parts."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Fractions show equal parts of a whole.",
       "answer": "Fractions",
       "options": [
         "Fractions",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "readingText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "audioText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      "audioText": "Fractions show equal parts of a whole.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Fractions show equal parts of a ____.",
-      "answer": "whole",
+      "prompt": "Half means one out of two equal parts.",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "readingText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "audioText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      "audioText": "Half means one out of two equal parts.",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Half means one out of two equal ____.",
-      "answer": "parts",
+      "prompt": "A quarter means one out of four equal parts.",
+      "answer": "Fractions",
       "options": [
-        "parts",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "readingText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "audioText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      "audioText": "A quarter means one out of four equal parts.",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "whole",
+      "prompt": "Fractions are used in daily life.",
+      "answer": "Fractions",
       "options": [
-        "whole",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "readingText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "audioText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      "audioText": "Fractions are used in daily life.",
+      "art": "◔",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "parts",
+      "prompt": "What is the story mainly about?",
+      "answer": "Fractions",
       "options": [
-        "parts",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Fractions",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "readingText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life.",
-      "audioText": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+      "audioText": "What is the story mainly about?",
+      "art": "◔",
+      "questionText": "According to the story about Fractions, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Fractions": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Fractions show equal parts of a whole. Half means one out of two equal parts. A quarter means one out of four equal parts. Fractions are used in daily life."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 28,
   "topic": "Big and Small Things",
-  "teach": "Elephants are big animals.",
-  "examples": [
-    "Elephants are big animals.",
-    "Ants are very small.",
-    "Big things take more space."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Big and Small Things",
+      "prompt": "Elephants are big animals.",
+      "answer": "Big",
       "options": [
-        "Big and Small Things",
-        "My Body",
-        "Healthy Food",
-        "Cleanliness"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Elephants are big animals.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Elephants are big ____.",
-      "answer": "animals",
+      "prompt": "Ants are very small.",
+      "answer": "Big",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Ants are very small.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ants are very ____.",
-      "answer": "small",
+      "prompt": "Big things take more space.",
+      "answer": "Big",
       "options": [
-        "small",
-        "My Body",
-        "things",
-        "ears"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Big things take more space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Big things take more ____.",
-      "answer": "space",
+      "prompt": "Small things take less space.",
+      "answer": "Big",
       "options": [
-        "space",
-        "My Body",
-        "things",
-        "ears"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "Small things take less space.",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "animals",
+      "prompt": "What is the story mainly about?",
+      "answer": "Big",
       "options": [
-        "animals",
-        "My Body",
-        "things",
-        "ears"
+        "Big",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "readingText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space.",
-      "audioText": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Big and Small Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Big": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Elephants are big animals. Ants are very small. Big things take more space. Small things take less space."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

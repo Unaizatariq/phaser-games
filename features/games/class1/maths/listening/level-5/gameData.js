@@ -1,78 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 5,
-  "topic": "Addition",
-  "teach": "Addition means putting numbers together to find the total.",
-  "examples": [
-    "plus",
-    "sum",
-    "total"
-  ],
+  "topic": "numbers",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "10",
+      "prompt": "Solve: 6 + 1 = ?",
+      "answer": "7",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "audioText": "Solve: 6 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 6,
+        "b": 1,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 7 + 2 = ?",
+      "answer": "9",
       "options": [
         "9",
         "10",
+        "8",
+        "11"
+      ],
+      "audioText": "Solve: 7 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 7,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 8 + 3 = ?",
+      "answer": "11",
+      "options": [
         "11",
-        "12"
-      ],
-      "audioText": "What is 7 + 3?"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "17",
-      "options": [
-        "15",
-        "16",
-        "17",
-        "18"
-      ],
-      "audioText": "What is 12 + 5?"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "putting together",
-      "options": [
-        "taking away",
-        "putting together",
-        "splitting",
-        "measuring"
-      ],
-      "audioText": "Addition means"
-    },
-    {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "30",
-      "options": [
+        "12",
         "10",
-        "20",
-        "30",
-        "40"
+        "13"
       ],
-      "audioText": "20 + 10 ="
+      "audioText": "Solve: 8 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 8,
+        "b": 3,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "6",
+      "prompt": "Solve: 1 + 4 = ?",
+      "answer": "5",
       "options": [
-        "4",
         "5",
         "6",
+        "4",
         "7"
       ],
-      "audioText": "Sara has 4 pencils and gets 2 more. How many?"
+      "audioText": "Solve: 1 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 1,
+        "b": 4,
+        "op": "+",
+        "item": "⚽"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 2 + 5 = ?",
+      "answer": "7",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "audioText": "Solve: 2 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 2,
+        "b": 5,
+        "op": "+",
+        "item": "🍎"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

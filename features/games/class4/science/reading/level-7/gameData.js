@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 7,
   "topic": "Force and Energy",
-  "teach": "Force helps objects move or stop.",
-  "examples": [
-    "Force helps objects move or stop.",
-    "Energy helps us do work.",
-    "Electricity gives energy to machines."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Force and Energy",
+      "prompt": "Force helps objects move or stop.",
+      "answer": "Force",
       "options": [
-        "Force and Energy",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "readingText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "audioText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      "audioText": "Force helps objects move or stop.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Force helps objects move or ____.",
-      "answer": "stop",
+      "prompt": "Energy helps us do work.",
+      "answer": "Force",
       "options": [
-        "stop",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "readingText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "audioText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      "audioText": "Energy helps us do work.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Energy helps us do ____.",
-      "answer": "work",
+      "prompt": "Electricity gives energy to machines.",
+      "answer": "Force",
       "options": [
-        "work",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "readingText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "audioText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      "audioText": "Electricity gives energy to machines.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Electricity gives energy to ____.",
-      "answer": "machines",
+      "prompt": "The sun is a natural source of energy.",
+      "answer": "Force",
       "options": [
-        "machines",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "readingText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "audioText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      "audioText": "The sun is a natural source of energy.",
+      "art": "📚",
+      "questionText": "According to the story about Force and Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun is a natural source of ____.",
-      "answer": "energy",
+      "prompt": "What is the story mainly about?",
+      "answer": "Force",
       "options": [
-        "energy",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Force",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "readingText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy.",
-      "audioText": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Force and Energy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Force": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Force helps objects move or stop. Energy helps us do work. Electricity gives energy to machines. The sun is a natural source of energy."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

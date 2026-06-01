@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "speaking",
   "level": 4,
-  "topic": "Mouse Actions",
-  "teach": "Mouse Actions teaches how technology works and how to use digital tools safely and creatively.",
-  "examples": [
-    "computer",
-    "keyboard",
-    "screen"
-  ],
+  "topic": "Keyboard Keys",
   "questions": [
     {
-      "type": "speech",
-      "prompt": "Say the answer: What is the topic about?",
-      "answer": "technology",
-      "options": [],
-      "audioText": "Say the answer: What is the topic about?"
+      "prompt": "Which key gives space between words?",
+      "answer": "Spacebar",
+      "options": [
+        "Spacebar",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key gives space between words?",
+      "art": "📚",
+      "questionText": "Which device helps us click on items on the computer screen?",
+      "optionArts": {
+        "Spacebar": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Computers help us",
-      "answer": "work and learn",
-      "options": [],
-      "audioText": "Say the answer: Computers help us"
+      "prompt": "Which key deletes letters?",
+      "answer": "Backspace",
+      "options": [
+        "Backspace",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key deletes letters?",
+      "art": "📚",
+      "questionText": "Which device is used for typing letters and numbers?",
+      "optionArts": {
+        "Backspace": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: We should use computers",
-      "answer": "safely",
-      "options": [],
-      "audioText": "Say the answer: We should use computers"
+      "prompt": "Which key moves to next line?",
+      "answer": "Enter",
+      "options": [
+        "Enter",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which key moves to next line?",
+      "art": "📚",
+      "questionText": "Which computer part shows pictures and words?",
+      "optionArts": {
+        "Enter": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: A keyboard is used to",
-      "answer": "type",
-      "options": [],
-      "audioText": "Say the answer: A keyboard is used to"
+      "prompt": "Which keys are used for typing letters?",
+      "answer": "Alphabet Keys",
+      "options": [
+        "Alphabet Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which keys are used for typing letters?",
+      "art": "📚",
+      "questionText": "Which device prints work on paper?",
+      "optionArts": {
+        "Alphabet Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     },
     {
-      "type": "speech",
-      "prompt": "Say the answer: Good digital habit means",
-      "answer": "responsible use",
-      "options": [],
-      "audioText": "Say the answer: Good digital habit means"
+      "prompt": "Which keys type numbers?",
+      "answer": "Number Keys",
+      "options": [
+        "Number Keys",
+        "computer",
+        "mouse",
+        "keyboard"
+      ],
+      "audioText": "Which keys type numbers?",
+      "art": "📚",
+      "questionText": "Which device helps us hear sound?",
+      "optionArts": {
+        "Number Keys": "🔹",
+        "computer": "💻",
+        "mouse": "🖱️",
+        "keyboard": "⌨️"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "speaking"
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

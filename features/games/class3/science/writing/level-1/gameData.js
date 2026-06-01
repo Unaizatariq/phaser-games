@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 1,
   "topic": "States of Matter",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "book",
-    "water",
-    "air"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one solid object",
       "answer": "book",
-      "expected": "book",
-      "options": [],
+      "options": [
+        "book",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one solid object",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "book": "📘",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one liquid object",
       "answer": "water",
-      "expected": "water",
-      "options": [],
+      "options": [
+        "water",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one liquid object",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "💧",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "water": "💧",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one gas",
       "answer": "air",
-      "expected": "air",
-      "options": [],
+      "options": [
+        "air",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one gas",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "air": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the state of ice",
       "answer": "solid",
-      "expected": "solid",
-      "options": [],
+      "options": [
+        "solid",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the state of ice",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "solid": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type the state of steam",
       "answer": "gas",
-      "expected": "gas",
-      "options": [],
+      "options": [
+        "gas",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type the state of steam",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "gas": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

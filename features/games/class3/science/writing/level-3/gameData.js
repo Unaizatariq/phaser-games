@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 3,
   "topic": "Environment Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "use dustbin",
-    "walking",
-    "paper"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one way to keep environment clean",
       "answer": "use dustbin",
-      "expected": "use dustbin",
-      "options": [],
+      "options": [
+        "use dustbin",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one way to keep environment clean",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "use dustbin": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one pollution-free activity",
       "answer": "walking",
-      "expected": "walking",
-      "options": [],
+      "options": [
+        "walking",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one pollution-free activity",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "walking": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one recyclable material",
       "answer": "paper",
-      "expected": "paper",
-      "options": [],
+      "options": [
+        "paper",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one recyclable material",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "paper": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one healthy habit",
       "answer": "wash hands",
-      "expected": "wash hands",
-      "options": [],
+      "options": [
+        "wash hands",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one healthy habit",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "wash hands": "✋",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one way to save water",
       "answer": "close tap",
-      "expected": "close tap",
-      "options": [],
+      "options": [
+        "close tap",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one way to save water",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "close tap": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,87 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 21,
-  "topic": "Transformations include flips and turns.",
-  "teach": "Symmetry appears in art and nature.",
-  "examples": [
-    "Symmetry appears in art and nature."
-  ],
+  "topic": "Whole Numbers and Place Value",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Transformations include flips and turns.",
+      "prompt": "Whole numbers are used for counting and calculations.",
+      "answer": "Whole",
       "options": [
-        "Transformations include flips and turns.",
-        "Whole Numbers and Place Value",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry appears in art and nature.",
-      "readingText": "Symmetry appears in art and nature.",
-      "audioText": "Symmetry appears in art and nature."
+      "audioText": "Whole numbers are used for counting and calculations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Symmetry appears in art and ____.",
-      "answer": "nature",
+      "prompt": "Place value tells the value of each digit in a number.",
+      "answer": "Whole",
       "options": [
-        "nature",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry appears in art and nature.",
-      "readingText": "Symmetry appears in art and nature.",
-      "audioText": "Symmetry appears in art and nature."
+      "audioText": "Place value tells the value of each digit in a number.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nature",
+      "prompt": "Large numbers can be read and written using place value.",
+      "answer": "Whole",
       "options": [
-        "nature",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry appears in art and nature.",
-      "readingText": "Symmetry appears in art and nature.",
-      "audioText": "Symmetry appears in art and nature."
+      "audioText": "Large numbers can be read and written using place value.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nature",
+      "prompt": "Place value helps compare and arrange numbers.",
+      "answer": "Whole",
       "options": [
-        "nature",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry appears in art and nature.",
-      "readingText": "Symmetry appears in art and nature.",
-      "audioText": "Symmetry appears in art and nature."
+      "audioText": "Place value helps compare and arrange numbers.",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "nature",
+      "prompt": "What is the story mainly about?",
+      "answer": "Whole",
       "options": [
-        "nature",
-        "Whole Numbers and Place Value",
-        "calculations",
-        "number"
+        "Whole",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Symmetry appears in art and nature.",
-      "readingText": "Symmetry appears in art and nature.",
-      "audioText": "Symmetry appears in art and nature."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Whole Numbers and Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Whole": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Symmetry appears in art and nature."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

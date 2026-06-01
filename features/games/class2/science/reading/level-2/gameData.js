@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 2,
   "topic": "Non-Living Things",
-  "teach": "Tables and chairs are non-living things.",
-  "examples": [
-    "Tables and chairs are non-living things.",
-    "Non-living things do not grow.",
-    "They do not need food or water."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Non-Living Things",
+      "prompt": "Tables and chairs are non-living things.",
+      "answer": "Non-Living",
       "options": [
-        "Non-Living Things",
-        "Living Things",
-        "Plants Around Us",
-        "Animals Around Us"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "readingText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "audioText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      "audioText": "Tables and chairs are non-living things.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Tables and chairs are non-living ____.",
-      "answer": "things",
+      "prompt": "Non-living things do not grow.",
+      "answer": "Non-Living",
       "options": [
-        "things",
-        "Living Things",
-        "move",
-        "water"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "readingText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "audioText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      "audioText": "Non-living things do not grow.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Non-living things do not ____.",
-      "answer": "grow",
+      "prompt": "They do not need food or water.",
+      "answer": "Non-Living",
       "options": [
-        "grow",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "readingText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "audioText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      "audioText": "They do not need food or water.",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They do not need food or ____.",
-      "answer": "water",
+      "prompt": "They cannot move by themselves.",
+      "answer": "Non-Living",
       "options": [
-        "water",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "readingText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "audioText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      "audioText": "They cannot move by themselves.",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: They cannot move by ____.",
-      "answer": "themselves",
+      "prompt": "What is the story mainly about?",
+      "answer": "Non-Living",
       "options": [
-        "themselves",
-        "Living Things",
-        "move",
-        "things"
+        "Non-Living",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "readingText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves.",
-      "audioText": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Non-Living Things, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Non-Living": "🌱",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Tables and chairs are non-living things. Non-living things do not grow. They do not need food or water. They cannot move by themselves."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

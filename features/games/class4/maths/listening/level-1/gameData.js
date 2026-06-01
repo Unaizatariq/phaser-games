@@ -1,58 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "listening",
   "level": 1,
   "topic": "Decimals",
-  "teach": "Listen carefully and choose the correct answer.",
-  "examples": [
-    "0.9",
-    "0.5",
-    "0.1"
-  ],
-  "gameplayType": "Listen & Tap / Drag & Drop / Basket Catch / Mission Collect",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Which decimal is greater?",
-      "answer": "0.9",
+      "prompt": "Solve: 2 + 1 = ?",
+      "answer": "3",
       "options": [
-        "0.9",
-        "0.4",
-        "0.2",
-        "0.1"
+        "3",
+        "4",
+        "2",
+        "5"
       ],
-      "audioText": "Which decimal is greater?",
-      "gameplayType": "listen-tap"
+      "audioText": "Solve: 2 + 1 = ?",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 2,
+        "b": 1,
+        "op": "+",
+        "item": "🍬"
+      },
+      "optionArts": {
+        "3": "🔢",
+        "4": "🔢",
+        "2": "🔢",
+        "5": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the decimal equal to half.",
-      "answer": "0.5",
+      "prompt": "Solve: 3 + 2 = ?",
+      "answer": "5",
       "options": [
-        "0.5",
-        "0.2",
-        "0.8",
-        "0.1"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "audioText": "Choose the decimal equal to half.",
-      "gameplayType": "drag-drop"
+      "audioText": "Solve: 3 + 2 = ?",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 3,
+        "b": 2,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "5": "🔢",
+        "6": "🔢",
+        "4": "🔢",
+        "7": "🔢"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Tap the smaller decimal.",
-      "answer": "0.1",
+      "prompt": "Solve: 4 + 3 = ?",
+      "answer": "7",
       "options": [
-        "0.1",
-        "0.7",
-        "0.8",
-        "0.9"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "audioText": "Tap the smaller decimal.",
-      "gameplayType": "basket-catch"
+      "audioText": "Solve: 4 + 3 = ?",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 4,
+        "b": 3,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "7": "🔢",
+        "8": "🔢",
+        "6": "🔢",
+        "9": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 5 + 4 = ?",
+      "answer": "9",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "audioText": "Solve: 5 + 4 = ?",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 5,
+        "b": 4,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "9": "🔢",
+        "10": "🔢",
+        "8": "🔢",
+        "11": "🔢"
+      }
+    },
+    {
+      "prompt": "Solve: 6 + 5 = ?",
+      "answer": "11",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "audioText": "Solve: 6 + 5 = ?",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 6,
+        "b": 5,
+        "op": "+",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "11": "🔢",
+        "12": "🔢",
+        "10": "🔢",
+        "13": "🔢"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

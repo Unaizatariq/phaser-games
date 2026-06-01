@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 22,
-  "topic": "Length and Distance",
-  "teach": "Length measures how long something is.",
-  "examples": [
-    "Length measures how long something is.",
-    "Distance measures how far places are.",
-    "Centimeters and meters measure length."
-  ],
+  "topic": "Place Value",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Length and Distance",
+      "prompt": "Place value shows the value of digits in a number.",
+      "answer": "Place",
       "options": [
-        "Length and Distance",
-        "Numbers up to 1000",
-        "Place Value",
-        "Addition"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "readingText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "audioText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      "audioText": "Place value shows the value of digits in a number.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Length measures how long ____ is.",
-      "answer": "something",
+      "prompt": "Hundreds, tens, and ones are place values.",
+      "answer": "Place",
       "options": [
-        "something",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "readingText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "audioText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      "audioText": "Hundreds, tens, and ones are place values.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Distance measures how far ____ are.",
-      "answer": "places",
+      "prompt": "In 345, 3 means three hundreds.",
+      "answer": "Place",
       "options": [
-        "places",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "readingText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "audioText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      "audioText": "In 345, 3 means three hundreds.",
+      "art": "📚",
+      "questionText": "According to the story about Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Centimeters and meters measure ____.",
-      "answer": "length",
+      "prompt": "Place value helps us understand numbers.",
+      "answer": "Place",
       "options": [
-        "length",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "readingText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "audioText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      "audioText": "Place value helps us understand numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps measure objects ____.",
-      "answer": "accurately",
+      "prompt": "What is the story mainly about?",
+      "answer": "Place",
       "options": [
-        "accurately",
-        "Numbers up to 1000",
-        "quantities",
-        "1000"
+        "Place",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "readingText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately.",
-      "audioText": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Place Value, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Place": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Length measures how long something is. Distance measures how far places are. Centimeters and meters measure length. Math helps measure objects accurately."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

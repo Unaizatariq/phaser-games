@@ -1,77 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 5,
-  "topic": "Request and Command",
-  "teach": "A request asks politely. A command tells someone to do something.",
-  "examples": [
-    "Please help me",
-    "Open your book"
-  ],
+  "topic": "cleanliness",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Please give me water.",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "Please give me water.",
-        "Stand up now.",
-        "Close the door.",
-        "Run fast."
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "Which is a request?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "Open your book.",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "Can I sit here?",
-        "Please help me.",
-        "Open your book.",
-        "May I come in?"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Which is a command?"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "please",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "please",
-        "fast",
-        "red",
-        "jump"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "Which word makes a request polite?"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "do something",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "do something",
-        "name a color",
-        "count a number",
-        "describe an animal"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "A command usually tells someone to"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "May I come in?",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "May I come in?",
-        "Go now.",
-        "Stop talking.",
-        "Write fast."
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Choose the polite sentence."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

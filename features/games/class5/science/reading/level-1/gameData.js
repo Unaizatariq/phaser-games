@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "Human Body Systems",
-  "teach": "The human body has many systems that work together.",
-  "examples": [
-    "The human body has many systems that work together.",
-    "The digestive system helps break down food.",
-    "The respiratory system helps us breathe."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Human Body Systems",
+      "prompt": "The human body has many systems that work together.",
+      "answer": "Human",
       "options": [
-        "Human Body Systems",
-        "Nutrition and Balanced Diet",
-        "Plants and Their Functions",
-        "Reproduction in Plants"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "readingText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "audioText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      "audioText": "The human body has many systems that work together.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The human body has many systems that work ____.",
-      "answer": "together",
+      "prompt": "The digestive system helps break down food.",
+      "answer": "Human",
       "options": [
-        "together",
-        "Human Body Systems",
-        "food",
-        "breathe"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "readingText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "audioText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      "audioText": "The digestive system helps break down food.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The digestive system helps break down ____.",
-      "answer": "food",
+      "prompt": "The respiratory system helps us breathe.",
+      "answer": "Human",
       "options": [
-        "food",
-        "Human Body Systems",
-        "together",
-        "breathe"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "readingText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "audioText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      "audioText": "The respiratory system helps us breathe.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The respiratory system helps us ____.",
-      "answer": "breathe",
+      "prompt": "The circulatory system carries blood throughout the body.",
+      "answer": "Human",
       "options": [
-        "breathe",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "readingText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "audioText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      "audioText": "The circulatory system carries blood throughout the body.",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The circulatory system carries blood throughout the ____.",
-      "answer": "body",
+      "prompt": "What is the story mainly about?",
+      "answer": "Human",
       "options": [
-        "body",
-        "Human Body Systems",
-        "together",
-        "food"
+        "Human",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "readingText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body.",
-      "audioText": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Human Body Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Human": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The human body has many systems that work together. The digestive system helps break down food. The respiratory system helps us breathe. The circulatory system carries blood throughout the body."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 18,
   "topic": "Technology Around Us",
-  "teach": "Technology is everywhere around us.",
-  "examples": [
-    "Technology is everywhere around us.",
-    "Mobile phones and computers are technology.",
-    "Technology helps people every day."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology Around Us",
+      "prompt": "Technology is everywhere around us.",
+      "answer": "Technology",
       "options": [
-        "Technology Around Us",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "readingText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "audioText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      "audioText": "Technology is everywhere around us.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology is everywhere ____ us.",
-      "answer": "around",
+      "prompt": "Mobile phones and computers are technology.",
+      "answer": "Technology",
       "options": [
-        "around",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "readingText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "audioText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      "audioText": "Mobile phones and computers are technology.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Mobile phones and computers are ____.",
-      "answer": "technology",
+      "prompt": "Technology helps people every day.",
+      "answer": "Technology",
       "options": [
-        "technology",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "readingText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "audioText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      "audioText": "Technology helps people every day.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Technology helps people every ____.",
-      "answer": "day",
+      "prompt": "It makes life easier.",
+      "answer": "Technology",
       "options": [
-        "day",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "readingText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "audioText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      "audioText": "It makes life easier.",
+      "art": "📚",
+      "questionText": "According to the story about Technology Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It makes life ____.",
-      "answer": "easier",
+      "prompt": "What is the story mainly about?",
+      "answer": "Technology",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Technology",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "readingText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier.",
-      "audioText": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Technology Around Us, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Technology": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Technology is everywhere around us. Mobile phones and computers are technology. Technology helps people every day. It makes life easier."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

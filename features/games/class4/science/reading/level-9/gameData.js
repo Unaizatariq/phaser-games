@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "Sound and Vibrations",
-  "teach": "Sound is produced by vibrations.",
-  "examples": [
-    "Sound is produced by vibrations.",
-    "We hear sounds with our ears.",
-    "Loud sounds can harm hearing."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Sound and Vibrations",
+      "prompt": "Sound is produced by vibrations.",
+      "answer": "Sound",
       "options": [
-        "Sound and Vibrations",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "readingText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "audioText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      "audioText": "Sound is produced by vibrations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sound is produced by ____.",
-      "answer": "vibrations",
+      "prompt": "We hear sounds with our ears.",
+      "answer": "Sound",
       "options": [
-        "vibrations",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "readingText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "audioText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      "audioText": "We hear sounds with our ears.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We hear sounds with our ____.",
-      "answer": "ears",
+      "prompt": "Loud sounds can harm hearing.",
+      "answer": "Sound",
       "options": [
-        "ears",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "readingText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "audioText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      "audioText": "Loud sounds can harm hearing.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Loud sounds can harm ____.",
-      "answer": "hearing",
+      "prompt": "Different objects make different sounds.",
+      "answer": "Sound",
       "options": [
-        "hearing",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "readingText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "audioText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      "audioText": "Different objects make different sounds.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Different objects make different ____.",
-      "answer": "sounds",
+      "prompt": "What is the story mainly about?",
+      "answer": "Sound",
       "options": [
-        "sounds",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Sound",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "readingText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds.",
-      "audioText": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Sound and Vibrations, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Sound": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Sound is produced by vibrations. We hear sounds with our ears. Loud sounds can harm hearing. Different objects make different sounds."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

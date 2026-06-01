@@ -1,87 +1,203 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "urdu",
+  "subjectLabel": "Urdu",
   "skill": "reading",
   "level": 4,
   "topic": "تعلیم کی اہمیت",
-  "teach": "سبق غور سے پڑھیں اور جواب دیں۔",
-  "examples": [
-    "تعلیم"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "سبق پڑھیں اور درست جواب چنیں۔",
+      "prompt": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔",
       "answer": "تعلیم",
       "options": [
-        "تعلیم",
-        "آلودگی",
-        "موسم",
-        "آمد و رفت"
+        {
+          "text": "تعلیم",
+          "tts": "تعلیم"
+        },
+        {
+          "text": "آلودگی",
+          "tts": "aaloodgi"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "آمد و رفت",
+          "tts": "آمد و رفت"
+        }
       ],
-      "text": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔",
+      "narrationTTS": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "اس سبق کا مرکزی لفظ کیا ہے؟",
-      "answer": "تعلیم",
+      "prompt": "یہ علم، ہنر اور اعتماد دیتی ہے۔",
+      "answer": "دیتی",
       "options": [
-        "تعلیم",
-        "آلودگی",
-        "موسم",
-        "آمد و رفت"
+        {
+          "text": "دیتی",
+          "tts": "دیتی"
+        },
+        {
+          "text": "تعلیم",
+          "tts": "تعلیم"
+        },
+        {
+          "text": "آلودگی",
+          "tts": "aaloodgi"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        }
       ],
-      "text": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+      "audioText": "یہ علم، ہنر اور اعتماد دیتی ہے۔",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "یہ علم، ہنر اور اعتماد دیتی ہے۔",
+      "narrationTTS": "یہ علم، ہنر اور اعتماد دیتی ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "سبق کے مطابق درست جواب منتخب کریں۔",
+      "prompt": "ہر بچے کو اچھی تعلیم کا حق ہے۔",
       "answer": "تعلیم",
       "options": [
-        "تعلیم",
-        "آلودگی",
-        "موسم",
-        "آمد و رفت"
+        {
+          "text": "تعلیم",
+          "tts": "تعلیم"
+        },
+        {
+          "text": "آلودگی",
+          "tts": "aaloodgi"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        },
+        {
+          "text": "آمد و رفت",
+          "tts": "آمد و رفت"
+        }
       ],
-      "text": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+      "audioText": "ہر بچے کو اچھی تعلیم کا حق ہے۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "ہر بچے کو اچھی تعلیم کا حق ہے۔",
+      "narrationTTS": "ہر بچے کو اچھی تعلیم کا حق ہے۔"
     },
     {
-      "type": "mcq",
-      "prompt": "یہ سبق کس بارے میں ہے؟",
-      "answer": "تعلیم",
+      "prompt": "کہانی کا اہم لفظ کیا ہے؟",
+      "answer": "کیا",
       "options": [
-        "تعلیم",
-        "آلودگی",
-        "موسم",
-        "آمد و رفت"
+        {
+          "text": "کیا",
+          "tts": "کیا"
+        },
+        {
+          "text": "تعلیم",
+          "tts": "تعلیم"
+        },
+        {
+          "text": "آلودگی",
+          "tts": "aaloodgi"
+        },
+        {
+          "text": "موسم",
+          "tts": "موسم"
+        }
       ],
-      "text": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+      "audioText": "کہانی کا اہم لفظ کیا ہے؟",
+      "art": "",
+      "questionText": "اس جملے کے مطابق درست لفظ کون سا ہے؟",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Is jumlay ke mutabiq durust lafz kaun sa hai?",
+      "audioTextTTS": "کہانی کا اہم لفظ کیا ہے؟",
+      "narrationTTS": "کہانی کا اہم لفظ کیا ہے؟"
     },
     {
-      "type": "mcq",
-      "prompt": "سنیں، پڑھیں، پھر جواب دیں۔",
-      "answer": "تعلیم",
+      "prompt": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "answer": "حروف",
       "options": [
-        "تعلیم",
-        "آلودگی",
-        "موسم",
-        "آمد و رفت"
+        {
+          "text": "حروف",
+          "tts": "حروف"
+        },
+        {
+          "text": "کھلونے",
+          "tts": "khiloney"
+        },
+        {
+          "text": "پھل",
+          "tts": "پھل"
+        },
+        {
+          "text": "کپڑے",
+          "tts": "kapray"
+        }
       ],
-      "text": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔",
-      "audioText": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+      "audioText": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "art": "",
+      "questionText": "جملے کے مطابق درست جواب منتخب کریں۔",
+      "sentenceOrder": [
+        "استاد بچوں کو حروف پڑھاتے ہیں۔"
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {},
+      "questionTTS": "Jumlay ke mutabiq durust jawab muntakhab karein.",
+      "audioTextTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔",
+      "narrationTTS": "استاد بچوں کو حروف پڑھاتے ہیں۔"
     }
   ],
-  "lang": "ur-PK",
-  "rtl": true,
-  "mode": "reading",
-  "passage": "تعلیم کامیاب زندگی کے لیے بہت ضروری ہے۔ یہ علم، ہنر اور اعتماد دیتی ہے۔ ہر بچے کو اچھی تعلیم کا حق ہے۔"
+  "theme": [
+    "#2e9d58",
+    "#e8f8ee"
+  ]
 };

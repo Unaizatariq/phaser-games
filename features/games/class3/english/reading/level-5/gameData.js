@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 5,
   "topic": "A Rainy Adventure",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "rainbow"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "One afternoon, dark clouds covered the sky and heavy rain started falling.",
       "answer": "rainbow",
       "options": [
         "rainbow",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "sunflower",
         "moon"
       ],
-      "text": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling.",
+      "art": "📚",
+      "questionText": "According to the story about A Rainy Adventure, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "My friends and I ran outside with umbrellas and raincoats.",
       "answer": "rainbow",
       "options": [
         "rainbow",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "sunflower",
         "moon"
       ],
-      "text": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+      "audioText": "My friends and I ran outside with umbrellas and raincoats.",
+      "art": "📚",
+      "questionText": "According to the story about A Rainy Adventure, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "We splashed in puddles and laughed loudly.",
       "answer": "rainbow",
       "options": [
         "rainbow",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "sunflower",
         "moon"
       ],
-      "text": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+      "audioText": "We splashed in puddles and laughed loudly.",
+      "art": "📚",
+      "questionText": "According to the story about A Rainy Adventure, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "After some time, a rainbow appeared in the sky.",
       "answer": "rainbow",
       "options": [
         "rainbow",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "sunflower",
         "moon"
       ],
-      "text": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+      "audioText": "After some time, a rainbow appeared in the sky.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "It was a fun and exciting rainy day.",
       "answer": "rainbow",
       "options": [
         "rainbow",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "sunflower",
         "moon"
       ],
-      "text": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day.",
-      "audioText": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+      "audioText": "It was a fun and exciting rainy day.",
+      "art": "📚",
+      "questionText": "According to the story about A Rainy Adventure, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "rainbow",
+      "options": [
+        "rainbow",
+        "snowman",
+        "sunflower",
+        "moon"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about A Rainy Adventure, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "rainbow": "🔹",
+        "snowman": "🔹",
+        "sunflower": "🌸",
+        "moon": "🌙"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "One afternoon, dark clouds covered the sky and heavy rain started falling. My friends and I ran outside with umbrellas and raincoats. We splashed in puddles and laughed loudly. After some time, a rainbow appeared in the sky. It was a fun and exciting rainy day."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

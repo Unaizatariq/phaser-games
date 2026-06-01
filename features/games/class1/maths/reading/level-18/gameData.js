@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 18,
   "topic": "Simple Word Problems",
-  "teach": "Math problems help us think.",
-  "examples": [
-    "Math problems help us think.",
-    "We use addition and subtraction to solve them.",
-    "Word problems are part of daily life."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Simple Word Problems",
+      "prompt": "Math problems help us think.",
+      "answer": "Simple",
       "options": [
-        "Simple Word Problems",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "readingText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "audioText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      "audioText": "Math problems help us think.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math problems help us ____.",
-      "answer": "think",
+      "prompt": "We use addition and subtraction to solve them.",
+      "answer": "Simple",
       "options": [
-        "think",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "readingText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "audioText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      "audioText": "We use addition and subtraction to solve them.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We use addition and subtraction to ____ them.",
-      "answer": "solve",
+      "prompt": "Word problems are part of daily life.",
+      "answer": "Simple",
       "options": [
-        "solve",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "readingText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "audioText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      "audioText": "Word problems are part of daily life.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word problems are ____ of daily life.",
-      "answer": "part",
+      "prompt": "Practice improves problem-solving skills.",
+      "answer": "Simple",
       "options": [
-        "part",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "readingText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "audioText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      "audioText": "Practice improves problem-solving skills.",
+      "art": "📚",
+      "questionText": "According to the story about Simple Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "skills",
+      "prompt": "What is the story mainly about?",
+      "answer": "Simple",
       "options": [
-        "skills",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Simple",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "readingText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills.",
-      "audioText": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Simple Word Problems, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Simple": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math problems help us think. We use addition and subtraction to solve them. Word problems are part of daily life. Practice improves problem-solving skills."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

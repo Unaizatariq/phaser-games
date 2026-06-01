@@ -1,87 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 21,
-  "topic": "Technology helps people every day.",
-  "teach": "It makes life easier.",
-  "examples": [
-    "It makes life easier."
-  ],
+  "topic": "What is a Computer?",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Technology helps people every day.",
+      "prompt": "A computer is a smart machine.",
+      "answer": "What",
       "options": [
-        "Technology helps people every day.",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "It makes life easier.",
-      "readingText": "It makes life easier.",
-      "audioText": "It makes life easier."
+      "audioText": "A computer is a smart machine.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It makes life ____.",
-      "answer": "easier",
+      "prompt": "It helps us do many tasks.",
+      "answer": "What",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "It makes life easier.",
-      "readingText": "It makes life easier.",
-      "audioText": "It makes life easier."
+      "audioText": "It helps us do many tasks.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "easier",
+      "prompt": "People use computers at school and home.",
+      "answer": "What",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "It makes life easier.",
-      "readingText": "It makes life easier.",
-      "audioText": "It makes life easier."
+      "audioText": "People use computers at school and home.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "easier",
+      "prompt": "Computers make work easier.",
+      "answer": "What",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "It makes life easier.",
-      "readingText": "It makes life easier.",
-      "audioText": "It makes life easier."
+      "audioText": "Computers make work easier.",
+      "art": "📚",
+      "questionText": "According to the story about What is a Computer?, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "easier",
+      "prompt": "What is the story mainly about?",
+      "answer": "What",
       "options": [
-        "easier",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "What",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "It makes life easier.",
-      "readingText": "It makes life easier.",
-      "audioText": "It makes life easier."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "What": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "It makes life easier."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

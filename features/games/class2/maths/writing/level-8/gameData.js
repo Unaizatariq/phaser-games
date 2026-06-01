@@ -1,53 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 8,
-  "topic": "Number Comparison",
-  "teach": "Number Comparison is an important curriculum topic. Learn the meaning, examples and real use.",
-  "examples": [
-    "Number Comparison",
-    "example",
-    "practice"
-  ],
+  "topic": "Multiplication Writing",
   "questions": [
     {
-      "type": "input",
-      "prompt": "What is today’s topic?",
-      "answer": "Number Comparison",
-      "options": [],
-      "audioText": "What is today’s topic?"
+      "prompt": "Type answer: 2 × 5 =",
+      "answer": "10",
+      "options": [
+        "10",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 2 × 5 =",
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 10,
+        "b": 0,
+        "op": "count",
+        "item": "⭐"
+      },
+      "optionArts": {
+        "10": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: To learn this topic, first we should",
-      "answer": "read the example",
-      "options": [],
-      "audioText": "Write the answer: To learn this topic, first we should"
+      "prompt": "Type answer: 3 × 4 =",
+      "answer": "12",
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 3 × 4 =",
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good answer should be",
-      "answer": "related to the topic",
-      "options": [],
-      "audioText": "Write the answer: A good answer should be"
+      "prompt": "Type answer: 5 × 5 =",
+      "answer": "25",
+      "options": [
+        "25",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 5 × 5 =",
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "25": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Practice helps us",
-      "answer": "remember better",
-      "options": [],
-      "audioText": "Write the answer: Practice helps us"
+      "prompt": "Type answer: 6 × 2 =",
+      "answer": "12",
+      "options": [
+        "12",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 6 × 2 =",
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "12": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the correct learning habit.",
-      "answer": "try again",
-      "options": [],
-      "audioText": "Write the answer: Choose the correct learning habit."
+      "prompt": "Type answer: 7 × 3 =",
+      "answer": "21",
+      "options": [
+        "21",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
+      "audioText": "Type answer: 7 × 3 =",
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "21": "🔢",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

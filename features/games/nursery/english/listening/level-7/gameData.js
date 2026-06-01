@@ -1,78 +1,105 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "listening",
   "level": 7,
-  "topic": "First and Final Sounds",
-  "teach": "First and Final Sounds helps children observe the world, ask questions and understand how living and non-living things work.",
-  "examples": [
-    "observe",
-    "learn",
-    "explain"
-  ],
+  "topic": "water",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "science",
+      "audioText": "Ali has a red ball. He plays with it in the park.",
+      "prompt": "What does Ali have?",
+      "answer": "ball",
       "options": [
-        "science",
-        "computer",
-        "money",
-        "grammar"
+        "ball",
+        "book",
+        "chair",
+        "mouse"
       ],
-      "audioText": "First and Final Sounds belongs to which subject?"
+      "art": "⚽",
+      "optionArts": {
+        "ball": "⚽",
+        "book": "📘",
+        "chair": "🪑",
+        "mouse": "🖱️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "the world around us",
+      "audioText": "Sara reads a book in her classroom.",
+      "prompt": "What does Sara read?",
+      "answer": "book",
       "options": [
-        "the world around us",
-        "only stories",
-        "only games",
-        "only colors"
+        "book",
+        "apple",
+        "car",
+        "printer"
       ],
-      "audioText": "Science helps us understand"
+      "art": "📘",
+      "optionArts": {
+        "book": "📘",
+        "apple": "🍎",
+        "car": "🚗",
+        "printer": "🖨️"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "observe carefully",
+      "audioText": "The teacher helps children learn new words.",
+      "prompt": "Who helps children learn new words?",
+      "answer": "teacher",
       "options": [
-        "observe carefully",
-        "guess randomly",
-        "ignore examples",
-        "hide answers"
+        "teacher",
+        "cat",
+        "printer",
+        "car"
       ],
-      "audioText": "A good learner should"
+      "art": "👩‍🏫",
+      "optionArts": {
+        "teacher": "👩‍🏫",
+        "cat": "🐱",
+        "printer": "🖨️",
+        "car": "🚗"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "understand concepts",
+      "audioText": "My mother gives me an apple.",
+      "prompt": "Who gives the apple?",
+      "answer": "mother",
       "options": [
-        "understand concepts",
-        "confuse answers",
-        "skip learning",
-        "make noise"
+        "mother",
+        "friend",
+        "teacher",
+        "brother"
       ],
-      "audioText": "We use examples to"
+      "art": "👩",
+      "optionArts": {
+        "mother": "👩",
+        "friend": "🧒",
+        "teacher": "👩‍🏫",
+        "brother": "👦"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Select the answer you hear.",
-      "answer": "ask and learn",
+      "audioText": "The cat sits near the bag.",
+      "prompt": "Which animal sits near the bag?",
+      "answer": "cat",
       "options": [
-        "ask and learn",
-        "throw trash",
-        "waste water",
-        "break things"
+        "cat",
+        "dog",
+        "bird",
+        "fish"
       ],
-      "audioText": "Choose the best habit."
+      "art": "🐱",
+      "optionArts": {
+        "cat": "🐱",
+        "dog": "🐶",
+        "bird": "🐦",
+        "fish": "🐟"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "listening"
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

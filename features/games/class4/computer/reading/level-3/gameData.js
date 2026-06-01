@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 3,
   "topic": "Hardware and Software",
-  "teach": "Hardware means the physical parts of a computer.",
-  "examples": [
-    "Hardware means the physical parts of a computer.",
-    "Software means programs and applications.",
-    "Both hardware and software are important."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Hardware and Software",
+      "prompt": "Hardware means the physical parts of a computer.",
+      "answer": "Hardware",
       "options": [
-        "Hardware and Software",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Input and Output Devices"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "readingText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "audioText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      "audioText": "Hardware means the physical parts of a computer.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hardware means the physical parts of a ____.",
-      "answer": "computer",
+      "prompt": "Software means programs and applications.",
+      "answer": "Hardware",
       "options": [
-        "computer",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "readingText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "audioText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      "audioText": "Software means programs and applications.",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Software means programs and ____.",
-      "answer": "applications",
+      "prompt": "Both hardware and software are important.",
+      "answer": "Hardware",
       "options": [
-        "applications",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "readingText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "audioText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      "audioText": "Both hardware and software are important.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Both hardware and ____ are important.",
-      "answer": "software",
+      "prompt": "A computer cannot work without software.",
+      "answer": "Hardware",
       "options": [
-        "software",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "readingText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "audioText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      "audioText": "A computer cannot work without software.",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "computer",
+      "prompt": "What is the story mainly about?",
+      "answer": "Hardware",
       "options": [
-        "computer",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Hardware",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "readingText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software.",
-      "audioText": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Hardware and Software, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Hardware": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Hardware means the physical parts of a computer. Software means programs and applications. Both hardware and software are important. A computer cannot work without software."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

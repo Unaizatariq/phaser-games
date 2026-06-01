@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 11,
   "topic": "Listening to Music",
-  "teach": "Computers can play music.",
-  "examples": [
-    "Computers can play music.",
-    "We can listen to songs and rhymes.",
-    "Speakers help us hear sounds."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Listening to Music",
+      "prompt": "Computers can play music.",
+      "answer": "Listening",
       "options": [
-        "Listening to Music",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Listening",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "readingText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "audioText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      "audioText": "Computers can play music.",
+      "art": "📚",
+      "questionText": "According to the story about Listening to Music, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Listening": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers can play ____.",
-      "answer": "music",
+      "prompt": "We can listen to songs and rhymes.",
+      "answer": "Listening",
       "options": [
-        "music",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Listening",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "readingText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "audioText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      "audioText": "We can listen to songs and rhymes.",
+      "art": "📚",
+      "questionText": "According to the story about Listening to Music, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Listening": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can listen to songs and ____.",
-      "answer": "rhymes",
+      "prompt": "Speakers help us hear sounds.",
+      "answer": "Listening",
       "options": [
-        "rhymes",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Listening",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "readingText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "audioText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      "audioText": "Speakers help us hear sounds.",
+      "art": "📚",
+      "questionText": "According to the story about Listening to Music, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Listening": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Speakers help us hear ____.",
-      "answer": "sounds",
+      "prompt": "Music makes learning fun.",
+      "answer": "Listening",
       "options": [
-        "sounds",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Listening",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "readingText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "audioText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      "audioText": "Music makes learning fun.",
+      "art": "📚",
+      "questionText": "According to the story about Listening to Music, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Listening": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Music ____ learning fun.",
-      "answer": "makes",
+      "prompt": "What is the story mainly about?",
+      "answer": "Listening",
       "options": [
-        "makes",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Listening",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "readingText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun.",
-      "audioText": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Listening to Music, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Listening": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Computers can play music. We can listen to songs and rhymes. Speakers help us hear sounds. Music makes learning fun."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

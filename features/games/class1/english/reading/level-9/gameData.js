@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 9,
   "topic": "My Favorite Toy",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "teddy bear"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "My favorite toy is a teddy bear.",
       "answer": "teddy bear",
       "options": [
         "teddy bear",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "truck",
         "ball"
       ],
-      "text": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "audioText": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+      "audioText": "My favorite toy is a teddy bear.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teddy bear": "👂",
+        "kite": "🪁",
+        "truck": "🔹",
+        "ball": "⚽"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "It is soft and brown in color.",
       "answer": "teddy bear",
       "options": [
         "teddy bear",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "truck",
         "ball"
       ],
-      "text": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "audioText": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+      "audioText": "It is soft and brown in color.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Toy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teddy bear": "👂",
+        "kite": "🪁",
+        "truck": "🔹",
+        "ball": "⚽"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "I play with it every day.",
       "answer": "teddy bear",
       "options": [
         "teddy bear",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "truck",
         "ball"
       ],
-      "text": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "audioText": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+      "audioText": "I play with it every day.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Toy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teddy bear": "👂",
+        "kite": "🪁",
+        "truck": "🔹",
+        "ball": "⚽"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "At night, I keep it beside my bed while sleeping.",
       "answer": "teddy bear",
       "options": [
         "teddy bear",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "truck",
         "ball"
       ],
-      "text": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "audioText": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+      "audioText": "At night, I keep it beside my bed while sleeping.",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Toy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teddy bear": "👂",
+        "kite": "🪁",
+        "truck": "🔹",
+        "ball": "⚽"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "teddy bear",
       "options": [
         "teddy bear",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "truck",
         "ball"
       ],
-      "text": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping.",
-      "audioText": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Favorite Toy, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "teddy bear": "👂",
+        "kite": "🪁",
+        "truck": "🔹",
+        "ball": "⚽"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "My favorite toy is a teddy bear. It is soft and brown in color. I play with it every day. At night, I keep it beside my bed while sleeping."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 13,
   "topic": "Typing Practice",
-  "teach": "Typing means pressing keys on a keyboard.",
-  "examples": [
-    "Typing means pressing keys on a keyboard.",
-    "We can type letters and words.",
-    "Typing practice improves speed."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Typing Practice",
+      "prompt": "Typing means pressing keys on a keyboard.",
+      "answer": "Typing",
       "options": [
-        "Typing Practice",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "readingText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "audioText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      "audioText": "Typing means pressing keys on a keyboard.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Typing means pressing keys on a ____.",
-      "answer": "keyboard",
+      "prompt": "We can type letters and words.",
+      "answer": "Typing",
       "options": [
-        "keyboard",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "readingText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "audioText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      "audioText": "We can type letters and words.",
+      "art": "📚",
+      "questionText": "According to the story about Typing Practice, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can type letters and ____.",
-      "answer": "words",
+      "prompt": "Typing practice improves speed.",
+      "answer": "Typing",
       "options": [
-        "words",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "readingText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "audioText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      "audioText": "Typing practice improves speed.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Typing practice improves ____.",
-      "answer": "speed",
+      "prompt": "Good typing helps in computer work.",
+      "answer": "Typing",
       "options": [
-        "speed",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "readingText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "audioText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      "audioText": "Good typing helps in computer work.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Good typing helps in computer ____.",
-      "answer": "work",
+      "prompt": "What is the story mainly about?",
+      "answer": "Typing",
       "options": [
-        "work",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Typing",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "readingText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work.",
-      "audioText": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Typing Practice, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Typing": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Typing means pressing keys on a keyboard. We can type letters and words. Typing practice improves speed. Good typing helps in computer work."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

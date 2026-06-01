@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 1,
   "topic": "Computer Systems",
-  "teach": "A computer system consists of hardware and software.",
-  "examples": [
-    "A computer system consists of hardware and software.",
-    "Hardware includes physical computer parts.",
-    "Software includes programs and applications."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Computer Systems",
+      "prompt": "A computer system consists of hardware and software.",
+      "answer": "Computer",
       "options": [
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices",
-        "Storage Devices"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "readingText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "audioText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      "audioText": "A computer system consists of hardware and software.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A computer system consists of hardware and ____.",
-      "answer": "software",
+      "prompt": "Hardware includes physical computer parts.",
+      "answer": "Computer",
       "options": [
-        "software",
-        "Computer Systems",
-        "parts",
-        "applications"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "readingText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "audioText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      "audioText": "Hardware includes physical computer parts.",
+      "art": "💻",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Hardware includes physical computer ____.",
-      "answer": "parts",
+      "prompt": "Software includes programs and applications.",
+      "answer": "Computer",
       "options": [
-        "parts",
-        "Computer Systems",
-        "software",
-        "applications"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "readingText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "audioText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      "audioText": "Software includes programs and applications.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Software includes programs and ____.",
-      "answer": "applications",
+      "prompt": "Both work together to perform tasks.",
+      "answer": "Computer",
       "options": [
-        "applications",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "readingText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "audioText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      "audioText": "Both work together to perform tasks.",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Both work together to perform ____.",
-      "answer": "tasks",
+      "prompt": "What is the story mainly about?",
+      "answer": "Computer",
       "options": [
-        "tasks",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Computer",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "readingText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks.",
-      "audioText": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+      "audioText": "What is the story mainly about?",
+      "art": "💻",
+      "questionText": "According to the story about Computer Systems, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Computer": "💻",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A computer system consists of hardware and software. Hardware includes physical computer parts. Software includes programs and applications. Both work together to perform tasks."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

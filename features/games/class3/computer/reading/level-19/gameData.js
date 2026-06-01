@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 19,
   "topic": "Introduction to Coding",
-  "teach": "Coding gives instructions to computers.",
-  "examples": [
-    "Coding gives instructions to computers.",
-    "Programs are made using coding languages.",
-    "Simple coding teaches problem-solving skills."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Introduction to Coding",
+      "prompt": "Coding gives instructions to computers.",
+      "answer": "Introduction",
       "options": [
-        "Introduction to Coding",
-        "Introduction to Computers",
-        "History of Computers",
-        "Parts of a Computer"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "readingText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "audioText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      "audioText": "Coding gives instructions to computers.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Coding gives instructions to ____.",
-      "answer": "computers",
+      "prompt": "Programs are made using coding languages.",
+      "answer": "Introduction",
       "options": [
-        "computers",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "readingText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "audioText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      "audioText": "Programs are made using coding languages.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Programs are made using coding ____.",
-      "answer": "languages",
+      "prompt": "Simple coding teaches problem-solving skills.",
+      "answer": "Introduction",
       "options": [
-        "languages",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "readingText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "audioText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      "audioText": "Simple coding teaches problem-solving skills.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Simple coding teaches problem-solving ____.",
-      "answer": "skills",
+      "prompt": "Children can learn coding step by step.",
+      "answer": "Introduction",
       "options": [
-        "skills",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "readingText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "audioText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      "audioText": "Children can learn coding step by step.",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Children can learn coding ____ by step.",
-      "answer": "step",
+      "prompt": "What is the story mainly about?",
+      "answer": "Introduction",
       "options": [
-        "step",
-        "Introduction to Computers",
-        "machines",
-        "tasks"
+        "Introduction",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "readingText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step.",
-      "audioText": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Introduction to Coding, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Introduction": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Coding gives instructions to computers. Programs are made using coding languages. Simple coding teaches problem-solving skills. Children can learn coding step by step."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

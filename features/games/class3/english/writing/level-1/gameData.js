@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "writing",
   "level": 1,
   "topic": "Grammar Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "glad",
-    "small",
-    "in"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type synonym of Happy",
       "answer": "glad",
-      "expected": "glad",
-      "options": [],
+      "options": [
+        "glad",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type synonym of Happy",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Ali have?",
+      "optionArts": {
+        "glad": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type opposite of Big",
       "answer": "small",
-      "expected": "small",
-      "options": [],
+      "options": [
+        "small",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type opposite of Big",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What does Sara read?",
+      "optionArts": {
+        "small": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type a preposition",
       "answer": "in",
-      "expected": "in",
-      "options": [],
+      "options": [
+        "in",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type a preposition",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where is the cat?",
+      "optionArts": {
+        "in": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type an adjective",
       "answer": "beautiful",
-      "expected": "beautiful",
-      "options": [],
+      "options": [
+        "beautiful",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type an adjective",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Where do I go in the morning?",
+      "optionArts": {
+        "beautiful": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type an adverb",
       "answer": "quickly",
-      "expected": "quickly",
-      "options": [],
+      "options": [
+        "quickly",
+        "family",
+        "school",
+        "park"
+      ],
       "audioText": "Type an adverb",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Who lives together?",
+      "optionArts": {
+        "quickly": "🔹",
+        "family": "👨‍👩‍👧",
+        "school": "🏫",
+        "park": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

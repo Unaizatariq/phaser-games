@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 15,
   "topic": "Tall and Short",
-  "teach": "A giraffe is tall.",
-  "examples": [
-    "A giraffe is tall.",
-    "A rabbit is short.",
-    "We can compare heights."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Tall and Short",
+      "prompt": "A giraffe is tall.",
+      "answer": "Tall",
       "options": [
-        "Tall and Short",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "readingText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "audioText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      "audioText": "A giraffe is tall.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A giraffe is ____.",
-      "answer": "tall",
+      "prompt": "A rabbit is short.",
+      "answer": "Tall",
       "options": [
-        "tall",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "readingText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "audioText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      "audioText": "A rabbit is short.",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A rabbit is ____.",
-      "answer": "short",
+      "prompt": "We can compare heights.",
+      "answer": "Tall",
       "options": [
-        "short",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "readingText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "audioText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      "audioText": "We can compare heights.",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We can compare ____.",
-      "answer": "heights",
+      "prompt": "Math helps us describe objects.",
+      "answer": "Tall",
       "options": [
-        "heights",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "readingText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "audioText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      "audioText": "Math helps us describe objects.",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math helps us describe ____.",
-      "answer": "objects",
+      "prompt": "What is the story mainly about?",
+      "answer": "Tall",
       "options": [
-        "objects",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Tall",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "readingText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects.",
-      "audioText": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Tall and Short, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Tall": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "A giraffe is tall. A rabbit is short. We can compare heights. Math helps us describe objects."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 17,
   "topic": "Healthy Lifestyle",
-  "teach": "Healthy habits keep us fit.",
-  "examples": [
-    "Healthy habits keep us fit.",
-    "Exercise strengthens our body.",
-    "Healthy food gives energy."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Healthy Lifestyle",
+      "prompt": "Healthy habits keep us fit.",
+      "answer": "Healthy",
       "options": [
-        "Healthy Lifestyle",
-        "Cells and Living Things",
-        "Human Body Systems",
-        "Plants and Photosynthesis"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "readingText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "audioText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      "audioText": "Healthy habits keep us fit.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy habits keep us ____.",
-      "answer": "fit",
+      "prompt": "Exercise strengthens our body.",
+      "answer": "Healthy",
       "options": [
-        "fit",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "readingText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "audioText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      "audioText": "Exercise strengthens our body.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Exercise strengthens our ____.",
-      "answer": "body",
+      "prompt": "Healthy food gives energy.",
+      "answer": "Healthy",
       "options": [
-        "body",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "readingText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "audioText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      "audioText": "Healthy food gives energy.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Healthy food gives ____.",
-      "answer": "energy",
+      "prompt": "Sleep helps our body rest.",
+      "answer": "Healthy",
       "options": [
-        "energy",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "readingText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "audioText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      "audioText": "Sleep helps our body rest.",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Sleep helps our body ____.",
-      "answer": "rest",
+      "prompt": "What is the story mainly about?",
+      "answer": "Healthy",
       "options": [
-        "rest",
-        "Cells and Living Things",
-        "cells",
-        "blocks"
+        "Healthy",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "readingText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest.",
-      "audioText": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Healthy Lifestyle, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Healthy": "🍎",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Healthy habits keep us fit. Exercise strengthens our body. Healthy food gives energy. Sleep helps our body rest."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

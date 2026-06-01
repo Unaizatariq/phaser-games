@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 9,
   "topic": "Measurement",
-  "teach": "We measure things every day.",
-  "examples": [
-    "We measure things every day.",
-    "A ruler measures length.",
-    "Some objects are long."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "We measure things every day.",
       "answer": "Measurement",
       "options": [
         "Measurement",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "readingText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "audioText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      "audioText": "We measure things every day.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We measure things every ____.",
-      "answer": "day",
+      "prompt": "A ruler measures length.",
+      "answer": "Measurement",
       "options": [
-        "day",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "readingText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "audioText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      "audioText": "A ruler measures length.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: A ruler measures ____.",
-      "answer": "length",
+      "prompt": "Some objects are long.",
+      "answer": "Measurement",
       "options": [
-        "length",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "readingText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "audioText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      "audioText": "Some objects are long.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some objects are ____.",
-      "answer": "long",
+      "prompt": "Some objects are short.",
+      "answer": "Measurement",
       "options": [
-        "long",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "readingText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "audioText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      "audioText": "Some objects are short.",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Some objects are ____.",
-      "answer": "short",
+      "prompt": "What is the story mainly about?",
+      "answer": "Measurement",
       "options": [
-        "short",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Measurement",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "readingText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short.",
-      "audioText": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+      "audioText": "What is the story mainly about?",
+      "art": "📏",
+      "questionText": "According to the story about Measurement, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Measurement": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We measure things every day. A ruler measures length. Some objects are long. Some objects are short."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

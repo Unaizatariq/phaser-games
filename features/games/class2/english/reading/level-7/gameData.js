@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 7,
   "topic": "A Picnic Day",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "lake"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "Our school arranged a picnic near a lake.",
       "answer": "lake",
       "options": [
         "lake",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "market",
         "hospital"
       ],
-      "text": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "audioText": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+      "audioText": "Our school arranged a picnic near a lake.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "lake": "🔹",
+        "museum": "🔹",
+        "market": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "We played games, ate delicious food, and sang songs together.",
       "answer": "lake",
       "options": [
         "lake",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "market",
         "hospital"
       ],
-      "text": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "audioText": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+      "audioText": "We played games, ate delicious food, and sang songs together.",
+      "art": "📚",
+      "questionText": "According to the story about A Picnic Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "lake": "🔹",
+        "museum": "🔹",
+        "market": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "The weather was pleasant and cool.",
       "answer": "lake",
       "options": [
         "lake",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "market",
         "hospital"
       ],
-      "text": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "audioText": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+      "audioText": "The weather was pleasant and cool.",
+      "art": "📚",
+      "questionText": "According to the story about A Picnic Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "lake": "🔹",
+        "museum": "🔹",
+        "market": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "Everyone enjoyed the picnic and returned home happily.",
       "answer": "lake",
       "options": [
         "lake",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "market",
         "hospital"
       ],
-      "text": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "audioText": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+      "audioText": "Everyone enjoyed the picnic and returned home happily.",
+      "art": "📚",
+      "questionText": "According to the story about A Picnic Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "lake": "🔹",
+        "museum": "🔹",
+        "market": "🔹",
+        "hospital": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "What is the story mainly about?",
       "answer": "lake",
       "options": [
         "lake",
@@ -75,13 +124,27 @@ window.GAME_DATA = {
         "market",
         "hospital"
       ],
-      "text": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily.",
-      "audioText": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about A Picnic Day, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "lake": "🔹",
+        "museum": "🔹",
+        "market": "🔹",
+        "hospital": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Our school arranged a picnic near a lake. We played games, ate delicious food, and sang songs together. The weather was pleasant and cool. Everyone enjoyed the picnic and returned home happily."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

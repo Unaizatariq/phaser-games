@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 9,
   "topic": "Day and Night",
-  "teach": "The sun shines in the day.",
-  "examples": [
-    "The sun shines in the day.",
-    "The moon shines at night."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Day and Night",
+      "prompt": "The sun shines in the day. The moon shines at night.",
+      "answer": "Day",
       "options": [
-        "Day and Night",
-        "My Body",
-        "Animals",
-        "Birds"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines in the day. The moon shines at night.",
-      "readingText": "The sun shines in the day. The moon shines at night.",
-      "audioText": "The sun shines in the day. The moon shines at night."
+      "audioText": "The sun shines in the day. The moon shines at night.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "The sun shines in the day.",
+        "The moon shines at night."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The sun shines in the ____.",
-      "answer": "day",
+      "prompt": "What is the story mainly about?",
+      "answer": "Day",
       "options": [
-        "day",
-        "My Body",
-        "eyes",
-        "hands"
+        "Day",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "The sun shines in the day. The moon shines at night.",
-      "readingText": "The sun shines in the day. The moon shines at night.",
-      "audioText": "The sun shines in the day. The moon shines at night."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Day and Night, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Day": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: The moon shines at ____.",
-      "answer": "night",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "night",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "The sun shines in the day. The moon shines at night.",
-      "readingText": "The sun shines in the day. The moon shines at night.",
-      "audioText": "The sun shines in the day. The moon shines at night."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🌿",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "day",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "day",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "The sun shines in the day. The moon shines at night.",
-      "readingText": "The sun shines in the day. The moon shines at night.",
-      "audioText": "The sun shines in the day. The moon shines at night."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🐄",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "night",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "night",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "The sun shines in the day. The moon shines at night.",
-      "readingText": "The sun shines in the day. The moon shines at night.",
-      "audioText": "The sun shines in the day. The moon shines at night."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "👁️",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "The sun shines in the day. The moon shines at night."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

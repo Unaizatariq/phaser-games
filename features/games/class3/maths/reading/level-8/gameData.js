@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 8,
   "topic": "Geometry and Shapes",
-  "teach": "Geometry studies shapes and space.",
-  "examples": [
-    "Geometry studies shapes and space.",
-    "Triangles, squares, and circles are shapes.",
-    "Shapes have sides, corners, and angles."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Geometry and Shapes",
+      "prompt": "Geometry studies shapes and space.",
+      "answer": "Geometry",
       "options": [
-        "Geometry and Shapes",
-        "Large Numbers",
-        "Place Value and Expanded Form",
-        "Addition and Subtraction"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "readingText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "audioText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      "audioText": "Geometry studies shapes and space.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry studies shapes and ____.",
-      "answer": "space",
+      "prompt": "Triangles, squares, and circles are shapes.",
+      "answer": "Geometry",
       "options": [
-        "space",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "readingText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "audioText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      "audioText": "Triangles, squares, and circles are shapes.",
+      "art": "📚",
+      "questionText": "According to the story about Geometry and Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Triangles, squares, and circles are ____.",
-      "answer": "shapes",
+      "prompt": "Shapes have sides, corners, and angles.",
+      "answer": "Geometry",
       "options": [
-        "shapes",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "readingText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "audioText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      "audioText": "Shapes have sides, corners, and angles.",
+      "art": "📚",
+      "questionText": "According to the story about Geometry and Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Shapes have sides, corners, and ____.",
-      "answer": "angles",
+      "prompt": "Geometry helps us understand designs.",
+      "answer": "Geometry",
       "options": [
-        "angles",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "readingText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "audioText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      "audioText": "Geometry helps us understand designs.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Geometry helps us understand ____.",
-      "answer": "designs",
+      "prompt": "What is the story mainly about?",
+      "answer": "Geometry",
       "options": [
-        "designs",
-        "Large Numbers",
-        "quantities",
-        "10000"
+        "Geometry",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "readingText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs.",
-      "audioText": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Geometry and Shapes, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Geometry": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Geometry studies shapes and space. Triangles, squares, and circles are shapes. Shapes have sides, corners, and angles. Geometry helps us understand designs."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

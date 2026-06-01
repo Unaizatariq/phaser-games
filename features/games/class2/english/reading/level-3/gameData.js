@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class2",
+  "gradeLabel": "Class 2",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 3,
   "topic": "My Pet Dog",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "Bruno"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I have a pet dog named Bruno.",
       "answer": "Bruno",
       "options": [
         "Bruno",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "Ali",
         "Max"
       ],
-      "text": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "audioText": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+      "audioText": "I have a pet dog named Bruno.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "He is brown and very playful.",
       "answer": "Bruno",
       "options": [
         "Bruno",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "Ali",
         "Max"
       ],
-      "text": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "audioText": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+      "audioText": "He is brown and very playful.",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Dog, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "Every morning, Bruno runs with me in the garden.",
       "answer": "Bruno",
       "options": [
         "Bruno",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "Ali",
         "Max"
       ],
-      "text": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "audioText": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+      "audioText": "Every morning, Bruno runs with me in the garden.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "He guards our house at night and barks at strangers.",
       "answer": "Bruno",
       "options": [
         "Bruno",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "Ali",
         "Max"
       ],
-      "text": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "audioText": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+      "audioText": "He guards our house at night and barks at strangers.",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Dog, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "I love my pet dog very much.",
       "answer": "Bruno",
       "options": [
         "Bruno",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "Ali",
         "Max"
       ],
-      "text": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much.",
-      "audioText": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+      "audioText": "I love my pet dog very much.",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Dog, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "Bruno",
+      "options": [
+        "Bruno",
+        "Tom",
+        "Ali",
+        "Max"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about My Pet Dog, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Bruno": "🔹",
+        "Tom": "🔹",
+        "Ali": "🔹",
+        "Max": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I have a pet dog named Bruno. He is brown and very playful. Every morning, Bruno runs with me in the garden. He guards our house at night and barks at strangers. I love my pet dog very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

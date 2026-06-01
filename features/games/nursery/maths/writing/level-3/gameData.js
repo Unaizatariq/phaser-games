@@ -1,80 +1,140 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "writing",
   "level": 3,
   "topic": "Operator Tracing",
-  "teach": "Trace carefully on the dotted guide.",
-  "examples": [
-    "+",
-    "-",
-    "×"
-  ],
   "questions": [
     {
-      "type": "tracing",
       "prompt": "Trace + operator",
       "answer": "+",
-      "expected": "+",
-      "options": [],
+      "options": [
+        "+",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace + operator",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 4 + 3?",
+      "mathVisual": {
+        "a": 4,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "+": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace - operator",
       "answer": "-",
-      "expected": "-",
-      "options": [],
+      "options": [
+        "-",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace - operator",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 2 + 5?",
+      "mathVisual": {
+        "a": 2,
+        "op": "+",
+        "b": 5,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "-": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace × operator",
       "answer": "×",
-      "expected": "×",
-      "options": [],
+      "options": [
+        "×",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace × operator",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 6 - 2?",
+      "mathVisual": {
+        "a": 6,
+        "op": "-",
+        "b": 2,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "×": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace ÷ operator",
       "answer": "÷",
-      "expected": "÷",
-      "options": [],
+      "options": [
+        "÷",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace ÷ operator",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 3 + 3?",
+      "mathVisual": {
+        "a": 3,
+        "op": "+",
+        "b": 3,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "÷": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     },
     {
-      "type": "tracing",
       "prompt": "Trace = operator",
       "answer": "=",
-      "expected": "=",
-      "options": [],
+      "options": [
+        "=",
+        "counting",
+        "addition",
+        "subtraction"
+      ],
       "audioText": "Trace = operator",
-      "writingMode": "trace",
-      "checking": "completion"
+      "art": "📚",
+      "questionText": "What is 5 - 1?",
+      "mathVisual": {
+        "a": 5,
+        "op": "-",
+        "b": 1,
+        "item": "🍎"
+      },
+      "optionArts": {
+        "=": "🔹",
+        "counting": "🔹",
+        "addition": "🔹",
+        "subtraction": "🔹"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": true,
-    "grade1To5KeyboardInput": false,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

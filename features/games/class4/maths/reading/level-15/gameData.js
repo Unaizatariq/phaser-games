@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 15,
   "topic": "Data Handling",
-  "teach": "Data means collected information.",
-  "examples": [
-    "Data means collected information.",
-    "Charts and graphs organize data clearly.",
-    "Bar graphs compare information visually."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Data Handling",
+      "prompt": "Data means collected information.",
+      "answer": "Data",
       "options": [
-        "Data Handling",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "readingText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "audioText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      "audioText": "Data means collected information.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Data means collected ____.",
-      "answer": "information",
+      "prompt": "Charts and graphs organize data clearly.",
+      "answer": "Data",
       "options": [
-        "information",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "readingText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "audioText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      "audioText": "Charts and graphs organize data clearly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Charts and graphs organize data ____.",
-      "answer": "clearly",
+      "prompt": "Bar graphs compare information visually.",
+      "answer": "Data",
       "options": [
-        "clearly",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "readingText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "audioText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      "audioText": "Bar graphs compare information visually.",
+      "art": "📚",
+      "questionText": "According to the story about Data Handling, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Bar graphs compare information ____.",
-      "answer": "visually",
+      "prompt": "Data helps people make decisions.",
+      "answer": "Data",
       "options": [
-        "visually",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "readingText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "audioText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      "audioText": "Data helps people make decisions.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Data helps people make ____.",
-      "answer": "decisions",
+      "prompt": "What is the story mainly about?",
+      "answer": "Data",
       "options": [
-        "decisions",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Data",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "readingText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions.",
-      "audioText": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Data Handling, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Data": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Data means collected information. Charts and graphs organize data clearly. Bar graphs compare information visually. Data helps people make decisions."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

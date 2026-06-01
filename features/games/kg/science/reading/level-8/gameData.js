@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "kg",
+  "gradeLabel": "KG",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 8,
   "topic": "Transport",
-  "teach": "Cars move on roads.",
-  "examples": [
-    "Cars move on roads.",
-    "Airplanes fly in the sky."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "Cars move on roads. Airplanes fly in the sky.",
       "answer": "Transport",
       "options": [
         "Transport",
-        "My Body",
-        "Animals",
-        "Birds"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars move on roads. Airplanes fly in the sky.",
-      "readingText": "Cars move on roads. Airplanes fly in the sky.",
-      "audioText": "Cars move on roads. Airplanes fly in the sky."
+      "audioText": "Cars move on roads. Airplanes fly in the sky.",
+      "art": "📚",
+      "questionText": "According to the story about Transport, choose the correct answer.",
+      "sentenceOrder": [
+        "Cars move on roads.",
+        "Airplanes fly in the sky."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Transport": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Cars move on ____.",
-      "answer": "roads",
+      "prompt": "What is the story mainly about?",
+      "answer": "Transport",
       "options": [
-        "roads",
-        "My Body",
-        "eyes",
-        "hands"
+        "Transport",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Cars move on roads. Airplanes fly in the sky.",
-      "readingText": "Cars move on roads. Airplanes fly in the sky.",
-      "audioText": "Cars move on roads. Airplanes fly in the sky."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Transport, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Transport": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Airplanes fly in the ____.",
-      "answer": "sky",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "sky",
-        "My Body",
-        "eyes",
-        "hands"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "Cars move on roads. Airplanes fly in the sky.",
-      "readingText": "Cars move on roads. Airplanes fly in the sky.",
-      "audioText": "Cars move on roads. Airplanes fly in the sky."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "🌱",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "roads",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "roads",
-        "My Body",
-        "eyes",
-        "hands"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "Cars move on roads. Airplanes fly in the sky.",
-      "readingText": "Cars move on roads. Airplanes fly in the sky.",
-      "audioText": "Cars move on roads. Airplanes fly in the sky."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "🌿",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "sky",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "sky",
-        "My Body",
-        "eyes",
-        "hands"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "Cars move on roads. Airplanes fly in the sky.",
-      "readingText": "Cars move on roads. Airplanes fly in the sky.",
-      "audioText": "Cars move on roads. Airplanes fly in the sky."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "🐄",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Cars move on roads. Airplanes fly in the sky."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

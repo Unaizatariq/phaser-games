@@ -1,80 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 2,
   "topic": "Electricity Writing",
-  "teach": "Read the instruction and type the correct answer.",
-  "examples": [
-    "copper",
-    "rubber",
-    "bulb"
-  ],
   "questions": [
     {
-      "type": "input",
       "prompt": "Type one conductor material",
       "answer": "copper",
-      "expected": "copper",
-      "options": [],
+      "options": [
+        "copper",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one conductor material",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "copper": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one insulator material",
       "answer": "rubber",
-      "expected": "rubber",
-      "options": [],
+      "options": [
+        "rubber",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one insulator material",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "rubber": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one electrical component",
       "answer": "bulb",
-      "expected": "bulb",
-      "options": [],
+      "options": [
+        "bulb",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one electrical component",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "bulb": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one source of electricity",
       "answer": "battery",
-      "expected": "battery",
-      "options": [],
+      "options": [
+        "battery",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one source of electricity",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "battery": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
       "prompt": "Type one magnetic object",
       "answer": "iron nail",
-      "expected": "iron nail",
-      "options": [],
+      "options": [
+        "iron nail",
+        "living things",
+        "plants",
+        "animals"
+      ],
       "audioText": "Type one magnetic object",
-      "writingMode": "keyboard",
-      "checking": "text-match"
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "iron nail": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "writing",
-  "gameplayStyle": {
-    "nurseryKgTracing": false,
-    "grade1To5KeyboardInput": true,
-    "spellingCheck": true,
-    "grammarCorrectionMetadata": true,
-    "hints": true,
-    "feedbackSounds": [
-      "right.mp3",
-      "wrong.mp3",
-      "level-complete.mp3"
-    ]
-  }
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

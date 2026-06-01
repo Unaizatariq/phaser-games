@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 16,
   "topic": "Ordinal Numbers",
-  "teach": "First, second, and third are ordinal numbers.",
-  "examples": [
-    "First, second, and third are ordinal numbers.",
-    "Ordinal numbers show position.",
-    "Ali came first in the race."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Ordinal Numbers",
+      "prompt": "First, second, and third are ordinal numbers.",
+      "answer": "Ordinal",
       "options": [
-        "Ordinal Numbers",
-        "Counting Numbers",
-        "Numbers 1 to 100",
-        "Before, After, and Between"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "readingText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "audioText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      "audioText": "First, second, and third are ordinal numbers.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: First, second, and third are ordinal ____.",
-      "answer": "numbers",
+      "prompt": "Ordinal numbers show position.",
+      "answer": "Ordinal",
       "options": [
-        "numbers",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "readingText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "audioText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      "audioText": "Ordinal numbers show position.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ordinal numbers show ____.",
-      "answer": "position",
+      "prompt": "Ali came first in the race.",
+      "answer": "Ordinal",
       "options": [
-        "position",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "readingText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "audioText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      "audioText": "Ali came first in the race.",
+      "art": "📚",
+      "questionText": "According to the story about Ordinal Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Ali came first in the ____.",
-      "answer": "race",
+      "prompt": "Ordinal numbers are useful.",
+      "answer": "Ordinal",
       "options": [
-        "race",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "readingText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "audioText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      "audioText": "Ordinal numbers are useful.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "numbers",
+      "prompt": "What is the story mainly about?",
+      "answer": "Ordinal",
       "options": [
-        "numbers",
-        "Counting Numbers",
-        "things",
-        "books"
+        "Ordinal",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "readingText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful.",
-      "audioText": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Ordinal Numbers, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Ordinal": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "First, second, and third are ordinal numbers. Ordinal numbers show position. Ali came first in the race. Ordinal numbers are useful."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

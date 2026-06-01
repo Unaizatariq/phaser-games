@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 14,
   "topic": "Care of Computer",
-  "teach": "We should keep computers clean.",
-  "examples": [
-    "We should keep computers clean.",
-    "Do not touch the screen with dirty hands.",
-    "Computers should be used carefully."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Care of Computer",
+      "prompt": "We should keep computers clean.",
+      "answer": "Care",
       "options": [
-        "Care of Computer",
-        "What is a Computer?",
-        "Parts of a Computer",
-        "Monitor"
+        "Care",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "readingText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "audioText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      "audioText": "We should keep computers clean.",
+      "art": "📚",
+      "questionText": "According to the story about Care of Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Care": "🚗",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: We should keep computers ____.",
-      "answer": "clean",
+      "prompt": "Do not touch the screen with dirty hands.",
+      "answer": "Care",
       "options": [
-        "clean",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Care",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "readingText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "audioText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      "audioText": "Do not touch the screen with dirty hands.",
+      "art": "📚",
+      "questionText": "According to the story about Care of Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Care": "🚗",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Do not touch the screen with dirty ____.",
-      "answer": "hands",
+      "prompt": "Computers should be used carefully.",
+      "answer": "Care",
       "options": [
-        "hands",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Care",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "readingText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "audioText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      "audioText": "Computers should be used carefully.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Care": "🚗",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Computers ____ be used carefully.",
-      "answer": "should",
+      "prompt": "Proper care keeps computers safe.",
+      "answer": "Care",
       "options": [
-        "should",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Care",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "readingText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "audioText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      "audioText": "Proper care keeps computers safe.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Care": "🚗",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Proper care keeps computers ____.",
-      "answer": "safe",
+      "prompt": "What is the story mainly about?",
+      "answer": "Care",
       "options": [
-        "safe",
-        "What is a Computer?",
-        "machine",
-        "tasks"
+        "Care",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "readingText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe.",
-      "audioText": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Care of Computer, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Care": "🚗",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "We should keep computers clean. Do not touch the screen with dirty hands. Computers should be used carefully. Proper care keeps computers safe."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

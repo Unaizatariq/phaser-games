@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class3",
+  "gradeLabel": "Class 3",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 22,
-  "topic": "The Earth",
-  "teach": "Earth is our home planet.",
-  "examples": [
-    "Earth is our home planet.",
-    "It has land, water, and air.",
-    "Plants, animals, and humans live on Earth."
-  ],
+  "topic": "Parts of a Plant",
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "The Earth",
+      "prompt": "Plants have roots, stems, leaves, and flowers.",
+      "answer": "Parts",
       "options": [
-        "The Earth",
-        "Living and Non-Living Things",
-        "Parts of a Plant",
-        "Animals and Their Habitats"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Plants have roots, stems, leaves, and flowers.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Earth is our home ____.",
-      "answer": "planet",
+      "prompt": "Roots absorb water from the soil.",
+      "answer": "Parts",
       "options": [
-        "planet",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Roots absorb water from the soil.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: It has land, water, and ____.",
-      "answer": "air",
+      "prompt": "Leaves make food for the plant.",
+      "answer": "Parts",
       "options": [
-        "air",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Leaves make food for the plant.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Plants, animals, and humans live on ____.",
-      "answer": "Earth",
+      "prompt": "Flowers make fruits and seeds.",
+      "answer": "Parts",
       "options": [
-        "Earth",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "Flowers make fruits and seeds.",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "planet",
+      "prompt": "What is the story mainly about?",
+      "answer": "Parts",
       "options": [
-        "planet",
-        "Living and Non-Living Things",
-        "breathe",
-        "things"
+        "Parts",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "readingText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet.",
-      "audioText": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Parts of a Plant, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Parts": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Earth is our home planet. It has land, water, and air. Plants, animals, and humans live on Earth. We should protect our planet."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

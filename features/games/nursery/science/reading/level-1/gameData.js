@@ -1,88 +1,163 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "nursery",
+  "gradeLabel": "Nursery",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "reading",
   "level": 1,
   "topic": "Eyes",
-  "teach": "These are eyes.",
-  "examples": [
-    "These are eyes.",
-    "We see with eyes."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
+      "prompt": "These are eyes. We see with eyes.",
       "answer": "Eyes",
       "options": [
         "Eyes",
-        "Ears",
-        "Nose",
-        "Hands"
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are eyes. We see with eyes.",
-      "readingText": "These are eyes. We see with eyes.",
-      "audioText": "These are eyes. We see with eyes."
+      "audioText": "These are eyes. We see with eyes.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "sentenceOrder": [
+        "These are eyes.",
+        "We see with eyes."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Eyes": "👁️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "eyes",
+      "prompt": "What is the story mainly about?",
+      "answer": "Eyes",
       "options": [
-        "eyes",
-        "Ears",
-        "ears",
-        "Nose"
+        "Eyes",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "These are eyes. We see with eyes.",
-      "readingText": "These are eyes. We see with eyes.",
-      "audioText": "These are eyes. We see with eyes."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Eyes, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Eyes": "👁️",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "eyes",
+      "prompt": "Plants need sunlight, air, soil, and water to grow.",
+      "answer": "water",
       "options": [
-        "eyes",
-        "Ears",
-        "ears",
-        "Nose"
+        "water",
+        "toy",
+        "shoe",
+        "pencil"
       ],
-      "passage": "These are eyes. We see with eyes.",
-      "readingText": "These are eyes. We see with eyes.",
-      "audioText": "These are eyes. We see with eyes."
+      "audioText": "Plants need sunlight, air, soil, and water to grow.",
+      "art": "👁️",
+      "questionText": "What do plants need to grow?",
+      "sentenceOrder": [
+        "Plants need sunlight, air, soil, and water to grow."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "water": "💧",
+        "toy": "🔹",
+        "shoe": "🔹",
+        "pencil": "🔹"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "eyes",
+      "prompt": "Our eyes help us see things around us.",
+      "answer": "eye",
       "options": [
-        "eyes",
-        "Ears",
-        "ears",
-        "Nose"
+        "eye",
+        "ear",
+        "nose",
+        "hand"
       ],
-      "passage": "These are eyes. We see with eyes.",
-      "readingText": "These are eyes. We see with eyes.",
-      "audioText": "These are eyes. We see with eyes."
+      "audioText": "Our eyes help us see things around us.",
+      "art": "☀️",
+      "questionText": "Which body part helps us see?",
+      "sentenceOrder": [
+        "Our eyes help us see things around us."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "eye": "👁️",
+        "ear": "👂",
+        "nose": "👃",
+        "hand": "✋"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the word from the reading.",
-      "answer": "eyes",
+      "prompt": "Our ears help us hear sounds.",
+      "answer": "ear",
       "options": [
-        "eyes",
-        "Ears",
-        "ears",
-        "Nose"
+        "ear",
+        "eye",
+        "foot",
+        "nose"
       ],
-      "passage": "These are eyes. We see with eyes.",
-      "readingText": "These are eyes. We see with eyes.",
-      "audioText": "These are eyes. We see with eyes."
+      "audioText": "Our ears help us hear sounds.",
+      "art": "💧",
+      "questionText": "Which body part helps us hear?",
+      "sentenceOrder": [
+        "Our ears help us hear sounds."
+      ],
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "ear": "👂",
+        "eye": "👁️",
+        "foot": "🔹",
+        "nose": "👃"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "These are eyes. We see with eyes."
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

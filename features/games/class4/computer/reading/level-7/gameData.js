@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 7,
   "topic": "Word Processing",
-  "teach": "Word processors help people create documents.",
-  "examples": [
-    "Word processors help people create documents.",
-    "Students use word processors for assignments.",
-    "Text can be edited and formatted easily."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Word Processing",
+      "prompt": "Word processors help people create documents.",
+      "answer": "Word",
       "options": [
-        "Word Processing",
-        "Introduction to Computers",
-        "Generations of Computers",
-        "Hardware and Software"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "readingText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "audioText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      "audioText": "Word processors help people create documents.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word processors help people create ____.",
-      "answer": "documents",
+      "prompt": "Students use word processors for assignments.",
+      "answer": "Word",
       "options": [
-        "documents",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "readingText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "audioText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      "audioText": "Students use word processors for assignments.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Students use word processors for ____.",
-      "answer": "assignments",
+      "prompt": "Text can be edited and formatted easily.",
+      "answer": "Word",
       "options": [
-        "assignments",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "readingText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "audioText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      "audioText": "Text can be edited and formatted easily.",
+      "art": "📚",
+      "questionText": "According to the story about Word Processing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Text can be edited and formatted ____.",
-      "answer": "easily",
+      "prompt": "Microsoft Word is a popular word processor.",
+      "answer": "Word",
       "options": [
-        "easily",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "readingText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "audioText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      "audioText": "Microsoft Word is a popular word processor.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Microsoft Word is a popular word ____.",
-      "answer": "processor",
+      "prompt": "What is the story mainly about?",
+      "answer": "Word",
       "options": [
-        "processor",
-        "Introduction to Computers",
-        "purposes",
-        "accurately"
+        "Word",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "readingText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor.",
-      "audioText": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Word Processing, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Word": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Word processors help people create documents. Students use word processors for assignments. Text can be edited and formatted easily. Microsoft Word is a popular word processor."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };

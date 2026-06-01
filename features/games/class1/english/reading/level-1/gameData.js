@@ -1,17 +1,14 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class1",
+  "gradeLabel": "Class 1",
   "subject": "english",
+  "subjectLabel": "English",
   "skill": "reading",
   "level": 1,
   "topic": "My Family",
-  "teach": "Read the passage carefully and answer.",
-  "examples": [
-    "family"
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "Read the passage and choose the correct answer.",
+      "prompt": "I have a happy family.",
       "answer": "family",
       "options": [
         "family",
@@ -19,13 +16,26 @@ window.GAME_DATA = {
         "garden",
         "street"
       ],
-      "text": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "audioText": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+      "audioText": "I have a happy family.",
+      "art": "🏠",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is the main word in this lesson?",
+      "prompt": "My father goes to work every day.",
       "answer": "family",
       "options": [
         "family",
@@ -33,13 +43,26 @@ window.GAME_DATA = {
         "garden",
         "street"
       ],
-      "text": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "audioText": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+      "audioText": "My father goes to work every day.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the answer from the passage.",
+      "prompt": "My mother cooks tasty food for us.",
       "answer": "family",
       "options": [
         "family",
@@ -47,13 +70,26 @@ window.GAME_DATA = {
         "garden",
         "street"
       ],
-      "text": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "audioText": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+      "audioText": "My mother cooks tasty food for us.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "What is this lesson about?",
+      "prompt": "I play with my brother and sister in the evening.",
       "answer": "family",
       "options": [
         "family",
@@ -61,13 +97,26 @@ window.GAME_DATA = {
         "garden",
         "street"
       ],
-      "text": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "audioText": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+      "audioText": "I play with my brother and sister in the evening.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Listen, read, and answer.",
+      "prompt": "We love each other very much.",
       "answer": "family",
       "options": [
         "family",
@@ -75,13 +124,54 @@ window.GAME_DATA = {
         "garden",
         "street"
       ],
-      "text": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much.",
-      "audioText": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+      "audioText": "We love each other very much.",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
+    },
+    {
+      "prompt": "What is the story mainly about?",
+      "answer": "family",
+      "options": [
+        "family",
+        "market",
+        "garden",
+        "street"
+      ],
+      "audioText": "What is the story mainly about?",
+      "art": "🏠",
+      "questionText": "According to the story about My Family, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "family": "👨‍👩‍👧",
+        "market": "🔹",
+        "garden": "🔹",
+        "street": "🌳"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "I have a happy family. My father goes to work every day. My mother cooks tasty food for us. I play with my brother and sister in the evening. We love each other very much."
+  "theme": [
+    "#2f80ed",
+    "#e7f1ff"
+  ]
 };

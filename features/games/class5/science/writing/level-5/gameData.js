@@ -1,53 +1,110 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "science",
+  "subjectLabel": "Science",
   "skill": "writing",
   "level": 5,
-  "topic": "Ecosystems Energy Flow",
-  "teach": "Ecosystems Energy Flow helps children observe the world, ask questions and understand how living and non-living things work.",
-  "examples": [
-    "observe",
-    "learn",
-    "explain"
-  ],
+  "topic": "Microorganisms",
   "questions": [
     {
-      "type": "input",
-      "prompt": "Ecosystems Energy Flow belongs to which subject?",
-      "answer": "science",
-      "options": [],
-      "audioText": "Ecosystems Energy Flow belongs to which subject?"
+      "prompt": "Type one microorganism",
+      "answer": "bacteria",
+      "options": [
+        "bacteria",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one microorganism",
+      "art": "📚",
+      "questionText": "Which one is a living thing?",
+      "optionArts": {
+        "bacteria": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Science helps us understand",
-      "answer": "the world around us",
-      "options": [],
-      "audioText": "Write the answer: Science helps us understand"
+      "prompt": "Type one fungus",
+      "answer": "mushroom",
+      "options": [
+        "mushroom",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one fungus",
+      "art": "📚",
+      "questionText": "Which one is non-living?",
+      "optionArts": {
+        "mushroom": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: A good learner should",
-      "answer": "observe carefully",
-      "options": [],
-      "audioText": "Write the answer: A good learner should"
+      "prompt": "Type one bacteria",
+      "answer": "E. coli",
+      "options": [
+        "E. coli",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one bacteria",
+      "art": "📚",
+      "questionText": "What do plants need to grow?",
+      "optionArts": {
+        "E. coli": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: We use examples to",
-      "answer": "understand concepts",
-      "options": [],
-      "audioText": "Write the answer: We use examples to"
+      "prompt": "Type one virus",
+      "answer": "flu virus",
+      "options": [
+        "flu virus",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one virus",
+      "art": "📚",
+      "questionText": "Which body part helps us see?",
+      "optionArts": {
+        "flu virus": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     },
     {
-      "type": "input",
-      "prompt": "Write the answer: Choose the best habit.",
-      "answer": "ask and learn",
-      "options": [],
-      "audioText": "Write the answer: Choose the best habit."
+      "prompt": "Type one useful microorganism",
+      "answer": "yeast",
+      "options": [
+        "yeast",
+        "living things",
+        "plants",
+        "animals"
+      ],
+      "audioText": "Type one useful microorganism",
+      "art": "📚",
+      "questionText": "Which body part helps us hear?",
+      "optionArts": {
+        "yeast": "🔹",
+        "living things": "🌱",
+        "plants": "🌱",
+        "animals": "🐄"
+      }
     }
   ],
-  "lang": "en-US",
-  "rtl": false,
-  "mode": "writing"
+  "theme": [
+    "#7b61ff",
+    "#f0ecff"
+  ]
 };

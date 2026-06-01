@@ -1,89 +1,155 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class4",
+  "gradeLabel": "Class 4",
   "subject": "maths",
+  "subjectLabel": "Mathematics",
   "skill": "reading",
   "level": 19,
   "topic": "Problem Solving",
-  "teach": "Math problems improve thinking skills.",
-  "examples": [
-    "Math problems improve thinking skills.",
-    "Word problems use real-life situations.",
-    "Careful reading helps solve problems."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Problem Solving",
+      "prompt": "Math problems improve thinking skills.",
+      "answer": "Problem",
       "options": [
-        "Problem Solving",
-        "Whole Numbers",
-        "Factors and Multiples",
-        "Prime and Composite Numbers"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Math problems improve thinking skills.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Math problems improve thinking ____.",
-      "answer": "skills",
+      "prompt": "Word problems use real-life situations.",
+      "answer": "Problem",
       "options": [
-        "skills",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Word problems use real-life situations.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Word problems use real-life ____.",
-      "answer": "situations",
+      "prompt": "Careful reading helps solve problems.",
+      "answer": "Problem",
       "options": [
-        "situations",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Careful reading helps solve problems.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Careful reading helps solve ____.",
-      "answer": "problems",
+      "prompt": "Practice improves problem-solving ability.",
+      "answer": "Problem",
       "options": [
-        "problems",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "Practice improves problem-solving ability.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Practice improves problem-solving ____.",
-      "answer": "ability",
+      "prompt": "What is the story mainly about?",
+      "answer": "Problem",
       "options": [
-        "ability",
-        "Whole Numbers",
-        "zero",
-        "quantities"
+        "Problem",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "readingText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability.",
-      "audioText": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Problem Solving, choose the correct answer.",
+      "mathVisual": null,
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Problem": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Math problems improve thinking skills. Word problems use real-life situations. Careful reading helps solve problems. Practice improves problem-solving ability."
+  "theme": [
+    "#f28b24",
+    "#fff1df"
+  ]
 };

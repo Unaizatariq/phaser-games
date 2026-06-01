@@ -1,89 +1,150 @@
-window.GAME_DATA = {
+window.DIYAA_GAME_DATA = {
   "grade": "class5",
+  "gradeLabel": "Class 5",
   "subject": "computer",
+  "subjectLabel": "Computer",
   "skill": "reading",
   "level": 15,
   "topic": "Artificial Intelligence",
-  "teach": "Artificial intelligence helps machines think smartly.",
-  "examples": [
-    "Artificial intelligence helps machines think smartly.",
-    "AI is used in robots and mobile apps.",
-    "AI can answer questions and solve problems."
-  ],
   "questions": [
     {
-      "type": "mcq",
-      "prompt": "What is this reading about?",
-      "answer": "Artificial Intelligence",
+      "prompt": "Artificial intelligence helps machines think smartly.",
+      "answer": "Artificial",
       "options": [
-        "Artificial Intelligence",
-        "Computer Systems",
-        "History of Computers",
-        "Input and Output Devices"
+        "Artificial",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "readingText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "audioText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      "audioText": "Artificial intelligence helps machines think smartly.",
+      "art": "📚",
+      "questionText": "Which word is mentioned in this part of the story?",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Artificial": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Artificial intelligence helps machines think ____.",
-      "answer": "smartly",
+      "prompt": "AI is used in robots and mobile apps.",
+      "answer": "Artificial",
       "options": [
-        "smartly",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Artificial",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "readingText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "audioText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      "audioText": "AI is used in robots and mobile apps.",
+      "art": "📚",
+      "questionText": "According to the story about Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Artificial": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: AI is used in robots and mobile ____.",
-      "answer": "apps",
+      "prompt": "AI can answer questions and solve problems.",
+      "answer": "Artificial",
       "options": [
-        "apps",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Artificial",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "readingText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "audioText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      "audioText": "AI can answer questions and solve problems.",
+      "art": "📚",
+      "questionText": "According to the story about Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Artificial": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: AI can answer questions and solve ____.",
-      "answer": "problems",
+      "prompt": "Modern technology uses AI in many ways.",
+      "answer": "Artificial",
       "options": [
-        "problems",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Artificial",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "readingText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "audioText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      "audioText": "Modern technology uses AI in many ways.",
+      "art": "📚",
+      "questionText": "According to the story about Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Artificial": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     },
     {
-      "type": "mcq",
-      "prompt": "Complete the sentence: Modern technology uses AI in many ____.",
-      "answer": "ways",
+      "prompt": "What is the story mainly about?",
+      "answer": "Artificial",
       "options": [
-        "ways",
-        "Computer Systems",
-        "software",
-        "parts"
+        "Artificial",
+        "school",
+        "home",
+        "book"
       ],
-      "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "readingText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways.",
-      "audioText": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+      "audioText": "What is the story mainly about?",
+      "art": "📚",
+      "questionText": "According to the story about Artificial Intelligence, choose the correct answer.",
+      "activityTypes": [
+        "comprehension",
+        "sentence_order",
+        "true_false",
+        "fill_blank",
+        "match_picture",
+        "story_sequence"
+      ],
+      "optionArts": {
+        "Artificial": "🔹",
+        "school": "🏫",
+        "home": "🔹",
+        "book": "📘"
+      }
     }
   ],
-  "lang": "en-PK",
-  "rtl": false,
-  "mode": "reading",
-  "passage": "Artificial intelligence helps machines think smartly. AI is used in robots and mobile apps. AI can answer questions and solve problems. Modern technology uses AI in many ways."
+  "theme": [
+    "#00a6a6",
+    "#e4fbfb"
+  ]
 };
