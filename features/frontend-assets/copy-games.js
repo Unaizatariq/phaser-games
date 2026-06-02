@@ -75,33 +75,41 @@ const gameItems = fs.readdirSync(sourceGames);
 gameItems.forEach(item => {
   const itemPath = path.join(sourceGames, item);
   if (fs.lstatSync(itemPath).isDirectory()) {
-    copyFolderRecursiveSync(itemPath, path.join(targetPath, 'public'));
+    copyFolderRecursiveSync(itemPath, targetPublicGames);
   } else {
     fs.copyFileSync(itemPath, path.join(targetPublicGames, item));
   }
 });
 console.log(`   \x1b[32m✔ Games copied successfully!\x1b[0m`);
 
-// 2. Copy React components and catalog JSON to src/components/games (or src/components)
-const targetComponentsDir = path.join(targetPath, 'src', 'components');
-console.log(`\n2. Copying React Integration Components to target...`);
-console.log(`   Target Directory: ${targetComponentsDir}`);
+// 2. Copy React components and catalog JSON to appropriate subdirectories
+const targetGamesDir = path.join(targetPath, 'src', 'components', 'games');
+const targetGameDir = path.join(targetPath, 'src', 'components', 'game');
 
-fs.mkdirSync(targetComponentsDir, { recursive: true });
+console.log(`\n2. Copying React Integration Components to target...`);
+console.log(`   Games directory: ${targetGamesDir}`);
+console.log(`   Game directory: ${targetGameDir}`);
+
+fs.mkdirSync(targetGamesDir, { recursive: true });
+fs.mkdirSync(targetGameDir, { recursive: true });
 
 const filesToCopy = [
-  { src: 'games_catalog.json', dest: 'games_catalog.json' },
-  { src: 'GameIframe.tsx', dest: 'GameIframe.tsx' },
-  { src: 'GamesShowcase.tsx', dest: 'GamesShowcase.tsx' }
+  { src: 'games_catalog.json', destDir: targetGamesDir, destName: 'games_catalog.json', force: true },
+  { src: 'GameIframe.tsx', destDir: targetGameDir, destName: 'GameIframe.tsx', force: false },
+  { src: 'GamesShowcase.tsx', destDir: targetGamesDir, destName: 'GamesShowcase.tsx', force: false }
 ];
 
 filesToCopy.forEach(file => {
   const srcFilePath = path.join(__dirname, file.src);
-  const destFilePath = path.join(targetComponentsDir, file.dest);
+  const destFilePath = path.join(file.destDir, file.destName);
   
   if (fs.existsSync(srcFilePath)) {
-    fs.copyFileSync(srcFilePath, destFilePath);
-    console.log(`   \x1b[32m✔ Copied ${file.src} -> ${destFilePath}\x1b[0m`);
+    if (fs.existsSync(destFilePath) && !file.force) {
+      console.log(`   \x1b[33m⚠ Skipped copying ${file.src} -> ${file.destName} because it already exists in the frontend project (to avoid overwriting custom implementations).\x1b[0m`);
+    } else {
+      fs.copyFileSync(srcFilePath, destFilePath);
+      console.log(`   \x1b[32m✔ Copied ${file.src} -> ${destFilePath}\x1b[0m`);
+    }
   } else {
     console.warn(`   \x1b[33m⚠ Warning: Source file not found: ${srcFilePath}\x1b[0m`);
   }

@@ -1,0 +1,727 @@
+{
+  "nursery": {
+    "english": {
+      "reading": {
+        "level1": "A for Apple",
+        "level2": "B for Ball",
+        "level3": "C for Cat"
+      },
+      "writing": {
+        "level1": "Alphabet Tracing A-Z",
+        "level2": "Shape Tracing",
+        "level3": "Missing Alphabet Tracing"
+      },
+      "listening": {
+        "level1": "Alphabets A-Z",
+        "level2": "Colors",
+        "level3": "Fruits"
+      },
+      "speaking": {
+        "level1": "Speak Alphabets A-Z",
+        "level2": "Speak Simple Words",
+        "level3": "Speak Colors"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Counting 1 to 5",
+        "level2": "Big and Small",
+        "level3": "Shapes"
+      },
+      "writing": {
+        "level1": "Number Tracing 1-50",
+        "level2": "Shape Tracing",
+        "level3": "Operator Tracing"
+      },
+      "listening": {
+        "level1": "Counting 1-20",
+        "level2": "Shapes",
+        "level3": "Tall and Short"
+      },
+      "speaking": {
+        "level1": "Counting 1-50",
+        "level2": "Shape Recognition",
+        "level3": "Mental Maths"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "Eyes",
+        "level2": "Ears",
+        "level3": "Nose"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "ا سے سیب",
+        "level2": "ب سے گیند",
+        "level3": "پ سے پتنگ"
+      },
+      "writing": {
+        "level1": "مکمل حروفِ تہجی ٹریسنگ",
+        "level2": "نقطوں والے حروف",
+        "level3": "لائن اور پیٹرن ٹریسنگ"
+      },
+      "listening": {
+        "level1": "حروفِ تہجی",
+        "level2": "نقطوں والے حروف",
+        "level3": "پہلے اور بعد والے حروف"
+      },
+      "speaking": {
+        "level1": "حروف کی آواز اور ادائیگی",
+        "level2": "آسان الفاظ بولیں",
+        "level3": "تصویر دیکھ کر نام بولیں"
+      }
+    }
+  },
+  "kg": {
+    "english": {
+      "reading": {
+        "level1": "My Body",
+        "level2": "Colors Around Me",
+        "level3": "My Family"
+      },
+      "writing": {
+        "level1": "Capital Letter Tracing",
+        "level2": "Small Letter Tracing",
+        "level3": "Word Tracing"
+      },
+      "listening": {
+        "level1": "Phonics",
+        "level2": "Vocabulary",
+        "level3": "Listening Skills"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Counting 1 to 20",
+        "level2": "Addition",
+        "level3": "Subtraction"
+      },
+      "writing": {
+        "level1": "Number Writing",
+        "level2": "Missing Numbers",
+        "level3": "Basic Operators"
+      },
+      "listening": {
+        "level1": "Number Recognition",
+        "level2": "Sorting by Shape",
+        "level3": "Patterns"
+      },
+      "speaking": {
+        "level1": "Counting and Numbers",
+        "level2": "Operators",
+        "level3": "Fast Maths"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "My Body",
+        "level2": "Animals",
+        "level3": "Birds"
+      },
+      "writing": {
+        "level1": "Practice",
+        "level2": "Practice",
+        "level3": "Practice"
+      },
+      "listening": {
+        "level1": "living things",
+        "level2": "plants",
+        "level3": "animals"
+      },
+      "speaking": {
+        "level1": "Practice",
+        "level2": "Practice",
+        "level3": "Practice"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "میرا جسم",
+        "level2": "میرے ارد گرد رنگ",
+        "level3": "میرا خاندان"
+      },
+      "writing": {
+        "level1": "حروف لکھائی",
+        "level2": "لفظ مکمل کریں",
+        "level3": "تصویر دیکھ کر پہلا حرف"
+      },
+      "listening": {
+        "level1": "حرف اور آواز",
+        "level2": "آسان الفاظ",
+        "level3": "جانوروں کی آوازیں"
+      },
+      "speaking": {
+        "level1": "Practice",
+        "level2": "Practice",
+        "level3": "Practice"
+      }
+    }
+  },
+  "class1": {
+    "computer": {
+      "reading": {
+        "level1": "What is a Computer?",
+        "level2": "Parts of a Computer",
+        "level3": "Monitor"
+      },
+      "writing": {
+        "level1": "Computer Vocabulary Typing",
+        "level2": "Missing Letters",
+        "level3": "Device Recognition Writing"
+      },
+      "listening": {
+        "level1": "Introduction to Computer",
+        "level2": "Parts of Computer",
+        "level3": "Computer Handling"
+      },
+      "speaking": {
+        "level1": "Computer Vocabulary",
+        "level2": "Device Identification",
+        "level3": "Computer Rules Speaking"
+      }
+    },
+    "english": {
+      "reading": {
+        "level1": "My Family",
+        "level2": "My School",
+        "level3": "My Best Friend"
+      },
+      "writing": {
+        "level1": "Keyboard Typing",
+        "level2": "Missing Letters",
+        "level3": "Sentence Typing"
+      },
+      "listening": {
+        "level1": "Verbs",
+        "level2": "Pronouns",
+        "level3": "Opposites"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Counting Numbers",
+        "level2": "Numbers 1 to 100",
+        "level3": "Before, After, and Between"
+      },
+      "writing": {
+        "level1": "Addition Writing",
+        "level2": "Subtraction Writing",
+        "level3": "Number Words"
+      },
+      "listening": {
+        "level1": "Addition",
+        "level2": "Subtraction",
+        "level3": "Time"
+      },
+      "speaking": {
+        "level1": "Addition and Subtraction",
+        "level2": "Multiplication and Division",
+        "level3": "Mental Maths Challenge"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "My Body",
+        "level2": "Healthy Food",
+        "level3": "Cleanliness"
+      },
+      "writing": {
+        "level1": "Body Parts Writing",
+        "level2": "Living Things",
+        "level3": "Weather Writing"
+      },
+      "listening": {
+        "level1": "Body Parts",
+        "level2": "Living Things",
+        "level3": "Weather"
+      },
+      "speaking": {
+        "level1": "Speak Body Parts",
+        "level2": "Living Things Speaking",
+        "level3": "Image Identification"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "میرا خاندان",
+        "level2": "میرا اسکول",
+        "level3": "میرا بہترین دوست"
+      },
+      "writing": {
+        "level1": "لفظ ٹائپنگ",
+        "level2": "جملہ مکمل کریں",
+        "level3": "تصویر دیکھ کر لفظ"
+      },
+      "listening": {
+        "level1": "حروف اور الفاظ کی پہچان",
+        "level2": "افعال کی پہچان",
+        "level3": "احساسات"
+      },
+      "speaking": {
+        "level1": "الفاظ کی ادائیگی",
+        "level2": "حروف کی ترتیب",
+        "level3": "تصویر دیکھ کر لفظ بولیں"
+      }
+    }
+  },
+  "class2": {
+    "computer": {
+      "reading": {
+        "level1": "Introduction to Computers",
+        "level2": "Main Parts of a Computer",
+        "level3": "Input Devices"
+      },
+      "writing": {
+        "level1": "Keyboard Practice",
+        "level2": "Computer Actions",
+        "level3": "Fill in the Blanks"
+      },
+      "listening": {
+        "level1": "Computer Basics",
+        "level2": "Mouse Actions",
+        "level3": "Drawing Tools"
+      },
+      "speaking": {
+        "level1": "Parts of Computer",
+        "level2": "Mouse Actions",
+        "level3": "Image Identification"
+      }
+    },
+    "english": {
+      "reading": {
+        "level1": "The Park",
+        "level2": "Helping Others",
+        "level3": "My Pet Dog"
+      },
+      "writing": {
+        "level1": "Nouns and Verbs",
+        "level2": "Fill in the Blanks",
+        "level3": "Sentence Correction"
+      },
+      "listening": {
+        "level1": "Nouns",
+        "level2": "Articles",
+        "level3": "Sentence Making"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Numbers up to 1000",
+        "level2": "Place Value",
+        "level3": "Addition"
+      },
+      "writing": {
+        "level1": "Multiplication Writing",
+        "level2": "Division Writing",
+        "level3": "Mental Maths Writing"
+      },
+      "listening": {
+        "level1": "Place Value",
+        "level2": "Multiplication",
+        "level3": "Money"
+      },
+      "speaking": {
+        "level1": "Place Value",
+        "level2": "Operators Practice",
+        "level3": "Fast Answer Challenge"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "Living Things",
+        "level2": "Non-Living Things",
+        "level3": "Plants Around Us"
+      },
+      "writing": {
+        "level1": "Five Senses",
+        "level2": "Plants Writing",
+        "level3": "Materials"
+      },
+      "listening": {
+        "level1": "Five Senses",
+        "level2": "Plants",
+        "level3": "Materials"
+      },
+      "speaking": {
+        "level1": "Five Senses",
+        "level2": "Plants and Water",
+        "level3": "Image Identification"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "پارک",
+        "level2": "دوسروں کی مدد",
+        "level3": "میرا پالتو کتا"
+      },
+      "writing": {
+        "level1": "خالی جگہ پُر کریں",
+        "level2": "متضاد الفاظ",
+        "level3": "جمع لکھیں"
+      },
+      "listening": {
+        "level1": "اسم",
+        "level2": "صفت",
+        "level3": "واحد جمع"
+      },
+      "speaking": {
+        "level1": "متضاد الفاظ بولیں",
+        "level2": "واحد اور جمع",
+        "level3": "تصویر بیان کریں"
+      }
+    }
+  },
+  "class3": {
+    "computer": {
+      "reading": {
+        "level1": "Introduction to Computers",
+        "level2": "History of Computers",
+        "level3": "Parts of a Computer"
+      },
+      "writing": {
+        "level1": "Computer Uses",
+        "level2": "MS Paint Writing",
+        "level3": "Rearrange Words"
+      },
+      "listening": {
+        "level1": "Keyboard Keys",
+        "level2": "Uses of Computers",
+        "level3": "MS Paint"
+      },
+      "speaking": {
+        "level1": "Keyboard Keys",
+        "level2": "Uses of Computer",
+        "level3": "MS Paint Speaking"
+      }
+    },
+    "english": {
+      "reading": {
+        "level1": "A Visit to the Zoo",
+        "level2": "Importance of Cleanliness",
+        "level3": "My Favorite Teacher"
+      },
+      "writing": {
+        "level1": "Grammar Writing",
+        "level2": "Rearrange Sentence",
+        "level3": "Short Paragraph Writing"
+      },
+      "listening": {
+        "level1": "Adverbs",
+        "level2": "Prepositions",
+        "level3": "Synonyms"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Large Numbers",
+        "level2": "Place Value and Expanded Form",
+        "level3": "Addition and Subtraction"
+      },
+      "writing": {
+        "level1": "Fractions Writing",
+        "level2": "Measurement Writing",
+        "level3": "Equation Solving"
+      },
+      "listening": {
+        "level1": "Fractions",
+        "level2": "Measurement",
+        "level3": "Time and Calendar"
+      },
+      "speaking": {
+        "level1": "Fractions",
+        "level2": "Measurements",
+        "level3": "Mental Maths"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "Living and Non-Living Things",
+        "level2": "Parts of a Plant",
+        "level3": "Animals and Their Habitats"
+      },
+      "writing": {
+        "level1": "States of Matter",
+        "level2": "Animals",
+        "level3": "Environment Writing"
+      },
+      "listening": {
+        "level1": "States of Matter",
+        "level2": "Animals",
+        "level3": "Environment"
+      },
+      "speaking": {
+        "level1": "States of Matter",
+        "level2": "Animals",
+        "level3": "Image Identification"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "چڑیا گھر کی سیر",
+        "level2": "صفائی کی اہمیت",
+        "level3": "میری پسندیدہ استانی"
+      },
+      "writing": {
+        "level1": "جملہ درست کریں",
+        "level2": "سن کر لفظ لکھیں",
+        "level3": "اسم، فعل، صفت"
+      },
+      "listening": {
+        "level1": "متضاد الفاظ",
+        "level2": "جملہ سن کر جواب دیں",
+        "level3": "زمانہ"
+      },
+      "speaking": {
+        "level1": "اسم اور فعل",
+        "level2": "صفت کے ساتھ جملے",
+        "level3": "تصویر سے کہانی"
+      }
+    }
+  },
+  "class4": {
+    "computer": {
+      "reading": {
+        "level1": "Introduction to Computers",
+        "level2": "Generations of Computers",
+        "level3": "Hardware and Software"
+      },
+      "writing": {
+        "level1": "Input and Output Devices",
+        "level2": "Windows Basics",
+        "level3": "Programming Logic"
+      },
+      "listening": {
+        "level1": "Input and Output Devices",
+        "level2": "Windows Basics",
+        "level3": "Programming Logic"
+      },
+      "speaking": {
+        "level1": "Input and Output Devices",
+        "level2": "Windows Basics",
+        "level3": "Programming Logic"
+      }
+    },
+    "english": {
+      "reading": {
+        "level1": "The Solar System",
+        "level2": "Importance of Water",
+        "level3": "Teamwork"
+      },
+      "writing": {
+        "level1": "Tenses Writing",
+        "level2": "Paragraph Typing",
+        "level3": "Story Completion"
+      },
+      "listening": {
+        "level1": "Tenses",
+        "level2": "Subject and Predicate",
+        "level3": "Paragraph Listening"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Whole Numbers",
+        "level2": "Factors and Multiples",
+        "level3": "Prime and Composite Numbers"
+      },
+      "writing": {
+        "level1": "Decimal Writing",
+        "level2": "Geometry Writing",
+        "level3": "Rapid Maths Writing"
+      },
+      "listening": {
+        "level1": "Decimals",
+        "level2": "Geometry",
+        "level3": "Data Handling"
+      },
+      "speaking": {
+        "level1": "Decimals",
+        "level2": "Geometry",
+        "level3": "Rapid Maths"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "Cells and Living Things",
+        "level2": "Human Body Systems",
+        "level3": "Plants and Photosynthesis"
+      },
+      "writing": {
+        "level1": "Human Body",
+        "level2": "Energy Writing",
+        "level3": "Solar System"
+      },
+      "listening": {
+        "level1": "Human Body",
+        "level2": "Energy",
+        "level3": "Solar System"
+      },
+      "speaking": {
+        "level1": "Human Body Organs",
+        "level2": "Energy Speaking",
+        "level3": "Image Identification"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "نظام شمسی",
+        "level2": "پانی کی اہمیت",
+        "level3": "ٹیم ورک"
+      },
+      "writing": {
+        "level1": "الفاظ سے جملے",
+        "level2": "دو لائنیں لکھیں",
+        "level3": "تصویر دیکھ کر جملے"
+      },
+      "listening": {
+        "level1": "مترادف الفاظ",
+        "level2": "مرکزی خیال",
+        "level3": "درست جملہ"
+      },
+      "speaking": {
+        "level1": "روانی سے بولیں",
+        "level2": "تصویر کی وضاحت",
+        "level3": "اسم ،فعل ،صفت"
+      }
+    }
+  },
+  "class5": {
+    "computer": {
+      "reading": {
+        "level1": "Computer Systems",
+        "level2": "History of Computers",
+        "level3": "Input and Output Devices"
+      },
+      "writing": {
+        "level1": "MS Word and Excel",
+        "level2": "Cyber Safety",
+        "level3": "Advanced Computer Writing"
+      },
+      "listening": {
+        "level1": "MS Word",
+        "level2": "MS Excel",
+        "level3": "Cyber Safety"
+      },
+      "speaking": {
+        "level1": "MS Word and Excel",
+        "level2": "Cyber Safety",
+        "level3": "Advanced Computer Speaking"
+      }
+    },
+    "english": {
+      "reading": {
+        "level1": "The Water Cycle",
+        "level2": "Honesty",
+        "level3": "Pollution and Environment"
+      },
+      "writing": {
+        "level1": "Advanced Grammar",
+        "level2": "Essay Writing",
+        "level3": "Creative Writing"
+      },
+      "listening": {
+        "level1": "family",
+        "level2": "school",
+        "level3": "Advanced Grammar"
+      },
+      "speaking": {
+        "level1": "Vocabulary Speaking",
+        "level2": "Pronunciation Practice",
+        "level3": "Image Identification"
+      }
+    },
+    "maths": {
+      "reading": {
+        "level1": "Whole Numbers and Place Value",
+        "level2": "Factors and Multiples",
+        "level3": "Prime and Composite Numbers"
+      },
+      "writing": {
+        "level1": "Factors and Multiples",
+        "level2": "Advanced Operators",
+        "level3": "Fast Mental Maths"
+      },
+      "listening": {
+        "level1": "Factors and Multiples",
+        "level2": "Word Problems",
+        "level3": "Graphs and Charts"
+      },
+      "speaking": {
+        "level1": "Factors and Multiples",
+        "level2": "Advanced Operators",
+        "level3": "Fast Mental Maths"
+      }
+    },
+    "science": {
+      "reading": {
+        "level1": "Human Body Systems",
+        "level2": "Nutrition and Balanced Diet",
+        "level3": "Plants and Their Functions"
+      },
+      "writing": {
+        "level1": "Microorganisms",
+        "level2": "Electricity Writing",
+        "level3": "Earth and Space"
+      },
+      "listening": {
+        "level1": "Microorganisms",
+        "level2": "Electricity",
+        "level3": "Earth and Space"
+      },
+      "speaking": {
+        "level1": "Microorganisms",
+        "level2": "Electricity and Magnetism",
+        "level3": "Image Identification"
+      }
+    },
+    "urdu": {
+      "reading": {
+        "level1": "پانی کا چکر",
+        "level2": "ایمانداری",
+        "level3": "آلودگی اور ماحول"
+      },
+      "writing": {
+        "level1": "رموزِ اوقاف",
+        "level2": "مختصر پیراگراف",
+        "level3": "کہانی مکمل کریں"
+      },
+      "listening": {
+        "level1": "قواعد",
+        "level2": "سن کر سمجھنا",
+        "level3": "اعلیٰ جملے"
+      },
+      "speaking": {
+        "level1": "اعلی سطح کی گفتگو",
+        "level2": "کہانی سنائیں",
+        "level3": "تصویر سے مضمون"
+      }
+    }
+  }
+}

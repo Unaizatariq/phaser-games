@@ -5,7 +5,7 @@
     "subject": "english",
     "skill": "reading",
     "level": 1,
-    "topic": "A for Apple / B for Ball / C for Cat",
+    "topic": "A for Apple",
     "path": "games/nursery/english/reading/level-1/index.html"
   },
   {
@@ -14,7 +14,7 @@
     "subject": "english",
     "skill": "reading",
     "level": 2,
-    "topic": "D for Dog / E for Elephant / F for Fish",
+    "topic": "B for Ball",
     "path": "games/nursery/english/reading/level-2/index.html"
   },
   {
@@ -23,7 +23,7 @@
     "subject": "english",
     "skill": "reading",
     "level": 3,
-    "topic": "G for Goat / H for Hen / I for Ice Cream",
+    "topic": "C for Cat",
     "path": "games/nursery/english/reading/level-3/index.html"
   },
   {
@@ -599,7 +599,7 @@
     "subject": "science",
     "skill": "writing",
     "level": 1,
-    "topic": "My Body Parts",
+    "topic": "Practice",
     "path": "games/kg/science/writing/level-1/index.html"
   },
   {
@@ -608,7 +608,7 @@
     "subject": "science",
     "skill": "writing",
     "level": 2,
-    "topic": "Personal Hygiene",
+    "topic": "Practice",
     "path": "games/kg/science/writing/level-2/index.html"
   },
   {
@@ -617,7 +617,7 @@
     "subject": "science",
     "skill": "writing",
     "level": 3,
-    "topic": "Plants and Animals",
+    "topic": "Practice",
     "path": "games/kg/science/writing/level-3/index.html"
   },
   {
@@ -626,7 +626,7 @@
     "subject": "science",
     "skill": "listening",
     "level": 1,
-    "topic": "My Body Parts",
+    "topic": "living things",
     "path": "games/kg/science/listening/level-1/index.html"
   },
   {
@@ -635,7 +635,7 @@
     "subject": "science",
     "skill": "listening",
     "level": 2,
-    "topic": "Personal Hygiene",
+    "topic": "plants",
     "path": "games/kg/science/listening/level-2/index.html"
   },
   {
@@ -644,7 +644,7 @@
     "subject": "science",
     "skill": "listening",
     "level": 3,
-    "topic": "Plants and Animals",
+    "topic": "animals",
     "path": "games/kg/science/listening/level-3/index.html"
   },
   {
@@ -653,7 +653,7 @@
     "subject": "science",
     "skill": "speaking",
     "level": 1,
-    "topic": "My Body Parts",
+    "topic": "Practice",
     "path": "games/kg/science/speaking/level-1/index.html"
   },
   {
@@ -662,7 +662,7 @@
     "subject": "science",
     "skill": "speaking",
     "level": 2,
-    "topic": "Personal Hygiene",
+    "topic": "Practice",
     "path": "games/kg/science/speaking/level-2/index.html"
   },
   {
@@ -671,7 +671,7 @@
     "subject": "science",
     "skill": "speaking",
     "level": 3,
-    "topic": "Plants and Animals",
+    "topic": "Practice",
     "path": "games/kg/science/speaking/level-3/index.html"
   },
   {
@@ -761,7 +761,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 1,
-    "topic": "اردو حروف کی پہچان",
+    "topic": "Practice",
     "path": "games/kg/urdu/speaking/level-1/index.html"
   },
   {
@@ -770,7 +770,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 2,
-    "topic": "اردو آوازیں",
+    "topic": "Practice",
     "path": "games/kg/urdu/speaking/level-2/index.html"
   },
   {
@@ -779,7 +779,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 3,
-    "topic": "عام چیزوں کے نام",
+    "topic": "Practice",
     "path": "games/kg/urdu/speaking/level-3/index.html"
   },
   {
@@ -1319,7 +1319,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 3,
-    "topic": "ملتے جلتے حروف",
+    "topic": "تصویر دیکھ کر لفظ بولیں",
     "path": "games/class1/urdu/speaking/level-3/index.html"
   },
   {
@@ -1859,7 +1859,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 3,
-    "topic": "جھوٹی اشکال",
+    "topic": "تصویر بیان کریں",
     "path": "games/class2/urdu/speaking/level-3/index.html"
   },
   {
@@ -2399,7 +2399,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 3,
-    "topic": "جملے",
+    "topic": "تصویر سے کہانی",
     "path": "games/class3/urdu/speaking/level-3/index.html"
   },
   {
@@ -2930,7 +2930,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 2,
-    "topic": "جملے",
+    "topic": "تصویر کی وضاحت",
     "path": "games/class4/urdu/speaking/level-2/index.html"
   },
   {
@@ -3110,7 +3110,7 @@
     "subject": "english",
     "skill": "listening",
     "level": 1,
-    "topic": "Nouns",
+    "topic": "family",
     "path": "games/class5/english/listening/level-1/index.html"
   },
   {
@@ -3119,7 +3119,7 @@
     "subject": "english",
     "skill": "listening",
     "level": 2,
-    "topic": "Pronouns",
+    "topic": "school",
     "path": "games/class5/english/listening/level-2/index.html"
   },
   {
@@ -3479,7 +3479,7 @@
     "subject": "urdu",
     "skill": "speaking",
     "level": 3,
-    "topic": "اسم",
+    "topic": "تصویر سے مضمون",
     "path": "games/class5/urdu/speaking/level-3/index.html"
   }
 ]
